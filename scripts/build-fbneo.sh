@@ -278,6 +278,15 @@ EM_LDFLAGS="${EM_LDFLAGS:-\
 #                     the *.pl generators) — they must execute on the build host.
 #   BUILD_X86_ASM / FASTCALL  x86-only; disabled for the wasm target.
 #   RELEASEBUILD      drop -ggdb debug flags for a leaner build.
+# When this script is itself launched from a make recipe (e.g. `make
+# build-wasm-ci` in CI), make exports MAKELEVEL=1 into our environment. FBNeo's
+# makefile.sdl2 keys its multi-pass build on MAKELEVEL (1 = init+compile,
+# 2 = link), so the leaked value skips the init/compile pass and jumps straight
+# to the link-only pass — failing with "cannot open output file obj/..." because
+# `init` never created the obj directories. Reset it so the pass sequence starts
+# from the top regardless of how this script was invoked.
+unset MAKELEVEL
+
 echo "Running emmake (this is a long compile)..."
 emmake make sdl2 \
   HOST_CC="${HOST_CC:-cc}" HOST_CXX="${HOST_CXX:-c++}" \
