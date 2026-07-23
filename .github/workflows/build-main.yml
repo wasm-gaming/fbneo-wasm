@@ -66,7 +66,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: wasm-dist
-          path: dist
+          path: dist/fbneo
       - uses: actions/configure-pages@v5
         with:
           enablement: true
