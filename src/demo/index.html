@@ -10,17 +10,6 @@
          fbneo.css is loaded last so its :root token overrides win. -->
     <link rel="stylesheet" href="./demo.css" />
     <link rel="stylesheet" href="./fbneo.css" />
-
-    <!-- The vendored demo.js imports jq79 from a hard-coded CDN URL. Under the
-         preview server's COEP: require-corp, a cross-origin module import from
-         GitHub Pages (no CORP header) is blocked, so remap it to a local copy. -->
-    <script type="importmap">
-      {
-        "imports": {
-          "https://jgermade.github.io/jq79/jq79.js": "./vendor/jq79.js"
-        }
-      }
-    </script>
   </head>
   <body>
     <main></main>

@@ -92,14 +92,11 @@ body {
   display: none !important;
 }
 
-/* A bolder red/gold seam under the strongest scanline pass for extra CRT feel. */
-body::after {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 0.06) 50%,
-    rgba(0, 0, 0, 0.06)
-  );
-  background-size: 100% 3px;
+/* demo.css draws a full-viewport CRT scanline overlay (body::after, z-index
+   9999) that sits over EVERYTHING — including the emulator canvas, where it
+   just adds moiré on top of the game's own pixels. Keep the scanlines on the
+   launcher chrome, but switch them off while a game is running so the picture
+   is clean. (demo.js adds `.running` to <main> during play.) */
+body:has(main.running)::after {
+  display: none;
 }

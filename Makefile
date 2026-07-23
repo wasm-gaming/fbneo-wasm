@@ -31,7 +31,6 @@ build-demo: build-lib ## Assemble the themable engine-specs demo shell + NEOGEO 
 	rm -f dist/README.md
 	cp src/demo/index.html dist/index.html
 	cp src/demo/fbneo.css dist/fbneo.css
-	mkdir -p dist/vendor && cp src/demo/vendor/jq79.js dist/vendor/jq79.js
 
 build-wasm: ## Build FBNeo WASM artifacts via local Docker wrapper
 	bash scripts/build-fbneo-docker.sh
