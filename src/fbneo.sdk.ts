@@ -72,13 +72,15 @@ function driverFromFileName(fileName: string): string {
 }
 
 /**
- * Resolve the render canvas from the contract's `EngineConfig.canvas`.
- * `canvasEl`/`attachTo` are accepted as defensive fallbacks for hosts built
- * against other revisions of the contract.
+ * Resolve the render canvas from the contract's `EngineConfig`.
+ * The contract is a union: hosts pass either `canvasEl` (a render target) or
+ * `attachTo` (a container the SDK mounts its own canvas into). Legacy `canvas`
+ * is still accepted as a defensive fallback for hosts built against 0.1.x.
  */
 function resolveCanvas(config: EngineConfig): HTMLCanvasElement {
   const c =
-    config.canvas ?? (config as { canvasEl?: HTMLCanvasElement }).canvasEl;
+    (config as { canvasEl?: HTMLCanvasElement }).canvasEl ??
+    (config as { canvas?: HTMLCanvasElement }).canvas;
   if (c) return c;
 
   const attachTo = (config as { attachTo?: HTMLElement }).attachTo;
@@ -89,7 +91,7 @@ function resolveCanvas(config: EngineConfig): HTMLCanvasElement {
     attachTo.appendChild(created);
     return created;
   }
-  throw new Error('fbneo: config.canvas is required');
+  throw new Error('fbneo: config.canvasEl or config.attachTo is required');
 }
 
 /**
@@ -123,9 +125,19 @@ export async function load(config: EngineConfig): Promise<EngineInstance> {
     }
   };
 
+  // Generic hosts (e.g. the engine-specs demo shell) pass the picked file's name
+  // as `options.fileName`; treat it as an alias for `romFileName` so the driver
+  // can be inferred from the ROM's filename without a FBNeo-specific option.
+  const rawOptions = config.options as
+    | (FbneoOptions & { fileName?: string })
+    | undefined;
   const opts: Required<FbneoOptions> = {
     ...DEFAULT_FBNEO_OPTIONS,
-    ...(config.options as FbneoOptions | undefined),
+    ...rawOptions,
+    romFileName:
+      rawOptions?.romFileName ??
+      rawOptions?.fileName ??
+      DEFAULT_FBNEO_OPTIONS.romFileName,
   };
 
   const romBytes = toUint8(assets?.rom ?? assets?.data);

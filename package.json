@@ -35,7 +35,7 @@
     }
   },
   "devDependencies": {
-    "@wasm-gaming/engine-specs": "^0.1.0",
+    "@wasm-gaming/engine-specs": "^0.2.3",
     "typescript": "^5.5.0"
   },
   "engineContract": "https://github.com/wasm-gaming/engine-specs",

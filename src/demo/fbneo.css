@@ -1,0 +1,105 @@
+/*
+ * NEOGEO skin for the engine-specs demo template.
+ *
+ * The template is themed entirely through the CSS custom properties declared in
+ * demo.css :root. This file re-declares those tokens with a NEOGEO arcade
+ * palette (deep black cabinet, NEOGEO red, amber/gold trim) and adds a few
+ * structural touches. Loaded AFTER demo.css so these values win.
+ */
+
+:root {
+  /* Cabinet background — near-black with a charcoal gradient and red/gold haze */
+  --demo-bg-a: #141414;
+  --demo-bg-b: #000000;
+  --demo-bg-radial-1: rgba(224, 18, 26, 0.14);   /* NEOGEO red glow */
+  --demo-bg-radial-2: rgba(246, 185, 0, 0.10);    /* amber glow */
+
+  --demo-text: #f5f5f5;
+  --demo-muted: #9a9a9a;
+
+  /* Primary accent — NEOGEO red */
+  --demo-accent: #e0121a;
+  --demo-accent-rgb: 224, 18, 26;
+
+  /* Secondary accent — amber / gold trim */
+  --demo-accent2: #f6b900;
+  --demo-accent2-rgb: 246, 185, 0;
+
+  /* Glass panels — smoked black with a gold hairline */
+  --demo-panel-bg: rgba(18, 18, 18, 0.82);
+  --demo-panel-border: rgba(246, 185, 0, 0.35);
+  --demo-panel-shadow: inset 0 0 0 1px rgba(246, 185, 0, 0.12);
+  --demo-panel-radius: 6px;
+
+  --demo-subpanel-bg: rgba(28, 28, 28, 0.72);
+  --demo-subpanel-border: rgba(255, 255, 255, 0.08);
+  --demo-subpanel-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --demo-subpanel-radius: 4px;
+
+  /* Drop zone */
+  --demo-drop-bg: rgba(255, 255, 255, 0.03);
+  --demo-drop-border: rgba(246, 185, 0, 0.45);
+  --demo-drop-active-bg: rgba(224, 18, 26, 0.15);
+  --demo-drop-active-border: var(--demo-accent);
+  --demo-drop-active-shadow: inset 0 0 0 1px rgba(224, 18, 26, 0.6);
+
+  /* File picker buttons */
+  --demo-picker-bg: rgba(255, 255, 255, 0.06);
+  --demo-picker-hover-bg: rgba(246, 185, 0, 0.18);
+  --demo-picker-border: rgba(246, 185, 0, 0.4);
+  --demo-picker-hover-border: var(--demo-accent2);
+  --demo-picker-text: #f5f5f5;
+
+  /* Metadata pills — amber */
+  --demo-pill-bg: rgba(246, 185, 0, 0.12);
+  --demo-pill-border: var(--demo-accent2);
+  --demo-pill-text: var(--demo-accent2);
+  --demo-pill-shadow: inset 0 0 5px rgba(246, 185, 0, 0.25);
+
+  /* Canvas overlay */
+  --demo-file-info-bg: rgba(10, 10, 10, 0.78);
+  --demo-file-info-border: rgba(246, 185, 0, 0.35);
+
+  /* Type — no cross-origin webfonts (blocked by COEP anyway); use a strong,
+     condensed system stack that reads as arcade signage. */
+  --demo-font-sans: "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif;
+  --demo-font-mono: ui-monospace, "SFMono-Regular", "Menlo", monospace;
+}
+
+/* Give the whole shell an uppercase, wide-tracked arcade voice. */
+body {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Match FBNeo's native 4:3 output instead of the template's default 5:4, so
+   arcade games aren't horizontally stretched. */
+.runtime,
+.runtime canvas {
+  aspect-ratio: 4 / 3;
+}
+
+.runtime canvas {
+  width: min(100vw, calc(100vh * 4 / 3));
+  /* Crisp integer-scaled pixels — no blur on upscaled arcade art. */
+  image-rendering: pixelated;
+}
+
+/* The file-info panel (name/size/checksums) is mirrored to the console by the
+   boot script in index.html; keep it off the running game so it never covers
+   the picture. */
+.file-info {
+  display: none !important;
+}
+
+/* A bolder red/gold seam under the strongest scanline pass for extra CRT feel. */
+body::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.06) 50%,
+    rgba(0, 0, 0, 0.06)
+  );
+  background-size: 100% 3px;
+}

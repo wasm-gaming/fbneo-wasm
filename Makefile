@@ -23,9 +23,15 @@ build-lib: node_modules ## Compile SDK/options/manifest → dist/fbneo/
 build-manifest: build-lib ## Serialize typed manifest → dist/manifest.json
 	node scripts/emit-manifest.mjs
 
-build-demo: build-lib ## Compile demo shell
-	$(BIN)/tsc -p tsconfig.demo.json
+DEMO_SRC := node_modules/@wasm-gaming/engine-specs/demo
+
+build-demo: build-lib ## Assemble the themable engine-specs demo shell + NEOGEO skin
+	@rm -f dist/index.html dist/main.js
+	cp -R $(DEMO_SRC)/. dist/
+	rm -f dist/README.md
 	cp src/demo/index.html dist/index.html
+	cp src/demo/fbneo.css dist/fbneo.css
+	mkdir -p dist/vendor && cp src/demo/vendor/jq79.js dist/vendor/jq79.js
 
 build-wasm: ## Build FBNeo WASM artifacts via local Docker wrapper
 	bash scripts/build-fbneo-docker.sh
@@ -37,7 +43,6 @@ build-wasm-docker: build-wasm ## Alias: local Docker wrapper
 
 typecheck: build-lib
 	$(BIN)/tsc -p tsconfig.json --noEmit
-	$(BIN)/tsc -p tsconfig.demo.json --noEmit
 
 test: typecheck
 
