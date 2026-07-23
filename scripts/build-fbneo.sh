@@ -32,19 +32,32 @@ echo "Setting up workspace..."
 ensure_cmd git
 ensure_cmd emmake
 ensure_cmd emcc
-rm -rf "$WORK_DIR"
-mkdir -p "$WORK_DIR" "$TARGET_DIR"
+mkdir -p "$TARGET_DIR"
 
-echo "Cloning FBNeo ($FBNEO_REF)..."
-git clone --depth 1 --branch "$FBNEO_REF" "$FBNEO_REPO" "$WORK_DIR"
+# Dev fast-path: FBNEO_INCREMENTAL=1 reuses an already-cloned+patched+compiled
+# tree and only re-links (drop the final artifacts so make regenerates them with
+# any changed link flags). Off by default so CI always does a clean build.
+if [ "${FBNEO_INCREMENTAL:-}" = "1" ] && [ -f "$WORK_DIR/makefile.sdl2" ]; then
+  echo "Incremental build: reusing existing tree at $WORK_DIR"
+  cd "$WORK_DIR"
+  rm -f fbneo.js fbneo.wasm obj/drivers.o
+else
+  rm -rf "$WORK_DIR"
+  mkdir -p "$WORK_DIR"
 
-# The SDL2 burner is driven from the repo root makefile `makefile.sdl2`
-# (NAME=fbneo). There is no `src/burner/sdl/makefile.burn`.
-cd "$WORK_DIR"
-test -f makefile.sdl2 || {
-  echo "error: FBNeo makefile.sdl2 not found — upstream layout changed" >&2
-  exit 1
-}
+  echo "Cloning FBNeo ($FBNEO_REF)..."
+  git clone --depth 1 --branch "$FBNEO_REF" "$FBNEO_REPO" "$WORK_DIR"
+
+  # The SDL2 burner is driven from the repo root makefile `makefile.sdl2`
+  # (NAME=fbneo). There is no `src/burner/sdl/makefile.burn`.
+  cd "$WORK_DIR"
+  test -f makefile.sdl2 || {
+    echo "error: FBNeo makefile.sdl2 not found — upstream layout changed" >&2
+    exit 1
+  }
+fi
+
+if [ "${FBNEO_INCREMENTAL:-}" != "1" ] || ! grep -q 'CC = emcc' "$WORK_DIR/makefile.sdl2"; then
 
 # ---------------------------------------------------------------------------
 # Emscripten porting patches for makefile.sdl2
@@ -69,6 +82,172 @@ sed -i 's/-lGL //g; s/-lopengl32 //g; s/-lSDL2_image //g; s/-lpthread//g' makefi
 #    itself as `fbneo` — it also derives an object name, so overriding it breaks
 #    the compile with a spurious `fbneo.js.o` target.)
 sed -i 's/-o $@ $^ $(lib)/-o $@.js $^ $(lib)/g' makefile.sdl2
+# 5. emsdk's libc++ defines std::byte (C++17) as templates; FBNeo pulls <cstddef>
+#    in through an `extern "C"` block (the m68k core headers include driver.h),
+#    which clang rejects as "templates must have C++ linkage" (libstdc++ tolerates
+#    it, libc++ does not). Force <cstddef> to be included first — outside any
+#    extern "C" — so the later include hits its guard and is a no-op. Keeps C++17.
+sed -i 's/^CXXFLAGS = -O2/CXXFLAGS = -include cstddef -O2/' makefile.sdl2
+# 6. Emscripten's musl libc does not implement the MSVC `%hs` (narrow-string)
+#    printf specifier — it expands to nothing. FBNeo (a Windows-first codebase)
+#    uses `%hs` to build ROM archive paths in the SDL loader, so under emscripten
+#    the game name is silently dropped ("/usr/local/share/roms/.zip") and no ROM
+#    is ever found (every file reports "not found"). TCHAR is `char` in this
+#    build, so `%hs` is equivalent to `%s`; rewrite it across the SDL burner
+#    (ROM paths, config, savestates, screenshots).
+find src/burner/sdl -name '*.cpp' -exec sed -i 's/%hs/%s/g' {} +
+# 7. samples.cpp only compiles the dr_mp3 decoder implementation on Win32/libretro
+#    (`INCLUDE_FLACMP3_SUPPORT`), but msu1_backend.cpp (SNES MSU1) references
+#    drmp3_* unconditionally, so the link fails with undefined drmp3_* symbols.
+#    Enable the FLAC/MP3 implementation for the emscripten target too.
+sed -i 's/#if defined(BUILD_WIN32) || defined(__LIBRETRO__)/#if defined(BUILD_WIN32) || defined(__LIBRETRO__) || defined(__EMSCRIPTEN__)/' src/burn/snd/samples.cpp
+# 8. RunMessageLoop() is a blocking `while (!quit)` loop; in the browser it never
+#    returns control, so the tab hangs. With ASYNCIFY we yield each frame — and
+#    pace to FBNeo's exact driver refresh rate (nBurnFPS, frames*100) using the
+#    real-time clock (emscripten_get_now), so the emulation runs at native speed
+#    independent of the monitor's refresh rate (30/60/144Hz). Also, the SDL2 loop
+#    pauses the game on FOCUS_LOST — the canvas has no keyboard focus at boot, so
+#    the game would start stuck on "PAUSE"; skip that auto-pause under emscripten.
+python3 - <<'PYEOF'
+p = 'src/burner/sdl/run.cpp'
+s = open(p).read()
+if '#include <emscripten.h>' not in s:
+    s = s.replace('#include "burner.h"',
+                  '#include "burner.h"\n#ifdef __EMSCRIPTEN__\n#include <emscripten.h>\n#endif', 1)
+pace = (
+    '\t\tRunIdle();\n'
+    '#ifdef __EMSCRIPTEN__\n'
+    '\t\t{\n'
+    '\t\t\textern INT32 nBurnFPS;\n'
+    '\t\t\tstatic double nextFrameMs = 0.0;\n'
+    '\t\t\tdouble nowMs = emscripten_get_now();\n'
+    '\t\t\tdouble frameMs = (nBurnFPS > 0) ? (100000.0 / (double)nBurnFPS) : (1000.0 / 60.0);\n'
+    '\t\t\tif (nextFrameMs <= 0.0 || (nextFrameMs - nowMs) > 1000.0) nextFrameMs = nowMs;\n'
+    '\t\t\tnextFrameMs += frameMs;\n'
+    '\t\t\tdouble delayMs = nextFrameMs - nowMs;\n'
+    '\t\t\tif (delayMs < 0.0) { delayMs = 0.0; nextFrameMs = nowMs; }\n'
+    '\t\t\temscripten_sleep((unsigned)(delayMs + 0.5));\n'
+    '\t\t}\n'
+    '#endif\n\n\t}'
+)
+s = s.replace('\t\tRunIdle();\n\n\t}', pace, 1)
+s = s.replace(
+'''					case SDL_WINDOWEVENT_MINIMIZED:
+					case SDL_WINDOWEVENT_FOCUS_LOST:
+						pause_game();
+						break;''',
+'''					case SDL_WINDOWEVENT_MINIMIZED:
+					case SDL_WINDOWEVENT_FOCUS_LOST:
+#ifndef __EMSCRIPTEN__
+						pause_game();
+#endif
+						break;''', 1)
+# 9. GetTime() returns MICROSECONDS, but RunIdle()'s frame-pacing formula
+#    (nCount = nTime * nAppVirtualFps / 100000) expects MILLISECONDS. On native
+#    builds this path is dead (audio-sync drives timing), so the bug is dormant;
+#    in the browser the audio-sync path isn't used, so the game runs ~100x too
+#    fast (nCount saturates at the 100-frame cap). Return ms under emscripten.
+s = s.replace(
+    '\tticks = (now.tv_sec - start.tv_sec) * 1000000 + now.tv_usec - start.tv_usec;',
+    '#ifdef __EMSCRIPTEN__\n'
+    '\tticks = (now.tv_sec - start.tv_sec) * 1000 + (now.tv_usec - start.tv_usec) / 1000;\n'
+    '#else\n'
+    '\tticks = (now.tv_sec - start.tv_sec) * 1000000 + now.tv_usec - start.tv_usec;\n'
+    '#endif', 1)
+open(p, 'w').write(s)
+PYEOF
+
+# 10. Audio: the browser AudioContext is natively 32-bit float at (typically)
+#     48000Hz, but FBNeo requests S16/44100. SDL either (a) hands the callback an
+#     F32 buffer while our ring buffer is S16 — the play position then advances by
+#     F32-sized byte counts over an S16 buffer, ~2x too fast — or (b) with a forced
+#     S16 device the emscripten backend outputs silence. Fix: default the core to
+#     48000Hz and produce AUDIO_F32 directly, converting the S16 ring buffer to
+#     float in the callback and advancing the play position in S16 units. Then
+#     consumption matches production and the audio-driven frame pacer runs at the
+#     correct ~59.18fps, with real sound.
+python3 - <<'PYEOF2'
+# a) default core sample rate to 48000 under emscripten
+p = 'src/intf/audio/aud_interface.cpp'
+s = open(p).read()
+s = s.replace(
+    'INT32 nAudSampleRate[8] = { 44100, 44100, 22050, 22050, 22050, 22050, 22050, 22050 };',
+    '#ifdef __EMSCRIPTEN__\n'
+    'INT32 nAudSampleRate[8] = { 48000, 48000, 22050, 22050, 22050, 22050, 22050, 22050 };\n'
+    '#else\n'
+    'INT32 nAudSampleRate[8] = { 44100, 44100, 22050, 22050, 22050, 22050, 22050, 22050 };\n'
+    '#endif', 1)
+open(p, 'w').write(s)
+
+# b) request AUDIO_F32, open via SDL_OpenAudioDevice with allowed_changes=0 (so a
+#    non-48000 device is resampled by SDL to match the core), and convert the S16
+#    ring buffer -> float in the callback
+p = 'src/intf/audio/sdl/aud_sdl.cpp'
+s = open(p).read()
+s = s.replace(
+    'static int nAudLoopLen;',
+    'static int nAudLoopLen;\n#ifdef __EMSCRIPTEN__\nstatic SDL_AudioDeviceID nAudDevice = 0;\n#endif', 1)
+s = s.replace(
+    '''	if (SDL_OpenAudio(&audiospec_req, &audiospec))
+	{
+		fprintf(stderr, "Couldn't open audio: %s\\n", SDL_GetError());
+		return 1;
+	}''',
+    '''#ifdef __EMSCRIPTEN__
+	nAudDevice = SDL_OpenAudioDevice(NULL, 0, &audiospec_req, &audiospec, 0);
+	if (nAudDevice == 0)
+#else
+	if (SDL_OpenAudio(&audiospec_req, &audiospec))
+#endif
+	{
+		fprintf(stderr, "Couldn't open audio: %s\\n", SDL_GetError());
+		return 1;
+	}''', 1)
+s = s.replace('\tSDL_PauseAudio(0);',
+    '#ifdef __EMSCRIPTEN__\n\tSDL_PauseAudioDevice(nAudDevice, 0);\n#else\n\tSDL_PauseAudio(0);\n#endif', 1)
+s = s.replace('\tSDL_PauseAudio(1);',
+    '#ifdef __EMSCRIPTEN__\n\tSDL_PauseAudioDevice(nAudDevice, 1);\n#else\n\tSDL_PauseAudio(1);\n#endif', 1)
+s = s.replace('\tSDL_CloseAudio();',
+    '#ifdef __EMSCRIPTEN__\n\tif (nAudDevice) SDL_CloseAudioDevice(nAudDevice);\n#else\n\tSDL_CloseAudio();\n#endif', 1)
+s = s.replace(
+    '\taudiospec_req.format = AUDIO_S16;',
+    '#ifdef __EMSCRIPTEN__\n'
+    '\taudiospec_req.format = AUDIO_F32;   // Web Audio is natively 32-bit float\n'
+    '#else\n'
+    '\taudiospec_req.format = AUDIO_S16;\n'
+    '#endif', 1)
+s = s.replace(
+'''void audiospec_callback(void* /* data */, Uint8* stream, int len)
+{
+#ifdef BUILD_SDL2
+	SDL_memset(stream, 0, len);
+#endif
+	int end = nSDLPlayPos + len;''',
+'''void audiospec_callback(void* /* data */, Uint8* stream, int len)
+{
+#ifdef __EMSCRIPTEN__
+	// The browser AudioContext is 32-bit float; our ring buffer is S16. Convert
+	// on the fly and advance the (S16-indexed) play position by one short per
+	// output float, so consumption stays in sync with the S16 buffer -> the
+	// audio-driven frame pacer runs at the correct rate.
+	float* out = (float*)stream;
+	int nFloats = len / (int)sizeof(float);
+	float vol = (float)nSDLVolume / (float)SDL_MIX_MAXVOLUME;
+	for (int i = 0; i < nFloats; i++) {
+		if (nSDLPlayPos >= nAudLoopLen) nSDLPlayPos = 0;
+		short sm = *(short*)((Uint8*)SDLAudBuffer + nSDLPlayPos);
+		out[i] = (sm * (1.0f / 32768.0f)) * vol;
+		nSDLPlayPos += (int)sizeof(short);
+	}
+	return;
+#endif
+#ifdef BUILD_SDL2
+	SDL_memset(stream, 0, len);
+#endif
+	int end = nSDLPlayPos + len;''')
+open(p, 'w').write(s)
+PYEOF2
+fi  # end patch block (skipped when reusing an already-patched incremental tree)
 
 # Emscripten link flags: modularize under createFbneoModule, export FS/callMain so
 # the SDK can write ROM zips into MEMFS and boot a driver by name. LEGACY_GL_EMULATION
@@ -81,8 +260,8 @@ EM_LDFLAGS="${EM_LDFLAGS:-\
   -sFORCE_FILESYSTEM=1 \
   -sINVOKE_RUN=0 \
   -sEXIT_RUNTIME=0 \
-  -sALLOW_MEMORY_GROWTH=1 \
-  -sINITIAL_MEMORY=268435456 \
+  -sALLOW_MEMORY_GROWTH=0 \
+  -sINITIAL_MEMORY=536870912 \
   -sUSE_SDL=2 \
   -sUSE_SDL_IMAGE=2 \
   -sLEGACY_GL_EMULATION=1 \
@@ -102,7 +281,7 @@ EM_LDFLAGS="${EM_LDFLAGS:-\
 echo "Running emmake (this is a long compile)..."
 emmake make sdl2 \
   HOST_CC="${HOST_CC:-cc}" HOST_CXX="${HOST_CXX:-c++}" \
-  BUILD_X86_ASM= FASTCALL= RELEASEBUILD=1 \
+  BUILD_X86_ASM= FASTCALL= RELEASEBUILD=1 SKIPDEPEND=1 \
   LDFLAGS="$EM_LDFLAGS"
 
 # Locate the produced artifacts (upstream names the binary fbneo/fbarun; the

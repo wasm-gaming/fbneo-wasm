@@ -24,6 +24,7 @@ type FbneoModule = {
     mkdirTree(path: string): void;
     writeFile(path: string, data: Uint8Array): void;
     analyzePath(path: string): { exists: boolean };
+    readdir(path: string): string[];
   };
   callMain(args: string[]): void;
   pauseMainLoop?: () => void;
@@ -135,15 +136,19 @@ export async function load(config: EngineConfig): Promise<EngineInstance> {
 
   const canvas = prepareCanvas(resolveCanvas(config), opts.renderFilter);
 
-  // FBNeo identifies a game by the zip filename (without extension). Derive the
-  // driver from an explicit option, else the rom filename.
-  const romFileName =
-    opts.romFileName && opts.romFileName !== DEFAULT_FBNEO_OPTIONS.romFileName
-      ? opts.romFileName
-      : opts.driver
-        ? `${opts.driver}.zip`
-        : opts.romFileName;
-  const driver = opts.driver || driverFromFileName(romFileName);
+  // FBNeo boots a game by its ROM-set short name ("driver", e.g. "mslug") and
+  // searches its ROM paths for a matching `<driver>.zip`. Prefer an explicit
+  // `options.driver`; otherwise derive it from the ROM filename (stripping the
+  // extension). Whatever the source, the zip is mounted as `<driver>.zip` so the
+  // name FBNeo looks up and the name on disk always agree.
+  const driver = (opts.driver || driverFromFileName(opts.romFileName)).trim();
+  if (!driver || driver === 'game') {
+    throw new Error(
+      'fbneo: could not determine the ROM-set name. Pass options.driver (the FBNeo ' +
+        'short name, e.g. "mslug") or name the ROM file after it (e.g. mslug.zip).',
+    );
+  }
+  const romFileName = `${driver}.zip`;
 
   const jsUrl = config.jsUrl ?? new URL('./fbneo.js', import.meta.url).href;
   const wasmUrl = config.wasmUrl ?? new URL('./fbneo.wasm', jsUrl).href;
@@ -154,10 +159,18 @@ export async function load(config: EngineConfig): Promise<EngineInstance> {
     readyResolve = resolve;
   });
 
+  // FBNeo's default ROM search paths (src/burner/sdl/drv.cpp) are the absolute
+  // "/usr/local/share/roms/" and the cwd-relative "roms/". Under Emscripten the
+  // cwd is not guaranteed to be "/", so write to the absolute path (always
+  // searched) as well as "/roms/". FBNeo matches ROM files inside each zip by
+  // name/CRC, so the zip must be named after the driver.
+  const romDirs = ['/usr/local/share/roms', '/roms'];
   const writeRoms = (mod: FbneoModule): void => {
-    mod.FS.mkdirTree('/roms');
-    mod.FS.writeFile(`/roms/${romFileName}`, romBytes);
-    if (biosBytes) mod.FS.writeFile('/roms/neogeo.zip', biosBytes);
+    for (const dir of romDirs) {
+      mod.FS.mkdirTree(dir);
+      mod.FS.writeFile(`${dir}/${romFileName}`, romBytes);
+      if (biosBytes) mod.FS.writeFile(`${dir}/neogeo.zip`, biosBytes);
+    }
   };
 
   const moduleOverrides: Partial<FbneoModule> = {
@@ -167,16 +180,8 @@ export async function load(config: EngineConfig): Promise<EngineInstance> {
       if (path.endsWith('.wasm')) return wasmUrl;
       return new URL(path, jsUrl).href;
     },
-    onRuntimeInitialized() {
-      const mod = modRef ?? (globalThis as { Module?: FbneoModule }).Module ?? null;
-      if (!mod) return;
-      writeRoms(mod);
-      readyResolve();
-    },
   };
 
-  // Support both modularized factory and classic global-Module builds.
-  (globalThis as { Module?: Partial<FbneoModule> }).Module = moduleOverrides;
   await loadClassicScriptOnce(jsUrl);
 
   const g = globalThis as {
@@ -184,16 +189,19 @@ export async function load(config: EngineConfig): Promise<EngineInstance> {
     Module?: FbneoModule;
   };
 
+  // Our build is a MODULARIZE factory (createFbneoModule). The factory promise
+  // resolves *after* the runtime is initialized and FS is available, so this is
+  // the correct point to populate MEMFS — write the ROMs before callMain().
   if (typeof g.createFbneoModule === 'function') {
     modRef = await g.createFbneoModule(moduleOverrides);
-    // A modularized factory resolves after runtime init; ROMs may not be written yet.
-    if (!modRef.FS.analyzePath(`/roms/${romFileName}`).exists) writeRoms(modRef);
-    readyResolve();
   } else if (g.Module) {
     modRef = g.Module;
   } else {
     throw new Error('fbneo: unable to initialize runtime module from fbneo.js');
   }
+
+  writeRoms(modRef);
+  readyResolve();
 
   await readyPromise;
 
