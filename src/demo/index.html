@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FBNeo WASM — Demo</title>
+  <link rel="icon" href="data:," />
+  <style>
+    body { margin: 0; background: #000; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; color: #fff; font-family: monospace; gap: 1rem; }
+    /* IMPORTANT: no border/padding on the canvas itself — SDL2's Emscripten
+       backend measures the canvas with getBoundingClientRect() (which includes
+       borders) to detect external CSS sizing, and a border makes it create a
+       tiny window. Put decoration on a wrapper instead. */
+    #canvas-frame { border: 2px solid #444; font-size: 0; }
+    canvas { display: block; }
+    #controls { display: flex; flex-direction: column; gap: .5rem; align-items: center; }
+    .row { display: flex; gap: 1rem; align-items: center; }
+    button { padding: .5rem 1.5rem; background: #222; color: #fff; border: 1px solid #555; cursor: pointer; font-family: monospace; }
+    button:hover { background: #333; }
+    label { opacity: .7; font-size: 12px; }
+  </style>
+  <!-- Resolve the package specifier to the built SDK at runtime. -->
+  <script type="importmap">
+    { "imports": { "@wasm-gaming/fbneo-wasm": "./fbneo/fbneo.sdk.js" } }
+  </script>
+</head>
+<body>
+  <!-- FBNeo Emscripten SDL2 MUST find a canvas with id="canvas" -->
+  <div id="canvas-frame">
+    <canvas id="canvas" width="384" height="224"></canvas>
+  </div>
+  <div id="controls">
+    <div class="row"><label>ROM zip</label><input type="file" id="rom-picker" accept=".zip,.7z" /></div>
+    <div class="row"><label>BIOS (optional)</label><input type="file" id="bios-picker" accept=".zip" /></div>
+    <button id="btn-load">Load ROM</button>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

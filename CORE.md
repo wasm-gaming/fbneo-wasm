@@ -1,0 +1,64 @@
+# FBNeo Core Specifications
+
+Technical reference for the FinalBurn Neo core as wrapped by this repository.
+
+This document summarizes:
+- How ROM sets and BIOS files are supplied to the core
+- What is currently exposed by this TypeScript WASM wrapper
+- Notable upstream capabilities not yet mapped to typed SDK options
+
+## Source of truth
+
+Upstream FBNeo: <https://github.com/finalburnneo/FBNeo>. The SDL2 burner
+(`src/burner/sdl/`) is the target compiled to WebAssembly by
+`scripts/build-fbneo.sh`.
+
+## ROM identity & assets
+
+FBNeo identifies a game by the ROM **zip filename** (without extension) — the
+"driver" / ROM-set short name (e.g. `mslug`, `sf2`, `kof98`). The host supplies:
+
+| Asset key | Mount path | Required | Notes |
+|-----------|------------|----------|-------|
+| `rom` | `/roms/<romFileName>` | yes | The arcade ROM set zip. |
+| `bios` | `/roms/neogeo.zip` | no | System BIOS for sets that need it (Neo Geo, CPS-3, …). |
+
+The SDK writes these into Emscripten MEMFS before boot and launches FBNeo with
+the driver short name resolved from `options.driver` or the rom filename.
+
+## Wrapper exposure status (this package)
+
+Current typed options in `src/fbneo.options.ts`:
+
+- `romFileName?: string`
+- `driver?: string`
+- `renderFilter?: 'pixelated' | 'smooth'`
+- `audioSampleRate?: number`
+- `vsync?: boolean`
+- `integerScale?: boolean`
+- `windowScale?: number`
+
+Instance methods, per the engine-specs `EngineInstance` contract:
+
+- `start()` — boots the driver (`callMain([driver])`).
+- `pause()` / `resume()` — bridged to Emscripten `pauseMainLoop`/`resumeMainLoop`.
+- `reset()` — throws; FBNeo does not expose a soft-reset hook via this build.
+- `setInput()` — no-op; input flows through the SDL2 event loop.
+- `destroy()` — pauses the loop and emits `exit`.
+
+Capabilities advertised in the manifest: `{ saveStates: false, sram: false,
+coreSelectable: false }`. FBNeo *does* support save states and SRAM upstream;
+they are left off here until the WASM build exposes a verified API for them.
+
+## Potential future mappings
+
+- `saveState()` / `loadState()` once the FBNeo WASM build exports a state API
+  (bump `capabilities.saveStates`).
+- `sram` persistence via `persist: 'idbfs' | 'opfs'` and `purgeStorage()`.
+- Direct core config for `audioSampleRate`, `vsync`, `integerScale`, and
+  `windowScale` (currently wrapper/canvas-level intent, not all wired to core).
+- Per-driver video geometry (arcade resolutions vary); the manifest advertises a
+  neutral 384×224 4:3 default that the running driver overrides.
+
+Any mapping should specify whether it is wrapper-only behavior (CSS/runtime glue)
+or direct core behavior (passed to the FBNeo runtime).
