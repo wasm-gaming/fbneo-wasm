@@ -2,6 +2,10 @@
   "name": "@wasm-gaming/fbneo-wasm",
   "version": "0.1.0",
   "description": "FBNeo (FinalBurn Neo arcade emulator) compiled to WebAssembly via Emscripten, with a JS SDK conforming to the wasm-gaming engine contract.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasm-gaming/fbneo-wasm.git"
+  },
   "type": "module",
   "main": "./dist/fbneo/fbneo.sdk.js",
   "types": "./dist/fbneo/fbneo.sdk.d.ts",
