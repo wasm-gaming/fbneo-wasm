@@ -3,7 +3,7 @@ BIN := node_modules/.bin
 PORT ?= 8027
 
 .PHONY: build build-sdk build-lib build-manifest build-demo build-wasm build-wasm-ci build-wasm-docker \
-	preview typecheck test release-check i install clean help
+	romsets preview typecheck test release-check i install clean help
 
 i: install
 install: ## Install dev dependencies
@@ -16,6 +16,13 @@ node_modules: package.json
 build: build-wasm build-sdk ## Full build → dist/ (WASM first, then SDK/demo)
 
 build-sdk: build-lib build-manifest build-demo ## TypeScript + manifest + demo shell
+
+# The FBNeo checkout the WASM build clones into (see scripts/build-fbneo.sh).
+FBNEO_DRV ?= .tmp/fbneo-build/src/burn/drv
+
+romsets: ## Regenerate data/romsets/*.json from the FBNeo driver source ($(FBNEO_DRV))
+	@test -d "$(FBNEO_DRV)" || { echo "error: $(FBNEO_DRV) not found — run 'make build-wasm-ci' first, or set FBNEO_DRV=<fbneo>/src/burn/drv"; exit 1; }
+	node scripts/gen-romset-index.mjs --src "$(FBNEO_DRV)" --out data/romsets
 
 build-lib: node_modules ## Compile SDK/options/manifest → dist/fbneo/
 	$(BIN)/tsc -p tsconfig.json
@@ -31,6 +38,8 @@ build-demo: build-lib ## Assemble the themable engine-specs demo shell + NEOGEO 
 	rm -f dist/README.md
 	cp src/demo/index.html dist/index.html
 	cp src/demo/fbneo.css dist/fbneo.css
+	@# Ship the romset-identity dataset so hosts can fetch /romsets/<system>.json.
+	rm -rf dist/romsets && cp -R data/romsets dist/romsets
 
 build-wasm: ## Build FBNeo WASM artifacts via local Docker wrapper
 	bash scripts/build-fbneo-docker.sh

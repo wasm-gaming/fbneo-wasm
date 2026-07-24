@@ -19,7 +19,55 @@
          demo.js runs its top-level getSdk(). -->
     <script type="module">
       import sdk from "./fbneo/fbneo.sdk.js";
-      window.SDK = sdk;
+      import { RomsetIndex, resolveDriver } from "./fbneo/romset.js";
+
+      // Content-based ROM-set identification: a picked file may be named
+      // `mslug (1).zip` (browser-mangled), but FBNeo needs the driver short name
+      // `mslug`. Rather than trust the filename, recover the driver from the
+      // CRC-32s inside the zip. This NEOGEO demo lazy-loads the Neo Geo dataset;
+      // if the dropped set is identified, we override `options.driver`, otherwise
+      // we leave the SDK's filename inference untouched. See the `romset` export.
+      let indexPromise = null;
+      const getIndex = () =>
+        (indexPromise ??= fetch("./romsets/neogeo.json")
+          .then((r) => r.json())
+          .then((sys) => new RomsetIndex([sys])));
+
+      const toBytes = (rom) =>
+        rom instanceof Uint8Array
+          ? rom
+          : rom instanceof ArrayBuffer
+            ? new Uint8Array(rom)
+            : ArrayBuffer.isView(rom)
+              ? new Uint8Array(rom.buffer, rom.byteOffset, rom.byteLength)
+              : null;
+
+      // Hand the shell a thin wrapper whose load() resolves the driver by content
+      // first. demo.js is untouched — it just sees a normal SDK.
+      window.SDK = {
+        ...sdk,
+        async load(config) {
+          const bytes = toBytes(config?.assets?.rom);
+          if (bytes) {
+            try {
+              const match = resolveDriver(bytes, await getIndex());
+              if (match) {
+                console.log(
+                  `[fbneo] identified by content: ${match.driver} ` +
+                    `(${match.system}, ${match.matched}/${match.total} ROMs) — ` +
+                    `overriding filename-derived driver`,
+                );
+                config = { ...config, options: { ...config.options, driver: match.driver } };
+              } else {
+                console.log("[fbneo] no content match; using filename-derived driver");
+              }
+            } catch (err) {
+              console.warn("[fbneo] content identification skipped:", err);
+            }
+          }
+          return sdk.load(config);
+        },
+      };
 
       // The template renders a "file-info" panel (name/size/checksums) as an
       // overlay on the running game. fbneo.css hides that overlay; here we

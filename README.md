@@ -35,7 +35,36 @@ engine.start();
 FBNeo identifies a game by the ROM zip **filename** (without extension). Pass the
 game short name explicitly via `options.driver` (e.g. `"mslug"`, `"sf2"`,
 `"kof98"`), or let it be inferred from `options.romFileName` / the picked file's
-name.
+name. (The bytes are always written to MEMFS as `<driver>.zip`, so the source
+file itself never needs renaming — only its *name* has to resolve to a driver.)
+
+### Identifying a ROM set from its contents
+
+When the filename is unreliable (a browser-mangled `mslug (1).zip`) but the ROM
+files inside must keep their canonical names, recover the driver from the zip's
+**contents** with the opt-in `@wasm-gaming/fbneo-wasm/romset` helper. It matches
+the CRC-32s stored in the zip's central directory against a dataset of every
+FBNeo ROM set — the same identity FBNeo uses internally — so it is unaffected by
+re-compression, entry reordering, or split/merged packaging.
+
+```js
+import { RomsetIndex, resolveDriver } from '@wasm-gaming/fbneo-wasm/romset';
+
+// Load the dataset for the system(s) you support (per-system JSON, loaded on demand).
+const neogeo = await fetch('/romsets/neogeo.json').then((r) => r.json());
+const index = new RomsetIndex([neogeo]);
+
+const match = resolveDriver(romZipBytes, index); // { driver: 'mslug', coverage: 1, ... } | null
+const engine = await load({
+  canvas,
+  assets: { rom: romZipBytes },
+  options: { driver: match?.driver }, // fall back to your own logic when null
+});
+```
+
+The dataset ships as `data/romsets/<system>.json` (also served at `/romsets/…`
+from the built `dist/`); `data/romsets/index.json` lists the systems and game
+counts. Regenerate it from a pinned FBNeo checkout with `make romsets`.
 
 ### Options
 

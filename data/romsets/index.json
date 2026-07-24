@@ -1,0 +1,112 @@
+{
+  "systems": [
+    {
+      "system": "atari",
+      "games": 118
+    },
+    {
+      "system": "capcom",
+      "games": 848
+    },
+    {
+      "system": "cave",
+      "games": 115
+    },
+    {
+      "system": "channelf",
+      "games": 50
+    },
+    {
+      "system": "coleco",
+      "games": 656
+    },
+    {
+      "system": "cps3",
+      "games": 60
+    },
+    {
+      "system": "dataeast",
+      "games": 338
+    },
+    {
+      "system": "galaxian",
+      "games": 298
+    },
+    {
+      "system": "irem",
+      "games": 199
+    },
+    {
+      "system": "konami",
+      "games": 411
+    },
+    {
+      "system": "megadrive",
+      "games": 2911
+    },
+    {
+      "system": "midway",
+      "games": 140
+    },
+    {
+      "system": "msx",
+      "games": 1798
+    },
+    {
+      "system": "neogeo",
+      "games": 686
+    },
+    {
+      "system": "nes",
+      "games": 3153
+    },
+    {
+      "system": "pce",
+      "games": 488
+    },
+    {
+      "system": "pgm",
+      "games": 200
+    },
+    {
+      "system": "pgm2",
+      "games": 8
+    },
+    {
+      "system": "pre90s",
+      "games": 2071
+    },
+    {
+      "system": "psikyo",
+      "games": 40
+    },
+    {
+      "system": "pst90s",
+      "games": 1597
+    },
+    {
+      "system": "sega",
+      "games": 665
+    },
+    {
+      "system": "sg1000",
+      "games": 255
+    },
+    {
+      "system": "sms",
+      "games": 1504
+    },
+    {
+      "system": "snes",
+      "games": 2625
+    },
+    {
+      "system": "taito",
+      "games": 624
+    },
+    {
+      "system": "toaplan",
+      "games": 144
+    }
+  ]
+}
