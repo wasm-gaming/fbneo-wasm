@@ -66,6 +66,31 @@ The dataset ships as `data/romsets/<system>.json` (also served at `/romsets/…`
 from the built `dist/`); `data/romsets/index.json` lists the systems and game
 counts. Regenerate it from a pinned FBNeo checkout with `make romsets`.
 
+Because the match is by CRC-32 — and FBNeo itself looks ROM chips up by CRC
+before falling back to their names — a set is usually accepted as downloaded:
+extra files, subdirectories, and non-canonical chip filenames inside the zip do
+not matter. Only the zip's *name* has to resolve to a driver, which is exactly
+what this helper supplies.
+
+### Neo Geo `.neo` files (NeoSD / Terraonion)
+
+FBNeo reads `.zip` and `.7z` ROM sets only. A `.neo` — the single-file format for
+NeoSD/Terraonion flash carts, and how most Neo Geo homebrew is distributed — is a
+4 KiB header followed by each ROM region as one contiguous blob (with the sprite
+region byte-interleaved as the cartridge wires it), so it cannot be handed to the
+engine as-is. Convert it to a bootable ROM set first:
+
+```sh
+node scripts/neo2romset.mjs mygame.neo --out ./roms
+```
+
+It identifies the driver by matching the `.neo`'s region sizes against FBNeo's own
+chip tables, rebuilds the individual chip dumps (de-interleaving sprites, undoing
+the `HARDWARE_SNK_SWAPP` program-ROM swap), and CRC-verifies every chip before
+writing `<driver>.zip` — so it fails loudly rather than emitting a broken set. It
+reads the chip tables from a FBNeo checkout (`.tmp/fbneo-build/…` by default, as
+left by `make build-wasm-ci`; override with `--src`).
+
 ### Options
 
 | Option | Default | Description |

@@ -42,7 +42,7 @@
     },
     {
       "system": "megadrive",
-      "games": 2911
+      "games": 2925
     },
     {
       "system": "midway",
@@ -54,7 +54,7 @@
     },
     {
       "system": "neogeo",
-      "games": 686
+      "games": 687
     },
     {
       "system": "nes",
@@ -99,6 +99,10 @@
     {
       "system": "snes",
       "games": 2625
+    },
+    {
+      "system": "spectrum",
+      "games": 3350
     },
     {
       "system": "taito",

@@ -35,6 +35,16 @@ reads each entry's CRC-32 from the zip central directory and matches it against
 `scripts/gen-romset-index.mjs` from FBNeo's `BurnRomInfo` driver tables (`make
 romsets`), so it stays in lockstep with the compiled core's ROM identity.
 
+Inside the archive, FBNeo looks each chip up by CRC-32 first and only falls back
+to filenames (`src/burner/sdl/bzip.cpp`, `FindRom`), so entry names, added files,
+and subdirectories inside the zip are irrelevant — the archive just has to *be* a
+zip/7z named after the driver.
+
+Container formats other than zip/7z are not supported by the core. Neo Geo `.neo`
+files (NeoSD/Terraonion flash carts) carry the same ROM data in one blob per
+region; `scripts/neo2romset.mjs` rebuilds the chip split FBNeo expects and
+CRC-verifies it against the driver tables.
+
 ## Wrapper exposure status (this package)
 
 Current typed options in `src/fbneo.options.ts`:

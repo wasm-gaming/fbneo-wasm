@@ -76,10 +76,14 @@ function parseRomTables(text) {
   return tables;
 }
 
-// A driver: struct BurnDriver[BS|D...]? BurnDrv<X> = { "name", parent, "bios", ... };
+// A driver: struct BurnDriver[BS|D...]? <symbol> = { "name", parent, "bios", ... };
 // Field 1 is the short name, field 2 is the clone parent (NULL or "parent"), and
 // somewhere in the body it references its ROM table as `<base>RomInfo`.
-const DRIVER_HEAD = /struct\s+BurnDriver\w*\s+BurnDrv\w+\s*=\s*\{/g;
+// The C symbol is conventionally `BurnDrv<X>`, but FBNeo is not consistent about
+// it — the ZX Spectrum drivers are `BurnSpec<X>`, the Megadrive has `Burnmd_<X>`,
+// and one-off homebrew entries use the bare set name (`midnight`) — so match any
+// symbol and let the `= {` + `"name", parent,` shape do the filtering.
+const DRIVER_HEAD = /struct\s+BurnDriver\w*\s+\w+\s*=\s*\{/g;
 
 function parseDrivers(text) {
   const drivers = [];
@@ -119,12 +123,15 @@ function buildFromText(text) {
   return games;
 }
 
-function collectDriverFiles(dir, acc = []) {
+// A system is a subdirectory of `src/burn/drv`. Driver files sitting at the root
+// (only `d_parent.cpp`, "a module for keeping parents who have no driver") would
+// otherwise be emitted as a bogus `drv` system of sets that cannot be booted.
+function collectDriverFiles(dir, acc = [], depth = 0) {
   for (const entry of readdirSync(dir)) {
     const p = join(dir, entry);
     const st = statSync(p);
-    if (st.isDirectory()) collectDriverFiles(p, acc);
-    else if (/^d_.*\.cpp$/.test(entry)) acc.push(p);
+    if (st.isDirectory()) collectDriverFiles(p, acc, depth + 1);
+    else if (depth > 0 && /^d_.*\.cpp$/.test(entry)) acc.push(p);
   }
   return acc;
 }
@@ -159,7 +166,7 @@ function main() {
     if (!count) continue;
     totalGames += count;
     const payload = { system, games };
-    writeFileSync(join(args.out, `${system}.json`), JSON.stringify(payload));
+    writeFileSync(join(args.out, `${system}.json`), JSON.stringify(payload, null, 2));
     manifest.push({ system, games: count });
     console.error(`  ${system}: ${count} games`);
   }
