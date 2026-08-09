@@ -66,6 +66,11 @@ The dataset ships as `data/romsets/<system>.json` (also served at `/romsets/…`
 from the built `dist/`); `data/romsets/index.json` lists the systems and game
 counts. Regenerate it from a pinned FBNeo checkout with `make romsets`.
 
+Each ROM entry carries its internal name (`n`) and CRC-32 (`c`). `neogeo.json`
+additionally carries each chip's size (`s`) and hardware region (`r`) — the chip
+*layout* — which is what lets the `neo` helper below rebuild a ROM set from a
+flash-cart image.
+
 Because the match is by CRC-32 — and FBNeo itself looks ROM chips up by CRC
 before falling back to their names — a set is usually accepted as downloaded:
 extra files, subdirectories, and non-canonical chip filenames inside the zip do
@@ -78,18 +83,36 @@ FBNeo reads `.zip` and `.7z` ROM sets only. A `.neo` — the single-file format 
 NeoSD/Terraonion flash carts, and how most Neo Geo homebrew is distributed — is a
 4 KiB header followed by each ROM region as one contiguous blob (with the sprite
 region byte-interleaved as the cartridge wires it), so it cannot be handed to the
-engine as-is. Convert it to a bootable ROM set first:
+engine as-is. The opt-in `@wasm-gaming/fbneo-wasm/neo` helper rebuilds the chip
+split FBNeo expects, in the browser and with no dependencies:
 
-```sh
-node scripts/neo2romset.mjs mygame.neo --out ./roms
+```js
+import { isNeoFile, neoToRomset } from '@wasm-gaming/fbneo-wasm/neo';
+
+const neogeo = await fetch('/romsets/neogeo.json').then((r) => r.json());
+
+if (isNeoFile(bytes)) {
+  const { driver, zip } = neoToRomset(bytes, neogeo); // throws if it cannot be rebuilt
+  await load({ canvas, assets: { rom: zip }, options: { driver } });
+}
 ```
 
-It identifies the driver by matching the `.neo`'s region sizes against FBNeo's own
-chip tables, rebuilds the individual chip dumps (de-interleaving sprites, undoing
-the `HARDWARE_SNK_SWAPP` program-ROM swap), and CRC-verifies every chip before
-writing `<driver>.zip` — so it fails loudly rather than emitting a broken set. It
-reads the chip tables from a FBNeo checkout (`.tmp/fbneo-build/…` by default, as
-left by `make build-wasm-ci`; override with `--src`).
+It identifies the driver by matching the `.neo`'s region sizes against the chip
+layouts in `data/romsets/neogeo.json`, rebuilds the individual chip dumps
+(de-interleaving sprites, undoing the `HARDWARE_SNK_SWAPP` program-ROM swap), and
+CRC-32 verifies every chip before returning — so it throws loudly rather than
+handing the engine a broken set. The zip it returns is *stored*, not deflated:
+FBNeo decompresses each chip immediately, so compressing would only be undone.
+
+The same conversion is available offline, which is handy for preparing a set once
+rather than on every page load:
+
+```sh
+node scripts/neo2romset.mjs mygame.neo --out ./roms   # needs `make build-lib`
+```
+
+Sets whose program ROM lives inside the SMA custom chip cannot be reproduced by a
+straight carve; those fail CRC verification and are reported rather than written.
 
 ### Options
 

@@ -35,6 +35,12 @@ reads each entry's CRC-32 from the zip central directory and matches it against
 `scripts/gen-romset-index.mjs` from FBNeo's `BurnRomInfo` driver tables (`make
 romsets`), so it stays in lockstep with the compiled core's ROM identity.
 
+Systems listed in that script's `LAYOUT_SYSTEMS` (currently `neogeo`) also record
+each ROM's size (`s`) and hardware region (`r`), describing the *chip layout* of a
+set rather than just its identity. Layout rows include undumped chips (CRC
+`00000000`), which the layout needs to keep chip boundaries aligned but which
+`RomsetIndex.rank()` excludes from identity scoring, since nothing can match them.
+
 Inside the archive, FBNeo looks each chip up by CRC-32 first and only falls back
 to filenames (`src/burner/sdl/bzip.cpp`, `FindRom`), so entry names, added files,
 and subdirectories inside the zip are irrelevant — the archive just has to *be* a
@@ -42,8 +48,17 @@ zip/7z named after the driver.
 
 Container formats other than zip/7z are not supported by the core. Neo Geo `.neo`
 files (NeoSD/Terraonion flash carts) carry the same ROM data in one blob per
-region; `scripts/neo2romset.mjs` rebuilds the chip split FBNeo expects and
-CRC-verifies it against the driver tables.
+region; the opt-in `@wasm-gaming/fbneo-wasm/neo` helper (`src/neo.ts`) rebuilds
+the chip split FBNeo expects — de-interleaving the C region, undoing the
+`HARDWARE_SNK_SWAPP` program-ROM swap — and CRC-32 verifies every carved chip
+against the driver tables before returning a `<driver>.zip` to mount as
+`assets.rom`. It runs in the browser off the layout dataset above;
+`scripts/neo2romset.mjs` is a CLI over the same code.
+
+The zip it produces stores its entries uncompressed (method 0). FBNeo decompresses
+each chip into its ROM buffer immediately, so deflating would only be undone a
+moment later — storing keeps the conversion synchronous (no `CompressionStream`)
+at the cost of transient memory roughly equal to the `.neo` itself.
 
 ## Wrapper exposure status (this package)
 

@@ -22,6 +22,10 @@
       "types": "./dist/fbneo/romset.d.ts",
       "import": "./dist/fbneo/romset.js"
     },
+    "./neo": {
+      "types": "./dist/fbneo/neo.d.ts",
+      "import": "./dist/fbneo/neo.js"
+    },
     "./romsets/*": "./data/romsets/*",
     "./manifest": "./dist/manifest.json"
   },
@@ -33,6 +37,7 @@
     "src/fbneo.options.ts",
     "src/fbneo.sdk.ts",
     "src/romset.ts",
+    "src/neo.ts",
     "README.md"
   ],
   "comment:scripts": "Build logic lives in the Makefile, not here (make build / build-sdk / build-wasm / preview).",

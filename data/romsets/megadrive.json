@@ -26347,24 +26347,6 @@
           "c": "bf9ba3bc"
         }
       ]
-    },
-    "md_spritemask": {
-      "parent": null,
-      "roms": [
-        {
-          "n": "SpriteMaskingTestRom.bin",
-          "c": "6986aa96"
-        }
-      ]
-    },
-    "md_testinstspeed": {
-      "parent": null,
-      "roms": [
-        {
-          "n": "test_inst_speed.bin",
-          "c": "093f3d29"
-        }
-      ]
     }
   }
 }

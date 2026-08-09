@@ -42,7 +42,7 @@
     },
     {
       "system": "megadrive",
-      "games": 2925
+      "games": 2923
     },
     {
       "system": "midway",
@@ -54,11 +54,11 @@
     },
     {
       "system": "neogeo",
-      "games": 687
+      "games": 682
     },
     {
       "system": "nes",
-      "games": 3153
+      "games": 3144
     },
     {
       "system": "pce",
@@ -66,7 +66,7 @@
     },
     {
       "system": "pgm",
-      "games": 200
+      "games": 199
     },
     {
       "system": "pgm2",
@@ -74,7 +74,7 @@
     },
     {
       "system": "pre90s",
-      "games": 2071
+      "games": 2074
     },
     {
       "system": "psikyo",
@@ -86,7 +86,7 @@
     },
     {
       "system": "sega",
-      "games": 665
+      "games": 658
     },
     {
       "system": "sg1000",
@@ -94,7 +94,7 @@
     },
     {
       "system": "sms",
-      "games": 1504
+      "games": 1503
     },
     {
       "system": "snes",

@@ -13527,15 +13527,6 @@
           "c": "70846349"
         }
       ]
-    },
-    "sms_sn_ateam": {
-      "parent": null,
-      "roms": [
-        {
-          "n": "a-team music [proto].bin",
-          "c": "0eb430ff"
-        }
-      ]
     }
   }
 }

@@ -20,6 +20,7 @@
     <script type="module">
       import sdk from "./fbneo/fbneo.sdk.js";
       import { RomsetIndex, resolveDriver } from "./fbneo/romset.js";
+      import { isNeoFile, neoToRomset } from "./fbneo/neo.js";
 
       // Content-based ROM-set identification: a picked file may be named
       // `mslug (1).zip` (browser-mangled), but FBNeo needs the driver short name
@@ -27,11 +28,15 @@
       // CRC-32s inside the zip. This NEOGEO demo lazy-loads the Neo Geo dataset;
       // if the dropped set is identified, we override `options.driver`, otherwise
       // we leave the SDK's filename inference untouched. See the `romset` export.
-      let indexPromise = null;
-      const getIndex = () =>
-        (indexPromise ??= fetch("./romsets/neogeo.json")
+      //
+      // The same dataset also carries each chip's size and region, which is what
+      // lets a `.neo` flash-cart image be rebuilt into a bootable ROM set in the
+      // browser. See the `neo` export.
+      let datasetPromise = null;
+      const getDataset = () =>
+        (datasetPromise ??= fetch("./romsets/neogeo.json")
           .then((r) => r.json())
-          .then((sys) => new RomsetIndex([sys])));
+          .then((system) => ({ system, index: new RomsetIndex([system]) })));
 
       const toBytes = (rom) =>
         rom instanceof Uint8Array
@@ -44,24 +49,59 @@
 
       // Hand the shell a thin wrapper whose load() resolves the driver by content
       // first. demo.js is untouched — it just sees a normal SDK.
+      //
+      // The wrapper accepts one format the bare engine does not, so it advertises
+      // it: the shell builds its file-picker filter from `manifest.assets[].accept`.
+      // The package manifest stays honest about the core (zip/7z only) — `.neo`
+      // works here because this page opts into the `neo` helper.
+      const manifest = {
+        ...sdk.manifest,
+        assets: sdk.manifest.assets?.map((asset) =>
+          asset.key === "rom" ? { ...asset, accept: [...(asset.accept ?? []), ".neo"] } : asset,
+        ),
+      };
+
       window.SDK = {
         ...sdk,
+        manifest,
         async load(config) {
           const bytes = toBytes(config?.assets?.rom);
           if (bytes) {
             try {
-              const match = resolveDriver(bytes, await getIndex());
-              if (match) {
+              const { system, index } = await getDataset();
+
+              if (isNeoFile(bytes)) {
+                // A `.neo` is a flash-cart image, not an archive — FBNeo would
+                // reject it outright. Rebuild the chip split it expects, then boot
+                // that zip under the driver the conversion identified.
+                const { driver, chips, zip, info } = neoToRomset(bytes, system);
                 console.log(
-                  `[fbneo] identified by content: ${match.driver} ` +
-                    `(${match.system}, ${match.matched}/${match.total} ROMs) — ` +
-                    `overriding filename-derived driver`,
+                  `[fbneo] rebuilt .neo "${info.name}" as ROM set ${driver} ` +
+                    `(${chips.length} chips, all CRC-verified)`,
                 );
-                config = { ...config, options: { ...config.options, driver: match.driver } };
+                config = {
+                  ...config,
+                  assets: { ...config.assets, rom: zip },
+                  options: { ...config.options, driver },
+                };
               } else {
-                console.log("[fbneo] no content match; using filename-derived driver");
+                const match = resolveDriver(bytes, index);
+                if (match) {
+                  console.log(
+                    `[fbneo] identified by content: ${match.driver} ` +
+                      `(${match.system}, ${match.matched}/${match.total} ROMs) — ` +
+                      `overriding filename-derived driver`,
+                  );
+                  config = { ...config, options: { ...config.options, driver: match.driver } };
+                } else {
+                  console.log("[fbneo] no content match; using filename-derived driver");
+                }
               }
             } catch (err) {
+              // A failed `.neo` conversion is fatal, not a skipped nicety: the raw
+              // image can never boot, so surface why instead of letting FBNeo
+              // reject the file with a bare "not supported".
+              if (isNeoFile(bytes)) throw err;
               console.warn("[fbneo] content identification skipped:", err);
             }
           }
