@@ -1,7 +1,7 @@
 {
   "name": "@wasm-gaming/fbneo-wasm",
   "version": "0.1.2",
-  "description": "FBNeo (FinalBurn Neo arcade emulator) compiled to WebAssembly via Emscripten, with a JS SDK conforming to the wasm-gaming engine contract.",
+  "description": "FBNeo (FinalBurn Neo arcade emulator) compiled to WebAssembly, with a self-contained JS SDK implementing the wasm-gaming engine contract.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wasm-gaming/fbneo-wasm.git"
@@ -18,6 +18,9 @@
       "types": "./dist/fbneo/fbneo.options.d.ts",
       "import": "./dist/fbneo/fbneo.options.js"
     },
+    "./app": {
+      "import": "./dist/fbneo/app/app.js"
+    },
     "./romset": {
       "types": "./dist/fbneo/romset.d.ts",
       "import": "./dist/fbneo/romset.js"
@@ -26,14 +29,11 @@
       "types": "./dist/fbneo/neo.d.ts",
       "import": "./dist/fbneo/neo.js"
     },
-    "./romsets/*": "./data/romsets/*",
-    "./manifest": "./dist/manifest.json"
+    "./romsets/*": "./dist/fbneo/romsets/*"
   },
   "files": [
     "dist/fbneo/",
-    "dist/manifest.json",
-    "data/romsets/",
-    "src/fbneo.manifest.ts",
+    "src/app/",
     "src/fbneo.options.ts",
     "src/fbneo.sdk.ts",
     "src/romset.ts",
@@ -42,16 +42,11 @@
   ],
   "comment:scripts": "Build logic lives in the Makefile, not here (make build / build-sdk / build-wasm / preview).",
   "scripts": {},
-  "peerDependencies": {
-    "@wasm-gaming/engine-specs": "*"
-  },
-  "peerDependenciesMeta": {
-    "@wasm-gaming/engine-specs": {
-      "optional": true
-    }
+  "comment:dependencies": "engine-specs is the one wasm-gaming package an engine depends on. Its runtime is also copied into dist/fbneo/ and imported relatively, so the built SDK loads without a bundler or an import map; the dependency carries the types.",
+  "dependencies": {
+    "@wasm-gaming/engine-specs": "^0.4.0"
   },
   "devDependencies": {
-    "@wasm-gaming/engine-specs": "^0.2.3",
     "typescript": "^5.5.0"
   },
   "engineContract": "https://github.com/wasm-gaming/engine-specs",

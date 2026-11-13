@@ -1,60 +1,79 @@
+# @wasm-gaming/fbneo-wasm — build & preview
+#
+#   make build       The package: SDK + WASM → dist/
+#   make build-sdk   TypeScript only (fast, no Docker) → dist/fbneo/
+#   make build-wasm  FBNeo → WebAssembly, in the pinned emsdk image (Docker)
+#   make demo        The no-build demo page → dist/index.html
+#   make test        Type-check, then the tests against the built package
+#   make preview     Serve dist/ with COOP/COEP
+#   make romsets     Regenerate data/romsets/*.json from FBNeo's driver source
+#
+# All build logic lives here (package.json has no scripts).
+
 BIN := node_modules/.bin
-
 PORT ?= 8027
+SPECS := node_modules/@wasm-gaming/engine-specs
 
-.PHONY: build build-sdk build-lib build-manifest build-demo build-wasm build-wasm-ci build-wasm-docker \
-	romsets preview typecheck test release-check i install clean help
+.PHONY: build build-sdk build-app build-romsets build-lib build-specs build-wasm build-wasm-ci demo romsets \
+	typecheck test release-check preview i install clean help
 
 i: install
-install: ## Install dev dependencies
+install: ## Install dependencies
 	npm install
 
 node_modules: package.json
 	npm install
 	@touch node_modules
 
-build: build-wasm build-sdk ## Full build → dist/ (WASM first, then SDK/demo)
+build: build-wasm build-sdk demo ## The package and the demo: WASM + SDK → dist/
 
-build-sdk: build-lib build-manifest build-demo ## TypeScript + manifest + demo shell
+build-sdk: build-lib build-specs build-app build-romsets ## The published SDK: TypeScript → dist/fbneo/ (no WASM)
 
-# The FBNeo checkout the WASM build clones into (see scripts/build-fbneo.sh).
+build-romsets: ## The ROM-set datasets beside the SDK (the app identifies sets with them) → dist/fbneo/romsets/
+	rm -rf dist/fbneo/romsets
+	mkdir -p dist/fbneo
+	cp -R data/romsets dist/fbneo/romsets
+
+build-app: ## The engine's own app (boot screen + pause menu) → dist/fbneo/app/
+	# Plain JS + CSS, mounted by hosts as <engine>/app/app.js (EngineApp); it imports
+	# the SDK next to it relatively.
+	rm -rf dist/fbneo/app
+	mkdir -p dist/fbneo/app
+	cp src/app/app.js src/app/app.css dist/fbneo/app/
+
+build-lib: node_modules ## Compile SDK + options + romset/neo helpers → dist/fbneo/
+	$(BIN)/tsc -p tsconfig.json
+
+build-specs: build-lib ## Ship the contract runtime beside the SDK and import it relatively
+	# The SDK extends the contract's base classes, so engine-specs is a runtime
+	# import. Copied into dist/fbneo/ (inside `files`) and the emitted imports
+	# rewritten to it: the package loads from any static server, no import map.
+	cp $(SPECS)/dist/engine-specs.js dist/fbneo/engine-specs.js
+	node scripts/localize-specs.mjs dist/fbneo
+
+build-wasm: ## FBNeo → WebAssembly via the pinned emsdk image (Docker) → dist/fbneo/
+	bash scripts/build-fbneo-docker.sh
+
+build-wasm-ci: ## Same build, run directly (CI runs inside the emsdk container)
+	bash scripts/build-fbneo.sh
+
+demo: ## The no-build demo page → dist/index.html
+	cp src/demo/index.html dist/index.html
+
+# The FBNeo checkout the WASM build fetches into (see scripts/build-fbneo.sh).
 FBNEO_DRV ?= .tmp/fbneo-build/src/burn/drv
 
 romsets: ## Regenerate data/romsets/*.json from the FBNeo driver source ($(FBNEO_DRV))
-	@test -d "$(FBNEO_DRV)" || { echo "error: $(FBNEO_DRV) not found — run 'make build-wasm-ci' first, or set FBNEO_DRV=<fbneo>/src/burn/drv"; exit 1; }
+	@test -d "$(FBNEO_DRV)" || { echo "error: $(FBNEO_DRV) not found — run 'make build-wasm' first, or set FBNEO_DRV=<fbneo>/src/burn/drv"; exit 1; }
 	node scripts/gen-romset-index.mjs --src "$(FBNEO_DRV)" --out data/romsets
 
-build-lib: node_modules ## Compile SDK/options/manifest → dist/fbneo/
-	$(BIN)/tsc -p tsconfig.json
-
-build-manifest: build-lib ## Serialize typed manifest → dist/manifest.json
-	node scripts/emit-manifest.mjs
-
-DEMO_SRC := node_modules/@wasm-gaming/engine-specs/demo
-
-build-demo: build-lib ## Assemble the themable engine-specs demo shell + NEOGEO skin
-	@rm -f dist/index.html dist/main.js
-	cp -R $(DEMO_SRC)/. dist/
-	rm -f dist/README.md
-	cp src/demo/index.html dist/index.html
-	cp src/demo/fbneo.css dist/fbneo.css
-	@# Ship the romset-identity dataset so hosts can fetch /romsets/<system>.json.
-	rm -rf dist/romsets && cp -R data/romsets dist/romsets
-
-build-wasm: ## Build FBNeo WASM artifacts via local Docker wrapper
-	bash scripts/build-fbneo-docker.sh
-
-build-wasm-ci: ## Build FBNeo WASM artifacts directly (for CI containers)
-	bash scripts/build-fbneo.sh
-
-build-wasm-docker: build-wasm ## Alias: local Docker wrapper
-
-typecheck: build-lib
+typecheck: node_modules ## Type-check the SDK
 	$(BIN)/tsc -p tsconfig.json --noEmit
 
-test: typecheck
+test: typecheck build-sdk ## Type-check, then run tests/ against the built package
+	node --test tests/*.test.mjs
 
-release-check: test
+release-check: build-sdk test ## npm pack preview
 	npm config get registry
 	npm pack --dry-run
 
@@ -66,4 +85,6 @@ clean: ## Remove build outputs
 	@if [ -d dist ]; then find dist -mindepth 1 -delete; fi
 
 help: ## List targets
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-20s %s\n", $$1, $$2}'
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-14s %s\n", $$1, $$2}'
+
+.DEFAULT_GOAL := help

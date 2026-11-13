@@ -10,7 +10,7 @@ echo "Building FBNeo WASM via Docker..."
 docker run --rm \
     -v "$PROJECT_DIR:/workspace" \
     -w /workspace \
-    emscripten/emsdk:latest \
+    emscripten/emsdk:6.0.2 \
     bash -c "
       set -euo pipefail
       echo 'Installing build tools...'

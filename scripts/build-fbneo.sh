@@ -9,17 +9,24 @@ set -euo pipefail
 #   dist/fbneo/fbneo.js    (Emscripten module loader)
 #   dist/fbneo/fbneo.wasm  (compiled runtime)
 #
-# NOTE: upstream FBNeo has no official Emscripten target. `makefile.sdl2` assumes a
-# native desktop build (desktop OpenGL via vid_sdl2opengl, `sdl2-config`, pthreads,
-# an SDL2 GUI). This script points the build at the correct makefile and splits the
-# host/target compilers, but a fully working .wasm still needs upstream porting
-# (GLES/WebGL video path, dropping sdl2-config, an ASYNCIFY-friendly main loop).
+# Upstream FBNeo has no Emscripten target: `makefile.sdl2` assumes a native desktop
+# build. The patches below port it; every one of them checks it applied, so a moved
+# upstream fails the build instead of producing a broken engine. Upstream is pinned.
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK_DIR="${WORK_DIR:-$PROJECT_DIR/.tmp/fbneo-build}"
 TARGET_DIR="${TARGET_DIR:-$PROJECT_DIR/dist/fbneo}"
 FBNEO_REPO="${FBNEO_REPO:-https://github.com/finalburnneo/FBNeo.git}"
-FBNEO_REF="${FBNEO_REF:-master}"
+# Pinned upstream commit: a given commit of this repo always builds the same engine.
+FBNEO_REV="${FBNEO_REV:-d7179fef1397e9fcf337ca0a79562b094ff60cba}"   # master when 0.1.2 was built (2026-08-09)
+
+# Fail the build when a patch did not land (the file lacks what it should now contain).
+must_contain() { # file fixed-string what
+  grep -qF -- "$2" "$1" || { echo "error: patch not applied — $3 ($1)" >&2; exit 1; }
+}
+must_lack() { # file fixed-string what
+  if grep -qF -- "$2" "$1"; then echo "error: patch not applied — $3 ($1)" >&2; exit 1; fi
+}
 
 ensure_cmd() {
   if ! command -v "$1" >/dev/null 2>&1; then
@@ -45,8 +52,11 @@ else
   rm -rf "$WORK_DIR"
   mkdir -p "$WORK_DIR"
 
-  echo "Cloning FBNeo ($FBNEO_REF)..."
-  git clone --depth 1 --branch "$FBNEO_REF" "$FBNEO_REPO" "$WORK_DIR"
+  echo "Fetching FBNeo @ $FBNEO_REV..."
+  git -C "$WORK_DIR" init -q
+  git -C "$WORK_DIR" remote add origin "$FBNEO_REPO"
+  git -C "$WORK_DIR" fetch -q --depth 1 origin "$FBNEO_REV"
+  git -C "$WORK_DIR" -c advice.detachedHead=false checkout -q FETCH_HEAD
 
   # The SDL2 burner is driven from the repo root makefile `makefile.sdl2`
   # (NAME=fbneo). There is no `src/burner/sdl/makefile.burn`.
@@ -77,17 +87,23 @@ sed -i 's/^LD\s*=\s*\$(CC)/LD = em++/' makefile.sdl2
 sed -i 's/`sdl2-config --cflags`/-sUSE_SDL=2 -sUSE_SDL_IMAGE=2/g' makefile.sdl2
 sed -i 's/`sdl2-config --libs`/-sUSE_SDL=2 -sUSE_SDL_IMAGE=2/g' makefile.sdl2
 sed -i 's/-lGL //g; s/-lopengl32 //g; s/-lSDL2_image //g; s/-lpthread//g' makefile.sdl2
+must_contain makefile.sdl2 'CC = emcc' 'CC → emcc'
+must_contain makefile.sdl2 'CXX = em++' 'CXX → em++'
+must_contain makefile.sdl2 'LD = em++' 'LD → em++'
+must_lack makefile.sdl2 'sdl2-config' 'sdl2-config → -sUSE_SDL=2'
 # 4. Emscripten infers output type from the suffix; the link recipe links to the
 #    bare `$(NAME)` (fbneo). Emit `.js` so we get fbneo.js + fbneo.wasm. (Keep NAME
 #    itself as `fbneo` — it also derives an object name, so overriding it breaks
 #    the compile with a spurious `fbneo.js.o` target.)
 sed -i 's/-o $@ $^ $(lib)/-o $@.js $^ $(lib)/g' makefile.sdl2
+must_contain makefile.sdl2 '-o $@.js $^ $(lib)' 'link to fbneo.js'
 # 5. emsdk's libc++ defines std::byte (C++17) as templates; FBNeo pulls <cstddef>
 #    in through an `extern "C"` block (the m68k core headers include driver.h),
 #    which clang rejects as "templates must have C++ linkage" (libstdc++ tolerates
 #    it, libc++ does not). Force <cstddef> to be included first — outside any
 #    extern "C" — so the later include hits its guard and is a no-op. Keeps C++17.
 sed -i 's/^CXXFLAGS = -O2/CXXFLAGS = -include cstddef -O2/' makefile.sdl2
+must_contain makefile.sdl2 'CXXFLAGS = -include cstddef -O2' '<cstddef> first'
 # 6. Emscripten's musl libc does not implement the MSVC `%hs` (narrow-string)
 #    printf specifier — it expands to nothing. FBNeo (a Windows-first codebase)
 #    uses `%hs` to build ROM archive paths in the SDL loader, so under emscripten
@@ -96,11 +112,10 @@ sed -i 's/^CXXFLAGS = -O2/CXXFLAGS = -include cstddef -O2/' makefile.sdl2
 #    build, so `%hs` is equivalent to `%s`; rewrite it across the SDL burner
 #    (ROM paths, config, savestates, screenshots).
 find src/burner/sdl -name '*.cpp' -exec sed -i 's/%hs/%s/g' {} +
-# 7. samples.cpp only compiles the dr_mp3 decoder implementation on Win32/libretro
-#    (`INCLUDE_FLACMP3_SUPPORT`), but msu1_backend.cpp (SNES MSU1) references
-#    drmp3_* unconditionally, so the link fails with undefined drmp3_* symbols.
-#    Enable the FLAC/MP3 implementation for the emscripten target too.
-sed -i 's/#if defined(BUILD_WIN32) || defined(__LIBRETRO__)/#if defined(BUILD_WIN32) || defined(__LIBRETRO__) || defined(__EMSCRIPTEN__)/' src/burn/snd/samples.cpp
+if grep -rqF '%hs' src/burner/sdl --include='*.cpp'; then echo "error: patch not applied — %hs → %s" >&2; exit 1; fi
+# 7. dr_mp3 (msu1_backend.cpp calls drmp3_*): upstream builds it for BUILD_SDL2 since
+#    before the pinned commit; a former sed here to add __EMSCRIPTEN__ was a no-op.
+must_contain src/burn/snd/samples.cpp 'defined(BUILD_SDL2)' 'dr_mp3 built for SDL2 (upstream)'
 # 8. RunMessageLoop() is a blocking `while (!quit)` loop; in the browser it never
 #    returns control, so the tab hangs. With ASYNCIFY we yield each frame — and
 #    pace to FBNeo's exact driver refresh rate (nBurnFPS, frames*100) using the
@@ -109,12 +124,22 @@ sed -i 's/#if defined(BUILD_WIN32) || defined(__LIBRETRO__)/#if defined(BUILD_WI
 #    pauses the game on FOCUS_LOST — the canvas has no keyboard focus at boot, so
 #    the game would start stuck on "PAUSE"; skip that auto-pause under emscripten.
 python3 - <<'PYEOF'
+def must(s, old, new, count=-1):
+    # Every source patch has to land: a moved upstream fails here, not at run time.
+    assert old in s, 'patch not applied: %r' % old[:70]
+    return s.replace(old, new, count)
 p = 'src/burner/sdl/run.cpp'
 s = open(p).read()
 if '#include <emscripten.h>' not in s:
-    s = s.replace('#include "burner.h"',
+    s = must(s, '#include "burner.h"',
                   '#include "burner.h"\n#ifdef __EMSCRIPTEN__\n#include <emscripten.h>\n#endif', 1)
 pace = (
+    # Paused by the SDK (web_bridge.cpp): no RunIdle(), no frame emulated; the canvas
+    # keeps the last picture. (The burner's own bRunPause still emulates in RunIdle.)
+    '#ifdef __EMSCRIPTEN__\n'
+    '\t\textern int bWebPaused;\n'
+    '\t\tif (!bWebPaused)\n'
+    '#endif\n'
     '\t\tRunIdle();\n'
     '#ifdef __EMSCRIPTEN__\n'
     '\t\t{\n'
@@ -130,8 +155,10 @@ pace = (
     '\t\t}\n'
     '#endif\n\n\t}'
 )
-s = s.replace('\t\tRunIdle();\n\n\t}', pace, 1)
-s = s.replace(
+s = must(s, '\t\tRunIdle();\n\n\t}', pace, 1)
+# The SDK's destroy() ends the loop (scripts/web_bridge.cpp: web_quit).
+s = must(s, '\twhile (!quit)\n', '#ifdef __EMSCRIPTEN__\n\textern int bWebQuit;\n\twhile (!quit && !bWebQuit)\n#else\n\twhile (!quit)\n#endif\n', 1)
+s = must(s, 
 '''					case SDL_WINDOWEVENT_MINIMIZED:
 					case SDL_WINDOWEVENT_FOCUS_LOST:
 						pause_game();
@@ -147,7 +174,7 @@ s = s.replace(
 #    builds this path is dead (audio-sync drives timing), so the bug is dormant;
 #    in the browser the audio-sync path isn't used, so the game runs ~100x too
 #    fast (nCount saturates at the 100-frame cap). Return ms under emscripten.
-s = s.replace(
+s = must(s, 
     '\tticks = (now.tv_sec - start.tv_sec) * 1000000 + now.tv_usec - start.tv_usec;',
     '#ifdef __EMSCRIPTEN__\n'
     '\tticks = (now.tv_sec - start.tv_sec) * 1000 + (now.tv_usec - start.tv_usec) / 1000;\n'
@@ -167,10 +194,14 @@ PYEOF
 #     consumption matches production and the audio-driven frame pacer runs at the
 #     correct ~59.18fps, with real sound.
 python3 - <<'PYEOF2'
+def must(s, old, new, count=-1):
+    # Every source patch has to land: a moved upstream fails here, not at run time.
+    assert old in s, 'patch not applied: %r' % old[:70]
+    return s.replace(old, new, count)
 # a) default core sample rate to 48000 under emscripten
 p = 'src/intf/audio/aud_interface.cpp'
 s = open(p).read()
-s = s.replace(
+s = must(s, 
     'INT32 nAudSampleRate[8] = { 44100, 44100, 22050, 22050, 22050, 22050, 22050, 22050 };',
     '#ifdef __EMSCRIPTEN__\n'
     'INT32 nAudSampleRate[8] = { 48000, 48000, 22050, 22050, 22050, 22050, 22050, 22050 };\n'
@@ -184,10 +215,10 @@ open(p, 'w').write(s)
 #    ring buffer -> float in the callback
 p = 'src/intf/audio/sdl/aud_sdl.cpp'
 s = open(p).read()
-s = s.replace(
+s = must(s, 
     'static int nAudLoopLen;',
     'static int nAudLoopLen;\n#ifdef __EMSCRIPTEN__\nstatic SDL_AudioDeviceID nAudDevice = 0;\n#endif', 1)
-s = s.replace(
+s = must(s, 
     '''	if (SDL_OpenAudio(&audiospec_req, &audiospec))
 	{
 		fprintf(stderr, "Couldn't open audio: %s\\n", SDL_GetError());
@@ -203,20 +234,20 @@ s = s.replace(
 		fprintf(stderr, "Couldn't open audio: %s\\n", SDL_GetError());
 		return 1;
 	}''', 1)
-s = s.replace('\tSDL_PauseAudio(0);',
+s = must(s, '\tSDL_PauseAudio(0);',
     '#ifdef __EMSCRIPTEN__\n\tSDL_PauseAudioDevice(nAudDevice, 0);\n#else\n\tSDL_PauseAudio(0);\n#endif', 1)
-s = s.replace('\tSDL_PauseAudio(1);',
+s = must(s, '\tSDL_PauseAudio(1);',
     '#ifdef __EMSCRIPTEN__\n\tSDL_PauseAudioDevice(nAudDevice, 1);\n#else\n\tSDL_PauseAudio(1);\n#endif', 1)
-s = s.replace('\tSDL_CloseAudio();',
+s = must(s, '\tSDL_CloseAudio();',
     '#ifdef __EMSCRIPTEN__\n\tif (nAudDevice) SDL_CloseAudioDevice(nAudDevice);\n#else\n\tSDL_CloseAudio();\n#endif', 1)
-s = s.replace(
+s = must(s, 
     '\taudiospec_req.format = AUDIO_S16;',
     '#ifdef __EMSCRIPTEN__\n'
     '\taudiospec_req.format = AUDIO_F32;   // Web Audio is natively 32-bit float\n'
     '#else\n'
     '\taudiospec_req.format = AUDIO_S16;\n'
     '#endif', 1)
-s = s.replace(
+s = must(s, 
 '''void audiospec_callback(void* /* data */, Uint8* stream, int len)
 {
 #ifdef BUILD_SDL2
@@ -247,16 +278,38 @@ s = s.replace(
 	int end = nSDLPlayPos + len;''')
 open(p, 'w').write(s)
 PYEOF2
+# 11. Saves: NVRAM/EEPROM (<driver>.fs) and hiscores (<driver>.hi) go to SDL's pref
+#     path, scattered under /libsdl in MEMFS. Point both at /save, the one folder the
+#     SDK seeds from OPFS before boot and mirrors back.
+python3 - <<'PYEOF3'
+p = 'src/burner/sdl/config.cpp'
+s = open(p).read()
+old = '\tSDL_free(szBaseFolderName);\n}\n#endif'
+assert s.count(old) == 1, 'patch not applied: InitSupportPaths tail'
+s = s.replace(old,
+    '#ifdef __EMSCRIPTEN__\n'
+    '\t_tcscpy(szAppEEPROMPath, _T("/save/"));\n'
+    '\t_tcscpy(szAppHiscorePath, _T("/save/"));\n'
+    '#endif\n' + old)
+open(p, 'w').write(s)
+PYEOF3
+
+# 12. The SDK's handles (pause, reset, NVRAM flush, save states): scripts/web_bridge.cpp.
+cat "$PROJECT_DIR/scripts/web_bridge.cpp" >> src/burner/sdl/main.cpp
+must_contain src/burner/sdl/main.cpp 'EMSCRIPTEN_KEEPALIVE void web_set_paused' 'web bridge'
 fi  # end patch block (skipped when reusing an already-patched incremental tree)
 
-# Emscripten link flags: modularize under createFbneoModule, export FS/callMain so
-# the SDK can write ROM zips into MEMFS and boot a driver by name. LEGACY_GL_EMULATION
+# Emscripten link flags: an ES module factory (createFbneoModule, imported by the SDK)
+# exporting FS/callMain, so the SDK can write ROM zips into MEMFS and boot a driver by
+# name, and the bridge's functions. LEGACY_GL_EMULATION
 # lets the desktop-GL video path (vid_sdl2opengl) resolve against WebGL; ASYNCIFY
 # lets FBNeo's blocking SDL2 main loop cooperate with the browser event loop.
 EM_LDFLAGS="${EM_LDFLAGS:-\
   -sMODULARIZE=1 \
+  -sEXPORT_ES6=1 \
   -sEXPORT_NAME=createFbneoModule \
   -sEXPORTED_RUNTIME_METHODS=FS,callMain \
+  -sEXPORTED_FUNCTIONS=_main,_web_set_paused,_web_reset,_web_persist,_web_save_state,_web_load_state,_web_running,_web_quit \
   -sFORCE_FILESYSTEM=1 \
   -sINVOKE_RUN=0 \
   -sEXIT_RUNTIME=0 \
@@ -288,7 +341,7 @@ EM_LDFLAGS="${EM_LDFLAGS:-\
 unset MAKELEVEL
 
 echo "Running emmake (this is a long compile)..."
-emmake make sdl2 \
+emmake make -j"${JOBS:-$(nproc)}" sdl2 \
   HOST_CC="${HOST_CC:-cc}" HOST_CXX="${HOST_CXX:-c++}" \
   BUILD_X86_ASM= FASTCALL= RELEASEBUILD=1 SKIPDEPEND=1 \
   LDFLAGS="$EM_LDFLAGS"

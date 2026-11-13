@@ -1,17 +1,19 @@
-name: Build main
+name: Build
 
+# Builds the two halves of the package and, on main, deploys the demo to Pages.
+# release.yml builds again from the bumped version and publishes.
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: build-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   sdk:
@@ -22,10 +24,10 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - name: Install dependencies
-        run: npm ci
-      - name: Build SDK (TypeScript + manifest + demo shell)
-        run: make build-sdk
+      - run: npm ci
+      - name: Typecheck and test (the built package, loaded with no import map)
+        run: make test
+      - run: make demo
       - uses: actions/upload-artifact@v4
         with:
           name: sdk-dist
@@ -34,18 +36,17 @@ jobs:
   wasm:
     runs-on: ubuntu-latest
     container:
-      image: emscripten/emsdk:latest
+      image: emscripten/emsdk:6.0.2   # pinned, same as scripts/build-fbneo-docker.sh
     steps:
       - uses: actions/checkout@v4
-      - name: Build WASM runtime
+      - name: Build FBNeo (pinned upstream commit)
         run: |
-          apt-get update -qq && apt-get install -y git make wget tar build-essential -qq
+          apt-get update -qq && apt-get install -y -qq git make perl
           make build-wasm-ci
       - uses: actions/upload-artifact@v4
         with:
           name: wasm-dist
-          path: |
-            dist/fbneo/
+          path: dist/fbneo/fbneo.*
 
   pages:
     needs: [sdk, wasm]
@@ -60,18 +61,12 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/download-artifact@v4
-        with:
-          name: sdk-dist
-          path: dist
+        with: { name: sdk-dist, path: dist }
       - uses: actions/download-artifact@v4
-        with:
-          name: wasm-dist
-          path: dist/fbneo
+        with: { name: wasm-dist, path: dist/fbneo }
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
+        with: { enablement: true }
       - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+        with: { path: dist }
       - id: deploy
         uses: actions/deploy-pages@v4

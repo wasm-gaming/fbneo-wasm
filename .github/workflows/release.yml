@@ -7,10 +7,7 @@ on:
         description: Version bump type
         required: true
         type: choice
-        options:
-          - patch
-          - minor
-          - major
+        options: [patch, minor, major]
 
 permissions: {}
 
@@ -19,135 +16,80 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sdk:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Validate
-        run: |
-          make typecheck
-          make test
-
-      - name: Build SDK (TypeScript + manifest + demo shell)
-        run: make build-sdk
-
-      - name: Upload SDK artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: sdk-dist
-          path: dist/
-
   wasm:
-    runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     container:
-      image: emscripten/emsdk:latest
+      image: emscripten/emsdk:6.0.2
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build WASM runtime
-        run: |
-          apt-get update -qq && apt-get install -y git make wget tar build-essential -qq
+      - uses: actions/checkout@v4
+      - run: |
+          apt-get update -qq && apt-get install -y -qq git make perl
           make build-wasm-ci
-
-      - name: Upload WASM artifacts
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: wasm-dist
-          path: |
-            dist/fbneo/
+          path: dist/fbneo/fbneo.*
 
   release:
-    needs: [sdk, wasm]
+    needs: wasm
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     permissions:
       contents: write
       id-token: write
     # Must match the Environment configured for npm Trusted Publisher.
     environment: production
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
-          scope: '@wasm-gaming'
           registry-url: https://registry.npmjs.org
 
-      - name: Download SDK artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: sdk-dist
-          path: dist
-
-      - name: Download WASM artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: wasm-dist
-          path: dist
-
-      - name: Upgrade npm for OIDC trusted publishing
+      # The version is stamped *before* building, so the SDK's static version, the
+      # package and the tag agree (scripts/sync-version.mjs writes all three places).
+      - name: Stamp the new version
+        id: version
         run: |
-          npm install -g npm@latest
-          npm --version
+          npm version "${{ inputs.bump }}" --no-git-tag-version
+          VERSION=$(node -p "require('./package.json').version")
+          node scripts/sync-version.mjs "$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
+      - run: make test demo
+      - uses: actions/download-artifact@v4
+        with: { name: wasm-dist, path: dist/fbneo }
 
-      - name: Configure Git
+      - name: Commit and tag
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
+          git commit -am "chore(release): ${{ steps.version.outputs.version }}"
+          git tag "v${{ steps.version.outputs.version }}"
 
-      - name: Bump version, commit, and tag
-        id: bump_version
+      - run: npm install -g npm@latest
+      - run: npm pack --dry-run
+      - run: npm publish --provenance --access public
+      - run: git push origin HEAD --follow-tags
+
+      # The launcher fetches <id>.tar.gz and reads <id>/<id>/ inside it.
+      - name: Package the release archive
         run: |
-          NEW_TAG=$(npm version "${{ inputs.bump }}" -m "chore(release): %s")
-          echo "new_tag=$NEW_TAG" >> "$GITHUB_OUTPUT"
+          cp -r dist fbneo
+          tar -czf fbneo.tar.gz fbneo
+          zip -qr fbneo.zip fbneo
+          tar -tzf fbneo.tar.gz | grep -q '^fbneo/fbneo/fbneo.sdk.js$'
+          tar -tzf fbneo.tar.gz | grep -q '^fbneo/fbneo/fbneo.wasm$'
 
-      - name: npm publish preflight
-        run: |
-          npm config get registry
-          npm pack --dry-run
-
-      - name: Publish to npm
-        run: npm publish --provenance --access public
-
-      - name: Push commit and tag
-        run: git push origin HEAD --follow-tags
-
-      - name: Package dist archives
-        run: |
-          cp -r dist fbneo-wasm
-          tar -czf fbneo-wasm.tar.gz fbneo-wasm
-          zip -r fbneo-wasm.zip fbneo-wasm
-
-      - name: Create GitHub release
-        uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.bump_version.outputs.new_tag }}
-          name: ${{ steps.bump_version.outputs.new_tag }}
+          tag_name: v${{ steps.version.outputs.version }}
+          name: v${{ steps.version.outputs.version }}
           generate_release_notes: true
           files: |
-            fbneo-wasm.tar.gz
-            fbneo-wasm.zip
+            fbneo.tar.gz
+            fbneo.zip

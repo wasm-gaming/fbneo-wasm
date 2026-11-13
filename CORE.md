@@ -62,37 +62,27 @@ at the cost of transient memory roughly equal to the `.neo` itself.
 
 ## Wrapper exposure status (this package)
 
-Current typed options in `src/fbneo.options.ts`:
+The SDK implements engine-specs 1.0 (`FbneoSDK` / `FbneoPlay`); payloads in
+`src/fbneo.options.ts` (`FBNEO_SPEC`):
 
-- `romFileName?: string`
-- `driver?: string`
-- `renderFilter?: 'pixelated' | 'smooth'`
-- `audioSampleRate?: number`
-- `vsync?: boolean`
-- `integerScale?: boolean`
-- `windowScale?: number`
+- config: `renderFilter` (live), `jsUrl`, `wasmUrl`;
+- options: `driver`, `romFileName` (its stem is the driver when `driver` is empty);
+- assets: `rom` (zip/7z), `bios` (zip);
+- storage: `namespace`, `persist` → OPFS `fbneo/<namespace>/`.
 
-Instance methods, per the engine-specs `EngineInstance` contract:
+What reaches the core, through `scripts/web_bridge.cpp` (appended to the SDL burner):
 
-- `start()` — boots the driver (`callMain([driver])`).
-- `pause()` / `resume()` — bridged to Emscripten `pauseMainLoop`/`resumeMainLoop`.
-- `reset()` — throws; FBNeo does not expose a soft-reset hook via this build.
-- `setInput()` — no-op; input flows through the SDL2 event loop.
-- `destroy()` — pauses the loop and emits `exit`.
-
-Capabilities advertised in the manifest: `{ saveStates: false, sram: false,
-coreSelectable: false }`. FBNeo *does* support save states and SRAM upstream;
-they are left off here until the WASM build exposes a verified API for them.
+- `pause(owner)` / `resume(owner)` → `web_set_paused`: the patched loop skips
+  `RunIdle()` (no frame emulated) and the sound stops. The burner's own `bRunPause`
+  is not used: `RunIdle()` still emulates a frame with it.
+- `restart()` → `web_reset`: the burner's reset (a pressed F3).
+- `flushSaves()` → `web_persist`: `StatedAuto(1)`, NVRAM/EEPROM to `/save/<driver>.fs`.
+- `states.save/load(slot)` → `web_save_state` / `web_load_state`: `BurnStateSave/Load`
+  of `/save/slot_N.fs`.
+- `start()` waits for `web_running` (the set loaded) or FBNeo's "error loading" line.
+- `destroy()` → `web_quit`: the loop ends and FBNeo exits the game its own way.
 
 ## Potential future mappings
 
-- `saveState()` / `loadState()` once the FBNeo WASM build exports a state API
-  (bump `capabilities.saveStates`).
-- `sram` persistence via `persist: 'idbfs' | 'opfs'` and `purgeStorage()`.
-- Direct core config for `audioSampleRate`, `vsync`, `integerScale`, and
-  `windowScale` (currently wrapper/canvas-level intent, not all wired to core).
-- Per-driver video geometry (arcade resolutions vary); the manifest advertises a
-  neutral 384×224 4:3 default that the running driver overrides.
-
-Any mapping should specify whether it is wrapper-only behavior (CSS/runtime glue)
-or direct core behavior (passed to the FBNeo runtime).
+- Core config for sample rate, vsync, integer scaling (FBNeo's own config file).
+- Input remapping from the host (today input flows through the SDL2 event loop).
