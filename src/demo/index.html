@@ -1,150 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FBNeo WASM — NEOGEO Demo</title>
-    <link rel="icon" href="data:," />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FBNeo WASM</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    html, body { margin: 0; height: 100%; background: #000; color: #e2e8f0; }
+    body { display: grid; grid-template-rows: 1fr auto; }
+    #stage { display: grid; place-items: center; min-height: 0; }
+    #bar { display: flex; gap: .75rem; align-items: center; justify-content: center; padding: .75rem; background: #111; flex-wrap: wrap; }
+    button, label { font: inherit; padding: .4rem 1rem; background: #222; color: inherit; border: 1px solid #444; border-radius: 6px; cursor: pointer; }
+    #status { color: #94a3b8; font-size: .85rem; }
+    #drop { position: fixed; inset: 0; display: none; place-items: center; background: #000c; font-size: 1.4rem; }
+    body.dragging #drop { display: grid; }
+    input[type=file] { display: none; }
+  </style>
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="bar">
+    <label>ROM set <input type="file" id="rom" accept=".zip,.7z,.neo" /></label>
+    <label>BIOS (neogeo.zip) <input type="file" id="bios" accept=".zip" /></label>
+    <button id="pause" disabled>Pause</button>
+    <button id="reset" disabled>Reset</button>
+    <button id="save" disabled>Save state</button>
+    <button id="load" disabled>Load state</button>
+    <span id="status">Pick a BIOS if the game needs one, then a ROM set (zip named after its driver, or a .neo).</span>
+  </div>
+  <div id="drop">Drop the ROM set</div>
 
-    <!-- Base theme from the engine-specs demo template, then our NEOGEO skin.
-         fbneo.css is loaded last so its :root token overrides win. -->
-    <link rel="stylesheet" href="./demo.css" />
-    <link rel="stylesheet" href="./fbneo.css" />
-  </head>
-  <body>
-    <main></main>
+  <script type="module">
+    // No build and no import map: the SDK is self-contained (it carries the
+    // contract's runtime beside it). One game per page — reload for another.
+    import FbneoSDK from './fbneo/fbneo.sdk.js';
+    import { RomsetIndex, resolveDriver } from './fbneo/romset.js';
+    import { isNeoFile, neoToRomset } from './fbneo/neo.js';
 
-    <!-- Hand the FBNeo SDK to the template shell (sdk.js picks up window.SDK),
-         then boot the shared demo.js. Order matters: SDK must exist before
-         demo.js runs its top-level getSdk(). -->
-    <script type="module">
-      import sdk from "./fbneo/fbneo.sdk.js";
-      import { RomsetIndex, resolveDriver } from "./fbneo/romset.js";
-      import { isNeoFile, neoToRomset } from "./fbneo/neo.js";
+    const status = document.querySelector('#status');
+    let play = null;
+    let bios = null;
 
-      // Content-based ROM-set identification: a picked file may be named
-      // `mslug (1).zip` (browser-mangled), but FBNeo needs the driver short name
-      // `mslug`. Rather than trust the filename, recover the driver from the
-      // CRC-32s inside the zip. This NEOGEO demo lazy-loads the Neo Geo dataset;
-      // if the dropped set is identified, we override `options.driver`, otherwise
-      // we leave the SDK's filename inference untouched. See the `romset` export.
-      //
-      // The same dataset also carries each chip's size and region, which is what
-      // lets a `.neo` flash-cart image be rebuilt into a bootable ROM set in the
-      // browser. See the `neo` export.
-      let datasetPromise = null;
-      const getDataset = () =>
-        (datasetPromise ??= fetch("./romsets/neogeo.json")
-          .then((r) => r.json())
-          .then((system) => ({ system, index: new RomsetIndex([system]) })));
+    // The driver: a picked file may be named `mslug (1).zip`, but FBNeo needs `mslug`.
+    // The Neo Geo dataset recovers it from the CRC-32s inside the zip (the `romset`
+    // export), and rebuilds a `.neo` flash-cart image into a ROM set (the `neo` export).
+    let dataset = null;
+    const getDataset = () =>
+      (dataset ??= fetch('./fbneo/romsets/neogeo.json')
+        .then((r) => r.json())
+        .then((system) => ({ system, index: new RomsetIndex([system]) })));
 
-      const toBytes = (rom) =>
-        rom instanceof Uint8Array
-          ? rom
-          : rom instanceof ArrayBuffer
-            ? new Uint8Array(rom)
-            : ArrayBuffer.isView(rom)
-              ? new Uint8Array(rom.buffer, rom.byteOffset, rom.byteLength)
-              : null;
+    async function identify(file) {
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      try {
+        const { system, index } = await getDataset();
+        if (isNeoFile(bytes)) {
+          const { driver, zip, chips, info } = neoToRomset(bytes, system);
+          console.log(`[fbneo demo] rebuilt .neo "${info.name}" as ${driver} (${chips.length} chips)`);
+          return { rom: zip, driver };
+        }
+        const match = resolveDriver(bytes, index);
+        if (match) {
+          console.log(`[fbneo demo] identified by content: ${match.driver} (${match.matched}/${match.total} ROMs)`);
+          return { rom: bytes, driver: match.driver };
+        }
+      } catch (error) {
+        if (isNeoFile(bytes)) throw error; // a raw .neo can never boot
+        console.warn('[fbneo demo] content identification skipped:', error);
+      }
+      return { rom: bytes, driver: '' };
+    }
 
-      // Hand the shell a thin wrapper whose load() resolves the driver by content
-      // first. demo.js is untouched — it just sees a normal SDK.
-      //
-      // The wrapper accepts one format the bare engine does not, so it advertises
-      // it: the shell builds its file-picker filter from `manifest.assets[].accept`.
-      // The package manifest stays honest about the core (zip/7z only) — `.neo`
-      // works here because this page opts into the `neo` helper.
-      const manifest = {
-        ...sdk.manifest,
-        assets: sdk.manifest.assets?.map((asset) =>
-          asset.key === "rom" ? { ...asset, accept: [...(asset.accept ?? []), ".neo"] } : asset,
-        ),
-      };
+    async function boot(file) {
+      if (play) { location.reload(); return; }
+      status.textContent = `Loading ${file.name}…`;
+      try {
+        const { rom, driver } = await identify(file);
+        play = await new FbneoSDK()
+          .options({ driver, romFileName: file.name })
+          .assets({ rom, bios })
+          .storage({ namespace: driver || file.name.replace(/\.[^.]+$/, '') })
+          .on('saves', ({ detail }) => (status.textContent = `Saved ${detail.files.join(', ')} → ${play.storagePath}/`))
+          .on('error', ({ detail }) => (status.textContent = `Error: ${detail.message}`))
+          .mount(document.querySelector('#stage'))
+          .start();
+        status.textContent = `${play.driver} — saves in OPFS ${play.storagePath}/`;
+        for (const b of document.querySelectorAll('button')) b.disabled = false;
+        document.querySelector('#stage canvas').focus();
+      } catch (e) {
+        status.textContent = `Error: ${e.message}`;
+      }
+    }
 
-      window.SDK = {
-        ...sdk,
-        manifest,
-        async load(config) {
-          const bytes = toBytes(config?.assets?.rom);
-          if (bytes) {
-            try {
-              const { system, index } = await getDataset();
-
-              if (isNeoFile(bytes)) {
-                // A `.neo` is a flash-cart image, not an archive — FBNeo would
-                // reject it outright. Rebuild the chip split it expects, then boot
-                // that zip under the driver the conversion identified.
-                const { driver, chips, zip, info } = neoToRomset(bytes, system);
-                console.log(
-                  `[fbneo] rebuilt .neo "${info.name}" as ROM set ${driver} ` +
-                    `(${chips.length} chips, all CRC-verified)`,
-                );
-                config = {
-                  ...config,
-                  assets: { ...config.assets, rom: zip },
-                  options: { ...config.options, driver },
-                };
-              } else {
-                const match = resolveDriver(bytes, index);
-                if (match) {
-                  console.log(
-                    `[fbneo] identified by content: ${match.driver} ` +
-                      `(${match.system}, ${match.matched}/${match.total} ROMs) — ` +
-                      `overriding filename-derived driver`,
-                  );
-                  config = { ...config, options: { ...config.options, driver: match.driver } };
-                } else {
-                  console.log("[fbneo] no content match; using filename-derived driver");
-                }
-              }
-            } catch (err) {
-              // A failed `.neo` conversion is fatal, not a skipped nicety: the raw
-              // image can never boot, so surface why instead of letting FBNeo
-              // reject the file with a bare "not supported".
-              if (isNeoFile(bytes)) throw err;
-              console.warn("[fbneo] content identification skipped:", err);
-            }
-          }
-          return sdk.load(config);
-        },
-      };
-
-      // The template renders a "file-info" panel (name/size/checksums) as an
-      // overlay on the running game. fbneo.css hides that overlay; here we
-      // mirror its contents to the console once the async checksums resolve.
-      // demo.js is left untouched so it keeps tracking the engine-specs template.
-      const seen = new WeakSet();
-      const logFileInfo = (host) => {
-        const root = host.shadowRoot;
-        if (!root || seen.has(host)) return;
-        const rows = [...root.querySelectorAll(".row")].map((r) => [
-          r.querySelector("dt")?.textContent?.trim(),
-          r.querySelector("dd")?.textContent?.trim(),
-        ]);
-        if (!rows.length || rows.some(([, v]) => /computing/i.test(v || ""))) return;
-        seen.add(host);
-        const name = root.querySelector("h2")?.textContent?.trim();
-        console.log(`[fbneo] file info — ${name}`);
-        console.table(Object.fromEntries(rows));
-      };
-      new MutationObserver(() => {
-        document.querySelectorAll("section.file-info").forEach((host) => {
-          if (host.shadowRoot && !host.__logObs) {
-            host.__logObs = new MutationObserver(() => logFileInfo(host));
-            host.__logObs.observe(host.shadowRoot, {
-              childList: true,
-              subtree: true,
-              characterData: true,
-            });
-            logFileInfo(host);
-          }
-        });
-      }).observe(document.body, { childList: true, subtree: true });
-
-      // NeoGeo (and most FBNeo arcade sets) can't boot without their system
-      // BIOS, so require it. `?bios=required` is the template's own knob, read
-      // from demo.js's import.meta.url — no fork needed.
-      await import("./demo.js?bios=required");
-    </script>
-  </body>
+    document.querySelector('#bios').addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      bios = new Uint8Array(await file.arrayBuffer());
+      status.textContent = `BIOS ${file.name} ready. Now the ROM set.`;
+    });
+    document.querySelector('#rom').addEventListener('change', (e) => e.target.files[0] && boot(e.target.files[0]));
+    document.querySelector('#pause').addEventListener('click', (e) => {
+      if (play.pausedBy) { play.resume('demo'); e.target.textContent = 'Pause'; }
+      else { play.pause('demo'); e.target.textContent = 'Resume'; }
+    });
+    document.querySelector('#reset').addEventListener('click', () => play.restart());
+    document.querySelector('#save').addEventListener('click', async () => {
+      await play.states.save(0);
+      status.textContent = 'State saved in slot 0.';
+    });
+    document.querySelector('#load').addEventListener('click', () => {
+      status.textContent = play.states.load(0) ? 'State loaded.' : 'Slot 0 is empty.';
+    });
+    addEventListener('dragover', (e) => { e.preventDefault(); document.body.classList.add('dragging'); });
+    addEventListener('dragleave', () => document.body.classList.remove('dragging'));
+    addEventListener('drop', (e) => {
+      e.preventDefault();
+      document.body.classList.remove('dragging');
+      const file = e.dataTransfer.files[0];
+      if (file) boot(file);
+    });
+  </script>
+</body>
 </html>

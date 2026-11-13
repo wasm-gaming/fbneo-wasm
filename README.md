@@ -1,44 +1,82 @@
 # @wasm-gaming/fbneo-wasm
 
-FinalBurn Neo (FBNeo) — the multi-system arcade emulator (Capcom CPS-1/2/3, SNK
-Neo Geo, Sega System 16, Cave, PGM, and many more) — compiled to WebAssembly via
-Emscripten and packaged as a wasm-gaming engine SDK.
+FinalBurn Neo (FBNeo), the multi-system arcade emulator (Capcom CPS-1/2/3, SNK Neo Geo,
+Sega System 16, Cave, PGM and many more), compiled to WebAssembly and wrapped in a small JS
+SDK that implements the [wasm-gaming engine contract](https://github.com/wasm-gaming/engine-specs)
+1.0. It ships no games: the player brings the ROM sets, and they never leave the browser.
 
-This subproject follows the same engine-package approach used by jgenesis-wasm,
-blastem-wasm, rsdkv3, and rsdkv4:
+## Install
 
-- typed `manifest`
-- typed `options`
-- `load(config)` engine SDK surface
-- Makefile-driven build (`build-sdk`, `build-wasm`, `preview`)
-
-It conforms to the [`@wasm-gaming/engine-specs`](https://github.com/wasm-gaming/engine-specs)
-contract (`EngineSDK` = `{ manifest, load }`).
-
-## Contract surface
-
-```js
-import { manifest, load } from '@wasm-gaming/fbneo-wasm';
-
-const engine = await load({
-  canvas,                         // per engine-specs EngineConfig
-  assets: {
-    rom: romZipBytes,             // arcade ROM set (zip)
-    bios: neogeoZipBytes,         // optional: e.g. neogeo.zip for Neo Geo sets
-  },
-  options: { driver: 'mslug', renderFilter: 'pixelated' },
-  onEvent: (e) => console.log(e),
-});
-engine.start();
+```sh
+npm install @wasm-gaming/fbneo-wasm
 ```
 
-FBNeo identifies a game by the ROM zip **filename** (without extension). Pass the
-game short name explicitly via `options.driver` (e.g. `"mslug"`, `"sf2"`,
-`"kof98"`), or let it be inferred from `options.romFileName` / the picked file's
-name. (The bytes are always written to MEMFS as `<driver>.zip`, so the source
-file itself never needs renaming — only its *name* has to resolve to a driver.)
+The SDK is self-contained: the contract's runtime ships beside it in `dist/fbneo/` and is
+imported relatively, so it loads from any static server with no bundler and no import map.
+The wasm and its glue sit next to it (`fbneo.js`, `fbneo.wasm`).
 
-### Identifying a ROM set from its contents
+## Use
+
+```js
+import FbneoSDK from '@wasm-gaming/fbneo-wasm';
+
+FbneoSDK.id;   // 'fbneo' — also this engine's folder in OPFS
+
+const play = await new FbneoSDK()
+  .options({ driver: 'mslug' })                       // or romFileName: 'mslug.zip'
+  .assets({ rom: () => zip.arrayBuffer(), bios: () => neogeo.arrayBuffer() })
+  .storage({ namespace: 'mslug' })                    // → OPFS fbneo/mslug/
+  .on('saves', ({ detail }) => console.log('saved', detail.files))
+  .mount(document.querySelector('#stage'))            // a <canvas> is used as is; anything else gets one
+  .start();
+
+play.pause('menu');            // the first caller owns the pause…
+play.resume('menu');           // …and only it lifts it; sound stops too
+await play.restart();          // soft reset
+await play.states.save(0);     // save states: slots 0-3, plus 9 (the suspend point)
+play.states.load(0);
+await play.destroy();          // saves flushed, loop stopped, audio closed
+```
+
+| payload | keys |
+| --- | --- |
+| `config` | `renderFilter` (`pixelated` \| `smooth`, live), `jsUrl`, `wasmUrl` |
+| `options` | `driver` (FBNeo short name), `romFileName` (its stem is the driver when `driver` is empty) |
+| `assets` | `rom` (`.zip`/`.7z`, required), `bios` (`.zip`, e.g. `neogeo.zip`) |
+| `storage` | `namespace` (default `default`), `persist` (`'opfs'` \| `null`) |
+
+FBNeo boots a game by its ROM-set short name (the *driver*, `mslug`) and finds `<driver>.zip`
+in its ROM path; the SDK writes the bytes there under that name, so the player's file name
+never matters once the driver is known.
+
+Events: the contract's `start`, `error`, `exit`, `pause`, `resume`, plus `saves`.
+
+## The engine's own app
+
+A host that would rather not draw menus mounts the app shipped next to the SDK
+(engine-specs `EngineApp`, `UX.md`):
+
+```js
+const app = await import('@wasm-gaming/fbneo-wasm/app'); // dist/fbneo/app/app.js
+const handle = await app.mount(element, { game, storage, assets, input, exit });
+await handle.unmount();
+```
+
+The same app as blastem-wasm's: suspend points the way the Nintendo Classic Mini does them
+(leaving keeps an unsaved point with its frame; coming back offers it, four slots and "from
+the beginning"), and a pause menu on Select + Start or Escape (*Continuar*, *Puntos de
+suspensión*, *Reiniciar*, *Volver al lanzador*). The host hands over bytes, not a driver
+name, so the app identifies the set by its contents (the datasets below, Neo Geo and Capcom
+first), rebuilds a `.neo` image, and falls back to `game.slug`.
+
+## Saves live in the engine's own folder
+
+FBNeo's NVRAM/EEPROM (`<driver>.fs`), hiscores (`<driver>.hi`) and save states
+(`slot_N.fs`, with an optional `slot_N.png` frame and `slot_N.lock`) are written to MEMFS
+`/save`, which the SDK seeds from OPFS `fbneo/<namespace>/` before boot and mirrors back
+every 10 s, on pause, when the page is hidden and on destroy. `persist: null` keeps nothing.
+
+## Identifying a ROM set from its contents
 
 When the filename is unreliable (a browser-mangled `mslug (1).zip`) but the ROM
 files inside must keep their canonical names, recover the driver from the zip's
@@ -55,16 +93,16 @@ const neogeo = await fetch('/romsets/neogeo.json').then((r) => r.json());
 const index = new RomsetIndex([neogeo]);
 
 const match = resolveDriver(romZipBytes, index); // { driver: 'mslug', coverage: 1, ... } | null
-const engine = await load({
-  canvas,
-  assets: { rom: romZipBytes },
-  options: { driver: match?.driver }, // fall back to your own logic when null
-});
+const play = await new FbneoSDK()
+  .options({ driver: match?.driver ?? '' })   // fall back to your own logic when null
+  .assets({ rom: romZipBytes })
+  .mount(stage)
+  .start();
 ```
 
-The dataset ships as `data/romsets/<system>.json` (also served at `/romsets/…`
-from the built `dist/`); `data/romsets/index.json` lists the systems and game
-counts. Regenerate it from a pinned FBNeo checkout with `make romsets`.
+The dataset is `data/romsets/<system>.json` in the repo and ships next to the SDK as
+`fbneo/romsets/<system>.json` (package export `./romsets/*`); `index.json` lists the
+systems and game counts. Regenerate it from a pinned FBNeo checkout with `make romsets`.
 
 Each ROM entry carries its internal name (`n`) and CRC-32 (`c`). `neogeo.json`
 additionally carries each chip's size (`s`) and hardware region (`r`) — the chip
@@ -77,7 +115,7 @@ extra files, subdirectories, and non-canonical chip filenames inside the zip do
 not matter. Only the zip's *name* has to resolve to a driver, which is exactly
 what this helper supplies.
 
-### Neo Geo `.neo` files (NeoSD / Terraonion)
+## Neo Geo `.neo` files (NeoSD / Terraonion)
 
 FBNeo reads `.zip` and `.7z` ROM sets only. A `.neo` — the single-file format for
 NeoSD/Terraonion flash carts, and how most Neo Geo homebrew is distributed — is a
@@ -93,7 +131,7 @@ const neogeo = await fetch('/romsets/neogeo.json').then((r) => r.json());
 
 if (isNeoFile(bytes)) {
   const { driver, zip } = neoToRomset(bytes, neogeo); // throws if it cannot be rebuilt
-  await load({ canvas, assets: { rom: zip }, options: { driver } });
+  await new FbneoSDK().options({ driver }).assets({ rom: zip }).mount(stage).start();
 }
 ```
 
@@ -114,41 +152,37 @@ node scripts/neo2romset.mjs mygame.neo --out ./roms   # needs `make build-lib`
 Sets whose program ROM lives inside the SMA custom chip cannot be reproduced by a
 straight carve; those fail CRC verification and are reported rather than written.
 
-### Options
-
-| Option | Default | Description |
-|--------|---------|-------------|
-| `romFileName` | `game.zip` | Filename used when writing ROM bytes to MEMFS. |
-| `driver` | *(inferred)* | FBNeo ROM set short name to boot. |
-| `renderFilter` | `pixelated` | `pixelated` (crisp) or `smooth` (linear). |
-| `audioSampleRate` | `44100` | Target audio sample rate in Hz. |
-| `vsync` | `true` | Enable vertical sync. |
-| `integerScale` | `false` | Integer scaling only. |
-| `windowScale` | `2` | Internal render-resolution multiplier. |
-
 ## Build
 
 ```sh
-make build        # Full build: WASM (Docker/Emscripten) + TypeScript SDK
-make build-sdk    # TypeScript only (SDK + manifest + demo shell)
-make build-wasm   # FBNeo WASM only (via Docker)
-make preview      # Serve dist/ with COOP/COEP headers
+make build-sdk    # TypeScript → dist/fbneo/ (no WASM), with the app and the datasets
+make build-wasm   # FBNeo → WebAssembly in the pinned emscripten/emsdk:6.0.2 (Docker)
+make demo         # the no-build demo page → dist/index.html
+make test         # type-check, then the tests against the built package
+make preview      # serve dist/ with COOP/COEP
+make romsets      # regenerate data/romsets/*.json from the pinned FBNeo checkout
 ```
 
-WebAssembly threads/SharedArrayBuffer require the COOP/COEP headers that
-`make preview` sets — serve the built `dist/` with those headers in production too.
+`scripts/build-fbneo.sh` fetches FBNeo at a pinned commit and ports its SDL2 burner to
+Emscripten: every source patch checks it applied, so a moved upstream fails the build
+instead of producing a broken engine. FBNeo's own blocking loop runs under ASYNCIFY and
+paces itself to the driver's frame rate on the real-time clock (not the monitor's refresh);
+`scripts/web_bridge.cpp` adds the SDK's handles (pause, reset, NVRAM flush, save states).
 
-## WASM artifacts
+## Project Specs
 
-| File | Description |
-|------|-------------|
-| `fbneo.js` | Emscripten-generated module loader (`createFbneoModule`). |
-| `fbneo.wasm` | Compiled FBNeo runtime. |
+- Contract: engine-specs 1.0 (`FbneoSDK` / `FbneoPlay`), self-contained ESM.
+- Engine: FBNeo pinned (see `FBNEO_REV` in `scripts/build-fbneo.sh`), Emscripten 6.0.2, ASYNCIFY.
+- Storage: OPFS `fbneo/<namespace>/` (NVRAM, hiscores, save states).
+- App: `dist/fbneo/app/app.js` (EngineApp), driver identified by content.
+- Records: [RECORD/](RECORD/).
 
-FBNeo uses Emscripten SDL2. The JS loader expects a `<canvas id="canvas">` in the
-DOM (the SDK sets this id automatically). ROM zips are written to the in-memory
-MEMFS under `/roms/` before the emulator boots, and FBNeo is launched with the
-driver short name.
+## Todos
 
-See [CORE.md](CORE.md) for the mapping between upstream FBNeo capabilities and the
-options currently exposed by this wrapper.
+- Verify game-level behaviour with real ROM sets (pause, reset, states, NVRAM round trip).
+- Move the FBNeo pin forward (later upstream changed the audio code the build patches).
+
+## License
+
+MIT for this wrapper. FBNeo has its own non-commercial license; ROM sets and BIOS images
+belong to their owners and are never shipped.
