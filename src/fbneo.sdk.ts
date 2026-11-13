@@ -669,7 +669,7 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
 export class FbneoSDK extends EngineSDKBase<FbneoPayloads> {
   static readonly id = ENGINE_ID;
   /** Kept in step with package.json by `node scripts/sync-version.mjs`. */
-  static readonly version = '0.1.2';
+  static readonly version = '0.2.0';
   static readonly name = 'FinalBurn Neo';
   static readonly description =
     'FBNeo, the arcade emulator (Capcom CPS-1/2/3, SNK Neo Geo, Sega System 16 and more), compiled to WebAssembly. Ships no games: the player provides the ROM sets, and they never leave their browser.';
