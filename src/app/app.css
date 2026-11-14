@@ -89,7 +89,23 @@
 .item.is-danger.is-focused small { color: #450a0a; }
 .fbn-panel .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .fbn-panel .row .item { text-align: center; }
-.fbn-layer { position: absolute; inset: 0; display: grid; place-items: center; background: rgb(0 0 0 / 0.55); }
+/* A dialog sits on its own layer, above anything the screen under it positions (the
+   character art on the slot cards is z-index 1), on a backdrop that hides that screen. */
+.fbn-layer {
+  position: absolute; inset: 0; z-index: 10; display: grid; place-items: center;
+  background: rgb(4 6 12 / 0.78);
+  backdrop-filter: blur(10px) saturate(0.8);
+  -webkit-backdrop-filter: blur(10px) saturate(0.8);
+}
+.fbn-layer h2 { font-size: clamp(1.15rem, 2.2vw, 1.55rem); line-height: 1.2; }
+.fbn-layer .fbn-panel {
+  width: min(500px, 92vw);
+  background:
+    radial-gradient(120% 90% at 0% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 60%),
+    #151821;
+  border-color: rgb(255 255 255 / 0.14);
+  box-shadow: 0 40px 120px -20px #000, 0 0 0 1px rgb(0 0 0 / 0.4);
+}
 
 .fbn-hints { display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: center; color: var(--muted); font-size: 0.78rem; font-weight: 500; }
 .fbn-hints span { display: inline-flex; align-items: center; gap: 7px; }
