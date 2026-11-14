@@ -34,6 +34,12 @@ export interface FbneoOptions {
   driver?: string;
   /** The ROM zip's file name (`mslug.zip`), used for the driver when `driver` is empty. */
   romFileName?: string;
+  /**
+   * How a Neo Geo set boots: `mvs`, the arcade board (coins, credits — FBNeo's default),
+   * or `aes`, the home console: the AES BIOS from the `bios` zip (or Universe BIOS 4.0 in
+   * AES mode) and a memory card per game. Other systems ignore it.
+   */
+  neogeo?: 'mvs' | 'aes';
 }
 
 export interface FbneoAssets {
@@ -98,6 +104,12 @@ export const FBNEO_SPEC: EngineSpec<FbneoPayloads> = {
       default: '',
       live: false,
       description: 'The ROM zip file name; its stem is the driver when driver is empty.',
+    },
+    neogeo: {
+      default: 'mvs',
+      enum: ['mvs', 'aes'],
+      live: false,
+      description: 'Neo Geo sets: mvs (arcade, FBNeo default) or aes (home console: AES BIOS, memory card).',
     },
   },
   assets: {

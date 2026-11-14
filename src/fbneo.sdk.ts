@@ -54,6 +54,7 @@ export type {
   FbneoStorage,
 } from './fbneo.options.js';
 export { FBNEO_SPEC, FBNEO_VIDEO } from './fbneo.options.js';
+import { parseZipEntries } from './romset.js';
 
 const ENGINE_ID = 'fbneo';
 const DEFAULT_STORAGE_NAMESPACE = 'default';
@@ -86,6 +87,8 @@ interface FbneoModule {
   _web_load_state(slot: number): number;
   _web_running(): number;
   _web_quit(): void;
+  _web_memcard_insert(): number;
+  ccall(name: string, returnType: 'number', argTypes: string[], args: unknown[]): number;
   SDL2?: { audioContext?: AudioContext };
 }
 
@@ -153,6 +156,30 @@ function sameBytes(a: Uint8Array | undefined, b: Uint8Array): boolean {
   return true;
 }
 
+/** The Neo Geo BIOS FBNeo should run, from what the BIOS zip holds (by CRC). */
+export interface NeoGeoBiosChoice {
+  /** `aes`: the real AES BIOS; `unibios`: Universe BIOS 4.0 in its AES mode. */
+  bios: 'aes' | 'unibios';
+  /** The driver's settings to apply: `[group, option]`, as FBNeo names them. */
+  dips: Array<[string, string]>;
+}
+
+const AES_WORLD_CRC = 'd27a71f1'; // neo-epo.bin
+const UNIBIOS_40_CRC = 'a7aab458'; // uni-bios_4_0.rom
+
+/**
+ * How to boot a Neo Geo as the AES (the home console) with the BIOS zip at hand: the
+ * real AES World BIOS when it is there, else Universe BIOS 4.0 in AES mode, else null.
+ */
+export function neoGeoAesBios(entries: Array<{ crc: string }>): NeoGeoBiosChoice | null {
+  const crcs = new Set(entries.map((entry) => entry.crc.toLowerCase()));
+  if (crcs.has(AES_WORLD_CRC)) return { bios: 'aes', dips: [['BIOS', 'AES World']] };
+  if (crcs.has(UNIBIOS_40_CRC)) {
+    return { bios: 'unibios', dips: [['BIOS', 'Universe BIOS (Hack, Ver. 4.0)'], ['Unibios mode', 'AES']] };
+  }
+  return null;
+}
+
 /** The player's save-state slots: 0-3. */
 export const STATE_SLOTS = 4;
 /**
@@ -198,6 +225,7 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   #destroyed = false;
   #pauseOwner: string | null = null;
   #driver = '';
+  #neogeo: { mode: 'aes'; bios: 'aes' | 'unibios'; card: boolean } | null = null;
 
   #canvas: HTMLCanvasElement | null = null;
   #ownsCanvas = false;
@@ -232,6 +260,11 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   /** The driver (ROM-set short name) this session booted. */
   get driver(): string {
     return this.#driver;
+  }
+
+  /** How a Neo Geo set was booted as the AES: `{ mode, bios, card }`; null otherwise. */
+  get neogeo(): { mode: 'aes'; bios: 'aes' | 'unibios'; card: boolean } | null {
+    return this.#neogeo;
   }
 
   /** Who holds the pause, or null while running. */
@@ -572,12 +605,48 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
       );
     }
 
+    if (options.neogeo === 'aes') await this.#bootAes(Module, bios);
+
     if (this.#persist) {
       this.#saveTimer = setInterval(() => void this.flushSaves(), SAVE_INTERVAL_MS);
       document.addEventListener('visibilitychange', this.#onHidden);
       window.addEventListener('pagehide', this.#onHidden);
     }
     this.#fit();
+  }
+
+  /**
+   * Neo Geo as the AES: pick the BIOS from the BIOS zip, set the driver's BIOS settings,
+   * insert the game's memory card and reset, so the machine boots that BIOS (FBNeo
+   * loads it at reset). A set that isn't Neo Geo has no "BIOS" setting: left as is.
+   */
+  async #bootAes(Module: FbneoModule, bios: Uint8Array | null): Promise<void> {
+    let choice: NeoGeoBiosChoice | null = null;
+    try {
+      choice = bios ? neoGeoAesBios(parseZipEntries(bios)) : null;
+    } catch {
+      choice = null; // not a zip: no BIOS to choose from
+    }
+    const setDip = (group: string, option: string): boolean =>
+      Module.ccall('web_set_dip', 'number', ['string', 'string'], [group, option]) === 1;
+    if (!choice) {
+      // Only a Neo Geo driver has the setting; anything else plays as it always has.
+      if (!setDip('BIOS', 'AES World')) return;
+      throw new Error(
+        'fbneo: Neo Geo as the AES needs a BIOS zip (neogeo.zip) with the AES BIOS (neo-epo.bin) or Universe BIOS 4.0',
+      );
+    }
+    for (const [group, option] of choice.dips) {
+      if (!setDip(group, option)) {
+        if (group === 'BIOS') return; // not a Neo Geo set
+        throw new Error(`fbneo: this FBNeo build has no "${group}: ${option}" setting`);
+      }
+    }
+    const card = Module._web_memcard_insert() === 1;
+    // The settings reach the driver on the next frame; the BIOS is loaded at reset.
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    Module._web_reset();
+    this.#neogeo = { mode: 'aes', bios: choice.bios, card };
   }
 
   /** The plain values behind one payload's descriptors. */

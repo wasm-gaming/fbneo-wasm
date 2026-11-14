@@ -54,11 +54,84 @@ EMSCRIPTEN_KEEPALIVE void web_reset(void)
 	do_reset_game = true;
 }
 
-// Write NVRAM/EEPROM now (upstream only does it at exit). 0 when no game is running.
+// ---- Memory card (Neo Geo) --------------------------------------------------
+// The core exposes its card through BurnAreaScan(ACB_MEMCARD); only FBNeo's Windows
+// front end drives it, so the SDL build never inserted one. One raw card file per
+// game in /save (the core's whole card buffer), so it lands in OPFS with the saves.
+
+static int bWebCard = 0;
+static char szWebCardPath[MAX_PATH];
+
+static INT32 __cdecl WebCardRead(struct BurnArea* pba)
+{
+	memset(pba->Data, 0, pba->nLen); // no file yet: a blank card, as FBNeo creates them
+	FILE* fp = fopen(szWebCardPath, "rb");
+	if (fp) {
+		fread(pba->Data, 1, pba->nLen, fp);
+		fclose(fp);
+	}
+	return 0;
+}
+
+static INT32 __cdecl WebCardWrite(struct BurnArea* pba)
+{
+	FILE* fp = fopen(szWebCardPath, "wb");
+	if (!fp) return 1;
+	fwrite(pba->Data, 1, pba->nLen, fp);
+	fclose(fp);
+	return 0;
+}
+
+// Insert the game's card (/save/<driver>.card, or a blank one). 1 when the driver has
+// a card slot and it was inserted.
+EMSCRIPTEN_KEEPALIVE int web_memcard_insert(void)
+{
+	if (!bDrvOkay) return 0;
+	snprintf(szWebCardPath, MAX_PATH, "/save/%s.card", BurnDrvGetText(DRV_NAME));
+	INT32 nMin = 0;
+	BurnAcb = WebCardRead;
+	BurnAreaScan(ACB_WRITE | ACB_MEMCARD | ACB_MEMCARD_ACTION, &nMin);
+	bWebCard = 1;
+	return 1;
+}
+
+// Set a DIP setting by the names the driver gives them ("BIOS" → "AES World") — the
+// write FBNeo's own DIP menu does (burner/sdl/inpdipsw.cpp). It reaches the driver
+// on the next frame; settings read at reset (the Neo Geo BIOS) need web_reset().
+// 1 when the group and the option were found.
+EMSCRIPTEN_KEEPALIVE int web_set_dip(const char* group, const char* option)
+{
+	if (!bDrvOkay || !group || !option) return 0;
+	struct BurnDIPInfo bdi;
+	INT32 nOffset = 0;
+	for (INT32 i = 0; BurnDrvGetDIPInfo(&bdi, i) == 0; i++) {
+		if (bdi.nFlags == 0xF0) { nOffset = bdi.nInput; break; }
+	}
+	for (INT32 i = 0; BurnDrvGetDIPInfo(&bdi, i) == 0; i++) {
+		if (!(bdi.nFlags & 0x40) || !bdi.szText || strcmp(bdi.szText, group) != 0) continue;
+		for (INT32 j = 1; j <= bdi.nSetting; j++) {
+			struct BurnDIPInfo opt;
+			if (BurnDrvGetDIPInfo(&opt, i + j) != 0) break;
+			if (!opt.szText || strcmp(opt.szText, option) != 0) continue;
+			struct GameInp* pgi = GameInp + opt.nInput + nOffset;
+			pgi->Input.Constant.nConst = (pgi->Input.Constant.nConst & ~opt.nMask) | (opt.nSetting & opt.nMask);
+			return 1;
+		}
+		return 0;
+	}
+	return 0;
+}
+
+// Write NVRAM/EEPROM — and the memory card, when one is inserted — now (upstream only
+// does it at exit). 0 when no game is running.
 EMSCRIPTEN_KEEPALIVE int web_persist(void)
 {
 	if (!bDrvOkay) return 0;
 	StatedAuto(1);
+	if (bWebCard) {
+		BurnAcb = WebCardWrite;
+		BurnAreaScan(ACB_READ | ACB_MEMCARD, NULL);
+	}
 	return 1;
 }
 
