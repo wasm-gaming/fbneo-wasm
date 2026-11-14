@@ -48,7 +48,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Europe) (Fri Feb 13 1998)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batrideru": {
       "parent": "batrider",
@@ -97,7 +100,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (USA) (Fri Feb 13 1998)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batriderc": {
       "parent": "batrider",
@@ -146,7 +152,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (China) (Fri Feb 13 1998)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batriderhk": {
       "parent": "batrider",
@@ -195,7 +204,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Hong Kong) (Mon Dec 22 1997)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batriderj": {
       "parent": "batrider",
@@ -244,7 +256,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batriderk": {
       "parent": "batrider",
@@ -293,7 +308,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Korea) (Fri Feb 13 1998)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batriderja": {
       "parent": "batrider",
@@ -342,7 +360,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Japan, older version) (Mon Dec 22 1997)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batridert": {
       "parent": "batrider",
@@ -391,7 +412,10 @@
           "n": "rom-6.bin",
           "c": "2a1c2426"
         }
-      ]
+      ],
+      "t": "Armed Police Batrider (Taiwan) (Mon Dec 22 1997)",
+      "y": "1998",
+      "m": "Raizing / Eighting"
     },
     "batsugun": {
       "parent": null,
@@ -432,7 +456,10 @@
           "n": "tp030_u19_gal16v8b-15.bin",
           "c": "f71669e8"
         }
-      ]
+      ],
+      "t": "Batsugun",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "batsugunsp": {
       "parent": "batsugun",
@@ -473,7 +500,10 @@
           "n": "tp030_u19_gal16v8b-15.bin",
           "c": "f71669e8"
         }
-      ]
+      ],
+      "t": "Batsugun - Special Version",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "batsuguna": {
       "parent": "batsugun",
@@ -514,7 +544,10 @@
           "n": "tp030_u19_gal16v8b-15.bin",
           "c": "f71669e8"
         }
-      ]
+      ],
+      "t": "Batsugun (older, set 1)",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "batsugunb": {
       "parent": "batsugun",
@@ -579,7 +612,10 @@
           "n": "tp030_u19_gal16v8b-15.bin",
           "c": "f71669e8"
         }
-      ]
+      ],
+      "t": "Batsugun (Korean PCB)",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "batsugunc": {
       "parent": "batsugun",
@@ -620,7 +656,10 @@
           "n": "tp030_u19_gal16v8b-15.bin",
           "c": "f71669e8"
         }
-      ]
+      ],
+      "t": "Batsugun (older, set 2)",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "bgaregga": {
       "parent": null,
@@ -661,7 +700,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggat": {
       "parent": "bgaregga",
@@ -702,7 +744,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga (location test) (Wed Jan 17 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggaz": {
       "parent": "bgaregga",
@@ -743,7 +788,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga Zakk version (Europe / USA / Japan / Asia) (Sat Feb 3 1996)",
+      "y": "2019",
+      "m": "Raizing / Eighting"
     },
     "bgareggacn": {
       "parent": "bgaregga",
@@ -784,7 +832,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggat2": {
       "parent": "bgaregga",
@@ -825,7 +876,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga - Type 2 (Europe / USA / Japan / Asia) (Sat Mar 2 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgaregganv": {
       "parent": "bgaregga",
@@ -866,7 +920,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga - New Version (Austria / Hong Kong) (Sat Mar 2 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggak": {
       "parent": "bgaregga",
@@ -907,7 +964,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga (Korea / Greece) (Wed Feb 7 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggahk": {
       "parent": "bgaregga",
@@ -948,7 +1008,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga (Austria / Hong Kong) (Sat Feb 3 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggatw": {
       "parent": "bgaregga",
@@ -989,7 +1052,10 @@
           "n": "rom5.bin",
           "c": "f6d49863"
         }
-      ]
+      ],
+      "t": "Battle Garegga (Taiwan / Germany) (Thu Feb 1 1996)",
+      "y": "1996",
+      "m": "Raizing / Eighting"
     },
     "bgareggabl": {
       "parent": "bgaregga",
@@ -1022,7 +1088,10 @@
           "n": "2@-256",
           "c": "456dd16e"
         }
-      ]
+      ],
+      "t": "1945 Er Dai / 1945 Part-2 (Chinese hack of Battle Garegga)",
+      "y": "1998",
+      "m": "bootleg (Melody)"
     },
     "bgareggabla": {
       "parent": "bgaregga",
@@ -1063,7 +1132,10 @@
           "n": "base.bin",
           "c": "456dd16e"
         }
-      ]
+      ],
+      "t": "Leishen Chuan / Thunder Deity Biography (Chinese hack of Battle Garegga)",
+      "y": "1997",
+      "m": "bootleg (Melody)"
     },
     "bgareggablj": {
       "parent": "bgaregga",
@@ -1096,7 +1168,10 @@
           "n": "base.bin",
           "c": "456dd16e"
         }
-      ]
+      ],
+      "t": "Battle Garegga (Japan, bootleg) (Sat Feb 3 1996)",
+      "y": "1996",
+      "m": "bootleg"
     },
     "bbakraid": {
       "parent": null,
@@ -1153,7 +1228,10 @@
           "n": "eeprom-bbakraid-new.bin",
           "c": "35c9275a"
         }
-      ]
+      ],
+      "t": "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)",
+      "y": "1999",
+      "m": "Eighting"
     },
     "bbakraidc": {
       "parent": "bbakraid",
@@ -1210,7 +1288,10 @@
           "n": "eeprom-bbakraid-new.bin",
           "c": "35c9275a"
         }
-      ]
+      ],
+      "t": "Battle Bakraid - Unlimited Version (China) (Tue Jun 8 1999)",
+      "y": "1999",
+      "m": "Eighting"
     },
     "bbakraidj": {
       "parent": "bbakraid",
@@ -1267,7 +1348,10 @@
           "n": "eeprom-bbakraid-new.bin",
           "c": "35c9275a"
         }
-      ]
+      ],
+      "t": "Battle Bakraid - Unlimited Version (Japan) (Tue Jun 8 1999)",
+      "y": "1999",
+      "m": "Eighting"
     },
     "bbakraidja": {
       "parent": "bbakraid",
@@ -1324,7 +1408,10 @@
           "n": "eeprom-bbakraid.bin",
           "c": "7f97d347"
         }
-      ]
+      ],
+      "t": "Battle Bakraid (Japan) (Wed Apr 7 1999)",
+      "y": "1999",
+      "m": "Eighting"
     },
     "dogyuun": {
       "parent": null,
@@ -1353,7 +1440,10 @@
           "n": "tp022_2.w30",
           "c": "043271b3"
         }
-      ]
+      ],
+      "t": "Dogyuun",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "dogyuuna": {
       "parent": "dogyuun",
@@ -1382,7 +1472,10 @@
           "n": "tp022_2.w30",
           "c": "043271b3"
         }
-      ]
+      ],
+      "t": "Dogyuun (older set)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "dogyuunt": {
       "parent": "dogyuun",
@@ -1411,7 +1504,10 @@
           "n": "tp022_2.w30",
           "c": "043271b3"
         }
-      ]
+      ],
+      "t": "Dogyuun (10/9/1992 location test)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "dogyuunb": {
       "parent": "dogyuun",
@@ -1440,7 +1536,10 @@
           "n": "tp022_2.w30",
           "c": "043271b3"
         }
-      ]
+      ],
+      "t": "Dogyuun (oldest set)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "enmadaio": {
       "parent": null,
@@ -1505,7 +1604,10 @@
           "n": "rom17_u72.a19",
           "c": "6b8717c3"
         }
-      ]
+      ],
+      "t": "Enma Daio (Japan)",
+      "y": "1993",
+      "m": "Toaplan / Taito"
     },
     "fixeight": {
       "parent": null,
@@ -1530,7 +1632,10 @@
           "n": "fixeight.nv",
           "c": "02e925d0"
         }
-      ]
+      ],
+      "t": "FixEight (Europe)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeightkt": {
       "parent": "fixeight",
@@ -1555,7 +1660,10 @@
           "n": "fixeightkt.nv",
           "c": "08fa73ba"
         }
-      ]
+      ],
+      "t": "FixEight (Korea, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeightk": {
       "parent": "fixeight",
@@ -1580,7 +1688,10 @@
           "n": "fixeightk.nv",
           "c": "cac91c6f"
         }
-      ]
+      ],
+      "t": "FixEight (Korea)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeightht": {
       "parent": "fixeight",
@@ -1605,7 +1716,10 @@
           "n": "fixeightht.nv",
           "c": "57edaa51"
         }
-      ]
+      ],
+      "t": "FixEight (Hong Kong, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeighth": {
       "parent": "fixeight",
@@ -1630,7 +1744,10 @@
           "n": "fixeighth.nv",
           "c": "95dec584"
         }
-      ]
+      ],
+      "t": "FixEight (Hong Kong)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeighttwt": {
       "parent": "fixeight",
@@ -1655,7 +1772,10 @@
           "n": "fixeighttwt.nv",
           "c": "b6d5c06c"
         }
-      ]
+      ],
+      "t": "FixEight (Taiwan, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeighttw": {
       "parent": "fixeight",
@@ -1680,7 +1800,10 @@
           "n": "fixeighttw.nv",
           "c": "74e6afb9"
         }
-      ]
+      ],
+      "t": "FixEight (Taiwan)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeightat": {
       "parent": "fixeight",
@@ -1705,7 +1828,10 @@
           "n": "fixeightat.nv",
           "c": "e9c21987"
         }
-      ]
+      ],
+      "t": "FixEight (Southeast Asia, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeighta": {
       "parent": "fixeight",
@@ -1730,7 +1856,10 @@
           "n": "fixeighta.nv",
           "c": "2bf17652"
         }
-      ]
+      ],
+      "t": "FixEight (Southeast Asia)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeightt": {
       "parent": "fixeight",
@@ -1755,7 +1884,10 @@
           "n": "fixeightt.nv",
           "c": "c0da4a05"
         }
-      ]
+      ],
+      "t": "FixEight (Europe, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeightut": {
       "parent": "fixeight",
@@ -1780,7 +1912,10 @@
           "n": "fixeightut.nv",
           "c": "9fcd93ee"
         }
-      ]
+      ],
+      "t": "FixEight (USA, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeightu": {
       "parent": "fixeight",
@@ -1805,7 +1940,10 @@
           "n": "fixeightu.nv",
           "c": "5dfefc3b"
         }
-      ]
+      ],
+      "t": "FixEight (USA)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "fixeightjt": {
       "parent": "fixeight",
@@ -1830,7 +1968,10 @@
           "n": "fixeightjt.nv",
           "c": "e3d14fed"
         }
-      ]
+      ],
+      "t": "FixEight - Jigoku no Eiyuu Densetsu (Japan, Taito license)",
+      "y": "1992",
+      "m": "Toaplan (Taito license)"
     },
     "fixeightj": {
       "parent": "fixeight",
@@ -1855,7 +1996,10 @@
           "n": "fixeightj.nv",
           "c": "21e22038"
         }
-      ]
+      ],
+      "t": "FixEight - Jigoku no Eiyuu Densetsu (Japan)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "ghox": {
       "parent": null,
@@ -1880,7 +2024,10 @@
           "n": "hd647180.021",
           "c": "6ab59e5b"
         }
-      ]
+      ],
+      "t": "Ghox (spinner)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "ghoxj": {
       "parent": "ghox",
@@ -1905,7 +2052,10 @@
           "n": "hd647180.021",
           "c": "6ab59e5b"
         }
-      ]
+      ],
+      "t": "Ghox (joystick)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "ghoxjo": {
       "parent": "ghox",
@@ -1930,7 +2080,10 @@
           "n": "hd647180.021",
           "c": "6ab59e5b"
         }
-      ]
+      ],
+      "t": "Ghox (joystick, older)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "kbash": {
       "parent": null,
@@ -1963,7 +2116,10 @@
           "n": "tp023_7.bin",
           "c": "3732318f"
         }
-      ]
+      ],
+      "t": "Knuckle Bash",
+      "y": "1993",
+      "m": "Toaplan / Atari"
     },
     "kbashk": {
       "parent": "kbash",
@@ -1996,7 +2152,10 @@
           "n": "tp023_7.bin",
           "c": "3732318f"
         }
-      ]
+      ],
+      "t": "Knuckle Bash (Korean PCB)",
+      "y": "1993",
+      "m": "Toaplan / Taito"
     },
     "kbashp": {
       "parent": "kbash",
@@ -2077,7 +2236,10 @@
           "n": "2m-nb-pcm.u40",
           "c": "3732318f"
         }
-      ]
+      ],
+      "t": "Knuckle Bash (location test)",
+      "y": "1993",
+      "m": "Toaplan / Taito"
     },
     "kbash2": {
       "parent": null,
@@ -2106,7 +2268,10 @@
           "n": "050917-10",
           "c": "6b213183"
         }
-      ]
+      ],
+      "t": "Knuckle Bash 2 (bootleg)",
+      "y": "1999",
+      "m": "bootleg"
     },
     "mahoudai": {
       "parent": "sstriker",
@@ -2135,7 +2300,10 @@
           "n": "ra-ma01-rom1.u57",
           "c": "6edb2ab8"
         }
-      ]
+      ],
+      "t": "Mahou Daisakusen (Japan)",
+      "y": "1993",
+      "m": "Raizing (Able license)"
     },
     "sstriker": {
       "parent": null,
@@ -2164,7 +2332,10 @@
           "n": "ra-ma01-rom1.u57",
           "c": "6edb2ab8"
         }
-      ]
+      ],
+      "t": "Sorcer Striker",
+      "y": "1993",
+      "m": "Raizing"
     },
     "sstrikerk": {
       "parent": "sstriker",
@@ -2193,7 +2364,10 @@
           "n": "ra-ma01-rom1.u57",
           "c": "6edb2ab8"
         }
-      ]
+      ],
+      "t": "Sorcer Striker (Korea)",
+      "y": "1993",
+      "m": "Raizing (Unite Trading license)"
     },
     "pipibibs": {
       "parent": null,
@@ -2218,7 +2392,10 @@
           "n": "tp025-5.bin",
           "c": "bf8ffde5"
         }
-      ]
+      ],
+      "t": "Pipi & Bibis / Whoopee!! (Z80 sound cpu, set 1)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "pipibibsa": {
       "parent": "pipibibs",
@@ -2243,7 +2420,10 @@
           "n": "tp025-5.bin",
           "c": "bf8ffde5"
         }
-      ]
+      ],
+      "t": "Pipi & Bibis / Whoopee!! (Z80 sound cpu, set 2)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "pipibibsp": {
       "parent": "pipibibs",
@@ -2276,7 +2456,10 @@
           "n": "pip_snd",
           "c": "8ebf183b"
         }
-      ]
+      ],
+      "t": "Pipi & Bibis / Whoopee!! (prototype)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "shippumd": {
       "parent": "kingdmgp",
@@ -2309,7 +2492,10 @@
           "n": "ma02rom6.bin",
           "c": "199e7cae"
         }
-      ]
+      ],
+      "t": "Shippu Mahou Daisakusen (Japan)",
+      "y": "1994",
+      "m": "Raizing / Eighting"
     },
     "kingdmgp": {
       "parent": null,
@@ -2342,7 +2528,10 @@
           "n": "ma02rom6.bin",
           "c": "199e7cae"
         }
-      ]
+      ],
+      "t": "Kingdom Grandprix",
+      "y": "1994",
+      "m": "Raizing / Eighting"
     },
     "perfrman": {
       "parent": null,
@@ -2407,7 +2596,10 @@
           "n": "ci09.13",
           "c": "aa0ca5a5"
         }
-      ]
+      ],
+      "t": "Performan (Japan)",
+      "y": "1985",
+      "m": "Toaplan / Data East Corporation"
     },
     "perfrmanu": {
       "parent": "perfrman",
@@ -2472,7 +2664,10 @@
           "n": "ci09r1.13",
           "c": "d9e92f6f"
         }
-      ]
+      ],
+      "t": "Performan (US)",
+      "y": "1985",
+      "m": "Toaplan / Data East USA"
     },
     "tigerh": {
       "parent": null,
@@ -2549,7 +2744,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (US)",
+      "y": "1985",
+      "m": "Toaplan / Taito America Corp."
     },
     "tigerhj": {
       "parent": "tigerh",
@@ -2626,7 +2824,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (Japan)",
+      "y": "1985",
+      "m": "Toaplan / Taito"
     },
     "tigerhb1": {
       "parent": "tigerh",
@@ -2699,7 +2900,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (bootleg set 1)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "tigerhb2": {
       "parent": "tigerh",
@@ -2772,7 +2976,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (bootleg set 2)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "tigerhb3": {
       "parent": "tigerh",
@@ -2845,7 +3052,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (bootleg set 3)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "tigerhbt": {
       "parent": "tigerh",
@@ -2918,7 +3128,10 @@
           "n": "82s129.12n",
           "c": "25f273f2"
         }
-      ]
+      ],
+      "t": "Tiger-Heli (Tecfri bootleg)",
+      "y": "1985",
+      "m": "bootleg (Tecfri)"
     },
     "alcon": {
       "parent": null,
@@ -3011,7 +3224,10 @@
           "n": "18_82s123.2b",
           "c": "aa0ca5a5"
         }
-      ]
+      ],
+      "t": "Alcon (US)",
+      "y": "1986",
+      "m": "Toaplan / Taito America Corp."
     },
     "slapfigh": {
       "parent": "alcon",
@@ -3104,7 +3320,10 @@
           "n": "18_82s123.2b",
           "c": "aa0ca5a5"
         }
-      ]
+      ],
+      "t": "Slap Fight (A77 set, 8606M PCB)",
+      "y": "1986",
+      "m": "Toaplan / Taito"
     },
     "slapfigha": {
       "parent": "alcon",
@@ -3201,7 +3420,10 @@
           "n": "18_82s123.2b",
           "c": "aa0ca5a5"
         }
-      ]
+      ],
+      "t": "Slap Fight (A76 set, GX-006-A PCB)",
+      "y": "1986",
+      "m": "Toaplan / Taito"
     },
     "slapfighb1": {
       "parent": "alcon",
@@ -3270,7 +3492,10 @@
           "n": "sf_col19.bin",
           "c": "5cbf9fbf"
         }
-      ]
+      ],
+      "t": "Slap Fight (bootleg set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "slapfighb2": {
       "parent": "alcon",
@@ -3343,7 +3568,10 @@
           "n": "sf_col19.bin",
           "c": "5cbf9fbf"
         }
-      ]
+      ],
+      "t": "Slap Fight (bootleg set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "slapfighb3": {
       "parent": "alcon",
@@ -3420,7 +3648,10 @@
           "n": "sf_col19.bin",
           "c": "5cbf9fbf"
         }
-      ]
+      ],
+      "t": "Slap Fight (bootleg set 3)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "grdian": {
       "parent": null,
@@ -3497,7 +3728,10 @@
           "n": "rom19.12p",
           "c": "513224f0"
         }
-      ]
+      ],
+      "t": "Guardian (US)",
+      "y": "1986",
+      "m": "Toaplan / Taito America Corporation (Kitkorp license)"
     },
     "getstarj": {
       "parent": "grdian",
@@ -3574,7 +3808,10 @@
           "n": "rom19.12p",
           "c": "513224f0"
         }
-      ]
+      ],
+      "t": "Get Star (Japan)",
+      "y": "1986",
+      "m": "Toaplan / Taito"
     },
     "getstarb1": {
       "parent": "grdian",
@@ -3667,7 +3904,10 @@
           "n": "getstar_p9_b.8b",
           "c": "48ac3db4"
         }
-      ]
+      ],
+      "t": "Get Star (bootleg set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "getstarb2": {
       "parent": "grdian",
@@ -3740,7 +3980,10 @@
           "n": "rom19",
           "c": "513224f0"
         }
-      ]
+      ],
+      "t": "Get Star (bootleg set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "snowbro2": {
       "parent": null,
@@ -3769,7 +4012,10 @@
           "n": "rom4",
           "c": "638f341e"
         }
-      ]
+      ],
+      "t": "Snow Bros. 2 - With New Elves / Otenki Paradise (Hanafram)",
+      "y": "1994",
+      "m": "Hanafram"
     },
     "snowbro2ny": {
       "parent": "snowbro2",
@@ -3798,7 +4044,10 @@
           "n": "rom4-tp-033.u33",
           "c": "638f341e"
         }
-      ]
+      ],
+      "t": "Snow Bros. 2 - With New Elves / Otenki Paradise (Nyanko)",
+      "y": "1994",
+      "m": "Nyanko"
     },
     "snowbro2b": {
       "parent": "snowbro2",
@@ -3827,7 +4076,10 @@
           "n": "sb2-unk.u100",
           "c": "456dd16e"
         }
-      ]
+      ],
+      "t": "Snow Bros. 2 - With New Elves / Otenki Paradise (bootleg, set 1)",
+      "y": "1998",
+      "m": "bootleg"
     },
     "snowbro2b2": {
       "parent": "snowbro2",
@@ -3872,7 +4124,10 @@
           "n": "rom09.bin",
           "c": "638f341e"
         }
-      ]
+      ],
+      "t": "Snow Bros. 2 - With New Elves / Otenki Paradise (bootleg, set 2)",
+      "y": "1994",
+      "m": "bootleg (Q Elec)"
     },
     "tekipaki": {
       "parent": null,
@@ -3897,7 +4152,10 @@
           "n": "hd647180.020",
           "c": "d5157c12"
         }
-      ]
+      ],
+      "t": "Teki Paki",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "tekipakit": {
       "parent": "tekipaki",
@@ -3922,7 +4180,10 @@
           "n": "hd647180.020",
           "c": "d5157c12"
         }
-      ]
+      ],
+      "t": "Teki Paki (location test)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "whoopee": {
       "parent": "pipibibs",
@@ -3947,7 +4208,10 @@
           "n": "hd647180.025",
           "c": "c02436f6"
         }
-      ]
+      ],
+      "t": "Pipi & Bibis / Whoopee!! (Teki Paki hardware)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "rallybik": {
       "parent": null,
@@ -4020,7 +4284,10 @@
           "n": "b45-17.bpr",
           "c": "bc88cced"
         }
-      ]
+      ],
+      "t": "Rally Bike (Europe, US) / Dash Yarou (Japan)",
+      "y": "1988",
+      "m": "Toaplan / Taito Corporation"
     },
     "truxton": {
       "parent": null,
@@ -4077,7 +4344,10 @@
           "n": "b65_13.6d",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Truxton (Europe, US) / Tatsujin (Japan)",
+      "y": "1988",
+      "m": "Toaplan / Taito Corporation"
     },
     "hellfire": {
       "parent": null,
@@ -4134,7 +4404,10 @@
           "n": "12.rom12.6b",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Hellfire (2P set)",
+      "y": "1989",
+      "m": "Toaplan (Taito license)"
     },
     "hellfire1": {
       "parent": "hellfire",
@@ -4191,7 +4464,10 @@
           "n": "12.rom12.6b",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Hellfire (1P set)",
+      "y": "1989",
+      "m": "Toaplan (Taito license)"
     },
     "hellfire2a": {
       "parent": "hellfire",
@@ -4248,7 +4524,10 @@
           "n": "12.rom12.6b",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Hellfire (2P set, older)",
+      "y": "1989",
+      "m": "Toaplan (Taito license)"
     },
     "hellfire1a": {
       "parent": "hellfire",
@@ -4305,7 +4584,10 @@
           "n": "12.rom12.6b",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Hellfire (1P set, older)",
+      "y": "1989",
+      "m": "Toaplan (Taito license)"
     },
     "zerowing": {
       "parent": null,
@@ -4370,7 +4652,10 @@
           "n": "tp015_15.prom15.2c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Zero Wing (2P set)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "zerowing1": {
       "parent": "zerowing",
@@ -4435,7 +4720,10 @@
           "n": "tp015_15.prom15.2c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Zero Wing (1P set)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "zerowingw": {
       "parent": "zerowing",
@@ -4500,7 +4788,10 @@
           "n": "tp015_15.prom15.2c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Zero Wing (2P set, Williams license)",
+      "y": "1989",
+      "m": "Toaplan (Williams license)"
     },
     "demonwld": {
       "parent": null,
@@ -4565,7 +4856,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 1)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "demonwld1": {
       "parent": "demonwld",
@@ -4630,7 +4924,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 2)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "demonwld2": {
       "parent": "demonwld",
@@ -4695,7 +4992,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 3)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "demonwld3": {
       "parent": "demonwld",
@@ -4760,7 +5060,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 4)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "demonwld4": {
       "parent": "demonwld",
@@ -4825,7 +5128,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 5)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "demonwld5": {
       "parent": "demonwld",
@@ -4890,7 +5196,10 @@
           "n": "prom13.bpr",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Demon's World (World) / Horror Story (Japan) (set 6)",
+      "y": "1989",
+      "m": "Toaplan (APM Electronics license)"
     },
     "samesame": {
       "parent": "fireshrk",
@@ -4955,7 +5264,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Same! Same! Same! (Japan, 1P set)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "samesame2": {
       "parent": "fireshrk",
@@ -5020,7 +5332,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Same! Same! Same! (Japan, 2P set)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "samesamecn": {
       "parent": "fireshrk",
@@ -5085,7 +5400,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Jiao! Jiao! Jiao! (China, 2P set)",
+      "y": "1990",
+      "m": "Toaplan (Hong Kong Honest Trading license)"
     },
     "samesamenh": {
       "parent": "fireshrk",
@@ -5150,7 +5468,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Same! Same! Same! (Japan, 1P set, NEW VER! hack)",
+      "y": "2015",
+      "m": "hack (trap15)"
     },
     "fireshrk": {
       "parent": null,
@@ -5215,7 +5536,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Fire Shark",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "fireshrka": {
       "parent": "fireshrk",
@@ -5280,7 +5604,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Fire Shark (earlier)",
+      "y": "1989",
+      "m": "Toaplan"
     },
     "fireshrkd": {
       "parent": "fireshrk",
@@ -5345,7 +5672,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Fire Shark (Korea, set 1, easier)",
+      "y": "1990",
+      "m": "Toaplan (Dooyong license)"
     },
     "fireshrkdh": {
       "parent": "fireshrk",
@@ -5410,7 +5740,10 @@
           "n": "prom15.20c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Fire Shark (Korea, set 2, harder)",
+      "y": "1990",
+      "m": "Toaplan (Dooyong license)"
     },
     "outzone": {
       "parent": null,
@@ -5459,7 +5792,10 @@
           "n": "tp018_11.rom11.22c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "outzoneh": {
       "parent": "outzone",
@@ -5508,7 +5844,10 @@
           "n": "tp018_11.rom11.22c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone (harder)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "outzonea": {
       "parent": "outzone",
@@ -5557,7 +5896,10 @@
           "n": "tp018_11.rom11.22c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone (old set)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "outzoneb": {
       "parent": "outzone",
@@ -5606,7 +5948,10 @@
           "n": "tp018_11.rom11.22c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone (older set)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "outzonec": {
       "parent": "outzone",
@@ -5655,7 +6000,10 @@
           "n": "tp018_11.rom11.22c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone (oldest set)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "outzonecv": {
       "parent": "outzone",
@@ -5704,7 +6052,10 @@
           "n": "tp015_15.prom15.2c",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Out Zone (Zero Wing TP-015 PCB conversion)",
+      "y": "1990",
+      "m": "Toaplan"
     },
     "vimana": {
       "parent": null,
@@ -5753,7 +6104,10 @@
           "n": "019rom10.prom10.4h",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Vimana (World, rev A)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "vimanan": {
       "parent": "vimana",
@@ -5802,7 +6156,10 @@
           "n": "019rom10.prom10.4h",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Vimana (World)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "vimanaj": {
       "parent": "vimana",
@@ -5851,7 +6208,10 @@
           "n": "019rom10.prom10.4h",
           "c": "a1e17492"
         }
-      ]
+      ],
+      "t": "Vimana (Japan)",
+      "y": "1991",
+      "m": "Toaplan"
     },
     "truxton2": {
       "parent": null,
@@ -5872,7 +6232,10 @@
           "n": "tp024_2.bin",
           "c": "f2f6cae4"
         }
-      ]
+      ],
+      "t": "Truxton II / Tatsujin Oh",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "twincobr": {
       "parent": null,
@@ -5985,7 +6348,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Twin Cobra (World)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation"
     },
     "twincobru": {
       "parent": "twincobr",
@@ -6098,7 +6464,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Twin Cobra (US)",
+      "y": "1987",
+      "m": "Toaplan / Taito America Corporation (Romstar license)"
     },
     "ktiger": {
       "parent": "twincobr",
@@ -6207,7 +6576,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Kyukyoku Tiger (Japan, 2 player cooperative)",
+      "y": "1989",
+      "m": "Toaplan / Taito Corporation"
     },
     "ktigera": {
       "parent": "twincobr",
@@ -6316,7 +6688,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Kyukyoku Tiger (Japan, 2 player alternate)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation"
     },
     "fshark": {
       "parent": null,
@@ -6417,7 +6792,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Flying Shark (World)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation"
     },
     "skyshark": {
       "parent": "fshark",
@@ -6518,7 +6896,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Sky Shark (US, set 1)",
+      "y": "1987",
+      "m": "Toaplan / Taito America Corporation (Romstar license)"
     },
     "skysharka": {
       "parent": "fshark",
@@ -6619,7 +7000,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Sky Shark (US, set 2)",
+      "y": "1987",
+      "m": "Toaplan / Taito America Corporation (Romstar license)"
     },
     "hishouza": {
       "parent": "fshark",
@@ -6720,7 +7104,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Hishou Zame (Japan)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation"
     },
     "fsharkb": {
       "parent": "fshark",
@@ -6849,7 +7236,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Flying Shark (World, bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "hishouzab": {
       "parent": "fshark",
@@ -6978,7 +7368,10 @@
           "n": "b02-23.f28",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Hishou Zame (Japan, bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "fsharkbt": {
       "parent": "fshark",
@@ -7099,7 +7492,10 @@
           "n": "clr3.bpr",
           "c": "016fe2f7"
         }
-      ]
+      ],
+      "t": "Flying Shark (bootleg with 8741)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "fnshark": {
       "parent": "fshark",
@@ -7204,7 +7600,10 @@
           "n": "82s123.ic99",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Flyin' Shark (bootleg of Hishou Zame)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "skysharkb": {
       "parent": "fshark",
@@ -7309,7 +7708,10 @@
           "n": "82s123.ic99",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Sky Shark (bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "gulfwar2": {
       "parent": null,
@@ -7414,7 +7816,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Gulf War II (set 1)",
+      "y": "1991",
+      "m": "Comad"
     },
     "gulfwar2a": {
       "parent": "gulfwar2",
@@ -7519,7 +7924,10 @@
           "n": "82s123.b24",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Gulf War II (set 2)",
+      "y": "1991",
+      "m": "Comad"
     },
     "vfive": {
       "parent": "grindstm",
@@ -7536,7 +7944,10 @@
           "n": "tp027_03.bin",
           "c": "b1fc6362"
         }
-      ]
+      ],
+      "t": "V-Five (Japan)",
+      "y": "1993",
+      "m": "Toaplan"
     },
     "grindstm": {
       "parent": null,
@@ -7553,7 +7964,10 @@
           "n": "tp027_03.bin",
           "c": "b1fc6362"
         }
-      ]
+      ],
+      "t": "Grind Stormer",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "grindstma": {
       "parent": "grindstm",
@@ -7570,7 +7984,10 @@
           "n": "tp027_03.bin",
           "c": "b1fc6362"
         }
-      ]
+      ],
+      "t": "Grind Stormer (older set)",
+      "y": "1992",
+      "m": "Toaplan"
     },
     "wardner": {
       "parent": null,
@@ -7679,7 +8096,10 @@
           "n": "82s123.f1",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Wardner (World)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation Japan"
     },
     "wardnerb": {
       "parent": "wardner",
@@ -7816,7 +8236,10 @@
           "n": "82s123.f1",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Wardner (World, bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "pyros": {
       "parent": "wardner",
@@ -7925,7 +8348,10 @@
           "n": "82s123.f1",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Pyros (US)",
+      "y": "1987",
+      "m": "Toaplan / Taito America Corporation"
     },
     "wardnerj": {
       "parent": "wardner",
@@ -8034,7 +8460,10 @@
           "n": "82s123.f1",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Wardner no Mori (Japan)",
+      "y": "1987",
+      "m": "Toaplan / Taito Corporation"
     },
     "wardnerjb": {
       "parent": "wardner",
@@ -8171,7 +8600,10 @@
           "n": "82s123.f1",
           "c": "4fb5df2a"
         }
-      ]
+      ],
+      "t": "Wardner no Mori (Japan, bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     }
   }
 }

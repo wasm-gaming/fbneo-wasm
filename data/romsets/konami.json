@@ -148,7 +148,10 @@
           "n": "861.g3",
           "c": "429785db"
         }
-      ]
+      ],
+      "t": "'88 Games",
+      "y": "1988",
+      "m": "Konami"
     },
     "konami88": {
       "parent": "88games",
@@ -297,7 +300,10 @@
           "n": "861.g3",
           "c": "429785db"
         }
-      ]
+      ],
+      "t": "Konami '88",
+      "y": "1988",
+      "m": "Konami"
     },
     "hypsptsp": {
       "parent": "88games",
@@ -446,7 +452,10 @@
           "n": "861.g3",
           "c": "429785db"
         }
-      ]
+      ],
+      "t": "Hyper Sports Special (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "ajax": {
       "parent": null,
@@ -627,7 +636,10 @@
           "n": "63s241.j11",
           "c": "9bdd719f"
         }
-      ]
+      ],
+      "t": "Ajax",
+      "y": "1987",
+      "m": "Konami"
     },
     "typhoon": {
       "parent": "ajax",
@@ -688,7 +700,10 @@
           "n": "63s241.j11",
           "c": "9bdd719f"
         }
-      ]
+      ],
+      "t": "Typhoon",
+      "y": "1987",
+      "m": "Konami"
     },
     "ajaxj": {
       "parent": "ajax",
@@ -749,7 +764,10 @@
           "n": "63s241.j11",
           "c": "9bdd719f"
         }
-      ]
+      ],
+      "t": "Ajax (Japan)",
+      "y": "1987",
+      "m": "Konami"
     },
     "aliens": {
       "parent": null,
@@ -806,7 +824,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (World set 1)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliens2": {
       "parent": "aliens",
@@ -863,7 +884,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (World set 2)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliens3": {
       "parent": "aliens",
@@ -920,7 +944,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (World set 3)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliens4": {
       "parent": "aliens",
@@ -977,7 +1004,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (World set 4)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliensu": {
       "parent": "aliens",
@@ -1034,7 +1064,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (US, set 1)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliensu2": {
       "parent": "aliens",
@@ -1091,7 +1124,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (US, set 2)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliensj": {
       "parent": "aliens",
@@ -1148,7 +1184,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (Japan set 1)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliensj2": {
       "parent": "aliens",
@@ -1205,7 +1244,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (Japan set 2)",
+      "y": "1990",
+      "m": "Konami"
     },
     "aliensa": {
       "parent": "aliens",
@@ -1262,7 +1304,10 @@
           "n": "821a08.h14",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Aliens (Asia)",
+      "y": "1990",
+      "m": "Konami"
     },
     "asterix": {
       "parent": null,
@@ -1311,7 +1356,10 @@
           "n": "asterix.nv",
           "c": "490085c8"
         }
-      ]
+      ],
+      "t": "Asterix (ver EAD)",
+      "y": "1992",
+      "m": "Konami"
     },
     "asterixeac": {
       "parent": "asterix",
@@ -1360,7 +1408,10 @@
           "n": "asterixeac.nv",
           "c": "490085c8"
         }
-      ]
+      ],
+      "t": "Asterix (ver EAC)",
+      "y": "1992",
+      "m": "Konami"
     },
     "asterixeaa": {
       "parent": "asterix",
@@ -1409,7 +1460,10 @@
           "n": "asterixeaa.nv",
           "c": "30275de0"
         }
-      ]
+      ],
+      "t": "Asterix (ver EAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "asterixaad": {
       "parent": "asterix",
@@ -1458,7 +1512,10 @@
           "n": "asterixaad.nv",
           "c": "bcca86a7"
         }
-      ]
+      ],
+      "t": "Asterix (ver AAD)",
+      "y": "1992",
+      "m": "Konami"
     },
     "asterixj": {
       "parent": "asterix",
@@ -1507,7 +1564,10 @@
           "n": "asterixj.nv",
           "c": "84229f2c"
         }
-      ]
+      ],
+      "t": "Asterix (ver JAD)",
+      "y": "1992",
+      "m": "Konami"
     },
     "battlnts": {
       "parent": null,
@@ -1532,7 +1592,10 @@
           "n": "777c05.13e",
           "c": "aeee778c"
         }
-      ]
+      ],
+      "t": "Battlantis (version G)",
+      "y": "1987",
+      "m": "Konami"
     },
     "battlntsa": {
       "parent": "battlnts",
@@ -1557,7 +1620,10 @@
           "n": "777c05.13e",
           "c": "aeee778c"
         }
-      ]
+      ],
+      "t": "Battlantis (version F)",
+      "y": "1987",
+      "m": "Konami"
     },
     "battlntsj": {
       "parent": "battlnts",
@@ -1582,7 +1648,10 @@
           "n": "777c05.13e",
           "c": "aeee778c"
         }
-      ]
+      ],
+      "t": "Battlantis (Japan, version E)",
+      "y": "1987",
+      "m": "Konami"
     },
     "rackemup": {
       "parent": null,
@@ -1607,7 +1676,10 @@
           "n": "765_l05.13e",
           "c": "1bb6855f"
         }
-      ]
+      ],
+      "t": "Rack 'em Up (version L)",
+      "y": "1987",
+      "m": "Konami"
     },
     "thehustl": {
       "parent": "rackemup",
@@ -1632,7 +1704,10 @@
           "n": "765_e05.13e",
           "c": "ef044655"
         }
-      ]
+      ],
+      "t": "The Hustler (Japan, version M)",
+      "y": "1987",
+      "m": "Konami"
     },
     "thehustlj": {
       "parent": "rackemup",
@@ -1657,7 +1732,10 @@
           "n": "765_e05.13e",
           "c": "ef044655"
         }
-      ]
+      ],
+      "t": "The Hustler (Japan, version J)",
+      "y": "1987",
+      "m": "Konami"
     },
     "bishi": {
       "parent": null,
@@ -1702,7 +1780,10 @@
           "n": "575jaa04.8f",
           "c": "0120967f"
         }
-      ]
+      ],
+      "t": "Bishi Bashi Champ Mini Game Senshuken (ver JAA, 3 Players)",
+      "y": "1996",
+      "m": "Konami"
     },
     "sbishi": {
       "parent": null,
@@ -1747,7 +1828,10 @@
           "n": "675jaa04.8f",
           "c": "1d1de34e"
         }
-      ]
+      ],
+      "t": "Super Bishi Bashi Champ (ver JAA, 2 Players)",
+      "y": "1998",
+      "m": "Konami"
     },
     "sbishik": {
       "parent": "sbishi",
@@ -1792,7 +1876,10 @@
           "n": "675kaa04.8f",
           "c": "ebcbd813"
         }
-      ]
+      ],
+      "t": "Super Bishi Bashi Champ (ver KAB, 3 Players)",
+      "y": "1998",
+      "m": "Konami"
     },
     "sbishika": {
       "parent": "sbishi",
@@ -1837,7 +1924,10 @@
           "n": "675kaa04.8f",
           "c": "ebcbd813"
         }
-      ]
+      ],
+      "t": "Super Bishi Bashi Champ (ver KAA, 3 Players)",
+      "y": "1998",
+      "m": "Konami"
     },
     "bladestl": {
       "parent": null,
@@ -1870,7 +1960,10 @@
           "n": "797a04.9a",
           "c": "9ac8ea4e"
         }
-      ]
+      ],
+      "t": "Blades of Steel (version T, Joystick)",
+      "y": "1987",
+      "m": "Konami"
     },
     "bladestll": {
       "parent": "bladestl",
@@ -1903,7 +1996,10 @@
           "n": "797a04.9a",
           "c": "9ac8ea4e"
         }
-      ]
+      ],
+      "t": "Blades of Steel (version L, Trackball)",
+      "y": "1987",
+      "m": "Konami"
     },
     "bladestle": {
       "parent": "bladestl",
@@ -1936,7 +2032,10 @@
           "n": "797a04.9a",
           "c": "9ac8ea4e"
         }
-      ]
+      ],
+      "t": "Blades of Steel (version E, Trackball)",
+      "y": "1987",
+      "m": "Konami"
     },
     "blockhl": {
       "parent": null,
@@ -1985,7 +2084,10 @@
           "n": "973a11.h10",
           "c": "46d28fe9"
         }
-      ]
+      ],
+      "t": "Block Hole",
+      "y": "1989",
+      "m": "Konami"
     },
     "quarth": {
       "parent": "blockhl",
@@ -2034,7 +2136,10 @@
           "n": "973a11.h10",
           "c": "46d28fe9"
         }
-      ]
+      ],
+      "t": "Quarth (Japan)",
+      "y": "1989",
+      "m": "Konami"
     },
     "bottom9": {
       "parent": null,
@@ -2191,7 +2296,10 @@
           "n": "891b11.f23",
           "c": "ecb854aa"
         }
-      ]
+      ],
+      "t": "Bottom of the Ninth (version T)",
+      "y": "1989",
+      "m": "Konami"
     },
     "bottom9n": {
       "parent": "bottom9",
@@ -2348,7 +2456,10 @@
           "n": "891b11.f23",
           "c": "ecb854aa"
         }
-      ]
+      ],
+      "t": "Bottom of the Ninth (version N)",
+      "y": "1989",
+      "m": "Konami"
     },
     "mstadium": {
       "parent": "bottom9",
@@ -2505,7 +2616,10 @@
           "n": "891b11.f23",
           "c": "ecb854aa"
         }
-      ]
+      ],
+      "t": "Main Stadium (Japan)",
+      "y": "1989",
+      "m": "Konami"
     },
     "chqflag": {
       "parent": null,
@@ -2558,7 +2672,10 @@
           "n": "717e09",
           "c": "d74e857d"
         }
-      ]
+      ],
+      "t": "Chequered Flag",
+      "y": "1988",
+      "m": "Konami"
     },
     "chqflagj": {
       "parent": "chqflag",
@@ -2611,7 +2728,10 @@
           "n": "717e09",
           "c": "d74e857d"
         }
-      ]
+      ],
+      "t": "Chequered Flag (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "circusc": {
       "parent": null,
@@ -2688,7 +2808,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (level select, set 1)",
+      "y": "1984",
+      "m": "Konami"
     },
     "circusc2": {
       "parent": "circusc",
@@ -2765,7 +2888,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (level select, set 2)",
+      "y": "1984",
+      "m": "Konami"
     },
     "circusc3": {
       "parent": "circusc",
@@ -2842,7 +2968,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (level select, set 3)",
+      "y": "1984",
+      "m": "Konami"
     },
     "circusc4": {
       "parent": "circusc",
@@ -2919,7 +3048,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (no level select)",
+      "y": "1984",
+      "m": "Konami"
     },
     "circuscc": {
       "parent": "circusc",
@@ -2996,7 +3128,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (Centuri)",
+      "y": "1984",
+      "m": "Konami (Centuri license)"
     },
     "circusce": {
       "parent": "circusc",
@@ -3073,7 +3208,10 @@
           "n": "380_j16.10c",
           "c": "c244f2aa"
         }
-      ]
+      ],
+      "t": "Circus Charlie (Centuri, earlier)",
+      "y": "1984",
+      "m": "Konami (Centuri license)"
     },
     "combatsc": {
       "parent": null,
@@ -3130,7 +3268,10 @@
           "n": "ampal16l8.e7",
           "c": "300a9936"
         }
-      ]
+      ],
+      "t": "Combat School (joystick)",
+      "y": "1988",
+      "m": "Konami"
     },
     "contra": {
       "parent": null,
@@ -3179,7 +3320,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (US / Asia, set 1)",
+      "y": "1987",
+      "m": "Konami"
     },
     "contra1": {
       "parent": "contra",
@@ -3228,7 +3372,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (US / Asia, set 2)",
+      "y": "1987",
+      "m": "Konami"
     },
     "contrae": {
       "parent": "contra",
@@ -3325,7 +3472,10 @@
           "n": "633e11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (US / Asia, set 3)",
+      "y": "1987",
+      "m": "Konami"
     },
     "contraj": {
       "parent": "contra",
@@ -3374,7 +3524,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (Japan, set 1)",
+      "y": "1987",
+      "m": "Konami"
     },
     "contraj1": {
       "parent": "contra",
@@ -3423,7 +3576,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (Japan, set 2)",
+      "y": "1987",
+      "m": "Konami"
     },
     "gryzor": {
       "parent": "contra",
@@ -3472,7 +3628,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Gryzor (set 1)",
+      "y": "1987",
+      "m": "Konami"
     },
     "gryzor1": {
       "parent": "contra",
@@ -3521,7 +3680,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Gryzor (set 2)",
+      "y": "1987",
+      "m": "Konami"
     },
     "contrab": {
       "parent": "contra",
@@ -3618,7 +3780,10 @@
           "n": "conprom.53",
           "c": "05a1da7e"
         }
-      ]
+      ],
+      "t": "Contra (bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "contrabj": {
       "parent": "contra",
@@ -3711,7 +3876,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (Japan bootleg, set 1)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "contrabj1": {
       "parent": "contra",
@@ -3804,7 +3972,10 @@
           "n": "633f11.20g",
           "c": "14ca5e19"
         }
-      ]
+      ],
+      "t": "Contra (Japan bootleg, set 2)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "crimfght": {
       "parent": null,
@@ -3841,7 +4012,10 @@
           "n": "821a08.i15",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Crime Fighters (World 2 players)",
+      "y": "1989",
+      "m": "Konami"
     },
     "crimfghtj": {
       "parent": "crimfght",
@@ -3878,7 +4052,10 @@
           "n": "821a08.i15",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Crime Fighters (Japan 2 Players)",
+      "y": "1989",
+      "m": "Konami"
     },
     "crimfghtu": {
       "parent": "crimfght",
@@ -3915,7 +4092,10 @@
           "n": "821a08.i15",
           "c": "7da55800"
         }
-      ]
+      ],
+      "t": "Crime Fighters (US 4 Players)",
+      "y": "1989",
+      "m": "Konami"
     },
     "dbz": {
       "parent": null,
@@ -3968,7 +4148,10 @@
           "n": "222a03.7c",
           "c": "1924467b"
         }
-      ]
+      ],
+      "t": "Dragon Ball Z (rev B)",
+      "y": "1993",
+      "m": "Banpresto"
     },
     "dbza": {
       "parent": "dbz",
@@ -4021,7 +4204,10 @@
           "n": "222a03.7c",
           "c": "1924467b"
         }
-      ]
+      ],
+      "t": "Dragon Ball Z (rev A)",
+      "y": "1993",
+      "m": "Banpresto"
     },
     "dbz2": {
       "parent": null,
@@ -4082,7 +4268,10 @@
           "n": "pcm.7c",
           "c": "b58c884a"
         }
-      ]
+      ],
+      "t": "Dragon Ball Z 2 - Super Battle",
+      "y": "1994",
+      "m": "Banpresto"
     },
     "ddribble": {
       "parent": null,
@@ -4135,7 +4324,10 @@
           "n": "pal10l8-007553.bin",
           "c": "0ae5a161"
         }
-      ]
+      ],
+      "t": "Double Dribble",
+      "y": "1986",
+      "m": "Konami"
     },
     "ddribblep": {
       "parent": "ddribble",
@@ -4212,7 +4404,10 @@
           "n": "voice_10.d7",
           "c": "b4c97494"
         }
-      ]
+      ],
+      "t": "Double Dribble (prototype?)",
+      "y": "1986",
+      "m": "Konami"
     },
     "divebomb": {
       "parent": null,
@@ -4341,7 +4536,10 @@
           "n": "u81.mb7114.bin",
           "c": "c59b0857"
         }
-      ]
+      ],
+      "t": "Kyuukoukabakugekitai - Dive Bomber Squad (Japan, prototype)",
+      "y": "1989",
+      "m": "Konami"
     },
     "fastlane": {
       "parent": null,
@@ -4370,7 +4568,10 @@
           "n": "752e05.12b",
           "c": "119e9cbf"
         }
-      ]
+      ],
+      "t": "Fast Lane",
+      "y": "1987",
+      "m": "Konami"
     },
     "finalizr": {
       "parent": null,
@@ -4431,7 +4632,10 @@
           "n": "523h12.10f",
           "c": "53166a2a"
         }
-      ]
+      ],
+      "t": "Finalizer - Super Transformation (set 1)",
+      "y": "1985",
+      "m": "Konami"
     },
     "finalizra": {
       "parent": "finalizr",
@@ -4492,7 +4696,10 @@
           "n": "523h12.10f",
           "c": "53166a2a"
         }
-      ]
+      ],
+      "t": "Finalizer - Super Transformation (set 2)",
+      "y": "1985",
+      "m": "Konami"
     },
     "finalizrb": {
       "parent": "finalizr",
@@ -4549,7 +4756,10 @@
           "n": "523h12.10f",
           "c": "53166a2a"
         }
-      ]
+      ],
+      "t": "Finalizer - Super Transformation (bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "mx5000": {
       "parent": null,
@@ -4570,7 +4780,10 @@
           "n": "gx669f03.5e",
           "c": "ff1d718b"
         }
-      ]
+      ],
+      "t": "MX5000 (version U)",
+      "y": "1987",
+      "m": "Konami"
     },
     "mx5000r": {
       "parent": "mx5000",
@@ -4591,7 +4804,10 @@
           "n": "gx669f03.5e",
           "c": "ff1d718b"
         }
-      ]
+      ],
+      "t": "MX5000 (version R)",
+      "y": "1987",
+      "m": "Konami"
     },
     "flkatck": {
       "parent": "mx5000",
@@ -4612,7 +4828,10 @@
           "n": "gx669f03.5e",
           "c": "ff1d718b"
         }
-      ]
+      ],
+      "t": "Flak Attack (Japan, version P)",
+      "y": "1987",
+      "m": "Konami"
     },
     "flkatcka": {
       "parent": "mx5000",
@@ -4661,7 +4880,10 @@
           "n": "669_f03h.7d",
           "c": "abfe76e7"
         }
-      ]
+      ],
+      "t": "Flak Attack (Japan, version P, PWB 450593 sub-board)",
+      "y": "1987",
+      "m": "Konami"
     },
     "gberet": {
       "parent": null,
@@ -4710,7 +4932,10 @@
           "n": "577h10.5f",
           "c": "e9de1e53"
         }
-      ]
+      ],
+      "t": "Green Beret",
+      "y": "1985",
+      "m": "Konami"
     },
     "rushatck": {
       "parent": "gberet",
@@ -4759,7 +4984,10 @@
           "n": "577h10.5f",
           "c": "e9de1e53"
         }
-      ]
+      ],
+      "t": "Rush'n Attack (US)",
+      "y": "1985",
+      "m": "Konami"
     },
     "gberetb": {
       "parent": "gberet",
@@ -4816,7 +5044,10 @@
           "n": "pal16r6_ic35.5h",
           "c": "bd76fb53"
         }
-      ]
+      ],
+      "t": "Green Beret (bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "mrgoemon": {
       "parent": null,
@@ -4853,7 +5084,10 @@
           "n": "621a07.6f",
           "c": "3980acdc"
         }
-      ]
+      ],
+      "t": "Mr. Goemon (Japan)",
+      "y": "1986",
+      "m": "Konami"
     },
     "gbusters": {
       "parent": null,
@@ -4894,7 +5128,10 @@
           "n": "878a09.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Gang Busters (set 1)",
+      "y": "1988",
+      "m": "Konami"
     },
     "gbustersa": {
       "parent": "gbusters",
@@ -4935,7 +5172,10 @@
           "n": "878a09.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Gang Busters (set 2)",
+      "y": "1988",
+      "m": "Konami"
     },
     "crazycop": {
       "parent": "gbusters",
@@ -4976,7 +5216,10 @@
           "n": "878a09.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Crazy Cop (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "gijoe": {
       "parent": null,
@@ -5033,7 +5276,10 @@
           "n": "er5911.7d",
           "c": "a0d50a79"
         }
-      ]
+      ],
+      "t": "G.I. Joe (World, EAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoeea": {
       "parent": "gijoe",
@@ -5090,7 +5336,10 @@
           "n": "er5911.7d",
           "c": "64f5c87b"
         }
-      ]
+      ],
+      "t": "G.I. Joe (World, EB8, prototype?)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoeu": {
       "parent": "gijoe",
@@ -5147,7 +5396,10 @@
           "n": "er5911.7d",
           "c": "ca966023"
         }
-      ]
+      ],
+      "t": "G.I. Joe (US, UAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoeua": {
       "parent": "gijoe",
@@ -5220,7 +5472,10 @@
           "n": "er5911.7d",
           "c": "33b07813"
         }
-      ]
+      ],
+      "t": "G.I. Joe (US, UAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoej": {
       "parent": "gijoe",
@@ -5277,7 +5532,10 @@
           "n": "er5911.7d",
           "c": "c914fcf2"
         }
-      ]
+      ],
+      "t": "G.I. Joe (Japan, JAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoea": {
       "parent": "gijoe",
@@ -5334,7 +5592,10 @@
           "n": "er5911.7d",
           "c": "e5676727"
         }
-      ]
+      ],
+      "t": "G.I. Joe (Asia, AAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gijoeaa": {
       "parent": "gijoe",
@@ -5391,7 +5652,10 @@
           "n": "er5911.7d",
           "c": "6363513c"
         }
-      ]
+      ],
+      "t": "G.I. Joe (Asia, AA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "gradius3": {
       "parent": null,
@@ -5496,7 +5760,10 @@
           "n": "945l14.j28",
           "c": "c778c189"
         }
-      ]
+      ],
+      "t": "Gradius III (World, version R)",
+      "y": "1989",
+      "m": "Konami"
     },
     "gradius3j": {
       "parent": "gradius3",
@@ -5601,7 +5868,10 @@
           "n": "945l14.j28",
           "c": "c778c189"
         }
-      ]
+      ],
+      "t": "Gradius III: Densetsu kara Shinwa e (Japan, version 3, newer)",
+      "y": "1989",
+      "m": "Konami"
     },
     "gradius3ja": {
       "parent": "gradius3",
@@ -5706,7 +5976,10 @@
           "n": "945l14.j28",
           "c": "c778c189"
         }
-      ]
+      ],
+      "t": "Gradius III: Densetsu kara Shinwa e (Japan, version S)",
+      "y": "1989",
+      "m": "Konami"
     },
     "gradius3jas": {
       "parent": "gradius3",
@@ -5839,7 +6112,10 @@
           "n": "945l14.j28",
           "c": "c778c189"
         }
-      ]
+      ],
+      "t": "Gradius III: Densetsu kara Shinwa e (Japan, version S, split)",
+      "y": "1989",
+      "m": "Konami"
     },
     "gradius3a": {
       "parent": "gradius3",
@@ -5944,7 +6220,10 @@
           "n": "945l14.j28",
           "c": "c778c189"
         }
-      ]
+      ],
+      "t": "Gradius III (Asia)",
+      "y": "1989",
+      "m": "Konami"
     },
     "gyruss": {
       "parent": null,
@@ -6009,7 +6288,10 @@
           "n": "gyrussk.pr2",
           "c": "de823a81"
         }
-      ]
+      ],
+      "t": "Gyruss",
+      "y": "1983",
+      "m": "Konami"
     },
     "gyrussce": {
       "parent": "gyruss",
@@ -6074,7 +6356,10 @@
           "n": "gyrussk.pr2",
           "c": "de823a81"
         }
-      ]
+      ],
+      "t": "Gyruss (Centuri)",
+      "y": "1983",
+      "m": "Konami (Centuri license)"
     },
     "gyrussb": {
       "parent": "gyruss",
@@ -6139,7 +6424,10 @@
           "n": "gyrussk.pr2",
           "c": "de823a81"
         }
-      ]
+      ],
+      "t": "Gyruss (bootleg?)",
+      "y": "1983",
+      "m": "bootleg?"
     },
     "venus": {
       "parent": "gyruss",
@@ -6204,7 +6492,10 @@
           "n": "gyrussk.pr2",
           "c": "de823a81"
         }
-      ]
+      ],
+      "t": "Venus (bootleg of Gyruss)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "hcastle": {
       "parent": null,
@@ -6261,7 +6552,10 @@
           "n": "768b12.d20",
           "c": "362544b8"
         }
-      ]
+      ],
+      "t": "Haunted Castle (version M)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hcastlek": {
       "parent": "hcastle",
@@ -6318,7 +6612,10 @@
           "n": "768b12.d20",
           "c": "362544b8"
         }
-      ]
+      ],
+      "t": "Haunted Castle (version K)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hcastlee": {
       "parent": "hcastle",
@@ -6375,7 +6672,10 @@
           "n": "768b12.d20",
           "c": "362544b8"
         }
-      ]
+      ],
+      "t": "Haunted Castle (version E)",
+      "y": "1988",
+      "m": "Konami"
     },
     "akumajou": {
       "parent": "hcastle",
@@ -6432,7 +6732,10 @@
           "n": "768b12.d20",
           "c": "362544b8"
         }
-      ]
+      ],
+      "t": "Akuma-Jou Dracula (Japan version P)",
+      "y": "1988",
+      "m": "Konami"
     },
     "akumajoun": {
       "parent": "hcastle",
@@ -6489,7 +6792,10 @@
           "n": "768b12.d20",
           "c": "362544b8"
         }
-      ]
+      ],
+      "t": "Akuma-Jou Dracula (Japan version N)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hexion": {
       "parent": null,
@@ -6522,7 +6828,10 @@
           "n": "122a02.13b",
           "c": "5734305c"
         }
-      ]
+      ],
+      "t": "Hexion (Japan ver JAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "hexionb": {
       "parent": "hexion",
@@ -6559,7 +6868,10 @@
           "n": "hexionb.u18",
           "c": "c179d315"
         }
-      ]
+      ],
+      "t": "Hexion (Asia ver AAA, bootleg)",
+      "y": "1992",
+      "m": "bootleg (Impeuropex Corp.)"
     },
     "hyperspt": {
       "parent": null,
@@ -6660,7 +6972,10 @@
           "n": "c08",
           "c": "e8f8ea78"
         }
-      ]
+      ],
+      "t": "Hyper Sports",
+      "y": "1984",
+      "m": "Konami (Centuri license)"
     },
     "hypersptb": {
       "parent": "hyperspt",
@@ -6773,7 +7088,10 @@
           "n": "7.20b",
           "c": "607a36df"
         }
-      ]
+      ],
+      "t": "Hyper Sports (bootleg)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "hpolym84": {
       "parent": "hyperspt",
@@ -6874,7 +7192,10 @@
           "n": "c08",
           "c": "e8f8ea78"
         }
-      ]
+      ],
+      "t": "Hyper Olympic '84",
+      "y": "1984",
+      "m": "Konami"
     },
     "roadf": {
       "parent": null,
@@ -6943,7 +7264,10 @@
           "n": "a09_c29.bin",
           "c": "5b3b5f2a"
         }
-      ]
+      ],
+      "t": "Road Fighter (set 1)",
+      "y": "1984",
+      "m": "Konami"
     },
     "roadf2": {
       "parent": "roadf",
@@ -7012,7 +7336,10 @@
           "n": "a09_c29.bin",
           "c": "5b3b5f2a"
         }
-      ]
+      ],
+      "t": "Road Fighter (set 2)",
+      "y": "1984",
+      "m": "Konami"
     },
     "roadf3": {
       "parent": "roadf",
@@ -7085,7 +7412,10 @@
           "n": "82s129.a9",
           "c": "5b3b5f2a"
         }
-      ]
+      ],
+      "t": "Road Fighter (set 3, conversion hack on Hyper Sports PCB)",
+      "y": "1984",
+      "m": "hack"
     },
     "ironhors": {
       "parent": null,
@@ -7138,7 +7468,10 @@
           "n": "10f_h11.bin",
           "c": "a63e37d8"
         }
-      ]
+      ],
+      "t": "Iron Horse (version K)",
+      "y": "1986",
+      "m": "Konami"
     },
     "ironhorsh": {
       "parent": "ironhors",
@@ -7191,7 +7524,10 @@
           "n": "10f_h11.bin",
           "c": "a63e37d8"
         }
-      ]
+      ],
+      "t": "Iron Horse (version H)",
+      "y": "1986",
+      "m": "Konami"
     },
     "dairesya": {
       "parent": "ironhors",
@@ -7244,7 +7580,10 @@
           "n": "10f_h11.bin",
           "c": "a63e37d8"
         }
-      ]
+      ],
+      "t": "Dai Ressya Goutou (Japan, version K)",
+      "y": "1986",
+      "m": "Konami (Kawakusu license)"
     },
     "farwest": {
       "parent": "ironhors",
@@ -7309,7 +7648,10 @@
           "n": "ironcol.005",
           "c": "15077b9c"
         }
-      ]
+      ],
+      "t": "Far West",
+      "y": "1986",
+      "m": "bootleg?"
     },
     "jackal": {
       "parent": null,
@@ -7350,7 +7692,10 @@
           "n": "631r09.14h",
           "c": "a74dd86c"
         }
-      ]
+      ],
+      "t": "Jackal (World, 8-way Joystick)",
+      "y": "1986",
+      "m": "Konami"
     },
     "jackalr": {
       "parent": "jackal",
@@ -7407,7 +7752,10 @@
           "n": "631r09.14h",
           "c": "a74dd86c"
         }
-      ]
+      ],
+      "t": "Jackal (World, Rotary Joystick)",
+      "y": "1986",
+      "m": "Konami"
     },
     "jackalj": {
       "parent": "jackal",
@@ -7448,7 +7796,10 @@
           "n": "631r09.14h",
           "c": "a74dd86c"
         }
-      ]
+      ],
+      "t": "Tokushu Butai Jackal (Japan, 8-way Joystick)",
+      "y": "1986",
+      "m": "Konami"
     },
     "jackalbl": {
       "parent": "jackal",
@@ -7561,7 +7912,10 @@
           "n": "pal16l8pc.pal7",
           "c": "e8cdc259"
         }
-      ]
+      ],
+      "t": "Jackal (bootleg, Rotary Joystick)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "topgunr": {
       "parent": "jackal",
@@ -7602,7 +7956,10 @@
           "n": "631r09.14h",
           "c": "a74dd86c"
         }
-      ]
+      ],
+      "t": "Top Gunner (US, 8-way Joystick)",
+      "y": "1986",
+      "m": "Konami"
     },
     "topgunbl": {
       "parent": "jackal",
@@ -7695,7 +8052,10 @@
           "n": "631r09.bpr",
           "c": "a74dd86c"
         }
-      ]
+      ],
+      "t": "Top Gunner (bootleg, Rotary Joystick)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "jailbrek": {
       "parent": null,
@@ -7752,7 +8112,10 @@
           "n": "507l01.8c",
           "c": "0c8a3605"
         }
-      ]
+      ],
+      "t": "Jail Break",
+      "y": "1986",
+      "m": "Konami"
     },
     "manhatan": {
       "parent": "jailbrek",
@@ -7809,7 +8172,10 @@
           "n": "507p01.8c",
           "c": "973fa351"
         }
-      ]
+      ],
+      "t": "Manhattan 24 Bunsyo (Japan)",
+      "y": "1986",
+      "m": "Konami"
     },
     "jailbrekb": {
       "parent": "jailbrek",
@@ -7866,7 +8232,10 @@
           "n": "pal16l8.k8",
           "c": "38783f49"
         }
-      ]
+      ],
+      "t": "Jail Break (bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "junofrst": {
       "parent": null,
@@ -7927,7 +8296,10 @@
           "n": "jfs5_e7.bin",
           "c": "1eb87a6e"
         }
-      ]
+      ],
+      "t": "Juno First",
+      "y": "1983",
+      "m": "Konami"
     },
     "junofrstg": {
       "parent": "junofrst",
@@ -7988,7 +8360,10 @@
           "n": "jfs5_e7.bin",
           "c": "1eb87a6e"
         }
-      ]
+      ],
+      "t": "Juno First (Gottlieb)",
+      "y": "1983",
+      "m": "Konami (Gottlieb license)"
     },
     "kontest": {
       "parent": null,
@@ -8001,7 +8376,10 @@
           "n": "800a02.4f",
           "c": "6d604171"
         }
-      ]
+      ],
+      "t": "Konami Test Board (GX800, Japan)",
+      "y": "1987?",
+      "m": "Konami"
     },
     "tricktrp": {
       "parent": null,
@@ -8034,7 +8412,10 @@
           "n": "771d02.08d",
           "c": "3d34bb5a"
         }
-      ]
+      ],
+      "t": "Trick Trap (World?)",
+      "y": "1987",
+      "m": "Konami"
     },
     "labyrunr": {
       "parent": "tricktrp",
@@ -8055,7 +8436,10 @@
           "n": "771d02.08d",
           "c": "3d34bb5a"
         }
-      ]
+      ],
+      "t": "Labyrinth Runner (Japan)",
+      "y": "1987",
+      "m": "Konami"
     },
     "labyrunrk": {
       "parent": "tricktrp",
@@ -8088,7 +8472,10 @@
           "n": "771d02.08d",
           "c": "3d34bb5a"
         }
-      ]
+      ],
+      "t": "Labyrinth Runner (World Ver. K)",
+      "y": "1987",
+      "m": "Konami"
     },
     "labyrunrf": {
       "parent": "tricktrp",
@@ -8121,7 +8508,10 @@
           "n": "771d02.08d",
           "c": "3d34bb5a"
         }
-      ]
+      ],
+      "t": "Labyrinth Runner (World Ver. F)",
+      "y": "1987",
+      "m": "Konami"
     },
     "lethalen": {
       "parent": null,
@@ -8170,7 +8560,10 @@
           "n": "lethalenue.nv",
           "c": "6e7224e6"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver UAE, 11/19/92 15:04)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethalenub": {
       "parent": "lethalen",
@@ -8219,7 +8612,10 @@
           "n": "lethalenub.nv",
           "c": "14c6c6e5"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver UAB, 09/01/92 11:12)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethalenua": {
       "parent": "lethalen",
@@ -8268,7 +8664,10 @@
           "n": "lethalenua.nv",
           "c": "f71ad1c3"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver UAA, 08/17/92 21:38)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethalenux": {
       "parent": "lethalen",
@@ -8317,7 +8716,10 @@
           "n": "lethalenux.nv",
           "c": "5d69c39d"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver unknown, US, 08/06/92 15:11, hacked/proto?)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethaleneaa": {
       "parent": "lethalen",
@@ -8366,7 +8768,10 @@
           "n": "lethaleneaa.nv",
           "c": "a85d64ee"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver EAA, 09/09/92 09:44)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethaleneab": {
       "parent": "lethalen",
@@ -8415,7 +8820,10 @@
           "n": "lethaleneab.nv",
           "c": "4e9bb34d"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver EAB, 10/14/92 19:53)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethalenead": {
       "parent": "lethalen",
@@ -8464,7 +8872,10 @@
           "n": "lethalenead.nv",
           "c": "e1dc2bc0"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver EAD, 11/11/92 10:52)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethaleneae": {
       "parent": "lethalen",
@@ -8513,7 +8924,10 @@
           "n": "lethaleneae.nv",
           "c": "eb369a67"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver EAE, 11/19/92 16:24)",
+      "y": "1992",
+      "m": "Konami"
     },
     "lethalenj": {
       "parent": "lethalen",
@@ -8562,7 +8976,10 @@
           "n": "lethalenj.nv",
           "c": "20b28f2f"
         }
-      ]
+      ],
+      "t": "Lethal Enforcers (ver JAD, 12/04/92 17:16)",
+      "y": "1992",
+      "m": "Konami"
     },
     "mainevt": {
       "parent": null,
@@ -8611,7 +9028,10 @@
           "n": "63s141n.k14",
           "c": "61f6c8d1"
         }
-      ]
+      ],
+      "t": "The Main Event (4 Players ver. Y)",
+      "y": "1988",
+      "m": "Konami"
     },
     "mainevto": {
       "parent": "mainevt",
@@ -8660,7 +9080,10 @@
           "n": "63s141n.k14",
           "c": "61f6c8d1"
         }
-      ]
+      ],
+      "t": "The Main Event (4 Players ver. F)",
+      "y": "1988",
+      "m": "Konami"
     },
     "mainevt2p": {
       "parent": "mainevt",
@@ -8709,7 +9132,10 @@
           "n": "63s141n.k14",
           "c": "61f6c8d1"
         }
-      ]
+      ],
+      "t": "The Main Event (2 Players ver. X)",
+      "y": "1988",
+      "m": "Konami"
     },
     "ringohja": {
       "parent": "mainevt",
@@ -8758,7 +9184,10 @@
           "n": "63s141n.k14",
           "c": "61f6c8d1"
         }
-      ]
+      ],
+      "t": "Ring no Ohja (Japan 2 Players ver. N)",
+      "y": "1988",
+      "m": "Konami"
     },
     "devstors": {
       "parent": null,
@@ -8803,7 +9232,10 @@
           "n": "63s141n.k14",
           "c": "d3620106"
         }
-      ]
+      ],
+      "t": "Devastators (ver. Z)",
+      "y": "1988",
+      "m": "Konami"
     },
     "devstorsx": {
       "parent": "devstors",
@@ -8848,7 +9280,10 @@
           "n": "63s141n.k14",
           "c": "d3620106"
         }
-      ]
+      ],
+      "t": "Devastators (ver. X)",
+      "y": "1988",
+      "m": "Konami"
     },
     "devstorsv": {
       "parent": "devstors",
@@ -8893,7 +9328,10 @@
           "n": "63s141n.k14",
           "c": "d3620106"
         }
-      ]
+      ],
+      "t": "Devastators (ver. V)",
+      "y": "1988",
+      "m": "Konami"
     },
     "devstors2": {
       "parent": "devstors",
@@ -8938,7 +9376,10 @@
           "n": "63s141n.k14",
           "c": "d3620106"
         }
-      ]
+      ],
+      "t": "Devastators (ver. 2)",
+      "y": "1988",
+      "m": "Konami"
     },
     "garuka": {
       "parent": "devstors",
@@ -8983,7 +9424,10 @@
           "n": "63s141n.k14",
           "c": "d3620106"
         }
-      ]
+      ],
+      "t": "Garuka (Japan ver. W)",
+      "y": "1988",
+      "m": "Konami"
     },
     "megazone": {
       "parent": null,
@@ -9060,7 +9504,10 @@
           "n": "319b15.e8",
           "c": "31fd7ab9"
         }
-      ]
+      ],
+      "t": "Mega Zone (version L)",
+      "y": "1983",
+      "m": "Konami"
     },
     "megazonej": {
       "parent": "megazone",
@@ -9137,7 +9584,10 @@
           "n": "319b15.e8",
           "c": "31fd7ab9"
         }
-      ]
+      ],
+      "t": "Mega Zone (version J)",
+      "y": "1983",
+      "m": "Konami (Interlogic / Kosuka license)"
     },
     "megazonei": {
       "parent": "megazone",
@@ -9214,7 +9664,10 @@
           "n": "319b15.e8",
           "c": "31fd7ab9"
         }
-      ]
+      ],
+      "t": "Mega Zone (version I)",
+      "y": "1983",
+      "m": "Konami"
     },
     "megazoneh": {
       "parent": "megazone",
@@ -9291,7 +9744,10 @@
           "n": "prom.48",
           "c": "796dea94"
         }
-      ]
+      ],
+      "t": "Mega Zone (version H)",
+      "y": "1983",
+      "m": "Konami (Kosuka license)"
     },
     "megazonea": {
       "parent": "megazone",
@@ -9368,7 +9824,10 @@
           "n": "319b15.e8",
           "c": "31fd7ab9"
         }
-      ]
+      ],
+      "t": "Mega Zone (unknown version 1)",
+      "y": "1983",
+      "m": "Konami (Interlogic / Kosuka license)"
     },
     "megazoneb": {
       "parent": "megazone",
@@ -9445,7 +9904,10 @@
           "n": "319b15.e8",
           "c": "31fd7ab9"
         }
-      ]
+      ],
+      "t": "Mega Zone (unknown version 2)",
+      "y": "1983",
+      "m": "Konami"
     },
     "mikie": {
       "parent": null,
@@ -9506,7 +9968,10 @@
           "n": "d18.f9",
           "c": "7396b374"
         }
-      ]
+      ],
+      "t": "Mikie",
+      "y": "1984",
+      "m": "Konami"
     },
     "mikiej": {
       "parent": "mikie",
@@ -9567,7 +10032,10 @@
           "n": "d18.f9",
           "c": "7396b374"
         }
-      ]
+      ],
+      "t": "Shinnyuushain Tooru-kun",
+      "y": "1984",
+      "m": "Konami"
     },
     "mikiek": {
       "parent": "mikie",
@@ -9628,7 +10096,10 @@
           "n": "d18.f9",
           "c": "7396b374"
         }
-      ]
+      ],
+      "t": "Shin-ip Sawon - Seok Dol-i",
+      "y": "1984",
+      "m": "bootleg"
     },
     "mikiehs": {
       "parent": "mikie",
@@ -9689,7 +10160,10 @@
           "n": "d18.f9",
           "c": "7396b374"
         }
-      ]
+      ],
+      "t": "Mikie (High School Graffiti)",
+      "y": "1984",
+      "m": "Konami"
     },
     "mogura": {
       "parent": null,
@@ -9702,7 +10176,10 @@
           "n": "gx141.7j",
           "c": "b21c5d5f"
         }
-      ]
+      ],
+      "t": "Mogura Desse (Japan)",
+      "y": "1991",
+      "m": "Konami"
     },
     "moomesa": {
       "parent": null,
@@ -9759,7 +10236,10 @@
           "n": "moomesa.nv",
           "c": "7bd904a8"
         }
-      ]
+      ],
+      "t": "Wild West C.O.W.-Boys of Moo Mesa (ver EAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "moomesauac": {
       "parent": "moomesa",
@@ -9816,7 +10296,10 @@
           "n": "moomesauac.nv",
           "c": "a5cb137a"
         }
-      ]
+      ],
+      "t": "Wild West C.O.W.-Boys of Moo Mesa (ver UAC)",
+      "y": "1992",
+      "m": "Konami"
     },
     "moomesauab": {
       "parent": "moomesa",
@@ -9873,7 +10356,10 @@
           "n": "moomesauab.nv",
           "c": "a5cb137a"
         }
-      ]
+      ],
+      "t": "Wild West C.O.W.-Boys of Moo Mesa (ver UAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "moomesaaab": {
       "parent": "moomesa",
@@ -9930,7 +10416,10 @@
           "n": "moomesaaab.nv",
           "c": "7bd904a8"
         }
-      ]
+      ],
+      "t": "Wild West C.O.W.-Boys of Moo Mesa (ver AAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "moomesabl": {
       "parent": "moomesa",
@@ -9995,7 +10484,10 @@
           "n": "moo.nv",
           "c": "7bd904a8"
         }
-      ]
+      ],
+      "t": "Wild West C.O.W.-Boys of Moo Mesa (bootleg)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "bucky": {
       "parent": null,
@@ -10056,7 +10548,10 @@
           "n": "bucky.nv",
           "c": "6a5986f3"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver EAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "buckyea": {
       "parent": "bucky",
@@ -10117,7 +10612,10 @@
           "n": "bucky.nv",
           "c": "6a5986f3"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver EA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "buckyjaa": {
       "parent": "bucky",
@@ -10178,7 +10676,10 @@
           "n": "buckyja.nv",
           "c": "2f280a74"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver JAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "buckyaa": {
       "parent": "bucky",
@@ -10239,7 +10740,10 @@
           "n": "bucky.nv",
           "c": "6a5986f3"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver AA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "buckyuab": {
       "parent": "bucky",
@@ -10300,7 +10804,10 @@
           "n": "buckyuab.nv",
           "c": "a5cb137a"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver UAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "buckyaab": {
       "parent": "bucky",
@@ -10361,7 +10868,10 @@
           "n": "buckyaab.nv",
           "c": "6a5986f3"
         }
-      ]
+      ],
+      "t": "Bucky O'Hare (ver AAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "mystwarr": {
       "parent": null,
@@ -10434,7 +10944,10 @@
           "n": "mystwarr.nv",
           "c": "28df2269"
         }
-      ]
+      ],
+      "t": "Mystic Warriors (ver EAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mystwarru": {
       "parent": "mystwarr",
@@ -10507,7 +11020,10 @@
           "n": "mystwarru.nv",
           "c": "1a2597c7"
         }
-      ]
+      ],
+      "t": "Mystic Warriors (ver UAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mystwarrj": {
       "parent": "mystwarr",
@@ -10580,7 +11096,10 @@
           "n": "mystwarrj.nv",
           "c": "8e259918"
         }
-      ]
+      ],
+      "t": "Mystic Warriors (ver JAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mystwarra": {
       "parent": "mystwarr",
@@ -10653,7 +11172,10 @@
           "n": "eeprom",
           "c": "fd6a25b4"
         }
-      ]
+      ],
+      "t": "Mystic Warriors (ver AAB)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mystwarraa": {
       "parent": "mystwarr",
@@ -10726,7 +11248,10 @@
           "n": "mystwarra.nv",
           "c": "38951263"
         }
-      ]
+      ],
+      "t": "Mystic Warriors (ver AAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostorm": {
       "parent": null,
@@ -10779,7 +11304,10 @@
           "n": "viostorm.nv",
           "c": "3cb1c96c"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver EAC)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormeb": {
       "parent": "viostorm",
@@ -10832,7 +11360,10 @@
           "n": "viostormeb.nv",
           "c": "28b5fe49"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver EAB)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormu": {
       "parent": "viostorm",
@@ -10885,7 +11416,10 @@
           "n": "viostormu.nv",
           "c": "797042a1"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver UAC)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormub": {
       "parent": "viostorm",
@@ -10938,7 +11472,10 @@
           "n": "viostormub.nv",
           "c": "b6937413"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver UAB)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormubbl": {
       "parent": "viostorm",
@@ -11071,7 +11608,10 @@
           "n": "viostormub.nv",
           "c": "b6937413"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver UAB, bootleg)",
+      "y": "1993",
+      "m": "bootleg (Eye Pro)"
     },
     "viostorma": {
       "parent": "viostorm",
@@ -11124,7 +11664,10 @@
           "n": "viostorma.nv",
           "c": "2cfbf966"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver AAC)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormab": {
       "parent": "viostorm",
@@ -11177,7 +11720,10 @@
           "n": "viostormab.nv",
           "c": "38ffce43"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver AAB)",
+      "y": "1993",
+      "m": "Konami"
     },
     "viostormj": {
       "parent": "viostorm",
@@ -11230,7 +11776,10 @@
           "n": "viostormj.nv",
           "c": "32f5d8bc"
         }
-      ]
+      ],
+      "t": "Violent Storm (ver JAC)",
+      "y": "1993",
+      "m": "Konami"
     },
     "metamrph": {
       "parent": null,
@@ -11295,7 +11844,10 @@
           "n": "metamrph.nv",
           "c": "2c51229a"
         }
-      ]
+      ],
+      "t": "Metamorphic Force (ver EAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "metamrphe": {
       "parent": "metamrph",
@@ -11360,7 +11912,10 @@
           "n": "metamrph.nv",
           "c": "2c51229a"
         }
-      ]
+      ],
+      "t": "Metamorphic Force (ver EAA - alternate)",
+      "y": "1993",
+      "m": "Konami"
     },
     "metamrpha": {
       "parent": "metamrph",
@@ -11425,7 +11980,10 @@
           "n": "metamrpha.nv",
           "c": "6d34a4f2"
         }
-      ]
+      ],
+      "t": "Metamorphic Force (ver AAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "metamrphu": {
       "parent": "metamrph",
@@ -11490,7 +12048,10 @@
           "n": "metamrphu.nv",
           "c": "1af2f855"
         }
-      ]
+      ],
+      "t": "Metamorphic Force (ver UAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "metamrphj": {
       "parent": "metamrph",
@@ -11555,7 +12116,10 @@
           "n": "metamrphj.nv",
           "c": "30497478"
         }
-      ]
+      ],
+      "t": "Metamorphic Force (ver JAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchamp": {
       "parent": null,
@@ -11628,7 +12192,10 @@
           "n": "mtlchamp.nv",
           "c": "cd47858e"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver EAB)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchamp1": {
       "parent": "mtlchamp",
@@ -11701,7 +12268,10 @@
           "n": "mtlchamp1.nv",
           "c": "202f6968"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver EAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchampa": {
       "parent": "mtlchamp",
@@ -11774,7 +12344,10 @@
           "n": "mtlchampa.nv",
           "c": "79a6f420"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver AAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchampj": {
       "parent": "mtlchamp",
@@ -11847,7 +12420,10 @@
           "n": "mtlchampj.nv",
           "c": "e311816f"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver JAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchampu": {
       "parent": "mtlchamp",
@@ -11920,7 +12496,10 @@
           "n": "mtlchampu.nv",
           "c": "182f146a"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver UAE)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mtlchampu1": {
       "parent": "mtlchamp",
@@ -11993,7 +12572,10 @@
           "n": "mtlchampu1.nv",
           "c": "f5d84df7"
         }
-      ]
+      ],
+      "t": "Martial Champion (ver UAD)",
+      "y": "1993",
+      "m": "Konami"
     },
     "gaiapols": {
       "parent": null,
@@ -12078,7 +12660,10 @@
           "n": "gaiapols.nv",
           "c": "44c78184"
         }
-      ]
+      ],
+      "t": "Gaiapolis (ver EAF)",
+      "y": "1993",
+      "m": "Konami"
     },
     "gaiapolsu": {
       "parent": "gaiapols",
@@ -12163,7 +12748,10 @@
           "n": "gaiapolsu.nv",
           "c": "7ece27b6"
         }
-      ]
+      ],
+      "t": "Gaiapolis (ver UAF)",
+      "y": "1993",
+      "m": "Konami"
     },
     "gaiapolsj": {
       "parent": "gaiapols",
@@ -12248,7 +12836,10 @@
           "n": "gaiapolsj.nv",
           "c": "c4b970df"
         }
-      ]
+      ],
+      "t": "Gaiapolis (ver JAF)",
+      "y": "1993",
+      "m": "Konami"
     },
     "mmaulers": {
       "parent": null,
@@ -12341,7 +12932,10 @@
           "n": "mmaulers.nv",
           "c": "8324f517"
         }
-      ]
+      ],
+      "t": "Monster Maulers (ver EAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "dadandrn": {
       "parent": "mmaulers",
@@ -12434,7 +13028,10 @@
           "n": "dadandrn.nv",
           "c": "346ae0cf"
         }
-      ]
+      ],
+      "t": "Kyukyoku Sentai Dadandarn (ver JAA)",
+      "y": "1993",
+      "m": "Konami"
     },
     "nemesis": {
       "parent": null,
@@ -12483,7 +13080,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Nemesis (ROM version)",
+      "y": "1985",
+      "m": "Konami"
     },
     "nemesisuk": {
       "parent": "nemesis",
@@ -12532,7 +13132,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Nemesis (World?, ROM version)",
+      "y": "1985",
+      "m": "Konami"
     },
     "konamigt": {
       "parent": null,
@@ -12581,7 +13184,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Konami GT",
+      "y": "1985",
+      "m": "Konami"
     },
     "salamand": {
       "parent": null,
@@ -12614,7 +13220,10 @@
           "n": "587-c01.10a",
           "c": "09fe0632"
         }
-      ]
+      ],
+      "t": "Salamander (version D)",
+      "y": "1986",
+      "m": "Konami"
     },
     "salamandj": {
       "parent": "salamand",
@@ -12647,7 +13256,10 @@
           "n": "587-c01.10a",
           "c": "09fe0632"
         }
-      ]
+      ],
+      "t": "Salamander (version J)",
+      "y": "1986",
+      "m": "Konami"
     },
     "salamandt": {
       "parent": "salamand",
@@ -12696,7 +13308,10 @@
           "n": "007366_pal8l14a.19d",
           "c": "77304735"
         }
-      ]
+      ],
+      "t": "Salamander (Tecfri license)",
+      "y": "1986",
+      "m": "Konami (Tecfri license)"
     },
     "lifefrce": {
       "parent": "salamand",
@@ -12729,7 +13344,10 @@
           "n": "6106.10a",
           "c": "09fe0632"
         }
-      ]
+      ],
+      "t": "Lifeforce (US)",
+      "y": "1986",
+      "m": "Konami"
     },
     "lifefrcej": {
       "parent": "salamand",
@@ -12762,7 +13380,10 @@
           "n": "587-c01.10a",
           "c": "09fe0632"
         }
-      ]
+      ],
+      "t": "Lifeforce (Japan)",
+      "y": "1987",
+      "m": "Konami"
     },
     "twinbee": {
       "parent": null,
@@ -12795,7 +13416,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "TwinBee (ROM version)",
+      "y": "1985",
+      "m": "Konami"
     },
     "gradius": {
       "parent": "nemesis",
@@ -12828,7 +13452,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Gradius (Japan, ROM version)",
+      "y": "1985",
+      "m": "Konami"
     },
     "gwarrior": {
       "parent": null,
@@ -12861,7 +13488,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Galactic Warriors",
+      "y": "1985",
+      "m": "Konami"
     },
     "rf2": {
       "parent": "konamigt",
@@ -12894,7 +13524,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Konami RF2 - Red Fighter",
+      "y": "1985",
+      "m": "Konami"
     },
     "blkpnthr": {
       "parent": null,
@@ -12923,7 +13556,10 @@
           "n": "604-a01.10a",
           "c": "eceb64a6"
         }
-      ]
+      ],
+      "t": "Black Panther",
+      "y": "1987",
+      "m": "Konami"
     },
     "citybomb": {
       "parent": null,
@@ -12968,7 +13604,10 @@
           "n": "787-e01.1k",
           "c": "edc34d01"
         }
-      ]
+      ],
+      "t": "City Bomber (World)",
+      "y": "1987",
+      "m": "Konami"
     },
     "citybombj": {
       "parent": "citybomb",
@@ -13013,7 +13652,10 @@
           "n": "787-e01.1k",
           "c": "edc34d01"
         }
-      ]
+      ],
+      "t": "City Bomber (Japan)",
+      "y": "1987",
+      "m": "Konami"
     },
     "kittenk": {
       "parent": null,
@@ -13042,7 +13684,10 @@
           "n": "712-b01.1k",
           "c": "f65b5d95"
         }
-      ]
+      ],
+      "t": "Kitten Kaboodle",
+      "y": "1988",
+      "m": "Konami"
     },
     "nyanpani": {
       "parent": "kittenk",
@@ -13071,7 +13716,10 @@
           "n": "712-b01.1k",
           "c": "f65b5d95"
         }
-      ]
+      ],
+      "t": "Nyan Nyan Panic (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hcrash": {
       "parent": null,
@@ -13104,7 +13752,10 @@
           "n": "790-c01.m10",
           "c": "07976bc3"
         }
-      ]
+      ],
+      "t": "Hyper Crash (version D)",
+      "y": "1987",
+      "m": "Konami"
     },
     "hcrashc": {
       "parent": "hcrash",
@@ -13137,7 +13788,10 @@
           "n": "790-c01.m10",
           "c": "07976bc3"
         }
-      ]
+      ],
+      "t": "Hyper Crash (version C)",
+      "y": "1987",
+      "m": "Konami"
     },
     "bubsys": {
       "parent": null,
@@ -13158,7 +13812,10 @@
           "n": "400a2.1b",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Bubble System BIOS",
+      "y": "1985",
+      "m": "Konami"
     },
     "gradiusb": {
       "parent": null,
@@ -13183,7 +13840,10 @@
           "n": "400a2.1b",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Gradius (Bubble System)",
+      "y": "1985",
+      "m": "Konami"
     },
     "twinbeeb": {
       "parent": null,
@@ -13208,7 +13868,10 @@
           "n": "400-a02.fse",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "TwinBee (Bubble System)",
+      "y": "1985",
+      "m": "Konami"
     },
     "gwarriorb": {
       "parent": null,
@@ -13233,7 +13896,10 @@
           "n": "400a2.1b",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Galactic Warriors (Bubble System)",
+      "y": "1985",
+      "m": "Konami"
     },
     "rf2b": {
       "parent": null,
@@ -13258,7 +13924,10 @@
           "n": "400a2.1b",
           "c": "2f44f970"
         }
-      ]
+      ],
+      "t": "Konami RF2 - Red Fighter (Bubble System)",
+      "y": "1985",
+      "m": "Konami"
     },
     "pandoras": {
       "parent": null,
@@ -13323,7 +13992,10 @@
           "n": "pandora.16b",
           "c": "c89af0c3"
         }
-      ]
+      ],
+      "t": "Pandora's Palace",
+      "y": "1984",
+      "m": "Konami / Interlogic"
     },
     "parodius": {
       "parent": null,
@@ -13360,7 +14032,10 @@
           "n": "955d04.c5",
           "c": "e671491a"
         }
-      ]
+      ],
+      "t": "Parodius Da!: Shinwa kara Owarai e (World, set 1)",
+      "y": "1990",
+      "m": "Konami"
     },
     "parodiuse": {
       "parent": "parodius",
@@ -13397,7 +14072,10 @@
           "n": "955d04.c5",
           "c": "e671491a"
         }
-      ]
+      ],
+      "t": "Parodius Da!: Shinwa kara Owarai e (World, set 2)",
+      "y": "1990",
+      "m": "Konami"
     },
     "parodiusj": {
       "parent": "parodius",
@@ -13434,7 +14112,10 @@
           "n": "955d04.c5",
           "c": "e671491a"
         }
-      ]
+      ],
+      "t": "Parodius Da!: Shinwa kara Owarai e (Japan)",
+      "y": "1990",
+      "m": "Konami"
     },
     "parodiusa": {
       "parent": "parodius",
@@ -13471,7 +14152,10 @@
           "n": "955d04.c5",
           "c": "e671491a"
         }
-      ]
+      ],
+      "t": "Parodius Da!: Shinwa kara Owarai e (Asia)",
+      "y": "1990",
+      "m": "Konami"
     },
     "pingpong": {
       "parent": null,
@@ -13504,7 +14188,10 @@
           "n": "555e07.11j",
           "c": "09d96b08"
         }
-      ]
+      ],
+      "t": "Konami's Ping-Pong",
+      "y": "1985",
+      "m": "Konami"
     },
     "merlinmm": {
       "parent": null,
@@ -13533,7 +14220,10 @@
           "n": "pingpong.11j",
           "c": "09d96b08"
         }
-      ]
+      ],
+      "t": "Merlins Money Maze",
+      "y": "1986",
+      "m": "Zilec-Zenitone"
     },
     "cashquiz": {
       "parent": null,
@@ -13590,7 +14280,10 @@
           "n": "pingpong.11j",
           "c": "09d96b08"
         }
-      ]
+      ],
+      "t": "Cash Quiz (Type B, Version 5)",
+      "y": "1986",
+      "m": "Zilec-Zenitone"
     },
     "pooyan": {
       "parent": null,
@@ -13647,7 +14340,10 @@
           "n": "pooyan.pr2",
           "c": "82748c0b"
         }
-      ]
+      ],
+      "t": "Pooyan",
+      "y": "1982",
+      "m": "Konami"
     },
     "pooyans": {
       "parent": "pooyan",
@@ -13704,7 +14400,10 @@
           "n": "pooyan.pr2",
           "c": "82748c0b"
         }
-      ]
+      ],
+      "t": "Pooyan (Stern Electronics)",
+      "y": "1982",
+      "m": "Konami (Stern Electronics license)"
     },
     "pootan": {
       "parent": "pooyan",
@@ -13761,7 +14460,10 @@
           "n": "pooyan.pr2",
           "c": "82748c0b"
         }
-      ]
+      ],
+      "t": "Pootan",
+      "y": "1982",
+      "m": "bootleg"
     },
     "rockrage": {
       "parent": null,
@@ -13810,7 +14512,10 @@
           "n": "620k04.6e",
           "c": "8be969f3"
         }
-      ]
+      ],
+      "t": "Rock'n Rage (World)",
+      "y": "1986",
+      "m": "Konami"
     },
     "rockragea": {
       "parent": "rockrage",
@@ -13875,7 +14580,10 @@
           "n": "620k04.6e",
           "c": "8be969f3"
         }
-      ]
+      ],
+      "t": "Rock'n Rage (prototype?)",
+      "y": "1986",
+      "m": "Konami"
     },
     "rockragej": {
       "parent": "rockrage",
@@ -13924,7 +14632,10 @@
           "n": "620k04.6e",
           "c": "8be969f3"
         }
-      ]
+      ],
+      "t": "Koi no Hotrock (Japan)",
+      "y": "1986",
+      "m": "Konami"
     },
     "rocnrope": {
       "parent": null,
@@ -13993,7 +14704,10 @@
           "n": "rocnrope.pr3",
           "c": "b5c75a27"
         }
-      ]
+      ],
+      "t": "Roc'n Rope",
+      "y": "1983",
+      "m": "Konami"
     },
     "rocnropek": {
       "parent": "rocnrope",
@@ -14062,7 +14776,10 @@
           "n": "rocnrope.pr3",
           "c": "b5c75a27"
         }
-      ]
+      ],
+      "t": "Roc'n Rope (Kosuka)",
+      "y": "1983",
+      "m": "Konami (Kosuka license)"
     },
     "ropeman": {
       "parent": "rocnrope",
@@ -14143,7 +14860,10 @@
           "n": "n82s153.pal2.bin",
           "c": "a0e1b7a0"
         }
-      ]
+      ],
+      "t": "Ropeman (bootleg of Roc'n Rope)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "rollerg": {
       "parent": null,
@@ -14176,7 +14896,10 @@
           "n": "999h09.c5",
           "c": "c5188783"
         }
-      ]
+      ],
+      "t": "Rollergames (US)",
+      "y": "1991",
+      "m": "Konami"
     },
     "rollergj": {
       "parent": "rollerg",
@@ -14209,7 +14932,10 @@
           "n": "999h09.c5",
           "c": "c5188783"
         }
-      ]
+      ],
+      "t": "Rollergames (Japan)",
+      "y": "1991",
+      "m": "Konami"
     },
     "rollerga": {
       "parent": "rollerg",
@@ -14242,7 +14968,10 @@
           "n": "999h09.c5",
           "c": "c5188783"
         }
-      ]
+      ],
+      "t": "Rollergames (Asia)",
+      "y": "1991",
+      "m": "Konami"
     },
     "sbasketb": {
       "parent": null,
@@ -14303,7 +15032,10 @@
           "n": "405e15.11f",
           "c": "01bb5ce9"
         }
-      ]
+      ],
+      "t": "Super Basketball (version I, encrypted)",
+      "y": "1984",
+      "m": "Konami"
     },
     "sbasketh": {
       "parent": "sbasketb",
@@ -14364,7 +15096,10 @@
           "n": "405e15.11f",
           "c": "01bb5ce9"
         }
-      ]
+      ],
+      "t": "Super Basketball (version H, unprotected)",
+      "y": "1984",
+      "m": "Konami"
     },
     "sbasketg": {
       "parent": "sbasketb",
@@ -14445,7 +15180,10 @@
           "n": "405e15.11f",
           "c": "01bb5ce9"
         }
-      ]
+      ],
+      "t": "Super Basketball (version G, encrypted)",
+      "y": "1984",
+      "m": "Konami"
     },
     "sbasketga": {
       "parent": "sbasketb",
@@ -14526,7 +15264,10 @@
           "n": "405e15.11f",
           "c": "01bb5ce9"
         }
-      ]
+      ],
+      "t": "Super Basketball (version G, encrypted, alt)",
+      "y": "1984",
+      "m": "Konami"
     },
     "sbaskete": {
       "parent": "sbasketb",
@@ -14607,7 +15348,10 @@
           "n": "405e15.11f",
           "c": "01bb5ce9"
         }
-      ]
+      ],
+      "t": "Super Basketball (version E, encrypted)",
+      "y": "1984",
+      "m": "Konami"
     },
     "scotrsht": {
       "parent": null,
@@ -14656,7 +15400,10 @@
           "n": "gx545_6301_8f.bin",
           "c": "c1c7cf58"
         }
-      ]
+      ],
+      "t": "Scooter Shooter",
+      "y": "1985",
+      "m": "Konami"
     },
     "kicker": {
       "parent": null,
@@ -14709,7 +15456,10 @@
           "n": "477j08.f16",
           "c": "80009cf5"
         }
-      ]
+      ],
+      "t": "Kicker",
+      "y": "1985",
+      "m": "Konami"
     },
     "shaolins": {
       "parent": "kicker",
@@ -14762,7 +15512,10 @@
           "n": "477j08.f16",
           "c": "80009cf5"
         }
-      ]
+      ],
+      "t": "Shao-lin's Road (set 1)",
+      "y": "1985",
+      "m": "Konami"
     },
     "shaolinb": {
       "parent": "kicker",
@@ -14815,7 +15568,10 @@
           "n": "1.o6",
           "c": "80009cf5"
         }
-      ]
+      ],
+      "t": "Shao-lin's Road (set 2)",
+      "y": "1985",
+      "m": "Konami"
     },
     "simpsons": {
       "parent": null,
@@ -14876,7 +15632,10 @@
           "n": "simpsons.12c.nv",
           "c": "ec3f0449"
         }
-      ]
+      ],
+      "t": "The Simpsons (4 Players World, set 1)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons4pe": {
       "parent": "simpsons",
@@ -14937,7 +15696,10 @@
           "n": "simpsons4pe.12c.nv",
           "c": "ec3f0449"
         }
-      ]
+      ],
+      "t": "The Simpsons (4 Players World, set 2)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons4pe2": {
       "parent": "simpsons",
@@ -14998,7 +15760,10 @@
           "n": "simpsons4pe2.12c.nv",
           "c": "ec3f0449"
         }
-      ]
+      ],
+      "t": "The Simpsons (4 Players World, set 3)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons4pa": {
       "parent": "simpsons",
@@ -15059,7 +15824,10 @@
           "n": "simpsons4pa.12c.nv",
           "c": "ec3f0449"
         }
-      ]
+      ],
+      "t": "The Simpsons (4 Players Asia)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons2p": {
       "parent": "simpsons",
@@ -15120,7 +15888,10 @@
           "n": "simpsons2p.12c.nv",
           "c": "fbac4e30"
         }
-      ]
+      ],
+      "t": "The Simpsons (2 Players World, set 1)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons2p2": {
       "parent": "simpsons",
@@ -15181,7 +15952,10 @@
           "n": "simpsons2p2.12c.nv",
           "c": "fbac4e30"
         }
-      ]
+      ],
+      "t": "The Simpsons (2 Players World, set 2)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons2p3": {
       "parent": "simpsons",
@@ -15242,7 +16016,10 @@
           "n": "simpsons2p.12c.nv",
           "c": "fbac4e30"
         }
-      ]
+      ],
+      "t": "The Simpsons (2 Players World, set 3)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons2pa": {
       "parent": "simpsons",
@@ -15303,7 +16080,10 @@
           "n": "simpsons2pa.12c.nv",
           "c": "fbac4e30"
         }
-      ]
+      ],
+      "t": "The Simpsons (2 Players Asia)",
+      "y": "1991",
+      "m": "Konami"
     },
     "simpsons2pj": {
       "parent": "simpsons",
@@ -15364,7 +16144,10 @@
           "n": "simpsons2pj.12c.nv",
           "c": "3550a54e"
         }
-      ]
+      ],
+      "t": "The Simpsons (2 Players Japan)",
+      "y": "1991",
+      "m": "Konami"
     },
     "spy": {
       "parent": null,
@@ -15409,7 +16192,10 @@
           "n": "857a10.bin",
           "c": "32758507"
         }
-      ]
+      ],
+      "t": "S.P.Y. - Special Project Y (World ver. N)",
+      "y": "1989",
+      "m": "Konami"
     },
     "spyu": {
       "parent": "spy",
@@ -15454,7 +16240,10 @@
           "n": "857a10.bin",
           "c": "32758507"
         }
-      ]
+      ],
+      "t": "S.P.Y. - Special Project Y (US ver. M)",
+      "y": "1989",
+      "m": "Konami"
     },
     "suratk": {
       "parent": null,
@@ -15483,7 +16272,10 @@
           "n": "911d04.bin",
           "c": "20700bd2"
         }
-      ]
+      ],
+      "t": "Surprise Attack (World ver. K)",
+      "y": "1990",
+      "m": "Konami"
     },
     "suratka": {
       "parent": "suratk",
@@ -15512,7 +16304,10 @@
           "n": "911d04.bin",
           "c": "20700bd2"
         }
-      ]
+      ],
+      "t": "Surprise Attack (Asia ver. L)",
+      "y": "1990",
+      "m": "Konami"
     },
     "suratkj": {
       "parent": "suratk",
@@ -15541,7 +16336,10 @@
           "n": "911d04.bin",
           "c": "20700bd2"
         }
-      ]
+      ],
+      "t": "Surprise Attack (Japan ver. M)",
+      "y": "1990",
+      "m": "Konami"
     },
     "scontra": {
       "parent": null,
@@ -15706,7 +16504,10 @@
           "n": "775a09.b19",
           "c": "46d1e0df"
         }
-      ]
+      ],
+      "t": "Super Contra (set 1)",
+      "y": "1988",
+      "m": "Konami"
     },
     "scontraa": {
       "parent": "scontra",
@@ -15747,7 +16548,10 @@
           "n": "775a09.b19",
           "c": "46d1e0df"
         }
-      ]
+      ],
+      "t": "Super Contra (set 2)",
+      "y": "1988",
+      "m": "Konami"
     },
     "scontraj": {
       "parent": "scontra",
@@ -15912,7 +16716,10 @@
           "n": "775a09.b19",
           "c": "46d1e0df"
         }
-      ]
+      ],
+      "t": "Super Contra: Alien no Gyakushuu (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "thunderx": {
       "parent": null,
@@ -15997,7 +16804,10 @@
           "n": "873a08.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Thunder Cross (set 1)",
+      "y": "1988",
+      "m": "Konami"
     },
     "thunderxa": {
       "parent": "thunderx",
@@ -16082,7 +16892,10 @@
           "n": "873a08.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Thunder Cross (set 2)",
+      "y": "1988",
+      "m": "Konami"
     },
     "thunderxb": {
       "parent": "thunderx",
@@ -16167,7 +16980,10 @@
           "n": "873a08.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Thunder Cross (set 3)",
+      "y": "1988",
+      "m": "Konami"
     },
     "thunderxj": {
       "parent": "thunderx",
@@ -16252,7 +17068,10 @@
           "n": "873a08.f20",
           "c": "e2d09a1b"
         }
-      ]
+      ],
+      "t": "Thunder Cross (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "timeplt": {
       "parent": null,
@@ -16301,7 +17120,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Time Pilot",
+      "y": "1982",
+      "m": "Konami"
     },
     "timeplta": {
       "parent": "timeplt",
@@ -16350,7 +17172,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Time Pilot (Atari)",
+      "y": "1982",
+      "m": "Konami (Atari license)"
     },
     "timepltc": {
       "parent": "timeplt",
@@ -16399,7 +17224,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Time Pilot (Centuri)",
+      "y": "1982",
+      "m": "Konami (Centuri license)"
     },
     "spaceplt": {
       "parent": "timeplt",
@@ -16448,7 +17276,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Space Pilot (set 1)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "spaceplta": {
       "parent": "timeplt",
@@ -16497,7 +17328,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Space Pilot (set 2)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "psurge": {
       "parent": null,
@@ -16550,7 +17384,10 @@
           "n": "timeplt.e12",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Power Surge",
+      "y": "1988",
+      "m": "Vision Electronics"
     },
     "chkun": {
       "parent": null,
@@ -16607,7 +17444,10 @@
           "n": "b.9f",
           "c": "e3857f83"
         }
-      ]
+      ],
+      "t": "Chance Kun (Japan)",
+      "y": "1988",
+      "m": "Peni"
     },
     "bikkuric": {
       "parent": null,
@@ -16648,7 +17488,10 @@
           "n": "1.2b",
           "c": "f7b7663e"
         }
-      ]
+      ],
+      "t": "Bikkuri Card (Japan)",
+      "y": "1987",
+      "m": "Peni"
     },
     "tmnt": {
       "parent": null,
@@ -16717,7 +17560,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (World 4 Players, version X)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmntu": {
       "parent": "tmnt",
@@ -16786,7 +17632,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (US 4 Players, version R)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmntua": {
       "parent": "tmnt",
@@ -16855,7 +17704,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (US 4 Players, version N)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmntub": {
       "parent": "tmnt",
@@ -16924,7 +17776,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (US 4 Players, version J)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmntuc": {
       "parent": "tmnt",
@@ -16993,7 +17848,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (US 4 Players, version H)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmht": {
       "parent": "tmnt",
@@ -17062,7 +17920,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles (UK 4 Players, version F)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmhta": {
       "parent": "tmnt",
@@ -17131,7 +17992,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles (UK 4 Players, version S)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmhtb": {
       "parent": "tmnt",
@@ -17200,7 +18064,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles (UK 4 Players, version ?)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmntj": {
       "parent": "tmnt",
@@ -17269,7 +18136,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (Japan 4 Players, version 2)",
+      "y": "1990",
+      "m": "Konami"
     },
     "tmnta": {
       "parent": "tmnt",
@@ -17338,7 +18208,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (Asia 4 Players, version ?)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmht2p": {
       "parent": "tmnt",
@@ -17407,7 +18280,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles (UK 2 Players, version U)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmht2pa": {
       "parent": "tmnt",
@@ -17476,7 +18352,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles (UK 2 Players, version ?)",
+      "y": "1989",
+      "m": "Konami"
     },
     "tmnt2pj": {
       "parent": "tmnt",
@@ -17545,7 +18424,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (Japan 2 Players, version 1)",
+      "y": "1990",
+      "m": "Konami"
     },
     "tmnt2po": {
       "parent": "tmnt",
@@ -17614,7 +18496,10 @@
           "n": "963a25.d5",
           "c": "fca078c7"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles (Oceania 2 Players, version ?)",
+      "y": "1989",
+      "m": "Konami"
     },
     "mia": {
       "parent": null,
@@ -17663,7 +18548,10 @@
           "n": "808d01.d4",
           "c": "fd4d37c0"
         }
-      ]
+      ],
+      "t": "M.I.A. - Missing in Action (version T)",
+      "y": "1989",
+      "m": "Konami"
     },
     "mia2": {
       "parent": "mia",
@@ -17712,7 +18600,10 @@
           "n": "808d01.d4",
           "c": "fd4d37c0"
         }
-      ]
+      ],
+      "t": "M.I.A. - Missing in Action (version S)",
+      "y": "1989",
+      "m": "Konami"
     },
     "cuebrick": {
       "parent": null,
@@ -17757,7 +18648,10 @@
           "n": "903d20.k6",
           "c": "2872a1bb"
         }
-      ]
+      ],
+      "t": "Cue Brick (World, version D)",
+      "y": "1989",
+      "m": "Konami"
     },
     "blswhstl": {
       "parent": null,
@@ -17806,7 +18700,10 @@
           "n": "blswhstl.nv",
           "c": "87434e3f"
         }
-      ]
+      ],
+      "t": "Bells & Whistles (World, version L)",
+      "y": "1991",
+      "m": "Konami"
     },
     "blswhstla": {
       "parent": "blswhstl",
@@ -17855,7 +18752,10 @@
           "n": "blswhstl.nv",
           "c": "87434e3f"
         }
-      ]
+      ],
+      "t": "Bells & Whistles (Asia, version M)",
+      "y": "1991",
+      "m": "Konami"
     },
     "detatwin": {
       "parent": "blswhstl",
@@ -17904,7 +18804,10 @@
           "n": "blswhstl.nv",
           "c": "87434e3f"
         }
-      ]
+      ],
+      "t": "Detana!! Twin Bee (Japan, version J)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssriders": {
       "parent": null,
@@ -17953,7 +18856,10 @@
           "n": "ssriders_eac.nv",
           "c": "f6d641a7"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver EAC)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersebd": {
       "parent": "ssriders",
@@ -18002,7 +18908,10 @@
           "n": "ssriders_ebd.nv",
           "c": "cbc903f6"
         }
-      ]
+      ],
+      "t": "Sunset Riders (2 Players ver EBD)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersebc": {
       "parent": "ssriders",
@@ -18051,7 +18960,10 @@
           "n": "ssriders_ebc.nv",
           "c": "1918e90f"
         }
-      ]
+      ],
+      "t": "Sunset Riders (2 Players ver EBC)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersuda": {
       "parent": "ssriders",
@@ -18100,7 +19012,10 @@
           "n": "ssriders_uda.nv",
           "c": "148c6d64"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver UDA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssriderseaa": {
       "parent": "ssriders",
@@ -18149,7 +19064,10 @@
           "n": "ssriders_eaa.nv",
           "c": "74a45ef5"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver EAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersuab": {
       "parent": "ssriders",
@@ -18198,7 +19116,10 @@
           "n": "ssriders_uab.nv",
           "c": "fe08b210"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver UAB)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersuac": {
       "parent": "ssriders",
@@ -18247,7 +19168,10 @@
           "n": "ssriders_uac.nv",
           "c": "26c8f1a0"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver UAC)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersubc": {
       "parent": "ssriders",
@@ -18296,7 +19220,10 @@
           "n": "ssriders_ubc.nv",
           "c": "31c5504f"
         }
-      ]
+      ],
+      "t": "Sunset Riders (2 Players ver UBC)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersabd": {
       "parent": "ssriders",
@@ -18345,7 +19272,10 @@
           "n": "ssriders_abd.nv",
           "c": "bfdafedf"
         }
-      ]
+      ],
+      "t": "Sunset Riders (2 Players ver ABD)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersadd": {
       "parent": "ssriders",
@@ -18394,7 +19324,10 @@
           "n": "ssriders_add.nv",
           "c": "f06242d5"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver ADD)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersjac": {
       "parent": "ssriders",
@@ -18443,7 +19376,10 @@
           "n": "ssriders_jac.nv",
           "c": "eeb0c55f"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver JAC)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersjad": {
       "parent": "ssriders",
@@ -18492,7 +19428,10 @@
           "n": "ssriders_jad.nv",
           "c": "8962058c"
         }
-      ]
+      ],
+      "t": "Sunset Riders (4 Players ver JAD)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersjbd": {
       "parent": "ssriders",
@@ -18541,7 +19480,10 @@
           "n": "ssriders_jbd.nv",
           "c": "006200e3"
         }
-      ]
+      ],
+      "t": "Sunset Riders (2 Players ver JBD)",
+      "y": "1991",
+      "m": "Konami"
     },
     "ssridersb": {
       "parent": "ssriders",
@@ -18586,7 +19528,10 @@
           "n": "sunsetb.02",
           "c": "5d485523"
         }
-      ]
+      ],
+      "t": "Sunset Riders (bootleg 4 Players ver ADD)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "thndrx2": {
       "parent": null,
@@ -18627,7 +19572,10 @@
           "n": "thndrx2.nv",
           "c": "ca613e98"
         }
-      ]
+      ],
+      "t": "Thunder Cross II (World)",
+      "y": "1991",
+      "m": "Konami"
     },
     "thndrx2a": {
       "parent": "thndrx2",
@@ -18668,7 +19616,10 @@
           "n": "thndrx2a.nv",
           "c": "f7893d00"
         }
-      ]
+      ],
+      "t": "Thunder Cross II (Asia)",
+      "y": "1991",
+      "m": "Konami"
     },
     "thndrx2j": {
       "parent": "thndrx2",
@@ -18709,7 +19660,10 @@
           "n": "thndrx2j.nv",
           "c": "83b4799b"
         }
-      ]
+      ],
+      "t": "Thunder Cross II (Japan)",
+      "y": "1991",
+      "m": "Konami"
     },
     "lgtnfght": {
       "parent": null,
@@ -18746,7 +19700,10 @@
           "n": "939a04.c5",
           "c": "c24e2b6e"
         }
-      ]
+      ],
+      "t": "Lightning Fighters (World)",
+      "y": "1990",
+      "m": "Konami"
     },
     "lgtnfghtu": {
       "parent": "lgtnfght",
@@ -18783,7 +19740,10 @@
           "n": "939a04.c5",
           "c": "c24e2b6e"
         }
-      ]
+      ],
+      "t": "Lightning Fighters (US)",
+      "y": "1990",
+      "m": "Konami"
     },
     "lgtnfghta": {
       "parent": "lgtnfght",
@@ -18820,7 +19780,10 @@
           "n": "939a04.c5",
           "c": "c24e2b6e"
         }
-      ]
+      ],
+      "t": "Lightning Fighters (Asia)",
+      "y": "1990",
+      "m": "Konami"
     },
     "trigon": {
       "parent": "lgtnfght",
@@ -18857,7 +19820,10 @@
           "n": "939a04.c5",
           "c": "c24e2b6e"
         }
-      ]
+      ],
+      "t": "Trigon (Japan)",
+      "y": "1990",
+      "m": "Konami"
     },
     "tmnt2": {
       "parent": null,
@@ -18914,7 +19880,10 @@
           "n": "tmnt2_uaa.nv",
           "c": "284357bd"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver UAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmnt22pu": {
       "parent": "tmnt2",
@@ -18971,7 +19940,10 @@
           "n": "tmnt2_uda.nv",
           "c": "44928d33"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles - Turtles in Time (2 Players ver UDA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmnt24pu": {
       "parent": "tmnt2",
@@ -19028,7 +20000,10 @@
           "n": "tmnt2_uea.nv",
           "c": "4f086faa"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver UEA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmht22pe": {
       "parent": "tmnt2",
@@ -19085,7 +20060,10 @@
           "n": "tmnt2_eba.nv",
           "c": "c0a3ed50"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles - Turtles in Time (2 Players ver EBA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmht24pe": {
       "parent": "tmnt2",
@@ -19142,7 +20120,10 @@
           "n": "tmnt2_eaa.nv",
           "c": "124af18f"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Hero Turtles - Turtles in Time (4 Players ver EAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmnt2a": {
       "parent": "tmnt2",
@@ -19199,7 +20180,10 @@
           "n": "tmnt2_ada.nv",
           "c": "063068a0"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver ADA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "tmnt2o": {
       "parent": "tmnt2",
@@ -19256,7 +20240,10 @@
           "n": "tmnt2_oaa.nv",
           "c": "e3858340"
         }
-      ]
+      ],
+      "t": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver OAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "qgakumon": {
       "parent": null,
@@ -19305,7 +20292,10 @@
           "n": "qgakumon.nv",
           "c": "847bd238"
         }
-      ]
+      ],
+      "t": "Quiz Gakumon no Susume (Japan ver. JA1 Type H)",
+      "y": "1993",
+      "m": "Konami"
     },
     "punkshot": {
       "parent": null,
@@ -19342,7 +20332,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (US 4 Players)",
+      "y": "1990",
+      "m": "Konami"
     },
     "punkshot2": {
       "parent": "punkshot",
@@ -19379,7 +20372,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (US 2 Players)",
+      "y": "1990",
+      "m": "Konami"
     },
     "punkshot2e": {
       "parent": "punkshot",
@@ -19416,7 +20412,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (World 2 Players)",
+      "y": "1990",
+      "m": "Konami"
     },
     "punkshotj": {
       "parent": "punkshot",
@@ -19453,7 +20452,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (Japan 2 Players)",
+      "y": "1990",
+      "m": "Konami"
     },
     "punkshot2a": {
       "parent": "punkshot",
@@ -19490,7 +20492,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (Asia 2 Players, hacked?)",
+      "y": "1990",
+      "m": "Konami"
     },
     "punkshotjh": {
       "parent": "punkshot",
@@ -19527,7 +20532,10 @@
           "n": "907d04.d3",
           "c": "090feb5e"
         }
-      ]
+      ],
+      "t": "Punk Shot (Japan 2 Players, year hack)",
+      "y": "1992",
+      "m": "Konami"
     },
     "ssridershs": {
       "parent": "ssriders",
@@ -19604,7 +20612,10 @@
           "n": "064eab04_sr.10e",
           "c": "56bb2e75"
         }
-      ]
+      ],
+      "t": "Sunset Riders (Hack Series)",
+      "y": "2019-2020",
+      "m": "hack"
     },
     "tp84": {
       "parent": null,
@@ -19677,7 +20688,10 @@
           "n": "388j17.16c",
           "c": "13c4e198"
         }
-      ]
+      ],
+      "t": "Time Pilot '84 (set 1)",
+      "y": "1984",
+      "m": "Konami"
     },
     "tp84a": {
       "parent": "tp84",
@@ -19750,7 +20764,10 @@
           "n": "388d17.16c",
           "c": "af8f839c"
         }
-      ]
+      ],
+      "t": "Time Pilot '84 (set 2)",
+      "y": "1984",
+      "m": "Konami"
     },
     "tp84b": {
       "parent": "tp84",
@@ -19803,7 +20820,10 @@
           "n": "388j17.16c",
           "c": "13c4e198"
         }
-      ]
+      ],
+      "t": "Time Pilot '84 (set 3)",
+      "y": "1984",
+      "m": "Konami"
     },
     "trackfld": {
       "parent": null,
@@ -19876,7 +20896,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Track & Field",
+      "y": "1983",
+      "m": "Konami"
     },
     "trackfldc": {
       "parent": "trackfld",
@@ -19949,7 +20972,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Track & Field (Centuri)",
+      "y": "1983",
+      "m": "Konami (Centuri license)"
     },
     "trackfldu": {
       "parent": "trackfld",
@@ -20022,7 +21048,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Track & Field (Centuri, unencrypted)",
+      "y": "1983",
+      "m": "Konami (Centuri license)"
     },
     "hyprolym": {
       "parent": "trackfld",
@@ -20095,7 +21124,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Hyper Olympic",
+      "y": "1983",
+      "m": "Konami"
     },
     "hyprolyma": {
       "parent": "trackfld",
@@ -20168,7 +21200,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Hyper Olympic (bugfixed)",
+      "y": "1983",
+      "m": "Konami"
     },
     "trackfldnz": {
       "parent": "trackfld",
@@ -20241,7 +21276,10 @@
           "n": "gold.d9",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Track & Field (NZ bootleg?)",
+      "y": "1982",
+      "m": "bootleg? (Goldberg Enterprizes Inc.)"
     },
     "hyprolymb": {
       "parent": "trackfld",
@@ -20334,7 +21372,10 @@
           "n": "pal16l8.e6",
           "c": "122f23e6"
         }
-      ]
+      ],
+      "t": "Hyper Olympic (bootleg, set 1)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "hyprolymba": {
       "parent": "trackfld",
@@ -20427,7 +21468,10 @@
           "n": "pal16l8.e6",
           "c": "122f23e6"
         }
-      ]
+      ],
+      "t": "Hyper Olympic (bootleg, set 2)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "hipoly": {
       "parent": "trackfld",
@@ -20512,7 +21556,10 @@
           "n": "361b18.f22",
           "c": "053e5861"
         }
-      ]
+      ],
+      "t": "Hipoly (bootleg of Hyper Olympic)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "atlantol": {
       "parent": "trackfld",
@@ -20553,7 +21600,10 @@
           "n": "361b18.e15",
           "c": "053e5861"
         }
-      ]
+      ],
+      "t": "Atlant Olimpic (Italian bootleg)",
+      "y": "1996",
+      "m": "bootleg"
     },
     "yieartf": {
       "parent": "yiear",
@@ -20614,7 +21664,10 @@
           "n": "01.snd",
           "c": "f75a1539"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung-Fu (bootleg GX361 conversion)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "reaktor": {
       "parent": null,
@@ -20671,7 +21724,10 @@
           "n": "c9_d15.bin",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "Reaktor (Track & Field conversion)",
+      "y": "1987",
+      "m": "Zilec"
     },
     "wizzquiz": {
       "parent": null,
@@ -20748,7 +21804,10 @@
           "n": "361b18.e15",
           "c": "053e5861"
         }
-      ]
+      ],
+      "t": "Wizz Quiz (Konami version)",
+      "y": "1985",
+      "m": "Zilec-Zenitone (Konami license)"
     },
     "wizzquiza": {
       "parent": "wizzquiz",
@@ -20825,7 +21884,10 @@
           "n": "361b18.e15",
           "c": "053e5861"
         }
-      ]
+      ],
+      "t": "Wizz Quiz (version 4)",
+      "y": "1985",
+      "m": "Zilec-Zenitone"
     },
     "mastkin": {
       "parent": null,
@@ -20878,7 +21940,10 @@
           "n": "mk2",
           "c": "f546a56b"
         }
-      ]
+      ],
+      "t": "The Masters of Kin",
+      "y": "1988",
+      "m": "Du Tech"
     },
     "tutankhm": {
       "parent": null,
@@ -20951,7 +22016,10 @@
           "n": "s2.8a",
           "c": "9db5c0ce"
         }
-      ]
+      ],
+      "t": "Tutankham",
+      "y": "1982",
+      "m": "Konami"
     },
     "tutankhms": {
       "parent": "tutankhm",
@@ -21024,7 +22092,10 @@
           "n": "s2.8a",
           "c": "9db5c0ce"
         }
-      ]
+      ],
+      "t": "Tutankham (Stern Electronics)",
+      "y": "1982",
+      "m": "Konami (Stern Electronics license)"
     },
     "tutankhmb": {
       "parent": "tutankhm",
@@ -21097,7 +22168,10 @@
           "n": "t17.8a",
           "c": "9db5c0ce"
         }
-      ]
+      ],
+      "t": "Tutankham (bootleg)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "devilw": {
       "parent": null,
@@ -21174,7 +22248,10 @@
           "n": "687_i02.7c",
           "c": "e5947501"
         }
-      ]
+      ],
+      "t": "Devil World",
+      "y": "1987",
+      "m": "Konami"
     },
     "majuu": {
       "parent": "devilw",
@@ -21251,7 +22328,10 @@
           "n": "687_i02.7c",
           "c": "e5947501"
         }
-      ]
+      ],
+      "t": "Majuu no Ohkoku",
+      "y": "1987",
+      "m": "Konami"
     },
     "darkadv": {
       "parent": "devilw",
@@ -21328,7 +22408,10 @@
           "n": "687_i02.7c",
           "c": "e5947501"
         }
-      ]
+      ],
+      "t": "Dark Adventure",
+      "y": "1987",
+      "m": "Konami"
     },
     "vulcan": {
       "parent": null,
@@ -21397,7 +22480,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Vulcan Venture (new)",
+      "y": "1988",
+      "m": "Konami"
     },
     "vulcana": {
       "parent": "vulcan",
@@ -21466,7 +22552,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Vulcan Venture (old)",
+      "y": "1988",
+      "m": "Konami"
     },
     "vulcanb": {
       "parent": "vulcan",
@@ -21535,7 +22624,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Vulcan Venture (older)",
+      "y": "1988",
+      "m": "Konami"
     },
     "gradius2": {
       "parent": "vulcan",
@@ -21604,7 +22696,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Gradius II: GOFER no Yabou (Japan, new)",
+      "y": "1988",
+      "m": "Konami"
     },
     "gradius2a": {
       "parent": "vulcan",
@@ -21673,7 +22768,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Gradius II: GOFER no Yabou (Japan, old)",
+      "y": "1988",
+      "m": "Konami"
     },
     "gradius2b": {
       "parent": "vulcan",
@@ -21742,7 +22840,10 @@
           "n": "785_f02.7c",
           "c": "c39f5ca4"
         }
-      ]
+      ],
+      "t": "Gradius II: GOFER no Yabou (Japan, older)",
+      "y": "1988",
+      "m": "Konami"
     },
     "fround": {
       "parent": null,
@@ -21791,7 +22892,10 @@
           "n": "63s141n.e16",
           "c": "ed87c1f1"
         }
-      ]
+      ],
+      "t": "The Final Round (version M)",
+      "y": "1988",
+      "m": "Konami"
     },
     "froundl": {
       "parent": "fround",
@@ -21840,7 +22944,10 @@
           "n": "63s141n.e16",
           "c": "ed87c1f1"
         }
-      ]
+      ],
+      "t": "The Final Round (version L)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hpuncher": {
       "parent": "fround",
@@ -21905,7 +23012,10 @@
           "n": "63s141n.e16",
           "c": "ed87c1f1"
         }
-      ]
+      ],
+      "t": "Hard Puncher (Japan)",
+      "y": "1988",
+      "m": "Konami"
     },
     "miaj": {
       "parent": "mia",
@@ -21962,7 +23072,10 @@
           "n": "808_d01.5a",
           "c": "fd4d37c0"
         }
-      ]
+      ],
+      "t": "M.I.A.: Missing in Action (Japan, version R)",
+      "y": "1989",
+      "m": "Konami"
     },
     "cuebrickj": {
       "parent": "cuebrick",
@@ -22015,7 +23128,10 @@
           "n": "903_e10.8r",
           "c": "417576d4"
         }
-      ]
+      ],
+      "t": "Cue Brick (Japan)",
+      "y": "1989",
+      "m": "Konami"
     },
     "ultraman": {
       "parent": null,
@@ -22096,7 +23212,10 @@
           "n": "910-a21.f14",
           "c": "64460fbc"
         }
-      ]
+      ],
+      "t": "Ultraman (Japan)",
+      "y": "1991",
+      "m": "Banpresto / Bandai"
     },
     "vendetta": {
       "parent": null,
@@ -22149,7 +23268,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (World, 4 Players, ver. T)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendettar": {
       "parent": "vendetta",
@@ -22202,7 +23324,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (US, 4 Players, ver. R)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendettaz": {
       "parent": "vendetta",
@@ -22255,7 +23380,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (Asia, 4 Players, ver. Z)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendettaun": {
       "parent": "vendetta",
@@ -22308,7 +23436,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (World, 4 Players, ver. ?)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2pw": {
       "parent": "vendetta",
@@ -22361,7 +23492,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (World, 2 Players, ver. W)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2peba": {
       "parent": "vendetta",
@@ -22414,7 +23548,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (World, 2 Players, ver. EB-A?)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2pun": {
       "parent": "vendetta",
@@ -22467,7 +23604,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (World, 2 Players, ver. ?)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2pu": {
       "parent": "vendetta",
@@ -22520,7 +23660,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (Asia, 2 Players, ver. U)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2pd": {
       "parent": "vendetta",
@@ -22573,7 +23716,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Vendetta (Asia, 2 Players, ver. D)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendettan": {
       "parent": "vendetta",
@@ -22626,7 +23772,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Crime Fighters 2 (Japan, 4 Players, ver. N)",
+      "y": "1991",
+      "m": "Konami"
     },
     "vendetta2pp": {
       "parent": "vendetta",
@@ -22679,7 +23828,10 @@
           "n": "p2-pal16l8acn.14e",
           "c": "b84abb7d"
         }
-      ]
+      ],
+      "t": "Crime Fighters 2 (Japan, 2 Players, ver. P)",
+      "y": "1991",
+      "m": "Konami"
     },
     "esckids": {
       "parent": null,
@@ -22724,7 +23876,10 @@
           "n": "esckids.nv",
           "c": "a8522e1f"
         }
-      ]
+      ],
+      "t": "Escape Kids (Asia, 4 Players)",
+      "y": "1991",
+      "m": "Konami"
     },
     "esckidsj": {
       "parent": "esckids",
@@ -22769,7 +23924,10 @@
           "n": "esckidsj.nv",
           "c": "985e2a2d"
         }
-      ]
+      ],
+      "t": "Escape Kids (Japan, 2 Players)",
+      "y": "1991",
+      "m": "Konami"
     },
     "wecleman": {
       "parent": null,
@@ -22898,7 +24056,10 @@
           "n": "602a12.1a",
           "c": "77b9383d"
         }
-      ]
+      ],
+      "t": "WEC Le Mans 24 (v2.01)",
+      "y": "1986",
+      "m": "Konami"
     },
     "weclemana": {
       "parent": "wecleman",
@@ -23027,7 +24188,10 @@
           "n": "602a12.1a",
           "c": "77b9383d"
         }
-      ]
+      ],
+      "t": "WEC Le Mans 24 (v2.00)",
+      "y": "1986",
+      "m": "Konami"
     },
     "weclemanb": {
       "parent": "wecleman",
@@ -23156,7 +24320,10 @@
           "n": "602a12.1a",
           "c": "77b9383d"
         }
-      ]
+      ],
+      "t": "WEC Le Mans 24 (v2.00, hack)",
+      "y": "1988",
+      "m": "hack"
     },
     "weclemanc": {
       "parent": "wecleman",
@@ -23285,7 +24452,10 @@
           "n": "602a12.1a",
           "c": "77b9383d"
         }
-      ]
+      ],
+      "t": "WEC Le Mans 24 (v1.26)",
+      "y": "1986",
+      "m": "Konami"
     },
     "hotchase": {
       "parent": null,
@@ -23374,7 +24544,10 @@
           "n": "763a12",
           "c": "05f1e553"
         }
-      ]
+      ],
+      "t": "Hot Chase (set 1)",
+      "y": "1988",
+      "m": "Konami"
     },
     "hotchasea": {
       "parent": "hotchase",
@@ -23683,7 +24856,10 @@
           "n": "763a23.b17",
           "c": "81c30352"
         }
-      ]
+      ],
+      "t": "Hot Chase (set 2)",
+      "y": "1988",
+      "m": "Konami"
     },
     "xexex": {
       "parent": null,
@@ -23748,7 +24924,10 @@
           "n": "er5911.19b",
           "c": "155624cc"
         }
-      ]
+      ],
+      "t": "Xexex (ver EAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "orius": {
       "parent": "xexex",
@@ -23813,7 +24992,10 @@
           "n": "er5911.19b",
           "c": "547ee4e4"
         }
-      ]
+      ],
+      "t": "Orius (ver UAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "xexexa": {
       "parent": "xexex",
@@ -23878,7 +25060,10 @@
           "n": "er5911.19b",
           "c": "051c14c6"
         }
-      ]
+      ],
+      "t": "Xexex (ver AAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "xexexj": {
       "parent": "xexex",
@@ -23943,7 +25128,10 @@
           "n": "er5911.19b",
           "c": "79a79c7b"
         }
-      ]
+      ],
+      "t": "Xexex (ver JAA)",
+      "y": "1991",
+      "m": "Konami"
     },
     "xmen": {
       "parent": null,
@@ -24000,7 +25188,10 @@
           "n": "xmen_eba.nv",
           "c": "37f8e77a"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver EBA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmenu": {
       "parent": "xmen",
@@ -24057,7 +25248,10 @@
           "n": "xmen_ubb.nv",
           "c": "52f334ba"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver UBB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmenua": {
       "parent": "xmen",
@@ -24114,7 +25308,10 @@
           "n": "xmen_ueb.nv",
           "c": "db85fef4"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver UEB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmena": {
       "parent": "xmen",
@@ -24171,7 +25368,10 @@
           "n": "xmen_aea.nv",
           "c": "d73d4f20"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver AEA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmenaa": {
       "parent": "xmen",
@@ -24228,7 +25428,10 @@
           "n": "xmen_ada.nv",
           "c": "a77a3891"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver ADA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmenj": {
       "parent": "xmen",
@@ -24285,7 +25488,10 @@
           "n": "xmen_jba.nv",
           "c": "7439cea7"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver JBA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmenja": {
       "parent": "xmen",
@@ -24342,7 +25548,10 @@
           "n": "xmen_jea.nv",
           "c": "df5b6bc6"
         }
-      ]
+      ],
+      "t": "X-Men (4 Players ver JEA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen2pe": {
       "parent": "xmen",
@@ -24399,7 +25608,10 @@
           "n": "xmen_eaa.nv",
           "c": "1cbcb653"
         }
-      ]
+      ],
+      "t": "X-Men (2 Players ver EAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen2pu": {
       "parent": "xmen",
@@ -24456,7 +25668,10 @@
           "n": "xmen_uab.nv",
           "c": "79b76593"
         }
-      ]
+      ],
+      "t": "X-Men (2 Players ver UAB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen2pa": {
       "parent": "xmen",
@@ -24513,7 +25728,10 @@
           "n": "xmen_aaa.nv",
           "c": "750fd447"
         }
-      ]
+      ],
+      "t": "X-Men (2 Players ver AAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen2pj": {
       "parent": "xmen",
@@ -24570,7 +25788,10 @@
           "n": "xmen_jaa.nv",
           "c": "849a9e19"
         }
-      ]
+      ],
+      "t": "X-Men (2 Players ver JAA)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen6p": {
       "parent": "xmen",
@@ -24627,7 +25848,10 @@
           "n": "xmen_ecb.nv",
           "c": "462c6e1a"
         }
-      ]
+      ],
+      "t": "X-Men (6 Players ver ECB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "xmen6pu": {
       "parent": "xmen",
@@ -24684,7 +25908,10 @@
           "n": "xmen_ucb.nv",
           "c": "f3d0f682"
         }
-      ]
+      ],
+      "t": "X-Men (6 Players ver UCB)",
+      "y": "1992",
+      "m": "Konami"
     },
     "yiear": {
       "parent": null,
@@ -24729,7 +25956,10 @@
           "n": "407_c09.8b",
           "c": "f75a1539"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung-Fu (version I)",
+      "y": "1985",
+      "m": "Konami"
     },
     "yiear2": {
       "parent": "yiear",
@@ -24774,7 +26004,10 @@
           "n": "407_c09.8b",
           "c": "f75a1539"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung-Fu (version G)",
+      "y": "1985",
+      "m": "Konami"
     }
   }
 }

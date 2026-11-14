@@ -16,7 +16,10 @@
           "n": "sl90025.rom",
           "c": "015c1e38"
         }
-      ]
+      ],
+      "t": "Fairchild Channel F (Bios)",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_democrt1": {
       "parent": null,
@@ -25,7 +28,10 @@
           "n": "democrt1.bin",
           "c": "42727ad5"
         }
-      ]
+      ],
+      "t": "Democart 1",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_democrt2": {
       "parent": null,
@@ -34,7 +40,10 @@
           "n": "democrt2.bin",
           "c": "44cf1d89"
         }
-      ]
+      ],
+      "t": "Democart 2",
+      "y": "197?",
+      "m": "Fairchild"
     },
     "chf_tctactoe": {
       "parent": null,
@@ -43,7 +52,10 @@
           "n": "tctactoe.bin",
           "c": "ff4768b0"
         }
-      ]
+      ],
+      "t": "Tic-Tac-Toe / Shooting Gallery / Doodle / Quadra-Doodle",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_muehle": {
       "parent": "chf_tctactoe",
@@ -52,7 +64,10 @@
           "n": "muehle.bin",
           "c": "7124dc59"
         }
-      ]
+      ],
+      "t": "Muehle / Tontauben-Schiessen / Kreatives Malspiel / Videoscope (Ger)",
+      "y": "1978",
+      "m": "SABA"
     },
     "chf_dsrtfox": {
       "parent": null,
@@ -61,7 +76,10 @@
           "n": "dsrtfox.bin",
           "c": "1570934b"
         }
-      ]
+      ],
+      "t": "Desert Fox / Shooting Gallery",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_vblckjck": {
       "parent": null,
@@ -70,7 +88,10 @@
           "n": "vblckjck.bin",
           "c": "e98d4456"
         }
-      ]
+      ],
+      "t": "Video Blackjack",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_spitfire": {
       "parent": null,
@@ -79,7 +100,10 @@
           "n": "spitfire.bin",
           "c": "5357c5f6"
         }
-      ]
+      ],
+      "t": "Spitfire",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_spitfirep": {
       "parent": "chf_spitfire",
@@ -88,7 +112,10 @@
           "n": "spitfire (proto).bin",
           "c": "0a728afc"
         }
-      ]
+      ],
+      "t": "Spitfire (Prototype)",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_spacewar": {
       "parent": null,
@@ -97,7 +124,10 @@
           "n": "spacewar.bin",
           "c": "22ef49e8"
         }
-      ]
+      ],
+      "t": "Space War",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_mthquiz1": {
       "parent": null,
@@ -106,7 +136,10 @@
           "n": "mthquiz1.bin",
           "c": "bb4c24a2"
         }
-      ]
+      ],
+      "t": "Math Quiz 1",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_mthquiz2": {
       "parent": null,
@@ -115,7 +148,10 @@
           "n": "mthquiz2.bin",
           "c": "4aa7ea97"
         }
-      ]
+      ],
+      "t": "Math Quiz 2",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_magicnum": {
       "parent": null,
@@ -124,7 +160,10 @@
           "n": "magicnum.bin",
           "c": "24da0529"
         }
-      ]
+      ],
+      "t": "Magic Numbers / Mind Reader / Nim",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_dragrace": {
       "parent": null,
@@ -133,7 +172,10 @@
           "n": "dragrace.bin",
           "c": "6a64dda3"
         }
-      ]
+      ],
+      "t": "Drag Race",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_maze": {
       "parent": null,
@@ -142,7 +184,10 @@
           "n": "maze.bin",
           "c": "4d42b296"
         }
-      ]
+      ],
+      "t": "Maze / Jailbreak / Blind-man's-bluff / Trailblazer",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_mazea": {
       "parent": "chf_maze",
@@ -151,7 +196,10 @@
           "n": "mazealt.bin",
           "c": "0a948b61"
         }
-      ]
+      ],
+      "t": "Maze / Jailbreak / Blind-man's-bluff / Trailblazer (Alt)",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_backgamm": {
       "parent": null,
@@ -160,7 +208,10 @@
           "n": "backgmmn.bin",
           "c": "a1731b52"
         }
-      ]
+      ],
+      "t": "Backgammon / Acey-Deucey",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_baseball": {
       "parent": null,
@@ -169,7 +220,10 @@
           "n": "baseball.bin",
           "c": "01129bcd"
         }
-      ]
+      ],
+      "t": "Baseball",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_robotwar": {
       "parent": null,
@@ -178,7 +232,10 @@
           "n": "robotwar.bin",
           "c": "38241e4f"
         }
-      ]
+      ],
+      "t": "Robot War / Torpedo Alley",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_robotwarp": {
       "parent": "chf_robotwar",
@@ -187,7 +244,10 @@
           "n": "robot war (proto).bin",
           "c": "7f62a23c"
         }
-      ]
+      ],
+      "t": "Robot War (Prototype)",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_sonrsrch": {
       "parent": null,
@@ -196,7 +256,10 @@
           "n": "sonrsrch.bin",
           "c": "dbdc56bf"
         }
-      ]
+      ],
+      "t": "Sonar Search",
+      "y": "1977",
+      "m": "Fairchild"
     },
     "chf_memory": {
       "parent": null,
@@ -205,7 +268,10 @@
           "n": "mmrymtch.bin",
           "c": "104b5e18"
         }
-      ]
+      ],
+      "t": "Memory Match 1 & 2",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_dodgeit": {
       "parent": null,
@@ -214,7 +280,10 @@
           "n": "dodgeit.bin",
           "c": "e3c1811c"
         }
-      ]
+      ],
+      "t": "Dodge It",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_pinball": {
       "parent": null,
@@ -223,7 +292,10 @@
           "n": "pinball.bin",
           "c": "c610b330"
         }
-      ]
+      ],
+      "t": "Pinball Challenge",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_pinballa": {
       "parent": "chf_pinball",
@@ -232,7 +304,10 @@
           "n": "pinballa.bin",
           "c": "7cadf0fd"
         }
-      ]
+      ],
+      "t": "Pinball Challenge (Alt)",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_hangman": {
       "parent": null,
@@ -241,7 +316,10 @@
           "n": "hangman.bin",
           "c": "9238d6ce"
         }
-      ]
+      ],
+      "t": "Hangman",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_ordtvlng": {
       "parent": "chf_hangman",
@@ -250,7 +328,10 @@
           "n": "ordtvlng.bin",
           "c": "3a386e79"
         }
-      ]
+      ],
+      "t": "Ordtavling (Swe)",
+      "y": "1978",
+      "m": "Luxor"
     },
     "chf_ratmal": {
       "parent": "chf_hangman",
@@ -259,7 +340,10 @@
           "n": "ratmal.bin",
           "c": "87752425"
         }
-      ]
+      ],
+      "t": "Rat' Mal (Ger)",
+      "y": "197?",
+      "m": "SABA"
     },
     "chf_checkers": {
       "parent": null,
@@ -268,7 +352,10 @@
           "n": "checkers.bin",
           "c": "fdae7044"
         }
-      ]
+      ],
+      "t": "Checkers",
+      "y": "1978",
+      "m": "Zircon"
     },
     "chf_whizball": {
       "parent": null,
@@ -277,7 +364,10 @@
           "n": "vwhzball.bin",
           "c": "65fdfe49"
         }
-      ]
+      ],
+      "t": "Video Whizball",
+      "y": "1978",
+      "m": "Fairchild"
     },
     "chf_schach": {
       "parent": null,
@@ -286,7 +376,10 @@
           "n": "schach.bin",
           "c": "04fb6dce"
         }
-      ]
+      ],
+      "t": "Schach (Ger)",
+      "y": "197?",
+      "m": "SABA"
     },
     "chf_bowling": {
       "parent": null,
@@ -295,7 +388,10 @@
           "n": "bowling.bin",
           "c": "94322c79"
         }
-      ]
+      ],
+      "t": "Bowling",
+      "y": "1978",
+      "m": "Fairchil"
     },
     "chf_slotmchn": {
       "parent": null,
@@ -304,7 +400,10 @@
           "n": "slotmchn.bin",
           "c": "b7eabd08"
         }
-      ]
+      ],
+      "t": "Slot Machine",
+      "y": "1980",
+      "m": "Zircon"
     },
     "chf_galactic": {
       "parent": null,
@@ -313,7 +412,10 @@
           "n": "galactic.bin",
           "c": "c8ef3410"
         }
-      ]
+      ],
+      "t": "Galactic Space Wars / Lunar Lander",
+      "y": "1980",
+      "m": "Zircon"
     },
     "chf_galacticp": {
       "parent": "chf_galactic",
@@ -322,7 +424,10 @@
           "n": "glactic space war (proto).bin",
           "c": "a61258a8"
         }
-      ]
+      ],
+      "t": "Galactic Space Wars (Prototype)",
+      "y": "1980",
+      "m": "Zircon"
     },
     "chf_pfootbll": {
       "parent": null,
@@ -331,7 +436,10 @@
           "n": "pfootbll.bin",
           "c": "a1ae99be"
         }
-      ]
+      ],
+      "t": "Pro Football",
+      "y": "1981",
+      "m": "Zircon"
     },
     "chf_football": {
       "parent": "chf_pfootbll",
@@ -340,7 +448,10 @@
           "n": "football (proto).bin",
           "c": "7e5dafea"
         }
-      ]
+      ],
+      "t": "Football (Prototype)",
+      "y": "1981",
+      "m": "Zircon"
     },
     "chf_casinop": {
       "parent": null,
@@ -349,7 +460,10 @@
           "n": "casinop.bin",
           "c": "5aa30c12"
         }
-      ]
+      ],
+      "t": "Casino Poker",
+      "y": "1980",
+      "m": "Zircon"
     },
     "chf_drawpkr": {
       "parent": "chf_casinop",
@@ -358,7 +472,10 @@
           "n": "draw poker (proto).bin",
           "c": "619fcc00"
         }
-      ]
+      ],
+      "t": "Draw Poker (Prototype)",
+      "y": "1980",
+      "m": "Zircon"
     },
     "chf_alieninv": {
       "parent": null,
@@ -367,7 +484,10 @@
           "n": "alieninv.bin",
           "c": "85e00865"
         }
-      ]
+      ],
+      "t": "Alien Invasion",
+      "y": "1981",
+      "m": "Zircon"
     },
     "chf_werbetxt": {
       "parent": null,
@@ -376,7 +496,10 @@
           "n": "werbetextcassette.bin",
           "c": "da351c39"
         }
-      ]
+      ],
+      "t": "Werbetextcassette",
+      "y": "198?",
+      "m": "Electronic-Partner"
     },
     "chf_clrorgan": {
       "parent": null,
@@ -385,7 +508,10 @@
           "n": "color organ (proto).bin",
           "c": "3fa2d4eb"
         }
-      ]
+      ],
+      "t": "Color Organ (Prototype)",
+      "y": "19??",
+      "m": "Zircon"
     },
     "chf_multicrt": {
       "parent": null,
@@ -394,7 +520,10 @@
           "n": "multigame rom.bin",
           "c": "a1ecbd58"
         }
-      ]
+      ],
+      "t": "Channel F Multi-Cart (Final)",
+      "y": "2004",
+      "m": "homebrew"
     },
     "chf_multicrto": {
       "parent": "chf_multicrt",
@@ -403,7 +532,10 @@
           "n": "multigame older.bin",
           "c": "ad4ebe3f"
         }
-      ]
+      ],
+      "t": "Channel F Multi-Cart (Older)",
+      "y": "2004",
+      "m": "homebrew"
     },
     "chf_builtin": {
       "parent": null,
@@ -412,7 +544,10 @@
           "n": "Hockey + Tennis (1976)(Fairchild).bin",
           "c": "abdd6d62"
         }
-      ]
+      ],
+      "t": "Hockey + Tennis",
+      "y": "1976",
+      "m": "Fairchild"
     },
     "chf_lightsout": {
       "parent": null,
@@ -421,7 +556,10 @@
           "n": "Lights Out (2004)(Riddle, Sean).bin",
           "c": "666c0b4a"
         }
-      ]
+      ],
+      "t": "Lights Out (HB)",
+      "y": "2004",
+      "m": "Sean Riddle"
     },
     "chf_pacman": {
       "parent": null,
@@ -430,7 +568,10 @@
           "n": "Pac-Man (2004)(Blackbird - e5frog).bin",
           "c": "172f5770"
         }
-      ]
+      ],
+      "t": "Pac-Man (HB)",
+      "y": "2004",
+      "m": "Blackbird - e5frog"
     },
     "chf_pacmanv2": {
       "parent": "chf_pacman",
@@ -439,7 +580,10 @@
           "n": "Pac-Man v2 (2004)(Blackbird - e5frog).bin",
           "c": "a22dbf73"
         }
-      ]
+      ],
+      "t": "Pac-Man (HB, v2)",
+      "y": "2004",
+      "m": "Blackbird - e5frog"
     },
     "chf_tetris": {
       "parent": null,
@@ -448,7 +592,10 @@
           "n": "Tetris (2004)(Trauner, Peter).bin",
           "c": "2b900e96"
         }
-      ]
+      ],
+      "t": "Tetris (HB)",
+      "y": "2004",
+      "m": "Peter Trauner"
     },
     "chf_wrdlf": {
       "parent": null,
@@ -457,7 +604,10 @@
           "n": "Wrdl-F (2022)(Arlasoft).rom",
           "c": "0ae07b86"
         }
-      ]
+      ],
+      "t": "Wrdl-F (HB)",
+      "y": "2022",
+      "m": "Arlasoft"
     }
   }
 }

@@ -80,7 +80,10 @@
           "n": "18",
           "c": "5c55b242"
         }
-      ]
+      ],
+      "t": "Act-Fancer Cybernetick Hyper Weapon (World revision 3)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "actfancr1": {
       "parent": "actfancr",
@@ -161,7 +164,10 @@
           "n": "18",
           "c": "5c55b242"
         }
-      ]
+      ],
+      "t": "Act-Fancer Cybernetick Hyper Weapon (World revision 1)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "actfancr2": {
       "parent": "actfancr",
@@ -242,7 +248,10 @@
           "n": "18",
           "c": "5c55b242"
         }
-      ]
+      ],
+      "t": "Act-Fancer Cybernetick Hyper Weapon (World revision 2)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "actfancrj": {
       "parent": "actfancr",
@@ -323,7 +332,10 @@
           "n": "18",
           "c": "5c55b242"
         }
-      ]
+      ],
+      "t": "Act-Fancer Cybernetick Hyper Weapon (Japan revision 1)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "triothep": {
       "parent": null,
@@ -404,7 +416,10 @@
           "n": "fg-17.bin",
           "c": "f0ab0d05"
         }
-      ]
+      ],
+      "t": "Trio The Punch - Never Forget Me... (World)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "triothepj": {
       "parent": "triothep",
@@ -485,7 +500,10 @@
           "n": "ff-17.bin",
           "c": "f0ab0d05"
         }
-      ]
+      ],
+      "t": "Trio The Punch - Never Forget Me... (Japan)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "backfire": {
       "parent": null,
@@ -534,7 +552,10 @@
           "n": "mbz-06.19l",
           "c": "4a38c635"
         }
-      ]
+      ],
+      "t": "Backfire! (Japan, set 1)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "backfirea": {
       "parent": "backfire",
@@ -583,7 +604,10 @@
           "n": "mbz-06.19l",
           "c": "4a38c635"
         }
-      ]
+      ],
+      "t": "Backfire! (Japan, set 2)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "boogwing": {
       "parent": null,
@@ -664,7 +688,10 @@
           "n": "kj-00.15n",
           "c": "add4d50b"
         }
-      ]
+      ],
+      "t": "Boogie Wings (Europe v1.5, 92.12.07)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "boogwingu": {
       "parent": "boogwing",
@@ -745,7 +772,10 @@
           "n": "kj-00.15n",
           "c": "add4d50b"
         }
-      ]
+      ],
+      "t": "Boogie Wings (USA v1.7, 92.12.14)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "boogwinga": {
       "parent": "boogwing",
@@ -826,7 +856,10 @@
           "n": "kj-00.15n",
           "c": "add4d50b"
         }
-      ]
+      ],
+      "t": "Boogie Wings (Asia v1.5, 92.12.07)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "ragtime": {
       "parent": "boogwing",
@@ -907,7 +940,10 @@
           "n": "kj-00.15n",
           "c": "add4d50b"
         }
-      ]
+      ],
+      "t": "The Great Ragtime Show (Japan v1.5, 92.12.07)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "ragtimea": {
       "parent": "boogwing",
@@ -988,7 +1024,10 @@
           "n": "kj-00.15n",
           "c": "add4d50b"
         }
-      ]
+      ],
+      "t": "The Great Ragtime Show (Japan v1.3, 92.11.26)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "brkthru": {
       "parent": null,
@@ -1049,7 +1088,10 @@
           "n": "14.bin",
           "c": "f2d4822a"
         }
-      ]
+      ],
+      "t": "Break Thru (World)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "brkthruu": {
       "parent": "brkthru",
@@ -1110,7 +1152,10 @@
           "n": "brkthru.14",
           "c": "f2d4822a"
         }
-      ]
+      ],
+      "t": "Break Thru (US)",
+      "y": "1986",
+      "m": "Data East USA"
     },
     "brkthruj": {
       "parent": "brkthru",
@@ -1171,7 +1216,10 @@
           "n": "brkthru.14",
           "c": "f2d4822a"
         }
-      ]
+      ],
+      "t": "Kyohkoh-Toppa (Japan)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "brkthrut": {
       "parent": "brkthru",
@@ -1232,7 +1280,10 @@
           "n": "6301.c1",
           "c": "f2d4822a"
         }
-      ]
+      ],
+      "t": "Break Thru (Tecfri license)",
+      "y": "1986",
+      "m": "Data East Corporation (Tecfri license)"
     },
     "forcebrk": {
       "parent": "brkthru",
@@ -1293,7 +1344,10 @@
           "n": "brkthru.14",
           "c": "f2d4822a"
         }
-      ]
+      ],
+      "t": "Force Break (bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "darwin": {
       "parent": null,
@@ -1366,7 +1420,10 @@
           "n": "3-pal16r4pc.bin",
           "c": "b3e980a0"
         }
-      ]
+      ],
+      "t": "Darwin 4078 (Japan)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "bwings": {
       "parent": null,
@@ -1415,7 +1472,10 @@
           "n": "bw_bv-09.1h",
           "c": "a14c0b57"
         }
-      ]
+      ],
+      "t": "B-Wings (Japan new Ver.)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "bwingso": {
       "parent": "bwings",
@@ -1464,7 +1524,10 @@
           "n": "bw_bv-09.1h",
           "c": "a14c0b57"
         }
-      ]
+      ],
+      "t": "B-Wings (Japan old Ver.)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "bwingsa": {
       "parent": "bwings",
@@ -1517,7 +1580,10 @@
           "n": "bw_bv-09.1h",
           "c": "a14c0b57"
         }
-      ]
+      ],
+      "t": "B-Wings (Alt Ver.?)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "zaviga": {
       "parent": null,
@@ -1566,7 +1632,10 @@
           "n": "as13.1h",
           "c": "15d0922b"
         }
-      ]
+      ],
+      "t": "Zaviga",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "zavigaj": {
       "parent": "zaviga",
@@ -1615,7 +1684,10 @@
           "n": "as13.1h",
           "c": "15d0922b"
         }
-      ]
+      ],
+      "t": "Zaviga (Japan)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cbuster": {
       "parent": null,
@@ -1692,7 +1764,10 @@
           "n": "mb7114h.18e",
           "c": "3645b70f"
         }
-      ]
+      ],
+      "t": "Crude Buster (World FX version)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "cbusterw": {
       "parent": "cbuster",
@@ -1769,7 +1844,10 @@
           "n": "mb7114h.18e",
           "c": "3645b70f"
         }
-      ]
+      ],
+      "t": "Crude Buster (World FU version)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "cbusterj": {
       "parent": "cbuster",
@@ -1846,7 +1924,10 @@
           "n": "mb7114h.18e",
           "c": "3645b70f"
         }
-      ]
+      ],
+      "t": "Crude Buster (Japan FR revision 1)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "twocrude": {
       "parent": "cbuster",
@@ -1923,7 +2004,10 @@
           "n": "mb7114h.18e",
           "c": "3645b70f"
         }
-      ]
+      ],
+      "t": "Two Crude (US FT revision 1)",
+      "y": "1990",
+      "m": "Data East USA"
     },
     "twocrudea": {
       "parent": "cbuster",
@@ -2000,7 +2084,10 @@
           "n": "mb7114h.18e",
           "c": "3645b70f"
         }
-      ]
+      ],
+      "t": "Two Crude (US FT version)",
+      "y": "1990",
+      "m": "Data East USA"
     },
     "chanbara": {
       "parent": null,
@@ -2077,7 +2164,10 @@
           "n": "cp15.6k",
           "c": "655936eb"
         }
-      ]
+      ],
+      "t": "Chanbara (Japan)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "cninja": {
       "parent": null,
@@ -2182,7 +2272,10 @@
           "n": "tj-05.1r",
           "c": "0dfc091b"
         }
-      ]
+      ],
+      "t": "Caveman Ninja (World ver 4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "cninja1": {
       "parent": "cninja",
@@ -2287,7 +2380,10 @@
           "n": "tj-05.1r",
           "c": "0dfc091b"
         }
-      ]
+      ],
+      "t": "Caveman Ninja (World ver 1)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "cninjau": {
       "parent": "cninja",
@@ -2392,7 +2488,10 @@
           "n": "tj-05.1r",
           "c": "0dfc091b"
         }
-      ]
+      ],
+      "t": "Caveman Ninja (US ver 4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "cninjaa": {
       "parent": "cninja",
@@ -2497,7 +2596,10 @@
           "n": "tj-05.1r",
           "c": "0dfc091b"
         }
-      ]
+      ],
+      "t": "Caveman Ninja (alternate)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "joemac": {
       "parent": "cninja",
@@ -2602,7 +2704,10 @@
           "n": "tj-05.1r",
           "c": "0dfc091b"
         }
-      ]
+      ],
+      "t": "Tatakae Genshizin Joe & Mac (Japan ver 1)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "stoneage": {
       "parent": "cninja",
@@ -2675,7 +2780,10 @@
           "n": "sa_1_069.bin",
           "c": "2188f3ca"
         }
-      ]
+      ],
+      "t": "Stoneage (bootleg of Caveman Ninja)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "cninjabl": {
       "parent": "cninja",
@@ -2704,7 +2812,10 @@
           "n": "joe mac 6.samples",
           "c": "dbecad83"
         }
-      ]
+      ],
+      "t": "Caveman Ninja (bootleg)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "mutantf": {
       "parent": null,
@@ -2797,7 +2908,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Mutant Fighter (World ver EM-5)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "mutantf4": {
       "parent": "mutantf",
@@ -2890,7 +3004,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Mutant Fighter (World ver EM-4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "mutantf3": {
       "parent": "mutantf",
@@ -2983,7 +3100,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Mutant Fighter (World ver EM-3)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "mutantf2": {
       "parent": "mutantf",
@@ -3076,7 +3196,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Mutant Fighter (World ver EM-2)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "mutantf1": {
       "parent": "mutantf",
@@ -3169,7 +3292,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Heroes (World ver EM-1)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "deathbrd": {
       "parent": "mutantf",
@@ -3262,7 +3388,10 @@
           "n": "maf-09.18l",
           "c": "28e7ed81"
         }
-      ]
+      ],
+      "t": "Death Brade (Japan ver JM-3)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "edrandy": {
       "parent": null,
@@ -3375,7 +3504,10 @@
           "n": "ge-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "The Cliffhanger - Edward Randy (World ver 3)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "edrandy2": {
       "parent": "edrandy",
@@ -3488,7 +3620,10 @@
           "n": "ge-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "The Cliffhanger - Edward Randy (World ver 2)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "edrandy1": {
       "parent": "edrandy",
@@ -3601,7 +3736,10 @@
           "n": "ge-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "The Cliffhanger - Edward Randy (World ver 1)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "edrandyj": {
       "parent": "edrandy",
@@ -3714,7 +3852,10 @@
           "n": "ge-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "The Cliffhanger - Edward Randy (Japan ver 3)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "robocop2": {
       "parent": null,
@@ -3819,7 +3960,10 @@
           "n": "go-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "Robocop 2 (Euro/Asia v0.10)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "robocop2u": {
       "parent": "robocop2",
@@ -3924,7 +4068,10 @@
           "n": "go-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "Robocop 2 (US v0.10)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "robocop2ua": {
       "parent": "robocop2",
@@ -4029,7 +4176,10 @@
           "n": "go-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "Robocop 2 (US v0.05)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "robocop2j": {
       "parent": "robocop2",
@@ -4134,7 +4284,10 @@
           "n": "go-12.v7",
           "c": "278f674f"
         }
-      ]
+      ],
+      "t": "Robocop 2 (Japan v0.11)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "compgolf": {
       "parent": null,
@@ -4175,7 +4328,10 @@
           "n": "cv08-1.bpr",
           "c": "b7c43db9"
         }
-      ]
+      ],
+      "t": "Competition Golf Final Round (World?, revision 3)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "compgolfo": {
       "parent": "compgolf",
@@ -4216,7 +4372,10 @@
           "n": "cv08-1.bpr",
           "c": "b7c43db9"
         }
-      ]
+      ],
+      "t": "Competition Golf Final Round (Japan, old version)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "darkseal": {
       "parent": null,
@@ -4273,7 +4432,10 @@
           "n": "fz_07.k14",
           "c": "588dd3cb"
         }
-      ]
+      ],
+      "t": "Dark Seal (World revision 3)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "darkseal1": {
       "parent": "darkseal",
@@ -4330,7 +4492,10 @@
           "n": "fz_07-.k14",
           "c": "588dd3cb"
         }
-      ]
+      ],
+      "t": "Dark Seal (World revision 1)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "darksealj": {
       "parent": "darkseal",
@@ -4387,7 +4552,10 @@
           "n": "fz_07.k14",
           "c": "588dd3cb"
         }
-      ]
+      ],
+      "t": "Dark Seal (Japan revision 4)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "gatedoom": {
       "parent": "darkseal",
@@ -4444,7 +4612,10 @@
           "n": "fz_07.k14",
           "c": "588dd3cb"
         }
-      ]
+      ],
+      "t": "Gate of Doom (US revision 4)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "gatedoom1": {
       "parent": "darkseal",
@@ -4501,7 +4672,10 @@
           "n": "fz_07.k14",
           "c": "588dd3cb"
         }
-      ]
+      ],
+      "t": "Gate of Doom (US revision 1)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "thndzone": {
       "parent": null,
@@ -4630,7 +4804,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Thunder Zone (World, Rev 1)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "thndzonea": {
       "parent": "thndzone",
@@ -4767,7 +4944,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Thunder Zone (World)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "thndzone4": {
       "parent": "thndzone",
@@ -4904,7 +5084,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Thunder Zone (World 4 Players)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "thndzonej": {
       "parent": "thndzone",
@@ -5041,7 +5224,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Thunder Zone (Japan)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "dassault": {
       "parent": "thndzone",
@@ -5178,7 +5364,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Desert Assault (US)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "dassault4": {
       "parent": "thndzone",
@@ -5315,7 +5504,10 @@
           "n": "pal16l8b.7d",
           "c": "199e83fd"
         }
-      ]
+      ],
+      "t": "Desert Assault (US 4 Players)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "dblewing": {
       "parent": null,
@@ -5356,7 +5548,10 @@
           "n": "pal16l8-vg-01.1h",
           "c": "04b0bab6"
         }
-      ]
+      ],
+      "t": "Double Wings (set 1)",
+      "y": "1993",
+      "m": "Mitchell"
     },
     "dblewinga": {
       "parent": "dblewing",
@@ -5397,7 +5592,10 @@
           "n": "pal16l8-vg-01.1h",
           "c": "04b0bab6"
         }
-      ]
+      ],
+      "t": "Double Wings (set 2)",
+      "y": "1993",
+      "m": "Mitchell"
     },
     "dblewingb": {
       "parent": "dblewing",
@@ -5438,7 +5636,10 @@
           "n": "pal16l8-vg-01.1h",
           "c": "04b0bab6"
         }
-      ]
+      ],
+      "t": "Double Wings (Asia)",
+      "y": "1994",
+      "m": "Mitchell"
     },
     "baddudes": {
       "parent": null,
@@ -5543,7 +5744,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Bad Dudes vs. Dragonninja (US, revision 1)",
+      "y": "1988",
+      "m": "Data East USA"
     },
     "birdtry": {
       "parent": null,
@@ -5664,7 +5868,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Birdie Try (Japan, revision 2, revision 1 MCU)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "birdtrya": {
       "parent": "birdtry",
@@ -5785,7 +5992,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Birdie Try (Japan, revision 2)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "birdtryb": {
       "parent": "birdtry",
@@ -5906,7 +6116,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Birdie Try (Japan, sample version)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "drgninja": {
       "parent": "baddudes",
@@ -6011,7 +6224,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Dragonninja (Japan, revision 1)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "drgninjab": {
       "parent": "baddudes",
@@ -6108,7 +6324,10 @@
           "n": "i8751",
           "c": "c3f6bc70"
         }
-      ]
+      ],
+      "t": "Dragonninja (bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "drgninjab2": {
       "parent": "baddudes",
@@ -6233,7 +6452,10 @@
           "n": "n82s129an.2q",
           "c": "af46d1ee"
         }
-      ]
+      ],
+      "t": "Dragonninja (bootleg with 68705)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "bouldash": {
       "parent": null,
@@ -6314,7 +6536,10 @@
           "n": "ta-16.21k",
           "c": "ad26e8d4"
         }
-      ]
+      ],
+      "t": "Boulder Dash / Boulder Dash Part 2 (World)",
+      "y": "1990",
+      "m": "Data East Corporation (licensed from First Star)"
     },
     "bouldashj": {
       "parent": "bouldash",
@@ -6395,7 +6620,10 @@
           "n": "ta-16.21k",
           "c": "ad26e8d4"
         }
-      ]
+      ],
+      "t": "Boulder Dash / Boulder Dash Part 2 (Japan)",
+      "y": "1990",
+      "m": "Data East Corporation (licensed from First Star)"
     },
     "hbarrel": {
       "parent": null,
@@ -6532,7 +6760,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Heavy Barrel (World)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "hbarrelu": {
       "parent": "hbarrel",
@@ -6669,7 +6900,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Heavy Barrel (US, revision 3)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "hbarrelua": {
       "parent": "hbarrel",
@@ -6806,7 +7040,10 @@
           "n": "mb7122e.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Heavy Barrel (US, revision 1)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "hippodrm": {
       "parent": null,
@@ -6919,7 +7156,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Hippodrome (US)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "ffantasy": {
       "parent": "hippodrm",
@@ -7032,7 +7272,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Fighting Fantasy (Japan, revision 3)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "ffantasyj": {
       "parent": "hippodrm",
@@ -7145,7 +7388,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Fighting Fantasy (Japan, revision 2)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "ffantasya": {
       "parent": "hippodrm",
@@ -7258,7 +7504,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Fighting Fantasy (Japan)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "ffantasyb": {
       "parent": "hippodrm",
@@ -7371,7 +7620,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Fighting Fantasy (Japan revision ?)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "midres": {
       "parent": null,
@@ -7476,7 +7728,10 @@
           "n": "tb-6.20h",
           "c": "23b17abe"
         }
-      ]
+      ],
+      "t": "Midnight Resistance (World, set 1)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "midres2": {
       "parent": "midres",
@@ -7581,7 +7836,10 @@
           "n": "tb-6.20h",
           "c": "23b17abe"
         }
-      ]
+      ],
+      "t": "Midnight Resistance (World, set 2)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "midresu": {
       "parent": "midres",
@@ -7686,7 +7944,10 @@
           "n": "tb-6.20h",
           "c": "23b17abe"
         }
-      ]
+      ],
+      "t": "Midnight Resistance (US)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "midresj": {
       "parent": "midres",
@@ -7791,7 +8052,10 @@
           "n": "tb-6.20h",
           "c": "23b17abe"
         }
-      ]
+      ],
+      "t": "Midnight Resistance (Japan)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "robocop": {
       "parent": null,
@@ -7904,7 +8168,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Robocop (World, revision 4)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "robocopw": {
       "parent": "robocop",
@@ -8017,7 +8284,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Robocop (World, revision 3)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "robocopj": {
       "parent": "robocop",
@@ -8130,7 +8400,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Robocop (Japan)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "robocopu": {
       "parent": "robocop",
@@ -8243,7 +8516,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Robocop (US, revision 1)",
+      "y": "1988",
+      "m": "Data East USA"
     },
     "robocopu0": {
       "parent": "robocop",
@@ -8356,7 +8632,10 @@
           "n": "mb7122e_a-2.17e",
           "c": "a5cda23e"
         }
-      ]
+      ],
+      "t": "Robocop (US, revision 0)",
+      "y": "1988",
+      "m": "Data East USA"
     },
     "robocopb": {
       "parent": "robocop",
@@ -8457,7 +8736,10 @@
           "n": "ep02",
           "c": "711ce46f"
         }
-      ]
+      ],
+      "t": "Robocop (World bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "robocopb2": {
       "parent": "robocop",
@@ -8558,7 +8840,10 @@
           "n": "ep02",
           "c": "711ce46f"
         }
-      ]
+      ],
+      "t": "Robocop (Red Corporation World bootleg)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "secretag": {
       "parent": null,
@@ -8647,7 +8932,10 @@
           "n": "pal16l8a-ta-4.11m",
           "c": "116177fa"
         }
-      ]
+      ],
+      "t": "Secret Agent (World, revision 3)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "secretagj": {
       "parent": "secretag",
@@ -8736,7 +9024,10 @@
           "n": "pal16l8a-ta-4.11m",
           "c": "116177fa"
         }
-      ]
+      ],
+      "t": "Secret Agent (Japan, revision 2)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "slyspy": {
       "parent": "secretag",
@@ -8825,7 +9116,10 @@
           "n": "pal16l8a-ta-4.11m",
           "c": "116177fa"
         }
-      ]
+      ],
+      "t": "Sly Spy (US, revision 4)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "slyspy2": {
       "parent": "secretag",
@@ -8914,7 +9208,10 @@
           "n": "pal16l8a-ta-4.11m",
           "c": "116177fa"
         }
-      ]
+      ],
+      "t": "Sly Spy (US, revision 2)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "slyspy3": {
       "parent": "secretag",
@@ -9003,7 +9300,10 @@
           "n": "pal16l8a-ta-4.11m",
           "c": "116177fa"
         }
-      ]
+      ],
+      "t": "Sly Spy (US, revision 3)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "ghostb": {
       "parent": null,
@@ -9096,7 +9396,10 @@
           "n": "dz-1.1b",
           "c": "9f5f3cb5"
         }
-      ]
+      ],
+      "t": "The Real Ghostbusters (US 2 Players, revision 2)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "ghostb2a": {
       "parent": "ghostb",
@@ -9189,7 +9492,10 @@
           "n": "dz-1.1b",
           "c": "9f5f3cb5"
         }
-      ]
+      ],
+      "t": "The Real Ghostbusters (US 2 Players)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "ghostb3": {
       "parent": "ghostb",
@@ -9282,7 +9588,10 @@
           "n": "dz-1.1b",
           "c": "9f5f3cb5"
         }
-      ]
+      ],
+      "t": "The Real Ghostbusters (US 3 Players, revision 3B?)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "ghostb3a": {
       "parent": "ghostb",
@@ -9375,7 +9684,10 @@
           "n": "dz-1.1b",
           "c": "9f5f3cb5"
         }
-      ]
+      ],
+      "t": "The Real Ghostbusters (US 3 Players, revision 2)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "meikyuh": {
       "parent": null,
@@ -9464,7 +9776,10 @@
           "n": "dw.1b",
           "c": "28e9ced9"
         }
-      ]
+      ],
+      "t": "Meikyuu Hunter G (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "meikyuhbl": {
       "parent": "meikyuh",
@@ -9557,7 +9872,10 @@
           "n": "dw.1b",
           "c": "28e9ced9"
         }
-      ]
+      ],
+      "t": "Meikyuu Hunter G (Japan, bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "cobracom": {
       "parent": null,
@@ -9630,7 +9948,10 @@
           "n": "pt-0.16h",
           "c": "add5074f"
         }
-      ]
+      ],
+      "t": "Cobra-Command (World/US revision 5)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "cobracoma": {
       "parent": "cobracom",
@@ -9703,7 +10024,10 @@
           "n": "pt-0.16h",
           "c": "add5074f"
         }
-      ]
+      ],
+      "t": "Cobra-Command (World/US revision 4)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "cobracomb": {
       "parent": "cobracom",
@@ -9776,7 +10100,10 @@
           "n": "pt-0.16h",
           "c": "add5074f"
         }
-      ]
+      ],
+      "t": "Cobra-Command (World/US)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "cobracomj": {
       "parent": "cobracom",
@@ -9849,7 +10176,10 @@
           "n": "pt-0.16h",
           "c": "add5074f"
         }
-      ]
+      ],
+      "t": "Cobra-Command (Japan)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "cobracomja": {
       "parent": "cobracom",
@@ -9914,7 +10244,10 @@
           "n": "el-07.rom",
           "c": "6d771fc3"
         }
-      ]
+      ],
+      "t": "Cobra-Command (Japan?, set 2)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "cobracomib": {
       "parent": "cobracom",
@@ -9987,7 +10320,10 @@
           "n": "4.bin",
           "c": "6d771fc3"
         }
-      ]
+      ],
+      "t": "Cobra-Command (Italian bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "cobracomjb": {
       "parent": "cobracom",
@@ -10080,7 +10416,10 @@
           "n": "pal16l8a-2cn.bin",
           "c": "3ef8cf68"
         }
-      ]
+      ],
+      "t": "Cobra-Command (Japan, bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "srdarwin": {
       "parent": null,
@@ -10141,7 +10480,10 @@
           "n": "dy_12.f4",
           "c": "ebfaaed9"
         }
-      ]
+      ],
+      "t": "SRD: Super Real Darwin (World)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "srdarwinj": {
       "parent": "srdarwin",
@@ -10202,7 +10544,10 @@
           "n": "dy_12.f4",
           "c": "ebfaaed9"
         }
-      ]
+      ],
+      "t": "SRD: Super Real Darwin (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "gondo": {
       "parent": null,
@@ -10303,7 +10648,10 @@
           "n": "ds-23.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Gondomania (World)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "gondou": {
       "parent": "gondo",
@@ -10404,7 +10752,10 @@
           "n": "ds-23.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Gondomania (US)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "makyosen": {
       "parent": "gondo",
@@ -10505,7 +10856,10 @@
           "n": "ds-23.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Makyou Senshi (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "garyoret": {
       "parent": null,
@@ -10606,7 +10960,10 @@
           "n": "dv__.mcu",
           "c": "37cacec6"
         }
-      ]
+      ],
+      "t": "Garyo Retsuden (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "oscar": {
       "parent": null,
@@ -10663,7 +11020,10 @@
           "n": "ed02",
           "c": "7ddc5651"
         }
-      ]
+      ],
+      "t": "Psycho-Nics Oscar (World revision 0)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "oscaru": {
       "parent": "oscar",
@@ -10724,7 +11084,10 @@
           "n": "du-13.bin",
           "c": "bea1f87e"
         }
-      ]
+      ],
+      "t": "Psycho-Nics Oscar (US)",
+      "y": "1988",
+      "m": "Data East USA"
     },
     "oscarj1": {
       "parent": "oscar",
@@ -10785,7 +11148,10 @@
           "n": "du-13.bin",
           "c": "bea1f87e"
         }
-      ]
+      ],
+      "t": "Psycho-Nics Oscar (Japan revision 1)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "oscarj2": {
       "parent": "oscar",
@@ -10846,7 +11212,10 @@
           "n": "du-13.c8",
           "c": "bea1f87e"
         }
-      ]
+      ],
+      "t": "Psycho-Nics Oscar (Japan revision 2)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "lastmisn": {
       "parent": null,
@@ -10911,7 +11280,10 @@
           "n": "dl-14.9c",
           "c": "2e55aa12"
         }
-      ]
+      ],
+      "t": "Last Mission (World revision 8)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "lastmisnu6": {
       "parent": "lastmisn",
@@ -10976,7 +11348,10 @@
           "n": "dl-14.9c",
           "c": "2e55aa12"
         }
-      ]
+      ],
+      "t": "Last Mission (US revision 6)",
+      "y": "1986",
+      "m": "Data East USA"
     },
     "lastmisnu5": {
       "parent": "lastmisn",
@@ -11041,7 +11416,10 @@
           "n": "dl-14.9c",
           "c": "2e55aa12"
         }
-      ]
+      ],
+      "t": "Last Mission (US revision 5)",
+      "y": "1986",
+      "m": "Data East USA"
     },
     "lastmisnj": {
       "parent": "lastmisn",
@@ -11106,7 +11484,10 @@
           "n": "dl-14.9c",
           "c": "2e55aa12"
         }
-      ]
+      ],
+      "t": "Last Mission (Japan)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "shackled": {
       "parent": null,
@@ -11199,7 +11580,10 @@
           "n": "dk-20.9c",
           "c": "ff3cd588"
         }
-      ]
+      ],
+      "t": "Shackled (US)",
+      "y": "1986",
+      "m": "Data East USA"
     },
     "breywood": {
       "parent": "shackled",
@@ -11292,7 +11676,10 @@
           "n": "dk-20.9c",
           "c": "ff3cd588"
         }
-      ]
+      ],
+      "t": "Breywood (Japan revision 2)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "csilver": {
       "parent": null,
@@ -11365,7 +11752,10 @@
           "n": "dx-15.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Captain Silver (World)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "csilverj": {
       "parent": "csilver",
@@ -11438,7 +11828,10 @@
           "n": "dx-15.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Captain Silver (Japan, revision 2)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "csilverja": {
       "parent": "csilver",
@@ -11511,7 +11904,10 @@
           "n": "dx-15.b10",
           "c": "dcbfec4e"
         }
-      ]
+      ],
+      "t": "Captain Silver (Japan, revision 1)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "hvysmsh": {
       "parent": null,
@@ -11544,7 +11940,10 @@
           "n": "mbg-04.11k",
           "c": "2281c758"
         }
-      ]
+      ],
+      "t": "Heavy Smash (Europe version -2)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "hvysmshj": {
       "parent": "hvysmsh",
@@ -11577,7 +11976,10 @@
           "n": "mbg-04.11k",
           "c": "2281c758"
         }
-      ]
+      ],
+      "t": "Heavy Smash (Japan version -2)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "hvysmsha": {
       "parent": "hvysmsh",
@@ -11610,7 +12012,10 @@
           "n": "mbg-04.11k",
           "c": "2281c758"
         }
-      ]
+      ],
+      "t": "Heavy Smash (Asia version -4)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "wcvol95": {
       "parent": null,
@@ -11647,7 +12052,10 @@
           "n": "gal16v8b.5d.bin",
           "c": "117784f0"
         }
-      ]
+      ],
+      "t": "World Cup Volley '95 (Asia v1.0)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "wcvol95j": {
       "parent": "wcvol95",
@@ -11684,7 +12092,10 @@
           "n": "gal16v8b.5d.bin",
           "c": "117784f0"
         }
-      ]
+      ],
+      "t": "World Cup Volley '95 (Japan v1.0)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "wcvol95x": {
       "parent": "wcvol95",
@@ -11721,7 +12132,10 @@
           "n": "gal16v8b.5d.bin",
           "c": "117784f0"
         }
-      ]
+      ],
+      "t": "World Cup Volley '95 Extra Version (Asia v2.0B)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "captaven": {
       "parent": null,
@@ -11822,7 +12236,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (Asia Rev 1.4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavena": {
       "parent": "captaven",
@@ -11923,7 +12340,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (Asia Rev 1.0)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavene": {
       "parent": "captaven",
@@ -12024,7 +12444,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (UK Rev 1.4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavenu": {
       "parent": "captaven",
@@ -12125,7 +12548,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (US Rev 1.9)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavenuu": {
       "parent": "captaven",
@@ -12226,7 +12652,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (US Rev 1.6)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavenua": {
       "parent": "captaven",
@@ -12327,7 +12756,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (US Rev 1.4)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "captavenj": {
       "parent": "captaven",
@@ -12428,7 +12860,10 @@
           "n": "ts-02.12l",
           "c": "6f26528c"
         }
-      ]
+      ],
+      "t": "Captain America and The Avengers (Japan Rev 0.2)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "fghthist": {
       "parent": null,
@@ -12489,7 +12924,10 @@
           "n": "ve-01a.4d",
           "c": "109613c8"
         }
-      ]
+      ],
+      "t": "Fighter's History (World ver 43-09, DE-0395-1 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthista": {
       "parent": "fghthist",
@@ -12550,7 +12988,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (World ver 43-07, DE-0380-2 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistb": {
       "parent": "fghthist",
@@ -12611,7 +13052,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (World ver 43-05, DE-0380-2 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistu": {
       "parent": "fghthist",
@@ -12672,7 +13116,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (US ver 42-09, DE-0396-0 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistua": {
       "parent": "fghthist",
@@ -12733,7 +13180,10 @@
           "n": "ve-01a.4d",
           "c": "109613c8"
         }
-      ]
+      ],
+      "t": "Fighter's History (US ver 42-06, DE-0395-1 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistub": {
       "parent": "fghthist",
@@ -12794,7 +13244,10 @@
           "n": "ve-01a.4d",
           "c": "109613c8"
         }
-      ]
+      ],
+      "t": "Fighter's History (US ver 42-05, DE-0395-1 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistuc": {
       "parent": "fghthist",
@@ -12855,7 +13308,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (US ver 42-03, DE-0380-2 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistj": {
       "parent": "fghthist",
@@ -12916,7 +13372,10 @@
           "n": "ve-01a.4d",
           "c": "109613c8"
         }
-      ]
+      ],
+      "t": "Fighter's History (Japan ver 41-07, DE-0395-1 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistja": {
       "parent": "fghthist",
@@ -12977,7 +13436,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (Japan ver 41-05, DE-0380-2 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "fghthistjb": {
       "parent": "fghthist",
@@ -13038,7 +13500,10 @@
           "n": "ve-01.4d",
           "c": "4ba7e6a9"
         }
-      ]
+      ],
+      "t": "Fighter's History (Japan ver 41-04, DE-0380-1 PCB)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "nslasher": {
       "parent": null,
@@ -13111,7 +13576,10 @@
           "n": "vm-02.8j",
           "c": "53692426"
         }
-      ]
+      ],
+      "t": "Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "nslasherj": {
       "parent": "nslasher",
@@ -13184,7 +13652,10 @@
           "n": "vm-02.8j",
           "c": "53692426"
         }
-      ]
+      ],
+      "t": "Night Slashers (Japan Rev 1.2, DE-0397-0 PCB)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "nslashers": {
       "parent": "nslasher",
@@ -13257,7 +13728,10 @@
           "n": "vm-02.8j",
           "c": "53692426"
         }
-      ]
+      ],
+      "t": "Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "nslasheru": {
       "parent": "nslasher",
@@ -13338,7 +13812,10 @@
           "n": "vm-02.8j",
           "c": "53692426"
         }
-      ]
+      ],
+      "t": "Night Slashers (US Rev 1.2, DE-0395-1 PCB)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "tattass": {
       "parent": null,
@@ -13555,7 +14032,10 @@
           "n": "bsmt2000.bin",
           "c": "c2a265af"
         }
-      ]
+      ],
+      "t": "Tattoo Assassins (US prototype, Mar 14 1995)",
+      "y": "1994",
+      "m": "Data East Pinball"
     },
     "tattasso": {
       "parent": "tattass",
@@ -13772,7 +14252,10 @@
           "n": "bsmt2000.bin",
           "c": "c2a265af"
         }
-      ]
+      ],
+      "t": "Tattoo Assassins (US prototype, Mar 14 1995, older sound)",
+      "y": "1994",
+      "m": "Data East Pinball"
     },
     "tattassa": {
       "parent": "tattass",
@@ -13989,7 +14472,10 @@
           "n": "bsmt2000.bin",
           "c": "c2a265af"
         }
-      ]
+      ],
+      "t": "Tattoo Assassins (Asia prototype, Mar 14 1995)",
+      "y": "1994",
+      "m": "Data East Pinball"
     },
     "dragngun": {
       "parent": null,
@@ -14154,7 +14640,10 @@
           "n": "mar-07.n19",
           "c": "40287d62"
         }
-      ]
+      ],
+      "t": "Dragon Gun (US)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "dragngunj": {
       "parent": "dragngun",
@@ -14319,7 +14808,10 @@
           "n": "mar-07.n19",
           "c": "40287d62"
         }
-      ]
+      ],
+      "t": "Dragon Gun (Japan)",
+      "y": "1993",
+      "m": "Data East Corporation"
     },
     "decocass": {
       "parent": null,
@@ -14504,7 +14996,10 @@
           "n": "cassmcu.1c",
           "c": "a6df18fd"
         }
-      ]
+      ],
+      "t": "DECO Cassette System Bios",
+      "y": "1981",
+      "m": "Data East"
     },
     "ctsttape": {
       "parent": null,
@@ -14517,7 +15012,10 @@
           "n": "testtape.cas",
           "c": "4f9d8efb"
         }
-      ]
+      ],
+      "t": "Test Tape (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "chwy": {
       "parent": null,
@@ -14530,7 +15028,10 @@
           "n": "chwy.cas",
           "c": "68a48064"
         }
-      ]
+      ],
+      "t": "Highway Chase (DECO Cassette) (US)",
+      "y": "1980",
+      "m": "Data East Corporation"
     },
     "cmanhat": {
       "parent": null,
@@ -14543,7 +15044,10 @@
           "n": "manhattan.cas",
           "c": "92dae2b1"
         }
-      ]
+      ],
+      "t": "Manhattan (DECO Cassette) (Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cterrani": {
       "parent": null,
@@ -14556,7 +15060,10 @@
           "n": "dt-1040.cas",
           "c": "eb71adbc"
         }
-      ]
+      ],
+      "t": "Terranean (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "castfant": {
       "parent": null,
@@ -14569,7 +15076,10 @@
           "n": "castfant.cas",
           "c": "6d77d1b5"
         }
-      ]
+      ],
+      "t": "Astro Fantasia (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cnebula": {
       "parent": null,
@@ -14582,7 +15092,10 @@
           "n": "nebula2.cas",
           "c": "aaac39e6"
         }
-      ]
+      ],
+      "t": "Nebula (DECO Cassette) (UK)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "csuperas": {
       "parent": null,
@@ -14595,7 +15108,10 @@
           "n": "csuperas.cas",
           "c": "fabcd07f"
         }
-      ]
+      ],
+      "t": "Super Astro Fighter (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cocean1a": {
       "parent": null,
@@ -14608,7 +15124,10 @@
           "n": "dt-1101-a-0.cas",
           "c": "db8ab848"
         }
-      ]
+      ],
+      "t": "Ocean to Ocean (Medal) (DECO Cassette MD) (No.10/Ver.1,Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cocean6b": {
       "parent": "cocean1a",
@@ -14621,7 +15140,10 @@
           "n": "dt-1106-b-0.cas",
           "c": "fa6ffc95"
         }
-      ]
+      ],
+      "t": "Ocean to Ocean (Medal) (DECO Cassette MD) (No.10/Ver.6,US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "clocknch": {
       "parent": null,
@@ -14634,7 +15156,10 @@
           "n": "clocknch.cas",
           "c": "c9d163a4"
         }
-      ]
+      ],
+      "t": "Lock'n'Chase (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "clocknchj": {
       "parent": "clocknch",
@@ -14647,7 +15172,10 @@
           "n": "dt-1111-a-0.bin",
           "c": "9753e815"
         }
-      ]
+      ],
+      "t": "Lock'n'Chase (DECO Cassette) (Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cfboy0a1": {
       "parent": null,
@@ -14660,7 +15188,10 @@
           "n": "dt-1120-a-1.cas",
           "c": "c6746dc0"
         }
-      ]
+      ],
+      "t": "Flash Boy (vertical) (DECO Cassette MD) (No.12/Ver.0/Set.1,Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cprogolf": {
       "parent": null,
@@ -14673,7 +15204,10 @@
           "n": "dt-1130_9b.cas",
           "c": "02123cd1"
         }
-      ]
+      ],
+      "t": "Tournament Pro Golf (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cprogolfj": {
       "parent": "cprogolf",
@@ -14686,7 +15220,10 @@
           "n": "dt-113_a.cas",
           "c": "8408248f"
         }
-      ]
+      ],
+      "t": "Tournament Pro Golf (DECO Cassette) (Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cprogolf18": {
       "parent": "cprogolf",
@@ -14699,7 +15236,10 @@
           "n": "progolf18.cas",
           "c": "3024396c"
         }
-      ]
+      ],
+      "t": "18 Challenge Pro Golf (DECO Cassette) (Japan)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cdsteljn": {
       "parent": null,
@@ -14712,7 +15252,10 @@
           "n": "dt-1144-a3.cas",
           "c": "1336a912"
         }
-      ]
+      ],
+      "t": "DS Telejan (DECO Cassette) (Japan)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cluckypo": {
       "parent": null,
@@ -14725,7 +15268,10 @@
           "n": "cluckypo.cas",
           "c": "2070c243"
         }
-      ]
+      ],
+      "t": "Lucky Poker (DECO Cassette) (US)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "ctisland": {
       "parent": null,
@@ -14754,7 +15300,10 @@
           "n": "deco-ti.x4",
           "c": "1cbe43de"
         }
-      ]
+      ],
+      "t": "Treasure Island (DECO Cassette) (US) (set 1)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "ctisland2": {
       "parent": "ctisland",
@@ -14783,7 +15332,10 @@
           "n": "deco-ti.x4",
           "c": "1cbe43de"
         }
-      ]
+      ],
+      "t": "Treasure Island (DECO Cassette) (US) (set 2)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "ctisland3": {
       "parent": "ctisland",
@@ -14812,7 +15364,10 @@
           "n": "deco-ti.x4",
           "c": "1cbe43de"
         }
-      ]
+      ],
+      "t": "Treasure Island (DECO Cassette) (Europe?)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "ctower": {
       "parent": null,
@@ -14825,7 +15380,10 @@
           "n": "ctower.cas",
           "c": "94ad1dd6"
         }
-      ]
+      ],
+      "t": "The Tower (DECO Cassette) (Europe)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "cexplore": {
       "parent": null,
@@ -14878,7 +15436,10 @@
           "n": "y5_made_in_japan_18.y5",
           "c": "0a6b8f03"
         }
-      ]
+      ],
+      "t": "Explorer (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cdiscon1": {
       "parent": null,
@@ -14891,7 +15452,10 @@
           "n": "cdiscon1.cas",
           "c": "1429a397"
         }
-      ]
+      ],
+      "t": "Disco No.1 (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "csweetht": {
       "parent": "cdiscon1",
@@ -14904,7 +15468,10 @@
           "n": "csweetht.cas",
           "c": "175ef706"
         }
-      ]
+      ],
+      "t": "Sweet Heart (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "ctornado": {
       "parent": null,
@@ -14917,7 +15484,10 @@
           "n": "ctornado.cas",
           "c": "e4e36ce0"
         }
-      ]
+      ],
+      "t": "Tornado (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cmissnx": {
       "parent": null,
@@ -14930,7 +15500,10 @@
           "n": "cmissnx.cas",
           "c": "3a094e11"
         }
-      ]
+      ],
+      "t": "Mission-X (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cptennis": {
       "parent": null,
@@ -14943,7 +15516,10 @@
           "n": "cptennis.cas",
           "c": "6bb257fe"
         }
-      ]
+      ],
+      "t": "Pro Tennis (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cptennisj": {
       "parent": "cptennis",
@@ -14956,7 +15532,10 @@
           "n": "dt-1222-a-0.bin",
           "c": "ee29eba7"
         }
-      ]
+      ],
+      "t": "Pro Tennis (DECO Cassette) (Japan)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cadanglr": {
       "parent": null,
@@ -14969,7 +15548,10 @@
           "n": "dt-1255-b-0.cas",
           "c": "eb985257"
         }
-      ]
+      ],
+      "t": "Angler Dangler (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cfishing": {
       "parent": "cadanglr",
@@ -14982,7 +15564,10 @@
           "n": "dt-1250-a-0.cas",
           "c": "d4a16425"
         }
-      ]
+      ],
+      "t": "Fishing (DECO Cassette) (Japan)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cbtime": {
       "parent": null,
@@ -14995,7 +15580,10 @@
           "n": "dt-126_7b.cas",
           "c": "56d7dc58"
         }
-      ]
+      ],
+      "t": "Burger Time (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "chamburger": {
       "parent": "cbtime",
@@ -15008,7 +15596,10 @@
           "n": "dt-126_a.cas",
           "c": "334fb987"
         }
-      ]
+      ],
+      "t": "Hamburger (DECO Cassette) (Japan)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cburnrub": {
       "parent": null,
@@ -15021,7 +15612,10 @@
           "n": "cburnrub.cas",
           "c": "4528ac22"
         }
-      ]
+      ],
+      "t": "Burnin' Rubber (DECO Cassette) (US) (set 1)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cburnrub2": {
       "parent": "cburnrub",
@@ -15034,7 +15628,10 @@
           "n": "cburnrb2.cas",
           "c": "84a9ed66"
         }
-      ]
+      ],
+      "t": "Burnin' Rubber (DECO Cassette) (US) (set 2)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cbnj": {
       "parent": "cburnrub",
@@ -15047,7 +15644,10 @@
           "n": "cbnj.cas",
           "c": "eed41560"
         }
-      ]
+      ],
+      "t": "Bump 'n' Jump (DECO Cassette) (US)",
+      "y": "1982",
+      "m": "Data East Corporation"
     },
     "cgraplop": {
       "parent": null,
@@ -15060,7 +15660,10 @@
           "n": "cgraplop.cas",
           "c": "d2c1c1bb"
         }
-      ]
+      ],
+      "t": "Cluster Buster (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cgraplop2": {
       "parent": "cgraplop",
@@ -15073,7 +15676,10 @@
           "n": "cgraplop2.cas",
           "c": "2e728981"
         }
-      ]
+      ],
+      "t": "Graplop (DECO Cassette) (US) (Prototype?)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "clapapa": {
       "parent": null,
@@ -15086,7 +15692,10 @@
           "n": "clapapa.cas",
           "c": "4ffbac24"
         }
-      ]
+      ],
+      "t": "Rootin' Tootin' / La-Pa-Pa (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "clapapa2": {
       "parent": "clapapa",
@@ -15099,7 +15708,10 @@
           "n": "clapapa2.cas",
           "c": "069dd3c4"
         }
-      ]
+      ],
+      "t": "Rootin' Tootin' (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cskater": {
       "parent": null,
@@ -15112,7 +15724,10 @@
           "n": "dt-130_a.cas",
           "c": "1722e5e1"
         }
-      ]
+      ],
+      "t": "Skater (DECO Cassette) (Japan)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cprobowl": {
       "parent": null,
@@ -15125,7 +15740,10 @@
           "n": "cprobowl.cas",
           "c": "cb86c5e1"
         }
-      ]
+      ],
+      "t": "Pro Bowling (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cnightst": {
       "parent": null,
@@ -15138,7 +15756,10 @@
           "n": "cnightst.cas",
           "c": "c6f844cb"
         }
-      ]
+      ],
+      "t": "Night Star (DECO Cassette) (US) (set 1)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cnightst2": {
       "parent": "cnightst",
@@ -15151,7 +15772,10 @@
           "n": "cnights2.cas",
           "c": "1a28128c"
         }
-      ]
+      ],
+      "t": "Night Star (DECO Cassette) (US) (set 2)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cpsoccer": {
       "parent": null,
@@ -15164,7 +15788,10 @@
           "n": "cprosocc.cas",
           "c": "76b1ad2c"
         }
-      ]
+      ],
+      "t": "Pro Soccer (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cpsoccerj": {
       "parent": "cpsoccer",
@@ -15177,7 +15804,10 @@
           "n": "dt-133_a.cas",
           "c": "de682a29"
         }
-      ]
+      ],
+      "t": "Pro Soccer (DECO Cassette) (Japan)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "csdtenis": {
       "parent": null,
@@ -15190,7 +15820,10 @@
           "n": "dt-134_a.cas",
           "c": "9a69d961"
         }
-      ]
+      ],
+      "t": "Super Doubles Tennis (DECO Cassette) (Japan)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "czeroize": {
       "parent": null,
@@ -15199,7 +15832,10 @@
           "n": "czeroize.cas",
           "c": "3ef0a406"
         }
-      ]
+      ],
+      "t": "Zeroize (DECO Cassette) (US)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "cppicf": {
       "parent": null,
@@ -15212,7 +15848,10 @@
           "n": "cppicf.cas",
           "c": "8c02f160"
         }
-      ]
+      ],
+      "t": "Peter Pepper's Ice Cream Factory (DECO Cassette) (US) (set 1)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cppicf2": {
       "parent": "cppicf",
@@ -15225,7 +15864,10 @@
           "n": "cppicf2.cas",
           "c": "78ffa1bc"
         }
-      ]
+      ],
+      "t": "Peter Pepper's Ice Cream Factory (DECO Cassette) (US) (set 2)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cfghtice": {
       "parent": null,
@@ -15238,7 +15880,10 @@
           "n": "cfghtice.cas",
           "c": "906dd7fb"
         }
-      ]
+      ],
+      "t": "Fighting Ice Hockey (DECO Cassette) (US)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cscrtry": {
       "parent": null,
@@ -15251,7 +15896,10 @@
           "n": "cscrtry.cas",
           "c": "5625f0ca"
         }
-      ]
+      ],
+      "t": "Scrum Try (DECO Cassette) (US) (set 1)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cscrtry2": {
       "parent": "cscrtry",
@@ -15264,7 +15912,10 @@
           "n": "cscrtry2.cas",
           "c": "04597842"
         }
-      ]
+      ],
+      "t": "Scrum Try (DECO Cassette) (US) (set 2)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "coozumou": {
       "parent": null,
@@ -15277,7 +15928,10 @@
           "n": "dt-141_1a.cas",
           "c": "20c2e86a"
         }
-      ]
+      ],
+      "t": "Oozumou - The Grand Sumo (DECO Cassette) (Japan)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "cbdash": {
       "parent": null,
@@ -15286,7 +15940,10 @@
           "n": "cbdash.cas",
           "c": "cba4c1af"
         }
-      ]
+      ],
+      "t": "Boulder Dash (DECO Cassette) (US)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "cflyball": {
       "parent": null,
@@ -15295,7 +15952,10 @@
           "n": "cflyball.cas",
           "c": "cb40d043"
         }
-      ]
+      ],
+      "t": "Flying Ball (DECO Cassette) (US)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "decomult": {
       "parent": null,
@@ -15332,7 +15992,10 @@
           "n": "v3.3j",
           "c": "51eef657"
         }
-      ]
+      ],
+      "t": "DECO Cassette System ROM Multigame (David Widel)",
+      "y": "2008",
+      "m": "bootleg (David Widel)"
     },
     "avengrgs": {
       "parent": null,
@@ -15413,7 +16076,10 @@
           "n": "avengrgs.nv",
           "c": "c0e84b4e"
         }
-      ]
+      ],
+      "t": "Avengers In Galactic Storm (US/Europe 1.0)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "avengrgsj": {
       "parent": "avengrgs",
@@ -15494,7 +16160,10 @@
           "n": "avengrgsj.nv",
           "c": "7ea70843"
         }
-      ]
+      ],
+      "t": "Avengers In Galactic Storm (Japan 1.2)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "avengrgsbh": {
       "parent": "avengrgs",
@@ -15575,7 +16244,10 @@
           "n": "avengrgs.nv",
           "c": "c0e84b4e"
         }
-      ]
+      ],
+      "t": "Avengers In Galactic Storm (Playable Boss, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "skullfng": {
       "parent": null,
@@ -15628,7 +16300,10 @@
           "n": "skullfng.eeprom",
           "c": "240d882e"
         }
-      ]
+      ],
+      "t": "Skull Fang (Europe 1.13)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "skullfngj": {
       "parent": "skullfng",
@@ -15681,7 +16356,10 @@
           "n": "skullfng.eeprom",
           "c": "240d882e"
         }
-      ]
+      ],
+      "t": "Skull Fang - Kuhga Gaiden (Japan 1.09)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "skullfnga": {
       "parent": "skullfng",
@@ -15734,7 +16412,10 @@
           "n": "skullfng.eeprom",
           "c": "240d882e"
         }
-      ]
+      ],
+      "t": "Skull Fang - Kuhga Gaiden (Asia 1.13)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "stadhr96": {
       "parent": null,
@@ -15783,7 +16464,10 @@
           "n": "eeprom-stadhr96.bin",
           "c": "77861793"
         }
-      ]
+      ],
+      "t": "Stadium Hero '96 (Europe, EAJ, Tuning license)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "stadhr96u": {
       "parent": "stadhr96",
@@ -15832,7 +16516,10 @@
           "n": "eeprom-stadhr96u.bin",
           "c": "71d796ba"
         }
-      ]
+      ],
+      "t": "Stadium Hero '96 (USA, EAH)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "stadhr96j": {
       "parent": "stadhr96",
@@ -15881,7 +16568,10 @@
           "n": "eeprom-stadhr96j.bin",
           "c": "cf98098f"
         }
-      ]
+      ],
+      "t": "Stadium Hero '96 (Japan, EAD)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "stadhr96j2": {
       "parent": "stadhr96",
@@ -15926,7 +16616,10 @@
           "n": "mcm-06.6a",
           "c": "fbc178f3"
         }
-      ]
+      ],
+      "t": "Stadium Hero '96 (Japan?, EAE)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "stadhr96k": {
       "parent": "stadhr96",
@@ -15971,7 +16664,10 @@
           "n": "mcm-06.6a",
           "c": "fbc178f3"
         }
-      ]
+      ],
+      "t": "Stadium Hero '96 (Korea, Dream Island license)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "hoops96": {
       "parent": null,
@@ -16016,7 +16712,10 @@
           "n": "hoops.nv",
           "c": "67b18457"
         }
-      ]
+      ],
+      "t": "Hoops '96 (Europe/Asia 2.0)",
+      "y": "1996",
+      "m": "Data East Corporation"
     },
     "hoops95": {
       "parent": "hoops96",
@@ -16061,7 +16760,10 @@
           "n": "hoops.nv",
           "c": "67b18457"
         }
-      ]
+      ],
+      "t": "Hoops (Europe/Asia 1.7)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "ddream95": {
       "parent": "hoops96",
@@ -16106,7 +16808,10 @@
           "n": "hoops.nv",
           "c": "67b18457"
         }
-      ]
+      ],
+      "t": "Dunk Dream '95 (Japan 1.4, EAM)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "dietgo": {
       "parent": null,
@@ -16139,7 +16844,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (Europe v1.1 1992.09.26, set 1)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dietgoe": {
       "parent": "dietgo",
@@ -16172,7 +16880,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (Europe v1.1 1992.09.26, set 2)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dietgoea": {
       "parent": "dietgo",
@@ -16205,7 +16916,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (Europe v1.1 1992.09.26, set 3)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dietgoeb": {
       "parent": "dietgo",
@@ -16238,7 +16952,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (Europe v1.1 1992.08.04)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dietgou": {
       "parent": "dietgo",
@@ -16271,7 +16988,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (USA v1.1 1992.09.26)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dietgoj": {
       "parent": "dietgo",
@@ -16304,7 +17024,10 @@
           "n": "may-03.11l",
           "c": "b6e42bae"
         }
-      ]
+      ],
+      "t": "Diet Go Go (Japan v1.1 1992.09.26)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "dreambal": {
       "parent": null,
@@ -16321,7 +17044,10 @@
           "n": "mm_01-1.12f",
           "c": "4f134be7"
         }
-      ]
+      ],
+      "t": "Dream Ball (Japan V2.4)",
+      "y": "1993",
+      "m": "NDK / Data East"
     },
     "funkyjet": {
       "parent": null,
@@ -16354,7 +17080,10 @@
           "n": "jk03.15h",
           "c": "69a0eaf7"
         }
-      ]
+      ],
+      "t": "Funky Jet (World, rev 1)",
+      "y": "1992",
+      "m": "Mitchell"
     },
     "funkyjeta": {
       "parent": "funkyjet",
@@ -16387,7 +17116,10 @@
           "n": "jk03.15h",
           "c": "69a0eaf7"
         }
-      ]
+      ],
+      "t": "Funky Jet (World)",
+      "y": "1992",
+      "m": "Mitchell"
     },
     "funkyjeta2": {
       "parent": "funkyjet",
@@ -16420,7 +17152,10 @@
           "n": "15h",
           "c": "d7c0f0fe"
         }
-      ]
+      ],
+      "t": "Funky Jet (Korea, prototype?)",
+      "y": "1992",
+      "m": "Mitchell"
     },
     "funkyjetj": {
       "parent": "funkyjet",
@@ -16453,7 +17188,10 @@
           "n": "jh03.15h",
           "c": "69a0eaf7"
         }
-      ]
+      ],
+      "t": "Funky Jet (Japan, rev 2)",
+      "y": "1992",
+      "m": "Mitchell (Data East Corporation license)"
     },
     "sotsugyo": {
       "parent": null,
@@ -16486,7 +17224,10 @@
           "n": "sb030.15h",
           "c": "1ea43f48"
         }
-      ]
+      ],
+      "t": "Sotsugyo Shousho (Japan)",
+      "y": "1995",
+      "m": "Mitchell (Atlus license)"
     },
     "sotsugyok": {
       "parent": "sotsugyo",
@@ -16519,7 +17260,10 @@
           "n": "27c010.15h",
           "c": "1ea43f48"
         }
-      ]
+      ],
+      "t": "Jor-eop Jeungmyeongseo (Korea)",
+      "y": "1996",
+      "m": "Mitchell"
     },
     "karnov": {
       "parent": null,
@@ -16616,7 +17360,10 @@
           "n": "dn-5.k14",
           "c": "d056de4e"
         }
-      ]
+      ],
+      "t": "Karnov (US, rev 6)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "karnova": {
       "parent": "karnov",
@@ -16713,7 +17460,10 @@
           "n": "dn-5.k14",
           "c": "d056de4e"
         }
-      ]
+      ],
+      "t": "Karnov (US, rev 5)",
+      "y": "1987",
+      "m": "Data East USA"
     },
     "karnovj": {
       "parent": "karnov",
@@ -16810,7 +17560,10 @@
           "n": "dn-1.k14",
           "c": "24a8261b"
         }
-      ]
+      ],
+      "t": "Karnov (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "wndrplnt": {
       "parent": null,
@@ -16907,7 +17660,10 @@
           "n": "ea.k14",
           "c": "b481f6a9"
         }
-      ]
+      ],
+      "t": "Wonder Planet (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "chelnov": {
       "parent": null,
@@ -16988,7 +17744,10 @@
           "n": "ee-e.k14",
           "c": "b7045395"
         }
-      ]
+      ],
+      "t": "Atomic Runner Chelnov (World)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "chelnovu": {
       "parent": "chelnov",
@@ -17069,7 +17828,10 @@
           "n": "ee-a.k14",
           "c": "95ea1e7b"
         }
-      ]
+      ],
+      "t": "Atomic Runner Chelnov (US)",
+      "y": "1988",
+      "m": "Data East USA"
     },
     "chelnovj": {
       "parent": "chelnov",
@@ -17150,7 +17912,10 @@
           "n": "ee.k14",
           "c": "b3dc380c"
         }
-      ]
+      ],
+      "t": "Atomic Runner Chelnov (Japan)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "kchamp": {
       "parent": null,
@@ -17275,7 +18040,10 @@
           "n": "br25",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ (US)",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "karatedo": {
       "parent": "kchamp",
@@ -17400,7 +18168,10 @@
           "n": "br25",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Dou (Japan)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "karateda": {
       "parent": "kchamp",
@@ -17525,7 +18296,10 @@
           "n": "3_dm74s287_82s129.f13",
           "c": "111ccb15"
         }
-      ]
+      ],
+      "t": "Karate Dou (Arfyc bootleg)",
+      "y": "1984",
+      "m": "bootleg (Arfyc)"
     },
     "kchamptec": {
       "parent": "kchamp",
@@ -17650,7 +18424,10 @@
           "n": "br25.3",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ (Tecfri bootleg)",
+      "y": "1984",
+      "m": "bootleg (Tecfri)"
     },
     "kchampvs": {
       "parent": null,
@@ -17767,7 +18544,10 @@
           "n": "br25.k8",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ: Player Vs Player (US, set 1)",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "kchampvs2": {
       "parent": "kchampvs",
@@ -17884,7 +18664,10 @@
           "n": "lt.k8",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ: Player Vs Player (US, set 2)",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "kchampvs3": {
       "parent": "kchampvs",
@@ -18001,7 +18784,10 @@
           "n": "br25.k8",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ: Player Vs Player (US, set 3)",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "kchampvs4": {
       "parent": "kchampvs",
@@ -18118,7 +18904,10 @@
           "n": "br25.k8",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Karate Champ: Player Vs Player (US, set 4)",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "karatevs": {
       "parent": "kchampvs",
@@ -18235,7 +19024,10 @@
           "n": "br25.k8",
           "c": "ba4a5651"
         }
-      ]
+      ],
+      "t": "Taisen Karate Dou (Japan)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "lemmings": {
       "parent": null,
@@ -18304,7 +19096,10 @@
           "n": "lemmings.16",
           "c": "f747847c"
         }
-      ]
+      ],
+      "t": "Lemmings (US prototype)",
+      "y": "1991",
+      "m": "Data East USA"
     },
     "liberate": {
       "parent": null,
@@ -18361,7 +19156,10 @@
           "n": "bt14.bin",
           "c": "20281d61"
         }
-      ]
+      ],
+      "t": "Liberation",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "dualaslt": {
       "parent": "liberate",
@@ -18426,7 +19224,10 @@
           "n": "bt14.bin",
           "c": "20281d61"
         }
-      ]
+      ],
+      "t": "Dual Assault",
+      "y": "1984",
+      "m": "Data East USA"
     },
     "boomrang": {
       "parent": null,
@@ -18471,7 +19272,10 @@
           "n": "82s123.5l",
           "c": "a71e19ff"
         }
-      ]
+      ],
+      "t": "Boomer Rang'r / Genesis (set 1)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "boomranga": {
       "parent": "boomrang",
@@ -18544,7 +19348,10 @@
           "n": "ap-16.5l",
           "c": "a71e19ff"
         }
-      ]
+      ],
+      "t": "Boomer Rang'r / Genesis (set 2)",
+      "y": "1983",
+      "m": "Data East Corporation"
     },
     "kamikcab": {
       "parent": null,
@@ -18585,7 +19392,10 @@
           "n": "bp15",
           "c": "30d3acce"
         }
-      ]
+      ],
+      "t": "Kamikaze Cabbie",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "yellowcbj": {
       "parent": "kamikcab",
@@ -18646,7 +19456,10 @@
           "n": "bp15",
           "c": "30d3acce"
         }
-      ]
+      ],
+      "t": "Yellow Cab (Japan)",
+      "y": "1984",
+      "m": "Data East Corporation"
     },
     "yellowcbb": {
       "parent": "kamikcab",
@@ -18707,7 +19520,10 @@
           "n": "bp15",
           "c": "30d3acce"
         }
-      ]
+      ],
+      "t": "Yellow Cab (bootleg)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "madmotor": {
       "parent": null,
@@ -18808,7 +19624,10 @@
           "n": "fm-23.19h",
           "c": "6d51adf8"
         }
-      ]
+      ],
+      "t": "Mad Motor (prototype, set 1)",
+      "y": "1989",
+      "m": "Mitchell"
     },
     "madmotora": {
       "parent": "madmotor",
@@ -18909,7 +19728,10 @@
           "n": "fm-23.19h",
           "c": "6d51adf8"
         }
-      ]
+      ],
+      "t": "Mad Motor (prototype, set 2)",
+      "y": "1989",
+      "m": "Mitchell"
     },
     "metlclsh": {
       "parent": null,
@@ -18954,7 +19776,10 @@
           "n": "82s123.prm",
           "c": "6844cc88"
         }
-      ]
+      ],
+      "t": "Metal Clash (Japan)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "mirage": {
       "parent": null,
@@ -18987,7 +19812,10 @@
           "n": "mbl-04.12k",
           "c": "b533123d"
         }
-      ]
+      ],
+      "t": "Mirage Youjuu Mahjongden (Japan)",
+      "y": "1994",
+      "m": "Mitchell"
     },
     "pcktgal": {
       "parent": null,
@@ -19020,7 +19848,10 @@
           "n": "eb06.k15",
           "c": "1fbd4b59"
         }
-      ]
+      ],
+      "t": "Pocket Gal (Japan)",
+      "y": "1987",
+      "m": "Data East Corporation"
     },
     "pcktgalb": {
       "parent": "pcktgal",
@@ -19065,7 +19896,10 @@
           "n": "pal16r6",
           "c": "43aad537"
         }
-      ]
+      ],
+      "t": "Pocket Gal (Yada East bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "pcktgalba": {
       "parent": "pcktgal",
@@ -19118,7 +19952,10 @@
           "n": "10_sex.u37",
           "c": "73cf56a0"
         }
-      ]
+      ],
+      "t": "Pocket Gal / unknown card game",
+      "y": "1987",
+      "m": "bootleg"
     },
     "pcktgal2": {
       "parent": "pcktgal",
@@ -19151,7 +19988,10 @@
           "n": "eb06.k15",
           "c": "1fbd4b59"
         }
-      ]
+      ],
+      "t": "Pocket Gal 2 (English)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "pcktgal2j": {
       "parent": "pcktgal",
@@ -19184,7 +20024,10 @@
           "n": "eb06.k15",
           "c": "1fbd4b59"
         }
-      ]
+      ],
+      "t": "Pocket Gal 2 (Japanese)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "spool3": {
       "parent": "pcktgal",
@@ -19217,7 +20060,10 @@
           "n": "eb06.k15",
           "c": "1fbd4b59"
         }
-      ]
+      ],
+      "t": "Super Pool III (English)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "spool3i": {
       "parent": "pcktgal",
@@ -19250,7 +20096,10 @@
           "n": "eb06.k15",
           "c": "1fbd4b59"
         }
-      ]
+      ],
+      "t": "Super Pool III (I-Vics)",
+      "y": "1990",
+      "m": "Data East Corporation (I-Vics license)"
     },
     "pktgaldx": {
       "parent": null,
@@ -19279,7 +20128,10 @@
           "n": "maz-03.13f",
           "c": "a313c964"
         }
-      ]
+      ],
+      "t": "Pocket Gal Deluxe (Europe v3.00)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "pktgaldxj": {
       "parent": "pktgaldx",
@@ -19308,7 +20160,10 @@
           "n": "maz-03.13f",
           "c": "a313c964"
         }
-      ]
+      ],
+      "t": "Pocket Gal Deluxe (Japan v3.00)",
+      "y": "1993",
+      "m": "Data East Corporation (Nihon System license)"
     },
     "pktgaldxa": {
       "parent": "pktgaldx",
@@ -19337,7 +20192,10 @@
           "n": "maz-03.13f",
           "c": "a313c964"
         }
-      ]
+      ],
+      "t": "Pocket Gal Deluxe (Asia v3.00)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "pktgaldxb": {
       "parent": "pktgaldx",
@@ -19386,7 +20244,10 @@
           "n": "2.bin",
           "c": "f841d995"
         }
-      ]
+      ],
+      "t": "Pocket Gal Deluxe (Europe v3.00, bootleg)",
+      "y": "1993",
+      "m": "bootleg (Data West)"
     },
     "progolf": {
       "parent": null,
@@ -19439,7 +20300,10 @@
           "n": "gam.k11",
           "c": "b9665de3"
         }
-      ]
+      ],
+      "t": "18 Holes Pro Golf (set 1)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "progolfa": {
       "parent": "progolf",
@@ -19492,7 +20356,10 @@
           "n": "gam.k11",
           "c": "b9665de3"
         }
-      ]
+      ],
+      "t": "18 Holes Pro Golf (set 2)",
+      "y": "1981",
+      "m": "Data East Corporation"
     },
     "rohga": {
       "parent": null,
@@ -19577,7 +20444,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Rohga: Armor Force (Asia/Europe v5.0)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "rohga1": {
       "parent": "rohga",
@@ -19662,7 +20532,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Rohga: Armor Force (Asia/Europe v3.0 set 1)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "rohga2": {
       "parent": "rohga",
@@ -19747,7 +20620,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Rohga: Armor Force (Asia/Europe v3.0 set 2)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "rohgah": {
       "parent": "rohga",
@@ -19832,7 +20708,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Rohga: Armor Force (Hong Kong v3.0)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "rohgau": {
       "parent": "rohga",
@@ -19917,7 +20796,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Rohga: Armor Force (US v1.0)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "wolffang": {
       "parent": "rohga",
@@ -20002,7 +20884,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Wolf Fang: Kuuga 2001 (Japan)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "wizdfire": {
       "parent": null,
@@ -20095,7 +20980,10 @@
           "n": "mb7122h.16l",
           "c": "2bee57cc"
         }
-      ]
+      ],
+      "t": "Wizard Fire (Over Sea v2.1)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "wizdfirea": {
       "parent": "wizdfire",
@@ -20188,7 +21076,10 @@
           "n": "mb7122h.16l",
           "c": "2bee57cc"
         }
-      ]
+      ],
+      "t": "Wizard Fire (Over Sea v1.0)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "wizdfireu": {
       "parent": "wizdfire",
@@ -20281,7 +21172,10 @@
           "n": "mb7122h.16l",
           "c": "2bee57cc"
         }
-      ]
+      ],
+      "t": "Wizard Fire (US v1.1)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "darkseal2": {
       "parent": "wizdfire",
@@ -20374,7 +21268,10 @@
           "n": "mb7122h.16l",
           "c": "2bee57cc"
         }
-      ]
+      ],
+      "t": "Dark Seal 2 (Japan v2.1)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "schmeisr": {
       "parent": null,
@@ -20435,7 +21332,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Schmeiser Robo (Japan)",
+      "y": "1993",
+      "m": "Hot-B"
     },
     "hangzo": {
       "parent": null,
@@ -20512,7 +21412,10 @@
           "n": "hb-00.11p",
           "c": "b7a7baad"
         }
-      ]
+      ],
+      "t": "Hangzo (Japan, prototype)",
+      "y": "1992",
+      "m": "Hot-B"
     },
     "nitrobal": {
       "parent": null,
@@ -20605,7 +21508,10 @@
           "n": "jn-00.17l",
           "c": "6ac77b84"
         }
-      ]
+      ],
+      "t": "Nitro Ball (World, set 1)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "nitrobala": {
       "parent": "nitrobal",
@@ -20698,7 +21604,10 @@
           "n": "jn-00.17l",
           "c": "6ac77b84"
         }
-      ]
+      ],
+      "t": "Nitro Ball (World, set 2)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "nitrobalb": {
       "parent": "nitrobal",
@@ -20791,7 +21700,10 @@
           "n": "jn-00.17l",
           "c": "6ac77b84"
         }
-      ]
+      ],
+      "t": "Nitro Ball (World, set 3)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "gunball": {
       "parent": "nitrobal",
@@ -20884,7 +21796,10 @@
           "n": "jn-00.17l",
           "c": "6ac77b84"
         }
-      ]
+      ],
+      "t": "Gun Ball (Japan)",
+      "y": "1992",
+      "m": "Data East Corporation"
     },
     "shootout": {
       "parent": null,
@@ -20945,7 +21860,10 @@
           "n": "gb09.k6",
           "c": "aa090565"
         }
-      ]
+      ],
+      "t": "Shoot Out (US)",
+      "y": "1985",
+      "m": "Data East USA"
     },
     "shootoutj": {
       "parent": "shootout",
@@ -20990,7 +21908,10 @@
           "n": "gb09.k6",
           "c": "aa090565"
         }
-      ]
+      ],
+      "t": "Shoot Out (Japan)",
+      "y": "1985",
+      "m": "Data East Corporation"
     },
     "shootoutb": {
       "parent": "shootout",
@@ -21039,7 +21960,10 @@
           "n": "shootclr.003",
           "c": "6b0c2942"
         }
-      ]
+      ],
+      "t": "Shoot Out (Korean Bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "sidepckt": {
       "parent": null,
@@ -21088,7 +22012,10 @@
           "n": "dh-08.15l",
           "c": "cdf2180f"
         }
-      ]
+      ],
+      "t": "Side Pocket (World)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "sidepcktj": {
       "parent": "sidepckt",
@@ -21137,7 +22064,10 @@
           "n": "dh-08.15l",
           "c": "cdf2180f"
         }
-      ]
+      ],
+      "t": "Side Pocket (Japan, Cocktail)",
+      "y": "1986",
+      "m": "Data East Corporation"
     },
     "sidepcktb": {
       "parent": "sidepckt",
@@ -21186,7 +22116,10 @@
           "n": "dh-08.15l",
           "c": "cdf2180f"
         }
-      ]
+      ],
+      "t": "Side Pocket (bootleg, set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sidepcktb2": {
       "parent": "sidepckt",
@@ -21235,7 +22168,10 @@
           "n": "dh-08.bpr",
           "c": "cdf2180f"
         }
-      ]
+      ],
+      "t": "Side Pocket (bootleg, set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "joemacr": {
       "parent": null,
@@ -21268,7 +22204,10 @@
           "n": "mbn03",
           "c": "70b71a2a"
         }
-      ]
+      ],
+      "t": "Joe & Mac Returns (World, Version 1.1, 1994.05.27)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "joemacra": {
       "parent": "joemacr",
@@ -21297,7 +22236,10 @@
           "n": "mbn03",
           "c": "70b71a2a"
         }
-      ]
+      ],
+      "t": "Joe & Mac Returns (World, Version 1.0, 1994.05.19)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "joemacrj": {
       "parent": "joemacr",
@@ -21330,7 +22272,10 @@
           "n": "jmrj_ak93c45.h3",
           "c": "31f17522"
         }
-      ]
+      ],
+      "t": "Joe & Mac Returns (Japan, Version 1.2, 1994.06.06)",
+      "y": "1994",
+      "m": "Data East Corporation"
     },
     "chainrec": {
       "parent": null,
@@ -21371,7 +22316,10 @@
           "n": "eeprom-chainrec.bin",
           "c": "b6da3fbf"
         }
-      ]
+      ],
+      "t": "Chain Reaction (World, Version 2.2, 1995.09.25)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "magdrop": {
       "parent": "chainrec",
@@ -21404,7 +22352,10 @@
           "n": "93c45.2h",
           "c": "16ce8d2d"
         }
-      ]
+      ],
+      "t": "Magical Drop (Japan, Version 1.1, 1995.06.21)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "magdropp": {
       "parent": "chainrec",
@@ -21437,7 +22388,10 @@
           "n": "eeprom.2h",
           "c": "d13d9edd"
         }
-      ]
+      ],
+      "t": "Magical Drop Plus 1 (Japan, Version 2.1, 1995.09.12)",
+      "y": "1995",
+      "m": "Data East Corporation"
     },
     "charlien": {
       "parent": null,
@@ -21466,7 +22420,10 @@
           "n": "mbr-02.12f",
           "c": "4f67d333"
         }
-      ]
+      ],
+      "t": "Charlie Ninja",
+      "y": "1995",
+      "m": "Mitchell"
     },
     "prtytime": {
       "parent": null,
@@ -21507,7 +22464,10 @@
           "n": "eeprom-prtytime.bin",
           "c": "105700da"
         }
-      ]
+      ],
+      "t": "Party Time: Gonta the Diver II / Ganbare! Gonta!! 2 (World Release)",
+      "y": "1995",
+      "m": "Mitchell"
     },
     "gangonta": {
       "parent": "prtytime",
@@ -21548,7 +22508,10 @@
           "n": "eeprom-gangonta.bin",
           "c": "27ba60a5"
         }
-      ]
+      ],
+      "t": "Ganbare! Gonta!! 2 / Party Time: Gonta the Diver II (Japan Release)",
+      "y": "1995",
+      "m": "Mitchell"
     },
     "osman": {
       "parent": null,
@@ -21589,7 +22552,10 @@
           "n": "eeprom-osman.bin",
           "c": "509552b2"
         }
-      ]
+      ],
+      "t": "Osman (World)",
+      "y": "1996",
+      "m": "Mitchell"
     },
     "candance": {
       "parent": "osman",
@@ -21630,7 +22596,10 @@
           "n": "eeprom-candance.bin",
           "c": "0a0a8f6b"
         }
-      ]
+      ],
+      "t": "Cannon Dancer (Japan)",
+      "y": "1996",
+      "m": "Mitchell (Atlus license)"
     },
     "sshangha": {
       "parent": null,
@@ -21675,7 +22644,10 @@
           "n": "ss005.u86",
           "c": "c53a82ad"
         }
-      ]
+      ],
+      "t": "Super Shanghai Dragon's Eye (World)",
+      "y": "1992",
+      "m": "Hot-B Co., Ltd."
     },
     "sshanghaj": {
       "parent": "sshangha",
@@ -21720,7 +22692,10 @@
           "n": "ss005.u86",
           "c": "c53a82ad"
         }
-      ]
+      ],
+      "t": "Super Shanghai Dragon's Eye (Japan)",
+      "y": "1992",
+      "m": "Hot-B Co., Ltd."
     },
     "sshanghak": {
       "parent": "sshangha",
@@ -21765,7 +22740,10 @@
           "n": "ss005.u86",
           "c": "c53a82ad"
         }
-      ]
+      ],
+      "t": "Super Shanghai Dragon's Eye (Korea)",
+      "y": "1992",
+      "m": "Hot-B Co., Ltd. (Taito license)"
     },
     "sshanghab": {
       "parent": "sshangha",
@@ -21810,7 +22788,10 @@
           "n": "ss005.u86",
           "c": "c53a82ad"
         }
-      ]
+      ],
+      "t": "Super Shanghai Dragon's Eye (World, bootleg)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "stadhero": {
       "parent": null,
@@ -21887,7 +22868,10 @@
           "n": "ef19.3d",
           "c": "852ff668"
         }
-      ]
+      ],
+      "t": "Stadium Hero (Japan)",
+      "y": "1988",
+      "m": "Data East Corporation"
     },
     "supbtime": {
       "parent": null,
@@ -21944,7 +22928,10 @@
           "n": "tg4.c14",
           "c": "e9ee3a67"
         }
-      ]
+      ],
+      "t": "Super Burger Time (World, set 1)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "supbtimea": {
       "parent": "supbtime",
@@ -21977,7 +22964,10 @@
           "n": "gc05.bin",
           "c": "2f2246ff"
         }
-      ]
+      ],
+      "t": "Super Burger Time (World, set 2)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "supbtimej": {
       "parent": "supbtime",
@@ -22010,7 +23000,10 @@
           "n": "gc05.bin",
           "c": "2f2246ff"
         }
-      ]
+      ],
+      "t": "Super Burger Time (Japan)",
+      "y": "1990",
+      "m": "Data East Corporation"
     },
     "chinatwn": {
       "parent": null,
@@ -22043,7 +23036,10 @@
           "n": "gv_03-.j14",
           "c": "948faf92"
         }
-      ]
+      ],
+      "t": "China Town (Japan)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "tumblep": {
       "parent": null,
@@ -22076,7 +23072,10 @@
           "n": "hl03-.j15",
           "c": "01b81da0"
         }
-      ]
+      ],
+      "t": "Tumble Pop (World)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "tumblepj": {
       "parent": "tumblep",
@@ -22109,7 +23108,10 @@
           "n": "hl03-.j15",
           "c": "01b81da0"
         }
-      ]
+      ],
+      "t": "Tumble Pop (Japan)",
+      "y": "1991",
+      "m": "Data East Corporation"
     },
     "vaportra": {
       "parent": null,
@@ -22186,7 +23188,10 @@
           "n": "pal16l8b.14h",
           "c": "bf421fce"
         }
-      ]
+      ],
+      "t": "Vapor Trail - Hyper Offence Formation (World revision 1)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "vaportra3": {
       "parent": "vaportra",
@@ -22275,7 +23280,10 @@
           "n": "pal16l8b.14h",
           "c": "bf421fce"
         }
-      ]
+      ],
+      "t": "Vapor Trail - Hyper Offence Formation (World revision 3?)",
+      "y": "1989",
+      "m": "Data East Corporation"
     },
     "vaportrau": {
       "parent": "vaportra",
@@ -22352,7 +23360,10 @@
           "n": "pal16l8b.14h",
           "c": "bf421fce"
         }
-      ]
+      ],
+      "t": "Vapor Trail - Hyper Offence Formation (US)",
+      "y": "1989",
+      "m": "Data East USA"
     },
     "kuhga": {
       "parent": "vaportra",
@@ -22409,7 +23420,10 @@
           "n": "fj-27.bin",
           "c": "65045742"
         }
-      ]
+      ],
+      "t": "Kuhga - Operation Code 'Vapor Trail' (Japan revision 3)",
+      "y": "1989",
+      "m": "Data East Corporation"
     }
   }
 }

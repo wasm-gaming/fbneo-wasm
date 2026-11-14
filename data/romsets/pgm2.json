@@ -52,7 +52,10 @@
           "n": "kov3_sram",
           "c": "d9608102"
         }
-      ]
+      ],
+      "t": "Knights of Valour 3 (V104, China)",
+      "y": "2011",
+      "m": "IGS (Huatong license)"
     },
     "kov3_102": {
       "parent": "kov3",
@@ -105,7 +108,10 @@
           "n": "kov3_sram",
           "c": "d9608102"
         }
-      ]
+      ],
+      "t": "Knights of Valour 3 (V102, China)",
+      "y": "2011",
+      "m": "IGS (Huatong license)"
     },
     "kov3_101": {
       "parent": "kov3",
@@ -158,7 +164,10 @@
           "n": "kov3_sram",
           "c": "d9608102"
         }
-      ]
+      ],
+      "t": "Knights of Valour 3 (V101, China)",
+      "y": "2011",
+      "m": "IGS (Huatong license)"
     },
     "kov3_100": {
       "parent": "kov3",
@@ -211,7 +220,10 @@
           "n": "kov3_sram",
           "c": "d9608102"
         }
-      ]
+      ],
+      "t": "Knights of Valour 3 (V100, China)",
+      "y": "2011",
+      "m": "IGS (Huatong license)"
     },
     "ddpdojt": {
       "parent": null,
@@ -260,7 +272,10 @@
           "n": "ddpdojh_sram",
           "c": "af99e304"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Tamashii (V201, China)",
+      "y": "2010",
+      "m": "IGS / Cave (Tong Li Animation license)"
     },
     "kof98umh": {
       "parent": null,
@@ -313,7 +328,10 @@
           "n": "kof98umh_sram",
           "c": "60460ed9"
         }
-      ]
+      ],
+      "t": "The King of Fighters '98: Ultimate Match HERO (China, V100)",
+      "y": "2009",
+      "m": "IGS / SNK Playmore / New Channel"
     },
     "ddpdojtd": {
       "parent": "ddpdojt",
@@ -354,7 +372,10 @@
           "n": "ddpdoj_nvram.bin",
           "c": "af99e304"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Tamashii (V201, Decrypted)",
+      "y": "2010",
+      "m": "IGS / Cave"
     },
     "kof98umhd": {
       "parent": "kof98umh",
@@ -391,7 +412,10 @@
           "n": "kof98umh_nvram.bin",
           "c": "60460ed9"
         }
-      ]
+      ],
+      "t": "The King of Fighters '98: Ultimate Match HERO (V100, Decrypted)",
+      "y": "2009",
+      "m": "IGS / SNK Playmore / New Channel"
     }
   }
 }

@@ -28,7 +28,10 @@
           "n": "bios.u42",
           "c": "517cf7a2"
         }
-      ]
+      ],
+      "t": "PGM (Polygame Master) System BIOS",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend": {
       "parent": null,
@@ -81,7 +84,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 126)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegende": {
       "parent": "orlegend",
@@ -134,7 +140,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 112, set 1)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegendea": {
       "parent": "orlegend",
@@ -187,7 +196,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 112, set 2)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegendc": {
       "parent": "orlegend",
@@ -240,7 +252,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 112, Chinese Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegendca": {
       "parent": "orlegend",
@@ -293,7 +308,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. ???, Chinese Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend111c": {
       "parent": "orlegend",
@@ -358,7 +376,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 111, Chinese Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend111t": {
       "parent": "orlegend",
@@ -423,7 +444,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 111, Taiwanese Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend111k": {
       "parent": "orlegend",
@@ -488,7 +512,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 111, Korean Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend105k": {
       "parent": "orlegend",
@@ -553,7 +580,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 105, Korean Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "orlegend105t": {
       "parent": "orlegend",
@@ -618,7 +648,10 @@
           "n": "pgm_m0100.u1",
           "c": "e5c36c83"
         }
-      ]
+      ],
+      "t": "Oriental Legend / Xiyou Shi E Zhuan (ver. 105, Taiwanese Board)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2": {
       "parent": null,
@@ -639,7 +672,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Dragon World II (ver. 110X, Export)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2101c": {
       "parent": "drgw2",
@@ -660,7 +696,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Zhongguo Long II (ver. 101C, China)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2101j": {
       "parent": "drgw2",
@@ -681,7 +720,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu II (ver. 101J, Japan)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2100c": {
       "parent": "drgw2",
@@ -702,7 +744,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Zhongguo Long II (ver. 100C, China)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2100j": {
       "parent": "drgw2",
@@ -723,7 +768,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu II (ver. 100J, Japan)",
+      "y": "1997",
+      "m": "IGS (Alta license)"
     },
     "drgw2100x": {
       "parent": "drgw2",
@@ -744,7 +792,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Dragon World II (ver. 100X, Export)",
+      "y": "1997",
+      "m": "IGS"
     },
     "drgw2100hk": {
       "parent": "drgw2",
@@ -765,7 +816,10 @@
           "n": "pgm_b0200.u9",
           "c": "932d0f13"
         }
-      ]
+      ],
+      "t": "Dungfong Zi Zyu II (ver. 100H, Hong Kong)",
+      "y": "1997",
+      "m": "IGS"
     },
     "killbld": {
       "parent": null,
@@ -818,7 +872,10 @@
           "n": "kb_u2_v109.u2",
           "c": "de3eae63"
         }
-      ]
+      ],
+      "t": "The Killing Blade / Ao Jian Kuang Dao (ver. 109, Chinese Board)",
+      "y": "1998",
+      "m": "IGS"
     },
     "killbld109": {
       "parent": "killbld",
@@ -883,7 +940,10 @@
           "n": "kb_u2_v109.u2",
           "c": "de3eae63"
         }
-      ]
+      ],
+      "t": "The Killing Blade (ver. 109 alt, Chinese Board)",
+      "y": "1998",
+      "m": "IGS"
     },
     "killbld106": {
       "parent": "killbld",
@@ -948,7 +1008,10 @@
           "n": "kb_u2_v106.u2",
           "c": "5df8cf51"
         }
-      ]
+      ],
+      "t": "The Killing Blade / Ao Jian Kuang Dao (ver. 106)",
+      "y": "1998",
+      "m": "IGS"
     },
     "killbld104": {
       "parent": "killbld",
@@ -1013,7 +1076,10 @@
           "n": "kb_u2_v104.u2",
           "c": "c970f6d5"
         }
-      ]
+      ],
+      "t": "The Killing Blade / Ao Jian Kuang Dao (ver. 104)",
+      "y": "1998",
+      "m": "IGS"
     },
     "killbld100": {
       "parent": "killbld",
@@ -1078,7 +1144,10 @@
           "n": "kb_u2_v100.u2",
           "c": "6fbbdcb7"
         }
-      ]
+      ],
+      "t": "The Killing Blade / Ao Jian Kuang Dao (ver. 100, Taiwanese Board)",
+      "y": "1998",
+      "m": "IGS"
     },
     "drgw3": {
       "parent": null,
@@ -1115,7 +1184,10 @@
           "n": "dw3_text_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Dragon World 3 / Zhongguo Long 3 / Dungfong Zi Zyu 3 / Chuugokuryuu 3 Special (ver. 106)",
+      "y": "1998",
+      "m": "IGS"
     },
     "drgw3105": {
       "parent": "drgw3",
@@ -1152,7 +1224,10 @@
           "n": "dw3_v100_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Dragon World 3 / Zhongguo Long 3 / Dungfong Zi Zyu 3 / Chuugokuryuu 3 Special (ver. 105)",
+      "y": "1998",
+      "m": "IGS"
     },
     "drgw3103": {
       "parent": "drgw3",
@@ -1189,7 +1264,10 @@
           "n": "dw3_v100_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu 3 Special (Japan, ver. 103)",
+      "y": "1998",
+      "m": "IGS"
     },
     "drgw3100": {
       "parent": "drgw3",
@@ -1226,7 +1304,10 @@
           "n": "dw3_v100_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu 3 Special (Japan, ver. 100)",
+      "y": "1998",
+      "m": "IGS"
     },
     "dwex": {
       "parent": null,
@@ -1263,7 +1344,10 @@
           "n": "dwiii_data_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Dragon World 3 EX / Zhongguo Long 3 EX / Dungfong Zi Zyu 3 EX / Chuugokuryuu 3 EX (ver. 100)",
+      "y": "2000",
+      "m": "IGS"
     },
     "dwex101cn": {
       "parent": "dwex",
@@ -1300,7 +1384,10 @@
           "n": "dwiii_data_u15.u15",
           "c": "03dc4fdf"
         }
-      ]
+      ],
+      "t": "Dragon World 3 EX / Zhongguo Long 3 EX / Dungfong Zi Zyu 3 EX / Chuugokuryuu 3 EX (ver. 101CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "olds": {
       "parent": null,
@@ -1389,7 +1476,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Oriental Legend Super / Xiyou Shi E Zhuan Super (ver. 101, Korean Board)",
+      "y": "1998",
+      "m": "IGS"
     },
     "olds100": {
       "parent": "olds",
@@ -1478,7 +1568,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Oriental Legend Special / Xiyou Shi E Zhuan Super (ver. 100, set 1)",
+      "y": "1998",
+      "m": "IGS"
     },
     "olds100a": {
       "parent": "olds",
@@ -1551,7 +1644,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Oriental Legend Special / Xiyou Shi E Zhuan Super (ver. 100, set 2)",
+      "y": "1998",
+      "m": "IGS"
     },
     "olds103t": {
       "parent": "olds",
@@ -1616,7 +1712,10 @@
           "n": "pgm_m0500.u1",
           "c": "37928cdd"
         }
-      ]
+      ],
+      "t": "Xiyou Shi E Zhuan Super (ver. 103, China, Tencent) (unprotected)",
+      "y": "1998",
+      "m": "bootleg"
     },
     "kov": {
       "parent": null,
@@ -1657,7 +1756,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour / San Guo Zhan Ji / Sangoku Senki (ver. 117, Hong Kong)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kov115": {
       "parent": "kov",
@@ -1698,7 +1800,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour / San Guo Zhan Ji / Sangoku Senki (ver. 115)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kov114": {
       "parent": "kov",
@@ -1755,7 +1860,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour / Sanguo Zhan Ji / Sangoku Senki (ver. 114, Hong Kong)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kov111": {
       "parent": "kov",
@@ -1812,7 +1920,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour / San Guo Zhan Ji / Sangoku Senki (ver. 111, Japanese Board)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovplus": {
       "parent": null,
@@ -1853,7 +1964,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus / San Guo Zhan Ji - Zheng Zong Plus / Sangoku Senki Masamune Plus (ver. 119, set 1)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovplusa": {
       "parent": "kovplus",
@@ -1910,7 +2024,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus / San Guo Zhan Ji - Zheng Zong Plus / Sangoku Senki Masamune Plus (ver. 119, set 2)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovsh": {
       "parent": null,
@@ -1963,7 +2080,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Feng Yun Zai Qi / Sangoku Senki Super Heroes (ver. 104, CN)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovsh103": {
       "parent": "kovsh",
@@ -2016,7 +2136,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Feng Yun Zai Qi / Sangoku Senki Super Heroes (ver. 103, CN)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovsh102": {
       "parent": "kovsh",
@@ -2069,7 +2192,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Feng Yun Zai Qi / Sangoku Senki Super Heroes (ver. 102, CN)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovsh101": {
       "parent": "kovsh",
@@ -2122,7 +2248,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Feng Yun Zai Qi / Sangoku Senki Super Heroes (ver. 101, CN)",
+      "y": "1999",
+      "m": "IGS"
     },
     "kovsh100": {
       "parent": "kovsh",
@@ -2175,7 +2304,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Feng Yun Zai Qi / Sangoku Senki Super Heroes (ver. 100, CN)",
+      "y": "1999",
+      "m": "IGS"
     },
     "photoy2k": {
       "parent": null,
@@ -2216,7 +2348,10 @@
           "n": "igs027a_photoy2k_v100_china.asic",
           "c": "1a0b68f6"
         }
-      ]
+      ],
+      "t": "Photo Y2K / Chaoji Bi Yi Bi / Dajia Lai Zhao Cha / Real and Fake (ver. 105)",
+      "y": "1999",
+      "m": "IGS"
     },
     "photoy2k104": {
       "parent": "photoy2k",
@@ -2257,7 +2392,10 @@
           "n": "igs027a_photoy2k_v100_china_alt.asic",
           "c": "6dd7f257"
         }
-      ]
+      ],
+      "t": "Photo Y2K / Chaoji Bi Yi Bi / Dajia Lai Zhao Cha / Real and Fake (ver. 104)",
+      "y": "1999",
+      "m": "IGS"
     },
     "photoy2k103j": {
       "parent": "photoy2k",
@@ -2310,7 +2448,10 @@
           "n": "igs027a_photoy2k_v100_china.asic",
           "c": "1a0b68f6"
         }
-      ]
+      ],
+      "t": "Photo Y2K / Chaoji Bi Yi Bi / Dajia Lai Zhao Cha / Real and Fake (ver. 103, Japanese Board)",
+      "y": "1999",
+      "m": "IGS"
     },
     "photoy2k102j": {
       "parent": "photoy2k",
@@ -2363,7 +2504,10 @@
           "n": "igs027a_photoy2k_v100_china_alt.asic",
           "c": "6dd7f257"
         }
-      ]
+      ],
+      "t": "Photo Y2K / Chaoji Bi Yi Bi / Dajia Lai Zhao Cha / Real and Fake (ver. 102, Japanese Board)",
+      "y": "1999",
+      "m": "IGS"
     },
     "puzlstar": {
       "parent": null,
@@ -2392,7 +2536,10 @@
           "n": "pgm_m0800.u2",
           "c": "e1a46541"
         }
-      ]
+      ],
+      "t": "Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build)",
+      "y": "1999",
+      "m": "IGS (Metro license)"
     },
     "puzlstara": {
       "parent": "puzlstar",
@@ -2421,7 +2568,10 @@
           "n": "pgm_m0800.u2",
           "c": "e1a46541"
         }
-      ]
+      ],
+      "t": "Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build)",
+      "y": "1999",
+      "m": "IGS (Metro license)"
     },
     "puzzli2": {
       "parent": null,
@@ -2446,7 +2596,10 @@
           "n": "pgm_m0900.u2",
           "c": "9ea7af2e"
         }
-      ]
+      ],
+      "t": "Puzzli 2 / Pao Pao Yu (ver. 100)",
+      "y": "1999",
+      "m": "IGS (Metro license)"
     },
     "puzzli2s": {
       "parent": "puzzli2",
@@ -2475,7 +2628,10 @@
           "n": "pgm_m0900.u2",
           "c": "9ea7af2e"
         }
-      ]
+      ],
+      "t": "Puzzli 2 Super / Pao Pao Yu Super (ver. 200)",
+      "y": "2001",
+      "m": "IGS (Metro license)"
     },
     "martmast": {
       "parent": null,
@@ -2532,7 +2688,10 @@
           "n": "v102_16m.u10",
           "c": "18b745e6"
         }
-      ]
+      ],
+      "t": "Martial Masters / Xing Yi Quan (ver. 104, 102, 102US)",
+      "y": "2001",
+      "m": "IGS"
     },
     "martmast104c": {
       "parent": "martmast",
@@ -2589,7 +2748,10 @@
           "n": "v102_16m.u10",
           "c": "18b745e6"
         }
-      ]
+      ],
+      "t": "Martial Masters / Xing Yi Quan (ver. 104, 102, 101CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "martmast103c": {
       "parent": "martmast",
@@ -2646,7 +2808,10 @@
           "n": "v102_16m.u10",
           "c": "18b745e6"
         }
-      ]
+      ],
+      "t": "Martial Masters / Xing Yi Quan (ver. 103, 102, 101CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "martmast102c": {
       "parent": "martmast",
@@ -2703,7 +2868,10 @@
           "n": "mm_v101_u10.u10",
           "c": "41b9497c"
         }
-      ]
+      ],
+      "t": "Martial Masters / Xing Yi Quan (ver. 102, 101, 101CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "py2k2": {
       "parent": null,
@@ -2740,7 +2908,10 @@
           "n": "pgm_m1100.u3",
           "c": "fb1515f8"
         }
-      ]
+      ],
+      "t": "Photo Y2K 2 / Chaoji Bi Yi Bi 2 / Dajia Lai Zhao Cha 2 / Real and Fake 2 Photo Y2K (M101XX 05/25/01 11:02:54)",
+      "y": "2001",
+      "m": "IGS"
     },
     "py2k2100": {
       "parent": "py2k2",
@@ -2777,7 +2948,10 @@
           "n": "pgm_m1100.u3",
           "c": "fb1515f8"
         }
-      ]
+      ],
+      "t": "Photo Y2K 2 / Chaoji Bi Yi Bi 2 / Dajia Lai Zhao Cha 2 / Real and Fake 2 Photo Y2K (ver. 100, Japanese Board)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2": {
       "parent": null,
@@ -2830,7 +3004,10 @@
           "n": "v102_u19.u19",
           "c": "462e2980"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2106": {
       "parent": "kov2",
@@ -2883,7 +3060,10 @@
           "n": "v102_u19.u19",
           "c": "462e2980"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 106, 102, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2104": {
       "parent": "kov2",
@@ -2936,7 +3116,10 @@
           "n": "v102_u19.u19",
           "c": "462e2980"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 104, 102, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2103": {
       "parent": "kov2",
@@ -2989,7 +3172,10 @@
           "n": "v101_u19.u19",
           "c": "8c35f2fe"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 103, 101, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov21022": {
       "parent": "kov2",
@@ -3042,7 +3228,10 @@
           "n": "v102_u19.u19",
           "c": "462e2980"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 102, 102, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2102": {
       "parent": "kov2",
@@ -3095,7 +3284,10 @@
           "n": "v101_u19.u19",
           "c": "8c35f2fe"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 102, 101, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2101": {
       "parent": "kov2",
@@ -3148,7 +3340,10 @@
           "n": "v101_u19.u19",
           "c": "8c35f2fe"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 101, 101, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2100": {
       "parent": "kov2",
@@ -3201,7 +3396,10 @@
           "n": "v100_u19.u19",
           "c": "edd59922"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 / Sanguo Zhan Ji 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)",
+      "y": "2000",
+      "m": "IGS"
     },
     "kov2p": {
       "parent": null,
@@ -3254,7 +3452,10 @@
           "n": "v200_16m.u23",
           "c": "16a0c11f"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Nine Dragons / Sanguo Zhan Ji 2 Qunxiong Zhengba / Sanguo Zhan Ji 2 Feilong Zai Tian / Sangoku Senki Busyou Souha (ver. M205XX, 200, 100CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "kov2p204": {
       "parent": "kov2p",
@@ -3307,7 +3508,10 @@
           "n": "v200_16m.u23",
           "c": "16a0c11f"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Nine Dragons / Sanguo Zhan Ji 2 Qunxiong Zhengba / Sanguo Zhan Ji 2 Feilong Zai Tian / Sangoku Senki Busyou Souha (ver. M204XX, 200, 100CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "kov2p203": {
       "parent": "kov2p",
@@ -3360,7 +3564,10 @@
           "n": "v200_16m.u23",
           "c": "16a0c11f"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Nine Dragons / Sanguo Zhan Ji 2 Qunxiong Zhengba / Sanguo Zhan Ji 2 Feilong Zai Tian / Sangoku Senki Busyou Souha (ver. M203XX, 200, 100CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "kov2p202": {
       "parent": "kov2p",
@@ -3413,7 +3620,10 @@
           "n": "v200_16m.u23",
           "c": "16a0c11f"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Nine Dragons / Sanguo Zhan Ji 2 Qunxiong Zhengba / Sanguo Zhan Ji 2 Feilong Zai Tian / Sangoku Senki Busyou Souha (ver. M202XX, 200, 100CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "kov2p200": {
       "parent": "kov2p",
@@ -3466,7 +3676,10 @@
           "n": "v200_16m.u23",
           "c": "16a0c11f"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Nine Dragons / Sanguo Zhan Ji 2 Qunxiong Zhengba / Sanguo Zhan Ji 2 Feilong Zai Tian / Sangoku Senki Busyou Souha (ver. M200XX, 200, 100CN)",
+      "y": "2001",
+      "m": "IGS"
     },
     "dw2001": {
       "parent": null,
@@ -3503,7 +3716,10 @@
           "n": "dw2001_u12.u12",
           "c": "973db1ab"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu 2001 [Dragon World 2001] (V100 02/21/01 16:05:16, Japan)",
+      "y": "2001",
+      "m": "IGS"
     },
     "dwpc": {
       "parent": null,
@@ -3540,7 +3756,10 @@
           "n": "dwpc_v110cn_u12.u12",
           "c": "5bb1ee6a"
         }
-      ]
+      ],
+      "t": "Zhongguo Long Pretty Chance [Dragon World Pretty Chance] (V110 03/19/02 11:13:16, China)",
+      "y": "2001",
+      "m": "IGS"
     },
     "dwpc101j": {
       "parent": "dwpc",
@@ -3577,7 +3796,10 @@
           "n": "dwpc_v100jp_u12.u12",
           "c": "0d112126"
         }
-      ]
+      ],
+      "t": "Chuugokuryuu Pretty Chance [Dragon World Pretty Chance] (V101 09/26/01 10:23:26, Japan)",
+      "y": "2001",
+      "m": "IGS"
     },
     "dmnfrnt": {
       "parent": null,
@@ -3618,7 +3840,10 @@
           "n": "v105_32m.u26",
           "c": "c798c2ef"
         }
-      ]
+      ],
+      "t": "Demon Front / Moyu Zhanxian (68k label V105, ROM M105XX 08/05/02) (ARM label V105, ROM 08/05/02 S105XX)",
+      "y": "2002",
+      "m": "IGS"
     },
     "dmnfrnt103": {
       "parent": "dmnfrnt",
@@ -3659,7 +3884,10 @@
           "n": "v103_32m.u26",
           "c": "e78383a3"
         }
-      ]
+      ],
+      "t": "Demon Front / Moyu Zhanxian (68k label V103, ROM M103XX 07/05/02) (ARM label V103, ROM 07/05/02 S103XX)",
+      "y": "2002",
+      "m": "IGS"
     },
     "dmnfrnt102": {
       "parent": "dmnfrnt",
@@ -3700,7 +3928,10 @@
           "n": "v101_32m.u26",
           "c": "93965281"
         }
-      ]
+      ],
+      "t": "Demon Front / Moyu Zhanxian (68k label V102, ROM M102XX 06/19/02) (ARM label V102, ROM 05/24/02 S101XX)",
+      "y": "2002",
+      "m": "IGS"
     },
     "theglad": {
       "parent": null,
@@ -3745,7 +3976,10 @@
           "n": "v107_u26.u26",
           "c": "f7c61357"
         }
-      ]
+      ],
+      "t": "The Gladiator / Shenjian Fumo Lu / Shenjian Fengyun (M68k label V101) (ARM label V107, ROM 06/06/03 SHEN JIAN V107)",
+      "y": "2003",
+      "m": "IGS"
     },
     "theglad104": {
       "parent": "theglad",
@@ -3790,7 +4024,10 @@
           "n": "v104_u26.u26",
           "c": "81b5df6d"
         }
-      ]
+      ],
+      "t": "The Gladiator / Shenjian Fumo Lu / Shenjian Fengyun (M68k label V100) (ARM label V104, ROM 04/02/03 SHEN JIAN V104)",
+      "y": "2003",
+      "m": "IGS"
     },
     "theglad101": {
       "parent": "theglad",
@@ -3835,7 +4072,10 @@
           "n": "v101_u26.u26",
           "c": "23faec02"
         }
-      ]
+      ],
+      "t": "The Gladiator / Shenjian Fumo Lu / Shenjian Fengyun (M68k label V100) (ARM label V101, ROM 03/13/03 SHEN JIAN)",
+      "y": "2003",
+      "m": "IGS"
     },
     "theglad100": {
       "parent": "theglad",
@@ -3880,7 +4120,10 @@
           "n": "u2.rom",
           "c": "c7bcf2ae"
         }
-      ]
+      ],
+      "t": "The Gladiator / Shenjian Fumo Lu / Shenjian Fengyun (M68k label V100) (ARM label V100, ROM 01/16/03 SHEN JIAN)",
+      "y": "2003",
+      "m": "IGS"
     },
     "pgm3in1": {
       "parent": null,
@@ -3933,7 +4176,10 @@
           "n": "u16.u16",
           "c": "714c33e5"
         }
-      ]
+      ],
+      "t": "Shanliang San He Yi (Flash 3-in-1) (V102 08/23/04 13:03:26)",
+      "y": "2004",
+      "m": "IGS"
     },
     "pgm3in1c100": {
       "parent": "pgm3in1",
@@ -3986,7 +4232,10 @@
           "n": "u16.u16",
           "c": "714c33e5"
         }
-      ]
+      ],
+      "t": "Shanliang San He Yi (Flash 3-in-1) (V100 07/13/04 12:09:20)",
+      "y": "2004",
+      "m": "IGS"
     },
     "happy6": {
       "parent": null,
@@ -4023,7 +4272,10 @@
           "n": "v-102cn_u26.u26",
           "c": "310510fb"
         }
-      ]
+      ],
+      "t": "Huanle Liu He Yi (Happy 6-in-1) (M68K ver. V101, ARM ver. V102CN)",
+      "y": "2004",
+      "m": "IGS"
     },
     "happy6101": {
       "parent": "happy6",
@@ -4060,7 +4312,10 @@
           "n": "v101cn_u26.u26",
           "c": "4a48ca1c"
         }
-      ]
+      ],
+      "t": "Huanle Liu He Yi (Happy 6-in-1) (M68K ver. V100, ARM ver. V101CN)",
+      "y": "2004",
+      "m": "IGS"
     },
     "happy6100hk": {
       "parent": "happy6",
@@ -4097,7 +4352,10 @@
           "n": "v100hk_u26.u26",
           "c": "8f2feb1f"
         }
-      ]
+      ],
+      "t": "Huanle Liu He Yi (Happy 6-in-1) (M68K ver. V100HK, ARM ver. V100HK)",
+      "y": "2004",
+      "m": "IGS"
     },
     "happy6100cn": {
       "parent": "happy6",
@@ -4134,7 +4392,10 @@
           "n": "v100cn_u26.u26",
           "c": "9c29e482"
         }
-      ]
+      ],
+      "t": "Huanle Liu He Yi (Happy 6-in-1) (M68K ver. V100, ARM ver. V100CN)",
+      "y": "2004",
+      "m": "IGS"
     },
     "kovshp": {
       "parent": null,
@@ -4179,7 +4440,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus / San Guo Zhan Ji - Luan Shi Xiao Xiong (ver. 101)",
+      "y": "2004",
+      "m": "IGS"
     },
     "kovshp101": {
       "parent": "kovshp",
@@ -4228,7 +4492,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus / San Guo Zhan Ji - Luan Shi Xiao Xiong (ver. 101, Chinese Board)",
+      "y": "2004",
+      "m": "IGS"
     },
     "kovshp100": {
       "parent": "kovshp",
@@ -4273,7 +4540,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus / San Guo Zhan Ji - Luan Shi Xiao Xiong (ver. 100)",
+      "y": "2004",
+      "m": "IGS"
     },
     "kovytzy": {
       "parent": null,
@@ -4318,7 +4588,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / San Guo Zhan Ji - Yi Tong Zhong Yuan / Sangoku Senki Super Heroes (SANGO EX+) (ver. 201 'Yitong Zhongyuan', China)",
+      "y": "1999",
+      "m": "IGS"
     },
     "oldsplus": {
       "parent": null,
@@ -4359,7 +4632,10 @@
           "n": "igs_w05301b032.u5",
           "c": "86ec83bc"
         }
-      ]
+      ],
+      "t": "Oriental Legend 2 (Korea) / Xiyou Shi E Zhuan Qunmo Luanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex]",
+      "y": "2004",
+      "m": "IGS"
     },
     "oldsplus203": {
       "parent": "oldsplus",
@@ -4400,7 +4676,10 @@
           "n": "igs_w05301b032.u5",
           "c": "86ec83bc"
         }
-      ]
+      ],
+      "t": "Oriental Legend 2 (Korea) / Xiyou Shi E Zhuan Qunmo Luanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 203) [Oriental Ex]",
+      "y": "2004",
+      "m": "IGS"
     },
     "killbldp": {
       "parent": null,
@@ -4445,7 +4724,10 @@
           "n": "v300xx_u26.u26",
           "c": "144388c8"
         }
-      ]
+      ],
+      "t": "The Killing Blade Plus / Ao Jian Kuang Dao Jiaqiang Ban (China, ver. 300)",
+      "y": "2005",
+      "m": "IGS"
     },
     "svg": {
       "parent": null,
@@ -4502,7 +4784,10 @@
           "n": "epr.u36",
           "c": "fa5f3901"
         }
-      ]
+      ],
+      "t": "S.V.G. - Spectral vs Generation / Sheng Mo Shiji (M68k label V200) (ARM label V200, ROM 10/11/05 S.V.G V201)",
+      "y": "2005",
+      "m": "IGS / Idea Factory"
     },
     "svgtw": {
       "parent": "svg",
@@ -4559,7 +4844,10 @@
           "n": "v101tw_u36.u36",
           "c": "f18283e2"
         }
-      ]
+      ],
+      "t": "S.V.G. - Spectral vs Generation / Sheng Mo Shiji (M68k label V101TW) (ARM label V101TW, ROM 06/20/05 S.V.G V100)",
+      "y": "2005",
+      "m": "IGS / Idea Factory"
     },
     "svghk": {
       "parent": "svg",
@@ -4616,7 +4904,10 @@
           "n": "v101hk_u36.u36",
           "c": "bf15a47a"
         }
-      ]
+      ],
+      "t": "S.V.G. - Spectral vs Generation / Sheng Mo Shiji (M68k label V101HK) (ARM label V101HK, ROM 06/20/05 S.V.G V100)",
+      "y": "2005",
+      "m": "IGS / Idea Factory"
     },
     "ddp3": {
       "parent": null,
@@ -4649,7 +4940,10 @@
           "n": "ddp3_defaults.nv",
           "c": "571e96c0"
         }
-      ]
+      ],
+      "t": "DoDonPachi III (World, 2002.05.15 Master Ver)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdoj": {
       "parent": "ddp3",
@@ -4682,7 +4976,10 @@
           "n": "ddp3_defaults.nv",
           "c": "571e96c0"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V101)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdojp": {
       "parent": "ddp3",
@@ -4735,7 +5032,10 @@
           "n": "ddp3_defaults.nv",
           "c": "571e96c0"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver, location test)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdoja": {
       "parent": "ddp3",
@@ -4768,7 +5068,10 @@
           "n": "ddp3_defaults.nv",
           "c": "571e96c0"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V100)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdojb": {
       "parent": "ddp3",
@@ -4801,7 +5104,10 @@
           "n": "ddp3_defaults.nv",
           "c": "571e96c0"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdojblk": {
       "parent": "ddp3",
@@ -4834,7 +5140,10 @@
           "n": "ddp3blk_defaults.nv",
           "c": "c2282720"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, newer)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdojblka": {
       "parent": "ddp3",
@@ -4867,7 +5176,10 @@
           "n": "ddp3blk_defaults.nv",
           "c": "a1651904"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, older)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ddpdojblkb": {
       "parent": "ddp3",
@@ -4900,7 +5212,10 @@
           "n": "ddp3blk_defaults.nv",
           "c": "a1651904"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ket": {
       "parent": null,
@@ -4933,7 +5248,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ket1": {
       "parent": "ket",
@@ -4966,7 +5284,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.) (alt rom fill)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "keta": {
       "parent": "ket",
@@ -4999,7 +5320,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver.)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ketb": {
       "parent": "ket",
@@ -5032,7 +5356,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver)",
+      "y": "2002",
+      "m": "Cave (AMI license)"
     },
     "ketmatsuri": {
       "parent": "ket",
@@ -5065,7 +5392,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi - IKD 2007 Special (2007/09/22 CAVEMATSURI VER.)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "ketarr": {
       "parent": "ket",
@@ -5098,7 +5428,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2014/07/16 ARRANGE 1.7 VER) (hack)",
+      "y": "2014",
+      "m": "hack (trap15)"
     },
     "ketarr10": {
       "parent": "ket",
@@ -5131,7 +5464,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/04/17 ARRANGE VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarr15": {
       "parent": "ket",
@@ -5164,7 +5500,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/06/26 ARRANGE 1.5 VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarr151": {
       "parent": "ket",
@@ -5197,7 +5536,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/06/26 ARRANGE 1.51 VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarrs15": {
       "parent": "ket",
@@ -5230,7 +5572,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/06/27 MR.STOIC 1.5 VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarrs151": {
       "parent": "ket",
@@ -5263,7 +5608,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/06/27 MR.STOIC 1.51 VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarrf": {
       "parent": "ket",
@@ -5296,7 +5644,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/04/17 FAST. VER) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "ketarrb": {
       "parent": "ket",
@@ -5329,7 +5680,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2012/04/17 BACK. VER) (hack)",
+      "y": "2025",
+      "m": "hack"
     },
     "ketse": {
       "parent": "ket",
@@ -5362,7 +5716,10 @@
           "n": "ket_defaults.nv",
           "c": "3ca892d8"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver - Super Easy) (hack)",
+      "y": "2020",
+      "m": "hack (M2)"
     },
     "espgal": {
       "parent": null,
@@ -5391,7 +5748,10 @@
           "n": "cave_w04801b032.u17",
           "c": "60298536"
         }
-      ]
+      ],
+      "t": "Espgaluda (2003/10/15 Master Ver)",
+      "y": "2003",
+      "m": "Cave (AMI license)"
     },
     "thegladpcb": {
       "parent": "theglad",
@@ -5440,7 +5800,10 @@
           "n": "v101_u62.u62",
           "c": "23faec02"
         }
-      ]
+      ],
+      "t": "Tougenkyou - Road of the Sword (M68k label V100) (ARM label V101, ROM 03/13/03 SHEN JIAN) (Japan, JAMMA PCB)",
+      "y": "2003",
+      "m": "IGS (Alta/AMI license)"
     },
     "thegladpcba": {
       "parent": "theglad",
@@ -5489,7 +5852,10 @@
           "n": "v100_u62.u62",
           "c": "0f3f511e"
         }
-      ]
+      ],
+      "t": "Tougenkyou - Road of the Sword (M68k label V100) (ARM label V100, ROM 02/25/03 SHEN JIAN) (Japan, JAMMA PCB)",
+      "y": "2003",
+      "m": "IGS (Alta/AMI license)"
     },
     "dmnfrntpcb": {
       "parent": "dmnfrnt",
@@ -5530,7 +5896,10 @@
           "n": "demon_front_v107kr_u62.u62",
           "c": "cb94772e"
         }
-      ]
+      ],
+      "t": "Demon Front V1.1 / Moyu Zhanxian V1.1 (68k label V107KR, ROM M107KR 11/03/03) (ARM label V106KR, ROM 10/16/03 S106KR) (JAMMA PCB)",
+      "y": "2002",
+      "m": "IGS"
     },
     "dmnfrntpcba": {
       "parent": "dmnfrnt",
@@ -5571,7 +5940,10 @@
           "n": "v105_u62.u62",
           "c": "c798c2ef"
         }
-      ]
+      ],
+      "t": "Demon Front (VM105XX, S105XX, China, Single PCB Version)",
+      "y": "2002",
+      "m": "IGS"
     },
     "svgpcb": {
       "parent": "svg",
@@ -5628,7 +6000,10 @@
           "n": "svg_v100jp_u65.u65",
           "c": "6e1c33b1"
         }
-      ]
+      ],
+      "t": "S.V.G. - Spectral vs Generation / Sheng Mo Shiji (M68k label V100JP) (ARM label V100JP, ROM 05/12/05 S.V.G V100) (Japan, JAMMA PCB)",
+      "y": "2005",
+      "m": "IGS / Idea Factory (AMI license)"
     },
     "pgmdemo": {
       "parent": null,
@@ -5653,7 +6028,10 @@
           "n": "m0100.rom",
           "c": "8d89877e"
         }
-      ]
+      ],
+      "t": "Chaos (PGM Demo)",
+      "y": "2005",
+      "m": "Raster"
     },
     "pgmfrog": {
       "parent": null,
@@ -5678,7 +6056,10 @@
           "n": "m0100.rom",
           "c": "05e2f761"
         }
-      ]
+      ],
+      "t": "Frog Feast (PGM)",
+      "y": "2006",
+      "m": "RasterSoft"
     },
     "pgemeni": {
       "parent": null,
@@ -5703,7 +6084,10 @@
           "n": "m0100.rom",
           "c": "8d89877e"
         }
-      ]
+      ],
+      "t": "P-GeMeni (060123)",
+      "y": "2006",
+      "m": "blastar@gmx.net"
     },
     "kovgsyx": {
       "parent": "kovshp",
@@ -5740,7 +6124,10 @@
           "n": "gsyx_prot.c51",
           "c": "0c381ff4"
         }
-      ]
+      ],
+      "t": "Gai Shi Ying Xiong Jia Qiang Ban (bootleg of Knights of Valour Super Heroes Plus, V302CN)",
+      "y": "2010",
+      "m": "bootleg (WDF)"
     },
     "kovzscs": {
       "parent": "kovshp",
@@ -5777,7 +6164,10 @@
           "n": "gsyx_prot.c51",
           "c": "0c381ff4"
         }
-      ]
+      ],
+      "t": "Zhan Shen Chuan Shuo 2 Te Bie Ban (bootleg of Knights of Valour Super Heroes Plus, V201CN)",
+      "y": "2010",
+      "m": "bootleg (WDF)"
     },
     "kovqhsgs": {
       "parent": "kovsh",
@@ -5814,7 +6204,10 @@
           "n": "qhsg_prot.c51",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Quan Huang San Guo Te Bie Ban (bootleg of Knights of Valour Super Heroes, V303CN, set 1)",
+      "y": "2008",
+      "m": "bootleg (WDF)"
     },
     "kovqhsgsa": {
       "parent": "kovsh",
@@ -5851,7 +6244,10 @@
           "n": "qhsg_prot.c51",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Quan Huang San Guo Te Bie Ban (bootleg of Knights of Valour Super Heroes, V303CN, set 2)",
+      "y": "2008",
+      "m": "bootleg (WDF)"
     },
     "kovqhsgsd": {
       "parent": "kovsh",
@@ -5880,7 +6276,10 @@
           "n": "qhsg_prot.c51",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Quan Huang San Guo Te Bie Ban (bootleg of Knights of Valour Super Heroes, V303CN, unencrypted)",
+      "y": "2008",
+      "m": "bootleg (WDF)"
     },
     "kovqhsgs305": {
       "parent": "kovsh",
@@ -5917,7 +6316,10 @@
           "n": "kovqhsgs_v300_china.asic",
           "c": "63bf6925"
         }
-      ]
+      ],
+      "t": "Quan Huang San Guo Te Bie Ban (bootleg of Knights of Valour Super Heroes, V305CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsqh2": {
       "parent": "kovshp",
@@ -5954,7 +6356,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Luan Shi Quan Huang 2 (bootleg of Knights of Valour Super Heroes Plus, V200CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsqh2p": {
       "parent": "kovshp",
@@ -5991,7 +6396,10 @@
           "n": "kovshp_v100_china.asic",
           "c": "106820a0"
         }
-      ]
+      ],
+      "t": "Luan Shi Quan Huang 2 Jia Qiang Ban (bootleg of Knights of Valour Super Heroes Plus, V200CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsqh": {
       "parent": "kovshp",
@@ -6028,7 +6436,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Luan Shi Quan Huang (bootleg of Knights of Valour Super Heroes Plus, V200CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsqho": {
       "parent": "kovshp",
@@ -6065,7 +6476,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Luan Shi Quan Huang Te Bie Ban (bootleg of Knights of Valour Super Heroes Plus, V112CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsqhp": {
       "parent": "kovshp",
@@ -6102,7 +6516,10 @@
           "n": "kovlsqhp_v110_china.asic",
           "c": "87a898e1"
         }
-      ]
+      ],
+      "t": "Luan Shi Quan Huang Jia Qiang Ban (bootleg of Knights of Valour Super Heroes Plus, V113CN)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovlsjb": {
       "parent": "kovshp",
@@ -6139,7 +6556,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Luan Shi Jie Ba (bootleg of Knights of Valour Super Heroes Plus, V200CN, set 1)",
+      "y": "200?",
+      "m": "bootleg"
     },
     "kovlsjba": {
       "parent": "kovshp",
@@ -6176,7 +6596,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Luan Shi Jie Ba (bootleg of Knights of Valour Super Heroes Plus, ver. 200CN, set 2)",
+      "y": "200?",
+      "m": "bootleg"
     },
     "kovlsvsjbs": {
       "parent": "kovshp",
@@ -6213,7 +6636,10 @@
           "n": "kovshp_v100_china.asic",
           "c": "106820a0"
         }
-      ]
+      ],
+      "t": "Luan Shi VS Jie Ba Te Bie Ban (bootleg of Knights of Valour Super Heroes Plus, V200CN, set 1)",
+      "y": "2009",
+      "m": "bootleg (WDF)"
     },
     "kovassgplus": {
       "parent": "kovshp",
@@ -6250,7 +6676,10 @@
           "n": "assgplus_v310_china.asic",
           "c": "72b3589c"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo Te Bie Ban (bootleg of Knights of Valour Super Heroes Plus, V315CN)",
+      "y": "2008",
+      "m": "bootleg (WDF)"
     },
     "kovassgp": {
       "parent": "kovshp",
@@ -6287,7 +6716,10 @@
           "n": "kovshp_v100_china.asic",
           "c": "106820a0"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo Jia Qiang Ban (bootleg of Knights of Valour Super Heroes Plus, V314CN)",
+      "y": "2008",
+      "m": "bootleg (WDF)"
     },
     "kovassg": {
       "parent": "kovshp",
@@ -6332,7 +6764,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo (bootleg of Knights of Valour Super Heroes Plus, V202CN)",
+      "y": "2008",
+      "m": "bootleg"
     },
     "kovassge": {
       "parent": "kovshp",
@@ -6377,7 +6812,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo (bootleg of Knights of Valour Super Heroes Plus, V202CN, encrypted)",
+      "y": "2008",
+      "m": "bootleg"
     },
     "kovassgn": {
       "parent": "kovshp",
@@ -6422,7 +6860,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo (bootleg of Knights of Valour Super Heroes Plus, V202CN, encrypted, newer)",
+      "y": "2008",
+      "m": "bootleg"
     },
     "kovassg203": {
       "parent": "kovshp",
@@ -6467,7 +6908,10 @@
           "n": "kovassg_v100_china.asic",
           "c": "6aa77aba"
         }
-      ]
+      ],
+      "t": "Ao Shi San Guo (bootleg of Knights of Valour Super Heroes Plus, V203CN)",
+      "y": "2008",
+      "m": "bootleg"
     },
     "kovsgqyz": {
       "parent": "kovplus",
@@ -6508,7 +6952,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "San Guo Qun Ying Zhuan - Zheng Zong Plus (bootleg of Knights of Valour Plus, set 1)",
+      "y": "1999",
+      "m": "bootleg"
     },
     "kovsgqyza": {
       "parent": "kovplus",
@@ -6549,7 +6996,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "San Guo Qun Ying Zhuan - Zheng Zong Plus (bootleg of Knights of Valour Plus, set 2)",
+      "y": "1999",
+      "m": "bootleg"
     },
     "kovsgqyzb": {
       "parent": "kovplus",
@@ -6590,7 +7040,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "San Guo Qun Ying Zhuan - Zheng Zong Plus (bootleg of Knights of Valour Plus, set 3)",
+      "y": "1999",
+      "m": "bootleg"
     },
     "kovsgqyzc": {
       "parent": "kovplus",
@@ -6631,7 +7084,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "San Guo Qun Ying Zhuan - Zheng Zong Plus (bootleg of Knights of Valour Plus, set 4)",
+      "y": "1999",
+      "m": "ANX"
     },
     "kovsgqyzd": {
       "parent": "kovplus",
@@ -6672,7 +7128,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "San Guo Qun Ying Zhuan - Zheng Zong Plus (bootleg of Knights of Valour Plus, set 5)",
+      "y": "1999",
+      "m": "ANX"
     },
     "kovshbl": {
       "parent": "kovsh",
@@ -6725,7 +7184,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Superheroes / Sangoku Senki Superheroes (bootleg, V104CN)",
+      "y": "1999",
+      "m": "bootleg"
     },
     "kovbl": {
       "parent": "kov",
@@ -6782,7 +7244,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour / San Guo Zhan Ji / Sangoku Senki (Bootleg, V112CN?)",
+      "y": "199?",
+      "m": "bootleg"
     },
     "kovplusbl": {
       "parent": "kovplus",
@@ -6839,7 +7304,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus / San Guo Zhan Ji - Zeng Zong Plus/ Sangoku Senki Masamune Plus (bootleg, V117CN?)",
+      "y": "199?",
+      "m": "bootleg"
     },
     "kovfyzq4in1": {
       "parent": "kovsh",
@@ -6876,7 +7344,10 @@
           "n": "qhsg_prot.c51",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Feng Yun 4 in 1 (multi-game cart, bootleg of Knights of Valour Super Heroes, V100CN, V200CN)",
+      "y": "2009",
+      "m": "bootleg"
     },
     "ddpdojblkbl": {
       "parent": "ddp3",
@@ -6909,7 +7380,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver., bootleg Knights of Valour Super Heroes conversion)",
+      "y": "2012",
+      "m": "bootleg"
     },
     "ketbl": {
       "parent": "ket",
@@ -6946,7 +7420,10 @@
           "n": "v100.u23",
           "c": "06c3dd29"
         }
-      ]
+      ],
+      "t": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver., bootleg cartridge conversion)",
+      "y": "2002",
+      "m": "bootleg"
     },
     "espgalbl": {
       "parent": "espgal",
@@ -6983,7 +7460,10 @@
           "n": "v100.u23",
           "c": "06c3dd29"
         }
-      ]
+      ],
+      "t": "Espgaluda (2003/10/15 Master Ver, bootleg cartridge conversion)",
+      "y": "2003",
+      "m": "bootleg"
     },
     "oldsplusnr": {
       "parent": "oldsplus",
@@ -7056,7 +7536,10 @@
           "n": "igs_w05301b032.dif",
           "c": "20eb7bc6"
         }
-      ]
+      ],
+      "t": "Xiyou Shi E Zhuan Xin Qunmo Luanwu (Hack)",
+      "y": "2020-2024",
+      "m": "hack"
     },
     "kovshpqszl": {
       "parent": "kovshp",
@@ -7105,7 +7588,10 @@
           "n": "kovsh_v100_china_po89.asic",
           "c": "4627f36f"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus (The Road to Survival True King, ver. 500)",
+      "y": "2018",
+      "m": "Hack"
     },
     "kovshpqszltw": {
       "parent": "kovshp",
@@ -7158,7 +7644,10 @@
           "n": "kovsh_v100_china_po89.asic",
           "c": "4627f36f"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus (The Road to Survival True King Tian Wang, ver. 500)",
+      "y": "2020-01-03",
+      "m": "Hack"
     },
     "kovshpzqhl": {
       "parent": "kovshp",
@@ -7195,7 +7684,10 @@
           "n": "kovsh_v100_china_po123.asic",
           "c": "39abc15f"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes Plus (The Best Firepower In 2020, 2020-02-06)",
+      "y": "2020",
+      "m": "Hack"
     },
     "kovlsyx": {
       "parent": "kovshp",
@@ -7244,7 +7736,10 @@
           "n": "lsyx_v100_china.asic",
           "c": "8598d603"
         }
-      ]
+      ],
+      "t": "Sanguo Zhan Ji - Luan Shi Ying Xiong",
+      "y": "2014",
+      "m": "hack"
     },
     "kovlsyxqszl": {
       "parent": "kovshp",
@@ -7293,7 +7788,10 @@
           "n": "kovsh_v100_china_po89.asic",
           "c": "4627f36f"
         }
-      ]
+      ],
+      "t": "Luan Shi Ying Xiong - Qiu Sheng Zhi Lu (hack of Knights of Valour Super Heroes Plus, ver. 500)",
+      "y": "2018",
+      "m": "Hack"
     },
     "kovlsyxqxzl": {
       "parent": "kovshp",
@@ -7342,7 +7840,10 @@
           "n": "kovsh_v100_china_pw113.asic",
           "c": "d9a43086"
         }
-      ]
+      ],
+      "t": "Luan Shi Ying Xiong - Qun Xiong Zhu Lu (hack of Knights of Valour Super Heroes Plus, ver. 500)",
+      "y": "2018",
+      "m": "Hack"
     },
     "kovlsyxqxzlp": {
       "parent": "kovshp",
@@ -7391,7 +7892,10 @@
           "n": "kovsh_v100_china_pw113.asic",
           "c": "d9a43086"
         }
-      ]
+      ],
+      "t": "Luan Shi Ying Xiong - Qun Xiong Zhu Lu Plus (hack of Knights of Valour Super Heroes Plus, ver. 500)",
+      "y": "2018",
+      "m": "Hack"
     },
     "kovytzyce": {
       "parent": "kovshp",
@@ -7436,7 +7940,10 @@
           "n": "kovytzyce_v100_china.asic",
           "c": "36a4ecc8"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / Yi Tong Zhong Yuan Qing Ban (2020-A, hack)",
+      "y": "2020-07-21",
+      "m": "Hack"
     },
     "kovytzyws": {
       "parent": "kovshp",
@@ -7481,7 +7988,10 @@
           "n": "ytzyws_v100_china.asic",
           "c": "5aa832c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Super Heroes / Yi Tong Zhong Yuan Wu Shuang Ban (2019-0, hack)",
+      "y": "2018",
+      "m": "Hack"
     },
     "kovytzywscw": {
       "parent": "kovshp",
@@ -7526,7 +8036,10 @@
           "n": "ytzyws_v100_china.asic",
           "c": "5aa832c1"
         }
-      ]
+      ],
+      "t": "Yi Tong Zhong Yuan - Warriors",
+      "y": "2021",
+      "m": "hack"
     },
     "kov2pfwll": {
       "parent": "kov2p",
@@ -7579,7 +8092,10 @@
           "n": "kov2pfwll_16m.u23",
           "c": "672f2d48"
         }
-      ]
+      ],
+      "t": "San Guo Zhan Ji 2 - Feng Wu Long Yin (ver. 205S, Hack of San Guo Zhan Ji 2 - Qun Xiong Zheng Ba)",
+      "y": "2021",
+      "m": "Hack"
     },
     "kov2pfwlys": {
       "parent": "kov2p",
@@ -7632,7 +8148,10 @@
           "n": "fwlys_16m.u23",
           "c": "5a090a75"
         }
-      ]
+      ],
+      "t": "San Guo Zhan Ji 2 - Feng Wu Long Yin (ver. S0709, Hack of San Guo Zhan Ji 2 - Qun Xiong Zheng Ba)",
+      "y": "2021",
+      "m": "Hack"
     },
     "kov2pshpd": {
       "parent": "kov2p",
@@ -7689,7 +8208,10 @@
           "n": "kov2pshpd_16m.u23",
           "c": "c4c1ddba"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Xie Feng Tian Chi (Hack)",
+      "y": "2019-12-16",
+      "m": "Hack"
     },
     "oldsdsgl": {
       "parent": "olds",
@@ -7762,7 +8284,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Oriental Legend Special - Da Sheng Gui Lai (Hack)",
+      "y": "2020",
+      "m": "Hack"
     },
     "zerofxz": {
       "parent": "olds",
@@ -7835,7 +8360,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Oriental Legend ZERO (Hack)",
+      "y": "2019",
+      "m": "Hack"
     },
     "oldsmx": {
       "parent": "olds",
@@ -7908,7 +8436,10 @@
           "n": "ram_dump",
           "c": "280cfb4e"
         }
-      ]
+      ],
+      "t": "Xiyou Shi E Zhuan Super - Meng Xun Ling Shan (Hack)",
+      "y": "2020",
+      "m": "Hack"
     },
     "kovplus20tx": {
       "parent": "kovplus",
@@ -7949,7 +8480,10 @@
           "n": "20tx_m0600.u3",
           "c": "68fa1b32"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus - Qun Xiong Luan Wu 2020",
+      "y": "2023",
+      "m": "hack"
     },
     "kov2pemp": {
       "parent": "kov2p",
@@ -8002,7 +8536,10 @@
           "n": "kov2pemp_16m.u23",
           "c": "03ffac76"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Extend Magic Plus (Hack)",
+      "y": "2020",
+      "m": "Hack"
     },
     "marmatcp": {
       "parent": "martmast",
@@ -8059,7 +8596,10 @@
           "n": "v102_16m.u10",
           "c": "18b745e6"
         }
-      ]
+      ],
+      "t": "Martial Masters - Community Patch (Hack)",
+      "y": "20??",
+      "m": "Hack"
     },
     "marmatsc": {
       "parent": "martmast",
@@ -8116,7 +8656,10 @@
           "n": "v102_16m.u10",
           "c": "18b745e6"
         }
-      ]
+      ],
+      "t": "Martial Masters - Secret Characters (Hack)",
+      "y": "2017",
+      "m": "Hack"
     },
     "oldsplusok": {
       "parent": "oldsplus",
@@ -8157,7 +8700,10 @@
           "n": "igs_w05301b032.u5",
           "c": "86ec83bc"
         }
-      ]
+      ],
+      "t": "Oriental Legend 2 (One Key Edition, Hack)",
+      "y": "2021",
+      "m": "Hack"
     },
     "kovshpd3dw": {
       "parent": "kovshp",
@@ -8210,7 +8756,10 @@
           "n": "kovshpd3dw_v100_china.asic",
           "c": "d9a43086"
         }
-      ]
+      ],
+      "t": "Luan Shi Ying Xiong - Qun Xiong Zhu Lu Wu Shuang Edition (Hack, ver. 500)",
+      "y": "2020-12-18",
+      "m": "Hack"
     },
     "kov2dzxx": {
       "parent": "kov2",
@@ -8263,7 +8812,10 @@
           "n": "dzxx_v110_u19.u19",
           "c": "ce3fb9b3"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 - Dou Zhuan Xing Xuan (Hack, ver.110)",
+      "y": "2021",
+      "m": "hack"
     },
     "kovp12dw": {
       "parent": "kovplus",
@@ -8304,7 +8856,10 @@
           "n": "12dw_m0600.u3",
           "c": "acadac0d"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus 2012 - Warriors",
+      "y": "2023",
+      "m": "hack"
     },
     "kovp12em": {
       "parent": "kovplus",
@@ -8345,7 +8900,10 @@
           "n": "12em_m0600.u3",
           "c": "7a50501b"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus 2012 - Nightmare",
+      "y": "2022",
+      "m": "hack"
     },
     "kovplusq": {
       "parent": "kovplus",
@@ -8386,7 +8944,10 @@
           "n": "pgm_m0600.u3",
           "c": "3ada4fd6"
         }
-      ]
+      ],
+      "t": "Knights of Valour Plus - New Biography of Heroes (V120)",
+      "y": "2021",
+      "m": "Hack"
     },
     "kovqxzbws": {
       "parent": "kovshp",
@@ -8443,7 +9004,10 @@
           "n": "qxzb_v100_china.asic",
           "c": "0bbe09ff"
         }
-      ]
+      ],
+      "t": "Qunxiong Zhengba - Fengyun Zai Qi (Wushuang, Hack, ver. 20230501)",
+      "y": "2023",
+      "m": "IGS"
     },
     "kovphsqj": {
       "parent": "kovplus",
@@ -8496,7 +9060,10 @@
           "n": "hsqj_m0600.u3",
           "c": "c1744a4c"
         }
-      ]
+      ],
+      "t": "Sanguo Zhan Ji - Heng Sao Qian Jun (Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "kovptstd": {
       "parent": "kovplus",
@@ -8541,7 +9108,10 @@
           "n": "tstd_m0600.u3",
           "c": "7a0db06a"
         }
-      ]
+      ],
+      "t": "Sanguo Zhan Ji - Zhen Tun Shi Tian Di (Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "kovpxba": {
       "parent": "kovplus",
@@ -8550,7 +9120,10 @@
           "n": "xba_p0603_v119.u1",
           "c": "f8cd3baa"
         }
-      ]
+      ],
+      "t": "Sanguo Zhan Ji - Xiao Bing Zheng Ba (Ver.A, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "kovpxbb": {
       "parent": "kovplus",
@@ -8559,7 +9132,10 @@
           "n": "xbb_p0603_v119.u1",
           "c": "c94d20b9"
         }
-      ]
+      ],
+      "t": "Sanguo Zhan Ji - Xiao Bing Zheng Ba (Ver.B, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "kovshdf": {
       "parent": "kovsh",
@@ -8612,7 +9188,10 @@
           "n": "kovshdf_v100_china.asic",
           "c": "70e33f5e"
         }
-      ]
+      ],
+      "t": "Knights of Valour Superheroes / Sangoku Senki Superheroes - Dungeons & Warriors (Hack)",
+      "y": "2009",
+      "m": "hack"
     },
     "kovshszl": {
       "parent": "kovsh",
@@ -8665,7 +9244,10 @@
           "n": "kovsh_v100_china.asic",
           "c": "0f09a5c1"
         }
-      ]
+      ],
+      "t": "Knights of Valour Superheroes / Sangoku Senki Superheroes - The Road Beyond the Gods (Hack)",
+      "y": "2021",
+      "m": "hack"
     },
     "kovshxsh": {
       "parent": "kovsh",
@@ -8718,7 +9300,10 @@
           "n": "kovxs_v100_china.asic",
           "c": "f6b6b4e8"
         }
-      ]
+      ],
+      "t": "Sangoku Senki Super Heroes - Evil & Darkness Plus (Hack)",
+      "y": "2021",
+      "m": "hack"
     },
     "kovshmg": {
       "parent": "kovsh",
@@ -8771,7 +9356,10 @@
           "n": "kovshmg_v100_china.asic",
           "c": "12470e2a"
         }
-      ]
+      ],
+      "t": "Knights of Valour Superheroes / Sangoku Senki Superheroes - Muggle Legend (Hack)",
+      "y": "2020",
+      "m": "hack"
     },
     "kov2pshjz": {
       "parent": "kov2p",
@@ -8836,7 +9424,10 @@
           "n": "shjz_16m.u23",
           "c": "8f0a0638"
         }
-      ]
+      ],
+      "t": "Knights of Valour 2 Plus - Shuang Han Jiu Zhou (Hack)",
+      "y": "202?",
+      "m": "hack"
     },
     "killbldqy": {
       "parent": "killbld",
@@ -8845,7 +9436,10 @@
           "n": "kbqy_v109.u9",
           "c": "98c85d0e"
         }
-      ]
+      ],
+      "t": "The Killing Blade - Heroes (Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "killbldjq": {
       "parent": "killbld",
@@ -8854,7 +9448,10 @@
           "n": "kbjq_v109.u9",
           "c": "612ce0f1"
         }
-      ]
+      ],
+      "t": "The Killing Blade - Infinite Energy (Hack)",
+      "y": "2023",
+      "m": "hack"
     }
   }
 }

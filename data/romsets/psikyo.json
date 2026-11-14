@@ -36,7 +36,10 @@
           "n": "u68.bin",
           "c": "9a7f6c34"
         }
-      ]
+      ],
+      "t": "Samurai Aces (World)",
+      "y": "1993",
+      "m": "Psikyo (Banpresto license)"
     },
     "samuraiak": {
       "parent": "samuraia",
@@ -73,7 +76,10 @@
           "n": "u68.bin",
           "c": "9a7f6c34"
         }
-      ]
+      ],
+      "t": "Samurai Aces (Korea?)",
+      "y": "1993",
+      "m": "Psikyo (Banpresto license)"
     },
     "sngkace": {
       "parent": "samuraia",
@@ -110,7 +116,10 @@
           "n": "u68.bin",
           "c": "9a7f6c34"
         }
-      ]
+      ],
+      "t": "Sengoku Ace (Japan, set 1)",
+      "y": "1993",
+      "m": "Psikyo (Banpresto license)"
     },
     "sngkacea": {
       "parent": "samuraia",
@@ -147,7 +156,10 @@
           "n": "u68.bin",
           "c": "9a7f6c34"
         }
-      ]
+      ],
+      "t": "Sengoku Ace (Japan, set 2)",
+      "y": "1993",
+      "m": "Psikyo (Banpresto license)"
     },
     "gunbird": {
       "parent": null,
@@ -196,7 +208,10 @@
           "n": "u56.bin",
           "c": "9e07104d"
         }
-      ]
+      ],
+      "t": "Gunbird (World)",
+      "y": "1994",
+      "m": "Psikyo"
     },
     "gunbirdk": {
       "parent": "gunbird",
@@ -245,7 +260,10 @@
           "n": "u56.bin",
           "c": "9e07104d"
         }
-      ]
+      ],
+      "t": "Gunbird (Korea)",
+      "y": "1994",
+      "m": "Psikyo"
     },
     "gunbirdj": {
       "parent": "gunbird",
@@ -294,7 +312,10 @@
           "n": "u56.bin",
           "c": "9e07104d"
         }
-      ]
+      ],
+      "t": "Gunbird (Japan)",
+      "y": "1994",
+      "m": "Psikyo"
     },
     "btlkroad": {
       "parent": null,
@@ -339,7 +360,10 @@
           "n": "u56.bin",
           "c": "51d73682"
         }
-      ]
+      ],
+      "t": "Battle K-Road",
+      "y": "1994",
+      "m": "Psikyo"
     },
     "btlkroadk": {
       "parent": "btlkroad",
@@ -384,7 +408,10 @@
           "n": "u56.bin",
           "c": "51d73682"
         }
-      ]
+      ],
+      "t": "Battle K-Road (Korea)",
+      "y": "1994",
+      "m": "Psikyo"
     },
     "s1945": {
       "parent": null,
@@ -429,7 +456,10 @@
           "n": "u61.bin",
           "c": "a839cf47"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (World)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945a": {
       "parent": "s1945",
@@ -474,7 +504,10 @@
           "n": "u61.bin",
           "c": "a839cf47"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (Japan / World)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945j": {
       "parent": "s1945",
@@ -519,7 +552,10 @@
           "n": "u61.bin",
           "c": "a839cf47"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (Japan)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945n": {
       "parent": "s1945",
@@ -568,7 +604,10 @@
           "n": "u56.bin",
           "c": "fe1312c2"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (World, unprotected)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945nj": {
       "parent": "s1945",
@@ -617,7 +656,10 @@
           "n": "u56.bin",
           "c": "fe1312c2"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (Japan, unprotected)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945k": {
       "parent": "s1945",
@@ -662,7 +704,10 @@
           "n": "u61.bin",
           "c": "a839cf47"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (Korea)",
+      "y": "1995",
+      "m": "Psikyo"
     },
     "s1945bl": {
       "parent": "s1945",
@@ -711,7 +756,10 @@
           "n": "27c512",
           "c": "0da8db45"
         }
-      ]
+      ],
+      "t": "Strikers 1945 (Hong Kong, bootleg)",
+      "y": "1995",
+      "m": "bootleg"
     },
     "tengai": {
       "parent": null,
@@ -760,7 +808,10 @@
           "n": "4.u59",
           "c": "e563b054"
         }
-      ]
+      ],
+      "t": "Tengai (World)",
+      "y": "1996",
+      "m": "Psikyo"
     },
     "tengaij": {
       "parent": "tengai",
@@ -809,7 +860,10 @@
           "n": "4.u59",
           "c": "e563b054"
         }
-      ]
+      ],
+      "t": "Sengoku Blade: Sengoku Ace Episode II (Japan) / Tengai (World)",
+      "y": "1996",
+      "m": "Psikyo"
     },
     "hotgmck": {
       "parent": null,
@@ -866,7 +920,10 @@
           "n": "snd1.bin",
           "c": "c24243b5"
         }
-      ]
+      ],
+      "t": "Taisen Hot Gimmick (Japan)",
+      "y": "1997",
+      "m": "Psikyo"
     },
     "hgkairak": {
       "parent": null,
@@ -939,7 +996,10 @@
           "n": "snd1.u19",
           "c": "d8057d2f"
         }
-      ]
+      ],
+      "t": "Taisen Hot Gimmick Kairakuten (Japan)",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "hotgmck3": {
       "parent": null,
@@ -1028,7 +1088,10 @@
           "n": "snd1.u19",
           "c": "1df91fb4"
         }
-      ]
+      ],
+      "t": "Taisen Hot Gimmick 3 Digital Surfing (Japan)",
+      "y": "1999",
+      "m": "Psikyo"
     },
     "hotgm4ev": {
       "parent": null,
@@ -1117,7 +1180,10 @@
           "n": "snd1.u19",
           "c": "0de0232d"
         }
-      ]
+      ],
+      "t": "Taisen Hot Gimmick 4 Ever (Japan)",
+      "y": "2000",
+      "m": "Psikyo"
     },
     "hotgmcki": {
       "parent": null,
@@ -1206,7 +1272,10 @@
           "n": "snd1.u19",
           "c": "98608779"
         }
-      ]
+      ],
+      "t": "Mahjong Hot Gimmick Integral (Japan)",
+      "y": "2001",
+      "m": "Psikyo"
     },
     "loderndf": {
       "parent": null,
@@ -1239,7 +1308,10 @@
           "n": "snd0.u10",
           "c": "2da3788f"
         }
-      ]
+      ],
+      "t": "Lode Runner - The Dig Fight (ver. B)",
+      "y": "2000",
+      "m": "Psikyo"
     },
     "loderndfa": {
       "parent": "loderndf",
@@ -1272,7 +1344,10 @@
           "n": "snd0.u10",
           "c": "2da3788f"
         }
-      ]
+      ],
+      "t": "Lode Runner - The Dig Fight (ver. A)",
+      "y": "2000",
+      "m": "Psikyo"
     },
     "hotdebut": {
       "parent": null,
@@ -1313,7 +1388,10 @@
           "n": "snd0.u10",
           "c": "eef28aa7"
         }
-      ]
+      ],
+      "t": "Quiz de Idol! Hot Debut (Japan)",
+      "y": "2000",
+      "m": "MOSS / Psikyo"
     },
     "soldivid": {
       "parent": null,
@@ -1354,7 +1432,10 @@
           "n": "sound.u32",
           "c": "e98f8d45"
         }
-      ]
+      ],
+      "t": "Sol Divide: Sword Of Darkness",
+      "y": "1997",
+      "m": "Psikyo"
     },
     "soldividk": {
       "parent": "soldivid",
@@ -1395,7 +1476,10 @@
           "n": "sound.u32",
           "c": "e98f8d45"
         }
-      ]
+      ],
+      "t": "Sol Divide: Sword Of Darkness (Korea)",
+      "y": "1997",
+      "m": "Psikyo"
     },
     "s1945ii": {
       "parent": null,
@@ -1448,7 +1532,10 @@
           "n": "eeprom-s1945ii.bin",
           "c": "7ac38846"
         }
-      ]
+      ],
+      "t": "Strikers 1945 II",
+      "y": "1997",
+      "m": "Psikyo"
     },
     "daraku": {
       "parent": null,
@@ -1529,7 +1616,10 @@
           "n": "eeprom-daraku.bin",
           "c": "a9715297"
         }
-      ]
+      ],
+      "t": "The Fallen Angels (World) / Daraku Tenshi: The Fallen Angels (Japan)",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "sbomber": {
       "parent": null,
@@ -1590,7 +1680,10 @@
           "n": "eeprom-sbomber.bin",
           "c": "7ac38846"
         }
-      ]
+      ],
+      "t": "Space Bomber (ver. B)",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "sbombera": {
       "parent": "sbomber",
@@ -1651,7 +1744,10 @@
           "n": "eeprom-sbomber.bin",
           "c": "7ac38846"
         }
-      ]
+      ],
+      "t": "Space Bomber",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "gunbird2": {
       "parent": null,
@@ -1708,7 +1804,10 @@
           "n": "eeprom-gunbird2.bin",
           "c": "7ac38846"
         }
-      ]
+      ],
+      "t": "Gunbird 2 (set 1)",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "gunbird2a": {
       "parent": "gunbird2",
@@ -1765,7 +1864,10 @@
           "n": "eeprom-gunbird2.bin",
           "c": "7ac38846"
         }
-      ]
+      ],
+      "t": "Gunbird 2 (set 2)",
+      "y": "1998",
+      "m": "Psikyo"
     },
     "s1945iii": {
       "parent": null,
@@ -1822,7 +1924,10 @@
           "n": "eeprom-s1945iii.bin",
           "c": "b39f3604"
         }
-      ]
+      ],
+      "t": "Strikers 1945 III (World) / Strikers 1999 (Japan)",
+      "y": "1999",
+      "m": "Psikyo"
     },
     "dragnblz": {
       "parent": null,
@@ -1923,7 +2028,10 @@
           "n": "eeprom-dragnblz.u44",
           "c": "46e85da9"
         }
-      ]
+      ],
+      "t": "Dragon Blaze",
+      "y": "2000",
+      "m": "Psikyo"
     },
     "gnbarich": {
       "parent": null,
@@ -1976,7 +2084,10 @@
           "n": "eeprom-gnbarich.bin",
           "c": "0f5bf42f"
         }
-      ]
+      ],
+      "t": "Gunbarich",
+      "y": "2001",
+      "m": "Psikyo"
     },
     "mjgtaste": {
       "parent": null,
@@ -2029,7 +2140,10 @@
           "n": "eeprom-mjgtaste.u44",
           "c": "d35586f2"
         }
-      ]
+      ],
+      "t": "Mahjong G-Taste",
+      "y": "2002",
+      "m": "Psikyo"
     },
     "tgm2": {
       "parent": null,
@@ -2114,7 +2228,10 @@
           "n": "tgm2.default.nv",
           "c": "50e2348c"
         }
-      ]
+      ],
+      "t": "Tetris: The Absolute - The Grand Master 2",
+      "y": "2000",
+      "m": "Arika"
     },
     "tgm2p": {
       "parent": "tgm2",
@@ -2199,7 +2316,10 @@
           "n": "tgm2p.default.nv",
           "c": "b2328b40"
         }
-      ]
+      ],
+      "t": "Tetris: The Absolute - The Grand Master 2 Plus",
+      "y": "2000",
+      "m": "Arika"
     }
   }
 }

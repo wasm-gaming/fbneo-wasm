@@ -48,7 +48,10 @@
           "n": "7502",
           "c": "52bdbe39"
         }
-      ]
+      ],
+      "t": "119 (bootleg?)",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "600": {
       "parent": "turtles",
@@ -93,7 +96,10 @@
           "n": "turtles.clr",
           "c": "f3ef02dd"
         }
-      ]
+      ],
+      "t": "600",
+      "y": "1981",
+      "m": "Konami"
     },
     "pandajump": {
       "parent": null,
@@ -130,7 +136,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Panda Jump (set 1)",
+      "y": "2022",
+      "m": "Ben Larson"
     },
     "pandajump2": {
       "parent": "pandajump",
@@ -167,7 +176,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Panda Jump (set 2)",
+      "y": "2022",
+      "m": "Ben Larson"
     },
     "galaxian": {
       "parent": null,
@@ -204,7 +216,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Namco set 1)",
+      "y": "1979",
+      "m": "Namco"
     },
     "galaxiana": {
       "parent": "galaxian",
@@ -233,7 +248,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Namco set 2)",
+      "y": "1979",
+      "m": "Namco"
     },
     "galaxianm": {
       "parent": "galaxian",
@@ -270,7 +288,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Midway set 1)",
+      "y": "1979",
+      "m": "Namco (Midway license)"
     },
     "galaxianmo": {
       "parent": "galaxian",
@@ -307,7 +328,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Midway set 2)",
+      "y": "1979",
+      "m": "Namco (Midway license)"
     },
     "galaxiant": {
       "parent": "galaxian",
@@ -344,7 +368,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Taito)",
+      "y": "1979",
+      "m": "Namco (Taito license)"
     },
     "galaxiani": {
       "parent": "galaxian",
@@ -381,7 +408,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Irem)",
+      "y": "1979",
+      "m": "Namco (Irem license)"
     },
     "donight": {
       "parent": null,
@@ -418,7 +448,10 @@
           "n": "6l.bpr",
           "c": "77f95861"
         }
-      ]
+      ],
+      "t": "Mr.Do's Nightmare (hack by Krazy Ivan)",
+      "y": "2013",
+      "m": "Krazy Ivan"
     },
     "vectrgal": {
       "parent": "galaxian",
@@ -455,7 +488,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Vector Sim, Hack)",
+      "y": "1998",
+      "m": "T-Bone"
     },
     "moonaln": {
       "parent": "galaxian",
@@ -492,7 +528,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Moon Alien",
+      "y": "1979",
+      "m": "Namco / Nichibutsu (Karateco license?)"
     },
     "superg": {
       "parent": "galaxian",
@@ -525,7 +564,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Super Galaxians (hack of 'Galaxian (Namco set 2)')",
+      "y": "1979",
+      "m": "hack"
     },
     "spacian2": {
       "parent": "galaxian",
@@ -562,7 +604,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "T.T Spacian Part-2",
+      "y": "1979",
+      "m": "Namco / Taito"
     },
     "galturbo": {
       "parent": "galaxian",
@@ -599,7 +644,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian Turbo (hack of 'Super Galaxians')",
+      "y": "1979",
+      "m": "hack"
     },
     "galapx": {
       "parent": "galaxian",
@@ -636,7 +684,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian Part X (hack of 'Moon Alien')",
+      "y": "1979",
+      "m": "hack"
     },
     "galap1": {
       "parent": "galaxian",
@@ -669,7 +720,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Space Invaders Galactica (hack of 'Galaxian (Namco set 2)')",
+      "y": "1979",
+      "m": "hack"
     },
     "galap2": {
       "parent": "galaxian",
@@ -706,7 +760,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "GX Part 2 (hack of Galaxian)",
+      "y": "1979",
+      "m": "hack (International Scientific)"
     },
     "galap4": {
       "parent": "galaxian",
@@ -743,7 +800,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian Part 4 (hack)",
+      "y": "1979",
+      "m": "hack (G.G.I)"
     },
     "swarm": {
       "parent": "galaxian",
@@ -780,7 +840,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Swarm (bootleg?)",
+      "y": "1979",
+      "m": "bootleg? (Subelectro)"
     },
     "astrians": {
       "parent": "galaxian",
@@ -817,7 +880,10 @@
           "n": "prom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Astrians (clone of Swarm)",
+      "y": "1980",
+      "m": "bootleg (BGV Ltd.)"
     },
     "zerotime": {
       "parent": "galaxian",
@@ -854,7 +920,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Zero Time (Petaco S.A.)",
+      "y": "1979",
+      "m": "bootleg? (Petaco S.A.)"
     },
     "galaktron": {
       "parent": "galaxian",
@@ -891,7 +960,10 @@
           "n": "galaktron_pr.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Galaktron (Petaco S.A.)",
+      "y": "1979",
+      "m": "bootleg (Petaco S.A.)"
     },
     "galaktrons3": {
       "parent": "galaxian",
@@ -948,7 +1020,10 @@
           "n": "ims5610.bin",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Galaktron (Sede 3)",
+      "y": "1979",
+      "m": "bootleg (Sede 3)"
     },
     "galkamika": {
       "parent": "galaxian",
@@ -985,7 +1060,10 @@
           "n": "m866l_im5610.6l",
           "c": "b549ad5a"
         }
-      ]
+      ],
+      "t": "Kamikaze (Electrogame, Spanish bootleg of Galaxian)",
+      "y": "1979",
+      "m": "bootleg (Electrogame)"
     },
     "zerotimed": {
       "parent": "galaxian",
@@ -1006,7 +1084,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Zero Time (Datamat)",
+      "y": "1979",
+      "m": "bootleg (Datamat)"
     },
     "zerotimemc": {
       "parent": "galaxian",
@@ -1043,7 +1124,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Zero Time (Marti Colls)",
+      "y": "1979",
+      "m": "bootleg (Marti Colls)"
     },
     "zerotimea": {
       "parent": "galaxian",
@@ -1080,7 +1164,10 @@
           "n": "82s123.bin",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Zero Time (Spanish bootleg, set 1)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "zerotimeb": {
       "parent": "galaxian",
@@ -1117,7 +1204,10 @@
           "n": "mb7051.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Zero Time (Spanish bootleg, set 2)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxcirsa": {
       "parent": "galaxian",
@@ -1154,7 +1244,10 @@
           "n": "6113_1.bin",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Cirsa Spanish bootleg)",
+      "y": "1979",
+      "m": "bootleg (Cirsa)"
     },
     "starfght": {
       "parent": "galaxian",
@@ -1211,7 +1304,10 @@
           "n": "mmi6331.7f",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Star Fighter",
+      "y": "1979",
+      "m": "bootleg (Jeutel)"
     },
     "galaxbsf": {
       "parent": "galaxian",
@@ -1268,7 +1364,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (bootleg, set 1)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxbsf2": {
       "parent": "galaxian",
@@ -1329,7 +1428,10 @@
           "n": "gal00eg.ic4",
           "c": "1038467f"
         }
-      ]
+      ],
+      "t": "Galaxian (bootleg, set 3)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxianbl": {
       "parent": "galaxian",
@@ -1386,7 +1488,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (bootleg, set 2)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxianbl2": {
       "parent": "galaxian",
@@ -1423,7 +1528,10 @@
           "n": "6331-1j.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (bootleg, set 4)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxianbl3": {
       "parent": "galaxian",
@@ -1460,7 +1568,10 @@
           "n": "im8610.6l",
           "c": "4a3c88a5"
         }
-      ]
+      ],
+      "t": "Galaxian (Spanish bootleg)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxianoly": {
       "parent": "galaxian",
@@ -1517,7 +1628,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Olympia bootleg)",
+      "y": "1979",
+      "m": "bootleg (Olympia)"
     },
     "kamakazi3": {
       "parent": "galaxian",
@@ -1554,7 +1668,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Kamakazi III (hack of 'Super Galaxians')",
+      "y": "1979",
+      "m": "hack"
     },
     "supergx": {
       "parent": "galaxian",
@@ -1591,7 +1708,10 @@
           "n": "sgg2",
           "c": "528f1481"
         }
-      ]
+      ],
+      "t": "Super GX",
+      "y": "1980",
+      "m": "Namco / Nichibutsu"
     },
     "tst_galx": {
       "parent": "galaxian",
@@ -1628,7 +1748,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian Test ROM",
+      "y": "19??",
+      "m": "<unknown>"
     },
     "galaxrf": {
       "parent": "galaxian",
@@ -1665,7 +1788,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Recreativos Franco S.A. Spanish bootleg)",
+      "y": "1980",
+      "m": "bootleg (Recreativos Franco S.A.)"
     },
     "galaxianem": {
       "parent": "galaxian",
@@ -1702,7 +1828,10 @@
           "n": "im5610.bin",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Galaxian (Electromar Spanish bootleg)",
+      "y": "1980",
+      "m": "bootleg (Electromar)"
     },
     "galaxianrp": {
       "parent": "galaxian",
@@ -1739,7 +1868,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian (Rene Pierre bootleg)",
+      "y": "1979",
+      "m": "bootleg (Valadon Automation / Rene Pierre)"
     },
     "galaxyx": {
       "parent": "galaxian",
@@ -1776,7 +1908,10 @@
           "n": "sgprom.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxy X (bootleg of Galaxian)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "galaxrfgg": {
       "parent": "galaxian",
@@ -1805,7 +1940,10 @@
           "n": "gxrf.6l",
           "c": "992350e5"
         }
-      ]
+      ],
+      "t": "Galaxian Growing Galaxip / Galaxian Nave Creciente (Recreativos Franco S.A. Spanish bootleg)",
+      "y": "1980",
+      "m": "bootleg (Recreativos Franco S.A.)"
     },
     "galaxrcgg": {
       "parent": "galaxian",
@@ -1834,7 +1972,10 @@
           "n": "gxrf.6l",
           "c": "992350e5"
         }
-      ]
+      ],
+      "t": "Galaxian Growing Galaxip / Galaxian Nave Creciente (Recreativos Covadonga Spanish bootleg)",
+      "y": "1980",
+      "m": "bootleg (Recreativos Covadonga)"
     },
     "galaxianiii": {
       "parent": "galaxian",
@@ -1871,7 +2012,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galaxian III (bootleg of Galaxian)",
+      "y": "1979",
+      "m": "bootleg"
     },
     "victoryc": {
       "parent": null,
@@ -1904,7 +2048,10 @@
           "n": "prom.6l",
           "c": "25329e5a"
         }
-      ]
+      ],
+      "t": "Victory (Comsoft)",
+      "y": "1982",
+      "m": "Comsoft"
     },
     "victorycb": {
       "parent": "victoryc",
@@ -1941,7 +2088,10 @@
           "n": "prom.6l",
           "c": "25329e5a"
         }
-      ]
+      ],
+      "t": "Victory (Comsoft) (bootleg)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "blkhole": {
       "parent": null,
@@ -1982,7 +2132,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Black Hole",
+      "y": "1981",
+      "m": "TDS & MINTS"
     },
     "orbitron": {
       "parent": null,
@@ -2019,7 +2172,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Orbitron",
+      "y": "1982",
+      "m": "Comsoft (Signatron USA license)"
     },
     "luctoday": {
       "parent": null,
@@ -2044,7 +2200,10 @@
           "n": "74s288.ch",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Lucky Today",
+      "y": "1980",
+      "m": "Sigma"
     },
     "chewing": {
       "parent": "luctoday",
@@ -2069,7 +2228,10 @@
           "n": "74s288.ch",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Chewing Gum",
+      "y": "19??",
+      "m": "<unknown>"
     },
     "catacomb": {
       "parent": null,
@@ -2102,7 +2264,10 @@
           "n": "74s288.bin",
           "c": "7e0b79cb"
         }
-      ]
+      ],
+      "t": "Catacomb",
+      "y": "1982",
+      "m": "MTM Games"
     },
     "omegab": {
       "parent": "theend",
@@ -2143,7 +2308,10 @@
           "n": "mmi6331-1j.86",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Omega (bootleg?)",
+      "y": "19??",
+      "m": "bootleg?"
     },
     "warofbug": {
       "parent": null,
@@ -2180,7 +2348,10 @@
           "n": "warofbug.clr",
           "c": "8688e64b"
         }
-      ]
+      ],
+      "t": "War of the Bugs or Monsterous Manouvers in a Mushroom Maze",
+      "y": "1981",
+      "m": "Armenia / Food and Fun Corp"
     },
     "warofbugg": {
       "parent": "warofbug",
@@ -2217,7 +2388,10 @@
           "n": "warofbug.clr",
           "c": "8688e64b"
         }
-      ]
+      ],
+      "t": "War of the Bugs or Monsterous Manouvers in a Mushroom Maze (German)",
+      "y": "1981",
+      "m": "Armenia"
     },
     "warofbugu": {
       "parent": "warofbug",
@@ -2254,7 +2428,10 @@
           "n": "warofbug.clr",
           "c": "8688e64b"
         }
-      ]
+      ],
+      "t": "War of the Bugs or Monsterous Manouvers in a Mushroom Maze (US)",
+      "y": "1981",
+      "m": "Armenia / Super Video Games"
     },
     "redufo": {
       "parent": null,
@@ -2299,7 +2476,10 @@
           "n": "tbp18s030n.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Defend the Terra Attack on the Red UFO",
+      "y": "1981",
+      "m": "Artic"
     },
     "redufob": {
       "parent": "redufo",
@@ -2340,7 +2520,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Defend the Terra Attack on the Red UFO (bootleg, set 1)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "redufob2": {
       "parent": "redufo",
@@ -2381,7 +2564,10 @@
           "n": "5049.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Defend the Terra Attack on the Red UFO (bootleg, set 2)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "redufob3": {
       "parent": "redufo",
@@ -2426,7 +2612,10 @@
           "n": "82s123.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Defend the Terra Attack on the Red UFO (bootleg, set 3)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "exodus": {
       "parent": "redufo",
@@ -2471,7 +2660,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Exodus (bootleg?)",
+      "y": "19??",
+      "m": "bootleg? (Subelectro)"
     },
     "tdpgal": {
       "parent": null,
@@ -2512,7 +2704,10 @@
           "n": "bprom.bin",
           "c": "2b4cf53f"
         }
-      ]
+      ],
+      "t": "Triple Draw Poker (Design Labs / Thomas Automatics)",
+      "y": "1983",
+      "m": "Design Labs / Thomas Automatics"
     },
     "tdpgala": {
       "parent": "tdpgal",
@@ -2549,7 +2744,10 @@
           "n": "74s472.gg",
           "c": "2b4cf53f"
         }
-      ]
+      ],
+      "t": "Triple Draw Poker (Video Village)",
+      "y": "1983",
+      "m": "Video Village"
     },
     "azurian": {
       "parent": null,
@@ -2578,7 +2776,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Azurian Attack",
+      "y": "1982",
+      "m": "Rait Electronics Ltd"
     },
     "tazzmang": {
       "parent": "tazmania",
@@ -2619,7 +2820,10 @@
           "n": "prom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Tazz-Mania (bootleg on Galaxian hardware)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "tazzmang2": {
       "parent": "tazmania",
@@ -2676,7 +2880,10 @@
           "n": "prom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Tazz-Mania (bootleg on Galaxian hardware with Starfield)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "scramblb": {
       "parent": "scramble",
@@ -2725,7 +2932,10 @@
           "n": "82s123.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (bootleg on Galaxian hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "scramb2": {
       "parent": "scramble",
@@ -2774,7 +2984,10 @@
           "n": "82s123.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (bootleg, set 1)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "scrambler": {
       "parent": "scramble",
@@ -2823,7 +3036,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Reben S.A. Spanish bootleg)",
+      "y": "1981",
+      "m": "bootleg (Reben S.A.)"
     },
     "pisces": {
       "parent": null,
@@ -2872,7 +3088,10 @@
           "n": "colour.bin",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Pisces",
+      "y": "19??",
+      "m": "Subelectro"
     },
     "piscesb": {
       "parent": "pisces",
@@ -2921,7 +3140,10 @@
           "n": "colour.bin",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Pisces (bootleg)",
+      "y": "19??",
+      "m": "bootleg"
     },
     "omni": {
       "parent": "pisces",
@@ -2958,7 +3180,10 @@
           "n": "colour.bin",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Omni",
+      "y": "19??",
+      "m": "bootleg (Videa System)"
     },
     "supershp": {
       "parent": "pisces",
@@ -2987,7 +3212,10 @@
           "n": "colour.bin",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Super Ship",
+      "y": "19??",
+      "m": "bootleg"
     },
     "uniwars": {
       "parent": null,
@@ -3044,7 +3272,10 @@
           "n": "uniwars.clr",
           "c": "25c79518"
         }
-      ]
+      ],
+      "t": "UniWar S",
+      "y": "1980",
+      "m": "Irem"
     },
     "uniwarsa": {
       "parent": "uniwars",
@@ -3101,7 +3332,10 @@
           "n": "kareteco.clr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "UniWar S (bootleg)",
+      "y": "1980",
+      "m": "bootleg (Karateco)"
     },
     "mltiwars": {
       "parent": "uniwars",
@@ -3150,7 +3384,10 @@
           "n": "prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Multi Wars (bootleg of UniWar S)",
+      "y": "1980",
+      "m": "bootleg (Gayton Games)"
     },
     "gteikoku": {
       "parent": "uniwars",
@@ -3207,7 +3444,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Gingateikoku no Gyakushu",
+      "y": "1980",
+      "m": "Irem"
     },
     "gteikokub": {
       "parent": "uniwars",
@@ -3264,7 +3504,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Gingateikoku no Gyakushu (bootleg set 1)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "gteikokub2": {
       "parent": "uniwars",
@@ -3321,7 +3564,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Gingateikoku no Gyakushu (bootleg set 2)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "gteikokub3": {
       "parent": "uniwars",
@@ -3378,7 +3624,10 @@
           "n": "colprom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Gingateikoku no Gyakushu (bootleg set 3)",
+      "y": "1980",
+      "m": "bootleg (Honly)"
     },
     "spacbatt": {
       "parent": "uniwars",
@@ -3435,7 +3684,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Space Battle (bootleg set 1)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "spacbat2": {
       "parent": "uniwars",
@@ -3492,7 +3744,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Space Battle (bootleg set 2)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "spacempr": {
       "parent": "uniwars",
@@ -3549,7 +3804,10 @@
           "n": "mmi6331",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Space Empire (bootleg)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "skyraidr": {
       "parent": "uniwars",
@@ -3606,7 +3864,10 @@
           "n": "uniwars.clr",
           "c": "25c79518"
         }
-      ]
+      ],
+      "t": "Sky Raider (bootleg of UniWar S)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "galemp": {
       "parent": "uniwars",
@@ -3663,7 +3924,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Galaxy Empire (bootleg?)",
+      "y": "1980",
+      "m": "bootleg (Taito do Brasil)"
     },
     "asideral": {
       "parent": "uniwars",
@@ -3720,7 +3984,10 @@
           "n": "uniwars.clr",
           "c": "25c79518"
         }
-      ]
+      ],
+      "t": "Ataque Sideral (Spanish bootleg of UniWar S)",
+      "y": "1980",
+      "m": "bootleg (Electrogame S.A.)"
     },
     "pajaroes": {
       "parent": "uniwars",
@@ -3777,7 +4044,10 @@
           "n": "uniwars.clr",
           "c": "25c79518"
         }
-      ]
+      ],
+      "t": "Pajaro del Espacio (Spanish bootleg of UniWar S)",
+      "y": "1980",
+      "m": "bootleg (PSV S.A.)"
     },
     "vueloesp": {
       "parent": "uniwars",
@@ -3834,7 +4104,10 @@
           "n": "prom.clr",
           "c": "25c79518"
         }
-      ]
+      ],
+      "t": "Vuelo Espacial (Spanish bootleg of UniWar S)",
+      "y": "1980",
+      "m": "bootleg (Centromatic)"
     },
     "batman2": {
       "parent": "phoenix",
@@ -3891,7 +4164,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Batman Part 2",
+      "y": "1981",
+      "m": "bootleg"
     },
     "ladybugg": {
       "parent": "ladybug",
@@ -3940,7 +4216,10 @@
           "n": "lbuggx.clr",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Lady Bug (bootleg on Galaxian hardware, unencrypted)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "streakng": {
       "parent": null,
@@ -3973,7 +4252,10 @@
           "n": "sk.bpr",
           "c": "bce79607"
         }
-      ]
+      ],
+      "t": "Streaking (set 1)",
+      "y": "1980",
+      "m": "Shoei"
     },
     "streaknga": {
       "parent": "streakng",
@@ -4030,7 +4312,10 @@
           "n": "sk.bpr",
           "c": "bce79607"
         }
-      ]
+      ],
+      "t": "Streaking (set 2)",
+      "y": "1980",
+      "m": "Shoei"
     },
     "pacmanbl": {
       "parent": "puckman",
@@ -4083,7 +4368,10 @@
           "n": "sn74s288n.6l",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Pac-Man (bootleg on Galaxian hardware, set 1)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "pacmanbla": {
       "parent": "puckman",
@@ -4116,7 +4404,10 @@
           "n": "sn74s288n.6l",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Pac-Man (bootleg on Galaxian hardware, set 2)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "pacmanblb": {
       "parent": "puckman",
@@ -4161,7 +4452,10 @@
           "n": "mb7051.6l",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Pac-Man (bootleg on Moon Alien 'AL-10A1' hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "pacmanblc": {
       "parent": "puckman",
@@ -4214,7 +4508,10 @@
           "n": "im5610.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Pac-Man (Calfesa, Spanish bootleg on Galaxian hardware)",
+      "y": "1981",
+      "m": "bootleg (Calfesa)"
     },
     "pacmanblv": {
       "parent": "puckman",
@@ -4267,7 +4564,10 @@
           "n": "pacvideodens-im5610cpe.6l",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Pac-Man (Video Dens, Spanish bootleg on Galaxian hardware, set 1)",
+      "y": "1981",
+      "m": "bootleg (Video Dens)"
     },
     "ghostmun": {
       "parent": "puckman",
@@ -4308,7 +4608,10 @@
           "n": "ghostmun.clr",
           "c": "759647e3"
         }
-      ]
+      ],
+      "t": "Ghost Muncher",
+      "y": "1981",
+      "m": "bootleg (Leisure and Allied)"
     },
     "phoenxp2": {
       "parent": "phoenix",
@@ -4365,7 +4668,10 @@
           "n": "sn74s288n.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Phoenix Part 2",
+      "y": "1981",
+      "m": "bootleg"
     },
     "atlantisb": {
       "parent": "atlantis",
@@ -4406,7 +4712,10 @@
           "n": "sn74s288n.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Battle of Atlantis (bootleg)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "zigzagb": {
       "parent": null,
@@ -4439,7 +4748,10 @@
           "n": "zzbpr_e9.bin",
           "c": "aa486dd0"
         }
-      ]
+      ],
+      "t": "Zig Zag (bootleg Dig Dug conversion on Galaxian hardware, set 1)",
+      "y": "1982",
+      "m": "bootleg (LAX)"
     },
     "zigzagb2": {
       "parent": "zigzagb",
@@ -4472,7 +4784,10 @@
           "n": "zzbpr_e9.bin",
           "c": "aa486dd0"
         }
-      ]
+      ],
+      "t": "Zig Zag (bootleg Dig Dug conversion on Galaxian hardware, set 2)",
+      "y": "1982",
+      "m": "bootleg (LAX)"
     },
     "ozon1": {
       "parent": null,
@@ -4501,7 +4816,10 @@
           "n": "ozon1.clr",
           "c": "605ea6e9"
         }
-      ]
+      ],
+      "t": "Ozon I",
+      "y": "1983",
+      "m": "Proma"
     },
     "gmgalax": {
       "parent": null,
@@ -4558,7 +4876,10 @@
           "n": "galaxian_mb7051_bottom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Ghostmuncher Galaxian (bootleg)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "4in1": {
       "parent": null,
@@ -4663,7 +4984,10 @@
           "n": "6l.bpr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "4 Fun in 1",
+      "y": "1981",
+      "m": "Armenia / Food and Fun"
     },
     "mooncrst": {
       "parent": null,
@@ -4720,7 +5044,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu)",
+      "y": "1980",
+      "m": "Nichibutsu"
     },
     "mooncrstuk": {
       "parent": "mooncrst",
@@ -4777,7 +5104,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu UK)",
+      "y": "1980",
+      "m": "Nichibutsu UK"
     },
     "mooncrstuku": {
       "parent": "mooncrst",
@@ -4834,7 +5164,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu UK, unencrypted)",
+      "y": "1980",
+      "m": "Nichibutsu UK"
     },
     "mooncrstu": {
       "parent": "mooncrst",
@@ -4891,7 +5224,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu USA, encrypted)",
+      "y": "1980",
+      "m": "Nichibutsu USA"
     },
     "mooncrstuu": {
       "parent": "mooncrst",
@@ -4948,7 +5284,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu USA, unencrypted)",
+      "y": "1980",
+      "m": "Nichibutsu USA"
     },
     "mooncrsto": {
       "parent": "mooncrst",
@@ -5005,7 +5344,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Nichibutsu, old rev)",
+      "y": "1980",
+      "m": "Nichibutsu"
     },
     "mooncrstg": {
       "parent": "mooncrst",
@@ -5062,7 +5404,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Gremlin)",
+      "y": "1980",
+      "m": "Nichibutsu (Gremlin license)"
     },
     "mooncrsb": {
       "parent": "mooncrst",
@@ -5119,7 +5464,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (bootleg set 1)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "mooncrs2": {
       "parent": "mooncrst",
@@ -5176,7 +5524,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (bootleg set 2)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "mooncrs3": {
       "parent": "mooncrst",
@@ -5217,7 +5568,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (bootleg set 3)",
+      "y": "1980",
+      "m": "bootleg (Jeutel)"
     },
     "mooncrs4": {
       "parent": "mooncrst",
@@ -5250,7 +5604,10 @@
           "n": "prom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Crest (bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg (SG-Florence)"
     },
     "mooncrs5": {
       "parent": "mooncrst",
@@ -5311,7 +5668,10 @@
           "n": "f_r_f.bin",
           "c": "2d36a3e6"
         }
-      ]
+      ],
+      "t": "Moon Cresta (bootleg set 4)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "fantazia": {
       "parent": "mooncrst",
@@ -5368,7 +5728,10 @@
           "n": "fantazia.clr",
           "c": "a84ff0af"
         }
-      ]
+      ],
+      "t": "Fantazia (bootleg?)",
+      "y": "1980",
+      "m": "bootleg (Subelectro)"
     },
     "eagle": {
       "parent": "mooncrst",
@@ -5425,7 +5788,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Eagle (set 1)",
+      "y": "1980",
+      "m": "Nichibutsu (Centuri license)"
     },
     "eagle2": {
       "parent": "mooncrst",
@@ -5482,7 +5848,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Eagle (set 2)",
+      "y": "1980",
+      "m": "Nichibutsu (Centuri license)"
     },
     "eagle3": {
       "parent": "mooncrst",
@@ -5539,7 +5908,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Eagle (set 3)",
+      "y": "1980",
+      "m": "Nichibutsu (Centuri license)"
     },
     "spctbird": {
       "parent": "mooncrst",
@@ -5596,7 +5968,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Space Thunderbird",
+      "y": "1981?",
+      "m": "bootleg (Fortrek)"
     },
     "smooncrs": {
       "parent": "mooncrst",
@@ -5653,7 +6028,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Super Moon Cresta (Gremlin, bootleg)",
+      "y": "1980?",
+      "m": "bootleg (Gremlin)"
     },
     "mooncrstso": {
       "parent": "mooncrst",
@@ -5710,7 +6088,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (SegaSA / Sonic)",
+      "y": "1980",
+      "m": "bootleg (Sonic)"
     },
     "mooncptc": {
       "parent": "mooncrst",
@@ -5767,7 +6148,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Petaco S.A. Spanish bootleg)",
+      "y": "1980?",
+      "m": "bootleg (Petaco S.A.)"
     },
     "mouncrst": {
       "parent": "mooncrst",
@@ -5808,7 +6192,10 @@
           "n": "prom.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moune Creste (Jeutel French bootleg of Moon Cresta)",
+      "y": "1980?",
+      "m": "bootleg (Jeutel)"
     },
     "sirio2": {
       "parent": "mooncrst",
@@ -5865,7 +6252,10 @@
           "n": "sirio2_im5610.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Sirio II (Calfesa S.L. Spanish bootleg of Moon Cresta)",
+      "y": "1980?",
+      "m": "bootleg (Calfesa S.L.)"
     },
     "ataqandr": {
       "parent": "mooncrst",
@@ -5922,7 +6312,10 @@
           "n": "ataque_androide_p.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Ataque Androide - Moon Cresta (FAR S.A. Spanish bootleg)",
+      "y": "1980?",
+      "m": "bootleg (FAR S.A.)"
     },
     "sstarcrs": {
       "parent": "mooncrst",
@@ -5979,7 +6372,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Super Star Crest",
+      "y": "1980?",
+      "m": "bootleg (Taito do Brasil)"
     },
     "mooncmw": {
       "parent": "mooncrst",
@@ -6028,7 +6424,10 @@
           "n": "prom-sn74s288n-71.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon War (bootleg of Moon Cresta)",
+      "y": "198?",
+      "m": "bootleg"
     },
     "starfgmc": {
       "parent": "mooncrst",
@@ -6085,7 +6484,10 @@
           "n": "prom-sn74s288n-71.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Starfighter (bootleg of Moon Cresta)",
+      "y": "198?",
+      "m": "bootleg (Samyra Engineering)"
     },
     "spcdrag": {
       "parent": "mooncrst",
@@ -6142,7 +6544,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Space Dragon (bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "floritas": {
       "parent": "mooncrst",
@@ -6199,7 +6604,10 @@
           "n": "prom_6331.10f",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Floritas (bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "floritasm": {
       "parent": "mooncrst",
@@ -6256,7 +6664,10 @@
           "n": "6l-82s123.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Floritas (Multivideo Spanish bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg (Multivideo)"
     },
     "mooncreg": {
       "parent": "mooncrst",
@@ -6313,7 +6724,10 @@
           "n": "prom_6331.10f",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Electrogame S.A. Spanish bootleg, set 1)",
+      "y": "1980",
+      "m": "bootleg (Electrogame S.A.)"
     },
     "mooncreg2": {
       "parent": "mooncrst",
@@ -6370,7 +6784,10 @@
           "n": "mb7051.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Electrogame S.A. Spanish bootleg, set 2)",
+      "y": "1980",
+      "m": "bootleg (Electrogame S.A.)"
     },
     "mooncrsl": {
       "parent": "mooncrst",
@@ -6427,7 +6844,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Cresta Mundo (Spanish bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg (Laguna S.A.)"
     },
     "mooncrecm": {
       "parent": "mooncrst",
@@ -6484,7 +6904,10 @@
           "n": "prom.6l",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "Moon Cresta (Centromatic Spanish bootleg)",
+      "y": "1980",
+      "m": "bootleg (Centromatic)"
     },
     "stera": {
       "parent": "mooncrst",
@@ -6541,7 +6964,10 @@
           "n": "stera.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Steraranger (bootleg of Moon Cresta)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "mooncrgx": {
       "parent": "mooncrst",
@@ -6598,7 +7024,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Moon Cresta (bootleg on Galaxian hardware)",
+      "y": "1980",
+      "m": "bootleg"
     },
     "moonqsr": {
       "parent": null,
@@ -6655,7 +7084,10 @@
           "n": "vid_e6.bin",
           "c": "0b878b54"
         }
-      ]
+      ],
+      "t": "Moon Quasar",
+      "y": "1980",
+      "m": "Nichibutsu"
     },
     "moonal2": {
       "parent": null,
@@ -6716,7 +7148,10 @@
           "n": "6l.bpr",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Moon Alien Part 2",
+      "y": "1980",
+      "m": "Namco / Nichibutsu"
     },
     "moonal2b": {
       "parent": "moonal2",
@@ -6757,7 +7192,10 @@
           "n": "6331.l6",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Moon Alien Part 2 (older version)",
+      "y": "1980",
+      "m": "Namco / Nichibutsu"
     },
     "galactica2": {
       "parent": "moonal2",
@@ -6794,7 +7232,10 @@
           "n": "74s288n",
           "c": "c3ac9467"
         }
-      ]
+      ],
+      "t": "Galactica-2 (bootleg of Moon Alien Part 2)",
+      "y": "1980",
+      "m": "bootleg (Cirsa)"
     },
     "thepitm": {
       "parent": "thepit",
@@ -6847,7 +7288,10 @@
           "n": "6l.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "The Pit (bootleg on Moon Quasar hardware)",
+      "y": "198?",
+      "m": "bootleg (KZH)"
     },
     "skybase": {
       "parent": null,
@@ -6896,7 +7340,10 @@
           "n": "82s123.bpr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Sky Base",
+      "y": "1982",
+      "m": "Omori Electric Co., Ltd."
     },
     "bagmanmc": {
       "parent": "bagman",
@@ -6945,7 +7392,10 @@
           "n": "bagmanmc.clr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Bagman (bootleg on Moon Cresta hardware, set 1)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "bagmanm2": {
       "parent": "bagman",
@@ -6974,7 +7424,10 @@
           "n": "bagmanmc.clr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Bagman (bootleg on Moon Cresta hardware, set 2)",
+      "y": "1984",
+      "m": "bootleg (GIB)"
     },
     "dkongjrm": {
       "parent": "dkongjr",
@@ -7027,7 +7480,10 @@
           "n": "hustler.clr",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "Donkey Kong Jr. (bootleg on Moon Cresta hardware, set 1)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "vpool": {
       "parent": "hustler",
@@ -7060,7 +7516,10 @@
           "n": "hustler.clr",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "Video Pool (bootleg on Moon Cresta hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "ckongg": {
       "parent": "ckong",
@@ -7101,7 +7560,10 @@
           "n": "ck_cp.bin",
           "c": "7e0b79cb"
         }
-      ]
+      ],
+      "t": "Crazy Kong (bootleg on Galaxian hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "ckongmc": {
       "parent": "ckong",
@@ -7146,7 +7608,10 @@
           "n": "ck_cp.bin",
           "c": "7e0b79cb"
         }
-      ]
+      ],
+      "t": "Crazy Kong (bootleg on Moon Cresta hardware, set 1)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "porter": {
       "parent": "dockman",
@@ -7187,7 +7652,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Port Man (bootleg on Moon Cresta hardware)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "kong": {
       "parent": null,
@@ -7244,7 +7712,10 @@
           "n": "13",
           "c": "7d33ca0a"
         }
-      ]
+      ],
+      "t": "Kong (Donkey Kong conversion on Galaxian hardware)",
+      "y": "198?",
+      "m": "Taito do Brasil"
     },
     "fantastc": {
       "parent": null,
@@ -7293,7 +7764,10 @@
           "n": "prom-74g138",
           "c": "800f5718"
         }
-      ]
+      ],
+      "t": "Fantastic (Galaga conversion on Galaxian hardware)",
+      "y": "198?",
+      "m": "Taito do Brasil"
     },
     "timefgtr": {
       "parent": null,
@@ -7338,7 +7812,10 @@
           "n": "tp10",
           "c": "b27b450c"
         }
-      ]
+      ],
+      "t": "Time Fighter (Time Pilot conversion on Galaxian hardware)",
+      "y": "198?",
+      "m": "Taito do Brasil"
     },
     "rockclim": {
       "parent": null,
@@ -7399,7 +7876,10 @@
           "n": "lc14.g7",
           "c": "cc96d1db"
         }
-      ]
+      ],
+      "t": "Rock Climber",
+      "y": "1981",
+      "m": "Taito"
     },
     "jumpbug": {
       "parent": null,
@@ -7460,7 +7940,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Jump Bug",
+      "y": "1981",
+      "m": "Hoei (Rock-Ola license)"
     },
     "jumpbugb": {
       "parent": "jumpbug",
@@ -7521,7 +8004,10 @@
           "n": "l06_prom.bin",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Jump Bug (bootleg, set 1)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "olibug": {
       "parent": "jumpbug",
@@ -7574,7 +8060,10 @@
           "n": "m866l_im5610.6l",
           "c": "b549ad5a"
         }
-      ]
+      ],
+      "t": "Oli Bug (bootleg of Jump Bug)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "levers": {
       "parent": null,
@@ -7623,7 +8112,10 @@
           "n": "g960lev.clr",
           "c": "01febbbe"
         }
-      ]
+      ],
+      "t": "Levers",
+      "y": "1983",
+      "m": "Rock-Ola"
     },
     "bongo": {
       "parent": null,
@@ -7664,7 +8156,10 @@
           "n": "b-clr.bin",
           "c": "c4761ada"
         }
-      ]
+      ],
+      "t": "Bongo",
+      "y": "1983",
+      "m": "Jetsoft"
     },
     "checkman": {
       "parent": null,
@@ -7709,7 +8204,10 @@
           "n": "checkman.clr",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Check Man",
+      "y": "1982",
+      "m": "Zilec-Zenitone"
     },
     "checkmanj": {
       "parent": "checkman",
@@ -7742,7 +8240,10 @@
           "n": "checkman.clr",
           "c": "57a45057"
         }
-      ]
+      ],
+      "t": "Check Man (Japan)",
+      "y": "1982",
+      "m": "Zilec-Zenitone (Jaleco license)"
     },
     "dingo": {
       "parent": null,
@@ -7775,7 +8276,10 @@
           "n": "18s030.l6",
           "c": "3061d0f9"
         }
-      ]
+      ],
+      "t": "Dingo",
+      "y": "1983",
+      "m": "Ashby Computers and Graphics Ltd. (Jaleco license)"
     },
     "dingoe": {
       "parent": "dingo",
@@ -7812,7 +8316,10 @@
           "n": "82s123n.001",
           "c": "02b11865"
         }
-      ]
+      ],
+      "t": "Dingo (encrypted)",
+      "y": "1983",
+      "m": "Ashby Computers and Graphics Ltd."
     },
     "mshuttle": {
       "parent": null,
@@ -7865,7 +8372,10 @@
           "n": "my06",
           "c": "466415f2"
         }
-      ]
+      ],
+      "t": "Moon Shuttle (US? set 1)",
+      "y": "1981",
+      "m": "Nichibutsu"
     },
     "mshuttle2": {
       "parent": "mshuttle",
@@ -7918,7 +8428,10 @@
           "n": "my06",
           "c": "6d2dd711"
         }
-      ]
+      ],
+      "t": "Moon Shuttle (US? set 2)",
+      "y": "1981",
+      "m": "Nichibutsu"
     },
     "mshuttlea": {
       "parent": "mshuttle",
@@ -7971,7 +8484,10 @@
           "n": "my06.4s",
           "c": "466415f2"
         }
-      ]
+      ],
+      "t": "Moon Shuttle (US, version A)",
+      "y": "1981",
+      "m": "Nichibutsu"
     },
     "mshuttlej": {
       "parent": "mshuttle",
@@ -8024,7 +8540,10 @@
           "n": "my06",
           "c": "6d2dd711"
         }
-      ]
+      ],
+      "t": "Moon Shuttle (Japan set 1)",
+      "y": "1981",
+      "m": "Nichibutsu"
     },
     "mshuttlej2": {
       "parent": "mshuttle",
@@ -8077,7 +8596,10 @@
           "n": "my06.4r",
           "c": "4162be4d"
         }
-      ]
+      ],
+      "t": "Moon Shuttle (Japan set 2)",
+      "y": "1981",
+      "m": "Nichibutsu"
     },
     "kingball": {
       "parent": null,
@@ -8122,7 +8644,10 @@
           "n": "kb2-1",
           "c": "15dd5b16"
         }
-      ]
+      ],
+      "t": "King & Balloon (US)",
+      "y": "1980",
+      "m": "Namco"
     },
     "kingballj": {
       "parent": "kingball",
@@ -8167,7 +8692,10 @@
           "n": "kb2-1",
           "c": "15dd5b16"
         }
-      ]
+      ],
+      "t": "King & Balloon (Japan)",
+      "y": "1980",
+      "m": "Namco"
     },
     "frogger": {
       "parent": null,
@@ -8208,7 +8736,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger",
+      "y": "1981",
+      "m": "Konami"
     },
     "froggers1": {
       "parent": "frogger",
@@ -8249,7 +8780,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Sega, set 1)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "froggers2": {
       "parent": "frogger",
@@ -8294,7 +8828,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Sega, set 2)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "froggers3": {
       "parent": "frogger",
@@ -8335,7 +8872,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Sega, set 3)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "froggert": {
       "parent": "frogger",
@@ -8376,7 +8916,10 @@
           "n": "pr-91.6e",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Turtles hardware)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "froggermc": {
       "parent": "frogger",
@@ -8417,7 +8960,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Moon Cresta hardware)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "froggers": {
       "parent": "frogger",
@@ -8470,7 +9016,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frog",
+      "y": "1981",
+      "m": "bootleg"
     },
     "frogf": {
       "parent": "frogger",
@@ -8511,7 +9060,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frog (Falcon bootleg)",
+      "y": "1981",
+      "m": "bootleg (Falcon)"
     },
     "frogg": {
       "parent": "frogger",
@@ -8556,7 +9108,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frog (bootleg on Galaxian hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "froggrs": {
       "parent": "frogger",
@@ -8597,7 +9152,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger (Coin Music, bootleg on Scramble hardware)",
+      "y": "1981",
+      "m": "bootleg (Coin Music)"
     },
     "froggereb": {
       "parent": "frogger",
@@ -8638,7 +9196,10 @@
           "n": "pr-91.6l",
           "c": "413703bf"
         }
-      ]
+      ],
+      "t": "Frogger - New Serie 92 (bootleg)",
+      "y": "1992",
+      "m": "bootleg (Eurobed)"
     },
     "turtles": {
       "parent": null,
@@ -8683,7 +9244,10 @@
           "n": "turtles.clr",
           "c": "f3ef02dd"
         }
-      ]
+      ],
+      "t": "Turtles",
+      "y": "1981",
+      "m": "Konami (Stern Electronics license)"
     },
     "turpin": {
       "parent": "turtles",
@@ -8728,7 +9292,10 @@
           "n": "turtles.clr",
           "c": "f3ef02dd"
         }
-      ]
+      ],
+      "t": "Turpin",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "turpins": {
       "parent": "turtles",
@@ -8773,7 +9340,10 @@
           "n": "turtles.clr",
           "c": "f3ef02dd"
         }
-      ]
+      ],
+      "t": "Turpin (bootleg on Super Cobra hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "amidar": {
       "parent": null,
@@ -8818,7 +9388,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amidar",
+      "y": "1982",
+      "m": "Konami"
     },
     "amidar1": {
       "parent": "amidar",
@@ -8859,7 +9432,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amidar (older)",
+      "y": "1981",
+      "m": "Konami"
     },
     "amidaru": {
       "parent": "amidar",
@@ -8904,7 +9480,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amidar (Stern Electronics)",
+      "y": "1982",
+      "m": "Konami (Stern Electronics license)"
     },
     "amidaro": {
       "parent": "amidar",
@@ -8949,7 +9528,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amidar (Olympia)",
+      "y": "1982",
+      "m": "Konami (Olympia license)"
     },
     "amidarb": {
       "parent": "amidar",
@@ -8990,7 +9572,10 @@
           "n": "n82s123n.6e",
           "c": "01004d3f"
         }
-      ]
+      ],
+      "t": "Amidar (bootleg, set 1)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "amigo": {
       "parent": "amidar",
@@ -9031,7 +9616,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amigo (bootleg of Amidar, set 1)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "amidars": {
       "parent": "amidar",
@@ -9088,7 +9676,10 @@
           "n": "amidar.clr",
           "c": "f940dcc3"
         }
-      ]
+      ],
+      "t": "Amidar (Scramble hardware)",
+      "y": "1982",
+      "m": "Konami"
     },
     "theend": {
       "parent": null,
@@ -9137,7 +9728,10 @@
           "n": "6331-1j.86",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "The End",
+      "y": "1980",
+      "m": "Konami"
     },
     "theends": {
       "parent": "theend",
@@ -9186,7 +9780,10 @@
           "n": "6331-1j.86",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "The End (Stern Electronics)",
+      "y": "1980",
+      "m": "Konami (Stern Electronics license)"
     },
     "theendss": {
       "parent": "theend",
@@ -9235,7 +9832,10 @@
           "n": "6331-1j.86",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "The End (SegaSA / Sonic)",
+      "y": "1981",
+      "m": "bootleg (Sonic)"
     },
     "scramble": {
       "parent": null,
@@ -9296,7 +9896,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble",
+      "y": "1981",
+      "m": "Konami"
     },
     "scrambles": {
       "parent": "scramble",
@@ -9357,7 +9960,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Stern Electronics, set 1)",
+      "y": "1981",
+      "m": "Konami (Stern Electronics license)"
     },
     "scramblebf": {
       "parent": "scramble",
@@ -9418,7 +10024,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Karateco, French bootleg)",
+      "y": "1981",
+      "m": "bootleg (Karateco)"
     },
     "scrambp": {
       "parent": "scramble",
@@ -9479,7 +10088,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Impacto (Billport S.A., Spanish bootleg of Scramble)",
+      "y": "1981",
+      "m": "bootleg (Billport S.A.)"
     },
     "spctrek": {
       "parent": "scramble",
@@ -9540,7 +10152,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Space Trek (Video Game S.A., Spanish bootleg of Scramble)",
+      "y": "1981",
+      "m": "bootleg (Video Game S.A.)"
     },
     "scramce": {
       "parent": "scramble",
@@ -9601,7 +10216,10 @@
           "n": "prom7051.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Centromatic S.A., Spanish bootleg)",
+      "y": "1981",
+      "m": "bootleg (Centromatic S.A.)"
     },
     "scrampt": {
       "parent": "scramble",
@@ -9662,7 +10280,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Petaco S.A., Spanish bootleg)",
+      "y": "1981",
+      "m": "bootleg (Petaco S.A.)"
     },
     "scramrf": {
       "parent": "scramble",
@@ -9707,7 +10328,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (Recreativos Franco, Spanish bootleg)",
+      "y": "1981",
+      "m": "bootleg (Recreativos Franco)"
     },
     "offensiv": {
       "parent": "scramble",
@@ -9768,7 +10392,10 @@
           "n": "82s123-nmi6331-1j-5e.bin",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Offensive (Spanish bootleg of Scramble)",
+      "y": "1981",
+      "m": "bootleg (Video Dens)"
     },
     "scramblebb": {
       "parent": "scramble",
@@ -9829,7 +10456,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Scramble (bootleg?)",
+      "y": "1981",
+      "m": "bootleg?"
     },
     "kamikazesp": {
       "parent": "scramble",
@@ -9890,7 +10520,10 @@
           "n": "prom.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Kamikaze (Euromatic S.A., Spanish bootleg of Scramble)",
+      "y": "1981",
+      "m": "bootleg (Euromatic S.A.)"
     },
     "strfbomb": {
       "parent": "scramble",
@@ -9951,7 +10584,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Strafe Bomb (bootleg of Scramble)",
+      "y": "1981",
+      "m": "bootleg (Omni)"
     },
     "explorer": {
       "parent": "scramble",
@@ -9992,7 +10628,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Explorer (bootleg of Scramble, set 1)",
+      "y": "1981",
+      "m": "bootleg (Sidam)"
     },
     "explorer2": {
       "parent": "scramble",
@@ -10033,7 +10672,10 @@
           "n": "10806_6331-1j.1k",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Explorer (bootleg of Scramble, set 2)",
+      "y": "1981",
+      "m": "bootleg (Sidam)"
     },
     "bomber": {
       "parent": "scramble",
@@ -10090,7 +10732,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Bomber (bootleg of Scramble)",
+      "y": "198?",
+      "m": "bootleg (Alca)"
     },
     "spcmission": {
       "parent": "scramble",
@@ -10147,7 +10792,10 @@
           "n": "mb7051.bin",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Space Mission (SegaSA / Sonic, Spanish bootleg of Scramble)",
+      "y": "198?",
+      "m": "bootleg (SegaSA / Sonic)"
     },
     "atlantis": {
       "parent": null,
@@ -10200,7 +10848,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Battle of Atlantis (set 1)",
+      "y": "1981",
+      "m": "Comsoft"
     },
     "atlantis2": {
       "parent": "atlantis",
@@ -10261,7 +10912,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Battle of Atlantis (set 2)",
+      "y": "1981",
+      "m": "Comsoft"
     },
     "ckongs": {
       "parent": "ckong",
@@ -10310,7 +10964,10 @@
           "n": "vid_6e.bin",
           "c": "5039af97"
         }
-      ]
+      ],
+      "t": "Crazy Kong (bootleg on Scramble hardware)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "mars": {
       "parent": null,
@@ -10363,7 +11020,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mars",
+      "y": "1981",
+      "m": "Artic"
     },
     "devilfsh": {
       "parent": null,
@@ -10424,7 +11084,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Devil Fish (Mars hardware)",
+      "y": "1982",
+      "m": "Artic"
     },
     "devilfshg": {
       "parent": "devilfsh",
@@ -10481,7 +11144,10 @@
           "n": "mmi6331.6l",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Devil Fish (Galaxian hardware)",
+      "y": "1982",
+      "m": "Artic"
     },
     "devilfshgb": {
       "parent": "devilfsh",
@@ -10514,7 +11180,10 @@
           "n": "82s123.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Devil Fish (Galaxian hardware, bootleg)",
+      "y": "1984",
+      "m": "bootleg (Vision)"
     },
     "newsin7": {
       "parent": null,
@@ -10567,7 +11236,10 @@
           "n": "newsin.6",
           "c": "5cf2cd8d"
         }
-      ]
+      ],
+      "t": "New Sinbad 7 (set 1)",
+      "y": "1983",
+      "m": "ATW USA, Inc."
     },
     "mrkougar": {
       "parent": null,
@@ -10604,7 +11276,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mr. Kougar",
+      "y": "1984",
+      "m": "ATW"
     },
     "mrkougar2": {
       "parent": "mrkougar",
@@ -10641,7 +11316,10 @@
           "n": "atw-prom.bin",
           "c": "c65db188"
         }
-      ]
+      ],
+      "t": "Mr. Kougar (earlier)",
+      "y": "1983",
+      "m": "ATW"
     },
     "mrkougb": {
       "parent": "mrkougar",
@@ -10694,7 +11372,10 @@
           "n": "atw-prom.bin",
           "c": "c65db188"
         }
-      ]
+      ],
+      "t": "Mr. Kougar (German bootleg)",
+      "y": "1984",
+      "m": "bootleg (Gross)"
     },
     "mrkougb2": {
       "parent": "mrkougar",
@@ -10747,7 +11428,10 @@
           "n": "atw-prom.bin",
           "c": "c65db188"
         }
-      ]
+      ],
+      "t": "Mr. Kougar (bootleg)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "hotshock": {
       "parent": null,
@@ -10788,7 +11472,10 @@
           "n": "18s030.1k",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Hot Shocker",
+      "y": "1982",
+      "m": "E.G. Felaco (Domino license)"
     },
     "hotshockb": {
       "parent": "hotshock",
@@ -10829,7 +11516,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Hot Shocker (early revision?)",
+      "y": "1982",
+      "m": "E.G. Felaco"
     },
     "conquer": {
       "parent": null,
@@ -10866,7 +11556,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Conqueror",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "cavelon": {
       "parent": null,
@@ -10899,7 +11592,10 @@
           "n": "cavelon.clr",
           "c": "d133356b"
         }
-      ]
+      ],
+      "t": "Cavelon",
+      "y": "1983",
+      "m": "Jetsoft"
     },
     "mimonscr": {
       "parent": "mimonkey",
@@ -10956,7 +11652,10 @@
           "n": "c01s.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mighty Monkey (bootleg on Scramble hardware)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "mimonscra": {
       "parent": "mimonkey",
@@ -11021,7 +11720,10 @@
           "n": "mb7051.e6",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mighty Monkey (Kaina Games, bootleg on Scramble hardware)",
+      "y": "1982",
+      "m": "bootleg (Kaina Games)"
     },
     "triplep": {
       "parent": null,
@@ -11054,7 +11756,10 @@
           "n": "tripprom.6e",
           "c": "624f75df"
         }
-      ]
+      ],
+      "t": "Triple Punch (set 1)",
+      "y": "1982",
+      "m": "K.K. International"
     },
     "triplepa": {
       "parent": "triplep",
@@ -11087,7 +11792,10 @@
           "n": "ta.6e",
           "c": "624f75df"
         }
-      ]
+      ],
+      "t": "Triple Punch (set 2)",
+      "y": "1982",
+      "m": "K.K. International"
     },
     "knockout": {
       "parent": "triplep",
@@ -11120,7 +11828,10 @@
           "n": "tripprom.6e",
           "c": "624f75df"
         }
-      ]
+      ],
+      "t": "Knock Out!! (bootleg, set 1)",
+      "y": "1982",
+      "m": "bootleg? (KKK)"
     },
     "mariner": {
       "parent": null,
@@ -11165,7 +11876,10 @@
           "n": "t5.7p",
           "c": "1bd88cff"
         }
-      ]
+      ],
+      "t": "Mariner",
+      "y": "1981",
+      "m": "Amenip"
     },
     "800fath": {
       "parent": "mariner",
@@ -11210,7 +11924,10 @@
           "n": "t5.7p",
           "c": "1bd88cff"
         }
-      ]
+      ],
+      "t": "800 Fathoms",
+      "y": "1981",
+      "m": "Amenip (US Billiards Inc. license)"
     },
     "800fatha": {
       "parent": "mariner",
@@ -11255,7 +11972,10 @@
           "n": "t5.7p",
           "c": "1bd88cff"
         }
-      ]
+      ],
+      "t": "800 Fathoms (older)",
+      "y": "1981",
+      "m": "Amenip (US Billiards Inc. license)"
     },
     "harem": {
       "parent": null,
@@ -11292,7 +12012,10 @@
           "n": "harem_h1+h2.ic25",
           "c": "279f923a"
         }
-      ]
+      ],
+      "t": "Harem",
+      "y": "1983",
+      "m": "I.G.R."
     },
     "namenayo": {
       "parent": null,
@@ -11341,7 +12064,10 @@
           "n": "10h.82s123",
           "c": "1095e850"
         }
-      ]
+      ],
+      "t": "Namennayo (Japan)",
+      "y": "1982",
+      "m": "Cat's"
     },
     "scorpion": {
       "parent": null,
@@ -11398,7 +12124,10 @@
           "n": "igr_scorpion_32_a1.ic23",
           "c": "3bf2452d"
         }
-      ]
+      ],
+      "t": "Scorpion (set 1)",
+      "y": "1982",
+      "m": "Zaccaria"
     },
     "scorpiona": {
       "parent": "scorpion",
@@ -11459,7 +12188,10 @@
           "n": "igr_scorpion_32_a1.ic23",
           "c": "3bf2452d"
         }
-      ]
+      ],
+      "t": "Scorpion (set 2)",
+      "y": "1982",
+      "m": "Zaccaria"
     },
     "scorpionb": {
       "parent": "scorpion",
@@ -11516,7 +12248,10 @@
           "n": "igr_scorpion_32_a1.ic23",
           "c": "3bf2452d"
         }
-      ]
+      ],
+      "t": "Scorpion (set 3)",
+      "y": "1982",
+      "m": "Zaccaria"
     },
     "scorpionmc": {
       "parent": "scorpion",
@@ -11573,7 +12308,10 @@
           "n": "mmi6331.bpr",
           "c": "6a0c7d87"
         }
-      ]
+      ],
+      "t": "Scorpion (Moon Cresta hardware)",
+      "y": "19??",
+      "m": "bootleg? (Dorneer)"
     },
     "aracnis": {
       "parent": "scorpion",
@@ -11614,7 +12352,10 @@
           "n": "mmi6331-1.6l",
           "c": "24652bc4"
         }
-      ]
+      ],
+      "t": "Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 1)",
+      "y": "19??",
+      "m": "bootleg"
     },
     "ad2083": {
       "parent": null,
@@ -11667,7 +12408,10 @@
           "n": "prom-sn74s188.8a",
           "c": "c58a4f6a"
         }
-      ]
+      ],
+      "t": "A. D. 2083",
+      "y": "1983",
+      "m": "Midcoin"
     },
     "sfx": {
       "parent": null,
@@ -11744,7 +12488,10 @@
           "n": "6331.9g",
           "c": "ca1d9ccd"
         }
-      ]
+      ],
+      "t": "SF-X",
+      "y": "1983",
+      "m": "Nihon Game (Nichibutsu license)"
     },
     "skelagon": {
       "parent": "sfx",
@@ -11825,7 +12572,10 @@
           "n": "6331.9g",
           "c": "ca1d9ccd"
         }
-      ]
+      ],
+      "t": "Skelagon",
+      "y": "1983",
+      "m": "Nihon Game (Nichibutsu USA license)"
     },
     "monsterz": {
       "parent": null,
@@ -11902,7 +12652,10 @@
           "n": "prom.g9",
           "c": "b7ea00d7"
         }
-      ]
+      ],
+      "t": "Monster Zero (set 1)",
+      "y": "1982",
+      "m": "Nihon Game"
     },
     "scobra": {
       "parent": null,
@@ -11955,7 +12708,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Super Cobra",
+      "y": "1981",
+      "m": "Konami"
     },
     "scobras": {
       "parent": "scobra",
@@ -12008,7 +12764,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Super Cobra (Stern Electronics)",
+      "y": "1981",
+      "m": "Konami (Stern Electronics license)"
     },
     "scobrase": {
       "parent": "scobra",
@@ -12061,7 +12820,10 @@
           "n": "pr1278.6e",
           "c": "fd35c561"
         }
-      ]
+      ],
+      "t": "Super Cobra (Sega)",
+      "y": "1981",
+      "m": "Konami (Sega license)"
     },
     "scobrab": {
       "parent": "scobra",
@@ -12118,7 +12880,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Super Cobra (bootleg, set 1)",
+      "y": "1981",
+      "m": "bootleg (Karateco)"
     },
     "scobrae": {
       "parent": "scobra",
@@ -12171,7 +12936,10 @@
           "n": "ss1.6e",
           "c": "fd35c561"
         }
-      ]
+      ],
+      "t": "Super Cobra (Stern Electronics) (encrypted, KONATEC XC-103SS CPU)",
+      "y": "1981",
+      "m": "Konami (Stern Electronics license)"
     },
     "scobrae2": {
       "parent": "scobra",
@@ -12224,7 +12992,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Super Cobra (encrypted)",
+      "y": "1981",
+      "m": "Konami"
     },
     "scobrag": {
       "parent": "scobra",
@@ -12277,7 +13048,10 @@
           "n": "super_cobra_288_6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Super Cobra (bootleg, set 2)",
+      "y": "1981",
+      "m": "bootleg (A.V.G. by Zaccaria)"
     },
     "scobraggi": {
       "parent": "scobra",
@@ -12330,7 +13104,10 @@
           "n": "6e_b.bin",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Super Cobra (bootleg, set 3)",
+      "y": "1981",
+      "m": "bootleg (Cocamatic)"
     },
     "suprheli": {
       "parent": "scobra",
@@ -12383,7 +13160,10 @@
           "n": "k.6e",
           "c": "fd35c561"
         }
-      ]
+      ],
+      "t": "Super Heli (bootleg of Super Cobra)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "losttomb": {
       "parent": null,
@@ -12436,7 +13216,10 @@
           "n": "ltprom",
           "c": "1108b816"
         }
-      ]
+      ],
+      "t": "Lost Tomb (easy)",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "losttombh": {
       "parent": "losttomb",
@@ -12489,7 +13272,10 @@
           "n": "ltprom",
           "c": "1108b816"
         }
-      ]
+      ],
+      "t": "Lost Tomb (hard)",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "armorcar": {
       "parent": null,
@@ -12534,7 +13320,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Armored Car (set 1)",
+      "y": "1981",
+      "m": "Stern Electronics"
     },
     "armorcar2": {
       "parent": "armorcar",
@@ -12579,7 +13368,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Armored Car (set 2)",
+      "y": "1981",
+      "m": "Stern Electronics"
     },
     "tazmania": {
       "parent": null,
@@ -12624,7 +13416,10 @@
           "n": "colr6f.cpu",
           "c": "fce333c7"
         }
-      ]
+      ],
+      "t": "Tazz-Mania (set 1)",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "tazmani2": {
       "parent": "tazmania",
@@ -12669,7 +13464,10 @@
           "n": "colr6f.cpu",
           "c": "fce333c7"
         }
-      ]
+      ],
+      "t": "Tazz-Mania (set 2, alt hardware)",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "anteater": {
       "parent": null,
@@ -12710,7 +13508,10 @@
           "n": "colr6f.cpu",
           "c": "fce333c7"
         }
-      ]
+      ],
+      "t": "Anteater",
+      "y": "1982",
+      "m": "Tago Electronics"
     },
     "anteaterg": {
       "parent": "anteater",
@@ -12743,7 +13544,10 @@
           "n": "colr6f.cpu",
           "c": "fce333c7"
         }
-      ]
+      ],
+      "t": "Ameisenbaer (German)",
+      "y": "1982",
+      "m": "Tago Electronics (TV-Tuning license from Free Enterprise Games)"
     },
     "anteateruk": {
       "parent": "anteater",
@@ -12776,7 +13580,10 @@
           "n": "colr6f.cpu",
           "c": "fce333c7"
         }
-      ]
+      ],
+      "t": "The Anteater (UK)",
+      "y": "1982",
+      "m": "Tago Electronics (Free Enterprise Games license)"
     },
     "spdcoin": {
       "parent": null,
@@ -12809,7 +13616,10 @@
           "n": "spdcoin.clr",
           "c": "1a2ccc56"
         }
-      ]
+      ],
+      "t": "Speed Coin (prototype)",
+      "y": "1984",
+      "m": "Stern Electronics"
     },
     "superbon": {
       "parent": null,
@@ -12862,7 +13672,10 @@
           "n": "82s123.6e",
           "c": "9b87f90d"
         }
-      ]
+      ],
+      "t": "Agent Super Bond (Super Cobra conversion, encrypted)",
+      "y": "1985",
+      "m": "Signatron USA"
     },
     "calipso": {
       "parent": null,
@@ -12911,7 +13724,10 @@
           "n": "calipso.clr",
           "c": "01165832"
         }
-      ]
+      ],
+      "t": "Calipso",
+      "y": "1982",
+      "m": "Tago Electronics"
     },
     "moonwar": {
       "parent": null,
@@ -12952,7 +13768,10 @@
           "n": "moonwar_ii_color_6ea1.6e",
           "c": "99614c6c"
         }
-      ]
+      ],
+      "t": "Moonwar",
+      "y": "1981",
+      "m": "Stern Electronics"
     },
     "moonwara": {
       "parent": "moonwar",
@@ -12993,7 +13812,10 @@
           "n": "moonwar_ii_color_6ea1.6e",
           "c": "99614c6c"
         }
-      ]
+      ],
+      "t": "Moonwar (older)",
+      "y": "1981",
+      "m": "Stern Electronics"
     },
     "stratgyx": {
       "parent": null,
@@ -13046,7 +13868,10 @@
           "n": "strategy.10k",
           "c": "d95c0318"
         }
-      ]
+      ],
+      "t": "Strategy X",
+      "y": "1981",
+      "m": "Konami"
     },
     "stratgys": {
       "parent": "stratgyx",
@@ -13099,7 +13924,10 @@
           "n": "strategy.10k",
           "c": "d95c0318"
         }
-      ]
+      ],
+      "t": "Strategy X (Stern Electronics)",
+      "y": "1981",
+      "m": "Konami (Stern Electronics license)"
     },
     "strongx": {
       "parent": "stratgyx",
@@ -13152,7 +13980,10 @@
           "n": "strategy.10k",
           "c": "d95c0318"
         }
-      ]
+      ],
+      "t": "Strong X",
+      "y": "1982",
+      "m": "bootleg"
     },
     "darkplnt": {
       "parent": null,
@@ -13205,7 +14036,10 @@
           "n": "6e.cpu",
           "c": "86b6e124"
         }
-      ]
+      ],
+      "t": "Dark Planet",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "rescue": {
       "parent": null,
@@ -13250,7 +14084,10 @@
           "n": "rescue.clr",
           "c": "40c6bcbd"
         }
-      ]
+      ],
+      "t": "Rescue",
+      "y": "1982",
+      "m": "Stern Electronics"
     },
     "aponow": {
       "parent": "rescue",
@@ -13295,7 +14132,10 @@
           "n": "rescue.clr",
           "c": "40c6bcbd"
         }
-      ]
+      ],
+      "t": "Apocaljpse Now (bootleg of Rescue)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "minefld": {
       "parent": null,
@@ -13344,7 +14184,10 @@
           "n": "minefld.clr",
           "c": "1877368e"
         }
-      ]
+      ],
+      "t": "Minefield",
+      "y": "1983",
+      "m": "Stern Electronics"
     },
     "hustler": {
       "parent": null,
@@ -13381,7 +14224,10 @@
           "n": "hustler.clr",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "Video Hustler",
+      "y": "1981",
+      "m": "Konami"
     },
     "billiard": {
       "parent": "hustler",
@@ -13418,7 +14264,10 @@
           "n": "hustler.clr",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "The Billiards (bootleg of Video Hustler)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "hustlerb": {
       "parent": "hustler",
@@ -13455,7 +14304,10 @@
           "n": "hustler.clr",
           "c": "aa1f7f5e"
         }
-      ]
+      ],
+      "t": "Video Hustler (bootleg, set 1)",
+      "y": "1981",
+      "m": "bootleg (Digimatic)"
     },
     "mimonkey": {
       "parent": null,
@@ -13520,7 +14372,10 @@
           "n": "82s123.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mighty Monkey",
+      "y": "1982",
+      "m": "Universal Video Games"
     },
     "mimonsco": {
       "parent": "mimonkey",
@@ -13577,7 +14432,10 @@
           "n": "82s123.6e",
           "c": "4e3caeab"
         }
-      ]
+      ],
+      "t": "Mighty Monkey (bootleg on Super Cobra hardware)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "dambustr": {
       "parent": null,
@@ -13638,7 +14496,10 @@
           "n": "mi-7603-5.ic3",
           "c": "e2a54c47"
         }
-      ]
+      ],
+      "t": "Dambusters (US, set 1)",
+      "y": "1981",
+      "m": "South West Research"
     },
     "dambustra": {
       "parent": "dambustr",
@@ -13699,7 +14560,10 @@
           "n": "mi-7603-5.ic3",
           "c": "e2a54c47"
         }
-      ]
+      ],
+      "t": "Dambusters (US, set 2)",
+      "y": "1981",
+      "m": "South West Research"
     },
     "dambustruk": {
       "parent": "dambustr",
@@ -13760,7 +14624,10 @@
           "n": "mi-7603-5.ic3",
           "c": "e2a54c47"
         }
-      ]
+      ],
+      "t": "Dambusters (UK)",
+      "y": "1981",
+      "m": "South West Research"
     },
     "hunchbkg": {
       "parent": "hunchbak",
@@ -13809,7 +14676,10 @@
           "n": "gal_hb_8",
           "c": "e4b1a666"
         }
-      ]
+      ],
+      "t": "Hunchback (Galaxian hardware)",
+      "y": "1983",
+      "m": "Century Electronics"
     },
     "drivfrcg": {
       "parent": "drivfrcp",
@@ -13854,7 +14724,10 @@
           "n": "dfgp4.bin",
           "c": "dd95338b"
         }
-      ]
+      ],
+      "t": "Driving Force (Galaxian conversion)",
+      "y": "1984",
+      "m": "Shinkai Inc. (Magic Electronics USA license)"
     },
     "drivfrct": {
       "parent": "drivfrcp",
@@ -13887,7 +14760,10 @@
           "n": "tbp28s42.bin",
           "c": "9b8f310a"
         }
-      ]
+      ],
+      "t": "Top Racer (bootleg of Driving Force)",
+      "y": "1984",
+      "m": "bootleg (EMT Germany)"
     },
     "drivfrcb": {
       "parent": "drivfrcp",
@@ -13912,7 +14788,10 @@
           "n": "dfp.bin",
           "c": "b5b2981d"
         }
-      ]
+      ],
+      "t": "Driving Force (Galaxian conversion bootleg)",
+      "y": "1985",
+      "m": "bootleg (Elsys Software)"
     },
     "racknrol": {
       "parent": null,
@@ -13937,7 +14816,10 @@
           "n": "82s147.bin",
           "c": "aace7fa5"
         }
-      ]
+      ],
+      "t": "Rack + Roll",
+      "y": "1986",
+      "m": "Senko Industries (Status license from Shinkai Inc.)"
     },
     "hexpool": {
       "parent": "racknrol",
@@ -13962,7 +14844,10 @@
           "n": "82s147.bin",
           "c": "aace7fa5"
         }
-      ]
+      ],
+      "t": "Hex Pool (Shinkai)",
+      "y": "1986",
+      "m": "Senko Industries (Shinkai Inc. license)"
     },
     "hexpoola": {
       "parent": "racknrol",
@@ -13991,7 +14876,10 @@
           "n": "82s153.6pr.bin",
           "c": "bc07939a"
         }
-      ]
+      ],
+      "t": "Hex Pool (Senko)",
+      "y": "1985",
+      "m": "Senko Industries"
     },
     "hunchbks": {
       "parent": "hunchbak",
@@ -14044,7 +14932,10 @@
           "n": "2p_hb08.bin",
           "c": "412087b0"
         }
-      ]
+      ],
+      "t": "Hunchback (Scramble hardware)",
+      "y": "1983",
+      "m": "Century Electronics"
     },
     "hncholms": {
       "parent": "huncholy",
@@ -14101,7 +14992,10 @@
           "n": "82s147.1a",
           "c": "d461a48b"
         }
-      ]
+      ],
+      "t": "Hunchback Olympic (Scramble hardware)",
+      "y": "1984",
+      "m": "Seatongrove UK, Ltd."
     }
   }
 }

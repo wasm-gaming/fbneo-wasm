@@ -20,7 +20,10 @@
           "n": "u24",
           "c": "e3d05c9f"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama (2004/10/12.MASTER VER.)",
+      "y": "2004",
+      "m": "Cave (AMI license)"
     },
     "mushisama": {
       "parent": "mushisam",
@@ -41,7 +44,10 @@
           "n": "u24",
           "c": "e3d05c9f"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama (2004/10/12 MASTER VER.)",
+      "y": "2004",
+      "m": "Cave (AMI license)"
     },
     "mushisamb": {
       "parent": "mushisam",
@@ -62,7 +68,10 @@
           "n": "u24",
           "c": "e3d05c9f"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama (2004/10/12 MASTER VER)",
+      "y": "2004",
+      "m": "Cave (AMI license)"
     },
     "espgal2": {
       "parent": null,
@@ -83,7 +92,10 @@
           "n": "u24",
           "c": "c76b1ec4"
         }
-      ]
+      ],
+      "t": "Espgaluda II (2005/11/14.MASTER VER.)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "espgal2a": {
       "parent": "espgal2",
@@ -104,7 +116,10 @@
           "n": "u24",
           "c": "c76b1ec4"
         }
-      ]
+      ],
+      "t": "Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "espgal2b": {
       "parent": "espgal2",
@@ -125,7 +140,10 @@
           "n": "u24",
           "c": "c76b1ec4"
         }
-      ]
+      ],
+      "t": "Espgaluda II (2005/11/14 MASTER VER, original CV1000-B PCB)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "mushitam": {
       "parent": null,
@@ -146,7 +164,10 @@
           "n": "u24",
           "c": "6feeb9a1"
         }
-      ]
+      ],
+      "t": "Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "mushitama": {
       "parent": "mushitam",
@@ -167,7 +188,10 @@
           "n": "u24",
           "c": "6feeb9a1"
         }
-      ]
+      ],
+      "t": "Puzzle! Mushihime-Tama (2005/09/09 MASTER VER)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "futari15": {
       "parent": null,
@@ -188,7 +212,10 @@
           "n": "u24",
           "c": "c631a766"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "futari15a": {
       "parent": "futari15",
@@ -209,7 +236,10 @@
           "n": "u24",
           "c": "c631a766"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Futari Ver 1.5 (2006/12/8 MASTER VER 1.54)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "futari10": {
       "parent": "futari15",
@@ -230,7 +260,10 @@
           "n": "u24",
           "c": "c631a766"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Futari Ver 1.0 (2006/10/23 MASTER VER.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "futaribl": {
       "parent": null,
@@ -251,7 +284,10 @@
           "n": "u24",
           "c": "c631a766"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "futariblj": {
       "parent": "futaribl",
@@ -272,7 +308,10 @@
           "n": "u24",
           "c": "c631a766"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Futari Black Label (2007/12/11 BLACK LABEL VER)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "matsuri15": {
       "parent": null,
@@ -293,7 +332,10 @@
           "n": "u24",
           "c": "f228b801"
         }
-      ]
+      ],
+      "t": "Mushihime-Sama Matsuri Ver 1.5 (2011/5/23 CAVEMATSURI VER1.5)",
+      "y": "2011",
+      "m": "Cave (AMI license)"
     },
     "ibara": {
       "parent": null,
@@ -314,7 +356,10 @@
           "n": "u24",
           "c": "f0aa3cb6"
         }
-      ]
+      ],
+      "t": "Ibara (2005/03/22 MASTER VER.., '06. 3. 7 ver.)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "ibarao": {
       "parent": "ibara",
@@ -335,7 +380,10 @@
           "n": "u24",
           "c": "f0aa3cb6"
         }
-      ]
+      ],
+      "t": "Ibara (2005/03/22 MASTER VER..)",
+      "y": "2005",
+      "m": "Cave (AMI license)"
     },
     "ibarablk": {
       "parent": null,
@@ -356,7 +404,10 @@
           "n": "u24",
           "c": "d11ab6b6"
         }
-      ]
+      ],
+      "t": "Ibara Kuro Black Label (2006/02/06. MASTER VER.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "ibarablka": {
       "parent": "ibarablk",
@@ -377,7 +428,10 @@
           "n": "u24",
           "c": "d11ab6b6"
         }
-      ]
+      ],
+      "t": "Ibara Kuro Black Label (2006/02/06 MASTER VER.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "deathsml": {
       "parent": null,
@@ -398,7 +452,10 @@
           "n": "u24",
           "c": "83881d84"
         }
-      ]
+      ],
+      "t": "Deathsmiles (2007/10/09 MASTER VER)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "mmpork": {
       "parent": null,
@@ -419,7 +476,10 @@
           "n": "u24",
           "c": "ce83d07b"
         }
-      ]
+      ],
+      "t": "Muchi Muchi Pork! (2007/ 4/17 MASTER VER.)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "mmmbanc": {
       "parent": null,
@@ -440,7 +500,10 @@
           "n": "u24",
           "c": "8e3a51ba"
         }
-      ]
+      ],
+      "t": "Medal Mahjong Moukari Bancho (2007/06/05 MASTER VER.)",
+      "y": "2007",
+      "m": "Cave (AMI license)"
     },
     "pinkswts": {
       "parent": null,
@@ -461,7 +524,10 @@
           "n": "u24",
           "c": "e93f0627"
         }
-      ]
+      ],
+      "t": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "pinkswtsa": {
       "parent": "pinkswts",
@@ -482,7 +548,10 @@
           "n": "u24",
           "c": "e93f0627"
         }
-      ]
+      ],
+      "t": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER...)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "pinkswtsb": {
       "parent": "pinkswts",
@@ -503,7 +572,10 @@
           "n": "u24",
           "c": "e93f0627"
         }
-      ]
+      ],
+      "t": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "pinkswtsx": {
       "parent": "pinkswts",
@@ -524,7 +596,10 @@
           "n": "u24",
           "c": "e93f0627"
         }
-      ]
+      ],
+      "t": "Pink Sweets: Ibara Sorekara (2006/xx/xx MASTER VER.)",
+      "y": "2006",
+      "m": "Cave (AMI license)"
     },
     "pinkswtssc": {
       "parent": "pinkswts",
@@ -545,7 +620,10 @@
           "n": "u24",
           "c": "e93f0627"
         }
-      ]
+      ],
+      "t": "Pink Sweets: Suicide Club (2017/10/31 SUICIDECLUB VER., bootleg)",
+      "y": "2017",
+      "m": "bootleg (Four Horsemen)"
     },
     "ddpdfk": {
       "parent": null,
@@ -566,7 +644,10 @@
           "n": "u24",
           "c": "a6178c2c"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Fukkatsu Ver 1.5 (2008/06/23 MASTER VER 1.5)",
+      "y": "2008",
+      "m": "Cave (AMI license)"
     },
     "ddpdfk10": {
       "parent": "ddpdfk",
@@ -587,7 +668,10 @@
           "n": "u24",
           "c": "a6178c2c"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Fukkatsu Ver 1.0 (2008/05/16 MASTER VER)",
+      "y": "2008",
+      "m": "Cave (AMI license)"
     },
     "dsmbl": {
       "parent": null,
@@ -608,7 +692,10 @@
           "n": "u24",
           "c": "3b673326"
         }
-      ]
+      ],
+      "t": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
+      "y": "2008",
+      "m": "Cave (AMI license)"
     },
     "dfkbl": {
       "parent": null,
@@ -629,7 +716,10 @@
           "n": "u24",
           "c": "31f9eb0a"
         }
-      ]
+      ],
+      "t": "DoDonPachi Dai-Fukkatsu Black Label (2010/1/18 BLACK LABEL)",
+      "y": "2010",
+      "m": "Cave"
     },
     "ddpsdoj": {
       "parent": null,
@@ -650,7 +740,10 @@
           "n": "u24",
           "c": "f593045b"
         }
-      ]
+      ],
+      "t": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
+      "y": "2012",
+      "m": "Cave"
     },
     "sdojak": {
       "parent": "ddpsdoj",
@@ -671,7 +764,10 @@
           "n": "u24",
           "c": "7b9e749f"
         }
-      ]
+      ],
+      "t": "DoDonPachi SaiDaiOuJou & Knuckles (CaveDwellers Hack)",
+      "y": "2021",
+      "m": "hack"
     },
     "akatana": {
       "parent": null,
@@ -692,7 +788,10 @@
           "n": "u24",
           "c": "10760fed"
         }
-      ]
+      ],
+      "t": "Akai Katana (2010/ 8/13 MASTER VER.)",
+      "y": "2010",
+      "m": "Cave"
     },
     "ddonpach": {
       "parent": null,
@@ -745,7 +844,10 @@
           "n": "eeprom-ddonpach.bin",
           "c": "315fb546"
         }
-      ]
+      ],
+      "t": "DoDonPachi (World, 1997 2/ 5 Master Ver.)",
+      "y": "1997",
+      "m": "Cave (Atlus license)"
     },
     "ddonpachj": {
       "parent": "ddonpach",
@@ -798,7 +900,10 @@
           "n": "eeprom-ddonpach.bin",
           "c": "315fb546"
         }
-      ]
+      ],
+      "t": "DoDonPachi (Japan, 1997 2/ 5 Master Ver.)",
+      "y": "1997",
+      "m": "Cave (Atlus license)"
     },
     "ddonpacha": {
       "parent": "ddonpach",
@@ -851,7 +956,10 @@
           "n": "eeprom-ddonpach.bin",
           "c": "2df16438"
         }
-      ]
+      ],
+      "t": "DoDonPachi (2012/02/12 Arrange Ver. 1.1) (hack)",
+      "y": "2012",
+      "m": "hack (trap15)"
     },
     "donpachi": {
       "parent": null,
@@ -896,7 +1004,10 @@
           "n": "peel18cv8p-15.u18",
           "c": "3f4787e9"
         }
-      ]
+      ],
+      "t": "DonPachi (USA, ver. 1.12, 95/05/2x)",
+      "y": "1995",
+      "m": "Cave (Atlus license)"
     },
     "donpachij": {
       "parent": "donpachi",
@@ -941,7 +1052,10 @@
           "n": "peel18cv8p-15.u18",
           "c": "3f4787e9"
         }
-      ]
+      ],
+      "t": "DonPachi (Japan, ver. 1.01, 95/05/11)",
+      "y": "1995",
+      "m": "Cave (Atlus license)"
     },
     "donpachijs": {
       "parent": "donpachi",
@@ -986,7 +1100,10 @@
           "n": "peel18cv8p-15.u18",
           "c": "3f4787e9"
         }
-      ]
+      ],
+      "t": "DonPachi (Japan, ver. 1.01, 95/05/11 Satsuei)",
+      "y": "1995",
+      "m": "Cave (Atlus license)"
     },
     "donpachikr": {
       "parent": "donpachi",
@@ -1031,7 +1148,10 @@
           "n": "peel18cv8p-15.u18",
           "c": "3f4787e9"
         }
-      ]
+      ],
+      "t": "DonPachi (Korea, ver. 1.12, 95/05/2x)",
+      "y": "1995",
+      "m": "Cave (Atlus license)"
     },
     "donpachihk": {
       "parent": "donpachi",
@@ -1076,7 +1196,10 @@
           "n": "peel18cv8p-15.u18",
           "c": "3f4787e9"
         }
-      ]
+      ],
+      "t": "DonPachi (Hong Kong, ver. 1.10, 95/05/17)",
+      "y": "1995",
+      "m": "Cave (Atlus license)"
     },
     "esprade": {
       "parent": null,
@@ -1133,7 +1256,10 @@
           "n": "eeprom-esprade.bin",
           "c": "315fb546"
         }
-      ]
+      ],
+      "t": "ESP Ra.De. - A.D.2018 Tokyo (World, 1998 4/22 International Ver.)",
+      "y": "1998",
+      "m": "Cave (Atlus license)"
     },
     "espradej": {
       "parent": "esprade",
@@ -1190,7 +1316,10 @@
           "n": "eeprom-esprade.bin",
           "c": "315fb546"
         }
-      ]
+      ],
+      "t": "ESP Ra.De. (Japan, 1998 4/21 Master Ver.)",
+      "y": "1998",
+      "m": "Cave (Atlus license)"
     },
     "espradejo": {
       "parent": "esprade",
@@ -1247,7 +1376,10 @@
           "n": "eeprom-esprade.bin",
           "c": "315fb546"
         }
-      ]
+      ],
+      "t": "ESP Ra.De. (Japan, 1998 4/14 Master Ver.)",
+      "y": "1998",
+      "m": "Cave (Atlus license)"
     },
     "feversos": {
       "parent": null,
@@ -1284,7 +1416,10 @@
           "n": "eeprom-feversos.bin",
           "c": "d80303aa"
         }
-      ]
+      ],
+      "t": "Fever SOS (World, 98/09/25 VER)",
+      "y": "1998",
+      "m": "Cave (Nihon System license)"
     },
     "dfeveron": {
       "parent": "feversos",
@@ -1321,7 +1456,10 @@
           "n": "eeprom-dfeveron.bin",
           "c": "c3174959"
         }
-      ]
+      ],
+      "t": "Dangun Feveron (Japan, 98/09/17 VER.)",
+      "y": "1998",
+      "m": "Cave (Nihon System license)"
     },
     "gaia": {
       "parent": null,
@@ -1366,7 +1504,10 @@
           "n": "snd3.455",
           "c": "4048d64e"
         }
-      ]
+      ],
+      "t": "Gaia Crusaders",
+      "y": "1999",
+      "m": "Noise Factory"
     },
     "theroes": {
       "parent": null,
@@ -1411,7 +1552,10 @@
           "n": "t-hero-snd3.u0455",
           "c": "52b0b2c0"
         }
-      ]
+      ],
+      "t": "Thunder Heroes (set 1)",
+      "y": "2001",
+      "m": "Primetek Investments"
     },
     "theroesa": {
       "parent": "theroes",
@@ -1456,7 +1600,10 @@
           "n": "t-hero-snd3.u0455",
           "c": "52b0b2c0"
         }
-      ]
+      ],
+      "t": "Thunder Heroes (set 2)",
+      "y": "2001",
+      "m": "Primetek Investments"
     },
     "guwange": {
       "parent": null,
@@ -1505,7 +1652,10 @@
           "n": "eeprom-guwange.bin",
           "c": "c3174959"
         }
-      ]
+      ],
+      "t": "Guwange (Japan, 1999 6/24 Master Ver 16:55)",
+      "y": "1999",
+      "m": "Cave (Atlus license)"
     },
     "guwanges": {
       "parent": "guwange",
@@ -1554,7 +1704,10 @@
           "n": "eeprom-guwange.bin",
           "c": "c3174959"
         }
-      ]
+      ],
+      "t": "Guwange (Japan, 2000 7/ 7 Special Ver 13:22)",
+      "y": "1999",
+      "m": "Cave (Atlus license)"
     },
     "hotdogst": {
       "parent": null,
@@ -1599,7 +1752,10 @@
           "n": "eeprom-hotdogst.u14",
           "c": "12b4f934"
         }
-      ]
+      ],
+      "t": "Hotdog Storm - The First Supersonics (Korea)",
+      "y": "1996",
+      "m": "Marble (Ace International license)"
     },
     "korokoro": {
       "parent": null,
@@ -1624,7 +1780,10 @@
           "n": "mp-001_ver01.u1186",
           "c": "d16e7c5d"
         }
-      ]
+      ],
+      "t": "Koro Koro Quest (Japan)",
+      "y": "1999",
+      "m": "Takumi"
     },
     "crusherm": {
       "parent": null,
@@ -1653,7 +1812,10 @@
           "n": "mp-003ver01.u1187",
           "c": "d9312497"
         }
-      ]
+      ],
+      "t": "Crusher Makochan (Japan)",
+      "y": "1999",
+      "m": "Takumi"
     },
     "mazinger": {
       "parent": null,
@@ -1694,7 +1856,10 @@
           "n": "mazinger_world.nv",
           "c": "4f6225c6"
         }
-      ]
+      ],
+      "t": "Mazinger Z (World)",
+      "y": "1994",
+      "m": "Banpresto / Dynamic Pl. Toei Animation"
     },
     "mazingerj": {
       "parent": "mazinger",
@@ -1735,7 +1900,10 @@
           "n": "mazinger_japan.nv",
           "c": "f84a2a45"
         }
-      ]
+      ],
+      "t": "Mazinger Z (Japan)",
+      "y": "1994",
+      "m": "Banpresto / Dynamic Pl. Toei Animation"
     },
     "metmqstr": {
       "parent": null,
@@ -1792,7 +1960,10 @@
           "n": "bp947a.u37",
           "c": "c3077c8f"
         }
-      ]
+      ],
+      "t": "Metamoqester (World)",
+      "y": "1995",
+      "m": "Banpresto / Pandorabox"
     },
     "nmaster": {
       "parent": "metmqstr",
@@ -1849,7 +2020,10 @@
           "n": "bp947a.u37",
           "c": "c3077c8f"
         }
-      ]
+      ],
+      "t": "Oni - The Ninja Master (Japan)",
+      "y": "1995",
+      "m": "Banpresto / Pandorabox"
     },
     "pwrinst2": {
       "parent": null,
@@ -1946,7 +2120,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Power Instinct 2 (US, Ver. 94.04.08, set 1)",
+      "y": "1994",
+      "m": "Atlus"
     },
     "pwrinst2a": {
       "parent": "pwrinst2",
@@ -2043,7 +2220,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Power Instinct 2 (US, Ver. 94.04.08, set 2)",
+      "y": "1994",
+      "m": "Atlus"
     },
     "pwrinst2j": {
       "parent": "pwrinst2",
@@ -2140,7 +2320,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Gouketsuji Ichizoku 2 (Japan, Ver. 94.04.08, set 1)",
+      "y": "1994",
+      "m": "Atlus"
     },
     "pwrinst2ja": {
       "parent": "pwrinst2",
@@ -2237,7 +2420,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Gouketsuji Ichizoku 2 (Japan, Ver. 94.04.08, set 2)",
+      "y": "1994",
+      "m": "Atlus"
     },
     "pwrinst2k": {
       "parent": "pwrinst2",
@@ -2334,7 +2520,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Power instinct 2 (Korea, Ver. 94/04/08)",
+      "y": "1994",
+      "m": "Atlus"
     },
     "plegends": {
       "parent": null,
@@ -2443,7 +2632,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Gogetsuji Legends (US, Ver. 95.06.20)",
+      "y": "1995",
+      "m": "Atlus"
     },
     "plegendsj": {
       "parent": "plegends",
@@ -2552,7 +2744,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Gouketsuji Gaiden - Saikyou Densetsu (Japan, Ver. 95.06.20)",
+      "y": "1995",
+      "m": "Atlus"
     },
     "plegendsjq": {
       "parent": "plegends",
@@ -2661,7 +2856,10 @@
           "n": "peel18cv8p-15.u25",
           "c": "61b414df"
         }
-      ]
+      ],
+      "t": "Gouketsuji Gaiden - Saikyou Densetsu (Infinite Energy, Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "sailormn": {
       "parent": null,
@@ -2738,7 +2936,10 @@
           "n": "sailormn_europe.nv",
           "c": "59a7dc50"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22B, Europe)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnu": {
       "parent": "sailormn",
@@ -2815,7 +3016,10 @@
           "n": "sailormn_usa.nv",
           "c": "3915abe3"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22B, USA)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnj": {
       "parent": "sailormn",
@@ -2892,7 +3096,10 @@
           "n": "sailormn_japan.nv",
           "c": "ea03c30a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22B, Japan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnk": {
       "parent": "sailormn",
@@ -2969,7 +3176,10 @@
           "n": "sailormn_korea.nv",
           "c": "0e7de398"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22B, Korea)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnt": {
       "parent": "sailormn",
@@ -3046,7 +3256,10 @@
           "n": "sailormn_taiwan.nv",
           "c": "6c7e8c2a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22B, Taiwan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnh": {
       "parent": "sailormn",
@@ -3123,7 +3336,10 @@
           "n": "sailormn_hongkong.nv",
           "c": "4d24c874"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22B, Hong Kong)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnn": {
       "parent": "sailormn",
@@ -3200,7 +3416,10 @@
           "n": "sailormn_europe.nv",
           "c": "59a7dc50"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22, Europe)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnnu": {
       "parent": "sailormn",
@@ -3277,7 +3496,10 @@
           "n": "sailormn_usa.nv",
           "c": "3915abe3"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22, USA)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnnj": {
       "parent": "sailormn",
@@ -3354,7 +3576,10 @@
           "n": "sailormn_japan.nv",
           "c": "ea03c30a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22, Japan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnnk": {
       "parent": "sailormn",
@@ -3431,7 +3656,10 @@
           "n": "sailormn_korea.nv",
           "c": "0e7de398"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/22, Korea)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnnt": {
       "parent": "sailormn",
@@ -3508,7 +3736,10 @@
           "n": "sailormn_taiwan.nv",
           "c": "6c7e8c2a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22, Taiwan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnnh": {
       "parent": "sailormn",
@@ -3585,7 +3816,10 @@
           "n": "sailormn_hongkong.nv",
           "c": "4d24c874"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/22, Hong Kong)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormno": {
       "parent": "sailormn",
@@ -3662,7 +3896,10 @@
           "n": "sailormn_europe.nv",
           "c": "59a7dc50"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/21, Europe)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnou": {
       "parent": "sailormn",
@@ -3739,7 +3976,10 @@
           "n": "sailormn_usa.nv",
           "c": "3915abe3"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/21, USA)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnoj": {
       "parent": "sailormn",
@@ -3816,7 +4056,10 @@
           "n": "sailormn_japan.nv",
           "c": "ea03c30a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/21, Japan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnok": {
       "parent": "sailormn",
@@ -3893,7 +4136,10 @@
           "n": "sailormn_korea.nv",
           "c": "0e7de398"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Version 95/03/21, Korea)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnot": {
       "parent": "sailormn",
@@ -3970,7 +4216,10 @@
           "n": "sailormn_taiwan.nv",
           "c": "6c7e8c2a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/21, Taiwan)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnoh": {
       "parent": "sailormn",
@@ -4047,7 +4296,10 @@
           "n": "sailormn_hongkong.nv",
           "c": "4d24c874"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Version 95/03/21, Hong Kong)",
+      "y": "1995",
+      "m": "Gazelle (Banpresto license)"
     },
     "sailormnffj": {
       "parent": "sailormn",
@@ -4056,7 +4308,10 @@
           "n": "bpsmffj.u45",
           "c": "f11bd75a"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Fighting For Justice, Hack)",
+      "y": "2022",
+      "m": "Zombie Master"
     },
     "sailormnrot": {
       "parent": "sailormn",
@@ -4065,7 +4320,10 @@
           "n": "bpsmrot.u45",
           "c": "daf0db76"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Reign of Terror, Hack)",
+      "y": "2022",
+      "m": "Zombie Master"
     },
     "sailmnhy": {
       "parent": "sailormn",
@@ -4074,7 +4332,10 @@
           "n": "bpsmhy945a.u45",
           "c": "bac65b30"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Black Moon, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnxy": {
       "parent": "sailormn",
@@ -4083,7 +4344,10 @@
           "n": "bpsmxy945a.u45",
           "c": "b959c5ff"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (New Moon, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnxys": {
       "parent": "sailormn",
@@ -4092,7 +4356,10 @@
           "n": "bpsmxys945a.u45",
           "c": "aecffa50"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (New Moon Super, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnhx": {
       "parent": "sailormn",
@@ -4101,7 +4368,10 @@
           "n": "bpsmhx945a.u45",
           "c": "a8a7c786"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Crescent Fantasy, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnyh": {
       "parent": "sailormn",
@@ -4110,7 +4380,10 @@
           "n": "bpsmyh945a.u45",
           "c": "a7f16fd8"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Eternal Poem, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnzy": {
       "parent": "sailormn",
@@ -4119,7 +4392,10 @@
           "n": "bpsmzy945a.u45",
           "c": "39d11c5a"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Eternal End, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnee": {
       "parent": "sailormn",
@@ -4128,7 +4404,10 @@
           "n": "bpsmee945a.u45",
           "c": "e77a6fbe"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Enhanced Edition v5 Final, Hack)",
+      "y": "2019",
+      "m": "hack"
     },
     "sailmnopt": {
       "parent": "sailormn",
@@ -4137,7 +4416,10 @@
           "n": "bpsmopt945a.u45",
           "c": "0e7f4981"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Optimised, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "sailmnyy": {
       "parent": "sailormn",
@@ -4146,7 +4428,10 @@
           "n": "bpsmyy945a.u45",
           "c": "89ac00db"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Serena Tsukino, Hack)",
+      "y": "2021",
+      "m": "hack"
     },
     "sailmnyg": {
       "parent": "sailormn",
@@ -4155,7 +4440,10 @@
           "n": "bpsmyg945a.u45",
           "c": "95752342"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Moonlight, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnwx": {
       "parent": "sailormn",
@@ -4164,7 +4452,10 @@
           "n": "bpsmwwx945a.u45",
           "c": "0739857e"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Infinite, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmndf": {
       "parent": "sailormn",
@@ -4173,7 +4464,10 @@
           "n": "bpsmwdf945a.u45",
           "c": "b5289dc7"
         }
-      ]
+      ],
+      "t": "Pretty Soldier Sailor Moon (Apex Infinity, Hack)",
+      "y": "2026",
+      "m": "hack"
     },
     "sailmnkf": {
       "parent": "sailormn",
@@ -4186,7 +4480,10 @@
           "n": "sailormn_europe.nv",
           "c": "59a7dc50"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (Korea-France, Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "sailmnsl": {
       "parent": "sailormn",
@@ -4199,7 +4496,10 @@
           "n": "sailormn_europe.nv",
           "c": "59a7dc50"
         }
-      ]
+      ],
+      "t": "Bishoujo Senshi Sailor Moon (10-Lo, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "agallet": {
       "parent": null,
@@ -4248,7 +4548,10 @@
           "n": "agallet_europe.nv",
           "c": "ec38bf65"
         }
-      ]
+      ],
+      "t": "Air Gallet (Europe)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalleta": {
       "parent": "agallet",
@@ -4297,7 +4600,10 @@
           "n": "agallet_europe.nv",
           "c": "ec38bf65"
         }
-      ]
+      ],
+      "t": "Air Gallet (older, Europe)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletu": {
       "parent": "agallet",
@@ -4346,7 +4652,10 @@
           "n": "agallet_usa.nv",
           "c": "72e65056"
         }
-      ]
+      ],
+      "t": "Air Gallet (USA)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletau": {
       "parent": "agallet",
@@ -4395,7 +4704,10 @@
           "n": "agallet_usa.nv",
           "c": "72e65056"
         }
-      ]
+      ],
+      "t": "Air Gallet (older, USA)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletj": {
       "parent": "agallet",
@@ -4444,7 +4756,10 @@
           "n": "agallet_japan.nv",
           "c": "0753f547"
         }
-      ]
+      ],
+      "t": "Akuu Gallet (Japan)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletaj": {
       "parent": "agallet",
@@ -4493,7 +4808,10 @@
           "n": "agallet_japan.nv",
           "c": "0753f547"
         }
-      ]
+      ],
+      "t": "Akuu Gallet (older, Japan)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletk": {
       "parent": "agallet",
@@ -4542,7 +4860,10 @@
           "n": "agallet_korea.nv",
           "c": "7f41c253"
         }
-      ]
+      ],
+      "t": "Air Gallet (Korea)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletak": {
       "parent": "agallet",
@@ -4591,7 +4912,10 @@
           "n": "agallet_korea.nv",
           "c": "7f41c253"
         }
-      ]
+      ],
+      "t": "Air Gallet (older, Korea)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agallett": {
       "parent": "agallet",
@@ -4640,7 +4964,10 @@
           "n": "agallet_taiwan.nv",
           "c": "0af46742"
         }
-      ]
+      ],
+      "t": "Air Gallet (Taiwan)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletat": {
       "parent": "agallet",
@@ -4689,7 +5016,10 @@
           "n": "agallet_taiwan.nv",
           "c": "0af46742"
         }
-      ]
+      ],
+      "t": "Air Gallet (older, Taiwan)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalleth": {
       "parent": "agallet",
@@ -4738,7 +5068,10 @@
           "n": "agallet_hongkong.nv",
           "c": "998d1a74"
         }
-      ]
+      ],
+      "t": "Air Gallet (Hong Kong)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "agalletah": {
       "parent": "agallet",
@@ -4787,7 +5120,10 @@
           "n": "agallet_hongkong.nv",
           "c": "998d1a74"
         }
-      ]
+      ],
+      "t": "Air Gallet (older, Hong Kong)",
+      "y": "1996",
+      "m": "Gazelle (Banpresto license)"
     },
     "tjumpman": {
       "parent": null,
@@ -4824,7 +5160,10 @@
           "n": "n44u1g.u1",
           "c": "e226ec18"
         }
-      ]
+      ],
+      "t": "Tobikose! Jumpman",
+      "y": "1999",
+      "m": "Namco"
     },
     "uopoko": {
       "parent": null,
@@ -4853,7 +5192,10 @@
           "n": "eeprom-uopoko.bin",
           "c": "f4a24b95"
         }
-      ]
+      ],
+      "t": "Puzzle Uo Poko (World)",
+      "y": "1998",
+      "m": "Cave (Jaleco license)"
     },
     "uopokoj": {
       "parent": "uopoko",
@@ -4882,7 +5224,10 @@
           "n": "eeprom-uopoko.bin",
           "c": "f4a24b95"
         }
-      ]
+      ],
+      "t": "Puzzle Uo Poko (Japan)",
+      "y": "1998",
+      "m": "Cave (Jaleco license)"
     }
   }
 }

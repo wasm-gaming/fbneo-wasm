@@ -1,0 +1,197 @@
+{
+  "system": "gba",
+  "games": {
+    "gba_gba": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "gba_bios.bin",
+          "c": "81977335"
+        }
+      ],
+      "t": "Game Boy Advance BIOS",
+      "y": "2001",
+      "m": "Nintendo"
+    },
+    "gba_f_murasa": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Famicom Mini Vol.22 - Nazo no Murasame Jou (J)(2004)(Nintendo).gba",
+          "c": "8233349c"
+        }
+      ],
+      "t": "Famicom Mini Vol.22: Nazo no Murasame Jou (Japan)",
+      "y": "2004",
+      "m": "Nintendo"
+    },
+    "gba_n_cvaniau": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Classic NES Series - Castlevania (U)(2004)(Nintendo).gba",
+          "c": "23e4082c"
+        }
+      ],
+      "t": "Classic NES Series: Castlevania (USA)",
+      "y": "2004",
+      "m": "Nintendo"
+    },
+    "gba_f_akumaj": {
+      "parent": "gba_n_cvaniau",
+      "roms": [
+        {
+          "n": "Famicom Mini Vol.29 - Akumajou Dracula (J)(2004)(Nintendo).gba",
+          "c": "11419d8b"
+        }
+      ],
+      "t": "Famicom Mini Vol.29: Akumajou Dracula (Japan)",
+      "y": "2004",
+      "m": "Nintendo"
+    },
+    "gba_ddragon": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Double Dragon Advance (U)(2003)(Atlus).gba",
+          "c": "764fafb5"
+        }
+      ],
+      "t": "Double Dragon Advance (USA)",
+      "y": "2003",
+      "m": "Atlus"
+    },
+    "gba_ddragonj": {
+      "parent": "gba_ddragon",
+      "roms": [
+        {
+          "n": "Double Dragon Advance (J)(2004)(Atlus).gba",
+          "c": "a3330e8f"
+        }
+      ],
+      "t": "Double Dragon Advance (Japan)",
+      "y": "2004",
+      "m": "Atlus"
+    },
+    "gba_firembssu": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Fire Emblem - The Sacred Stones (U, A)(2005)(Nintendo).gba",
+          "c": "a47246ae"
+        }
+      ],
+      "t": "Fire Emblem: The Sacred Stones (USA, Australia)",
+      "y": "2005",
+      "m": "Nintendo"
+    },
+    "gba_firembssj": {
+      "parent": "gba_firembssu",
+      "roms": [
+        {
+          "n": "Fire Emblem - Seima no Kouseki (J)(2004)(Nintendo).gba",
+          "c": "9d76826f"
+        }
+      ],
+      "t": "Fire Emblem: Seima no Kouseki (Japan)",
+      "y": "2004",
+      "m": "Nintendo"
+    },
+    "gba_firembssx": {
+      "parent": "gba_firembssu",
+      "roms": [
+        {
+          "n": "Fire Emblem - Sheng Xie De Yi Zhi (C)(2006)(ChinaFE & Wolf Group).gba",
+          "c": "9cbb923e"
+        }
+      ],
+      "t": "Fire Emblem: Sheng Xie De Yi Zhi (Hack, v1.4)",
+      "y": "2006",
+      "m": "ChinaFE & Wolf Group"
+    },
+    "gba_sgng": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Super Ghouls'n Ghosts (E, U)(2002)(Capcom).gba",
+          "c": "1ef2acf3"
+        }
+      ],
+      "t": "Super Ghouls'n Ghosts (Europe, USA)",
+      "y": "2002",
+      "m": "Capcom"
+    },
+    "gba_wariotws": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "WarioWare ‑ Twisted! (U, A)(2005)(Nintendo).gba",
+          "c": "cb4e844b"
+        }
+      ],
+      "t": "WarioWare: Twisted! (USA, Australia)",
+      "y": "2005",
+      "m": "Nintendo"
+    },
+    "gba_wariotwj": {
+      "parent": "gba_wariotws",
+      "roms": [
+        {
+          "n": "Mawaru - Made in Wario (J)(2005)(Nintendo).gba",
+          "c": "e69964f1"
+        }
+      ],
+      "t": "Mawaru: Made in Wario (Japan)",
+      "y": "2005",
+      "m": "Nintendo"
+    },
+    "gba_yoshitt": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Yoshi Topsy ‑ Turvy (U)(2005)(Nintendo).gba",
+          "c": "e64c265c"
+        }
+      ],
+      "t": "Yoshi Topsy: Turvy (USA)",
+      "y": "2005",
+      "m": "Nintendo"
+    },
+    "gba_yoshiban": {
+      "parent": "gba_yoshitt",
+      "roms": [
+        {
+          "n": "Yoshi no Banyuuinryoku (J)(2005)(Nintendo).gba",
+          "c": "31594b7a"
+        }
+      ],
+      "t": "Yoshi no Banyuuinryoku (Japan)",
+      "y": "2005",
+      "m": "Nintendo"
+    },
+    "gba_boktai2u": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Boktai 2 ‑ Solar Boy Django (U)(2004)(Konami).gba",
+          "c": "e1ffb2d1"
+        }
+      ],
+      "t": "Boktai 2: Solar Boy Django (USA)",
+      "y": "2004",
+      "m": "Konami"
+    },
+    "gba_boktai2j": {
+      "parent": "gba_boktai2u",
+      "roms": [
+        {
+          "n": "Zoku Bokura no Taiyou - Taiyou Shounen Django (J, Rev 1)(2004)(Konami).gba",
+          "c": "71e2cd01"
+        }
+      ],
+      "t": "Zoku Bokura no Taiyou: Taiyou Shounen Django (Japan, Rev 1)",
+      "y": "2004",
+      "m": "Konami"
+    }
+  }
+}

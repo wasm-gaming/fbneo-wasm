@@ -20,7 +20,10 @@
           "n": "czz50.rom",
           "c": "4999abc6"
         }
-      ]
+      ],
+      "t": "ColecoVision System BIOS",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_finaltst": {
       "parent": null,
@@ -29,7 +32,10 @@
           "n": "Colecovision Final Test (Proto)(1982)(Coleco).rom",
           "c": "3ae4b58c"
         }
-      ]
+      ],
+      "t": "Final Test Cartridge (Prototype)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_suprtest": {
       "parent": null,
@@ -38,7 +44,10 @@
           "n": "Super Action Controller Tester (1982)(Nuvatec).rom",
           "c": "d206fe58"
         }
-      ]
+      ],
+      "t": "Super Controller Test Cartridge",
+      "y": "1983",
+      "m": "Coleco - Nuvatec"
     },
     "cv_musicbox": {
       "parent": null,
@@ -47,7 +56,10 @@
           "n": "MusicBox (Demo)(1987)(Coleco).rom",
           "c": "164c8c26"
         }
-      ]
+      ],
+      "t": "MusicBox (Demo)",
+      "y": "1987",
+      "m": "Coleco"
     },
     "cv_cvjoytest": {
       "parent": null,
@@ -56,7 +68,10 @@
           "n": "Super Action Controller Test Cartridge (1983)(Nuvatec).rom",
           "c": "eb6cb4d8"
         }
-      ]
+      ],
+      "t": "ColecoVision Joystick Test",
+      "y": "1983",
+      "m": "Coleco - Nuvatec"
     },
     "cv_sgmtest": {
       "parent": null,
@@ -65,7 +80,10 @@
           "n": "ColecoVision Super Game Module (200x).rom",
           "c": "abc4763d"
         }
-      ]
+      ],
+      "t": "ColecoVision Super Game Module Test (SGM)",
+      "y": "200x",
+      "m": "Coleco"
     },
     "cv_2010": {
       "parent": null,
@@ -74,7 +92,10 @@
           "n": "2010 - The Graphic Action Game (USA)(1984)(Coleco).rom",
           "c": "c575a831"
         }
-      ]
+      ],
+      "t": "2010: The Graphic Action Game (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_2010p": {
       "parent": "cv_2010",
@@ -83,7 +104,10 @@
           "n": "2010 - The Graphic Action Game (USA, Proto)(1984)(Coleco).rom",
           "c": "3657f3cd"
         }
-      ]
+      ],
+      "t": "2010: The Graphic Action Game (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_alcazar": {
       "parent": null,
@@ -92,7 +116,10 @@
           "n": "Alcazar - The Forgotten Fortress (USA)(1985)(Activision).rom",
           "c": "fce3aa06"
         }
-      ]
+      ],
+      "t": "Alcazar: The Forgotten Fortress (USA)",
+      "y": "1985",
+      "m": "Activision"
     },
     "cv_alphazoo": {
       "parent": null,
@@ -101,7 +128,10 @@
           "n": "Alphabet Zoo (USA)(1984)(Spinnaker Software).rom",
           "c": "4ffb4e8c"
         }
-      ]
+      ],
+      "t": "Alphabet Zoo (USA)",
+      "y": "1984",
+      "m": "Spinnaker Software"
     },
     "cv_amazing": {
       "parent": null,
@@ -110,7 +140,10 @@
           "n": "Amazing Bumpman (USA)(1986)(Telegames).rom",
           "c": "78a738af"
         }
-      ]
+      ],
+      "t": "Amazing Bumpman (USA)",
+      "y": "1986",
+      "m": "Telegames"
     },
     "cv_numbump": {
       "parent": "cv_amazing",
@@ -119,7 +152,10 @@
           "n": "Number Bumper (USA, Proto)(1984)(Sunrise Software).rom",
           "c": "6af8b439"
         }
-      ]
+      ],
+      "t": "Number Bumper (USA, Prototype)",
+      "y": "1984",
+      "m": "Sunrise Software"
     },
     "cv_antarct": {
       "parent": null,
@@ -128,7 +164,10 @@
           "n": "Antarctic Adventure (USA, Euro)(1984)(Coleco - Konami).rom",
           "c": "275c800e"
         }
-      ]
+      ],
+      "t": "Antarctic Adventure (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_antarctp": {
       "parent": "cv_antarct",
@@ -137,7 +176,10 @@
           "n": "Antarctic Adventure (USA, Proto)(1984)(Konami).rom",
           "c": "a66e5ed1"
         }
-      ]
+      ],
+      "t": "Antarctic Adventure (USA, Prototype)",
+      "y": "1984",
+      "m": "Konami"
     },
     "cv_aquatack": {
       "parent": null,
@@ -146,7 +188,10 @@
           "n": "Aquattack (USA)(1984)(Interphase).rom",
           "c": "275a7013"
         }
-      ]
+      ],
+      "t": "Aquattack (USA)",
+      "y": "1984",
+      "m": "Interphase"
     },
     "cv_aquatacka": {
       "parent": "cv_aquatack",
@@ -155,7 +200,10 @@
           "n": "Aquattack (USA, Alt)(1984)(Interphase).rom",
           "c": "947437ec"
         }
-      ]
+      ],
+      "t": "Aquattack (USA, Alt)",
+      "y": "1984",
+      "m": "Interphase"
     },
     "cv_artduel": {
       "parent": null,
@@ -164,7 +212,10 @@
           "n": "Artillery Duel (USA)(1983)(Xonox).rom",
           "c": "6f88fcf0"
         }
-      ]
+      ],
+      "t": "Artillery Duel (USA)",
+      "y": "1983",
+      "m": "Xonox"
     },
     "cv_bcquest": {
       "parent": null,
@@ -173,7 +224,10 @@
           "n": "BC's Quest for Tires (USA)(1983)(Sierra On-Line).rom",
           "c": "4359a3e5"
         }
-      ]
+      ],
+      "t": "BC's Quest for Tires (USA)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_bcquestca": {
       "parent": "cv_bcquest",
@@ -182,7 +236,10 @@
           "n": "BC's Quest for Tires (Canada)(1983)(Sierra On-Line).rom",
           "c": "0ae39f2c"
         }
-      ]
+      ],
+      "t": "BC's Quest for Tires (Canada)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_bcquest2": {
       "parent": null,
@@ -191,7 +248,10 @@
           "n": "BC's Quest for Tires II - Grog's Revenge (USA)(1984)(Coleco - Sydney).rom",
           "c": "d464e5e4"
         }
-      ]
+      ],
+      "t": "BC's Quest for Tires II: Grog's Revenge (USA)",
+      "y": "1984",
+      "m": "Coleco - Sydney Dev."
     },
     "cv_bcquest2ca": {
       "parent": "cv_bcquest2",
@@ -200,7 +260,10 @@
           "n": "BC's Quest for Tires II - Grog's Revenge (Canada)(1984)(Coleco - Sydney).rom",
           "c": "1ca853d5"
         }
-      ]
+      ],
+      "t": "BC's Quest for Tires II: Grog's Revenge (Canada)",
+      "y": "1984",
+      "m": "Coleco - Sydney Dev."
     },
     "cv_beamridr": {
       "parent": null,
@@ -209,7 +272,10 @@
           "n": "Beamrider (USA)(1983)(Activision).rom",
           "c": "7a93c6e5"
         }
-      ]
+      ],
+      "t": "Beamrider (USA)",
+      "y": "1983",
+      "m": "Activision"
     },
     "cv_bbears": {
       "parent": null,
@@ -218,7 +284,10 @@
           "n": "Berenstain Bears, The (USA, Proto)(1984)(Coleco).rom",
           "c": "18864abc"
         }
-      ]
+      ],
+      "t": "Berenstain Bears, The (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_blockrun": {
       "parent": null,
@@ -227,7 +296,10 @@
           "n": "Blockade Runner (USA)(1984)(Interphase).rom",
           "c": "df65fc87"
         }
-      ]
+      ],
+      "t": "Blockade Runner (USA)",
+      "y": "1984",
+      "m": "Interphase"
     },
     "cv_bdash": {
       "parent": null,
@@ -236,7 +308,10 @@
           "n": "Boulder Dash (USA)(1984)(Telegames).rom",
           "c": "9b547ba8"
         }
-      ]
+      ],
+      "t": "Boulder Dash (USA)",
+      "y": "1984",
+      "m": "Telegames"
     },
     "cv_bdashp": {
       "parent": "cv_bdash",
@@ -245,7 +320,10 @@
           "n": "Boulder Dash (USA, Proto)(1984)(Micro Fun).rom",
           "c": "1796de5e"
         }
-      ]
+      ],
+      "t": "Boulder Dash (USA, Prototype)",
+      "y": "1984",
+      "m": "Micro Fun"
     },
     "cv_brainstr": {
       "parent": null,
@@ -254,7 +332,10 @@
           "n": "Brain Strainers (USA)(1984)(Coleco).rom",
           "c": "829c967d"
         }
-      ]
+      ],
+      "t": "Brain Strainers (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_buckrog": {
       "parent": null,
@@ -263,7 +344,10 @@
           "n": "Buck Rogers - Planet of Zoom (USA, Euro)(1983)(Coleco).rom",
           "c": "00b37475"
         }
-      ]
+      ],
+      "t": "Buck Rogers: Planet of Zoom (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_bnj": {
       "parent": null,
@@ -272,7 +356,10 @@
           "n": "Bump 'n' Jump (USA, Euro)(1984)(Coleco).rom",
           "c": "9e1fab59"
         }
-      ]
+      ],
+      "t": "Bump 'n' Jump (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_bnjp": {
       "parent": "cv_bnj",
@@ -281,7 +368,10 @@
           "n": "Bump 'n' Jump (USA, Proto)(1983)(Mattel Electronics).rom",
           "c": "eb498f97"
         }
-      ]
+      ],
+      "t": "Bump 'n' Jump (USA, Prototype)",
+      "y": "1983",
+      "m": "Mattel Electronics"
     },
     "cv_btime": {
       "parent": null,
@@ -290,7 +380,10 @@
           "n": "BurgerTime (USA, Euro)(1984)(Coleco).rom",
           "c": "91346341"
         }
-      ]
+      ],
+      "t": "BurgerTime (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_btimem": {
       "parent": "cv_btime",
@@ -299,7 +392,10 @@
           "n": "BurgerTime (USA, Proto)(1983)(Mattel Electronics).rom",
           "c": "e5c5ea20"
         }
-      ]
+      ],
+      "t": "BurgerTime (USA, Prototype)",
+      "y": "1983",
+      "m": "Mattel Electronics"
     },
     "cv_cabbage": {
       "parent": null,
@@ -308,7 +404,10 @@
           "n": "Cabbage Patch Kids - Adventures in the Park (USA, Euro)(1984)(Coleco - Konami).rom",
           "c": "6af19e75"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids: Adventure in the Park (USA. Euro)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_cabbagep1": {
       "parent": "cv_cabbage",
@@ -317,7 +416,10 @@
           "n": "Cabbage Patch Kids - Adventures in the Park (USA, Proto 1)(1984)(Coleco - Konami).rom",
           "c": "beacbff5"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids: Adventure in the Park (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_cabbagep2": {
       "parent": "cv_cabbage",
@@ -326,7 +428,10 @@
           "n": "Cabbage Patch Kids - Adventures in the Park (USA, Proto 2)(1984)(Coleco - Konami).rom",
           "c": "5da13dfd"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids: Adventure in the Park (USA, Prototype, Alt)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_cabbshow": {
       "parent": null,
@@ -335,7 +440,10 @@
           "n": "Cabbage Patch Kids - Picture Show (USA)(1984)(Coleco).rom",
           "c": "75b08d99"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids: Picture Show (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_campaign": {
       "parent": null,
@@ -344,7 +452,10 @@
           "n": "Campaign '84 (USA)(1983)(Sunrise Software).rom",
           "c": "5aa22d66"
         }
-      ]
+      ],
+      "t": "Campaign '84 (USA)",
+      "y": "1983",
+      "m": "Sunrise Software"
     },
     "cv_carnival": {
       "parent": null,
@@ -353,7 +464,10 @@
           "n": "Carnival (USA, Euro)(1982)(Coleco).rom",
           "c": "70f315c2"
         }
-      ]
+      ],
+      "t": "Carnival (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_castelo": {
       "parent": null,
@@ -362,7 +476,10 @@
           "n": "Castelo (Brazil)(Unl)(1985)(Splice Vision).rom",
           "c": "07a3d3db"
         }
-      ]
+      ],
+      "t": "Castelo (Brazil) (Unl)",
+      "y": "1985",
+      "m": "Splice Vision"
     },
     "cv_centiped": {
       "parent": null,
@@ -371,7 +488,10 @@
           "n": "Centipede (USA)(1983)(Atarisoft).rom",
           "c": "17edbfd4"
         }
-      ]
+      ],
+      "t": "Centipede (USA)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_choplift": {
       "parent": null,
@@ -380,7 +500,10 @@
           "n": "Choplifter! (USA)(1984)(Coleco).rom",
           "c": "030e0d48"
         }
-      ]
+      ],
+      "t": "Choplifter! (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_chucknor": {
       "parent": null,
@@ -389,7 +512,10 @@
           "n": "Chuck Norris Superkicks (USA)(1983)(Xonox).rom",
           "c": "5eeb81de"
         }
-      ]
+      ],
+      "t": "Chuck Norris Superkicks (USA)",
+      "y": "1983",
+      "m": "Xonox"
     },
     "cv_congo": {
       "parent": null,
@@ -398,7 +524,10 @@
           "n": "Congo Bongo (USA)(1984)(Coleco).rom",
           "c": "4e8b4c1d"
         }
-      ]
+      ],
+      "t": "Congo Bongo (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_cavenger": {
       "parent": null,
@@ -407,7 +536,10 @@
           "n": "Cosmic Avenger (USA, Euro)(1982)(Coleco).rom",
           "c": "39d4215b"
         }
-      ]
+      ],
+      "t": "Cosmic Avenger (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_cavengera": {
       "parent": "cv_cavenger",
@@ -416,7 +548,10 @@
           "n": "Cosmic Avenger (USA, Alt)(1982)(Coleco).rom",
           "c": "14d6ced6"
         }
-      ]
+      ],
+      "t": "Cosmic Avenger (USA, Alt)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_ccrisis": {
       "parent": null,
@@ -425,7 +560,10 @@
           "n": "Cosmic Crisis (Euro)(1983)(Bit Corporation).rom",
           "c": "7c2c7c41"
         }
-      ]
+      ],
+      "t": "Cosmic Crisis (Euro)",
+      "y": "1983",
+      "m": "Bit Corporation"
     },
     "cv_dambust": {
       "parent": null,
@@ -434,7 +572,10 @@
           "n": "Dam Busters, The (USA)(1984)(Coleco - Sydney).rom",
           "c": "890682b3"
         }
-      ]
+      ],
+      "t": "Dam Busters, The (USA)",
+      "y": "1984",
+      "m": "Coleco - Sydney Dev."
     },
     "cv_dambustca": {
       "parent": "cv_dambust",
@@ -443,7 +584,10 @@
           "n": "Dam Busters, The (Canada)(1984)(Sydney).rom",
           "c": "c75fad5a"
         }
-      ]
+      ],
+      "t": "Dam Busters, The (Canada)",
+      "y": "1984",
+      "m": "Sydney Dev."
     },
     "cv_dncfntsy": {
       "parent": null,
@@ -452,7 +596,10 @@
           "n": "Dance Fantasy (USA)(1984)(Fisher-Price).rom",
           "c": "bff86a98"
         }
-      ]
+      ],
+      "t": "Dance Fantasy (USA)",
+      "y": "1984",
+      "m": "Fisher-Price"
     },
     "cv_decathln": {
       "parent": null,
@@ -461,7 +608,10 @@
           "n": "Decathlon (USA)(1984)(Activision).rom",
           "c": "51fe49c8"
         }
-      ]
+      ],
+      "t": "Decathlon (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_defender": {
       "parent": null,
@@ -470,7 +620,10 @@
           "n": "Defender (USA)(1983)(Atarisoft).rom",
           "c": "6cf594e5"
         }
-      ]
+      ],
+      "t": "Defender (USA)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_defenderfix": {
       "parent": "cv_defender",
@@ -479,7 +632,10 @@
           "n": "Defender - Bug Fixed (USA)(1983)(Atarisoft).rom",
           "c": "46a909cc"
         }
-      ]
+      ],
+      "t": "Defender [Bug Fixed] (USA)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_destruct": {
       "parent": null,
@@ -488,7 +644,10 @@
           "n": "Destructor (USA, Euro)(1984)(Coleco).rom",
           "c": "56c358a6"
         }
-      ]
+      ],
+      "t": "Destructor (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_digdug": {
       "parent": null,
@@ -497,7 +656,10 @@
           "n": "Dig Dug (USA, Proto)(1984)(Atarisoft).rom",
           "c": "1038e0a1"
         }
-      ]
+      ],
+      "t": "Dig Dug (USA, Prototype)",
+      "y": "1984",
+      "m": "Atarisoft"
     },
     "cv_dkonga": {
       "parent": "cv_dkong",
@@ -506,7 +668,10 @@
           "n": "Donkey Kong (USA)(1982)(Coleco).rom",
           "c": "94c4cd4a"
         }
-      ]
+      ],
+      "t": "Donkey Kong (USA)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_dkong": {
       "parent": null,
@@ -515,7 +680,10 @@
           "n": "Donkey Kong v1.1 (USA, Euro)(1982)(Coleco).rom",
           "c": "3c77198c"
         }
-      ]
+      ],
+      "t": "Donkey Kong (USA, Euro, v1.1)",
+      "y": "1982",
+      "m": "Coleco - Nintendo"
     },
     "cv_dkongjr": {
       "parent": null,
@@ -524,7 +692,10 @@
           "n": "Donkey Kong Junior (USA, Euro)(1983)(Coleco).rom",
           "c": "fd11508d"
         }
-      ]
+      ],
+      "t": "Donkey Kong Junior (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco - Nintendo"
     },
     "cv_drgnfire": {
       "parent": null,
@@ -533,7 +704,10 @@
           "n": "Dragonfire (USA)(1984)(Imagic).rom",
           "c": "dcb8f9e8"
         }
-      ]
+      ],
+      "t": "Dragonfire (USA)",
+      "y": "1984",
+      "m": "Imagic"
     },
     "cv_drseuss": {
       "parent": null,
@@ -542,7 +716,10 @@
           "n": "Dr. Seuss's Fix-Up the Mix-Up Puzzler (USA)(1984)(Coleco).rom",
           "c": "109699e2"
         }
-      ]
+      ],
+      "t": "Dr. Seuss's Fix-Up the Mix-Up Puzzler (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_hazzard": {
       "parent": null,
@@ -551,7 +728,10 @@
           "n": "Dukes of Hazzard, The (USA)(1984)(Coleco).rom",
           "c": "4025ac94"
         }
-      ]
+      ],
+      "t": "Dukes of Hazzard, The (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_enerquiz": {
       "parent": null,
@@ -560,7 +740,10 @@
           "n": "Energy Quiz (Canada, Proto)(1983)(Sydney).rom",
           "c": "afb90dcd"
         }
-      ]
+      ],
+      "t": "Energy Quiz (Canada, Prototype)",
+      "y": "1983",
+      "m": "Sydney Dev."
     },
     "cv_mindmstr": {
       "parent": null,
@@ -569,7 +752,10 @@
           "n": "Escape from the Mindmaster (USA, Proto)(1983)(Epyx).rom",
           "c": "3678ab6f"
         }
-      ]
+      ],
+      "t": "Escape from the Mindmaster (USA, Prototype)",
+      "y": "1983",
+      "m": "Epyx"
     },
     "cv_evolutio": {
       "parent": null,
@@ -578,7 +764,10 @@
           "n": "Evolution (USA, Canada)(1983)(Sydney).rom",
           "c": "4cd4e185"
         }
-      ]
+      ],
+      "t": "Evolution (USA, Canada)",
+      "y": "1983",
+      "m": "Sydney Dev."
     },
     "cv_facemakr": {
       "parent": null,
@@ -587,7 +776,10 @@
           "n": "Facemaker (USA)(1983)(Spinnaker Software).rom",
           "c": "ec9dfb07"
         }
-      ]
+      ],
+      "t": "Facemaker (USA)",
+      "y": "1983",
+      "m": "Spinnaker Software"
     },
     "cv_fallguy": {
       "parent": null,
@@ -596,7 +788,10 @@
           "n": "Fall Guy (USA, Proto)(1983)(Fox Video Games).rom",
           "c": "8a731b38"
         }
-      ]
+      ],
+      "t": "Fall Guy (USA, Prototype)",
+      "y": "1983",
+      "m": "Fox Video Games"
     },
     "cv_fathom": {
       "parent": null,
@@ -605,7 +800,10 @@
           "n": "Fathom (USA)(1983)(Imagic).rom",
           "c": "b3b767ae"
         }
-      ]
+      ],
+      "t": "Fathom (USA)",
+      "y": "1983",
+      "m": "Imagic"
     },
     "cv_fireman": {
       "parent": null,
@@ -614,7 +812,10 @@
           "n": "Fireman (USA)(1984)(Coleco).rom",
           "c": "64ec761e"
         }
-      ]
+      ],
+      "t": "Fireman (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_flipslip": {
       "parent": null,
@@ -623,7 +824,10 @@
           "n": "Flipper Slipper (USA, Euro)(1983)(Spectravideo).rom",
           "c": "2a49f507"
         }
-      ]
+      ],
+      "t": "Flipper Slipper (USA, Euro)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_fortune": {
       "parent": null,
@@ -632,7 +836,10 @@
           "n": "Fortune Builder (USA)(1984)(Coleco).rom",
           "c": "65bbbcb4"
         }
-      ]
+      ],
+      "t": "Fortune Builder (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_fracfevr": {
       "parent": null,
@@ -641,7 +848,10 @@
           "n": "Fraction Fever (USA)(1983)(Spinnaker Software).rom",
           "c": "964db3bc"
         }
-      ]
+      ],
+      "t": "Fraction Fever (USA)",
+      "y": "1983",
+      "m": "Spinnaker Software"
     },
     "cv_ffreddy": {
       "parent": null,
@@ -650,7 +860,10 @@
           "n": "Frantic Freddy (USA)(1983)(Spectravideo).rom",
           "c": "8615c6e8"
         }
-      ]
+      ],
+      "t": "Frantic Freddy (USA)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_frenzy": {
       "parent": null,
@@ -659,7 +872,10 @@
           "n": "Frenzy (USA)(1983)(Coleco).rom",
           "c": "3cacddfb"
         }
-      ]
+      ],
+      "t": "Frenzy (USA)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_frenzya": {
       "parent": "cv_frenzy",
@@ -668,7 +884,10 @@
           "n": "Frenzy (USA, Alt 1)(1983)(Coleco).rom",
           "c": "960616af"
         }
-      ]
+      ],
+      "t": "Frenzy (USA, Alt 1)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_frenzya2": {
       "parent": "cv_frenzy",
@@ -677,7 +896,10 @@
           "n": "Frenzy (USA, Alt 2)(1983)(Coleco).rom",
           "c": "bf1ccf04"
         }
-      ]
+      ],
+      "t": "Frenzy (USA, Alt 2)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_frogger": {
       "parent": null,
@@ -686,7 +908,10 @@
           "n": "Frogger (USA)(1983)(Parker Brothers).rom",
           "c": "798002a2"
         }
-      ]
+      ],
+      "t": "Frogger (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_frogger2": {
       "parent": null,
@@ -695,7 +920,10 @@
           "n": "Frogger II - ThreeeDeep! (USA)(1984)(Parker Brothers).rom",
           "c": "4229ea5a"
         }
-      ]
+      ],
+      "t": "Frogger II: Threedeep! (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_frontlin": {
       "parent": null,
@@ -704,7 +932,10 @@
           "n": "Front Line (USA)(1983)(Coleco).rom",
           "c": "d0110137"
         }
-      ]
+      ],
+      "t": "Front Line (USA)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_frontlina": {
       "parent": "cv_frontlin",
@@ -713,7 +944,10 @@
           "n": "Front Line (USA, Alt)(1983)(Coleco).rom",
           "c": "9c551386"
         }
-      ]
+      ],
+      "t": "Front Line (USA, Alt)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_galaxian": {
       "parent": null,
@@ -722,7 +956,10 @@
           "n": "Galaxian (USA)(1983)(Atarisoft).rom",
           "c": "fe1d0b6a"
         }
-      ]
+      ],
+      "t": "Galaxian (USA)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_galaxiana": {
       "parent": "cv_galaxian",
@@ -731,7 +968,10 @@
           "n": "Galaxian (USA, Alt)(1983)(Atarisoft).rom",
           "c": "987bc7ac"
         }
-      ]
+      ],
+      "t": "Galaxian (USA, Alt)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_apshai": {
       "parent": null,
@@ -740,7 +980,10 @@
           "n": "Gateway to Apshai (USA, Euro)(1984)(Epyx).rom",
           "c": "fdb75be6"
         }
-      ]
+      ],
+      "t": "Gateway to Apshai (USA, Euro)",
+      "y": "1984",
+      "m": "Epyx"
     },
     "cv_gorf": {
       "parent": null,
@@ -749,7 +992,10 @@
           "n": "Gorf (USA, Euro)(1983)(Coleco).rom",
           "c": "ff46becc"
         }
-      ]
+      ],
+      "t": "Gorf (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_gustbust": {
       "parent": null,
@@ -758,7 +1004,10 @@
           "n": "Gust Buster (USA)(1983)(Sunrise Software).rom",
           "c": "29fea563"
         }
-      ]
+      ],
+      "t": "Gust Buster (USA)",
+      "y": "1983",
+      "m": "Sunrise Software"
     },
     "cv_gyruss": {
       "parent": null,
@@ -767,7 +1016,10 @@
           "n": "Gyruss (USA)(1984)(Parker Brothers).rom",
           "c": "27cbf26d"
         }
-      ]
+      ],
+      "t": "Gyruss (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_gyrussp": {
       "parent": "cv_gyruss",
@@ -776,7 +1028,10 @@
           "n": "Gyruss (USA, Proto)(1984)(Parker Brothers).rom",
           "c": "b35d4dc9"
         }
-      ]
+      ],
+      "t": "Gyruss (USA, Prototype)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_hero": {
       "parent": null,
@@ -785,7 +1040,10 @@
           "n": "H.E.R.O. - Helicopter Emergency Rescue Operation (USA)(1984)(Activision).rom",
           "c": "685ab9b5"
         }
-      ]
+      ],
+      "t": "H.E.R.O. - Helicopter Emergency Rescue Operation (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_heist": {
       "parent": null,
@@ -794,7 +1052,10 @@
           "n": "Heist, The (USA)(1983)(Micro Fun).rom",
           "c": "6f2e2d84"
         }
-      ]
+      ],
+      "t": "Heist, The (USA)",
+      "y": "1983",
+      "m": "Micro Fun"
     },
     "cv_illusion": {
       "parent": null,
@@ -803,7 +1064,10 @@
           "n": "Illusions (USA)(1984)(Nice Ideas).rom",
           "c": "2787516d"
         }
-      ]
+      ],
+      "t": "Illusions (USA)",
+      "y": "1984",
+      "m": "Nice Ideas"
     },
     "cv_onlyrock": {
       "parent": null,
@@ -812,7 +1076,10 @@
           "n": "It's Only Rock 'N' Roll (USA)(1984)(K-Tel).rom",
           "c": "cc43ebf7"
         }
-      ]
+      ],
+      "t": "It's Only Rock 'n' Roll (USA)",
+      "y": "1984",
+      "m": "K-Tel"
     },
     "cv_jbond": {
       "parent": null,
@@ -821,7 +1088,10 @@
           "n": "James Bond 007 (USA)(1984)(Parker Brothers).rom",
           "c": "561f2530"
         }
-      ]
+      ],
+      "t": "James Bond 007 (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_joust": {
       "parent": null,
@@ -830,7 +1100,10 @@
           "n": "Joust (USA, Proto)(1983)(Atarisoft).rom",
           "c": "52228000"
         }
-      ]
+      ],
+      "t": "Joust (USA, Prototype)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_jukebox": {
       "parent": null,
@@ -839,7 +1112,10 @@
           "n": "Jukebox (USA)(1984)(Spinnaker Software).rom",
           "c": "a5511418"
         }
-      ]
+      ],
+      "t": "Juke Box (USA)",
+      "y": "1984",
+      "m": "Spinnaker Software"
     },
     "cv_jmpmanjr": {
       "parent": null,
@@ -848,7 +1124,10 @@
           "n": "Jumpman Junior (USA, Euro)(1984)(Epyx).rom",
           "c": "060c69e8"
         }
-      ]
+      ],
+      "t": "Jumpman Junior (USA, Euro)",
+      "y": "1984",
+      "m": "Epyx"
     },
     "cv_jmpmanjra": {
       "parent": "cv_jmpmanjr",
@@ -857,7 +1136,10 @@
           "n": "Jumpman Junior (USA, Alt)(1984)(Epyx).rom",
           "c": "9528949a"
         }
-      ]
+      ],
+      "t": "Jumpman Junior (USA, Alt)",
+      "y": "1984",
+      "m": "Epyx"
     },
     "cv_jungleh": {
       "parent": null,
@@ -866,7 +1148,10 @@
           "n": "Jungle Hunt (USA)(1983)(Atarisoft).rom",
           "c": "58e886d2"
         }
-      ]
+      ],
+      "t": "Jungle Hunt (USA)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_kubjpok": {
       "parent": null,
@@ -875,7 +1160,10 @@
           "n": "Ken Uston Blackjack-Poker (USA, Euro)(1983)(Coleco).rom",
           "c": "8c7b7803"
         }
-      ]
+      ],
+      "t": "Ken Uston Blackjack-Poker (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_keykaper": {
       "parent": null,
@@ -884,7 +1172,10 @@
           "n": "Keystone Kapers (USA)(1984)(Activision).rom",
           "c": "69fc2966"
         }
-      ]
+      ],
+      "t": "Keystone Kapers (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_ladybug": {
       "parent": null,
@@ -893,7 +1184,10 @@
           "n": "Lady Bug (USA, Euro)(1982)(Coleco).rom",
           "c": "2c3097b8"
         }
-      ]
+      ],
+      "t": "Lady Bug (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_leeper": {
       "parent": null,
@@ -902,7 +1196,10 @@
           "n": "Learning with Leeper (USA)(1983)(Sierra On-Line).rom",
           "c": "1641044f"
         }
-      ]
+      ],
+      "t": "Learning with Leeper (USA)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_linklogc": {
       "parent": null,
@@ -911,7 +1208,10 @@
           "n": "Linking Logic (USA)(1984)(Fisher-Price).rom",
           "c": "918f12c0"
         }
-      ]
+      ],
+      "t": "Linking Logic (USA)",
+      "y": "1984",
+      "m": "Fisher-Price"
     },
     "cv_logiclvl": {
       "parent": null,
@@ -920,7 +1220,10 @@
           "n": "Logic Levels (USA)(1984)(Fisher-Price).rom",
           "c": "d54c581b"
         }
-      ]
+      ],
+      "t": "Logic Levels (USA)",
+      "y": "1984",
+      "m": "Fisher-Price"
     },
     "cv_looping": {
       "parent": null,
@@ -929,7 +1232,10 @@
           "n": "Looping (USA, Euro)(1983)(Coleco).rom",
           "c": "6a2d637b"
         }
-      ]
+      ],
+      "t": "Looping (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_mash": {
       "parent": null,
@@ -938,7 +1244,10 @@
           "n": "M.A.S.H (Euro, Proto)(1983)(Fox Video Games).rom",
           "c": "fc95b302"
         }
-      ]
+      ],
+      "t": "M*A*S*H (Euro, Prototype)",
+      "y": "1983",
+      "m": "Fox Video Games"
     },
     "cv_mastersp": {
       "parent": "cv_masters",
@@ -947,7 +1256,10 @@
           "n": "Masters of the Universe - The Power of He-Man (USA, Proto)(1983)(Mattel Electronics).rom",
           "c": "2277f82b"
         }
-      ]
+      ],
+      "t": "Masters of the Universe: The Power of He-Man (USA, Prototype)",
+      "y": "1983",
+      "m": "Mattel Electronics"
     },
     "cv_memmanor": {
       "parent": null,
@@ -956,7 +1268,10 @@
           "n": "Memory Manor (USA)(1984)(Fisher-Price).rom",
           "c": "bab520ea"
         }
-      ]
+      ],
+      "t": "Memory Manor (USA)",
+      "y": "1984",
+      "m": "Fisher-Price"
     },
     "cv_memmanora": {
       "parent": "cv_memmanor",
@@ -965,7 +1280,10 @@
           "n": "Memory Manor (USA, Alt)(1984)(Fisher-Price).rom",
           "c": "861c9825"
         }
-      ]
+      ],
+      "t": "Memory Manor (USA, Alt)",
+      "y": "1984",
+      "m": "Fisher-Price"
     },
     "cv_meteosho": {
       "parent": null,
@@ -974,7 +1292,10 @@
           "n": "Meteoric Shower (USA)(1983)(Bit Corporation).rom",
           "c": "3beffc06"
         }
-      ]
+      ],
+      "t": "Meteoric Shower (USA)",
+      "y": "1983",
+      "m": "Bit Corporation"
     },
     "cv_meteoshoa": {
       "parent": "cv_meteosho",
@@ -983,7 +1304,10 @@
           "n": "Meteoric Shower (Euro)(1983)(Bit Corporation).rom",
           "c": "e51f464f"
         }
-      ]
+      ],
+      "t": "Meteoric Shower (Euro)",
+      "y": "1983",
+      "m": "Bit Corporation"
     },
     "cv_mine2049": {
       "parent": null,
@@ -992,7 +1316,10 @@
           "n": "Miner 2049er v1.1 (USA, Euro)(1983)(Micro Fun).rom",
           "c": "b24f10fd"
         }
-      ]
+      ],
+      "t": "Miner 2049er (USA, Euro, v1.1)",
+      "y": "1983",
+      "m": "Micro Fun"
     },
     "cv_mine2049a": {
       "parent": "cv_mine2049",
@@ -1001,7 +1328,10 @@
           "n": "Miner 2049er (USA, Euro)(1983)(Micro Fun).rom",
           "c": "f37af58c"
         }
-      ]
+      ],
+      "t": "Miner 2049er (USA, Euro)",
+      "y": "1983",
+      "m": "Micro Fun"
     },
     "cv_monkey": {
       "parent": null,
@@ -1010,7 +1340,10 @@
           "n": "Monkey Academy (USA)(1984)(Coleco - Konami).rom",
           "c": "d92b09c8"
         }
-      ]
+      ],
+      "t": "Monkey Academy (USA)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_monkeyp": {
       "parent": "cv_monkey",
@@ -1019,7 +1352,10 @@
           "n": "Monkey Academy (USA, Proto)(1984)(Konami).rom",
           "c": "d1e8df85"
         }
-      ]
+      ],
+      "t": "Monkey Academy (USA, Prototype)",
+      "y": "1984",
+      "m": "Konami"
     },
     "cv_montezum": {
       "parent": null,
@@ -1028,7 +1364,10 @@
           "n": "Montezuma's Revenge (USA)(1984)(Parker Brothers).rom",
           "c": "ced0d16e"
         }
-      ]
+      ],
+      "t": "Montezuma's Revenge (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_montezuma": {
       "parent": "cv_montezum",
@@ -1037,7 +1376,10 @@
           "n": "Montezuma's Revenge (USA, Alt)(1984)(Parker Brothers).rom",
           "c": "0bd9d073"
         }
-      ]
+      ],
+      "t": "Montezuma's Revenge (USA, Alt)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_mpatrol": {
       "parent": null,
@@ -1046,7 +1388,10 @@
           "n": "Moon Patrol (USA)(1984)(Atarisoft).rom",
           "c": "6a672443"
         }
-      ]
+      ],
+      "t": "Moon Patrol (USA)",
+      "y": "1984",
+      "m": "Atarisoft"
     },
     "cv_mpatrolp": {
       "parent": "cv_mpatrol",
@@ -1055,7 +1400,10 @@
           "n": "Matt Patrol (USA, Proto)(1984)(Selma).rom",
           "c": "fbe12de7"
         }
-      ]
+      ],
+      "t": "Matt Patrol (USA, Prototype)",
+      "y": "1984",
+      "m": "Selma"
     },
     "cv_moonswpr": {
       "parent": null,
@@ -1064,7 +1412,10 @@
           "n": "Moonsweeper (USA, Euro)(1983)(Imagic).rom",
           "c": "8a303f5a"
         }
-      ]
+      ],
+      "t": "Moonsweeper (USA, Euro)",
+      "y": "1983",
+      "m": "Imagic"
     },
     "cv_moonswpra": {
       "parent": "cv_moonswpr",
@@ -1073,7 +1424,10 @@
           "n": "Moonsweeper (USA, Alt)(1983)(Imagic).rom",
           "c": "c521bcad"
         }
-      ]
+      ],
+      "t": "Moonsweeper (USA, Alt)",
+      "y": "1983",
+      "m": "Imagic"
     },
     "cv_mtcracer": {
       "parent": null,
@@ -1082,7 +1436,10 @@
           "n": "Motocross Racer (USA)(1984)(Xonox).rom",
           "c": "935ebe62"
         }
-      ]
+      ],
+      "t": "Motocross Racer (USA)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_mtcracera": {
       "parent": "cv_mtcracer",
@@ -1091,7 +1448,10 @@
           "n": "Motocross Racer (USA, Alt)(1984)(Xonox).rom",
           "c": "0f4d800a"
         }
-      ]
+      ],
+      "t": "Motocross Racer (USA, Alt)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_mking": {
       "parent": null,
@@ -1100,7 +1460,10 @@
           "n": "Mountain King (USA)(1984)(Sunrise Software).rom",
           "c": "d8d73246"
         }
-      ]
+      ],
+      "t": "Mountain King (USA)",
+      "y": "1984",
+      "m": "Sunrise Software"
     },
     "cv_mkinga": {
       "parent": "cv_mking",
@@ -1109,7 +1472,10 @@
           "n": "Mountain King (USA, Alt)(1984)(Sunrise Software).rom",
           "c": "c173bbec"
         }
-      ]
+      ],
+      "t": "Mountain King (USA, Alt)",
+      "y": "1984",
+      "m": "Sunrise Software"
     },
     "cv_mtrap": {
       "parent": null,
@@ -1118,7 +1484,10 @@
           "n": "Mousetrap (USA)(1982)(Coleco).rom",
           "c": "de47c29f"
         }
-      ]
+      ],
+      "t": "Mousetrap (USA)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_mtrapa": {
       "parent": "cv_mtrap",
@@ -1127,7 +1496,10 @@
           "n": "Mousetrap (USA, Alt)(1982)(Coleco).rom",
           "c": "fd8b79b3"
         }
-      ]
+      ],
+      "t": "Mousetrap (USA, Alt)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_mrdo": {
       "parent": null,
@@ -1136,7 +1508,10 @@
           "n": "Mr. Do! (USA, Euro)(1983)(Coleco).rom",
           "c": "461ab6ad"
         }
-      ]
+      ],
+      "t": "Mr. Do! (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_mrdoa": {
       "parent": "cv_mrdo",
@@ -1145,7 +1520,10 @@
           "n": "Mr. Do! (USA, Alt)(1983)(Coleco).rom",
           "c": "d53e4bdf"
         }
-      ]
+      ],
+      "t": "Mr. Do! (USA, Alt)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_docastle": {
       "parent": null,
@@ -1154,7 +1532,10 @@
           "n": "Mr. Do!'s Castle (USA)(1983)(Parker Brothers).rom",
           "c": "546f2c54"
         }
-      ]
+      ],
+      "t": "Mr. Do!'s Castle (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_docastlea": {
       "parent": "cv_docastle",
@@ -1163,7 +1544,10 @@
           "n": "Mr. Do!'s Castle (USA, Alt)(1983)(Parker Brothers).rom",
           "c": "ef7e9562"
         }
-      ]
+      ],
+      "t": "Mr. Do!'s Castle (USA, Alt)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_novablst": {
       "parent": null,
@@ -1172,7 +1556,10 @@
           "n": "Nova Blast (USA, Euro)(1983)(Imagic).rom",
           "c": "4491a35b"
         }
-      ]
+      ],
+      "t": "Nova Blast (USA, Euro)",
+      "y": "1983",
+      "m": "Imagic"
     },
     "cv_oilswell": {
       "parent": null,
@@ -1181,7 +1568,10 @@
           "n": "Oil's Well (USA)(1984)(Sierra On-Line).rom",
           "c": "add10242"
         }
-      ]
+      ],
+      "t": "Oil's Well (USA)",
+      "y": "1984",
+      "m": "Sierra On-Line"
     },
     "cv_oilswella": {
       "parent": "cv_oilswell",
@@ -1190,7 +1580,10 @@
           "n": "Oil's Well (USA, Alt)(1984)(Sierra On-Line).rom",
           "c": "d2256b6c"
         }
-      ]
+      ],
+      "t": "Oil's Well (USA, Alt)",
+      "y": "1984",
+      "m": "Sierra On-Line"
     },
     "cv_omegrace": {
       "parent": null,
@@ -1199,7 +1592,10 @@
           "n": "Omega Race (USA, Euro)(1983)(Coleco).rom",
           "c": "0a0511c7"
         }
-      ]
+      ],
+      "t": "Omega Race (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_1on1": {
       "parent": null,
@@ -1208,7 +1604,10 @@
           "n": "One on One (USA)(1984)(Micro Fun).rom",
           "c": "17c77c3a"
         }
-      ]
+      ],
+      "t": "One on One (USA)",
+      "y": "1984",
+      "m": "Micro Fun"
     },
     "cv_orbit": {
       "parent": null,
@@ -1217,7 +1616,10 @@
           "n": "Orbit (USA, Proto)(1983)(Parker Brothers).rom",
           "c": "2cc6f4aa"
         }
-      ]
+      ],
+      "t": "Orbit (USA, Prototype)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_pacman": {
       "parent": null,
@@ -1226,7 +1628,10 @@
           "n": "Pac-Man (USA, Proto)(1983)(Atarisoft).rom",
           "c": "a40a07e8"
         }
-      ]
+      ],
+      "t": "Pac-Man (USA, Prototype)",
+      "y": "1983",
+      "m": "Atarisoft"
     },
     "cv_pepper2": {
       "parent": null,
@@ -1235,7 +1640,10 @@
           "n": "Pepper II (USA, Euro)(1983)(Coleco).rom",
           "c": "53b85e20"
         }
-      ]
+      ],
+      "t": "Pepper II (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_pitfall": {
       "parent": null,
@@ -1244,7 +1652,10 @@
           "n": "Pitfall! (USA)(1983)(Activision).rom",
           "c": "d4f180df"
         }
-      ]
+      ],
+      "t": "Pitfall! (USA)",
+      "y": "1983",
+      "m": "Activision"
     },
     "cv_pitfall2": {
       "parent": null,
@@ -1253,7 +1664,10 @@
           "n": "Pitfall II - Lost Caverns (USA)(1984)(Activision).rom",
           "c": "851a455f"
         }
-      ]
+      ],
+      "t": "Pitfall II: Lost Caverns (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_pitstop": {
       "parent": null,
@@ -1262,7 +1676,10 @@
           "n": "Pitstop (USA)(1983)(Epyx).rom",
           "c": "e627fcf0"
         }
-      ]
+      ],
+      "t": "Pitstop (USA)",
+      "y": "1983",
+      "m": "Epyx"
     },
     "cv_pitstopa": {
       "parent": "cv_pitstop",
@@ -1271,7 +1688,10 @@
           "n": "Pitstop (USA, Euro)(1983)(Epyx).rom",
           "c": "81be4f55"
         }
-      ]
+      ],
+      "t": "Pitstop (USA, Euro)",
+      "y": "1983",
+      "m": "Epyx"
     },
     "cv_popeye": {
       "parent": null,
@@ -1280,7 +1700,10 @@
           "n": "Popeye (USA)(1983)(Parker Brothers).rom",
           "c": "a095454d"
         }
-      ]
+      ],
+      "t": "Popeye (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_popeyea": {
       "parent": "cv_popeye",
@@ -1289,7 +1712,10 @@
           "n": "Popeye (USA, Alt)(1983)(Parker Brothers).rom",
           "c": "3ef1d0ee"
         }
-      ]
+      ],
+      "t": "Popeye (USA, Alt)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_porkys": {
       "parent": null,
@@ -1298,7 +1724,10 @@
           "n": "Porky's (USA, Proto)(1983)(Fox Video Games).rom",
           "c": "46fc1c00"
         }
-      ]
+      ],
+      "t": "Porky's (USA, Prototype)",
+      "y": "1983",
+      "m": "Fox Video Games"
     },
     "cv_power": {
       "parent": null,
@@ -1307,7 +1736,10 @@
           "n": "Power Lords - Quest for Volcan (USA, Proto)(1983)(Strongin-Mayem).rom",
           "c": "caa61d8d"
         }
-      ]
+      ],
+      "t": "Power Lords: Quest for Volcan (USA, Prototype)",
+      "y": "1984",
+      "m": "Strongin-Mayem"
     },
     "cv_qbert": {
       "parent": null,
@@ -1316,7 +1748,10 @@
           "n": "Qbert (USA)(1983)(Parker Brothers).rom",
           "c": "532f61ba"
         }
-      ]
+      ],
+      "t": "Q*bert (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_qberta": {
       "parent": "cv_qbert",
@@ -1325,7 +1760,10 @@
           "n": "Qbert (USA, Alt)(1983)(Parker Brothers).rom",
           "c": "13f06adc"
         }
-      ]
+      ],
+      "t": "Q*bert (USA, Alt)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_qbertqub": {
       "parent": null,
@@ -1334,7 +1772,10 @@
           "n": "Qbert's Qubes (USA)(1984)(Parker Brothers).rom",
           "c": "79d90d26"
         }
-      ]
+      ],
+      "t": "Q*bert Qubes (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_quintana": {
       "parent": null,
@@ -1343,7 +1784,10 @@
           "n": "Quest for Quintana Roo (USA)(1983)(Sunrise Software).rom",
           "c": "2d32b1f0"
         }
-      ]
+      ],
+      "t": "Quest for Quintana Roo (UA)",
+      "y": "1983",
+      "m": "Sunrise Software"
     },
     "cv_quintanaa": {
       "parent": "cv_quintana",
@@ -1352,7 +1796,10 @@
           "n": "Quest for Quintana Roo (USA, Alt)(1983)(Sunrise Software).rom",
           "c": "eec81c42"
         }
-      ]
+      ],
+      "t": "Quest for Quintana Roo (USA, Alt)",
+      "y": "1983",
+      "m": "Sunrise Software"
     },
     "cv_riveraid": {
       "parent": null,
@@ -1361,7 +1808,10 @@
           "n": "River Raid (USA)(1984)(Activision).rom",
           "c": "fe897f9c"
         }
-      ]
+      ],
+      "t": "River Raid (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_robinh": {
       "parent": null,
@@ -1370,7 +1820,10 @@
           "n": "Robin Hood (USA)(1984)(Xonox).rom",
           "c": "cdb8d3cf"
         }
-      ]
+      ],
+      "t": "Robin Hood (USA)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_robinha": {
       "parent": "cv_robinh",
@@ -1379,7 +1832,10 @@
           "n": "Robin Hood (USA, Alt)(1984)(Xonox).rom",
           "c": "0eb45d6e"
         }
-      ]
+      ],
+      "t": "Robin Hood (USA, Alt)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_rocky": {
       "parent": null,
@@ -1388,7 +1844,10 @@
           "n": "Rocky - Super Action Boxing (USA, Euro)(1983)(Coleco).rom",
           "c": "37f144d3"
         }
-      ]
+      ],
+      "t": "Rocky: Super Action Boxing (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_rockbolt": {
       "parent": null,
@@ -1397,7 +1856,10 @@
           "n": "Rock n' Bolt (USA)(1984)(Telegames).rom",
           "c": "522b59b9"
         }
-      ]
+      ],
+      "t": "Rock n' Bolt (USA)",
+      "y": "1984",
+      "m": "Telegames"
     },
     "cv_rockbolta": {
       "parent": "cv_rockbolt",
@@ -1406,7 +1868,10 @@
           "n": "Rock n' Bolt (USA, Alt)(1984)(Telegames).rom",
           "c": "af49a0c3"
         }
-      ]
+      ],
+      "t": "Rock n' Bolt (USA, Alt)",
+      "y": "1984",
+      "m": "Telegames"
     },
     "cv_rocnrope": {
       "parent": null,
@@ -1415,7 +1880,10 @@
           "n": "Roc 'n Rope (USA, Euro)(1984)(Coleco - Konami).rom",
           "c": "af885d76"
         }
-      ]
+      ],
+      "t": "Roc 'n Rope (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco - Konami"
     },
     "cv_rollover": {
       "parent": null,
@@ -1424,7 +1892,10 @@
           "n": "Rolloverture (USA)(1983)(Sunrise Software).rom",
           "c": "0364fb81"
         }
-      ]
+      ],
+      "t": "Rolloverture (USA)",
+      "y": "1983",
+      "m": "Sunrise Software"
     },
     "cv_sammylf": {
       "parent": null,
@@ -1433,7 +1904,10 @@
           "n": "Sammy Lightfoot (USA)(1983)(Sierra On-Line).rom",
           "c": "c5f69a1b"
         }
-      ]
+      ],
+      "t": "Sammy Lightfoot (USA)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_sammylfa": {
       "parent": "cv_sammylf",
@@ -1442,7 +1916,10 @@
           "n": "Sammy Lightfoot (USA, Alt)(1983)(Sierra On-Line).rom",
           "c": "3563286b"
         }
-      ]
+      ],
+      "t": "Sammy Lightfoot (USA, Alt)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_secalpha": {
       "parent": null,
@@ -1451,7 +1928,10 @@
           "n": "Sector Alpha (USA)(1983)(Spectravideo).rom",
           "c": "0ec63a5c"
         }
-      ]
+      ],
+      "t": "Sector Alpha (USA)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_segagalaga": {
       "parent": null,
@@ -1460,7 +1940,10 @@
           "n": "Sega-Galaga (Proto)(1981-83)(Sega - Namco).rom",
           "c": "6139aec7"
         }
-      ]
+      ],
+      "t": "Sega-Galaga (Prototype)",
+      "y": "1981-83",
+      "m": "Sega - Namco"
     },
     "cv_sewersam": {
       "parent": null,
@@ -1469,7 +1952,10 @@
           "n": "Sewer Sam (USA)(1984)(Interphase).rom",
           "c": "4591f393"
         }
-      ]
+      ],
+      "t": "Sewer Sam (USA)",
+      "y": "1984",
+      "m": "Interphase"
     },
     "cv_lancelot": {
       "parent": null,
@@ -1478,7 +1964,10 @@
           "n": "Sir Lancelot (USA)(1983)(Xonox).rom",
           "c": "df84ffb5"
         }
-      ]
+      ],
+      "t": "Sir Lancelot (USA)",
+      "y": "1983",
+      "m": "Xonox"
     },
     "cv_skiing": {
       "parent": null,
@@ -1487,7 +1976,10 @@
           "n": "Skiing (USA)(1986)(Telegames).rom",
           "c": "b37d48bd"
         }
-      ]
+      ],
+      "t": "Skiing (USA)",
+      "y": "1986",
+      "m": "Telegames"
     },
     "cv_slither": {
       "parent": null,
@@ -1496,7 +1988,10 @@
           "n": "Slither (USA, Euro)(1983)(Coleco).rom",
           "c": "53d2651c"
         }
-      ]
+      ],
+      "t": "Slither (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_slurpy": {
       "parent": null,
@@ -1505,7 +2000,10 @@
           "n": "Slurpy (USA)(1984)(Xonox).rom",
           "c": "27f5c0ad"
         }
-      ]
+      ],
+      "t": "Slurpy (USA)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_smurfpnt": {
       "parent": null,
@@ -1514,7 +2012,10 @@
           "n": "Smurf - Paint 'n Play Workshop (USA, Euro)(1983)(Peyo).rom",
           "c": "97c0382d"
         }
-      ]
+      ],
+      "t": "Smurf: Paint 'n Play Workshop (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_smurfpnta": {
       "parent": "cv_smurfpnt",
@@ -1523,7 +2024,10 @@
           "n": "Smurf - Paint 'n Play Workshop (USA, Alt)(1983)(Peyo).rom",
           "c": "176eb9c3"
         }
-      ]
+      ],
+      "t": "Smurf: Paint 'n Play Workshop (USA, Alt)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_smurfply": {
       "parent": null,
@@ -1532,7 +2036,10 @@
           "n": "Smurf Play and Learn (USA, Proto)(1982)(Coleco).rom",
           "c": "9a3b8587"
         }
-      ]
+      ],
+      "t": "Smurf Play and Learn (USA, Prototype)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_smurf": {
       "parent": null,
@@ -1541,7 +2048,10 @@
           "n": "Smurf - Rescue in Gargamel's Castle (USA, Euro)(1982)(Coleco).rom",
           "c": "42850379"
         }
-      ]
+      ],
+      "t": "Smurf: Rescue in Gargamel's Castle (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_smurfa": {
       "parent": "cv_smurf",
@@ -1550,7 +2060,10 @@
           "n": "Smurf - Rescue in Gargamel's Castle (USA, Alt)(1982)(Coleco).rom",
           "c": "d1a1fe0b"
         }
-      ]
+      ],
+      "t": "Smurf: Rescue in Gargamel's Castle (USA, Alt)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_spacfury": {
       "parent": null,
@@ -1559,7 +2072,10 @@
           "n": "Space Fury (USA, Euro)(1983)(Coleco).rom",
           "c": "df8de30f"
         }
-      ]
+      ],
+      "t": "Space Fury (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_panic": {
       "parent": null,
@@ -1568,7 +2084,10 @@
           "n": "Space Panic (USA, Euro)(1983)(Coleco).rom",
           "c": "5bdf2997"
         }
-      ]
+      ],
+      "t": "Space Panic (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_spectron": {
       "parent": null,
@@ -1577,7 +2096,10 @@
           "n": "Spectron (USA)(1983)(Spectravideo).rom",
           "c": "a6401c46"
         }
-      ]
+      ],
+      "t": "Spectron (USA)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_spyhunt": {
       "parent": null,
@@ -1586,7 +2108,10 @@
           "n": "Spy Hunter (USA)(1984)(Coleco).rom",
           "c": "36478923"
         }
-      ]
+      ],
+      "t": "Spy Hunter (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_spyhuntp": {
       "parent": "cv_spyhunt",
@@ -1595,7 +2120,10 @@
           "n": "Spy Hunter (USA, Proto)(1984)(Coleco).rom",
           "c": "1969b9b7"
         }
-      ]
+      ],
+      "t": "Spy Hunter (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_squishem": {
       "parent": null,
@@ -1604,7 +2132,10 @@
           "n": "Squish'em Sam! (USA)(1983)(Interphase).rom",
           "c": "ac92862d"
         }
-      ]
+      ],
+      "t": "Squish'em Sam! (USA)",
+      "y": "1983",
+      "m": "Interphase"
     },
     "cv_starwars": {
       "parent": null,
@@ -1613,7 +2144,10 @@
           "n": "Star Wars - The Arcade Game (USA)(1984)(Parker Brothers).rom",
           "c": "0e75b3bf"
         }
-      ]
+      ],
+      "t": "Star Wars: The Arcade Game (USA)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_starwarsp": {
       "parent": "cv_starwars",
@@ -1622,7 +2156,10 @@
           "n": "Star Wars - The Arcade Game (USA, Proto)(1984)(Parker Brothers).rom",
           "c": "d7febc67"
         }
-      ]
+      ],
+      "t": "Star Wars: The Arcade Game (USA, Prototype)",
+      "y": "1984",
+      "m": "Parker Brothers"
     },
     "cv_startrek": {
       "parent": null,
@@ -1631,7 +2168,10 @@
           "n": "Star Trek - Strategic Operations Simulator (USA)(1984)(Coleco).rom",
           "c": "95824f1e"
         }
-      ]
+      ],
+      "t": "Star Trek: Strategic Operations Simulator (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_startreka": {
       "parent": "cv_startrek",
@@ -1640,7 +2180,10 @@
           "n": "Star Trek - Strategic Operations Simulator (USA, Alt)(1984)(Coleco).rom",
           "c": "aff42aa9"
         }
-      ]
+      ],
+      "t": "Star Trek: Strategic Operations Simulator (USA, Alt)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_steam": {
       "parent": null,
@@ -1649,7 +2192,10 @@
           "n": "Steamroller (USA, Proto)(1984)(Activision).rom",
           "c": "153ac4ef"
         }
-      ]
+      ],
+      "t": "Steamroller (USA, Prototype)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_strikeit": {
       "parent": null,
@@ -1658,7 +2204,10 @@
           "n": "Strike It! (Euro)(1983)(Bit Corporation).rom",
           "c": "d247a1c8"
         }
-      ]
+      ],
+      "t": "Strike It! (Euro)",
+      "y": "1983",
+      "m": "Bit Corporation"
     },
     "cv_subroc": {
       "parent": null,
@@ -1667,7 +2216,10 @@
           "n": "Subroc (USA, Euro)(1983)(Coleco).rom",
           "c": "a417f25f"
         }
-      ]
+      ],
+      "t": "Subroc (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_sabaseb": {
       "parent": null,
@@ -1676,7 +2228,10 @@
           "n": "Super Action Baseball (USA)(1983)(Coleco).rom",
           "c": "b3bcf3f9"
         }
-      ]
+      ],
+      "t": "Super Action Baseball (USA)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_safootb": {
       "parent": null,
@@ -1685,7 +2240,10 @@
           "n": "Super Action Football (USA)(1984)(Coleco).rom",
           "c": "62619dc0"
         }
-      ]
+      ],
+      "t": "Super Action Football (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_saftsocc": {
       "parent": "cv_sasoccer",
@@ -1694,7 +2252,10 @@
           "n": "Super Action Football (Euro)(1984)(Coleco).rom",
           "c": "4d6c0458"
         }
-      ]
+      ],
+      "t": "Super Action Football (Euro)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_sasoccer": {
       "parent": null,
@@ -1703,7 +2264,10 @@
           "n": "Super Action Soccer (USA)(1984)(Coleco).rom",
           "c": "acac69dd"
         }
-      ]
+      ],
+      "t": "Super Action Soccer (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_scobra": {
       "parent": null,
@@ -1712,7 +2276,10 @@
           "n": "Super Cobra (USA)(1983)(Parker Brothers).rom",
           "c": "6cb5cb8f"
         }
-      ]
+      ],
+      "t": "Super Cobra (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_scobraa": {
       "parent": "cv_scobra",
@@ -1721,7 +2288,10 @@
           "n": "Super Cobra (USA, Alt)(1983)(Parker Brothers).rom",
           "c": "f84622d2"
         }
-      ]
+      ],
+      "t": "Super Cobra (USA, Alt)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_sprcross": {
       "parent": null,
@@ -1730,7 +2300,10 @@
           "n": "Super Cross Force (USA, Euro)(1983)(Spectravideo).rom",
           "c": "84350129"
         }
-      ]
+      ],
+      "t": "Super Cross Force (USA, Euro)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_sprcrossa": {
       "parent": "cv_sprcross",
@@ -1739,7 +2312,10 @@
           "n": "Super Cross Force (USA, Alt)(1983)(Spectravideo).rom",
           "c": "8093b672"
         }
-      ]
+      ],
+      "t": "Super Cross Force (USA, Alt)",
+      "y": "1983",
+      "m": "Spectravideo"
     },
     "cv_superdk": {
       "parent": null,
@@ -1748,7 +2324,10 @@
           "n": "Super DK! (USA, Proto)(1982)(Coleco).rom",
           "c": "ef25af90"
         }
-      ]
+      ],
+      "t": "Super DK! (USA, Prototype)",
+      "y": "1982",
+      "m": "Coleco - Nintendo"
     },
     "cv_suprdkjr": {
       "parent": null,
@@ -1757,7 +2336,10 @@
           "n": "Super DK Junior (USA, Proto)(1983)(Coleco).rom",
           "c": "c2e7f0e0"
         }
-      ]
+      ],
+      "t": "Super DK Junior (USA, Prototype)",
+      "y": "1983",
+      "m": "Coleco - Nintendo"
     },
     "cv_ssketch": {
       "parent": null,
@@ -1766,7 +2348,10 @@
           "n": "Super Sketch (USA)(1984)(Personal Peripherals).rom",
           "c": "8627300a"
         }
-      ]
+      ],
+      "t": "Super Sketch (USA)",
+      "y": "1984",
+      "m": "Personal Peripherals"
     },
     "cv_sword": {
       "parent": null,
@@ -1775,7 +2360,10 @@
           "n": "Sword and the Sorcerer, The (USA, Proto)(1983)(Coleco).rom",
           "c": "8bda7c48"
         }
-      ]
+      ],
+      "t": "Sword and Sorcerer (USA, Prototype)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_tankwars": {
       "parent": null,
@@ -1784,7 +2372,10 @@
           "n": "Tank Wars (Euro)(1983)(Bit Corporation).rom",
           "c": "af6bbc7e"
         }
-      ]
+      ],
+      "t": "Tank Wars (Euro)",
+      "y": "1983",
+      "m": "Bit Corporation"
     },
     "cv_tapper": {
       "parent": null,
@@ -1793,7 +2384,10 @@
           "n": "Tapper (USA)(1984)(Coleco).rom",
           "c": "8afd7db2"
         }
-      ]
+      ],
+      "t": "Tapper (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_tarzan": {
       "parent": null,
@@ -1802,7 +2396,10 @@
           "n": "Tarzan (USA, Euro)(1982)(Coleco).rom",
           "c": "7cd7a702"
         }
-      ]
+      ],
+      "t": "Tarzan: from out of the Jungle (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_telly": {
       "parent": null,
@@ -1811,7 +2408,10 @@
           "n": "Telly Turtle (USA)(1984)(Coleco).rom",
           "c": "c8bc1950"
         }
-      ]
+      ],
+      "t": "Telly Turtle (USA)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_threshld": {
       "parent": null,
@@ -1820,7 +2420,10 @@
           "n": "Threshold (USA)(1983)(Sierra On-Line).rom",
           "c": "1593f7df"
         }
-      ]
+      ],
+      "t": "Threshold (USA)",
+      "y": "1983",
+      "m": "Sierra On-Line"
     },
     "cv_timeplt": {
       "parent": null,
@@ -1829,7 +2432,10 @@
           "n": "Time Pilot (USA, Euro)(1983)(Coleco - Konami).rom",
           "c": "b3a1eacb"
         }
-      ]
+      ],
+      "t": "Time Pilot (USA, Euro)",
+      "y": "1983",
+      "m": "Coleco - Konami"
     },
     "cv_tomarc": {
       "parent": null,
@@ -1838,7 +2444,10 @@
           "n": "Tomarc the Barbarian (USA)(1984)(Xonox).rom",
           "c": "1e14397e"
         }
-      ]
+      ],
+      "t": "Tomarc the Barbarian (USA)",
+      "y": "1984",
+      "m": "Xonox"
     },
     "cv_ttennis": {
       "parent": null,
@@ -1847,7 +2456,10 @@
           "n": "Tournament Tennis (USA)(1984)(Coleco).rom",
           "c": "c1d5a702"
         }
-      ]
+      ],
+      "t": "Tournament Tennis (USA)",
+      "y": "1984",
+      "m": "Coleco - D&L Research Imagic"
     },
     "cv_tunnels": {
       "parent": null,
@@ -1856,7 +2468,10 @@
           "n": "Tunnels & Trolls (USA, Proto)(1984)(Coleco).rom",
           "c": "291a0004"
         }
-      ]
+      ],
+      "t": "Tunnels and Trolls (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_turbo": {
       "parent": null,
@@ -1865,7 +2480,10 @@
           "n": "Turbo (USA, Europe)(1982)(Coleco).rom",
           "c": "bd6ab02a"
         }
-      ]
+      ],
+      "t": "Turbo (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_tutankhm": {
       "parent": null,
@@ -1874,7 +2492,10 @@
           "n": "Tutankham (USA)(1983)(Parker Brothers).rom",
           "c": "0408f58c"
         }
-      ]
+      ],
+      "t": "Tutankham (USA)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_tutankhma": {
       "parent": "cv_tutankhm",
@@ -1883,7 +2504,10 @@
           "n": "Tutankham (USA, Alt)(1983)(Parker Brothers).rom",
           "c": "10cc33a3"
         }
-      ]
+      ],
+      "t": "Tutankham (USA, Alt)",
+      "y": "1983",
+      "m": "Parker Brothers"
     },
     "cv_upndown": {
       "parent": null,
@@ -1892,7 +2516,10 @@
           "n": "Up'n Down (USA)(1984)(Sega).rom",
           "c": "fdd52ca0"
         }
-      ]
+      ],
+      "t": "Up'n Down (USA)",
+      "y": "1984",
+      "m": "Sega"
     },
     "cv_venture": {
       "parent": null,
@@ -1901,7 +2528,10 @@
           "n": "Venture (USA, Euro)(1982)(Coleco).rom",
           "c": "8e5a4aa3"
         }
-      ]
+      ],
+      "t": "Venture (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_victory": {
       "parent": null,
@@ -1910,7 +2540,10 @@
           "n": "Victory (USA)(1983)(Coleco).rom",
           "c": "70142655"
         }
-      ]
+      ],
+      "t": "Victory (USA)",
+      "y": "1983",
+      "m": "Coleco"
     },
     "cv_hustler": {
       "parent": null,
@@ -1919,7 +2552,10 @@
           "n": "Video Hustler (USA, Proto 1)(1984)(Coleco).rom",
           "c": "a9177b20"
         }
-      ]
+      ],
+      "t": "Video Hustler (USA, Prototype 1)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_hustler1": {
       "parent": "cv_hustler",
@@ -1928,7 +2564,10 @@
           "n": "Video Hustler (USA, Proto 2)(1984)(Konami).rom",
           "c": "841d168f"
         }
-      ]
+      ],
+      "t": "Video Hustler (USA, Prototype 2)",
+      "y": "1984",
+      "m": "Konami"
     },
     "cv_wargames": {
       "parent": null,
@@ -1937,7 +2576,10 @@
           "n": "War Games (USA, Euro)(1984)(Coleco).rom",
           "c": "6e0150c1"
         }
-      ]
+      ],
+      "t": "War Games (USA, Euro)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_wargamesp": {
       "parent": "cv_wargames",
@@ -1946,7 +2588,10 @@
           "n": "War Games (USA, Proto)(1984)(Coleco).rom",
           "c": "fd25adb3"
         }
-      ]
+      ],
+      "t": "War Games (USA, Prototype)",
+      "y": "1984",
+      "m": "Coleco"
     },
     "cv_warroom": {
       "parent": null,
@@ -1955,7 +2600,10 @@
           "n": "WarRoom (USA)(1983)(NAP Consumer Electronics).rom",
           "c": "261b7d56"
         }
-      ]
+      ],
+      "t": "WarRoom (USA)",
+      "y": "1983",
+      "m": "NAP Consumer Electronics"
     },
     "cv_wingwar": {
       "parent": null,
@@ -1964,7 +2612,10 @@
           "n": "Wing War (USA)(1983)(Imagic).rom",
           "c": "29ec00c9"
         }
-      ]
+      ],
+      "t": "Wing War (USA)",
+      "y": "1983",
+      "m": "Imagic"
     },
     "cv_wizmath": {
       "parent": null,
@@ -1973,7 +2624,10 @@
           "n": "Wizard of Id's WizMath (USA)(1984)(Sierra On-Line).rom",
           "c": "b9ba2bb6"
         }
-      ]
+      ],
+      "t": "Wizard of Id's Wizmath (USA)",
+      "y": "1984",
+      "m": "Sierra On-Line"
     },
     "cv_wordfeud": {
       "parent": null,
@@ -1982,7 +2636,10 @@
           "n": "Word Feud (USA)(1984)(K-Tel).rom",
           "c": "f7a29c01"
         }
-      ]
+      ],
+      "t": "Word Feud (USA)",
+      "y": "1984",
+      "m": "K-Tel"
     },
     "cv_yolk": {
       "parent": null,
@@ -1991,7 +2648,10 @@
           "n": "Yolk's on you, The (Euro, Proto)(1983)(Fox Video Games).rom",
           "c": "997ad8de"
         }
-      ]
+      ],
+      "t": "Yolks on You, The (Euro, Prototype)",
+      "y": "1983",
+      "m": "Fox Video Games"
     },
     "cv_zaxxon": {
       "parent": null,
@@ -2000,7 +2660,10 @@
           "n": "Zaxxon (USA, Euro)(1982)(Coleco).rom",
           "c": "8cb0891a"
         }
-      ]
+      ],
+      "t": "Zaxxon (USA, Euro)",
+      "y": "1982",
+      "m": "Coleco"
     },
     "cv_zenji": {
       "parent": null,
@@ -2009,7 +2672,10 @@
           "n": "Zenji (USA)(1984)(Activision).rom",
           "c": "6e523e50"
         }
-      ]
+      ],
+      "t": "Zenji (USA)",
+      "y": "1984",
+      "m": "Activision"
     },
     "cv_421": {
       "parent": null,
@@ -2018,7 +2684,10 @@
           "n": "421 (2002)(Mathieu Proulx).rom",
           "c": "b6254fc5"
         }
-      ]
+      ],
+      "t": "421 (HB)",
+      "y": "2002",
+      "m": "Mathieu Proulx"
     },
     "cv_1942sgm": {
       "parent": null,
@@ -2027,7 +2696,10 @@
           "n": "1942 SGM (2020)(Team Pixelboy).rom",
           "c": "851efe57"
         }
-      ]
+      ],
+      "t": "1942 (SGM) (HB)",
+      "y": "1985-2020",
+      "m": "Capcom"
     },
     "cv_ae": {
       "parent": null,
@@ -2036,7 +2708,10 @@
           "n": "AE (2012)(Team Pixelboy).rom",
           "c": "85f2c3ff"
         }
-      ]
+      ],
+      "t": "A.E.:Anti-Environment Encounter (HB)",
+      "y": "1984-2012",
+      "m": "Broderbund Software"
     },
     "cv_aerial": {
       "parent": null,
@@ -2045,7 +2720,10 @@
           "n": "Aerial (2022)(Inufuto).rom",
           "c": "2d9d8e6f"
         }
-      ]
+      ],
+      "t": "Aerial (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_advisland": {
       "parent": null,
@@ -2054,7 +2732,10 @@
           "n": "Adventure Island SGM (20XX)(unknown).rom",
           "c": "91636750"
         }
-      ]
+      ],
+      "t": "Adventure Island (SGM) (HB)",
+      "y": "20??",
+      "m": "<unknown>"
     },
     "cv_pinkpanther": {
       "parent": null,
@@ -2063,7 +2744,10 @@
           "n": "Adventures of the Pink Panther, The (1983-2019)(CollectorVision).rom",
           "c": "a9d82b08"
         }
-      ]
+      ],
+      "t": "Adventures of the Pink Panther, The (HB)",
+      "y": "1983-2019",
+      "m": "Napcec"
     },
     "cv_alpharoid": {
       "parent": null,
@@ -2072,7 +2756,10 @@
           "n": "AlphaRoid SGM (2018)(Opcode Games).rom",
           "c": "6068db13"
         }
-      ]
+      ],
+      "t": "AlphaRoid (SGM) (HB)",
+      "y": "1986-2018",
+      "m": "Opcode Games - Pony Canyon"
     },
     "cv_amzsnake": {
       "parent": null,
@@ -2081,7 +2768,10 @@
           "n": "Amazing Snake v0.9 (2001)(Serge-Eric Tremblay).rom",
           "c": "5ba1a6c8"
         }
-      ]
+      ],
+      "t": "Amazing Snake (HB, v0.9)",
+      "y": "2001",
+      "m": "Serge-Eric Tremblay"
     },
     "cv_antiair": {
       "parent": null,
@@ -2090,7 +2780,10 @@
           "n": "AntiAir (2024)(Inufuto).rom",
           "c": "8fabe383"
         }
-      ]
+      ],
+      "t": "AntiAir (HB)",
+      "y": "2024",
+      "m": "Inufuto"
     },
     "cv_arabian": {
       "parent": null,
@@ -2099,7 +2792,10 @@
           "n": "Arabian (1983-2022)(Team Pixelboy).rom",
           "c": "aeb8d084"
         }
-      ]
+      ],
+      "t": "Arabian (HB)",
+      "y": "1983-2022",
+      "m": "Sun Electronics Corp."
     },
     "cv_arkadion": {
       "parent": null,
@@ -2108,7 +2804,10 @@
           "n": "Arkadion (2022)(8 bit Milli Games).rom",
           "c": "d876a9b6"
         }
-      ]
+      ],
+      "t": "Arkadion (HB)",
+      "y": "2022",
+      "m": "8 bit Milli Games"
     },
     "cv_arkanoid": {
       "parent": null,
@@ -2117,7 +2816,10 @@
           "n": "Arkanoid SGM (2020)(CollectorVision).rom",
           "c": "28b61e06"
         }
-      ]
+      ],
+      "t": "Arkanoid (SGM) (HB)",
+      "y": "1986-2020",
+      "m": "Taito"
     },
     "cv_armagedn": {
       "parent": null,
@@ -2126,7 +2828,10 @@
           "n": "Armageddon (2011)(CollectorVision).rom",
           "c": "55147097"
         }
-      ]
+      ],
+      "t": "Armageddon (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_arnodash": {
       "parent": null,
@@ -2135,7 +2840,10 @@
           "n": "Arno Dash (2021)(Under4Mhz).rom",
           "c": "ead5e824"
         }
-      ]
+      ],
+      "t": "Arno Dash (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_ascend": {
       "parent": null,
@@ -2144,7 +2852,10 @@
           "n": "Ascend (2022)(Inufuto).rom",
           "c": "c7f84f5f"
         }
-      ]
+      ],
+      "t": "Ascend (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_asteroids": {
       "parent": null,
@@ -2153,7 +2864,10 @@
           "n": "Asteroids (2021)(Team Pixelboy).rom",
           "c": "94bcf1d1"
         }
-      ]
+      ],
+      "t": "Asteroids (SGM) (HB)",
+      "y": "2021",
+      "m": "Team Pixelboy"
     },
     "cv_astrododge": {
       "parent": null,
@@ -2162,7 +2876,10 @@
           "n": "Astrododge (2012)(Revival Studios).rom",
           "c": "1a29dfd1"
         }
-      ]
+      ],
+      "t": "Astrododge (HB)",
+      "y": "2012",
+      "m": "Revival Studios"
     },
     "cv_astroinv": {
       "parent": null,
@@ -2171,7 +2888,10 @@
           "n": "Astro Invader (2005)(Scott Huggins).rom",
           "c": "70ccc945"
         }
-      ]
+      ],
+      "t": "Astro Invader (HB)",
+      "y": "1980-2005",
+      "m": "Scott Huggins - Stern"
     },
     "cv_astorm": {
       "parent": null,
@@ -2180,7 +2900,10 @@
           "n": "Astrostorm (2021)(AnalogKid).rom",
           "c": "3b27ed05"
         }
-      ]
+      ],
+      "t": "Astrostorm (HB)",
+      "y": "2021",
+      "m": "AlalogKid"
     },
     "cv_awass": {
       "parent": null,
@@ -2189,7 +2912,10 @@
           "n": "Awass (2026)(Inufuto).rom",
           "c": "c38cdf41"
         }
-      ]
+      ],
+      "t": "Awass (HB)",
+      "y": "2026",
+      "m": "Inufuto"
     },
     "cv_aztecchal": {
       "parent": null,
@@ -2198,7 +2924,10 @@
           "n": "Aztec Challenge (2024)(Dragonfly Amusement).rom",
           "c": "b931416a"
         }
-      ]
+      ],
+      "t": "Aztec Challenge (HB)",
+      "y": "2024",
+      "m": "Dragonfly Amusement"
     },
     "cv_bagman": {
       "parent": null,
@@ -2207,7 +2936,10 @@
           "n": "Bagman (2015)(CollectorVision).rom",
           "c": "673bdb9d"
         }
-      ]
+      ],
+      "t": "Bagman (HB)",
+      "y": "1982-2015",
+      "m": "CollectorVision Games - Stern"
     },
     "cv_bankpanic": {
       "parent": null,
@@ -2216,7 +2948,10 @@
           "n": "Bank Panic (2011)(Team Pixelboy).rom",
           "c": "223e7ddc"
         }
-      ]
+      ],
+      "t": "Bank Panic (HB)",
+      "y": "2011",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_bankbuild": {
       "parent": null,
@@ -2225,7 +2960,10 @@
           "n": "Bankruptcy Builder (2013)(Philipp Klaus Krause).rom",
           "c": "b153c849"
         }
-      ]
+      ],
+      "t": "Bankruptcy Builder (HB)",
+      "y": "2013",
+      "m": "Philipp Klaus Krause"
     },
     "cv_barbarricade": {
       "parent": null,
@@ -2234,7 +2972,10 @@
           "n": "Barbarricade 06-25-26 (2026)(Jess Creations).rom",
           "c": "e5d8753d"
         }
-      ]
+      ],
+      "t": "Barbarricade (HB, 06-25-26)",
+      "y": "2026",
+      "m": "Jess Creations"
     },
     "cv_barnbuster": {
       "parent": null,
@@ -2243,7 +2984,10 @@
           "n": "BarnBuster (2026)(DiRoccoVision).rom",
           "c": "75a4713d"
         }
-      ]
+      ],
+      "t": "BarnBuster (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_bofhoth": {
       "parent": null,
@@ -2252,7 +2996,10 @@
           "n": "Battle of Hoth (2013)(Team Pixelboy).rom",
           "c": "b2ef6386"
         }
-      ]
+      ],
+      "t": "Battle of Hoth (HB)",
+      "y": "2013",
+      "m": "Team Pixelboy"
     },
     "cv_battlot": {
       "parent": null,
@@ -2261,7 +3008,10 @@
           "n": "Battlot (2022)(Inufuto).rom",
           "c": "115d32a3"
         }
-      ]
+      ],
+      "t": "Battlot (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_beachead": {
       "parent": null,
@@ -2270,7 +3020,10 @@
           "n": "Beach Head v0.93 (2025)(CollectorVision).rom",
           "c": "86ab5d25"
         }
-      ]
+      ],
+      "t": "Beach Head (HB, v0.93)",
+      "y": "2025",
+      "m": "Electric Adventures"
     },
     "cv_berzerk": {
       "parent": null,
@@ -2279,7 +3032,10 @@
           "n": "Berzerk (2022)(CollectorVision).rom",
           "c": "6328ffc1"
         }
-      ]
+      ],
+      "t": "Berzerk (HB)",
+      "y": "2022",
+      "m": "Electric Adventures"
     },
     "cv_bejeweled": {
       "parent": null,
@@ -2288,7 +3044,10 @@
           "n": "Bejeweled (2002)(Daniel Bienvenu).rom",
           "c": "39c5a7e9"
         }
-      ]
+      ],
+      "t": "Bejeweled (HB)",
+      "y": "2002",
+      "m": "Daniel Bienvenu"
     },
     "cv_bigcatch": {
       "parent": null,
@@ -2297,7 +3056,10 @@
           "n": "Big Catch (2026)(DiRoccoVision).rom",
           "c": "9ea3a524"
         }
-      ]
+      ],
+      "t": "Big Catch (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_blackonyx": {
       "parent": null,
@@ -2306,7 +3068,10 @@
           "n": "Black Onyx, the (2013)(Team Pixelboy).rom",
           "c": "dddd1396"
         }
-      ]
+      ],
+      "t": "Black Onyx, The (HB)",
+      "y": "1987-2013",
+      "m": "Sega - Mystery Man"
     },
     "cv_bloktris": {
       "parent": null,
@@ -2315,7 +3080,10 @@
           "n": "Bloktris v1.03 (2023)(Under4Mhz).rom",
           "c": "d1bc1d23"
         }
-      ]
+      ],
+      "t": "Bloktris (HB, v1.03)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "cv_boggy84": {
       "parent": null,
@@ -2324,7 +3092,10 @@
           "n": "Boggy '84 SGM (2017)(Opcode Games).rom",
           "c": "ef3473dd"
         }
-      ]
+      ],
+      "t": "Boggy '84 (SGM) (HB)",
+      "y": "1984-2017",
+      "m": "Opcode Games - Colpax"
     },
     "cv_bokosukawars": {
       "parent": null,
@@ -2333,7 +3104,10 @@
           "n": "Bokosuka Wars SGM (2017)(Opcode Games).rom",
           "c": "59b0eb86"
         }
-      ]
+      ],
+      "t": "Bokosuka Wars (SGM) (HB)",
+      "y": "2017",
+      "m": "Opcode Games - ASCII"
     },
     "cv_bombking": {
       "parent": null,
@@ -2342,7 +3116,10 @@
           "n": "Bomber King SGM (1988-2020)(Team Pixelboy).rom",
           "c": "782cfb9f"
         }
-      ]
+      ],
+      "t": "Bomber King (SGM) (HB)",
+      "y": "1988-2020",
+      "m": "Hudson Soft"
     },
     "cv_bombjack": {
       "parent": null,
@@ -2351,7 +3128,10 @@
           "n": "Bomb Jack (2015)(CollectorVision).rom",
           "c": "765d1f78"
         }
-      ]
+      ],
+      "t": "Bomb Jack (HB)",
+      "y": "2015",
+      "m": "CollectorVision Games"
     },
     "cv_bomblast": {
       "parent": null,
@@ -2360,7 +3140,10 @@
           "n": "Bomb'n Blast (2011)(CollectorVision).rom",
           "c": "b06d9de7"
         }
-      ]
+      ],
+      "t": "Bomb'n Blast (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_bomblast2": {
       "parent": null,
@@ -2369,7 +3152,10 @@
           "n": "Bomb'n Blast 2 (2020)(Cote Gamers).rom",
           "c": "4218dbb8"
         }
-      ]
+      ],
+      "t": "Bomb'n Blast 2 (HB)",
+      "y": "2020",
+      "m": "Cote Gamers"
     },
     "cv_boomingboy": {
       "parent": null,
@@ -2378,7 +3164,10 @@
           "n": "Booming Boy SGM (2019)(Team Pixelboy).rom",
           "c": "924a7d57"
         }
-      ]
+      ],
+      "t": "Booming Boy (SGM) (HB)",
+      "y": "2019",
+      "m": "Armando Perez Abad & Nene Franz"
     },
     "cv_boothill": {
       "parent": null,
@@ -2387,7 +3176,10 @@
           "n": "Boot Hill (2018)(Leo Brophy).rom",
           "c": "59e22170"
         }
-      ]
+      ],
+      "t": "Boot Hill (HB)",
+      "y": "2018",
+      "m": "Leo Brophy"
     },
     "cv_bootskell": {
       "parent": null,
@@ -2396,7 +3188,10 @@
           "n": "Bootskell (2022)(Inufuto).rom",
           "c": "46f2cea5"
         }
-      ]
+      ],
+      "t": "Bootskell (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_bosconian": {
       "parent": null,
@@ -2405,7 +3200,10 @@
           "n": "Bosconian SGM (2016)(Opcode Games).rom",
           "c": "91326103"
         }
-      ]
+      ],
+      "t": "Bosconian (SGM) (HB)",
+      "y": "1984-2016",
+      "m": "Opcode Games - Namcot"
     },
     "cv_bountybob": {
       "parent": null,
@@ -2414,7 +3212,10 @@
           "n": "Bounty Bob Strikes Back (1984-2024)(CollectorVision).rom",
           "c": "86db78b3"
         }
-      ]
+      ],
+      "t": "Bounty Bob Strikes Back! (HB)",
+      "y": "1984-2024",
+      "m": "Big Five Software"
     },
     "cv_boxxle": {
       "parent": null,
@@ -2423,7 +3224,10 @@
           "n": "Boxxle (2015)(Team Pixelboy).rom",
           "c": "62dacf07"
         }
-      ]
+      ],
+      "t": "Boxxle (HB)",
+      "y": "2015",
+      "m": "Thinking Rabbit"
     },
     "cv_breakout": {
       "parent": null,
@@ -2432,7 +3236,10 @@
           "n": "Breakout (1999) (Daniel Bienvenu).rom",
           "c": "b05fb3ec"
         }
-      ]
+      ],
+      "t": "Breakout (HB)",
+      "y": "1999",
+      "m": "Daniel Bienvenu"
     },
     "cv_breakout23j": {
       "parent": null,
@@ -2441,7 +3248,10 @@
           "n": "Breakout Joystick Version (2023)(AnalogKid).rom",
           "c": "928a1ffc"
         }
-      ]
+      ],
+      "t": "Breakout (2023) (HB, Joystick Version)",
+      "y": "2023",
+      "m": "AnalogKid"
     },
     "cv_breakout23r": {
       "parent": "cv_breakout23j",
@@ -2450,7 +3260,10 @@
           "n": "Breakout Roller Version (2023)(AnalogKid).rom",
           "c": "2f758657"
         }
-      ]
+      ],
+      "t": "Breakout (2023) (HB, Roller Version)",
+      "y": "2023",
+      "m": "AnalogKid"
     },
     "cv_bubbles": {
       "parent": null,
@@ -2459,7 +3272,10 @@
           "n": "Bubbles (1982-2024)(CollectorVision).rom",
           "c": "6e518f13"
         }
-      ]
+      ],
+      "t": "Bubbles (HB)",
+      "y": "1982-2024",
+      "m": "Williams"
     },
     "cv_buckrogsgm": {
       "parent": null,
@@ -2468,7 +3284,10 @@
           "n": "Buck Rogers SGM (2013)(Team Pixelboy).rom",
           "c": "c4f1a85a"
         }
-      ]
+      ],
+      "t": "Buck Rogers Super Game (SGM) (HB)",
+      "y": "1983-2013",
+      "m": "Coleco"
     },
     "cv_bugsbots": {
       "parent": null,
@@ -2477,7 +3296,10 @@
           "n": "Bugs'n Bots (2012)(Nicam Shilova).rom",
           "c": "542a5c61"
         }
-      ]
+      ],
+      "t": "Bugs'n Bots (HB)",
+      "y": "2012",
+      "m": "Nicam Shilova"
     },
     "cv_bullmighty": {
       "parent": null,
@@ -2486,7 +3308,10 @@
           "n": "Bull and Mighty's Critical Moment SGM (2024)(Opcode Games).rom",
           "c": "257a2565"
         }
-      ]
+      ],
+      "t": "Bull & Mighty's Critical Moment (SGM) (HB)",
+      "y": "1986-2024",
+      "m": "Opcode Games - HAL Laboratory"
     },
     "cv_brubber": {
       "parent": null,
@@ -2495,7 +3320,10 @@
           "n": "Burn Rubber (2010)(Dvik & Joyrex).rom",
           "c": "b278ebde"
         }
-      ]
+      ],
+      "t": "Burn Rubber (HB)",
+      "y": "2010",
+      "m": "Dvik & Joyrex"
     },
     "cv_bustinout0": {
       "parent": null,
@@ -2504,7 +3332,10 @@
           "n": "BUSTin-Out Vol. 0 (2000)(Daniel Bienvenu).rom",
           "c": "edca3a1f"
         }
-      ]
+      ],
+      "t": "BUSTin-Out Vol. 0 (HB)",
+      "y": "2000-2016",
+      "m": "Daniel Bienvenu"
     },
     "cv_bustinout1": {
       "parent": null,
@@ -2513,7 +3344,10 @@
           "n": "BUSTin-Out Vol. 1 (2000-2016)(CollectorVision Games).rom",
           "c": "97b601a2"
         }
-      ]
+      ],
+      "t": "BUSTin-Out Vol. 1 (HB)",
+      "y": "2000-2016",
+      "m": "Daniel Bienvenu"
     },
     "cv_bustinout2": {
       "parent": null,
@@ -2522,7 +3356,10 @@
           "n": "BUSTin-Out Vol. 2 (2000-2016)(CollectorVision Games).rom",
           "c": "e12ccc1e"
         }
-      ]
+      ],
+      "t": "BUSTin-Out Vol. 2 (HB)",
+      "y": "2000-2016",
+      "m": "Daniel Bienvenu"
     },
     "cv_bustinout3": {
       "parent": null,
@@ -2531,7 +3368,10 @@
           "n": "BUSTin-Out Vol. 3 (2000-2016)(CollectorVision Games).rom",
           "c": "c3a925af"
         }
-      ]
+      ],
+      "t": "BUSTin-Out Vol. 3 (HB)",
+      "y": "2000-2016",
+      "m": "Daniel Bienvenu"
     },
     "cv_cabbagepk": {
       "parent": null,
@@ -2540,7 +3380,10 @@
           "n": "Cabbage Patch Kids (1983-2017)(Opcode Games).rom",
           "c": "741cf863"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids (HB)",
+      "y": "1983-2017",
+      "m": "Opcode Games - Konami"
     },
     "cv_cacorm": {
       "parent": null,
@@ -2549,7 +3392,10 @@
           "n": "Cacorm (2022)(Inufuto).rom",
           "c": "60000902"
         }
-      ]
+      ],
+      "t": "Cacorm (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_camknights": {
       "parent": null,
@@ -2558,7 +3404,10 @@
           "n": "Camelot Knights (2024)(Nanochess).rom",
           "c": "b551402c"
         }
-      ]
+      ],
+      "t": "Camelot Knights (HB)",
+      "y": "2024",
+      "m": "Nanochess"
     },
     "cv_camknightsb": {
       "parent": "cv_camknights",
@@ -2567,7 +3416,10 @@
           "n": "Camelot Knights (Proto) (1988-2024)(Nanochess).rom",
           "c": "445046d6"
         }
-      ]
+      ],
+      "t": "Camelot Knights (HB, Prototype)",
+      "y": "1988-2024",
+      "m": "Nanochess"
     },
     "cv_canamini": {
       "parent": null,
@@ -2576,7 +3428,10 @@
           "n": "Canadian Minigames (2008)(Wick-Foster-Bienvenu).rom",
           "c": "99f3cbc9"
         }
-      ]
+      ],
+      "t": "Canadian Minigames (HB)",
+      "y": "2008",
+      "m": "Wick-Foster-Bienvenu"
     },
     "cv_caosbgns": {
       "parent": null,
@@ -2585,7 +3440,10 @@
           "n": "Caos Begins SGM (2015)(Team Pixelboy).rom",
           "c": "53672097"
         }
-      ]
+      ],
+      "t": "Caos Begins (SGM) (HB)",
+      "y": "2015",
+      "m": "Hikaru Games"
     },
     "cv_carfight": {
       "parent": null,
@@ -2594,7 +3452,10 @@
           "n": "Car Fighter SGM (2018)(CollectorVision).rom",
           "c": "66357edf"
         }
-      ]
+      ],
+      "t": "Car Fighter (SGM) (HB)",
+      "y": "1985-2018",
+      "m": "Casio"
     },
     "cv_castleex": {
       "parent": null,
@@ -2603,7 +3464,10 @@
           "n": "Castle Excellent SGM (2018)(CollectorVision).rom",
           "c": "674c0fec"
         }
-      ]
+      ],
+      "t": "Castle Excellent (SGM) (HB)",
+      "y": "1986-2018",
+      "m": "ASCII, Sega"
     },
     "cv_castle": {
       "parent": "cv_castleex",
@@ -2612,7 +3476,10 @@
           "n": "Castle, The SGM (2018)(CollectorVision).rom",
           "c": "8aee473c"
         }
-      ]
+      ],
+      "t": "Castle, The (SGM) (HB)",
+      "y": "1986-2018",
+      "m": "ASCII, Sega"
     },
     "cv_catsos": {
       "parent": null,
@@ -2621,7 +3488,10 @@
           "n": "Cat SOS Game (2011)(CollectorVision).rom",
           "c": "10e6e6de"
         }
-      ]
+      ],
+      "t": "Caterpillar S.O.S. (HB)",
+      "y": "1983-2011",
+      "m": "CollectorVision Games"
     },
     "cv_cavfight": {
       "parent": null,
@@ -2630,7 +3500,10 @@
           "n": "Cavern Fighter (2021)(Electric Adventures).rom",
           "c": "846faf14"
         }
-      ]
+      ],
+      "t": "Cavern Fighter (HB)",
+      "y": "2021",
+      "m": "Electric Adventures"
     },
     "cv_caverns": {
       "parent": null,
@@ -2639,7 +3512,10 @@
           "n": "Caverns of Titan SGM (2017)(Team Pixelboy).rom",
           "c": "4928b5f5"
         }
-      ]
+      ],
+      "t": "Caverns of Titan (SGM) (HB)",
+      "y": "2005-2017",
+      "m": "Jltursan"
     },
     "cv_cavit": {
       "parent": null,
@@ -2648,7 +3524,10 @@
           "n": "Cavit (2021)(Inufuto).rom",
           "c": "8d3e9de3"
         }
-      ]
+      ],
+      "t": "Cavit (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "cv_chackpop": {
       "parent": null,
@@ -2657,7 +3536,10 @@
           "n": "Chack'n Pop (2011)(CollectorVision).rom",
           "c": "c1366313"
         }
-      ]
+      ],
+      "t": "Chack'n Pop (HB)",
+      "y": "1985-2011",
+      "m": "Sega"
     },
     "cv_challenger": {
       "parent": null,
@@ -2666,7 +3548,10 @@
           "n": "Challenger (2019)(CollectorVision).rom",
           "c": "37265d37"
         }
-      ]
+      ],
+      "t": "Challenger (HB)",
+      "y": "2019",
+      "m": "CollectorVision Games"
     },
     "cv_cicehockey": {
       "parent": null,
@@ -2675,7 +3560,10 @@
           "n": "Champion Ice Hockey (1985-20XX)(Team Pixelboy).rom",
           "c": "76fa4fa1"
         }
-      ]
+      ],
+      "t": "Champion Ice Hockey (HB)",
+      "y": "1985-20XX",
+      "m": "Team Pixelboy - Sega"
     },
     "cv_chprowres": {
       "parent": null,
@@ -2684,7 +3572,10 @@
           "n": "Champion Pro Wrestling (2020)(Team Pixelboy).rom",
           "c": "045c54d6"
         }
-      ]
+      ],
+      "t": "Champion Pro Wrestling (HB)",
+      "y": "1985-2020",
+      "m": "Sega"
     },
     "cv_chesschal": {
       "parent": null,
@@ -2693,7 +3584,10 @@
           "n": "Chess Challenger (2011)(CollectorVision).rom",
           "c": "998c1bbd"
         }
-      ]
+      ],
+      "t": "Chess Challenge (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_cotn": {
       "parent": null,
@@ -2702,7 +3596,10 @@
           "n": "Children of the Night SGM (2017)(Team Pixelboy).rom",
           "c": "55b36d53"
         }
-      ]
+      ],
+      "t": "Children of the Night (HB)",
+      "y": "2017",
+      "m": "Hikaru Games"
     },
     "cv_circus": {
       "parent": null,
@@ -2711,7 +3608,10 @@
           "n": "Circus (2023)(CollectorVision).rom",
           "c": "1d353f30"
         }
-      ]
+      ],
+      "t": "Circus (HB)",
+      "y": "2023",
+      "m": "Alekmaul"
     },
     "cv_ccharlie": {
       "parent": null,
@@ -2720,7 +3620,10 @@
           "n": "Circus Charlie (2011)(Team Pixelboy).rom",
           "c": "be3ef785"
         }
-      ]
+      ],
+      "t": "Circus Charlie (HB)",
+      "y": "1984-2011",
+      "m": "Konami"
     },
     "cv_cix": {
       "parent": null,
@@ -2729,7 +3632,10 @@
           "n": "Cix (2013)(Philipp Klaus Krause).rom",
           "c": "fea0da6d"
         }
-      ]
+      ],
+      "t": "Cix (HB)",
+      "y": "2013",
+      "m": "Philipp Klaus Krause"
     },
     "cv_clock": {
       "parent": null,
@@ -2738,7 +3644,10 @@
           "n": "Clock (2021)(Team Pixelboy).rom",
           "c": "b2f28b90"
         }
-      ]
+      ],
+      "t": "Clock (HB)",
+      "y": "2021",
+      "m": "Team Pixelboy"
     },
     "cv_coco": {
       "parent": null,
@@ -2747,7 +3656,10 @@
           "n": "CoCo and the Evil Robots v1.01 (2020)(Robin Gravel).rom",
           "c": "d6b28d19"
         }
-      ]
+      ],
+      "t": "CoCo and the Evil Robots (HB, v1.01)",
+      "y": "2020",
+      "m": "Robin Gravel"
     },
     "cv_coldblood": {
       "parent": null,
@@ -2756,7 +3668,10 @@
           "n": "Cold Blood SGM (2017)(Team Pixelboy).rom",
           "c": "960f7086"
         }
-      ]
+      ],
+      "t": "Cold Blood (SGM) (HB)",
+      "y": "2017",
+      "m": "Paxanga"
     },
     "cv_comicbakery": {
       "parent": null,
@@ -2765,7 +3680,10 @@
           "n": "Comic Bakery (2014)(CollectorVision).rom",
           "c": "8884bac2"
         }
-      ]
+      ],
+      "t": "Comic Bakery (HB)",
+      "y": "1984-2014",
+      "m": "Konami"
     },
     "cv_comspace": {
       "parent": null,
@@ -2774,7 +3692,10 @@
           "n": "Computer Space (2014)(CollectorVision).rom",
           "c": "4ae11870"
         }
-      ]
+      ],
+      "t": "Computer Space (HB)",
+      "y": "2014",
+      "m": "Kiwi Production"
     },
     "cv_cracky": {
       "parent": null,
@@ -2783,7 +3704,10 @@
           "n": "Cracky (2023)(Inufuto).rom",
           "c": "bb13bc66"
         }
-      ]
+      ],
+      "t": "Cracky (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "cv_crackpots": {
       "parent": null,
@@ -2792,7 +3716,10 @@
           "n": "CrackPots (2026)(Electric Dreams).rom",
           "c": "91e0fa0f"
         }
-      ]
+      ],
+      "t": "CrackPots (HB)",
+      "y": "2026",
+      "m": "Electric Dreams"
     },
     "cv_crazychickyjr": {
       "parent": null,
@@ -2801,7 +3728,10 @@
           "n": "Crazy Chicky Junior v1.1 (2023)(8 bit Milli Games).rom",
           "c": "1bdca585"
         }
-      ]
+      ],
+      "t": "Crazy Chicky Junior (HB, v1.1)",
+      "y": "2023",
+      "m": "8 bit Milli Games"
     },
     "cv_crazychickyjr2": {
       "parent": null,
@@ -2810,7 +3740,10 @@
           "n": "Crazy Chicky Junior - New Cluck City (2024)(8 bit Milli Games).rom",
           "c": "e29d280e"
         }
-      ]
+      ],
+      "t": "Crazy Chicky Junior: New Cluck City (HB)",
+      "y": "2024",
+      "m": "8 bit Milli Games"
     },
     "cv_ccredux": {
       "parent": null,
@@ -2819,7 +3752,10 @@
           "n": "Crazy Climber Redux (2021)(8bit Milli Games).rom",
           "c": "2c630f28"
         }
-      ]
+      ],
+      "t": "Crazy Climber Redux (HB)",
+      "y": "2021",
+      "m": "8 bit Milli Games"
     },
     "cv_cure": {
       "parent": null,
@@ -2828,7 +3764,10 @@
           "n": "Cure, The (2020)(Team Pixelboy).rom",
           "c": "78e07081"
         }
-      ]
+      ],
+      "t": "Cure, The (HB)",
+      "y": "2020",
+      "m": "XL2S Entertainment"
     },
     "cv_cye": {
       "parent": null,
@@ -2837,7 +3776,10 @@
           "n": "Cye v1.1 (2007)(Philipp Klaus Krause).rom",
           "c": "0eaec351"
         }
-      ]
+      ],
+      "t": "Cye (HB, v1.1)",
+      "y": "2007",
+      "m": "Philipp Klaus Krause"
     },
     "cv_cso": {
       "parent": null,
@@ -2846,7 +3788,10 @@
           "n": "C-So (2018)(Team Pixelboy).rom",
           "c": "d182812a"
         }
-      ]
+      ],
+      "t": "C_So! (HB)",
+      "y": "1985-2018",
+      "m": "Sega - Claus Baekkel"
     },
     "cv_dacman": {
       "parent": null,
@@ -2855,7 +3800,10 @@
           "n": "Dacman (2000)(Daniel Bienvenu).rom",
           "c": "9a46ef8d"
         }
-      ]
+      ],
+      "t": "Dacman (HB)",
+      "y": "2000",
+      "m": "Daniel Bienvenu"
     },
     "cv_dangrtower": {
       "parent": null,
@@ -2864,7 +3812,10 @@
           "n": "Danger Tower SGM (2017)(Team Pixelboy).rom",
           "c": "0246bdb1"
         }
-      ]
+      ],
+      "t": "Danger Tower (SGM) (HB)",
+      "y": "2009-2017",
+      "m": "Danger Team"
     },
     "cv_deathrace": {
       "parent": null,
@@ -2873,7 +3824,10 @@
           "n": "Death Race (Proto) (2011)(unknown).rom",
           "c": "da6d5616"
         }
-      ]
+      ],
+      "t": "Death Race (HB, Prototype)",
+      "y": "2011",
+      "m": "<unknown>"
     },
     "cv_deepdngadv": {
       "parent": null,
@@ -2882,7 +3836,10 @@
           "n": "Deep Dungeon Adventure SGM (2017)(Team Pixelboy).rom",
           "c": "77900970"
         }
-      ]
+      ],
+      "t": "Deep Dungeon Adventure (SGM) (HB)",
+      "y": "2017",
+      "m": "Trilobyte"
     },
     "cv_deflektor": {
       "parent": null,
@@ -2891,7 +3848,10 @@
           "n": "Deflektor Kollection (2005)(Daniel Bienvenu).rom",
           "c": "1b3a8639"
         }
-      ]
+      ],
+      "t": "Deflektor Kollection (HB)",
+      "y": "2005",
+      "m": "Daniel Bienvenu"
     },
     "cv_demonattack": {
       "parent": null,
@@ -2900,7 +3860,10 @@
           "n": "Demon Attack (1983-2023)(CollectorVision).rom",
           "c": "ba7049b7"
         }
-      ]
+      ],
+      "t": "Demon Attack (HB)",
+      "y": "1983-2023",
+      "m": "Imagic"
     },
     "cv_demoattackna": {
       "parent": null,
@@ -2909,7 +3872,10 @@
           "n": "Demon Attack & New Atlantis (2022)(8 bit Milli Games).rom",
           "c": "e86fcfe5"
         }
-      ]
+      ],
+      "t": "Demon Attack & New Atlantis (HB, v1.2)",
+      "y": "2022",
+      "m": "8 bit Milli Games"
     },
     "cv_desolator": {
       "parent": null,
@@ -2918,7 +3884,10 @@
           "n": "Desolator SGM (2023)(8 bit Milli Games).rom",
           "c": "ad01c8b1"
         }
-      ]
+      ],
+      "t": "Desolator (SGM) (HB)",
+      "y": "2023",
+      "m": "8 bit Milli Games"
     },
     "cv_destructsce": {
       "parent": "cv_destruct",
@@ -2927,7 +3896,10 @@
           "n": "Destructor SCE (2010)(Team Pixelboy).rom",
           "c": "2a9fcbfa"
         }
-      ]
+      ],
+      "t": "Destructor S.C.E. (Hack, Standard Controller Edition)",
+      "y": "2010",
+      "m": "Coleco"
     },
     "cv_ddash": {
       "parent": null,
@@ -2936,7 +3908,10 @@
           "n": "Diamond Dash (2011)(NewColeco).rom",
           "c": "e386b1b7"
         }
-      ]
+      ],
+      "t": "Diamond Dash (HB)",
+      "y": "2011",
+      "m": "NewColeco"
     },
     "cv_ddash2": {
       "parent": null,
@@ -2945,7 +3920,10 @@
           "n": "Diamond Dash 2 (2021)(Under4Mhz).rom",
           "c": "5576dec3"
         }
-      ]
+      ],
+      "t": "Diamond Dash 2 (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_digdugsgm": {
       "parent": null,
@@ -2954,7 +3932,10 @@
           "n": "Dig Dug SGM (1982-2017)(Opcode Games).rom",
           "c": "59d08879"
         }
-      ]
+      ],
+      "t": "Dig Dug (SGM) (HB)",
+      "y": "1982-2017",
+      "m": "Opcode Games - Namcot"
     },
     "cv_digger": {
       "parent": null,
@@ -2963,7 +3944,10 @@
           "n": "Digger (2015)(CollectorVision).rom",
           "c": "77088cab"
         }
-      ]
+      ],
+      "t": "Digger (HB)",
+      "y": "2015",
+      "m": "Windmill Software"
     },
     "cv_donuts": {
       "parent": null,
@@ -2972,7 +3956,10 @@
           "n": "Donuts Man (2021)(Cote Gamers).rom",
           "c": "517314b1"
         }
-      ]
+      ],
+      "t": "Donuts Man (HB)",
+      "y": "2021",
+      "m": "Cote Gamers"
     },
     "cv_dkongsgm": {
       "parent": null,
@@ -2981,7 +3968,10 @@
           "n": "Donkey Kong SGM (2020)(Team Pixelboy).rom",
           "c": "b3e62471"
         }
-      ]
+      ],
+      "t": "Donkey Kong (SGM) (HB)",
+      "y": "1984-2020",
+      "m": "Nintendo / Coleco"
     },
     "cv_dkong3": {
       "parent": null,
@@ -2990,7 +3980,10 @@
           "n": "Donkey Kong 3 (2012)(CollectorVision).rom",
           "c": "3b434ec2"
         }
-      ]
+      ],
+      "t": "Donkey Kong 3 (HB)",
+      "y": "2012",
+      "m": "CollectorVision Games"
     },
     "cv_dkongarcade": {
       "parent": null,
@@ -2999,7 +3992,10 @@
           "n": "Donkey Kong Arcade SGM (2018)(Opcode Games).rom",
           "c": "45345709"
         }
-      ]
+      ],
+      "t": "Donkey Kong Arcade (SGM) (HB)",
+      "y": "1983-2018",
+      "m": "Opcode Games - Coleco"
     },
     "cv_dkongjrsgm": {
       "parent": null,
@@ -3008,7 +4004,10 @@
           "n": "Donkey Kong Jr SGM (2020)(Team Pixelboy).rom",
           "c": "644124f6"
         }
-      ]
+      ],
+      "t": "Donkey Kong Jr. (SGM) (HB)",
+      "y": "1983-2020",
+      "m": "Nintendo / Coleco"
     },
     "cv_dorodon": {
       "parent": null,
@@ -3017,7 +4016,10 @@
           "n": "Dorodon SGM (1984-2017)(Opcode Games).rom",
           "c": "e3d61921"
         }
-      ]
+      ],
+      "t": "Dorodon (SGM) (HB)",
+      "y": "1984-2017",
+      "m": "Opcode Games - UPL"
     },
     "cv_dbreakout": {
       "parent": null,
@@ -3026,7 +4028,10 @@
           "n": "Double Breakout (2001-03) (Daniel Bienvenu).rom",
           "c": "92127c60"
         }
-      ]
+      ],
+      "t": "Double Breakout (HB)",
+      "y": "2001-03",
+      "m": "Daniel Bienvenu"
     },
     "cv_dlairsgm": {
       "parent": null,
@@ -3035,7 +4040,10 @@
           "n": "Dragon's Lair SGM (2012)(Team Pixelboy).rom",
           "c": "12ceee08"
         }
-      ]
+      ],
+      "t": "Dragon's Lair (SGM) (HB)",
+      "y": "1984-2012",
+      "m": "Coleco"
     },
     "cv_drol": {
       "parent": null,
@@ -3044,7 +4052,10 @@
           "n": "Drol (2016)(CollectorVision Games).col",
           "c": "8331d147"
         }
-      ]
+      ],
+      "t": "Drol (HB)",
+      "y": "1985-2016",
+      "m": "Sega"
     },
     "cv_datrolls": {
       "parent": null,
@@ -3053,7 +4064,10 @@
           "n": "Dungeons and Trolls (2014)(CollectorVision).rom",
           "c": "a227fdaa"
         }
-      ]
+      ],
+      "t": "Dungeons and Trolls (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_eaclassics": {
       "parent": null,
@@ -3062,7 +4076,10 @@
           "n": "Electric Adventures Classics (2013)(CollectorVideo).rom",
           "c": "21b05b8a"
         }
-      ]
+      ],
+      "t": "EA Classics (HB)",
+      "y": "2013",
+      "m": "Electric Adventures"
     },
     "cv_ed2083": {
       "parent": null,
@@ -3071,7 +4088,10 @@
           "n": "Earth Defend 2083 (2013)(CollectorVision).rom",
           "c": "6498372c"
         }
-      ]
+      ],
+      "t": "Earth Defend 2083 (HB)",
+      "y": "2013",
+      "m": "CollectorVision Games"
     },
     "cv_easterbunny": {
       "parent": null,
@@ -3080,7 +4100,10 @@
           "n": "Easter Bunny (2007)(Daniel Bienvenu).rom",
           "c": "5c494be5"
         }
-      ]
+      ],
+      "t": "Easter Bunny (HB)",
+      "y": "2007",
+      "m": "Daniel Bienvenu"
     },
     "cv_eggerland": {
       "parent": null,
@@ -3089,7 +4112,10 @@
           "n": "Eggerland Mystery SGM (2018)(CollectorVision).rom",
           "c": "2488ca1a"
         }
-      ]
+      ],
+      "t": "Eggerland Mystery (SGM) (HB)",
+      "y": "1985-2018",
+      "m": "HAL Laboratory"
     },
     "cv_elecquart": {
       "parent": null,
@@ -3098,7 +4124,10 @@
           "n": "Electronic Quarterback (2026)(DiRoccoVision).rom",
           "c": "722f7376"
         }
-      ]
+      ],
+      "t": "Electronic Quarterback (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_elevaction": {
       "parent": null,
@@ -3107,7 +4136,10 @@
           "n": "Elevator Action (1985-2012)(CollectorVision).rom",
           "c": "4bb8dc2a"
         }
-      ]
+      ],
+      "t": "Elevator Action (HB)",
+      "y": "1985-2012",
+      "m": "Sega - Taito"
     },
     "cv_elevactionsgm": {
       "parent": null,
@@ -3116,7 +4148,10 @@
           "n": "Elevator Action SGM (2021)(Opcode Games).rom",
           "c": "cf4bdc75"
         }
-      ]
+      ],
+      "t": "Elevator Action (SGM) (HB)",
+      "y": "1985-2021",
+      "m": "Opcode Games - Taito Corp."
     },
     "cv_exerion": {
       "parent": null,
@@ -3125,7 +4160,10 @@
           "n": "Exerion (1983-2010)(CollectorVision).rom",
           "c": "66dba33b"
         }
-      ]
+      ],
+      "t": "Exerion (HB)",
+      "y": "1983-2010",
+      "m": "Jaleco - Sega"
     },
     "cv_eyebrawls": {
       "parent": null,
@@ -3134,7 +4172,10 @@
           "n": "Eye Brawls 1-31-26 (2026)(Jess Creations).rom",
           "c": "7129da45"
         }
-      ]
+      ],
+      "t": "Eye Brawls (HB, 1-31-26)",
+      "y": "2026",
+      "m": "Jess Creations"
     },
     "cv_f2ffootball": {
       "parent": null,
@@ -3143,7 +4184,10 @@
           "n": "Face to Face Football (2026)(DiRoccoVision).rom",
           "c": "f56f48f3"
         }
-      ]
+      ],
+      "t": "Face to Face Football (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_f2fhockey": {
       "parent": null,
@@ -3152,7 +4196,10 @@
           "n": "Face to Face Hockey (2026)(DiRoccoVision).rom",
           "c": "acd9d815"
         }
-      ]
+      ],
+      "t": "Face to Face Hockey (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_f2fsoccer": {
       "parent": null,
@@ -3161,7 +4208,10 @@
           "n": "Face to Face Soccer (2026)(DiRoccoVision).rom",
           "c": "d7002128"
         }
-      ]
+      ],
+      "t": "Face to Face Soccer (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_flstory": {
       "parent": null,
@@ -3170,7 +4220,10 @@
           "n": "Fairyland Story, The SGM (1987-2023)(CollectorVision).rom",
           "c": "87f3f556"
         }
-      ]
+      ],
+      "t": "Fairyland Story, The (HB)",
+      "y": "1987-2023",
+      "m": "Taito"
     },
     "cv_fantasy": {
       "parent": null,
@@ -3179,7 +4232,10 @@
           "n": "Fantasy (1981-2025)(CollectorVision).rom",
           "c": "45dd259a"
         }
-      ]
+      ],
+      "t": "Fantasy (HB)",
+      "y": "1981-2025",
+      "m": "SNK"
     },
     "cv_ffactory": {
       "parent": null,
@@ -3188,7 +4244,10 @@
           "n": "Fireworks Factory (1984)(Nice Ideas).rom",
           "c": "9425a648"
         }
-      ]
+      ],
+      "t": "Fireworks Factory (HB)",
+      "y": "1984",
+      "m": "Nice Ideas"
     },
     "cv_flapbrd": {
       "parent": null,
@@ -3197,7 +4256,10 @@
           "n": "Flapee Byrd (2014)(CollectorVision).rom",
           "c": "5ac80811"
         }
-      ]
+      ],
+      "t": "Flapee Byrd (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_flicky": {
       "parent": null,
@@ -3206,7 +4268,10 @@
           "n": "Flicky (2018)(Team Pixelboy).rom",
           "c": "89875c52"
         }
-      ]
+      ],
+      "t": "Flicky (HB)",
+      "y": "1984-2018",
+      "m": "Sega - Mystery Man"
     },
     "cv_flora": {
       "parent": null,
@@ -3215,7 +4280,10 @@
           "n": "Flora and the Ghost Mirror SGM (2013)(NewColeco).rom",
           "c": "fd69012b"
         }
-      ]
+      ],
+      "t": "Flora and the Ghost Mirror (SGM) (HB)",
+      "y": "2013",
+      "m": "NewColeco"
     },
     "cv_flux": {
       "parent": null,
@@ -3224,7 +4292,10 @@
           "n": "Flux (2026)(8 bit Milli Games).rom",
           "c": "1cd587b9"
         }
-      ]
+      ],
+      "t": "Flux (HB)",
+      "y": "2026",
+      "m": "8 bit Milli Games"
     },
     "cv_foodfight": {
       "parent": null,
@@ -3233,7 +4304,10 @@
           "n": "Food Fight (2021)(CollectorVision).rom",
           "c": "b5447ec5"
         }
-      ]
+      ],
+      "t": "Food Fight (HB)",
+      "y": "2021",
+      "m": "CollectorVision Games"
     },
     "cv_frantic": {
       "parent": null,
@@ -3242,7 +4316,10 @@
           "n": "Frantic (2008)(Scott Huggins).rom",
           "c": "f43b0b28"
         }
-      ]
+      ],
+      "t": "Frantic (HB)",
+      "y": "2008",
+      "m": "Scott Huggins"
     },
     "cv_frogfeast": {
       "parent": null,
@@ -3251,7 +4328,10 @@
           "n": "Frog Feast (2007).rom",
           "c": "cb941eb4"
         }
-      ]
+      ],
+      "t": "Frog Feast (HB)",
+      "y": "2007",
+      "m": "<unknown>"
     },
     "cv_frontlinsgm": {
       "parent": null,
@@ -3260,7 +4340,10 @@
           "n": "Front Line SGM (1984-2019)(Opcode Games).rom",
           "c": "e544a5f9"
         }
-      ]
+      ],
+      "t": "Front Line (SGM) (HB)",
+      "y": "1984-2019",
+      "m": "Opcode Games - Taito"
     },
     "cv_frntlnsce": {
       "parent": "cv_frontlin",
@@ -3269,7 +4352,10 @@
           "n": "Front Line S.C.E. (2015)(Team Pixelboy).rom",
           "c": "832586bf"
         }
-      ]
+      ],
+      "t": "Front Line S.C.E. (Hack, Standard Controller Edition)",
+      "y": "2015",
+      "m": "Coleco - Taito"
     },
     "cv_frostbite": {
       "parent": null,
@@ -3278,7 +4364,10 @@
           "n": "Frostbite (2016)(Team Pixelboy).rom",
           "c": "b3212318"
         }
-      ]
+      ],
+      "t": "Frost Bite (HB)",
+      "y": "1983-2016",
+      "m": "Activision"
     },
     "cv_fruitpanic": {
       "parent": null,
@@ -3287,7 +4376,10 @@
           "n": "Fruit Panic (2023)(CollectorVision).rom",
           "c": "a554fdd3"
         }
-      ]
+      ],
+      "t": "Fruit Panic (HB)",
+      "y": "2023",
+      "m": "Crazy Boss"
     },
     "cv_galaga": {
       "parent": null,
@@ -3296,7 +4388,10 @@
           "n": "Galaga SGM (2014)(CollectorVision).rom",
           "c": "9f1045e6"
         }
-      ]
+      ],
+      "t": "Galaga (SGM) (HB)",
+      "y": "1984-2014",
+      "m": "Namcot"
     },
     "cv_gamepack1": {
       "parent": null,
@@ -3305,7 +4400,10 @@
           "n": "GamePack 1 (2002)(Daniel Bienvenu).rom",
           "c": "9a02fba5"
         }
-      ]
+      ],
+      "t": "GamePack 1 (HB)",
+      "y": "2002",
+      "m": "Daniel Bienvenu"
     },
     "cv_gamepack2": {
       "parent": null,
@@ -3314,7 +4412,10 @@
           "n": "GamePack 2 (2004)(Daniel Bienvenu).rom",
           "c": "eab0ddd6"
         }
-      ]
+      ],
+      "t": "GamePack 2 (HB)",
+      "y": "2004",
+      "m": "Daniel Bienvenu"
     },
     "cv_gpvic20": {
       "parent": null,
@@ -3323,7 +4424,10 @@
           "n": "GamePack Vic-20 (2003)(Daniel Bienvenu).rom",
           "c": "5b4ad168"
         }
-      ]
+      ],
+      "t": "GamePack Vic-20 (HB)",
+      "y": "2003",
+      "m": "Daniel Bienvenu"
     },
     "cv_gamester81": {
       "parent": null,
@@ -3332,7 +4436,10 @@
           "n": "Gamester 81 - The Video Game (2013)(Atari2600.com).rom",
           "c": "cf4a26ff"
         }
-      ]
+      ],
+      "t": "Gamester 81 - The Video Game (HB)",
+      "y": "2013",
+      "m": "Atari2600.com"
     },
     "cv_gauntlet": {
       "parent": null,
@@ -3341,7 +4448,10 @@
           "n": "Gauntlet SGM (2019)(Team Pixelboy).rom",
           "c": "652d533e"
         }
-      ]
+      ],
+      "t": "Gauntlet (SGM) (HB)",
+      "y": "1985-2019",
+      "m": "Atari Games Ltd."
     },
     "cv_gerbils": {
       "parent": null,
@@ -3350,7 +4460,10 @@
           "n": "Gerbils (2021)(Under4Mhz).rom",
           "c": "53441bc3"
         }
-      ]
+      ],
+      "t": "Gerbils (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_ghost": {
       "parent": null,
@@ -3359,7 +4472,10 @@
           "n": "Ghost SGM (2019)(Unepic Fran).rom",
           "c": "d55bbb66"
         }
-      ]
+      ],
+      "t": "Ghost (SGM) (HB)",
+      "y": "2019",
+      "m": "Unepic Fran"
     },
     "cv_gblaster": {
       "parent": null,
@@ -3368,7 +4484,10 @@
           "n": "Ghostblaster (2006)(Daniel Bienvenu).rom",
           "c": "7e93e6f3"
         }
-      ]
+      ],
+      "t": "Ghost Blaster (HB)",
+      "y": "2006",
+      "m": "Daniel Bienvenu"
     },
     "cv_ghostbst": {
       "parent": null,
@@ -3377,7 +4496,10 @@
           "n": "Ghostbusters SGM (2018)(Team Pixelboy).rom",
           "c": "fc935cdd"
         }
-      ]
+      ],
+      "t": "Ghostbusters (SGM) (HB)",
+      "y": "1984-2018",
+      "m": "Activision"
     },
     "cv_gnz": {
       "parent": null,
@@ -3386,7 +4508,10 @@
           "n": "Ghosts'n Zombies (2009)(CollectorVision).rom",
           "c": "cc63ca4b"
         }
-      ]
+      ],
+      "t": "Ghosts'n Zombies (HB)",
+      "y": "2009",
+      "m": "CollectorVision Games"
     },
     "cv_ghostrap": {
       "parent": null,
@@ -3395,7 +4520,10 @@
           "n": "Ghost Trap (2009)(Coleco).rom",
           "c": "26269393"
         }
-      ]
+      ],
+      "t": "Ghost Trap (HB)",
+      "y": "2009",
+      "m": "Coleco"
     },
     "cv_ggarden": {
       "parent": null,
@@ -3404,7 +4532,10 @@
           "n": "Girl's Garden (2010)(Team Pixelboy).rom",
           "c": "305b74c0"
         }
-      ]
+      ],
+      "t": "Girl's Garden (HB)",
+      "y": "1984-2010",
+      "m": "Sega - Bruce Tomlin"
     },
     "cv_golgo13": {
       "parent": null,
@@ -3413,7 +4544,10 @@
           "n": "Golgo 13 (2011)(Team Pixelboy).rom",
           "c": "8acf1bcf"
         }
-      ]
+      ],
+      "t": "Golgo 13 (HB)",
+      "y": "1984-2011",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_goonies": {
       "parent": "cv_gooniesoc",
@@ -3422,7 +4556,10 @@
           "n": "Goonies, The SGM (2012)(Team Pixelboy).rom",
           "c": "01581fa8"
         }
-      ]
+      ],
+      "t": "Goonies, The (Team Pixelboy) (SGM) (HB)",
+      "y": "1986-2012",
+      "m": "Konami"
     },
     "cv_gooniesoc": {
       "parent": null,
@@ -3431,7 +4568,10 @@
           "n": "Goonies, The - SGM (2023)(Opcode Games).rom",
           "c": "6c8113c1"
         }
-      ]
+      ],
+      "t": "Goonies, The (Opcode) (SGM) (HB)",
+      "y": "1986-2023",
+      "m": "Opcode Games - Konami"
     },
     "cv_gpworld": {
       "parent": null,
@@ -3440,7 +4580,10 @@
           "n": "GP World (2021)(Team Pixelboy).rom",
           "c": "3412cf1a"
         }
-      ]
+      ],
+      "t": "GP World (HB)",
+      "y": "1985-2021",
+      "m": "Sega"
     },
     "cv_gradius": {
       "parent": null,
@@ -3449,7 +4592,10 @@
           "n": "Gradius - SGM (2016)(Opcode Games).rom",
           "c": "30d337e4"
         }
-      ]
+      ],
+      "t": "Gradius (SGM) (HB)",
+      "y": "1986-2016",
+      "m": "Opcode Games - Konami"
     },
     "cv_gradiusa": {
       "parent": "cv_gradius",
@@ -3458,7 +4604,10 @@
           "n": "Gradius - SGM (Alt)(2016)(Opcode Games).rom",
           "c": "2426c300"
         }
-      ]
+      ],
+      "t": "Gradius (SGM) (HB, Alt)",
+      "y": "1986-2016",
+      "m": "Opcode Games - Konami"
     },
     "cv_guardic": {
       "parent": null,
@@ -3467,7 +4616,10 @@
           "n": "Guardic SGM (2018)(Opcode Games).rom",
           "c": "2b0bb712"
         }
-      ]
+      ],
+      "t": "Guardic (SGM) (HB)",
+      "y": "1986-2018",
+      "m": "Opcode Games - Compile"
     },
     "cv_gulkave": {
       "parent": null,
@@ -3476,7 +4628,10 @@
           "n": "Gulkave (2012)(Team Pixelboy).rom",
           "c": "81413ff6"
         }
-      ]
+      ],
+      "t": "Gulkave (HB)",
+      "y": "1986-2012",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_gunfright": {
       "parent": null,
@@ -3485,7 +4640,10 @@
           "n": "Gun Fright SGM (2019)(Opcode Games).rom",
           "c": "083d13ee"
         }
-      ]
+      ],
+      "t": "Gun Fright (SGM) (HB)",
+      "y": "1986-2019",
+      "m": "Opcode Games - Jaleco"
     },
     "cv_guntus": {
       "parent": null,
@@ -3494,7 +4652,10 @@
           "n": "Guntus (2022)(Inufuto).rom",
           "c": "64488291"
         }
-      ]
+      ],
+      "t": "Guntus (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "cv_hamsterww": {
       "parent": null,
@@ -3503,7 +4664,10 @@
           "n": "Hamster with Wire (2022)(Nicolas Campion).rom",
           "c": "b852affe"
         }
-      ]
+      ],
+      "t": "Hamster with Wire (HB)",
+      "y": "2022",
+      "m": "Nicam Shilova"
     },
     "cv_hangon2": {
       "parent": null,
@@ -3512,7 +4676,10 @@
           "n": "Hang-On II (1985-2016)(CollectorVision).rom",
           "c": "27818d93"
         }
-      ]
+      ],
+      "t": "Hang-On II (HB)",
+      "y": "1985-2016",
+      "m": "Sega"
     },
     "cv_hardhat": {
       "parent": null,
@@ -3521,7 +4688,10 @@
           "n": "Hard Hat (2022)(CollectorVision).rom",
           "c": "221fbcfa"
         }
-      ]
+      ],
+      "t": "Hard Hat (HB)",
+      "y": "1982-2022",
+      "m": "Exidy"
     },
     "cv_hardhatmack": {
       "parent": null,
@@ -3530,7 +4700,10 @@
           "n": "Hard Hat Mack SGM (1983-2023)(CollectorVision).rom",
           "c": "eaf5c5e1"
         }
-      ]
+      ],
+      "t": "Hard Hat Mack (SGM) (HB)",
+      "y": "1983-2023",
+      "m": "Electronic Arts"
     },
     "cv_helifire": {
       "parent": null,
@@ -3539,7 +4712,10 @@
           "n": "HeliFire (2013)(CollectorVision).rom",
           "c": "29d8c5f4"
         }
-      ]
+      ],
+      "t": "HeliFire (HB)",
+      "y": "1980-2013",
+      "m": "Nintendo"
     },
     "cv_heroesar": {
       "parent": null,
@@ -3548,7 +4724,10 @@
           "n": "Heroes Arena SGM (2017)(Team Pixelboy).rom",
           "c": "87a49761"
         }
-      ]
+      ],
+      "t": "Heroes Arena (SGM) (HB)",
+      "y": "2010-2017",
+      "m": "Imanok"
     },
     "cv_holeone": {
       "parent": null,
@@ -3557,7 +4736,10 @@
           "n": "Hole in One SGM (2017)(CollectorVision).rom",
           "c": "7270ae16"
         }
-      ]
+      ],
+      "t": "Hole in One (SGM) (HB)",
+      "y": "1984-2017",
+      "m": "HAL Laboratory"
     },
     "cv_hopman": {
       "parent": null,
@@ -3566,7 +4748,10 @@
           "n": "Hopman (2023)(Inufuto).rom",
           "c": "856fc7b8"
         }
-      ]
+      ],
+      "t": "Hopman (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "cv_hustle": {
       "parent": null,
@@ -3575,7 +4760,10 @@
           "n": "Hustle (2023)(CollectorVision).rom",
           "c": "c8f7d8c5"
         }
-      ]
+      ],
+      "t": "Hustle (HB)",
+      "y": "2023",
+      "m": "CollectorVision - Gremlin"
     },
     "cv_hchumy": {
       "parent": null,
@@ -3584,7 +4772,10 @@
           "n": "Hustle Chumy (2019)(CollectorVision).rom",
           "c": "5de1fa04"
         }
-      ]
+      ],
+      "t": "Hustle Chumy (HB)",
+      "y": "1984-2019",
+      "m": "Compile"
     },
     "cv_hrally": {
       "parent": null,
@@ -3593,7 +4784,10 @@
           "n": "Hyper Rally SGM (Proto)(2011)(Team Pixelboy).rom",
           "c": "f8b08810"
         }
-      ]
+      ],
+      "t": "Hyper Rally (SGM) (HB, Prototype)",
+      "y": "1985-2011",
+      "m": "Konami"
     },
     "cv_icemuncher": {
       "parent": null,
@@ -3602,7 +4796,10 @@
           "n": "Ice Muncher (2023)(Nicam Shilova).rom",
           "c": "8cf16f2f"
         }
-      ]
+      ],
+      "t": "Ice Muncher (HB)",
+      "y": "2023",
+      "m": "Nicam Shilova"
     },
     "cv_iceworld": {
       "parent": null,
@@ -3611,7 +4808,10 @@
           "n": "Ice World SGM (2020)(CollectorVision).rom",
           "c": "4f95ee2b"
         }
-      ]
+      ],
+      "t": "Ice World (SGM) (HB)",
+      "y": "1985-2020",
+      "m": "Casio"
     },
     "cv_impetus": {
       "parent": null,
@@ -3620,7 +4820,10 @@
           "n": "Impetus (2022)(Inufuto).rom",
           "c": "e30a446e"
         }
-      ]
+      ],
+      "t": "Impetus (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_impetusplus": {
       "parent": null,
@@ -3629,7 +4832,10 @@
           "n": "Impetus+ (2025)(Inufuto).rom",
           "c": "08e88ad2"
         }
-      ]
+      ],
+      "t": "Impetus+ (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "cv_insanepick": {
       "parent": null,
@@ -3638,7 +4844,10 @@
           "n": "Insane Pickin' Sticks VIII (2010)(Daniel Bienvenu).rom",
           "c": "5a6c2d2f"
         }
-      ]
+      ],
+      "t": "Insane Pickin' Sticks (HB)",
+      "y": "2010",
+      "m": "Daniel Bienvenu"
     },
     "cv_jetpac": {
       "parent": null,
@@ -3647,7 +4856,10 @@
           "n": "JETPAC SGM (2017)(Team Pixelboy).rom",
           "c": "ae7614c3"
         }
-      ]
+      ],
+      "t": "J.E.T.P.A.C. (SGM) (HB)",
+      "y": "2009-2017",
+      "m": "Imanok"
     },
     "cv_jawbreaker": {
       "parent": null,
@@ -3656,7 +4868,10 @@
           "n": "Jawbreaker I&II SGM (2017)(CollectorVision).rom",
           "c": "ed9bb76f"
         }
-      ]
+      ],
+      "t": "Jawbreaker I & II (SGM) (HB)",
+      "y": "1983-2017",
+      "m": "Sierra On-Line"
     },
     "cv_jeepcrep": {
       "parent": null,
@@ -3665,7 +4880,10 @@
           "n": "Jeepers Creepers (2012)(Daniel Bienvenu).rom",
           "c": "69e3c673"
         }
-      ]
+      ],
+      "t": "Jeepers Creepers (HB)",
+      "y": "2007",
+      "m": "Daniel Bienvenu"
     },
     "cv_jetready": {
       "parent": null,
@@ -3674,7 +4892,10 @@
           "n": "Jet Ready (2019)(CollectorVision - Maltanto).rom",
           "c": "90a15086"
         }
-      ]
+      ],
+      "t": "Jet Ready (HB)",
+      "y": "2019",
+      "m": "Maltanto"
     },
     "cv_jewelpanic": {
       "parent": null,
@@ -3683,7 +4904,10 @@
           "n": "Jewel Panic (2020)(Team Pixelboy).rom",
           "c": "9f74b0e9"
         }
-      ]
+      ],
+      "t": "Jewel Panic (HB)",
+      "y": "2020",
+      "m": "Team Pixelboy"
     },
     "cv_joeskimo": {
       "parent": null,
@@ -3692,7 +4916,10 @@
           "n": "Joe The Eskimo (Proto)(2022)(8 bit Milli Games).rom",
           "c": "c644860a"
         }
-      ]
+      ],
+      "t": "Joe The Eskimo (HB, Prototype)",
+      "y": "2022",
+      "m": "8 bit Milli Games"
     },
     "cv_joustsgm": {
       "parent": null,
@@ -3701,7 +4928,10 @@
           "n": "Joust SGM (2014)(Team Pixelboy).rom",
           "c": "62f325b3"
         }
-      ]
+      ],
+      "t": "Joust (SGM) (HB)",
+      "y": "2014",
+      "m": "Atarisoft"
     },
     "cv_jumpland": {
       "parent": null,
@@ -3710,7 +4940,10 @@
           "n": "Jump Land SGM (2015)(CollectorVision).rom",
           "c": "c48db4ce"
         }
-      ]
+      ],
+      "t": "Jump Land (SGM) (HB)",
+      "y": "1985-2015",
+      "m": "Colpax"
     },
     "cv_junkwall": {
       "parent": null,
@@ -3719,7 +4952,10 @@
           "n": "Junkwall (2016)(CollectorVision - Silicon Sex).rom",
           "c": "28257c4a"
         }
-      ]
+      ],
+      "t": "Junkwall (HB)",
+      "y": "2016",
+      "m": "Silicon Sex"
     },
     "cv_junofirst": {
       "parent": null,
@@ -3728,7 +4964,10 @@
           "n": "Juno First SGM (2017)(CollectorVision).rom",
           "c": "1cde6497"
         }
-      ]
+      ],
+      "t": "Juno First (SGM) (HB)",
+      "y": "1983-2017",
+      "m": "Konami"
     },
     "cv_jurl": {
       "parent": null,
@@ -3737,7 +4976,10 @@
           "n": "Jurl v1.1a (2025)(Tonsomo Entertainment).rom",
           "c": "050ddb57"
         }
-      ]
+      ],
+      "t": "Jurl (HB, v1.1a)",
+      "y": "2025",
+      "m": "Tonsomo Entertainment"
     },
     "cv_kaboom": {
       "parent": null,
@@ -3746,7 +4988,10 @@
           "n": "Kaboom (2017)(Team Pixelboy).rom",
           "c": "24a2b61b"
         }
-      ]
+      ],
+      "t": "Kaboom! (HB)",
+      "y": "1981-2017",
+      "m": "Activision"
     },
     "cv_karateka2": {
       "parent": null,
@@ -3755,7 +5000,10 @@
           "n": "Karateka 2 (2021)(Nanochess).rom",
           "c": "59281c7f"
         }
-      ]
+      ],
+      "t": "Karateka 2 (HB)",
+      "y": "2021",
+      "m": "Nanochess"
     },
     "cv_kevtris": {
       "parent": null,
@@ -3764,7 +5012,10 @@
           "n": "Kevtris (1996)(Kevin Horton).rom",
           "c": "819a06e5"
         }
-      ]
+      ],
+      "t": "Kevtris (HB)",
+      "y": "1996",
+      "m": "Kevin Horton"
     },
     "cv_kinstinct": {
       "parent": null,
@@ -3773,7 +5024,10 @@
           "n": "Killer Instinct (Demo) (1997)(Daniel Bienvenu).rom",
           "c": "58f10c63"
         }
-      ]
+      ],
+      "t": "Killer Instinct (HB, Demo)",
+      "y": "1997",
+      "m": "Daniel Bienvenu"
     },
     "cv_kingvalley": {
       "parent": null,
@@ -3782,7 +5036,10 @@
           "n": "King's Valley SGM (2012)(Team Pixelboy).rom",
           "c": "0a2ac883"
         }
-      ]
+      ],
+      "t": "King's Valley (SGM) (HB)",
+      "y": "1985-2012",
+      "m": "Konami"
     },
     "cv_kingball": {
       "parent": null,
@@ -3791,7 +5048,10 @@
           "n": "King and balloon SGM (2018)(Team Pixelboy).rom",
           "c": "9ce3b912"
         }
-      ]
+      ],
+      "t": "King & Balloon (SGM) (HB)",
+      "y": "1984-2018",
+      "m": "Namco"
     },
     "cv_ksolitaire": {
       "parent": null,
@@ -3800,7 +5060,10 @@
           "n": "Klondike Solitaire v1.04 (2023)(Under4Mhz).rom",
           "c": "edc43cd0"
         }
-      ]
+      ],
+      "t": "Klondike Solitaire (HB, v1.04)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_kngtlore": {
       "parent": null,
@@ -3809,7 +5072,10 @@
           "n": "Knight Lore SGM (2018)(Team Pixelboy).rom",
           "c": "1523bfbf"
         }
-      ]
+      ],
+      "t": "Knight Lore (SGM) (HB)",
+      "y": "1984-2018",
+      "m": "Ultimate"
     },
     "cv_kngtmare": {
       "parent": "cv_kngtmareoc",
@@ -3818,7 +5084,10 @@
           "n": "Knightmare SGM (fix)(2015)(Team Pixelboy).rom",
           "c": "01cacd0d"
         }
-      ]
+      ],
+      "t": "Knightmare (Team Pixelboy) (SGM) (HB)",
+      "y": "1986-2015",
+      "m": "Konami"
     },
     "cv_kngtmareoc": {
       "parent": null,
@@ -3827,7 +5096,10 @@
           "n": "Knightmare SGM (2023)(Opcode Games).rom",
           "c": "80586cc5"
         }
-      ]
+      ],
+      "t": "Knightmare (Opcode) (SGM)",
+      "y": "1986-2023",
+      "m": "Opcode Games - Konami"
     },
     "cv_knightmore": {
       "parent": null,
@@ -3836,7 +5108,10 @@
           "n": "Knight'n More (2016)(Cote Gamers).rom",
           "c": "c6c33170"
         }
-      ]
+      ],
+      "t": "Knight'n More (HB)",
+      "y": "2016",
+      "m": "Cote Gamers"
     },
     "cv_kobashi": {
       "parent": null,
@@ -3845,7 +5120,10 @@
           "n": "Kobashi (2010)(CollectorVision).rom",
           "c": "9fc4d7c7"
         }
-      ]
+      ],
+      "t": "Kobashi (HB)",
+      "y": "2010",
+      "m": "CollectorVision Games"
     },
     "cv_pingpong": {
       "parent": null,
@@ -3854,7 +5132,10 @@
           "n": "Konami's Ping-Pong (2011)(Team Pixelboy).rom",
           "c": "344cb482"
         }
-      ]
+      ],
+      "t": "Konami's Ping-Pong (HB)",
+      "y": "2011",
+      "m": "Konami"
     },
     "cv_krtetris": {
       "parent": null,
@@ -3863,7 +5144,10 @@
           "n": "Kralizec Tetris (2017)(Team Pixelboy).rom",
           "c": "e8a91349"
         }
-      ]
+      ],
+      "t": "Kralizec Tetris (HB)",
+      "y": "2016-17",
+      "m": "Kralizec"
     },
     "cv_kungfumstr": {
       "parent": null,
@@ -3872,7 +5156,10 @@
           "n": "Kung-Fu Master SGM (2016)(CollectorVision).rom",
           "c": "441693fd"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (SGM) (HB)",
+      "y": "1985-2016",
+      "m": "Irem Corp."
     },
     "cv_labbaye": {
       "parent": null,
@@ -3881,7 +5168,10 @@
           "n": "L'Abbaye des Morts (2019)(CollectorVision).rom",
           "c": "b11a6d23"
         }
-      ]
+      ],
+      "t": "L'Abbaye des Morts (HB)",
+      "y": "2019",
+      "m": "Exidy - Alekmaul"
     },
     "cv_fuzzywomp": {
       "parent": null,
@@ -3890,7 +5180,10 @@
           "n": "Learning with FuzzyWOMP (2022)(CollectorVision).rom",
           "c": "697f56da"
         }
-      ]
+      ],
+      "t": "Learning with FuzzyWOMP (HB)",
+      "y": "2022",
+      "m": "Nice Ideas"
     },
     "cv_legacwiz": {
       "parent": null,
@@ -3899,7 +5192,10 @@
           "n": "Legacy of the Wizard SGM (2024)(CollectorVision).rom",
           "c": "6ed07ac1"
         }
-      ]
+      ],
+      "t": "Legacy of the Wizard (SGM) (HB)",
+      "y": "2024",
+      "m": "<unknown>"
     },
     "cv_lift": {
       "parent": null,
@@ -3908,7 +5204,10 @@
           "n": "Lift (2022)(Inufuto).rom",
           "c": "7a4d5d1b"
         }
-      ]
+      ],
+      "t": "Lift (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_lgracing": {
       "parent": null,
@@ -3917,7 +5216,10 @@
           "n": "Light Grid Racing (2015)(CollectorVision).rom",
           "c": "1e37ec6a"
         }
-      ]
+      ],
+      "t": "Light Grid Racing (HB)",
+      "y": "2015",
+      "m": "CollectorVision Games"
     },
     "cv_locknchase": {
       "parent": null,
@@ -3926,7 +5228,10 @@
           "n": "Lock'n Chase (2011)(CollectorVision).rom",
           "c": "6bc9a350"
         }
-      ]
+      ],
+      "t": "Lock'n Chase (HB)",
+      "y": "2011",
+      "m": "M. Louvet"
     },
     "cv_locknchaseble": {
       "parent": "cv_locknchase",
@@ -3935,7 +5240,10 @@
           "n": "Lock'n Chase Black Label Edition (2013)(CollectorVision).rom",
           "c": "93429913"
         }
-      ]
+      ],
+      "t": "Lock'n Chase Black Label Edition (HB)",
+      "y": "2013",
+      "m": "M. Louvet"
     },
     "cv_locomotion": {
       "parent": null,
@@ -3944,7 +5252,10 @@
           "n": "Loco-Motion SGM (2017)(CollectorVision).rom",
           "c": "5b69d078"
         }
-      ]
+      ],
+      "t": "Loco-Motion (SGM) (HB)",
+      "y": "1983-2017",
+      "m": "Konami"
     },
     "cv_loderunner": {
       "parent": null,
@@ -3953,7 +5264,10 @@
           "n": "Lode Runner (2002)(Steve Begin).rom",
           "c": "a2128f74"
         }
-      ]
+      ],
+      "t": "Lode Runner (HB)",
+      "y": "2009",
+      "m": "Coleco"
     },
     "cv_loder2013": {
       "parent": null,
@@ -3962,7 +5276,10 @@
           "n": "Lode Runner (2013)(Collectorvision).rom",
           "c": "d679ac52"
         }
-      ]
+      ],
+      "t": "Lode Runner 2013 (HB)",
+      "y": "2012-13",
+      "m": "CollectorVision Games"
     },
     "cv_lunarball": {
       "parent": null,
@@ -3971,7 +5288,10 @@
           "n": "Lunar Ball SGM (1985-2023)(CollectorVision).rom",
           "c": "e7922c9b"
         }
-      ]
+      ],
+      "t": "Lunar Ball (SGM) (HB)",
+      "y": "1985-2023",
+      "m": "Pony"
     },
     "cv_lunaleep": {
       "parent": null,
@@ -3980,7 +5300,10 @@
           "n": "Lunar Leeper (1982-2019)(Nanochess).rom",
           "c": "6cab2432"
         }
-      ]
+      ],
+      "t": "Lunar Leeper (HB)",
+      "y": "1982-2019",
+      "m": "Sierra On-Line - Nanochess"
     },
     "cv_magtree": {
       "parent": null,
@@ -3989,7 +5312,10 @@
           "n": "Magical Tree (2006)(Opcode Games).rom",
           "c": "f4314bb1"
         }
-      ]
+      ],
+      "t": "Magical Tree (HB)",
+      "y": "2006",
+      "m": "Konami"
     },
     "cv_magtreep": {
       "parent": "cv_magtree",
@@ -3998,7 +5324,22 @@
           "n": "Magical Tree (Proto) (1984-2004)(Opcode Games).rom",
           "c": "9f53f9cc"
         }
-      ]
+      ],
+      "t": "Magical Tree (HB, Prototype)",
+      "y": "1984-2004",
+      "m": "Konami"
+    },
+    "cv_mkidwiz": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Magical Kid WIZ (2018)(Opcode Games).rom",
+          "c": "aeefdb96"
+        }
+      ],
+      "t": "Magical Kid WIZ (SGM) (HB)",
+      "y": "2018",
+      "m": "Opcode Games"
     },
     "cv_msolitaire": {
       "parent": null,
@@ -4007,7 +5348,10 @@
           "n": "Mahjong Solitaire v1.16 (2023)(Under4Mhz).rom",
           "c": "119af363"
         }
-      ]
+      ],
+      "t": "Mahjong Solitaire (HB, v1.16)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "cv_majikazo": {
       "parent": null,
@@ -4016,7 +5360,10 @@
           "n": "Majikazo SGM (2016)(Team Pixelboy).rom",
           "c": "2a1438c0"
         }
-      ]
+      ],
+      "t": "Majikazo (SGM) (HB)",
+      "y": "2015-16",
+      "m": "Lemonize"
     },
     "cv_manhole": {
       "parent": null,
@@ -4025,7 +5372,10 @@
           "n": "Manhole v0.6b (2024)(Electric Dreams).rom",
           "c": "068bfdbe"
         }
-      ]
+      ],
+      "t": "Manhole (HB, v0.6b)",
+      "y": "2024",
+      "m": "Electric Dreams"
     },
     "cv_mappy": {
       "parent": null,
@@ -4034,7 +5384,10 @@
           "n": "Mappy SGM (2015)(Team Pixelboy).rom",
           "c": "00d30431"
         }
-      ]
+      ],
+      "t": "Mappy (SGM) (HB)",
+      "y": "1984-2015",
+      "m": "Namco"
     },
     "cv_mario": {
       "parent": null,
@@ -4043,7 +5396,10 @@
           "n": "Mario Brothers Final Edition (2009)(Rev D)(CollectorVision).rom",
           "c": "2e09af0a"
         }
-      ]
+      ],
+      "t": "Mario Brothers Final Edition (HB, Rev. D)",
+      "y": "1983-2009",
+      "m": "Nintendo"
     },
     "cv_mariob": {
       "parent": "cv_mario",
@@ -4052,7 +5408,10 @@
           "n": "Mario Brothers (2009)(CollectorVision).rom",
           "c": "11777b27"
         }
-      ]
+      ],
+      "t": "Mario Brothers (HB)",
+      "y": "1983-2009",
+      "m": "Nintendo"
     },
     "cv_masters": {
       "parent": null,
@@ -4061,7 +5420,10 @@
           "n": "Masters of the Universe - The Power of He-Man (1983-2022)(CollectorVision).rom",
           "c": "838a9742"
         }
-      ]
+      ],
+      "t": "Masters of the Universe: The Power of He-Man (HB)",
+      "y": "1983-2022",
+      "m": "Mattel Electronics"
     },
     "cv_mathquest": {
       "parent": null,
@@ -4070,7 +5432,10 @@
           "n": "Math Quest SGM (2021)(CollectorVision).rom",
           "c": "0d5581cb"
         }
-      ]
+      ],
+      "t": "Math Quest (SGM) (HB)",
+      "y": "2021",
+      "m": "Paul Crowley"
     },
     "cv_mazemaniac": {
       "parent": null,
@@ -4079,7 +5444,10 @@
           "n": "Maze Maniac (2006)(Charles-Mathieu Boyer).rom",
           "c": "44bfaf23"
         }
-      ]
+      ],
+      "t": "Maze Maniac (HB)",
+      "y": "2006",
+      "m": "Charles-Mathieu Boyer"
     },
     "cv_mazezam": {
       "parent": null,
@@ -4088,7 +5456,10 @@
           "n": "MazezaM (2004)(Ventzislav Tzvetkov).rom",
           "c": "150006fc"
         }
-      ]
+      ],
+      "t": "MazezaM (HB)",
+      "y": "2004",
+      "m": "Ventzislav Tzvetkov"
     },
     "cv_mazezamch": {
       "parent": null,
@@ -4097,7 +5468,10 @@
           "n": "MazezaM Challenge (2016)(Collectorvision).rom",
           "c": "8eded0e2"
         }
-      ]
+      ],
+      "t": "MazezaM Challenge (HB)",
+      "y": "2016",
+      "m": "CollectorVision Games"
     },
     "cv_mazy": {
       "parent": null,
@@ -4106,7 +5480,10 @@
           "n": "Mazy (2022)(Inufuto).rom",
           "c": "02ef2836"
         }
-      ]
+      ],
+      "t": "Mazy (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_mazy2": {
       "parent": null,
@@ -4115,7 +5492,10 @@
           "n": "Mazy 2 (2025)(Inufuto).rom",
           "c": "5d9d95dc"
         }
-      ]
+      ],
+      "t": "Mazy 2 (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "cv_mecha8": {
       "parent": null,
@@ -4124,7 +5504,10 @@
           "n": "Mecha 8 SGM (2013)(Team Pixelboy).rom",
           "c": "53da40bc"
         }
-      ]
+      ],
+      "t": "Mecha 8 (SGM) (HB)",
+      "y": "2013",
+      "m": "Oscar Toledo G."
     },
     "cv_mecha9": {
       "parent": null,
@@ -4133,7 +5516,10 @@
           "n": "Mecha 9 SGM (2015)(Team Pixelboy).rom",
           "c": "b405591a"
         }
-      ]
+      ],
+      "t": "Mecha 9 (SGM) (HB)",
+      "y": "2015",
+      "m": "Oscar Toledo G."
     },
     "cv_mmtxvol1": {
       "parent": null,
@@ -4142,7 +5528,10 @@
           "n": "Memotech MTX Series Vol 1 (2013).rom",
           "c": "f8b5bb4f"
         }
-      ]
+      ],
+      "t": "Memotech MTX Series Vol.1 (HB)",
+      "y": "2013",
+      "m": "Coleco"
     },
     "cv_mmtxvol2": {
       "parent": null,
@@ -4151,7 +5540,10 @@
           "n": "Memotech MTX Series Vol 2 (2013).rom",
           "c": "06ff3853"
         }
-      ]
+      ],
+      "t": "Memotech MTX Series Vol.2 (HB)",
+      "y": "2013",
+      "m": "Coleco"
     },
     "cv_mieyen": {
       "parent": null,
@@ -4160,7 +5552,10 @@
           "n": "Mieyen (2025)(Inufuto).rom",
           "c": "f47e5bf5"
         }
-      ]
+      ],
+      "t": "Mieyen (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "cv_mikie": {
       "parent": null,
@@ -4169,7 +5564,10 @@
           "n": "Mikie (2021)(Team Pixelboy).rom",
           "c": "ad434a6d"
         }
-      ]
+      ],
+      "t": "Mikie (HB)",
+      "y": "1984-2021",
+      "m": "Sega"
     },
     "cv_mindwalls": {
       "parent": null,
@@ -4178,7 +5576,10 @@
           "n": "Mindwalls (2013)(CollectorVision Games).rom",
           "c": "7b61b12e"
         }
-      ]
+      ],
+      "t": "Mindwalls (HB)",
+      "y": "2013",
+      "m": "CollectorVision Games"
     },
     "cv_minesweeper": {
       "parent": null,
@@ -4187,7 +5588,10 @@
           "n": "Minesweeper v1.03 (2023)(Under4Mhz).rom",
           "c": "d92adc95"
         }
-      ]
+      ],
+      "t": "Minesweeper (HB, v1.03)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "cv_misstrike": {
       "parent": null,
@@ -4196,7 +5600,10 @@
           "n": "Missile Strike (2021)(AnalogKid).rom",
           "c": "dd730dbd"
         }
-      ]
+      ],
+      "t": "Missile Strike (HB)",
+      "y": "2021",
+      "m": "AlalogKid"
     },
     "cv_mobplansty": {
       "parent": null,
@@ -4205,7 +5612,10 @@
           "n": "Mobile Planet Styllus SGM (20XX)(unknown).rom",
           "c": "318d6bcb"
         }
-      ]
+      ],
+      "t": "Mobile Planet Styllus (SGM) (HB)",
+      "y": "20??",
+      "m": "<unknown>"
     },
     "cv_moduleman": {
       "parent": null,
@@ -4214,7 +5624,10 @@
           "n": "Module Man (2013)(Team Pixelboy).rom",
           "c": "eb6be8ec"
         }
-      ]
+      ],
+      "t": "Module Man (HB)",
+      "y": "2013",
+      "m": "Team Pixelboy"
     },
     "cv_monacogp": {
       "parent": null,
@@ -4223,7 +5636,10 @@
           "n": "Monaco GP (2021)(Mystery Man).rom",
           "c": "5d21678e"
         }
-      ]
+      ],
+      "t": "Monaco GP (HB)",
+      "y": "1983-2021",
+      "m": "Sega - Mystery Man"
     },
     "cv_monsthouse": {
       "parent": null,
@@ -4232,7 +5648,10 @@
           "n": "Monster House SGM (2017)(CollectorVision).rom",
           "c": "50f02dc9"
         }
-      ]
+      ],
+      "t": "Monster House (SGM) (HB)",
+      "y": "1986-2017",
+      "m": "Casio"
     },
     "cv_monstmasher": {
       "parent": null,
@@ -4241,7 +5660,10 @@
           "n": "Monster Masher (2006)(Philipp Klaus Krause).rom",
           "c": "c9647af5"
         }
-      ]
+      ],
+      "t": "Monster Masher (HB)",
+      "y": "2006",
+      "m": "Philipp Klaus Krause"
     },
     "cv_monstmashergdg": {
       "parent": "cv_monstmasher",
@@ -4250,7 +5672,10 @@
           "n": "Monster (Good Deals Games) (2006)(Philipp Klaus Krause).rom",
           "c": "c212599a"
         }
-      ]
+      ],
+      "t": "Monster Masher (Good Deals Games) (HB)",
+      "y": "2006",
+      "m": "Philipp Klaus Krause"
     },
     "cv_mooncresta": {
       "parent": null,
@@ -4259,7 +5684,10 @@
           "n": "Mooncresta - SGM (2023)(Opcode Games).rom",
           "c": "bdae4248"
         }
-      ]
+      ],
+      "t": "Mooncresta (SGM) (HB)",
+      "y": "1980-2023",
+      "m": "Opcode Games - Nichibutsu"
     },
     "cv_mopirang": {
       "parent": null,
@@ -4268,7 +5696,10 @@
           "n": "Mopiranger (2012) (Team Pixelboy).rom",
           "c": "a60be082"
         }
-      ]
+      ],
+      "t": "Mopiranger (HB)",
+      "y": "1985-2012",
+      "m": "Konami"
     },
     "cv_mouser": {
       "parent": null,
@@ -4277,7 +5708,10 @@
           "n": "Mouser - SGM (1983-2017)(Opcode Games).rom",
           "c": "b9a8d81e"
         }
-      ]
+      ],
+      "t": "Mouser (SGM) (HB)",
+      "y": "1983-2017",
+      "m": "Opcode Games - UPL"
     },
     "cv_mrchin": {
       "parent": null,
@@ -4286,25 +5720,34 @@
           "n": "Mr. Chin (2008)(Collectorvision Games).rom",
           "c": "9ab11795"
         }
-      ]
+      ],
+      "t": "Mr. Chin (HB)",
+      "y": "1984-2008",
+      "m": "HAL Laboratory"
     },
     "cv_mrdoarcade": {
       "parent": null,
       "roms": [
         {
           "n": "Mr. Do! Arcade (2026)(Scott Moschella).rom",
-          "c": "09f0d2c7"
+          "c": "51dc96d1"
         }
-      ]
+      ],
+      "t": "Mr. Do! Arcade (HB)",
+      "y": "2026",
+      "m": "Scott Moschella"
     },
     "cv_mrdoarcadern": {
       "parent": "cv_mrdoarcade",
       "roms": [
         {
           "n": "Mr. Do! Arcade - Red Nose (2026)(Scott Moschella).rom",
-          "c": "99324671"
+          "c": "90f4e6e3"
         }
-      ]
+      ],
+      "t": "Mr. Do! Arcade - Red Nose (HB)",
+      "y": "2026",
+      "m": "Scott Moschella"
     },
     "cv_mrdorunrun": {
       "parent": null,
@@ -4313,7 +5756,10 @@
           "n": "Mr. Do! Run Run SGM (2022)(CollectorVision).rom",
           "c": "13d53b3c"
         }
-      ]
+      ],
+      "t": "Mr. Do! Run Run (SGM) (HB)",
+      "y": "1987-2022",
+      "m": "Universal"
     },
     "cv_mrdowr": {
       "parent": null,
@@ -4322,7 +5768,10 @@
           "n": "Mr. Do's Wild Ride (2021)(CollectorVision).rom",
           "c": "d3ea5876"
         }
-      ]
+      ],
+      "t": "Mr. Do's Wild Ride (HB)",
+      "y": "1984-2021",
+      "m": "Universal"
     },
     "cv_mrturtle": {
       "parent": null,
@@ -4331,7 +5780,10 @@
           "n": "Mr. Turtle (2015-2023)(CollectorVision).rom",
           "c": "7aef297d"
         }
-      ]
+      ],
+      "t": "Mr. Turtle (HB)",
+      "y": "2015-2023",
+      "m": "Leo Brophy"
     },
     "cv_msspacefury": {
       "parent": null,
@@ -4340,7 +5792,10 @@
           "n": "Ms. Space Fury (2001)(Daniel Bienvenu).rom",
           "c": "d055a446"
         }
-      ]
+      ],
+      "t": "Ms. Space Fury (HB)",
+      "y": "2001",
+      "m": "Daniel Bienvenu"
     },
     "cv_multiverse": {
       "parent": null,
@@ -4349,7 +5804,10 @@
           "n": "MultiVerse (2019)(Team Pixelboy - Hikaru Games).rom",
           "c": "d45475ac"
         }
-      ]
+      ],
+      "t": "MultiVerse (HB)",
+      "y": "2019",
+      "m": "Hikaru Games"
     },
     "cv_mummymaze": {
       "parent": null,
@@ -4358,7 +5816,10 @@
           "n": "Mummy Maze (2024)(Nicam Shilova).rom",
           "c": "7724857a"
         }
-      ]
+      ],
+      "t": "Mummy Maze (HB)",
+      "y": "2024",
+      "m": "Nicam Shilova"
     },
     "cv_munchmouse": {
       "parent": null,
@@ -4367,7 +5828,10 @@
           "n": "Muncher Mouse (2018)(Cote Gamers).rom",
           "c": "440b9ab6"
         }
-      ]
+      ],
+      "t": "Muncher Mouse (HB)",
+      "y": "2018",
+      "m": "Cote Gamers"
     },
     "cv_nethdungeon": {
       "parent": "cv_sydneyhunt",
@@ -4376,7 +5840,10 @@
           "n": "Nether Dungeon (2018)(CollectorVision).rom",
           "c": "4657bb8c"
         }
-      ]
+      ],
+      "t": "Nether Dungeon (HB)",
+      "y": "2018",
+      "m": "CollectorVision Games"
     },
     "cv_neuras": {
       "parent": null,
@@ -4385,7 +5852,10 @@
           "n": "Neuras (2022)(Inufuto).rom",
           "c": "a2be9635"
         }
-      ]
+      ],
+      "t": "Neuras (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_nibbli": {
       "parent": null,
@@ -4394,7 +5864,10 @@
           "n": "Nibbli - Son of Nibbler (2014)(CollectorVision).rom",
           "c": "41555f66"
         }
-      ]
+      ],
+      "t": "Nibbli: Son of Nibbler (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_nim": {
       "parent": null,
@@ -4403,7 +5876,10 @@
           "n": "Nim (2000)(Daniel Bienvenu).rom",
           "c": "9c059a51"
         }
-      ]
+      ],
+      "t": "Nim (HB)",
+      "y": "2000",
+      "m": "Daniel Bienvenu"
     },
     "cv_ninjaprincess": {
       "parent": null,
@@ -4412,7 +5888,10 @@
           "n": "Ninja Princess SGM (2011)(Team PixelBoy).rom",
           "c": "5fb0ed62"
         }
-      ]
+      ],
+      "t": "Ninja Princess (SGM) (HB)",
+      "y": "1986-2011",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_nsub": {
       "parent": null,
@@ -4421,7 +5900,10 @@
           "n": "N-Sub (2021)(Team Pixelboy).rom",
           "c": "c73cd5dc"
         }
-      ]
+      ],
+      "t": "N-Sub (HB)",
+      "y": "1988-2021",
+      "m": "Sega"
     },
     "cv_ophibern": {
       "parent": null,
@@ -4430,7 +5912,10 @@
           "n": "Operation Hibernation 10-11-25 (2025)(Jess Creations).rom",
           "c": "39ed33ed"
         }
-      ]
+      ],
+      "t": "Operation Hibernation (HB, 10-11-25)",
+      "y": "2025",
+      "m": "Jess Creations"
     },
     "cv_opwolf": {
       "parent": null,
@@ -4439,7 +5924,10 @@
           "n": "Operation Wolf SGM (2016)(Team Pixelboy - Lemonize).rom",
           "c": "c177bfd4"
         }
-      ]
+      ],
+      "t": "Operation Wolf (SGM) (HB)",
+      "y": "2016",
+      "m": "Lemonize"
     },
     "cv_osotos": {
       "parent": null,
@@ -4448,7 +5936,10 @@
           "n": "Osotos (2024)(Inufuto).rom",
           "c": "8c5b9d1f"
         }
-      ]
+      ],
+      "t": "Osotos (HB)",
+      "y": "2024",
+      "m": "Inufuto"
     },
     "cv_ozmawar": {
       "parent": null,
@@ -4457,7 +5948,10 @@
           "n": "Ozma Wars (2011)(CollectorVision).rom",
           "c": "2424627f"
         }
-      ]
+      ],
+      "t": "Ozma Wars (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_pacar": {
       "parent": null,
@@ -4466,7 +5960,10 @@
           "n": "Pacar (2017)(Team Pixelboy).rom",
           "c": "a82c9593"
         }
-      ]
+      ],
+      "t": "Pacar (HB)",
+      "y": "1983-2017",
+      "m": "Sega"
     },
     "cv_pacmancol": {
       "parent": null,
@@ -4475,7 +5972,10 @@
           "n": "Pac-Man Collection (2008)(Opcode Games).rom",
           "c": "f3ccacb3"
         }
-      ]
+      ],
+      "t": "Pac-Man Collection (HB)",
+      "y": "2008",
+      "m": "Opcode Games"
     },
     "cv_pang": {
       "parent": null,
@@ -4484,7 +5984,10 @@
           "n": "Pang (2012)(CollectorVision).rom",
           "c": "18aced43"
         }
-      ]
+      ],
+      "t": "Pang (HB)",
+      "y": "2012",
+      "m": "CollectorVision Games"
     },
     "cv_parsec": {
       "parent": null,
@@ -4493,7 +5996,10 @@
           "n": "Parsec (1982-2024)(CollectorVision).rom",
           "c": "2eee537a"
         }
-      ]
+      ],
+      "t": "Parsec (HB)",
+      "y": "1982-2024",
+      "m": "Texas Instruments"
     },
     "cv_peekaboo": {
       "parent": null,
@@ -4502,7 +6008,10 @@
           "n": "Peek-A-Boo (2010)(Team Pixelboy - Dvik & Joyrex).rom",
           "c": "32c52187"
         }
-      ]
+      ],
+      "t": "Peek-A-Boo (HB)",
+      "y": "2010",
+      "m": "Dvik & Joyrex"
     },
     "cv_pegged": {
       "parent": null,
@@ -4511,7 +6020,10 @@
           "n": "Pegged (2021)(Under4MHz).rom",
           "c": "1abf1b9e"
         }
-      ]
+      ],
+      "t": "Pegged (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_penguinadv": {
       "parent": null,
@@ -4520,7 +6032,10 @@
           "n": "Penguin Adventure SGM (2016)(Opcode Games).rom",
           "c": "6831ad48"
         }
-      ]
+      ],
+      "t": "Penguin Adventure (SGM) (HB)",
+      "y": "1986-2016",
+      "m": "Opcode Games - Konami"
     },
     "cv_penguinland": {
       "parent": null,
@@ -4529,7 +6044,10 @@
           "n": "Penguin Land (2010)(CollectorVision - Steve Begin).rom",
           "c": "2357c3e3"
         }
-      ]
+      ],
+      "t": "Penguin Land (HB)",
+      "y": "2003-2010",
+      "m": "Steve Begin"
     },
     "cv_penguinwars": {
       "parent": null,
@@ -4538,7 +6056,10 @@
           "n": "Penguin Wars SGM (2018)(Opcode Games).rom",
           "c": "4008a425"
         }
-      ]
+      ],
+      "t": "Penguin Wars (SGM) (HB)",
+      "y": "2018",
+      "m": "Opcode Games - ASCII"
     },
     "cv_pengy": {
       "parent": null,
@@ -4547,7 +6068,10 @@
           "n": "Pengy (2020)(Cote Gamers).rom",
           "c": "3dd459ee"
         }
-      ]
+      ],
+      "t": "Pengy (HB)",
+      "y": "1992-2020",
+      "m": "Cote Gamers"
     },
     "cv_pillars": {
       "parent": null,
@@ -4556,7 +6080,10 @@
           "n": "Pillars (2021)(Under4Mhz).rom",
           "c": "5a49b249"
         }
-      ]
+      ],
+      "t": "Pillars (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_pippols": {
       "parent": null,
@@ -4565,7 +6092,10 @@
           "n": "Pippols (2014)(CollectorVision).rom",
           "c": "28d04775"
         }
-      ]
+      ],
+      "t": "Pippols (HB)",
+      "y": "1985-2014",
+      "m": "Konami"
     },
     "cv_pitfall2a": {
       "parent": null,
@@ -4574,7 +6104,10 @@
           "n": "Pitfall II Arcade (2010)(Team Pixelboy).rom",
           "c": "519bfe40"
         }
-      ]
+      ],
+      "t": "Pitfall II Arcade (HB)",
+      "y": "1985-2010",
+      "m": "Sega - Stephen Seehorn"
     },
     "cv_pitman": {
       "parent": null,
@@ -4583,7 +6116,10 @@
           "n": "Pitman (2021)(Under4Mhz).rom",
           "c": "50998610"
         }
-      ]
+      ],
+      "t": "Pitman (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_pvsz": {
       "parent": null,
@@ -4592,7 +6128,10 @@
           "n": "Plants Vs Zombies (2022)(CollectorVision).rom",
           "c": "68e6c9a1"
         }
-      ]
+      ],
+      "t": "Plants Vs Zombies (HB)",
+      "y": "2022",
+      "m": "CollectorVision Games"
     },
     "cv_pong": {
       "parent": null,
@@ -4601,7 +6140,10 @@
           "n": "Pong (2014)(CollectorVision).rom",
           "c": "8aad0831"
         }
-      ]
+      ],
+      "t": "Pong (HB)",
+      "y": "2014",
+      "m": "Atari Games Ltd."
     },
     "cv_pooyan": {
       "parent": null,
@@ -4610,7 +6152,10 @@
           "n": "Pooyan (2009)(Dwik & JoyRex).rom",
           "c": "0e25ebd7"
         }
-      ]
+      ],
+      "t": "Pooyan (HB)",
+      "y": "2010",
+      "m": "Dvik & Joyrex"
     },
     "cv_pquest": {
       "parent": null,
@@ -4619,7 +6164,10 @@
           "n": "Princess Quest SGM (2012)(Team Pixelboy).rom",
           "c": "a59eaa2b"
         }
-      ]
+      ],
+      "t": "Princess Quest (SGM) (HB)",
+      "y": "2012",
+      "m": "Oscar Toledo G."
     },
     "cv_prisonofwar": {
       "parent": null,
@@ -4628,7 +6176,10 @@
           "n": "Prisoner of War SGM (2019)(Team Pixelboy).rom",
           "c": "f998b515"
         }
-      ]
+      ],
+      "t": "Prisoner of War (SGM) (HB)",
+      "y": "2018-19",
+      "m": "Team Pixelboy"
     },
     "cv_purpdino": {
       "parent": null,
@@ -4637,7 +6188,10 @@
           "n": "Purple Dinosaur Massacre (1996)(John Dondzilla).rom",
           "c": "137d6c4c"
         }
-      ]
+      ],
+      "t": "Purple Dinosaur Massacre (HB)",
+      "y": "1996",
+      "m": "John Dondzilla"
     },
     "cv_puzzli": {
       "parent": null,
@@ -4646,7 +6200,10 @@
           "n": "Puzzli (CollectorVision)(2011).rom",
           "c": "4236e57e"
         }
-      ]
+      ],
+      "t": "Puzzli (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_pv2000": {
       "parent": null,
@@ -4655,7 +6212,10 @@
           "n": "PV2000 (2012)(Nicolas Campion).rom",
           "c": "ded6a3b4"
         }
-      ]
+      ],
+      "t": "PV2000 (HB)",
+      "y": "2012",
+      "m": "Nicolas Campion"
     },
     "cv_pyrawbc2": {
       "parent": null,
@@ -4664,7 +6224,10 @@
           "n": "Pyramid Warp & Battle Ship Clapton II (2009)(Collectorvision Games).rom",
           "c": "f7052b06"
         }
-      ]
+      ],
+      "t": "Pyramid Warp & Battleship Clapton 2 (HB)",
+      "y": "2008",
+      "m": "Dvik & Joyrex"
     },
     "cv_pyrebirds": {
       "parent": null,
@@ -4673,7 +6236,10 @@
           "n": "Pyrebirds 01-22-26 Beta (2026)(Jess Creations).rom",
           "c": "6bad1b85"
         }
-      ]
+      ],
+      "t": "Pyrebirds (HB, 01-22-26 Beta)",
+      "y": "2026",
+      "m": "Jess Creations"
     },
     "cv_qbiqs": {
       "parent": null,
@@ -4682,7 +6248,10 @@
           "n": "qbIqS SGM (2010)(Team Pixelboy).rom",
           "c": "ee530ad2"
         }
-      ]
+      ],
+      "t": "qbIqS (SGM) (HB)",
+      "y": "2010",
+      "m": "Z80ST Software"
     },
     "cv_quatre": {
       "parent": null,
@@ -4691,7 +6260,10 @@
           "n": "Quatre (2017)(Nicam Shilova).rom",
           "c": "b6df4148"
         }
-      ]
+      ],
+      "t": "Quatre (HB)",
+      "y": "2017",
+      "m": "Nicam Shilova"
     },
     "cv_questgc": {
       "parent": null,
@@ -4700,7 +6272,10 @@
           "n": "Quest for Golden Chalice (2012)(Team Pixelboy).rom",
           "c": "6da37da8"
         }
-      ]
+      ],
+      "t": "Quest for the Golden Chalice (HB)",
+      "y": "2012",
+      "m": "Team Pixelboy"
     },
     "cv_rtype": {
       "parent": null,
@@ -4709,7 +6284,10 @@
           "n": "R-Type SGM (2020)(Team Pixelboy).rom",
           "c": "b4785b43"
         }
-      ]
+      ],
+      "t": "R-Type (SGM) (HB)",
+      "y": "1988-2020",
+      "m": "Irem Corp."
     },
     "cv_raidbungbay": {
       "parent": null,
@@ -4718,7 +6296,10 @@
           "n": "Raid on Bungeling Bay SGM (2019)(Opcode Games).rom",
           "c": "c3588f0f"
         }
-      ]
+      ],
+      "t": "Raid on Bungeling Bay (SGM) (HB)",
+      "y": "1984-2019",
+      "m": "Opcode Games - Broderbund"
     },
     "cv_rallyx": {
       "parent": null,
@@ -4727,7 +6308,10 @@
           "n": "Rally-X SGM (2016)(Team Pixelboy).rom",
           "c": "fb5dd80d"
         }
-      ]
+      ],
+      "t": "Rally-X (SGM) (HB)",
+      "y": "1984-2016",
+      "m": "Namco"
     },
     "cv_recrescue": {
       "parent": null,
@@ -4736,7 +6320,10 @@
           "n": "Recon Rescue (2021)(Nicam Shilova).rom",
           "c": "85aeb133"
         }
-      ]
+      ],
+      "t": "Recon Rescue (HB)",
+      "y": "2021",
+      "m": "Nicam Shilova"
     },
     "cv_rtheflag": {
       "parent": null,
@@ -4745,7 +6332,10 @@
           "n": "Remember The Flag (2017)(Team Pixelboy).rom",
           "c": "7e090dfb"
         }
-      ]
+      ],
+      "t": "Remember the Flag (HB)",
+      "y": "2016-17",
+      "m": "Team Pixelboy"
     },
     "cv_reversdd": {
       "parent": null,
@@ -4754,7 +6344,10 @@
           "n": "Reversi and Diamond Dash (2004)(Daniel Bienvenu).rom",
           "c": "2331b6f6"
         }
-      ]
+      ],
+      "t": "Reversi and Diamond Dash (HB)",
+      "y": "2004",
+      "m": "Daniel Bienvenu"
     },
     "cv_reversi": {
       "parent": null,
@@ -4763,7 +6356,10 @@
           "n": "Reversi (2001)(Daniel Bienvenu).rom",
           "c": "7d102fe7"
         }
-      ]
+      ],
+      "t": "Reversi (HB)",
+      "y": "2004",
+      "m": "Daniel Bienvenu"
     },
     "cv_ripcord": {
       "parent": null,
@@ -4772,7 +6368,10 @@
           "n": "Rip Cord (2017)(CollectorVision).rom",
           "c": "60312b4e"
         }
-      ]
+      ],
+      "t": "Rip Cord (HB)",
+      "y": "1979-2017",
+      "m": "Exidy"
     },
     "cv_riskyrick": {
       "parent": null,
@@ -4781,7 +6380,10 @@
           "n": "Risky Rick (2018)(ArcadeVision).rom",
           "c": "68fdb91b"
         }
-      ]
+      ],
+      "t": "Risky Rick (HB)",
+      "y": "2018",
+      "m": "ArcadeVision"
     },
     "cv_roadfght": {
       "parent": null,
@@ -4790,7 +6392,10 @@
           "n": "Road Fighter (2007)(Opcode Games).rom",
           "c": "570b9935"
         }
-      ]
+      ],
+      "t": "Road Fighter (HB)",
+      "y": "2007",
+      "m": "Opcode Games - Konami"
     },
     "cv_robeeblr": {
       "parent": null,
@@ -4799,7 +6404,10 @@
           "n": "Robee Blaster (2017)(Alekmaul).rom",
           "c": "9e15db3f"
         }
-      ]
+      ],
+      "t": "Robee Blaster (HB)",
+      "y": "2017",
+      "m": "Alekmaul"
     },
     "cv_robo2084": {
       "parent": null,
@@ -4808,7 +6416,10 @@
           "n": "Robotron 2084 (2022)(CollectorVision).rom",
           "c": "7d34387d"
         }
-      ]
+      ],
+      "t": "Robotron 2084 (HB)",
+      "y": "2022",
+      "m": "CollectorVision Games"
     },
     "cv_rollerball": {
       "parent": null,
@@ -4817,7 +6428,10 @@
           "n": "Rollerball SGM (2013)(CollectorVision).rom",
           "c": "aefdba29"
         }
-      ]
+      ],
+      "t": "Rollerball (SGM) (HB)",
+      "y": "1984-2013",
+      "m": "HAL Laboratory"
     },
     "cv_runaway": {
       "parent": null,
@@ -4826,7 +6440,10 @@
           "n": "Runaway Train SGM (2023)(8 bit Milli Games).rom",
           "c": "08fef448"
         }
-      ]
+      ],
+      "t": "Runaway Train (SGM) (HB)",
+      "y": "2023",
+      "m": "8 bit Milli Games"
     },
     "cv_ruptus": {
       "parent": null,
@@ -4835,7 +6452,10 @@
           "n": "Ruptus (2022)(Inufuto).rom",
           "c": "9aac320b"
         }
-      ]
+      ],
+      "t": "Ruptus (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "cv_sam": {
       "parent": null,
@@ -4844,7 +6464,10 @@
           "n": "S.A.M. The Software Automatic Mouth (Demo) (2025)(Digital Fluff).rom",
           "c": "a6c4db2a"
         }
-      ]
+      ],
+      "t": "S.A.M. The Software Automatic Mouth (HB, Demo)",
+      "y": "2025",
+      "m": "Digital Fluff"
     },
     "cv_safarace": {
       "parent": null,
@@ -4853,7 +6476,10 @@
           "n": "Safari Race (1988-2022)(Mystery Man).rom",
           "c": "53dc76f4"
         }
-      ]
+      ],
+      "t": "Safari Race (HB)",
+      "y": "1988-2022",
+      "m": "Sega - Mystery Man"
     },
     "cv_saguaro": {
       "parent": null,
@@ -4862,7 +6488,10 @@
           "n": "Saguaro City (2019)(CollectorVision).rom",
           "c": "c6cead71"
         }
-      ]
+      ],
+      "t": "Saguaro City (HB)",
+      "y": "1981-2019",
+      "m": "Exidy"
     },
     "cv_sasa": {
       "parent": null,
@@ -4871,7 +6500,10 @@
           "n": "Sasa SGM (2015)(CollectorVision).rom",
           "c": "9c48816c"
         }
-      ]
+      ],
+      "t": "Sasa (SGM) (HB)",
+      "y": "1983-2015",
+      "m": "Mass Tael Ltd."
     },
     "cv_schlangecv": {
       "parent": null,
@@ -4880,7 +6512,10 @@
           "n": "Schlange CV (2003-06)(Philipp Klaus Krause).rom",
           "c": "0ecdd112"
         }
-      ]
+      ],
+      "t": "Schlange CV (HB)",
+      "y": "2003-06",
+      "m": "Philipp Klaus Krause"
     },
     "cv_scramble": {
       "parent": null,
@@ -4889,7 +6524,10 @@
           "n": "Scramble (2024)(CollectorVision).rom",
           "c": "fc65fcd0"
         }
-      ]
+      ],
+      "t": "Scramble (HB)",
+      "y": "2024",
+      "m": "Charles Spencer"
     },
     "cv_sftscj": {
       "parent": null,
@@ -4898,7 +6536,10 @@
           "n": "Search for the Stolen Crown Jewels (2006)(Philipp Klaus Krause).rom",
           "c": "4ad21572"
         }
-      ]
+      ],
+      "t": "Search For The Stolen Crown Jewels (HB)",
+      "y": "2006",
+      "m": "Philipp Klaus Krause"
     },
     "cv_sftscj2": {
       "parent": null,
@@ -4907,7 +6548,10 @@
           "n": "Search for the Stolen Crown Jewels 2 (2007)(Philipp Klaus Krause).rom",
           "c": "a883fa9a"
         }
-      ]
+      ],
+      "t": "Search For The Stolen Crown Jewels 2 (HB)",
+      "y": "2007",
+      "m": "Philipp Klaus Krause"
     },
     "cv_sftscj3": {
       "parent": null,
@@ -4916,7 +6560,10 @@
           "n": "Search for the Stolen Crown Jewels 3 (2008-13)(Phillipp Klaus Krause).rom",
           "c": "1f3981fc"
         }
-      ]
+      ],
+      "t": "Search For The Stolen Crown Jewels 3 (HB)",
+      "y": "2008-13",
+      "m": "Phillipp Klaus Krause"
     },
     "cv_moai": {
       "parent": null,
@@ -4925,7 +6572,10 @@
           "n": "Secret of the Moai SGM (2017)(Team Pixelboy).rom",
           "c": "b753a8ca"
         }
-      ]
+      ],
+      "t": "Secret of the Moai (SGM) (HB)",
+      "y": "1986-2017",
+      "m": "Casio"
     },
     "cv_segaflipper": {
       "parent": null,
@@ -4934,7 +6584,10 @@
           "n": "Sega Flipper (2021)(Team Pixelboy).rom",
           "c": "e7739f82"
         }
-      ]
+      ],
+      "t": "Sega Flipper (HB)",
+      "y": "1983-2021",
+      "m": "Sega"
     },
     "cv_shamus": {
       "parent": null,
@@ -4943,7 +6596,10 @@
           "n": "Shamus (2025)(Nanochess).rom",
           "c": "bae53ace"
         }
-      ]
+      ],
+      "t": "Shamus (HB)",
+      "y": "2025",
+      "m": "Nanochess"
     },
     "cv_shmup": {
       "parent": null,
@@ -4952,7 +6608,10 @@
           "n": "Shmup SGM (2017)(Team Pixelboy).rom",
           "c": "10e8dd09"
         }
-      ]
+      ],
+      "t": "Shmup! (SGM) (HB)",
+      "y": "2017",
+      "m": "Imanok"
     },
     "cv_shouganai": {
       "parent": null,
@@ -4961,7 +6620,10 @@
           "n": "Shouganai SGM (2017)(Team Pixelboy).rom",
           "c": "89c2b16f"
         }
-      ]
+      ],
+      "t": "Shouganai (SGM) (HB)",
+      "y": "2017",
+      "m": "Paxanga"
     },
     "cv_shpuzzle": {
       "parent": null,
@@ -4970,7 +6632,10 @@
           "n": "Shunting Puzzle (2009)(Philipp Klaus Krause).rom",
           "c": "2b85fbbc"
         }
-      ]
+      ],
+      "t": "Shunting Puzzle (HB)",
+      "y": "2009",
+      "m": "Philipp Klaus Krause"
     },
     "cv_sidetrak": {
       "parent": null,
@@ -4979,7 +6644,10 @@
           "n": "Side Trak (2012)(CollectorVision).rom",
           "c": "2e4c28e2"
         }
-      ]
+      ],
+      "t": "Side Trak (HB)",
+      "y": "1979-2011",
+      "m": "Exidy"
     },
     "cv_sindmyst": {
       "parent": null,
@@ -4988,7 +6656,10 @@
           "n": "Sindbad Mystery (2021)(Team Pixelboy).rom",
           "c": "1ed11001"
         }
-      ]
+      ],
+      "t": "Sindbad Mystery (HB)",
+      "y": "1983-2021",
+      "m": "Sega"
     },
     "cv_sirababol": {
       "parent": null,
@@ -4997,7 +6668,10 @@
           "n": "Sir Ababol 20200918 (2020)(Cote Gamers).rom",
           "c": "fd0dc225"
         }
-      ]
+      ],
+      "t": "Sir Ababol (HB, 20200918)",
+      "y": "2020",
+      "m": "The Mojon Twins - Alekmaul"
     },
     "cv_sirababola": {
       "parent": "cv_sirababol",
@@ -5006,7 +6680,10 @@
           "n": "Sir Ababol 20200415 v1.1 (2020)(The Mojon Twins - Alekmaul).rom",
           "c": "690e8dd5"
         }
-      ]
+      ],
+      "t": "Sir Ababol (HB, 20200415 v1.1)",
+      "y": "2020",
+      "m": "The Mojon Twins - Alekmaul"
     },
     "cv_skyjag": {
       "parent": null,
@@ -5015,7 +6692,10 @@
           "n": "Sky Jaguar (2004)(Opcode Games).rom",
           "c": "54d54968"
         }
-      ]
+      ],
+      "t": "Sky Jaguar (HB)",
+      "y": "2004",
+      "m": "Konami"
     },
     "cv_danslither": {
       "parent": "cv_slither",
@@ -5024,7 +6704,10 @@
           "n": "Slither (Hack, Joy-Version)(2010)(Daniel Bienvenu).rom",
           "c": "92624cff"
         }
-      ]
+      ],
+      "t": "Slither (Hack, Joystick Version)",
+      "y": "2010",
+      "m": "Daniel Bienvenu"
     },
     "cv_smfield": {
       "parent": null,
@@ -5033,7 +6716,10 @@
           "n": "Super MineField (1983-2013)(CollectorVision).rom",
           "c": "f26ea356"
         }
-      ]
+      ],
+      "t": "Super MineField (HB)",
+      "y": "1983-2013",
+      "m": "Memotech MTX"
     },
     "cv_smurfchal": {
       "parent": null,
@@ -5042,7 +6728,10 @@
           "n": "Smurf Challenge (2010)(CollectorVision).bin",
           "c": "807e1811"
         }
-      ]
+      ],
+      "t": "Smurf Challenge (HB)",
+      "y": "2010",
+      "m": "CollectorVision Games"
     },
     "cv_snake": {
       "parent": null,
@@ -5051,7 +6740,10 @@
           "n": "Snake (2021)(Under4Mhz).rom",
           "c": "edd4c690"
         }
-      ]
+      ],
+      "t": "Snake (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "cv_soko64p": {
       "parent": null,
@@ -5060,7 +6752,10 @@
           "n": "SOKO64+ (2024)(Marco Spedaletti).rom",
           "c": "c27920f3"
         }
-      ]
+      ],
+      "t": "SOKO64+ (HB)",
+      "y": "2024",
+      "m": "Marco Spedaletti"
     },
     "cv_solarfox2": {
       "parent": null,
@@ -5069,7 +6764,10 @@
           "n": "Solar Fox II 10-2-25 (2025)(CollectorVision - Jess Creations).rom",
           "c": "d679e739"
         }
-      ]
+      ],
+      "t": "Solar Fox II (HB, 10-2-25)",
+      "y": "2025",
+      "m": "Jess Creations"
     },
     "cv_soknight": {
       "parent": null,
@@ -5078,7 +6776,10 @@
           "n": "So, you want to be a Knight (2015)(CollectorVision).rom",
           "c": "72f34a55"
         }
-      ]
+      ],
+      "t": "So, you want to be a Knight? (HB)",
+      "y": "2015",
+      "m": "CollectorVision Games"
     },
     "cv_spacehunter": {
       "parent": null,
@@ -5087,7 +6788,10 @@
           "n": "Space Hunter (2005)(Guy Foster).rom",
           "c": "9badaa20"
         }
-      ]
+      ],
+      "t": "Space Hunter (HB)",
+      "y": "2005",
+      "m": "Guy Foster"
     },
     "cv_spaceinv": {
       "parent": null,
@@ -5096,7 +6800,10 @@
           "n": "Space Invaders (200X)(CollectorVision Games).rom",
           "c": "5191bba9"
         }
-      ]
+      ],
+      "t": "Space Invaders (HB)",
+      "y": "200X",
+      "m": "Taito"
     },
     "cv_spaceinvcol": {
       "parent": null,
@@ -5105,7 +6812,10 @@
           "n": "Space Invaders Collection (2003)(Opcode Games).rom",
           "c": "3098bd4b"
         }
-      ]
+      ],
+      "t": "Space Invaders Collection (HB)",
+      "y": "2003",
+      "m": "Opcode Games"
     },
     "cv_spaceinvasion": {
       "parent": null,
@@ -5114,7 +6824,10 @@
           "n": "Space Invasion (1998)(John Dondzilla).rom",
           "c": "af9b178c"
         }
-      ]
+      ],
+      "t": "Space Invasion (HB)",
+      "y": "1998",
+      "m": "John Dondzilla"
     },
     "cv_spacequest": {
       "parent": null,
@@ -5123,7 +6836,10 @@
           "n": "Space Quest - Chapter I - The Sarien Encounter SGM (1986-2025)(CollectorVision).rom",
           "c": "2a4f3b7d"
         }
-      ]
+      ],
+      "t": "Space Quest: Chapter I - The Sarien Encounter (SGM) (HB)",
+      "y": "1986-2025",
+      "m": "Sierra On-Line"
     },
     "cv_spaceshuttle": {
       "parent": null,
@@ -5132,7 +6848,10 @@
           "n": "Space Shuttle SGM_EEPROM (2023)(Team Pixelboy).rom",
           "c": "bb0f6678"
         }
-      ]
+      ],
+      "t": "Space Shuttle (SGM + EEPROM) (HB)",
+      "y": "1986-2023",
+      "m": "Activision"
     },
     "cv_spaceventure": {
       "parent": "cv_venture",
@@ -5141,7 +6860,10 @@
           "n": "Space Venture v3.1 (2019)(TIX).rom",
           "c": "f7ed24e9"
         }
-      ]
+      ],
+      "t": "Space Venture (Hack, v3.1)",
+      "y": "1982",
+      "m": "TIX"
     },
     "cv_sparkie": {
       "parent": null,
@@ -5150,7 +6872,10 @@
           "n": "Sparkie SGM (2017)(CollectorVision).rom",
           "c": "eb19c7a3"
         }
-      ]
+      ],
+      "t": "Sparkie (SGM) (HB)",
+      "y": "1983-2013",
+      "m": "Konami"
     },
     "cv_spectar": {
       "parent": null,
@@ -5159,7 +6884,10 @@
           "n": "Spectar (2002)(AtariAge).rom",
           "c": "a3aaae47"
         }
-      ]
+      ],
+      "t": "Spectar (HB)",
+      "y": "2005",
+      "m": "AtariAge"
     },
     "cv_spelunker": {
       "parent": null,
@@ -5168,7 +6896,10 @@
           "n": "Spelunker SGM (2015)(Team Pixelboy).rom",
           "c": "75f84889"
         }
-      ]
+      ],
+      "t": "Spelunker (SGM) (HB)",
+      "y": "1986-2015",
+      "m": "Broderbund"
     },
     "cv_spinball": {
       "parent": null,
@@ -5177,7 +6908,10 @@
           "n": "SpinBall (2020)(Nicam Shilova).rom",
           "c": "e592805e"
         }
-      ]
+      ],
+      "t": "SpinBall (HB)",
+      "y": "2020",
+      "m": "Nicam Shilova"
     },
     "cv_spunkysc": {
       "parent": null,
@@ -5186,7 +6920,10 @@
           "n": "Spunky's Super Car! (2014)(Collectorvision Games).rom",
           "c": "deed811e"
         }
-      ]
+      ],
+      "t": "Spunky's Super Car! (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_squares": {
       "parent": null,
@@ -5195,7 +6932,10 @@
           "n": "Squares! (2007)(Harvey deKleine).rom",
           "c": "37198a63"
         }
-      ]
+      ],
+      "t": "Squares! (HB)",
+      "y": "2007",
+      "m": "Harvey deKleine"
     },
     "cv_starcastle": {
       "parent": null,
@@ -5204,7 +6944,10 @@
           "n": "Star Castle (2021)(Team Pixelboy).rom",
           "c": "b48b9d51"
         }
-      ]
+      ],
+      "t": "Star Castle (HB)",
+      "y": "2021",
+      "m": "Team Pixelboy"
     },
     "cv_starcom": {
       "parent": null,
@@ -5213,7 +6956,10 @@
           "n": "Starcom (1986-2012)(CollectorVision).rom",
           "c": "61c98628"
         }
-      ]
+      ],
+      "t": "Starcom (HB)",
+      "y": "1986-2012",
+      "m": "Coleco"
     },
     "cv_starfire": {
       "parent": null,
@@ -5222,7 +6968,10 @@
           "n": "Star Fire (2021)(Chris Oberth).rom",
           "c": "ea3aa29e"
         }
-      ]
+      ],
+      "t": "Star Fire (HB)",
+      "y": "2021",
+      "m": "Chris Oberth"
     },
     "cv_starforce": {
       "parent": null,
@@ -5231,7 +6980,10 @@
           "n": "Star Force (2011)(Team Pixelboy).rom",
           "c": "cbc58796"
         }
-      ]
+      ],
+      "t": "Star Force (HB)",
+      "y": "2011",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_starfortress": {
       "parent": null,
@@ -5240,7 +6992,10 @@
           "n": "Star Fortress (1997)(John Dondzila).rom",
           "c": "f7f18e6f"
         }
-      ]
+      ],
+      "t": "Star Fortress (HB)",
+      "y": "1997",
+      "m": "John Dondzila"
     },
     "cv_starjacker": {
       "parent": null,
@@ -5249,7 +7004,10 @@
           "n": "Star Jacker (2021)(Team Pixelboy).rom",
           "c": "929c6ded"
         }
-      ]
+      ],
+      "t": "Star Jacker (HB)",
+      "y": "1983-2021",
+      "m": "Sega"
     },
     "cv_starjump": {
       "parent": null,
@@ -5258,7 +7016,10 @@
           "n": "Star Jump (2013)(Nicam Shilova).rom",
           "c": "a3e1301f"
         }
-      ]
+      ],
+      "t": "Star Jump (HB)",
+      "y": "2013",
+      "m": "Nicam Shilova"
     },
     "cv_starocean": {
       "parent": null,
@@ -5267,7 +7028,10 @@
           "n": "Star Ocean - The Missed Hope (2015)(Kiwi).rom",
           "c": "08e7df91"
         }
-      ]
+      ],
+      "t": "Star Ocean - The Missed Hope (HB)",
+      "y": "2015",
+      "m": "Kiwi"
     },
     "cv_staroceana": {
       "parent": "cv_starocean",
@@ -5276,7 +7040,10 @@
           "n": "Star Ocean - The Missed Hope (Alt)(2015)(Kiwi).rom",
           "c": "d3f3d2a1"
         }
-      ]
+      ],
+      "t": "Star Ocean - The Missed Hope (HB, Alt)",
+      "y": "2015",
+      "m": "Kiwi"
     },
     "cv_starshipdf": {
       "parent": null,
@@ -5285,7 +7052,10 @@
           "n": "Starship Defence Force (2015)(CollectorVision).rom",
           "c": "160dda58"
         }
-      ]
+      ],
+      "t": "Starship Defence Force (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_starsoldier": {
       "parent": null,
@@ -5294,7 +7064,10 @@
           "n": "Star Soldier SGM (2016)(CollectorVision).rom",
           "c": "3e7d0520"
         }
-      ]
+      ],
+      "t": "Star Soldier (SGM) (HB)",
+      "y": "2015",
+      "m": "CollectorVision Games"
     },
     "cv_stonew": {
       "parent": null,
@@ -5303,7 +7076,10 @@
           "n": "Stone of Wisdom SGM (2015)(Team Pixelboy).rom",
           "c": "ba2e3fea"
         }
-      ]
+      ],
+      "t": "Stone of Wisdom, The (SGM) (HB)",
+      "y": "1986-2015",
+      "m": "Casio"
     },
     "cv_straycat": {
       "parent": null,
@@ -5312,7 +7088,10 @@
           "n": "Stray Cat SGM (2017)(Team Pixelboy).rom",
           "c": "f55f499e"
         }
-      ]
+      ],
+      "t": "Stray Cat (SGM) (HB)",
+      "y": "2017",
+      "m": "Imanok"
     },
     "cv_strippoker": {
       "parent": null,
@@ -5321,7 +7100,22 @@
           "n": "Strip Poker (2014)(NewColeco).rom",
           "c": "d80b6cff"
         }
-      ]
+      ],
+      "t": "Strip Poker (HB)",
+      "y": "2014",
+      "m": "NewColeco"
+    },
+    "cv_structris": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Structris (2026)(unhuman).rom",
+          "c": "dbe7dd23"
+        }
+      ],
+      "t": "Structris (HB)",
+      "y": "2026",
+      "m": "unhuman"
     },
     "cv_subrocsgm": {
       "parent": null,
@@ -5330,7 +7124,10 @@
           "n": "Subroc SGM (2014)(Team Pixelboy).rom",
           "c": "eac71b43"
         }
-      ]
+      ],
+      "t": "Subroc (SGM) (HB)",
+      "y": "1984-2014",
+      "m": "Coleco"
     },
     "cv_sudoku": {
       "parent": null,
@@ -5339,7 +7136,10 @@
           "n": "Sudoku (2017)(Team Pixelboy).rom",
           "c": "85237b85"
         }
-      ]
+      ],
+      "t": "Sudoku (HB)",
+      "y": "2016-17",
+      "m": "Team Pixelboy"
     },
     "cv_smacabre": {
       "parent": null,
@@ -5348,7 +7148,10 @@
           "n": "Suite Macabre (2020)(CollectorVision - Maltanto).rom",
           "c": "02a600cd"
         }
-      ]
+      ],
+      "t": "Suite Macabre (HB)",
+      "y": "2020",
+      "m": "Maltanto"
     },
     "cv_sabowling": {
       "parent": null,
@@ -5357,7 +7160,10 @@
           "n": "Super Action Bowling SGM (1986-2022)(Coleco).rom",
           "c": "6875c8d1"
         }
-      ]
+      ],
+      "t": "Super Action Bowling (SGM) (HB)",
+      "y": "1986-2022",
+      "m": "Access Software"
     },
     "cv_superpac": {
       "parent": null,
@@ -5366,7 +7172,10 @@
           "n": "Super Pac-Man SGM (2016)(Team Pixelboy).rom",
           "c": "260cdf98"
         }
-      ]
+      ],
+      "t": "Super Pac-Man (SGM) (HB)",
+      "y": "1982-2015",
+      "m": "Coleco"
     },
     "cv_suprspac": {
       "parent": null,
@@ -5375,7 +7184,10 @@
           "n": "Super Space Acer (1989-2023)(Mike Brent).rom",
           "c": "9e92c874"
         }
-      ]
+      ],
+      "t": "Super Space Acer (HB)",
+      "y": "1989-2023",
+      "m": "Mike Brent"
     },
     "cv_suprtank": {
       "parent": null,
@@ -5384,7 +7196,10 @@
           "n": "Super Tank (2011)(Team Pixelboy).rom",
           "c": "e9b7ff6c"
         }
-      ]
+      ],
+      "t": "Super Tank (HB)",
+      "y": "1986-2011",
+      "m": "Sega"
     },
     "cv_suwol": {
       "parent": null,
@@ -5393,7 +7208,10 @@
           "n": "Super Uwol (2016-2021)(CollectorVision).rom",
           "c": "13462ba5"
         }
-      ]
+      ],
+      "t": "Super Uwol! (HB)",
+      "y": "2016-2021",
+      "m": "The Mojon Twins - Alekmaul"
     },
     "cv_svellas": {
       "parent": null,
@@ -5402,7 +7220,10 @@
           "n": "Svellas (2025)(Inufuto).rom",
           "c": "3244546f"
         }
-      ]
+      ],
+      "t": "Svellas (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "cv_swtacorn": {
       "parent": null,
@@ -5411,7 +7232,10 @@
           "n": "Sweet Acorn SGM (2019)(Opcode Games).rom",
           "c": "19ceb69d"
         }
-      ]
+      ],
+      "t": "Sweet Acorn (SGM) (HB)",
+      "y": "1984-2019",
+      "m": "Opcode Games - Taito Corp."
     },
     "cv_swordwork": {
       "parent": null,
@@ -5420,7 +7244,10 @@
           "n": "SwordWork (2026)(Inufuto).rom",
           "c": "c4a13993"
         }
-      ]
+      ],
+      "t": "SwordWork (HB)",
+      "y": "2026",
+      "m": "Inufuto"
     },
     "cv_sydneyhunt2": {
       "parent": null,
@@ -5429,7 +7256,10 @@
           "n": "Sydney Hunter and the Caverns of Death (2019)(CollectorVision).rom",
           "c": "81bfb02d"
         }
-      ]
+      ],
+      "t": "Sydney Hunter and the Caverns of Death (HB)",
+      "y": "2019",
+      "m": "CollectorVision Games"
     },
     "cv_sydneyhunt": {
       "parent": null,
@@ -5438,7 +7268,10 @@
           "n": "Sydney Hunter and the Sacred Tribe (2017)(CollectorVision).rom",
           "c": "b5c92637"
         }
-      ]
+      ],
+      "t": "Sydney Hunter and the Sacred Tribe (HB)",
+      "y": "2017",
+      "m": "CollectorVision Games"
     },
     "cv_tankbtln": {
       "parent": null,
@@ -5447,7 +7280,10 @@
           "n": "Tank Battalion SGM (2016)(Opcode Games).rom",
           "c": "3e4f3045"
         }
-      ]
+      ],
+      "t": "Tank Battalion (SGM) (HB)",
+      "y": "1984-2019",
+      "m": "Opcode Games - Namcot"
     },
     "cv_tankchal": {
       "parent": null,
@@ -5456,7 +7292,10 @@
           "n": "Tank Challenge (2016)(Todd Spangler).rom",
           "c": "f8eb77d8"
         }
-      ]
+      ],
+      "t": "Tank Challenge (HB)",
+      "y": "2016",
+      "m": "CollectorVision Games"
     },
     "cv_tankmission": {
       "parent": null,
@@ -5465,7 +7304,10 @@
           "n": "Tank Mission (2017)(CollectorVision).rom",
           "c": "d0f37969"
         }
-      ]
+      ],
+      "t": "Tank Mission (HB)",
+      "y": "2016-17",
+      "m": "CollectorVision Games"
     },
     "cv_taz": {
       "parent": null,
@@ -5474,7 +7316,10 @@
           "n": "Taz v0.97f (2026)(Electric Dreams).rom",
           "c": "af106afb"
         }
-      ]
+      ],
+      "t": "Taz (HB, v0.97f)",
+      "y": "2026",
+      "m": "Electric Dreams"
     },
     "cv_telebunny": {
       "parent": null,
@@ -5483,7 +7328,10 @@
           "n": "Telebunny (2014)(CollectorVision).rom",
           "c": "26e2a8ec"
         }
-      ]
+      ],
+      "t": "Telebunny (HB)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_telebunnya": {
       "parent": "cv_telebunny",
@@ -5492,7 +7340,10 @@
           "n": "Telebunny (Alt)(2014)(CollectorVision).rom",
           "c": "26896d4b"
         }
-      ]
+      ],
+      "t": "Telebunny (HB, Alt)",
+      "y": "2014",
+      "m": "CollectorVision Games"
     },
     "cv_terrattak": {
       "parent": null,
@@ -5501,7 +7352,10 @@
           "n": "Terra Attack (2007)(Scott Huggins).rom",
           "c": "44d527e1"
         }
-      ]
+      ],
+      "t": "Terra Attack (HB)",
+      "y": "2007",
+      "m": "Scott Huggins"
     },
     "cv_textadv1": {
       "parent": null,
@@ -5510,7 +7364,10 @@
           "n": "Text Adventure - Part 1 (2015)(Kiwi).rom",
           "c": "17d6ab67"
         }
-      ]
+      ],
+      "t": "Text Adventure - Part 1 (HB)",
+      "y": "2015",
+      "m": "Kiwi"
     },
     "cv_textadv1ce": {
       "parent": "cv_textadv1",
@@ -5519,7 +7376,10 @@
           "n": "Text Adventure - Part 1 (Cheat to Ending) (2015)(Kiwi).rom",
           "c": "7f20b2a1"
         }
-      ]
+      ],
+      "t": "Text Adventure - Part 1 (Cheat to Ending) (HB)",
+      "y": "2015",
+      "m": "Kiwi"
     },
     "cv_thexder": {
       "parent": null,
@@ -5528,7 +7388,10 @@
           "n": "Thexder SGM (2012)(Team Pixelboy).rom",
           "c": "09e3fdda"
         }
-      ]
+      ],
+      "t": "Thexder (SGM) (HB)",
+      "y": "1986-2012",
+      "m": "Game Arts"
     },
     "cv_timepilot": {
       "parent": null,
@@ -5537,7 +7400,10 @@
           "n": "Time Pilot SGM (2024)(Opcode Games).rom",
           "c": "cf803ddc"
         }
-      ]
+      ],
+      "t": "Time Pilot (SGM) (HB)",
+      "y": "1982-2024",
+      "m": "Opcode Games - Konami"
     },
     "cv_trackfld": {
       "parent": null,
@@ -5546,7 +7412,10 @@
           "n": "Track and Field (2010)(Team Pixelboy).rom",
           "c": "96dd114a"
         }
-      ]
+      ],
+      "t": "Track & Field (HB)",
+      "y": "1984-2010",
+      "m": "Konami"
     },
     "cv_trafcjam": {
       "parent": null,
@@ -5555,7 +7424,10 @@
           "n": "Traffic Jam SGM (2017)(Team Pixelboy).rom",
           "c": "aad0f224"
         }
-      ]
+      ],
+      "t": "Traffic Jam (SGM) (HB)",
+      "y": "2016",
+      "m": "Imanok"
     },
     "cv_traildrive": {
       "parent": null,
@@ -5564,7 +7436,10 @@
           "n": "Trail Drive (2026)(DiRoccoVision).rom",
           "c": "0a334c0e"
         }
-      ]
+      ],
+      "t": "Trail Drive (HB)",
+      "y": "2026",
+      "m": "DiRoccoVision"
     },
     "cv_trehunt": {
       "parent": null,
@@ -5573,7 +7448,10 @@
           "n": "Treasure Hunt (1983-2022)(CollectorVision).rom",
           "c": "0ac0067c"
         }
-      ]
+      ],
+      "t": "Treasure Hunt (HB)",
+      "y": "1983-2022",
+      "m": "Soundic"
     },
     "cv_tunnelstrolls": {
       "parent": null,
@@ -5582,7 +7460,10 @@
           "n": "Tunnels & Trolls (Demo) (2010)(CollectorVision Games).rom",
           "c": "a82ca225"
         }
-      ]
+      ],
+      "t": "Tunnels & Trolls (HB, Demo)",
+      "y": "2010",
+      "m": "Coleco"
     },
     "cv_turmoil2022": {
       "parent": null,
@@ -5591,7 +7472,10 @@
           "n": "Turmoil 2022 (2021)(8bit Milli Games).rom",
           "c": "3b4af650"
         }
-      ]
+      ],
+      "t": "Turmoil 2022 (HB)",
+      "y": "2021",
+      "m": "8 bit Milli Games"
     },
     "cv_twinbee": {
       "parent": null,
@@ -5600,7 +7484,10 @@
           "n": "TwinBee SGM (2014)(Team Pixelboy).rom",
           "c": "e7e07a70"
         }
-      ]
+      ],
+      "t": "TwinBee (SGM) (HB)",
+      "y": "1986-2014",
+      "m": "Konami"
     },
     "cv_txupinazo": {
       "parent": null,
@@ -5609,7 +7496,10 @@
           "n": "Txupinazo SGM (2017)(Team Pixelboy).rom",
           "c": "28bdf665"
         }
-      ]
+      ],
+      "t": "Txupinazo! (SGM) (HB)",
+      "y": "2007-2017",
+      "m": "Imanok"
     },
     "cv_uridium": {
       "parent": null,
@@ -5618,7 +7508,10 @@
           "n": "Uridium SGM (2019)(Trilobyte).rom",
           "c": "bc8320a0"
         }
-      ]
+      ],
+      "t": "Uridium (SGM) (HB)",
+      "y": "2019",
+      "m": "Trilobyte"
     },
     "cv_utopia": {
       "parent": null,
@@ -5627,7 +7520,10 @@
           "n": "Utopia (2023)(Team Pixelboy).rom",
           "c": "0a90ba65"
         }
-      ]
+      ],
+      "t": "Utopia (HB)",
+      "y": "1981-2023",
+      "m": "Intellivision Prod."
     },
     "cv_uwol": {
       "parent": null,
@@ -5636,7 +7532,10 @@
           "n": "Uwol Quest for Money (2020)(Cote Gamers).rom",
           "c": "5f533a05"
         }
-      ]
+      ],
+      "t": "Uwol Quest for Money (HB)",
+      "y": "2006-2020",
+      "m": "The Mojon Twins - Alekmaul"
     },
     "cv_vanguard": {
       "parent": null,
@@ -5645,7 +7544,10 @@
           "n": "Vanguard (2019)(CollectorVision).rom",
           "c": "a7a8d25e"
         }
-      ]
+      ],
+      "t": "Vanguard (HB)",
+      "y": "2019",
+      "m": "CollectorVision Games"
     },
     "cv_vexed": {
       "parent": null,
@@ -5654,7 +7556,10 @@
           "n": "Vexed v1.15 (2023)(Under4Mhz).rom",
           "c": "865bae31"
         }
-      ]
+      ],
+      "t": "Vexed (HB, v1.15)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "cv_victorysce": {
       "parent": "cv_victory",
@@ -5663,7 +7568,10 @@
           "n": "Victory S.C.E. (2010)(Daniel Bienvenu).rom",
           "c": "4157b347"
         }
-      ]
+      ],
+      "t": "Victory S.C.E. (Hack, Standard Controller Edition)",
+      "y": "2010",
+      "m": "Daniel Bienvenu"
     },
     "cv_virix": {
       "parent": null,
@@ -5672,7 +7580,10 @@
           "n": "Virix (2024)(8 bit Milli Games).rom",
           "c": "c68d3768"
         }
-      ]
+      ],
+      "t": "Virix (HB)",
+      "y": "2024",
+      "m": "8 bit Milli Games"
     },
     "cv_void": {
       "parent": null,
@@ -5681,7 +7592,10 @@
           "n": "Void, The (2010)(Atari2600.com).rom",
           "c": "67311b7e"
         }
-      ]
+      ],
+      "t": "Void, The (HB)",
+      "y": "2010",
+      "m": "Atari2600.com"
     },
     "cv_war": {
       "parent": null,
@@ -5690,7 +7604,10 @@
           "n": "War (2014)(Gerry Brophy).rom",
           "c": "7f06e25c"
         }
-      ]
+      ],
+      "t": "War (HB)",
+      "y": "2014",
+      "m": "Gerry Brophy"
     },
     "cv_warpwarp": {
       "parent": null,
@@ -5699,7 +7616,10 @@
           "n": "Warp & Warp SGM (2016)(Opcode Games).rom",
           "c": "b90c2062"
         }
-      ]
+      ],
+      "t": "Warp & Warp (SGM) (HB)",
+      "y": "1984-2016",
+      "m": "Opcode Games - Namcot"
     },
     "cv_watervil": {
       "parent": null,
@@ -5708,7 +7628,10 @@
           "n": "Waterville Rescue (2009)(Mike Brent).rom",
           "c": "d642fb9e"
         }
-      ]
+      ],
+      "t": "Waterville Rescue (HB)",
+      "y": "2009",
+      "m": "Mike Brent"
     },
     "cv_waydung": {
       "parent": null,
@@ -5717,7 +7640,10 @@
           "n": "Way of the Dung (2024)(8 bit Milli Games).rom",
           "c": "1599b78f"
         }
-      ]
+      ],
+      "t": "Way of the Dung (HB)",
+      "y": "2024",
+      "m": "8 bit Milli Games"
     },
     "cv_explodingfoot": {
       "parent": null,
@@ -5726,7 +7652,10 @@
           "n": "Way of the Exploding Foot (2011)(CollectorVision).rom",
           "c": "28e07beb"
         }
-      ]
+      ],
+      "t": "Way of the Exploding Foot, The (HB)",
+      "y": "2011",
+      "m": "CollectorVision Games"
     },
     "cv_wsbyrons": {
       "parent": null,
@@ -5735,7 +7664,10 @@
           "n": "Whack 'Em Smack 'Em Byrons (2024)(Jess Creations).rom",
           "c": "a7bb34df"
         }
-      ]
+      ],
+      "t": "Whack 'Em Smack 'Em Byrons (HB)",
+      "y": "2024",
+      "m": "Jess Creations"
     },
     "cv_wwestern": {
       "parent": null,
@@ -5744,7 +7676,10 @@
           "n": "Wild Western (Proto) (1984)(Taito).rom",
           "c": "7dc4d155"
         }
-      ]
+      ],
+      "t": "Wild Western (Prototype)",
+      "y": "1984",
+      "m": "Taito"
     },
     "cv_winktrap": {
       "parent": null,
@@ -5753,7 +7688,10 @@
           "n": "Winky Trap (2007)(Collectorvision Games).rom",
           "c": "eaa5f606"
         }
-      ]
+      ],
+      "t": "Winky Trap (HB)",
+      "y": "1997-2007",
+      "m": "CollectorVision Games"
     },
     "cv_wow": {
       "parent": null,
@@ -5762,7 +7700,10 @@
           "n": "Wizard of Wor SGM (2017)(Team Pixelboy).rom",
           "c": "d9207f30"
         }
-      ]
+      ],
+      "t": "Wizard of Wor (SGM) (HB)",
+      "y": "1980-2017",
+      "m": "Midway"
     },
     "cv_wonderboy": {
       "parent": null,
@@ -5771,7 +7712,10 @@
           "n": "Wonder Boy SGM (2012)(Team PixelBoy).rom",
           "c": "43505be0"
         }
-      ]
+      ],
+      "t": "Wonder Boy (SGM) (HB)",
+      "y": "1986-2012",
+      "m": "Sega - Eduardo Mello"
     },
     "cv_wordle": {
       "parent": null,
@@ -5780,7 +7724,10 @@
           "n": "Wordle v1.7 (2022)(CollectorVision).rom",
           "c": "35db2611"
         }
-      ]
+      ],
+      "t": "Wordle (HB, v1.7)",
+      "y": "2022",
+      "m": "Dragon Fly Amusement"
     },
     "cv_wormhole": {
       "parent": null,
@@ -5789,7 +7736,10 @@
           "n": "Wormhole (2023)(8 bit Milli Games).rom",
           "c": "b2b5f955"
         }
-      ]
+      ],
+      "t": "Wormhole (HB)",
+      "y": "2023",
+      "m": "8 bit Milli Games"
     },
     "cv_yarsrevenge": {
       "parent": null,
@@ -5798,7 +7748,10 @@
           "n": "Yar's Revenge (2018)(CollectorVision).rom",
           "c": "f0bae4a1"
         }
-      ]
+      ],
+      "t": "Yar's Revenge (HB)",
+      "y": "2018",
+      "m": "CollectorVision Games"
     },
     "cv_yewdow": {
       "parent": null,
@@ -5807,7 +7760,10 @@
           "n": "Yewdow (2023)(Inufuto).rom",
           "c": "706895db"
         }
-      ]
+      ],
+      "t": "Yewdow (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "cv_yiear": {
       "parent": null,
@@ -5816,7 +7772,10 @@
           "n": "Yie Ar Kung Fu (2005)(Opcode Games).rom",
           "c": "471240bb"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung Fu (HB)",
+      "y": "1985-2005",
+      "m": "Opcode Games - Konami"
     },
     "cv_yiearii": {
       "parent": null,
@@ -5825,7 +7784,10 @@
           "n": "Yie Ar Kung Fu II SGM (2018)(Opcode Games).rom",
           "c": "f5f722df"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung Fu II (SGM) (HB)",
+      "y": "1985-2018",
+      "m": "Opcode Games - Konami"
     },
     "cv_xyzolog": {
       "parent": null,
@@ -5834,7 +7796,10 @@
           "n": "Xyzolog SGM (2019)(Opcode Games).rom",
           "c": "95ff75e8"
         }
-      ]
+      ],
+      "t": "Xyzolog (SGM) (HB)",
+      "y": "1984-2019",
+      "m": "Opcode Games - Taito Corp."
     },
     "cv_zanac": {
       "parent": null,
@@ -5843,7 +7808,10 @@
           "n": "Zanac SGM (2015)(CollectorVision).rom",
           "c": "e290a941"
         }
-      ]
+      ],
+      "t": "Zanac (SGM) (HB)",
+      "y": "1986-2015",
+      "m": "Compile"
     },
     "cv_zaxxon2": {
       "parent": null,
@@ -5852,7 +7820,10 @@
           "n": "Zaxxon II (2021)(Team Pixelboy).rom",
           "c": "762e9a2b"
         }
-      ]
+      ],
+      "t": "Zaxxon II (HB)",
+      "y": "1985-2021",
+      "m": "Sega - Mystery Man"
     },
     "cv_zaxxonsgm": {
       "parent": null,
@@ -5861,7 +7832,10 @@
           "n": "Zaxxon Super Game SGM (2012)(Team Pixelboy).rom",
           "c": "a5a90f63"
         }
-      ]
+      ],
+      "t": "Zaxxon Super Game (SGM) (HB)",
+      "y": "1984-2012",
+      "m": "Coleco"
     },
     "cv_zippyrac": {
       "parent": null,
@@ -5870,7 +7844,10 @@
           "n": "Zippy Race (2009)(Opcode Games).rom",
           "c": "44e6948c"
         }
-      ]
+      ],
+      "t": "Zippy Race (HB)",
+      "y": "1983-2009",
+      "m": "Dvik & Joyrex"
     },
     "cv_zcalavera": {
       "parent": null,
@@ -5879,7 +7856,10 @@
           "n": "Zombie Calavera Prologue (2021)(Collectorvision).rom",
           "c": "91645814"
         }
-      ]
+      ],
+      "t": "Zombie Calavera Prologue (HB)",
+      "y": "2021",
+      "m": "CollectorVision Games"
     },
     "cv_zombieinc": {
       "parent": null,
@@ -5888,7 +7868,10 @@
           "n": "Zombie Incident (2018)(Team Pixelboy).rom",
           "c": "8027dad7"
         }
-      ]
+      ],
+      "t": "Zombie Incident (SGM) (HB)",
+      "y": "2012-2018",
+      "m": "NeneFranz"
     },
     "cv_zombnear": {
       "parent": null,
@@ -5897,7 +7880,10 @@
           "n": "Zombie Near (2012)(CollectorVision).rom",
           "c": "c36c017e"
         }
-      ]
+      ],
+      "t": "Zombie Near (HB)",
+      "y": "2012",
+      "m": "Oscar Toledo G."
     },
     "cv_zombnearb": {
       "parent": "cv_zombnear",
@@ -5906,7 +7892,10 @@
           "n": "Zombie Near (2011)(CollectorVision).rom",
           "c": "c89d281d"
         }
-      ]
+      ],
+      "t": "Zombie Near (Alt) (HB)",
+      "y": "2011",
+      "m": "Oscar Toledo G."
     },
     "cv_zoom909": {
       "parent": null,
@@ -5915,7 +7904,10 @@
           "n": "Zoom 909 (2021)(Team Pixelboy).rom",
           "c": "7dc7a049"
         }
-      ]
+      ],
+      "t": "Zoom 909 (HB)",
+      "y": "1985-2021",
+      "m": "Sega - Mystery Man"
     }
   }
 }

@@ -56,7 +56,10 @@
           "n": "a75-06__bootleg_68705.ic14",
           "c": "515d77b6"
         }
-      ]
+      ],
+      "t": "Arkanoid (World, older)",
+      "y": "1986",
+      "m": "Taito Corporation Japan"
     },
     "arkanoidu": {
       "parent": "arkanoid",
@@ -97,7 +100,10 @@
           "n": "a75-09.ic22",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (US, newer)",
+      "y": "1986",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "arkanoiduo": {
       "parent": "arkanoid",
@@ -142,7 +148,10 @@
           "n": "a75__03_alternate.ic64",
           "c": "983d4485"
         }
-      ]
+      ],
+      "t": "Arkanoid (US, older)",
+      "y": "1986",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "arkatour": {
       "parent": null,
@@ -183,7 +192,10 @@
           "n": "a75-35.ic22",
           "c": "38acfd3b"
         }
-      ]
+      ],
+      "t": "Tournament Arkanoid (US, older)",
+      "y": "1987",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "arkatour2": {
       "parent": "arkatour",
@@ -220,7 +232,10 @@
           "n": "a75-35.ic22",
           "c": "38acfd3b"
         }
-      ]
+      ],
+      "t": "Tournament Arkanoid (US, newer)",
+      "y": "1987",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "arkanoidj": {
       "parent": "arkanoid",
@@ -261,7 +276,10 @@
           "n": "a75-09.ic22",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Japan, newer)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "arkanoidja": {
       "parent": "arkanoid",
@@ -302,7 +320,10 @@
           "n": "a75-09.ic22",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Japan, newer w/level select)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "arkanoidjb": {
       "parent": "arkanoid",
@@ -343,7 +364,10 @@
           "n": "a75-09.ic22",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Japan, older)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "arkanoidpe": {
       "parent": "arkanoid",
@@ -384,7 +408,10 @@
           "n": "a75-09.ic22",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Phoenix Electronics Co. license)",
+      "y": "1986",
+      "m": "Taito Corporation (Phoenix Electronics Co. license)"
     },
     "arkanoidjbl": {
       "parent": "arkanoid",
@@ -429,7 +456,10 @@
           "n": "68705p3.6i",
           "c": "389a8cfb"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg with MCU, set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "arkanoidjbl2": {
       "parent": "arkanoid",
@@ -470,7 +500,10 @@
           "n": "m1-7621-5.ic75.13e",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg with MCU, set 2)",
+      "y": "1986",
+      "m": "bootleg (Beta)"
     },
     "arkanoidjbla": {
       "parent": "arkanoid",
@@ -515,7 +548,10 @@
           "n": "68705p3.6i",
           "c": "389a8cfb"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg with MCU, alt)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "ark1ball": {
       "parent": "arkanoid",
@@ -556,7 +592,10 @@
           "n": "n82s131n.6n",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg with MCU, harder)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "ark1balla": {
       "parent": "arkanoid",
@@ -597,7 +636,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg with MCU, harder, alt)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "arkangc": {
       "parent": "arkanoid",
@@ -634,7 +676,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Game Corporation bootleg, set 1)",
+      "y": "1986",
+      "m": "bootleg (Game Corporation)"
     },
     "arkangc2": {
       "parent": "arkanoid",
@@ -671,7 +716,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Game Corporation bootleg, set 2)",
+      "y": "1986",
+      "m": "bootleg (Game Corporation)"
     },
     "arkblock": {
       "parent": "arkanoid",
@@ -708,7 +756,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Block (Game Corporation bootleg, set 1)",
+      "y": "1986",
+      "m": "bootleg (Game Corporation)"
     },
     "arkbloc2": {
       "parent": "arkanoid",
@@ -745,7 +796,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Block (Game Corporation bootleg, set 2)",
+      "y": "1986",
+      "m": "bootleg (Game Corporation)"
     },
     "arkgcbl": {
       "parent": "arkanoid",
@@ -798,7 +852,10 @@
           "n": "pal16r8.5f",
           "c": "36471917"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg on Block hardware, set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "arkgcbla": {
       "parent": "arkanoid",
@@ -851,7 +908,10 @@
           "n": "pal16r8.5f",
           "c": "36471917"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg on Block hardware, set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "paddle2": {
       "parent": "arkanoid",
@@ -888,7 +948,10 @@
           "n": "a75-09.bpr",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Paddle 2 (bootleg on Block hardware)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "arkatayt": {
       "parent": "arkanoid",
@@ -925,7 +988,10 @@
           "n": "ic75.13e",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Tayto bootleg)",
+      "y": "1986",
+      "m": "bootleg (Tayto)"
     },
     "arktayt2": {
       "parent": "arkanoid",
@@ -962,7 +1028,10 @@
           "n": "m1-7621-5.ic75.13e",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (Tayto bootleg, harder)",
+      "y": "1986",
+      "m": "bootleg (Tayto)"
     },
     "arkaboot": {
       "parent": "arkanoid",
@@ -999,7 +1068,10 @@
           "n": "ic75.13e",
           "c": "a7c6c277"
         }
-      ]
+      ],
+      "t": "Arkanoid (bootleg of version Japan, older)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "tetrsark": {
       "parent": null,
@@ -1040,7 +1112,10 @@
           "n": "14_mc68705p5_rom.bin",
           "c": "dfbc4239"
         }
-      ]
+      ],
+      "t": "Tetris (D.R. Korea, set 1, encrypted)",
+      "y": "19??",
+      "m": "D.R. Korea"
     },
     "tetrsark2": {
       "parent": "tetrsark",
@@ -1081,7 +1156,10 @@
           "n": "14_mc68705p5_rom.bin",
           "c": "dfbc4239"
         }
-      ]
+      ],
+      "t": "Tetris (D.R. Korea, set 2)",
+      "y": "19??",
+      "m": "D.R. Korea"
     },
     "hexa": {
       "parent": null,
@@ -1118,7 +1196,10 @@
           "n": "hexa.002",
           "c": "ff15366c"
         }
-      ]
+      ],
+      "t": "Hexa",
+      "y": "199?",
+      "m": "D.R. Korea"
     },
     "scessjoe": {
       "parent": null,
@@ -1199,7 +1280,10 @@
           "n": "sj401-nw.10r",
           "c": "25dfab59"
         }
-      ]
+      ],
+      "t": "Success Joe (World)",
+      "y": "1990",
+      "m": "Taito Corporation / Wave"
     },
     "ashnojoe": {
       "parent": "scessjoe",
@@ -1280,7 +1364,10 @@
           "n": "sj401-nw.10r",
           "c": "25dfab59"
         }
-      ]
+      ],
+      "t": "Ashita no Joe (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation / Wave"
     },
     "cchip": {
       "parent": null,
@@ -1289,7 +1376,10 @@
           "n": "cchip_upd78c11.bin",
           "c": "43021521"
         }
-      ]
+      ],
+      "t": "C-Chip Internal ROM",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadash": {
       "parent": null,
@@ -1342,7 +1432,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashj": {
       "parent": "cadash",
@@ -1395,7 +1488,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Japan, rev 2)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "cadashj1": {
       "parent": "cadash",
@@ -1448,7 +1544,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Japan, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "cadashjo": {
       "parent": "cadash",
@@ -1501,7 +1600,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "cadashu": {
       "parent": "cadash",
@@ -1554,7 +1656,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (US, rev 2)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cadashu1": {
       "parent": "cadash",
@@ -1607,7 +1712,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (US, rev 1?)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cadashi": {
       "parent": "cadash",
@@ -1660,7 +1768,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Italy)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashf": {
       "parent": "cadash",
@@ -1713,7 +1824,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (France)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashg": {
       "parent": "cadash",
@@ -1766,7 +1880,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Germany, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashgo": {
       "parent": "cadash",
@@ -1819,7 +1936,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Germany)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashp": {
       "parent": "cadash",
@@ -1872,7 +1992,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (World, prototype)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashs": {
       "parent": "cadash",
@@ -1925,7 +2048,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Spain, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "cadashso": {
       "parent": "cadash",
@@ -1978,7 +2104,10 @@
           "n": "pal20l8b-c21-12.ic47",
           "c": "bbc2cc97"
         }
-      ]
+      ],
+      "t": "Cadash (Spain)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "eto": {
       "parent": null,
@@ -2007,7 +2136,10 @@
           "n": "eto-3.ic6",
           "c": "dd247397"
         }
-      ]
+      ],
+      "t": "Kokontouzai Eto Monogatari (Japan)",
+      "y": "1994",
+      "m": "Visco"
     },
     "etoa": {
       "parent": "eto",
@@ -2036,7 +2168,10 @@
           "n": "ob.ic6",
           "c": "dd247397"
         }
-      ]
+      ],
+      "t": "Kokontouzai Eto Monogatari (Japan, prototype?)",
+      "y": "1994",
+      "m": "Visco"
     },
     "asuka": {
       "parent": null,
@@ -2085,7 +2220,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "Asuka & Asuka (World)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "asukaj": {
       "parent": "asuka",
@@ -2134,7 +2272,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "Asuka & Asuka (Japan, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "asukaja": {
       "parent": "asuka",
@@ -2183,7 +2324,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "Asuka & Asuka (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "mofflott": {
       "parent": null,
@@ -2224,7 +2368,10 @@
           "n": "c17-06.bin",
           "c": "5c332125"
         }
-      ]
+      ],
+      "t": "Maze of Flott (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "galmedes": {
       "parent": null,
@@ -2261,7 +2408,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "Galmedes (Japan)",
+      "y": "1992",
+      "m": "Visco"
     },
     "earthjkr": {
       "parent": null,
@@ -2306,7 +2456,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "U.N. Defense Force: Earth Joker (US / Japan, set 1)",
+      "y": "1993",
+      "m": "Visco"
     },
     "earthjkra": {
       "parent": "earthjkr",
@@ -2351,7 +2504,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "U.N. Defense Force: Earth Joker (US / Japan, set 2)",
+      "y": "1993",
+      "m": "Visco"
     },
     "earthjkrb": {
       "parent": "earthjkr",
@@ -2396,7 +2552,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "U.N. Defense Force: Earth Joker (US / Japan, set 3)",
+      "y": "1993",
+      "m": "Visco"
     },
     "earthjkrp": {
       "parent": "earthjkr",
@@ -2441,7 +2600,10 @@
           "n": "b68-05.ic43",
           "c": "d6524ccc"
         }
-      ]
+      ],
+      "t": "U.N. Defense Force: Earth Joker (Japan, prototype?)",
+      "y": "1993",
+      "m": "Visco"
     },
     "bonzeadv": {
       "parent": null,
@@ -2486,7 +2648,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Bonze Adventure (World, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "bonzeadvo": {
       "parent": "bonzeadv",
@@ -2531,7 +2696,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Bonze Adventure (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "bonzeadvu": {
       "parent": "bonzeadv",
@@ -2576,7 +2744,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Bonze Adventure (US, rev 1)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "bonzeadvp": {
       "parent": "bonzeadv",
@@ -2669,7 +2840,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Bonze Adventure (World, prototype, newer)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "bonzeadvp2": {
       "parent": "bonzeadv",
@@ -2810,7 +2984,10 @@
           "n": "generic 10-9 f3eb.ic43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Bonze Adventure (World, prototype, older)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "jigkmgri": {
       "parent": "bonzeadv",
@@ -2855,7 +3032,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Jigoku Meguri (Japan, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "jigkmgria": {
       "parent": "bonzeadv",
@@ -2900,7 +3080,10 @@
           "n": "cchip_b41-05.43",
           "c": "75c52553"
         }
-      ]
+      ],
+      "t": "Jigoku Meguri (Japan, hack?)",
+      "y": "19??",
+      "m": "Taito Corporation"
     },
     "bublbobl": {
       "parent": null,
@@ -2977,7 +3160,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (Japan, Ver 0.1)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "bublboblu": {
       "parent": "bublbobl",
@@ -3054,7 +3240,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (Ultra Version, Hack)",
+      "y": "2011",
+      "m": "Hack (Penta Penguin)"
     },
     "bublbobl1": {
       "parent": "bublbobl",
@@ -3131,7 +3320,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (Japan, Ver 0.0)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "bublboblr": {
       "parent": "bublbobl",
@@ -3208,7 +3400,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (US, Ver 5.1)",
+      "y": "1986",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "bublboblr1": {
       "parent": "bublbobl",
@@ -3285,7 +3480,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (US, Ver 1.0)",
+      "y": "1986",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "boblbobl": {
       "parent": "bublbobl",
@@ -3374,7 +3572,10 @@
           "n": "pal16l8.u4",
           "c": "077d20a8"
         }
-      ]
+      ],
+      "t": "Bobble Bobble (bootleg of Bubble Bobble)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "bbredux": {
       "parent": "bublbobl",
@@ -3463,7 +3664,10 @@
           "n": "pal16l8.u4",
           "c": "077d20a8"
         }
-      ]
+      ],
+      "t": "Bubble Bobble ('bootleg redux' hack for Bobble Bobble PCB)",
+      "y": "2013",
+      "m": "bootleg (Punji)"
     },
     "bublboblb": {
       "parent": "bublbobl",
@@ -3552,7 +3756,10 @@
           "n": "pal16l8.u4",
           "c": "077d20a8"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (for Bobble Bobble PCB)",
+      "y": "2013",
+      "m": "bootleg (Aladar)"
     },
     "sboblbobl": {
       "parent": "bublbobl",
@@ -3613,7 +3820,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 1)",
+      "y": "1986",
+      "m": "bootleg (Datsu)"
     },
     "sboblbobla": {
       "parent": "bublbobl",
@@ -3690,7 +3900,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sboblboblb": {
       "parent": "bublbobl",
@@ -3767,7 +3980,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 3)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sboblboblc": {
       "parent": "bublbobl",
@@ -3844,7 +4060,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bubble Bobble (bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sboblbobld": {
       "parent": "bublbobl",
@@ -3921,7 +4140,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 4)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sboblboble": {
       "parent": "bublbobl",
@@ -3998,7 +4220,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 5)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "sboblboblf": {
       "parent": "bublbobl",
@@ -4051,7 +4276,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Super Bobble Bobble (bootleg, set 6)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "bub68705": {
       "parent": "bublbobl",
@@ -4132,7 +4360,10 @@
           "n": "68705.bin",
           "c": "78caa635"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (bootleg with 68705)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "bub68705a": {
       "parent": "bublbobl",
@@ -4213,7 +4444,10 @@
           "n": "cpu68705.bin",
           "c": "32bffbf4"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (boolteg with 68705, set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "dland": {
       "parent": "bublbobl",
@@ -4266,7 +4500,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Dream Land / Super Dream Land (bootleg of Bubble Bobble)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "bublcave": {
       "parent": "bublbobl",
@@ -4343,7 +4580,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble: Lost Cave V1.2",
+      "y": "2013",
+      "m": "hack (Bisboch and Aladar)"
     },
     "boblcave": {
       "parent": "bublbobl",
@@ -4432,7 +4672,10 @@
           "n": "pal16l8.u4",
           "c": "077d20a8"
         }
-      ]
+      ],
+      "t": "Bubble Bobble: Lost Cave V1.2 (for Bobble Bobble PCB)",
+      "y": "2013",
+      "m": "hack (Bisboch and Aladar)"
     },
     "bublcave11": {
       "parent": "bublbobl",
@@ -4509,7 +4752,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble: Lost Cave V1.1",
+      "y": "2012",
+      "m": "hack (Bisboch and Aladar)"
     },
     "bublcave10": {
       "parent": "bublbobl",
@@ -4586,7 +4832,10 @@
           "n": "a71-25.41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Bubble Bobble: Lost Cave V1.0",
+      "y": "2012",
+      "m": "hack (Bisboch and Aladar)"
     },
     "bublboblp": {
       "parent": "bublbobl",
@@ -4663,7 +4912,10 @@
           "n": "bublboblp.pal16l8.ic19",
           "c": "4e1f119c"
         }
-      ]
+      ],
+      "t": "Bubble Bobble (prototype on Tokio hardware)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "tokio": {
       "parent": null,
@@ -4772,7 +5024,10 @@
           "n": "a71-26.ic19",
           "c": "4e1f119c"
         }
-      ]
+      ],
+      "t": "Tokio / Scramble Formation (newer)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "tokioo": {
       "parent": "tokio",
@@ -4881,7 +5136,10 @@
           "n": "a71-26.ic19",
           "c": "4e1f119c"
         }
-      ]
+      ],
+      "t": "Tokio / Scramble Formation (older)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "tokiou": {
       "parent": "tokio",
@@ -4990,7 +5248,10 @@
           "n": "a71-26.ic19",
           "c": "4e1f119c"
         }
-      ]
+      ],
+      "t": "Tokio / Scramble Formation (US)",
+      "y": "1986",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "tokiob": {
       "parent": "tokio",
@@ -5091,7 +5352,10 @@
           "n": "a71-25.ic41",
           "c": "2d0f8545"
         }
-      ]
+      ],
+      "t": "Tokio / Scramble Formation (bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "buggychl": {
       "parent": null,
@@ -5168,7 +5432,10 @@
           "n": "a22-16.116",
           "c": "337a0c14"
         }
-      ]
+      ],
+      "t": "Buggy Challenge",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "buggychlt": {
       "parent": "buggychl",
@@ -5245,7 +5512,10 @@
           "n": "a22-16.116",
           "c": "337a0c14"
         }
-      ]
+      ],
+      "t": "Buggy Challenge (Tecfri)",
+      "y": "1984",
+      "m": "Taito Corporation (Tecfri license)"
     },
     "chaknpop": {
       "parent": null,
@@ -5298,7 +5568,10 @@
           "n": "ao4-12.ic95",
           "c": "954ce8fc"
         }
-      ]
+      ],
+      "t": "Chack'n Pop",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "crbaloon": {
       "parent": null,
@@ -5335,7 +5608,10 @@
           "n": "cl08.bin",
           "c": "ba898659"
         }
-      ]
+      ],
+      "t": "Crazy Balloon (set 1)",
+      "y": "1980",
+      "m": "Taito Corporation"
     },
     "crbaloon2": {
       "parent": "crbaloon",
@@ -5372,7 +5648,10 @@
           "n": "cl08.bin",
           "c": "ba898659"
         }
-      ]
+      ],
+      "t": "Crazy Balloon (set 2)",
+      "y": "1980",
+      "m": "Taito Corporation"
     },
     "cyclemb": {
       "parent": null,
@@ -5457,7 +5736,10 @@
           "n": "p2.4e",
           "c": "70a09cc5"
         }
-      ]
+      ],
+      "t": "Cycle Maabou (Japan)",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "skydest": {
       "parent": null,
@@ -5534,7 +5816,10 @@
           "n": "blue.4j",
           "c": "34579681"
         }
-      ]
+      ],
+      "t": "Sky Destroyer (Japan)",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "darius2": {
       "parent": null,
@@ -5627,7 +5912,10 @@
           "n": "c07-12.107",
           "c": "e0b71258"
         }
-      ]
+      ],
+      "t": "Darius II (triple screen) (Japan, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "darius2d": {
       "parent": "darius2",
@@ -5700,7 +5988,10 @@
           "n": "c07-14.38",
           "c": "baf2a193"
         }
-      ]
+      ],
+      "t": "Darius II (dual screen) (Japan, Rev 2)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "darius2do": {
       "parent": "darius2",
@@ -5773,7 +6064,10 @@
           "n": "c07-14.38",
           "c": "baf2a193"
         }
-      ]
+      ],
+      "t": "Darius II (dual screen) (Japan, Rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "sagaia": {
       "parent": "darius2",
@@ -5846,7 +6140,10 @@
           "n": "c07-14.38",
           "c": "baf2a193"
         }
-      ]
+      ],
+      "t": "Sagaia (dual screen) (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "ninjaw": {
       "parent": null,
@@ -5959,7 +6256,10 @@
           "n": "b31-26.58",
           "c": "13e5fe15"
         }
-      ]
+      ],
+      "t": "The Ninja Warriors (World, later version)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "ninjaw1": {
       "parent": "ninjaw",
@@ -6072,7 +6372,10 @@
           "n": "b31-26.58",
           "c": "13e5fe15"
         }
-      ]
+      ],
+      "t": "The Ninja Warriors (World, earlier version)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "ninjawj": {
       "parent": "ninjaw",
@@ -6185,7 +6488,10 @@
           "n": "b31-26.58",
           "c": "13e5fe15"
         }
-      ]
+      ],
+      "t": "The Ninja Warriors (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "ninjawu": {
       "parent": "ninjaw",
@@ -6298,7 +6604,10 @@
           "n": "b31-26.58",
           "c": "13e5fe15"
         }
-      ]
+      ],
+      "t": "The Ninja Warriors (US, Romstar license)",
+      "y": "1987",
+      "m": "Taito Corporation America (licensed to Romstar)"
     },
     "warriorb": {
       "parent": null,
@@ -6387,7 +6696,10 @@
           "n": "d24-16.79",
           "c": "92c59a8d"
         }
-      ]
+      ],
+      "t": "Warrior Blade - Rastan Saga Episode III (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "exzisus": {
       "parent": null,
@@ -6484,7 +6796,10 @@
           "n": "b12-22.2m",
           "c": "936855d2"
         }
-      ]
+      ],
+      "t": "Exzisus (Japan, dedicated)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "exzisusa": {
       "parent": "exzisus",
@@ -6569,7 +6884,10 @@
           "n": "b23-05.16l",
           "c": "87f0f69a"
         }
-      ]
+      ],
+      "t": "Exzisus (Japan, conversion)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "exzisust": {
       "parent": "exzisus",
@@ -6654,7 +6972,10 @@
           "n": "b23-05.16l",
           "c": "87f0f69a"
         }
-      ]
+      ],
+      "t": "Exzisus (TAD license)",
+      "y": "1987",
+      "m": "Taito Corporation (TAD license)"
     },
     "flstory": {
       "parent": null,
@@ -6715,7 +7036,10 @@
           "n": "a45-20.mcu",
           "c": "7d2cdd9b"
         }
-      ]
+      ],
+      "t": "The FairyLand Story",
+      "y": "1985",
+      "m": "Taito"
     },
     "flstoryo": {
       "parent": "flstory",
@@ -6776,7 +7100,10 @@
           "n": "a45-20.mcu",
           "c": "7d2cdd9b"
         }
-      ]
+      ],
+      "t": "The FairyLand Story (earlier)",
+      "y": "1985",
+      "m": "Taito"
     },
     "onna34ro": {
       "parent": null,
@@ -6849,7 +7176,10 @@
           "n": "a52_17.54c",
           "c": "0ab2612e"
         }
-      ]
+      ],
+      "t": "Onna Sanshirou - Typhoon Gal (rev 1)",
+      "y": "1985",
+      "m": "Taito"
     },
     "onna34roa": {
       "parent": "onna34ro",
@@ -6918,7 +7248,10 @@
           "n": "a52-11.32v",
           "c": "d1dda6b3"
         }
-      ]
+      ],
+      "t": "Onna Sanshirou - Typhoon Gal (bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "victnine": {
       "parent": null,
@@ -7007,7 +7340,10 @@
           "n": "a16-18.54",
           "c": "5198ef59"
         }
-      ]
+      ],
+      "t": "Victorious Nine",
+      "y": "1984",
+      "m": "Taito"
     },
     "rumba": {
       "parent": null,
@@ -7056,7 +7392,10 @@
           "n": "a23_04.bin",
           "c": "1d4f001f"
         }
-      ]
+      ],
+      "t": "Rumba Lumber (rev 1)",
+      "y": "1984",
+      "m": "Taito"
     },
     "galastrm": {
       "parent": null,
@@ -7169,7 +7508,10 @@
           "n": "c99-26.bin",
           "c": "d65cbcb9"
         }
-      ]
+      ],
+      "t": "Galactic Storm (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "gladiatr": {
       "parent": null,
@@ -7270,7 +7612,10 @@
           "n": "aq_007.6c",
           "c": "f19af04d"
         }
-      ]
+      ],
+      "t": "Gladiator (US)",
+      "y": "1986",
+      "m": "Allumer / Taito America Corporation"
     },
     "ogonsiro": {
       "parent": "gladiatr",
@@ -7371,7 +7716,10 @@
           "n": "aq_007.6c",
           "c": "f19af04d"
         }
-      ]
+      ],
+      "t": "Ougon no Shiro (Japan)",
+      "y": "1986",
+      "m": "Allumer / Taito Corporation"
     },
     "greatgur": {
       "parent": "gladiatr",
@@ -7472,7 +7820,10 @@
           "n": "aq_007.6c",
           "c": "f19af04d"
         }
-      ]
+      ],
+      "t": "Great Gurianos (bootleg?)",
+      "y": "1986",
+      "m": "Allumer / Taito Corporation"
     },
     "gcastle": {
       "parent": "gladiatr",
@@ -7573,7 +7924,10 @@
           "n": "aq_007.6c",
           "c": "f19af04d"
         }
-      ]
+      ],
+      "t": "Golden Castle (prototype?)",
+      "y": "1986",
+      "m": "Allumer / Taito Corporation"
     },
     "groundfx": {
       "parent": null,
@@ -7658,7 +8012,10 @@
           "n": "93c46.164",
           "c": "6f58851d"
         }
-      ]
+      ],
+      "t": "Ground Effects / Super Ground Effects (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "gunbustr": {
       "parent": null,
@@ -7731,7 +8088,10 @@
           "n": "eeprom-gunbustr.bin",
           "c": "ef3685a1"
         }
-      ]
+      ],
+      "t": "Gunbuster (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "gunbustru": {
       "parent": "gunbustr",
@@ -7804,7 +8164,10 @@
           "n": "eeprom-gunbustr.bin",
           "c": "ef3685a1"
         }
-      ]
+      ],
+      "t": "Gunbuster (US)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "gunbustrj": {
       "parent": "gunbustr",
@@ -7877,7 +8240,10 @@
           "n": "eeprom-gunbustr.bin",
           "c": "ef3685a1"
         }
-      ]
+      ],
+      "t": "Gunbuster (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "halleysc": {
       "parent": null,
@@ -7950,7 +8316,10 @@
           "n": "a26-13.111",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Halley's Comet (US)",
+      "y": "1986",
+      "m": "Taito America Corporation (Coin-It license)"
     },
     "halleyscj": {
       "parent": "halleysc",
@@ -8023,7 +8392,10 @@
           "n": "a26-13.111",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Halley's Comet (Japan, rev 1)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "halleyscja": {
       "parent": "halleysc",
@@ -8096,7 +8468,10 @@
           "n": "a26-13.111",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Halley's Comet (Japan)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "halleyscjp": {
       "parent": "halleysc",
@@ -8169,7 +8544,10 @@
           "n": "a26-13.111",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Halley's Comet (Japan, prototype)",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "halleysc87": {
       "parent": "halleysc",
@@ -8242,7 +8620,10 @@
           "n": "a26-13.111",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Halley's Comet '87",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "benberob": {
       "parent": null,
@@ -8307,7 +8688,10 @@
           "n": "a26_13.b",
           "c": "ec449aee"
         }
-      ]
+      ],
+      "t": "Ben Bero Beh (Japan)",
+      "y": "1984",
+      "m": "Taito"
     },
     "jollyjgr": {
       "parent": null,
@@ -8364,7 +8748,10 @@
           "n": "kd13.1f",
           "c": "4f4e4e13"
         }
-      ]
+      ],
+      "t": "Jolly Jogger",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "fspiderb": {
       "parent": null,
@@ -8417,7 +8804,10 @@
           "n": "82s123.1f",
           "c": "cda6001a"
         }
-      ]
+      ],
+      "t": "Frog & Spiders (bootleg?)",
+      "y": "1981",
+      "m": "Taito Corporation"
     },
     "ksayakyu": {
       "parent": null,
@@ -8498,7 +8888,10 @@
           "n": "9f.bin",
           "c": "ff71b27f"
         }
-      ]
+      ],
+      "t": "Kusayakyuu",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "lkage": {
       "parent": null,
@@ -8559,7 +8952,10 @@
           "n": "pal16l8a-a54-14.35",
           "c": "a89c644e"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (rev 2)",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "lkagea": {
       "parent": "lkage",
@@ -8620,7 +9016,10 @@
           "n": "pal16l8a-a54-14.35",
           "c": "a89c644e"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (rev 1)",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "lkageb": {
       "parent": "lkage",
@@ -8681,7 +9080,10 @@
           "n": "pal16l8a-a54-14.35",
           "c": "a89c644e"
         }
-      ]
+      ],
+      "t": "The Legend of Kage",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "lkagebl1": {
       "parent": "lkage",
@@ -8722,7 +9124,10 @@
           "n": "a54-10.2",
           "c": "17dfbd14"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (bootleg set 1)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "lkagebl2": {
       "parent": "lkage",
@@ -8763,7 +9168,10 @@
           "n": "a54-10.2",
           "c": "17dfbd14"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (bootleg set 2)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "lkagebl3": {
       "parent": "lkage",
@@ -8804,7 +9212,10 @@
           "n": "a54-10.2",
           "c": "17dfbd14"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (bootleg set 3)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "lkagebl4": {
       "parent": "lkage",
@@ -8845,7 +9256,10 @@
           "n": "a54-10.2",
           "c": "17dfbd14"
         }
-      ]
+      ],
+      "t": "The Legend of Kage (bootleg set 4)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "bygone": {
       "parent": null,
@@ -8890,7 +9304,10 @@
           "n": "a51_09.ic53",
           "c": "0e8b8846"
         }
-      ]
+      ],
+      "t": "Bygone (prototype)",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "lsasquad": {
       "parent": null,
@@ -8967,7 +9384,10 @@
           "n": "pal16l8a.14",
           "c": "a7cc157d"
         }
-      ]
+      ],
+      "t": "Land Sea Air Squad / Riku Kai Kuu Saizensen",
+      "y": "1986",
+      "m": "Taito"
     },
     "storming": {
       "parent": "lsasquad",
@@ -9040,7 +9460,10 @@
           "n": "pal16l8a.14",
           "c": "a7cc157d"
         }
-      ]
+      ],
+      "t": "Storming Party / Riku Kai Kuu Saizensen (set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "storminga": {
       "parent": "lsasquad",
@@ -9113,7 +9536,10 @@
           "n": "pal16l8cj.ic14.2c",
           "c": "a7cc157d"
         }
-      ]
+      ],
+      "t": "Storming Party / Riku Kai Kuu Saizensen (set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "daikaiju": {
       "parent": null,
@@ -9186,7 +9612,10 @@
           "n": "a74_06.ic9",
           "c": "cad554e7"
         }
-      ]
+      ],
+      "t": "Daikaiju no Gyakushu (rev 1)",
+      "y": "1986",
+      "m": "Taito"
     },
     "kikikai": {
       "parent": null,
@@ -9235,7 +9664,10 @@
           "n": "a85-09.g14",
           "c": "b931c94d"
         }
-      ]
+      ],
+      "t": "KiKi KaiKai",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "knightb": {
       "parent": "kikikai",
@@ -9284,7 +9716,10 @@
           "n": "a85-09.g14",
           "c": "b931c94d"
         }
-      ]
+      ],
+      "t": "Knight Boy (bootleg of KiKi KaiKai, set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "kicknrun": {
       "parent": null,
@@ -9337,7 +9772,10 @@
           "n": "a87-11.g14",
           "c": "14f6c28d"
         }
-      ]
+      ],
+      "t": "Kick and Run (World)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "kicknrunu": {
       "parent": "kicknrun",
@@ -9390,7 +9828,10 @@
           "n": "a87-11.g14",
           "c": "14f6c28d"
         }
-      ]
+      ],
+      "t": "Kick and Run (US)",
+      "y": "1986",
+      "m": "Taito America Corp"
     },
     "mexico86": {
       "parent": "kicknrun",
@@ -9463,7 +9904,10 @@
           "n": "pal16l8.5",
           "c": "1d27f7b9"
         }
-      ]
+      ],
+      "t": "Mexico 86 (bootleg of Kick and Run, set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "mexico86a": {
       "parent": "kicknrun",
@@ -9548,7 +9992,10 @@
           "n": "ampal16r4pc.2.bin",
           "c": "213a71d1"
         }
-      ]
+      ],
+      "t": "Mexico 86 (bootleg of Kick and Run, set 2)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "minivadr": {
       "parent": null,
@@ -9557,7 +10004,10 @@
           "n": "d26-01.ic7",
           "c": "a96c823d"
         }
-      ]
+      ],
+      "t": "Mini Vaders",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "msisaac": {
       "parent": null,
@@ -9614,7 +10064,10 @@
           "n": "a34_09.bin",
           "c": "23eb089d"
         }
-      ]
+      ],
+      "t": "Metal Soldier Isaac II",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "nycaptor": {
       "parent": null,
@@ -9687,7 +10140,10 @@
           "n": "a50_17",
           "c": "69fe08dc"
         }
-      ]
+      ],
+      "t": "N.Y. Captor (rev 2)",
+      "y": "1985",
+      "m": "Taito"
     },
     "colt": {
       "parent": "nycaptor",
@@ -9756,7 +10212,10 @@
           "n": "a50_14",
           "c": "24b2f1bf"
         }
-      ]
+      ],
+      "t": "Colt (bootleg of N.Y. Captor)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "cyclshtg": {
       "parent": null,
@@ -9829,7 +10288,10 @@
           "n": "a80_12.u23",
           "c": "9ff04c85"
         }
-      ]
+      ],
+      "t": "Cycle Shooting",
+      "y": "1986",
+      "m": "Taito"
     },
     "bronx": {
       "parent": "cyclshtg",
@@ -9902,7 +10364,10 @@
           "n": "a80_12.u23",
           "c": "9ff04c85"
         }
-      ]
+      ],
+      "t": "Bronx (bootleg of Cycle Shooting)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "othunder": {
       "parent": null,
@@ -9979,7 +10444,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (World, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "othundero": {
       "parent": "othunder",
@@ -10056,7 +10524,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "othunderu": {
       "parent": "othunder",
@@ -10133,7 +10604,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (US, rev 1)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "othunderua": {
       "parent": "othunder",
@@ -10210,7 +10684,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (US)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "othunderj": {
       "parent": "othunder",
@@ -10287,7 +10764,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "othunderjsc": {
       "parent": "othunder",
@@ -10364,7 +10844,10 @@
           "n": "pal20l8b-b67-10.ic33",
           "c": "4ced09c7"
         }
-      ]
+      ],
+      "t": "Operation Thunderbolt (Japan, SC)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "qix": {
       "parent": null,
@@ -10433,7 +10916,10 @@
           "n": "qq27.u27",
           "c": "f3782bd0"
         }
-      ]
+      ],
+      "t": "Qix (Rev 2)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "qixa": {
       "parent": "qix",
@@ -10506,7 +10992,10 @@
           "n": "qq27.u27",
           "c": "f3782bd0"
         }
-      ]
+      ],
+      "t": "Qix (set 2, smaller roms)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "qixb": {
       "parent": "qix",
@@ -10547,7 +11036,10 @@
           "n": "qq27.u27",
           "c": "f3782bd0"
         }
-      ]
+      ],
+      "t": "Qix (set 2, larger roms)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "qixo": {
       "parent": "qix",
@@ -10612,7 +11104,10 @@
           "n": "qu27.u27",
           "c": "f3782bd0"
         }
-      ]
+      ],
+      "t": "Qix (set 3, earlier)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "qix2": {
       "parent": "qix",
@@ -10685,7 +11180,10 @@
           "n": "u27",
           "c": "f3782bd0"
         }
-      ]
+      ],
+      "t": "Qix II (Tournament)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "zookeep": {
       "parent": null,
@@ -10770,7 +11268,10 @@
           "n": "za_coin.bin",
           "c": "364d3557"
         }
-      ]
+      ],
+      "t": "Zoo Keeper (set 1)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "zookeep2": {
       "parent": "zookeep",
@@ -10855,7 +11356,10 @@
           "n": "za_coin.bin",
           "c": "364d3557"
         }
-      ]
+      ],
+      "t": "Zoo Keeper (set 2)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "zookeep3": {
       "parent": "zookeep",
@@ -10940,7 +11444,10 @@
           "n": "za_coin.bin",
           "c": "364d3557"
         }
-      ]
+      ],
+      "t": "Zoo Keeper (set 3)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "sdungeon": {
       "parent": null,
@@ -11005,7 +11512,10 @@
           "n": "sd101",
           "c": "e255af9a"
         }
-      ]
+      ],
+      "t": "Space Dungeon",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "sdungeona": {
       "parent": "sdungeon",
@@ -11042,7 +11552,10 @@
           "n": "sd101",
           "c": "e255af9a"
         }
-      ]
+      ],
+      "t": "Space Dungeon (larger roms)",
+      "y": "1981",
+      "m": "Taito America Corporation"
     },
     "elecyoyo": {
       "parent": null,
@@ -11103,7 +11616,10 @@
           "n": "yy101",
           "c": "3cf13038"
         }
-      ]
+      ],
+      "t": "The Electric Yo-Yo (rev 1)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "elecyoyoa": {
       "parent": "elecyoyo",
@@ -11164,7 +11680,10 @@
           "n": "yy101",
           "c": "3cf13038"
         }
-      ]
+      ],
+      "t": "The Electric Yo-Yo",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "kram": {
       "parent": null,
@@ -11225,7 +11744,10 @@
           "n": "ks101.dat",
           "c": "e53d97b7"
         }
-      ]
+      ],
+      "t": "Kram (rev 1)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "krama": {
       "parent": "kram",
@@ -11286,7 +11808,10 @@
           "n": "ks101.dat",
           "c": "e53d97b7"
         }
-      ]
+      ],
+      "t": "Kram",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "krame": {
       "parent": "kram",
@@ -11343,7 +11868,10 @@
           "n": "ks27",
           "c": "c46530c8"
         }
-      ]
+      ],
+      "t": "Kram (encrypted)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "complexx": {
       "parent": null,
@@ -11404,7 +11932,10 @@
           "n": "cx27.bin",
           "c": "7e177328"
         }
-      ]
+      ],
+      "t": "Complex X",
+      "y": "1984",
+      "m": "Taito America Corporation"
     },
     "slither": {
       "parent": null,
@@ -11453,7 +11984,10 @@
           "n": "u36.cpu",
           "c": "d5ffc013"
         }
-      ]
+      ],
+      "t": "Slither (set 1)",
+      "y": "1982",
+      "m": "Century II (GDI license)"
     },
     "slithera": {
       "parent": "slither",
@@ -11502,7 +12036,10 @@
           "n": "u36a.cpu",
           "c": "5ac4e244"
         }
-      ]
+      ],
+      "t": "Slither (set 2)",
+      "y": "1982",
+      "m": "Century II (GDI license)"
     },
     "retofinv": {
       "parent": null,
@@ -11587,7 +12124,10 @@
           "n": "a37__09.ic37",
           "c": "6a6d008d"
         }
-      ]
+      ],
+      "t": "Return of the Invaders",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "retofinvb": {
       "parent": "retofinv",
@@ -11660,7 +12200,10 @@
           "n": "a37-09_bootleg.37",
           "c": "79bd6ded"
         }
-      ]
+      ],
+      "t": "Return of the Invaders (bootleg, with MCU)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "retofinvb1": {
       "parent": "retofinv",
@@ -11729,7 +12272,10 @@
           "n": "82s191n",
           "c": "93c891e3"
         }
-      ]
+      ],
+      "t": "Return of the Invaders (bootleg, without MCU, set 1)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "retofinvb2": {
       "parent": "retofinv",
@@ -11798,7 +12344,10 @@
           "n": "82s191n",
           "c": "93c891e3"
         }
-      ]
+      ],
+      "t": "Return of the Invaders (bootleg, without MCU, set 2)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "retofinvb3": {
       "parent": "retofinv",
@@ -11879,7 +12428,10 @@
           "n": "6353-1.c",
           "c": "77a7aaf6"
         }
-      ]
+      ],
+      "t": "Return of the Invaders (bootleg, without MCU, set 3)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "retofinvbv": {
       "parent": "retofinv",
@@ -11948,7 +12500,10 @@
           "n": "82s191n",
           "c": "93c891e3"
         }
-      ]
+      ],
+      "t": "Return of the Invaders (Video Dens bootleg, without MCU)",
+      "y": "1985",
+      "m": "bootleg (Video Dens)"
     },
     "fightrol": {
       "parent": null,
@@ -12061,7 +12616,10 @@
           "n": "8.6f",
           "c": "6ec3c545"
         }
-      ]
+      ],
+      "t": "Fighting Roller",
+      "y": "1983",
+      "m": "Kaneko (Taito license)"
     },
     "rollace": {
       "parent": "fightrol",
@@ -12174,7 +12732,10 @@
           "n": "8.6f",
           "c": "6ec3c545"
         }
-      ]
+      ],
+      "t": "Roller Aces (set 1)",
+      "y": "1983",
+      "m": "Kaneko (Williams license)"
     },
     "rollace2": {
       "parent": "fightrol",
@@ -12291,7 +12852,10 @@
           "n": "8.6f",
           "c": "6ec3c545"
         }
-      ]
+      ],
+      "t": "Roller Aces (set 2)",
+      "y": "1983",
+      "m": "Kaneko (Williams license)"
     },
     "sbowling": {
       "parent": null,
@@ -12332,7 +12896,10 @@
           "n": "kb09.6m",
           "c": "e29191a6"
         }
-      ]
+      ],
+      "t": "Strike Bowling",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "slapshot": {
       "parent": null,
@@ -12373,7 +12940,10 @@
           "n": "d71-03.25",
           "c": "dccef9ec"
         }
-      ]
+      ],
+      "t": "Slap Shot (Ver 3.0 O)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "slapshotj": {
       "parent": "slapshot",
@@ -12414,7 +12984,10 @@
           "n": "d71-03.25",
           "c": "dccef9ec"
         }
-      ]
+      ],
+      "t": "Slap Shot (Ver 2.2 J)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "opwolf3": {
       "parent": null,
@@ -12479,7 +13052,10 @@
           "n": "d74-13.2",
           "c": "c52df77c"
         }
-      ]
+      ],
+      "t": "Operation Wolf 3 (World)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "opwolf3u": {
       "parent": "opwolf3",
@@ -12544,7 +13120,10 @@
           "n": "d74-13.2",
           "c": "c52df77c"
         }
-      ]
+      ],
+      "t": "Operation Wolf 3 (US)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "opwolf3j": {
       "parent": "opwolf3",
@@ -12609,7 +13188,10 @@
           "n": "d74-13.2",
           "c": "c52df77c"
         }
-      ]
+      ],
+      "t": "Operation Wolf 3 (Japan)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "ssrj": {
       "parent": null,
@@ -12634,7 +13216,10 @@
           "n": "a40-05.bin",
           "c": "dce9169e"
         }
-      ]
+      ],
+      "t": "Super Speed Race Junior (Japan)",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "superchs": {
       "parent": null,
@@ -12755,7 +13340,10 @@
           "n": "palce20v8h-d46-22.ic24",
           "c": "c6a10b06"
         }
-      ]
+      ],
+      "t": "Super Chase - Criminal Termination (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "superchsu": {
       "parent": "superchs",
@@ -12876,7 +13464,10 @@
           "n": "palce20v8h-d46-22.ic24",
           "c": "c6a10b06"
         }
-      ]
+      ],
+      "t": "Super Chase - Criminal Termination (US)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "superchsj": {
       "parent": "superchs",
@@ -12997,7 +13588,10 @@
           "n": "palce20v8h-d46-22.ic24",
           "c": "c6a10b06"
         }
-      ]
+      ],
+      "t": "Super Chase - Criminal Termination (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "pbillian": {
       "parent": null,
@@ -13030,7 +13624,10 @@
           "n": "mitsubishi__electric__7.mc68705p5s.7k",
           "c": "03de0c74"
         }
-      ]
+      ],
+      "t": "Prebillian",
+      "y": "1986",
+      "m": "Kaneko / Taito"
     },
     "pbillianb": {
       "parent": "pbillian",
@@ -13059,7 +13656,10 @@
           "n": "6",
           "c": "33b855b0"
         }
-      ]
+      ],
+      "t": "Prebillian (bootleg)",
+      "y": "1987",
+      "m": "bootleg (Game Corp.)"
     },
     "hotsmash": {
       "parent": null,
@@ -13088,7 +13688,10 @@
           "n": "b18-06.7k",
           "c": "67c0920a"
         }
-      ]
+      ],
+      "t": "Vs. Hot Smash",
+      "y": "1987",
+      "m": "Kaneko / Taito"
     },
     "sqix": {
       "parent": null,
@@ -13117,7 +13720,10 @@
           "n": "b03__03.l2",
           "c": "f0c3af2b"
         }
-      ]
+      ],
+      "t": "Super Qix (World/Japan, V1.2)",
+      "y": "1987",
+      "m": "Kaneko / Taito"
     },
     "sqixr1": {
       "parent": "sqix",
@@ -13146,7 +13752,10 @@
           "n": "b03__03.l2",
           "c": "f0c3af2b"
         }
-      ]
+      ],
+      "t": "Super Qix (World/Japan, V1.1)",
+      "y": "1987",
+      "m": "Kaneko / Taito"
     },
     "sqixr0": {
       "parent": "sqix",
@@ -13175,7 +13784,10 @@
           "n": "b03__03.l2",
           "c": "f0c3af2b"
         }
-      ]
+      ],
+      "t": "Super Qix (World/Japan, V1.0)",
+      "y": "1987",
+      "m": "Kaneko / Taito"
     },
     "sqixu": {
       "parent": "sqix",
@@ -13204,7 +13816,10 @@
           "n": "b03__08.l2",
           "c": "7c338c0f"
         }
-      ]
+      ],
+      "t": "Super Qix (US)",
+      "y": "1987",
+      "m": "Kaneko / Taito (Romstar License)"
     },
     "sqixb1": {
       "parent": "sqix",
@@ -13237,7 +13852,10 @@
           "n": "sq07.ic108",
           "c": "d11411fb"
         }
-      ]
+      ],
+      "t": "Super Qix (bootleg of V1.0, 8031 MCU)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sqixb2": {
       "parent": "sqix",
@@ -13266,7 +13884,10 @@
           "n": "b03__05.t8",
           "c": "df326540"
         }
-      ]
+      ],
+      "t": "Super Qix (bootleg, No MCU)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "perestro": {
       "parent": null,
@@ -13287,7 +13908,10 @@
           "n": "rom3a.bin",
           "c": "7a2a563f"
         }
-      ]
+      ],
+      "t": "Perestroika Girls",
+      "y": "1994",
+      "m": "Promat"
     },
     "perestrof": {
       "parent": "perestro",
@@ -13308,7 +13932,10 @@
           "n": "rom3.bin",
           "c": "00c91d5a"
         }
-      ]
+      ],
+      "t": "Perestroika Girls (Fuuki license)",
+      "y": "1993",
+      "m": "Promat (Fuuki license)"
     },
     "suprridr": {
       "parent": null,
@@ -13401,7 +14028,10 @@
           "n": "clr.8a",
           "c": "917eabcd"
         }
-      ]
+      ],
+      "t": "Super Rider",
+      "y": "1983",
+      "m": "Taito Corporation (Venture Line license)"
     },
     "masterw": {
       "parent": null,
@@ -13446,7 +14076,10 @@
           "n": "b72-10.ic32",
           "c": "20b0450b"
         }
-      ]
+      ],
+      "t": "Master of Weapon (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "masterwu": {
       "parent": "masterw",
@@ -13491,7 +14124,10 @@
           "n": "b72-10.ic32",
           "c": "20b0450b"
         }
-      ]
+      ],
+      "t": "Master of Weapon (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "masterwj": {
       "parent": "masterw",
@@ -13536,7 +14172,10 @@
           "n": "b72-10.ic32",
           "c": "20b0450b"
         }
-      ]
+      ],
+      "t": "Master of Weapon (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "yukiwo": {
       "parent": "masterw",
@@ -13597,7 +14236,10 @@
           "n": "ic4-9e5e.bin",
           "c": "3b30166b"
         }
-      ]
+      ],
+      "t": "Yukiwo (World, prototype)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "nastar": {
       "parent": null,
@@ -13646,7 +14288,10 @@
           "n": "ampal16l8-b81-06a.22",
           "c": "bb1cec84"
         }
-      ]
+      ],
+      "t": "Nastar (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "rastsag2": {
       "parent": "nastar",
@@ -13687,7 +14332,10 @@
           "n": "b81-01.1",
           "c": "b33f796b"
         }
-      ]
+      ],
+      "t": "Rastan Saga 2 (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "nastarw": {
       "parent": "nastar",
@@ -13728,7 +14376,10 @@
           "n": "b81-01.1",
           "c": "b33f796b"
         }
-      ]
+      ],
+      "t": "Nastar Warrior (US)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "rambo3": {
       "parent": null,
@@ -13781,7 +14432,10 @@
           "n": "b93-09-pal16l8b.ic25",
           "c": "e63d9041"
         }
-      ]
+      ],
+      "t": "Rambo III (Europe)",
+      "y": "1989",
+      "m": "Taito Europe Corporation"
     },
     "rambo3u": {
       "parent": "rambo3",
@@ -13826,7 +14480,10 @@
           "n": "ramb3-05.bin",
           "c": "0179dc40"
         }
-      ]
+      ],
+      "t": "Rambo III (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "rambo3p": {
       "parent": "rambo3",
@@ -13931,7 +14588,10 @@
           "n": "r3-a4.rom",
           "c": "9cf4c21b"
         }
-      ]
+      ],
+      "t": "Rambo III (Europe, Proto?)",
+      "y": "1989",
+      "m": "Taito Europe Corporation"
     },
     "crimec": {
       "parent": null,
@@ -13968,7 +14628,10 @@
           "n": "b99-03.37",
           "c": "dda10df7"
         }
-      ]
+      ],
+      "t": "Crime City (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "crimecu": {
       "parent": "crimec",
@@ -14005,7 +14668,10 @@
           "n": "b99-03.37",
           "c": "dda10df7"
         }
-      ]
+      ],
+      "t": "Crime City (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "crimecj": {
       "parent": "crimec",
@@ -14042,7 +14708,10 @@
           "n": "b99-03.37",
           "c": "dda10df7"
         }
-      ]
+      ],
+      "t": "Crime City (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "tetrist": {
       "parent": "tetris",
@@ -14083,7 +14752,10 @@
           "n": "b81-01.1",
           "c": "b33f796b"
         }
-      ]
+      ],
+      "t": "Tetris (Japan, Taito B-System, Nastar Conversion Kit)",
+      "y": "1988",
+      "m": "Sega"
     },
     "tetrista": {
       "parent": "tetris",
@@ -14116,7 +14788,10 @@
           "n": "b72-01.5",
           "c": "a24ac26e"
         }
-      ]
+      ],
+      "t": "Tetris (Japan, Taito B-System, Master of Weapon Conversion Kit)",
+      "y": "1988",
+      "m": "Sega"
     },
     "viofight": {
       "parent": null,
@@ -14169,7 +14844,10 @@
           "n": "pal16l8b-c16-09.ic35",
           "c": "0965baab"
         }
-      ]
+      ],
+      "t": "Violence Fight (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "viofightu": {
       "parent": "viofight",
@@ -14222,7 +14900,10 @@
           "n": "pal16l8b-c16-09.ic35",
           "c": "0965baab"
         }
-      ]
+      ],
+      "t": "Violence Fight (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "viofightj": {
       "parent": "viofight",
@@ -14275,7 +14956,10 @@
           "n": "pal16l8b-c16-09.ic35",
           "c": "0965baab"
         }
-      ]
+      ],
+      "t": "Violence Fight (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "ashura": {
       "parent": null,
@@ -14312,7 +14996,10 @@
           "n": "c43-01",
           "c": "db953f37"
         }
-      ]
+      ],
+      "t": "Ashura Blaster (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "ashuraj": {
       "parent": "ashura",
@@ -14349,7 +15036,10 @@
           "n": "c43-01",
           "c": "db953f37"
         }
-      ]
+      ],
+      "t": "Ashura Blaster (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "ashurau": {
       "parent": "ashura",
@@ -14386,7 +15076,10 @@
           "n": "c43-01",
           "c": "db953f37"
         }
-      ]
+      ],
+      "t": "Ashura Blaster (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "hitice": {
       "parent": null,
@@ -14439,7 +15132,10 @@
           "n": "pal16r4b-c59-07.61",
           "c": "cf64bd95"
         }
-      ]
+      ],
+      "t": "Hit the Ice (US)",
+      "y": "1990",
+      "m": "Taito Corporation (Williams license)"
     },
     "hiticerb": {
       "parent": "hitice",
@@ -14516,7 +15212,10 @@
           "n": "pal16r4b-c59-07.61",
           "c": "cf64bd95"
         }
-      ]
+      ],
+      "t": "Hit the Ice (US, with riser board)",
+      "y": "1990",
+      "m": "Taito Corporation (Williams license)"
     },
     "hiticej": {
       "parent": "hitice",
@@ -14569,7 +15268,10 @@
           "n": "pal16r4b-c59-07.61",
           "c": "cf64bd95"
         }
-      ]
+      ],
+      "t": "Hit the Ice (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation (licensed from Midway)"
     },
     "selfeena": {
       "parent": null,
@@ -14598,7 +15300,10 @@
           "n": "se-06.11",
           "c": "80d5e772"
         }
-      ]
+      ],
+      "t": "Sel Feena",
+      "y": "1991",
+      "m": "East Technology"
     },
     "silentd": {
       "parent": null,
@@ -14647,7 +15352,10 @@
           "n": "east-02.ic3",
           "c": "e0de5c39"
         }
-      ]
+      ],
+      "t": "Silent Dragon (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "silentdj": {
       "parent": "silentd",
@@ -14696,7 +15404,10 @@
           "n": "east-02.ic3",
           "c": "e0de5c39"
         }
-      ]
+      ],
+      "t": "Silent Dragon (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "silentdu": {
       "parent": "silentd",
@@ -14745,7 +15456,10 @@
           "n": "east-02.ic3",
           "c": "e0de5c39"
         }
-      ]
+      ],
+      "t": "Silent Dragon (US)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "ryujin": {
       "parent": null,
@@ -14790,7 +15504,10 @@
           "n": "pal16l8b-east-08.ic47",
           "c": "bdce045f"
         }
-      ]
+      ],
+      "t": "Ryu Jin (Japan, ET910000B PCB)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "ryujina": {
       "parent": "ryujin",
@@ -14827,7 +15544,10 @@
           "n": "ryujin-08.11",
           "c": "480d040d"
         }
-      ]
+      ],
+      "t": "Ryu Jin (Japan, ET910000A PCB)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "qzshowby": {
       "parent": null,
@@ -14880,7 +15600,10 @@
           "n": "palce16v8-d72-10.bin",
           "c": "a5181ba2"
         }
-      ]
+      ],
+      "t": "Quiz Sekai wa SHOW by shobai (Japan)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "bublbust": {
       "parent": "pbobble",
@@ -14917,7 +15640,10 @@
           "n": "cr40-kaigai-7bec.ic15_ach_0",
           "c": "f203ae52"
         }
-      ]
+      ],
+      "t": "Bubble Buster (USA, B-System)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "pbobble": {
       "parent": null,
@@ -14946,7 +15672,10 @@
           "n": "pb-ic15.ic15",
           "c": "0840cbc4"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble (Japan, B-System)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "spacedx": {
       "parent": null,
@@ -14995,7 +15724,10 @@
           "n": "palce16v8-d72-10.ic12",
           "c": "a5181ba2"
         }
-      ]
+      ],
+      "t": "Space Invaders DX (US, v2.1)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "spacedxj": {
       "parent": "spacedx",
@@ -15044,7 +15776,10 @@
           "n": "palce16v8-d72-10.ic12",
           "c": "a5181ba2"
         }
-      ]
+      ],
+      "t": "Space Invaders DX (Japan, v2.1)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "spacedxo": {
       "parent": "spacedx",
@@ -15073,7 +15808,10 @@
           "n": "d89-03.ic15",
           "c": "218f31a4"
         }
-      ]
+      ],
+      "t": "Space Invaders DX (Japan, v2.0)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "sbm": {
       "parent": null,
@@ -15186,7 +15924,10 @@
           "n": "c69-06.ic17",
           "c": "3988e5d1"
         }
-      ]
+      ],
+      "t": "Sonic Blast Man (US)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "sbmj": {
       "parent": "sbm",
@@ -15287,7 +16028,10 @@
           "n": "c69-03.36",
           "c": "63e6b6e7"
         }
-      ]
+      ],
+      "t": "Sonic Blast Man (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "cameltry": {
       "parent": null,
@@ -15316,7 +16060,10 @@
           "n": "c38-02.ic27",
           "c": "1a11714b"
         }
-      ]
+      ],
+      "t": "Cameltry (World, YM2610)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cameltryu": {
       "parent": "cameltry",
@@ -15345,7 +16092,10 @@
           "n": "c38-02.bin",
           "c": "1a11714b"
         }
-      ]
+      ],
+      "t": "Cameltry (US, YM2610)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cameltryau": {
       "parent": "cameltry",
@@ -15374,7 +16124,10 @@
           "n": "c38-04.bin",
           "c": "53d330bb"
         }
-      ]
+      ],
+      "t": "Cameltry (US, YM2203 + M6295)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cameltrya": {
       "parent": "cameltry",
@@ -15403,7 +16156,10 @@
           "n": "c38-04.bin",
           "c": "53d330bb"
         }
-      ]
+      ],
+      "t": "Cameltry (World, YM2203 + M6295)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "cameltryj": {
       "parent": "cameltry",
@@ -15432,7 +16188,10 @@
           "n": "c38-02.bin",
           "c": "1a11714b"
         }
-      ]
+      ],
+      "t": "Cameltry (Japan, YM2610)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "deadconx": {
       "parent": null,
@@ -15477,7 +16236,10 @@
           "n": "d28-03.10",
           "c": "a1804b52"
         }
-      ]
+      ],
+      "t": "Dead Connection (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "deadconxj": {
       "parent": "deadconx",
@@ -15522,7 +16284,10 @@
           "n": "d28-03.10",
           "c": "a1804b52"
         }
-      ]
+      ],
+      "t": "Dead Connection (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "dinorex": {
       "parent": null,
@@ -15571,7 +16336,10 @@
           "n": "d39-08.4",
           "c": "377b8b7b"
         }
-      ]
+      ],
+      "t": "Dino Rex (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "dinorexj": {
       "parent": "dinorex",
@@ -15620,7 +16388,10 @@
           "n": "d39-08.4",
           "c": "377b8b7b"
         }
-      ]
+      ],
+      "t": "Dino Rex (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "dinorexu": {
       "parent": "dinorex",
@@ -15669,7 +16440,10 @@
           "n": "d39-08.4",
           "c": "377b8b7b"
         }
-      ]
+      ],
+      "t": "Dino Rex (US)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "dondokod": {
       "parent": null,
@@ -15710,7 +16484,10 @@
           "n": "b95-03.bin",
           "c": "543aa0d1"
         }
-      ]
+      ],
+      "t": "Don Doko Don (World, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "dondokodj": {
       "parent": "dondokod",
@@ -15751,7 +16528,10 @@
           "n": "b95-03.bin",
           "c": "543aa0d1"
         }
-      ]
+      ],
+      "t": "Don Doko Don (Japan, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "dondokodu": {
       "parent": "dondokod",
@@ -15792,7 +16572,10 @@
           "n": "b95-03.bin",
           "c": "543aa0d1"
         }
-      ]
+      ],
+      "t": "Don Doko Don (US, rev 1)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "driftout": {
       "parent": null,
@@ -15821,7 +16604,10 @@
           "n": "do_piv.rom",
           "c": "c4f012f7"
         }
-      ]
+      ],
+      "t": "Drift Out (Europe)",
+      "y": "1991",
+      "m": "Visco"
     },
     "driftoutj": {
       "parent": "driftout",
@@ -15850,7 +16636,10 @@
           "n": "do_piv.rom",
           "c": "c4f012f7"
         }
-      ]
+      ],
+      "t": "Drift Out (Japan)",
+      "y": "1991",
+      "m": "Visco"
     },
     "driveout": {
       "parent": "driftout",
@@ -15887,7 +16676,10 @@
           "n": "2.u29",
           "c": "0aba2026"
         }
-      ]
+      ],
+      "t": "Drive Out (bootleg of Drift Out)",
+      "y": "1991",
+      "m": "bootleg (Electronic Devices)"
     },
     "finalb": {
       "parent": null,
@@ -15952,7 +16744,10 @@
           "n": "gal16v8.ic35",
           "c": "ca4eb3e1"
         }
-      ]
+      ],
+      "t": "Final Blow (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "finalbj": {
       "parent": "finalb",
@@ -16017,7 +16812,10 @@
           "n": "gal16v8.ic35",
           "c": "ca4eb3e1"
         }
-      ]
+      ],
+      "t": "Final Blow (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "finalbu": {
       "parent": "finalb",
@@ -16082,7 +16880,10 @@
           "n": "gal16v8.ic35",
           "c": "ca4eb3e1"
         }
-      ]
+      ],
+      "t": "Final Blow (US, rev 1)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "footchmp": {
       "parent": null,
@@ -16135,7 +16936,10 @@
           "n": "c80-08.ic45",
           "c": "6137dd15"
         }
-      ]
+      ],
+      "t": "Football Champ / Euro Football Champ (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "htherou": {
       "parent": "footchmp",
@@ -16188,7 +16992,10 @@
           "n": "c80-09.ic46",
           "c": "4ca48869"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero (US)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "htheroj": {
       "parent": "footchmp",
@@ -16233,7 +17040,10 @@
           "n": "c80-03.57",
           "c": "609938d5"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "euroch92": {
       "parent": null,
@@ -16278,7 +17088,10 @@
           "n": "c80-03.57",
           "c": "609938d5"
         }
-      ]
+      ],
+      "t": "Euro Champ '92 (World)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "euroch92j": {
       "parent": "euroch92",
@@ -16323,7 +17136,10 @@
           "n": "c80-03.ic57",
           "c": "609938d5"
         }
-      ]
+      ],
+      "t": "Euro Champ '92 (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "growl": {
       "parent": null,
@@ -16368,7 +17184,10 @@
           "n": "c74-05.ic29",
           "c": "e29c0828"
         }
-      ]
+      ],
+      "t": "Growl (World, Rev 1)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "growla": {
       "parent": "growl",
@@ -16413,7 +17232,10 @@
           "n": "c74-05.ic29",
           "c": "e29c0828"
         }
-      ]
+      ],
+      "t": "Growl (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "growlu": {
       "parent": "growl",
@@ -16458,7 +17280,10 @@
           "n": "c74-05.ic29",
           "c": "e29c0828"
         }
-      ]
+      ],
+      "t": "Growl (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "runark": {
       "parent": "growl",
@@ -16503,7 +17328,10 @@
           "n": "c74-05.ic29",
           "c": "e29c0828"
         }
-      ]
+      ],
+      "t": "Runark (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "growlp": {
       "parent": "growl",
@@ -16600,7 +17428,10 @@
           "n": "growl_ic22_ch-b-1_a5f1.bin",
           "c": "567df833"
         }
-      ]
+      ],
+      "t": "Growl (World, prototype)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "gunfront": {
       "parent": null,
@@ -16645,7 +17476,10 @@
           "n": "c71-01.ic29",
           "c": "0e73105a"
         }
-      ]
+      ],
+      "t": "Gun & Frontier (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "gunfrontj": {
       "parent": "gunfront",
@@ -16690,7 +17524,10 @@
           "n": "c71-01.ic29",
           "c": "0e73105a"
         }
-      ]
+      ],
+      "t": "Gun Frontier (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "koshien": {
       "parent": null,
@@ -16743,7 +17580,10 @@
           "n": "pal16l8b-c81-09.bin",
           "c": "e4c012a1"
         }
-      ]
+      ],
+      "t": "Ah Eikou no Koshien (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "liquidk": {
       "parent": null,
@@ -16784,7 +17624,10 @@
           "n": "c49-04.ic33",
           "c": "474d45a4"
         }
-      ]
+      ],
+      "t": "Liquid Kids (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "liquidku": {
       "parent": "liquidk",
@@ -16825,7 +17668,10 @@
           "n": "c49-04.ic33",
           "c": "474d45a4"
         }
-      ]
+      ],
+      "t": "Liquid Kids (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "mizubaku": {
       "parent": "liquidk",
@@ -16866,7 +17712,10 @@
           "n": "c49-04.ic33",
           "c": "474d45a4"
         }
-      ]
+      ],
+      "t": "Mizubaku Daibouken (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "megablst": {
       "parent": null,
@@ -16939,7 +17788,10 @@
           "n": "pal16l8b-c11-14.ic23",
           "c": "5c740aee"
         }
-      ]
+      ],
+      "t": "Mega Blast (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "megablstj": {
       "parent": "megablst",
@@ -16988,7 +17840,10 @@
           "n": "c11-15.ic59",
           "c": "af49ee7f"
         }
-      ]
+      ],
+      "t": "Mega Blast (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "megablstu": {
       "parent": "megablst",
@@ -17037,7 +17892,10 @@
           "n": "c11-15.ic59",
           "c": "af49ee7f"
         }
-      ]
+      ],
+      "t": "Mega Blast (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "metalb": {
       "parent": null,
@@ -17082,7 +17940,10 @@
           "n": "d12-05.16",
           "c": "7fd036c5"
         }
-      ]
+      ],
+      "t": "Metal Black (World)",
+      "y": "1991",
+      "m": "Taito Corporation Japan"
     },
     "metalba": {
       "parent": "metalb",
@@ -17127,7 +17988,10 @@
           "n": "d12-05.ic30",
           "c": "7fd036c5"
         }
-      ]
+      ],
+      "t": "Metal Black (World, single PCB)",
+      "y": "1991",
+      "m": "Taito Corporation Japan"
     },
     "metalbj": {
       "parent": "metalb",
@@ -17172,7 +18036,10 @@
           "n": "d12-05.16",
           "c": "7fd036c5"
         }
-      ]
+      ],
+      "t": "Metal Black (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "mjnquest": {
       "parent": null,
@@ -17209,7 +18076,10 @@
           "n": "c77-03",
           "c": "312f17b1"
         }
-      ]
+      ],
+      "t": "Mahjong Quest (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "mjnquestb": {
       "parent": "mjnquest",
@@ -17246,7 +18116,10 @@
           "n": "c77-03",
           "c": "312f17b1"
         }
-      ]
+      ],
+      "t": "Mahjong Quest (Japan, No Nudity)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "ninjak": {
       "parent": null,
@@ -17291,7 +18164,10 @@
           "n": "c85-05.ic33",
           "c": "3c1b0ed0"
         }
-      ]
+      ],
+      "t": "The Ninja Kids (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "ninjakj": {
       "parent": "ninjak",
@@ -17336,7 +18212,10 @@
           "n": "c85-05.ic33",
           "c": "3c1b0ed0"
         }
-      ]
+      ],
+      "t": "The Ninja Kids (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "ninjaku": {
       "parent": "ninjak",
@@ -17381,7 +18260,10 @@
           "n": "c85-05.ic33",
           "c": "3c1b0ed0"
         }
-      ]
+      ],
+      "t": "The Ninja Kids (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "pulirula": {
       "parent": null,
@@ -17426,7 +18308,10 @@
           "n": "c98-05.rom",
           "c": "9ddd9c39"
         }
-      ]
+      ],
+      "t": "PuLiRuLa (World, dual PCB)",
+      "y": "1991",
+      "m": "Taito Corporation Japan"
     },
     "pulirulaa": {
       "parent": "pulirula",
@@ -17471,7 +18356,10 @@
           "n": "c98-05.rom",
           "c": "9ddd9c39"
         }
-      ]
+      ],
+      "t": "PuLiRuLa (World, single PCB)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "pulirulaj": {
       "parent": "pulirula",
@@ -17516,7 +18404,10 @@
           "n": "c98-05.rom",
           "c": "9ddd9c39"
         }
-      ]
+      ],
+      "t": "PuLiRuLa (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "qcrayon": {
       "parent": null,
@@ -17553,7 +18444,10 @@
           "n": "d55-01",
           "c": "a8309af4"
         }
-      ]
+      ],
+      "t": "Quiz Crayon Shinchan (Japan)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "qcrayon2": {
       "parent": null,
@@ -17586,7 +18480,10 @@
           "n": "d63-02",
           "c": "162ae165"
         }
-      ]
+      ],
+      "t": "Crayon Shinchan Orato Asobo (Japan)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "qjinsei": {
       "parent": null,
@@ -17623,7 +18520,10 @@
           "n": "d48-05",
           "c": "3fefd058"
         }
-      ]
+      ],
+      "t": "Quiz Jinsei Gekijoh (Japan)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "qtorimon": {
       "parent": null,
@@ -17660,7 +18560,10 @@
           "n": "c41-03.bin",
           "c": "b2c18e89"
         }
-      ]
+      ],
+      "t": "Quiz Torimonochou (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "quizhq": {
       "parent": null,
@@ -17705,7 +18608,10 @@
           "n": "c53-04.bin",
           "c": "99890ad4"
         }
-      ]
+      ],
+      "t": "Quiz H.Q. (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "qzchikyu": {
       "parent": null,
@@ -17750,7 +18656,10 @@
           "n": "pal16l8b-d19-10.bin",
           "c": "ea1232a5"
         }
-      ]
+      ],
+      "t": "Quiz Chikyu Bouei Gun (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "qzquest": {
       "parent": null,
@@ -17783,7 +18692,10 @@
           "n": "c92-04.9",
           "c": "e421bb43"
         }
-      ]
+      ],
+      "t": "Quiz Quest - Hime to Yuusha no Monogatari (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "solfigtr": {
       "parent": null,
@@ -17820,7 +18732,10 @@
           "n": "pal16l8b-c74-06.ic48",
           "c": "c868dc16"
         }
-      ]
+      ],
+      "t": "Solitary Fighter (World)",
+      "y": "1991",
+      "m": "Taito Corporation Japan"
     },
     "ssi": {
       "parent": null,
@@ -17853,7 +18768,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Super Space Invaders '91 (World, revised code, Rev 1)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "ssia": {
       "parent": "ssi",
@@ -17886,7 +18804,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Super Space Invaders '91 (World, revised code)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "ssib": {
       "parent": "ssi",
@@ -17919,7 +18840,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Super Space Invaders '91 (World, earlier code base)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "majest12u": {
       "parent": "ssi",
@@ -17952,7 +18876,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Majestic Twelve - The Space Invaders Part IV (US, revised code, Rev 1)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "majest12ua": {
       "parent": "ssi",
@@ -17985,7 +18912,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Majestic Twelve - The Space Invaders Part IV (US, revised code)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "majest12ub": {
       "parent": "ssi",
@@ -18018,7 +18948,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Majestic Twelve - The Space Invaders Part IV (US, earlier code base)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "majest12j": {
       "parent": "ssi",
@@ -18059,7 +18992,10 @@
           "n": "c64-11.ic43",
           "c": "f116413e"
         }
-      ]
+      ],
+      "t": "Majestic Twelve - The Space Invaders Part IV (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "thundfox": {
       "parent": null,
@@ -18132,7 +19068,10 @@
           "n": "pal16l8b-c28-11.ic35",
           "c": "33414fe8"
         }
-      ]
+      ],
+      "t": "Thunder Fox (World, rev 1)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "thundfoxj": {
       "parent": "thundfox",
@@ -18181,7 +19120,10 @@
           "n": "c28-05.42",
           "c": "d3b238fa"
         }
-      ]
+      ],
+      "t": "Thunder Fox (Japan, rev 1)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "thundfoxu": {
       "parent": "thundfox",
@@ -18230,7 +19172,10 @@
           "n": "c28-05.42",
           "c": "d3b238fa"
         }
-      ]
+      ],
+      "t": "Thunder Fox (US, rev 1)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "yesnoj": {
       "parent": null,
@@ -18259,7 +19204,10 @@
           "n": "d20-03.13",
           "c": "6a51a1b4"
         }
-      ]
+      ],
+      "t": "Yes/No Sinri Tokimeki Chart",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "yuyugogo": {
       "parent": null,
@@ -18296,7 +19244,10 @@
           "n": "c83-04.5",
           "c": "2600093a"
         }
-      ]
+      ],
+      "t": "Yuuyu no Quiz de GO!GO! (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "ringrage": {
       "parent": null,
@@ -18357,7 +19308,10 @@
           "n": "d21-05.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Ring Rage (Ver 2.3O 1992/08/09)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "ringrageu": {
       "parent": "ringrage",
@@ -18418,7 +19372,10 @@
           "n": "d21-05.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Ring Rage (Ver 2.3A 1992/08/09)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "ringragej": {
       "parent": "ringrage",
@@ -18479,7 +19436,10 @@
           "n": "d21-05.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Ring Rage (Ver 2.3J 1992/08/09)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "arabianm": {
       "parent": null,
@@ -18576,7 +19536,10 @@
           "n": "pal20l8b.70",
           "c": "92b5b97c"
         }
-      ]
+      ],
+      "t": "Arabian Magic (Ver 1.0O 1992/07/06)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "arabianmj": {
       "parent": "arabianm",
@@ -18673,7 +19636,10 @@
           "n": "pal20l8b.70",
           "c": "92b5b97c"
         }
-      ]
+      ],
+      "t": "Arabian Magic (Ver 1.0J 1992/07/06)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "arabianmu": {
       "parent": "arabianm",
@@ -18770,7 +19736,10 @@
           "n": "pal20l8b.70",
           "c": "92b5b97c"
         }
-      ]
+      ],
+      "t": "Arabian Magic (Ver 1.0A 1992/07/06)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "ridingf": {
       "parent": null,
@@ -18823,7 +19792,10 @@
           "n": "d34-04.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Riding Fight (Ver 1.0O)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "ridingfj": {
       "parent": "ridingf",
@@ -18876,7 +19848,10 @@
           "n": "d34-04.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Riding Fight (Ver 1.0J)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "ridingfu": {
       "parent": "ridingf",
@@ -18929,7 +19904,10 @@
           "n": "d34-04.18",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Riding Fight (Ver 1.0A)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "gseeker": {
       "parent": null,
@@ -18994,7 +19972,10 @@
           "n": "gseeker.nv",
           "c": "3e24cc80"
         }
-      ]
+      ],
+      "t": "Grid Seeker: Project Storm Hammer (Ver 1.3O)",
+      "y": "1992",
+      "m": "Taito Corporation Japan"
     },
     "gseekerj": {
       "parent": "gseeker",
@@ -19059,7 +20040,10 @@
           "n": "gseeker.nv",
           "c": "3e24cc80"
         }
-      ]
+      ],
+      "t": "Grid Seeker: Project Storm Hammer (Ver 1.3J)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "gseekeru": {
       "parent": "gseeker",
@@ -19124,7 +20108,10 @@
           "n": "gseeker.nv",
           "c": "3e24cc80"
         }
-      ]
+      ],
+      "t": "Grid Seeker: Project Storm Hammer (Ver 1.3A)",
+      "y": "1992",
+      "m": "Taito America Corporation"
     },
     "commandw": {
       "parent": null,
@@ -19197,7 +20184,10 @@
           "n": "cw_pcm_1.bin",
           "c": "39fc6cf4"
         }
-      ]
+      ],
+      "t": "Command War - Super Special Battle & War Game (Ver 0.0J, prototype)",
+      "y": "1992",
+      "m": "Taito Corporation"
     },
     "cupfinal": {
       "parent": null,
@@ -19270,7 +20260,10 @@
           "n": "d49-05.41",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Taito Cup Finals (Ver 1.0O 1993/02/28)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "hthero93": {
       "parent": "cupfinal",
@@ -19343,7 +20336,10 @@
           "n": "d49-05.41",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '93 (Ver 1.0J 1993/02/28)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "hthero93u": {
       "parent": "cupfinal",
@@ -19452,7 +20448,10 @@
           "n": "d29-17.ic16.bin",
           "c": "a0f74b51"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '93 (Ver 1.0A 1993/02/28)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "trstar": {
       "parent": null,
@@ -19525,7 +20524,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "trstarj": {
       "parent": "trstar",
@@ -19598,7 +20600,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "prmtmfgt": {
       "parent": "trstar",
@@ -19671,7 +20676,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)",
+      "y": "1993",
+      "m": "Taito America Corporation"
     },
     "trstaro": {
       "parent": "trstar",
@@ -19744,7 +20752,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "trstaroj": {
       "parent": "trstar",
@@ -19817,7 +20828,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "prmtmfgto": {
       "parent": "trstar",
@@ -19890,7 +20904,10 @@
           "n": "d53-02.3",
           "c": "8bd4367a"
         }
-      ]
+      ],
+      "t": "Prime Time Fighter (Ver 2.1A 1993/05/21) (Old Version)",
+      "y": "1993",
+      "m": "Taito America Corporation"
     },
     "gunlock": {
       "parent": null,
@@ -19951,7 +20968,10 @@
           "n": "d66-02.ic3",
           "c": "dcdafaab"
         }
-      ]
+      ],
+      "t": "Gunlock (Ver 2.3O 1994/01/20)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "gunlocko": {
       "parent": "gunlock",
@@ -20056,7 +21076,10 @@
           "n": "snd7.ic1",
           "c": "2edaa9dc"
         }
-      ]
+      ],
+      "t": "Gunlock (Ver 2.0O 1993/12/15)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "rayforce": {
       "parent": "gunlock",
@@ -20117,7 +21140,10 @@
           "n": "d66-02.ic3",
           "c": "dcdafaab"
         }
-      ]
+      ],
+      "t": "Ray Force (Ver 2.3A 1994/01/20)",
+      "y": "1993",
+      "m": "Taito America Corporation"
     },
     "rayforcej": {
       "parent": "gunlock",
@@ -20178,7 +21204,10 @@
           "n": "d66-02.ic3",
           "c": "dcdafaab"
         }
-      ]
+      ],
+      "t": "Ray Force (Ver 2.3J 1994/01/20)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "scfinals": {
       "parent": null,
@@ -20255,7 +21284,10 @@
           "n": "scfinals.nv",
           "c": "f25945fc"
         }
-      ]
+      ],
+      "t": "Super Cup Finals (Ver 2.2O 1994/01/13, single PCB)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "scfinalso": {
       "parent": "scfinals",
@@ -20332,7 +21364,10 @@
           "n": "scfinalso.nv",
           "c": "1319752e"
         }
-      ]
+      ],
+      "t": "Super Cup Finals (Ver 2.1O 1993/11/19, single PCB)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "scfinalsoc": {
       "parent": "scfinals",
@@ -20409,7 +21444,10 @@
           "n": "scfinalso.nv",
           "c": "1319752e"
         }
-      ]
+      ],
+      "t": "Super Cup Finals (Ver 2.1O 1993/11/19, F3 Cartridge)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "lightbr": {
       "parent": null,
@@ -20482,7 +21520,10 @@
           "n": "d69-02.bin",
           "c": "dce28dd7"
         }
-      ]
+      ],
+      "t": "Light Bringer (Ver 2.2O 1994/04/08)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "dungeonm": {
       "parent": "lightbr",
@@ -20555,7 +21596,10 @@
           "n": "d69-02.bin",
           "c": "dce28dd7"
         }
-      ]
+      ],
+      "t": "Dungeon Magic (Ver 2.1O 1994/02/18)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "dungeonmu": {
       "parent": "lightbr",
@@ -20628,7 +21672,10 @@
           "n": "d69-02.bin",
           "c": "dce28dd7"
         }
-      ]
+      ],
+      "t": "Dungeon Magic (Ver 2.1A 1994/02/18)",
+      "y": "1993",
+      "m": "Taito America Corporation"
     },
     "lightbrj": {
       "parent": "lightbr",
@@ -20701,7 +21748,10 @@
           "n": "d69-02.bin",
           "c": "dce28dd7"
         }
-      ]
+      ],
+      "t": "Light Bringer (Ver 2.1J 1994/02/18)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "intcup94": {
       "parent": null,
@@ -20774,7 +21824,10 @@
           "n": "d49-05.41",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "International Cup '94 (Ver 2.2O 1994/05/26)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "hthero94": {
       "parent": "intcup94",
@@ -20847,7 +21900,10 @@
           "n": "d49-05.41",
           "c": "ed894fe1"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '94 (Ver 2.2A 1994/05/26)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "recalh": {
       "parent": null,
@@ -20904,7 +21960,10 @@
           "n": "recalh.nv",
           "c": "3e24cc80"
         }
-      ]
+      ],
+      "t": "Recalhorn (Ver 1.42J 1994/5/11, prototype)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "kaiserkn": {
       "parent": null,
@@ -21017,7 +22076,10 @@
           "n": "d84-15.rom",
           "c": "31ceb152"
         }
-      ]
+      ],
+      "t": "Kaiser Knuckle (Ver 2.1O 1994/07/29)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "kaiserknj": {
       "parent": "kaiserkn",
@@ -21130,7 +22192,10 @@
           "n": "d84-15.rom",
           "c": "31ceb152"
         }
-      ]
+      ],
+      "t": "Kaiser Knuckle (Ver 2.1J 1994/07/29)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "gblchmp": {
       "parent": "kaiserkn",
@@ -21243,7 +22308,10 @@
           "n": "d84-15.rom",
           "c": "31ceb152"
         }
-      ]
+      ],
+      "t": "Global Champion (Ver 2.1A 1994/07/29)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "dankuga": {
       "parent": null,
@@ -21356,7 +22424,10 @@
           "n": "d84-15.rom",
           "c": "31ceb152"
         }
-      ]
+      ],
+      "t": "Dan-Ku-Ga (Ver 0.0J 1994/12/13, prototype)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "dariusg": {
       "parent": null,
@@ -21417,7 +22488,10 @@
           "n": "d87-02.bin",
           "c": "9250abae"
         }
-      ]
+      ],
+      "t": "Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "dariusgj": {
       "parent": "dariusg",
@@ -21478,7 +22552,10 @@
           "n": "d87-02.bin",
           "c": "9250abae"
         }
-      ]
+      ],
+      "t": "Darius Gaiden - Silver Hawk (Ver 2.5J 1994/09/19)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "dariusgu": {
       "parent": "dariusg",
@@ -21539,7 +22616,10 @@
           "n": "d87-02.bin",
           "c": "9250abae"
         }
-      ]
+      ],
+      "t": "Darius Gaiden - Silver Hawk (Ver 2.5A 1994/09/19)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "dariusgx": {
       "parent": null,
@@ -21600,7 +22680,10 @@
           "n": "d87-02.bin",
           "c": "9250abae"
         }
-      ]
+      ],
+      "t": "Darius Gaiden - Silver Hawk Extra Version (Ver 2.7J 1995/03/06) (Official Hack)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "bublbob2": {
       "parent": null,
@@ -21673,7 +22756,10 @@
           "n": "d77-11_palce16v8q-15.ic37.bin",
           "c": "a733f0de"
         }
-      ]
+      ],
+      "t": "Bubble Bobble II (Ver 2.6O 1994/12/16)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "bublbob2o": {
       "parent": "bublbob2",
@@ -21734,7 +22820,10 @@
           "n": "d90-05",
           "c": "c192331f"
         }
-      ]
+      ],
+      "t": "Bubble Bobble II (Ver 2.5O 1994/10/05)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "bubsymphe": {
       "parent": "bublbob2",
@@ -21795,7 +22884,10 @@
           "n": "d90-05",
           "c": "c192331f"
         }
-      ]
+      ],
+      "t": "Bubble Symphony (Ver 2.5O 1994/10/05)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "bubsymphj": {
       "parent": "bublbob2",
@@ -21876,7 +22968,10 @@
           "n": "palce16v8q-d77-14.bin",
           "c": "7427e777"
         }
-      ]
+      ],
+      "t": "Bubble Symphony (Ver 2.5J 1994/10/05)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "bublbob2p": {
       "parent": "bublbob2",
@@ -21977,7 +23072,10 @@
           "n": "pal16l8b.ic64.bin",
           "c": "3aed3d98"
         }
-      ]
+      ],
+      "t": "Bubble Bobble II (Ver 0.0J 1993/12/13, prototype)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "bubsymphb": {
       "parent": "bublbob2",
@@ -22042,7 +23140,10 @@
           "n": "bsb_d11.bin",
           "c": "26bdc617"
         }
-      ]
+      ],
+      "t": "Bubble Symphony (bootleg with OKI6295)",
+      "y": "1994",
+      "m": "bootleg"
     },
     "bubsymphba": {
       "parent": "bublbob2",
@@ -22107,7 +23208,10 @@
           "n": "1-27c4000.bin",
           "c": "26bdc617"
         }
-      ]
+      ],
+      "t": "Seoul Symphony (Bubble Symphony bootleg with OKI6295)",
+      "y": "1994",
+      "m": "bootleg (SOFTV)"
     },
     "bubsymphu": {
       "parent": "bublbob2",
@@ -22168,7 +23272,10 @@
           "n": "d90-05",
           "c": "c192331f"
         }
-      ]
+      ],
+      "t": "Bubble Symphony (Ver 2.5A 1994/10/05)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "spcinvdj": {
       "parent": "spacedx",
@@ -22229,7 +23336,10 @@
           "n": "d93-14.41",
           "c": "2edaa9dc"
         }
-      ]
+      ],
+      "t": "Space Invaders DX (Ver 2.6J 1994/09/14) (F3 Version)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "pwrgoal": {
       "parent": null,
@@ -22314,7 +23424,10 @@
           "n": "d94-11.bin",
           "c": "61ed83fa"
         }
-      ]
+      ],
+      "t": "Taito Power Goal (Ver 2.5O 1994/11/03)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "hthero95": {
       "parent": "pwrgoal",
@@ -22399,7 +23512,10 @@
           "n": "d94-11.bin",
           "c": "61ed83fa"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '95 (Ver 2.5J 1994/11/03)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "hthero95u": {
       "parent": "pwrgoal",
@@ -22484,7 +23600,10 @@
           "n": "d94-11.bin",
           "c": "61ed83fa"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '95 (Ver 2.5A 1994/11/03)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "hthero95a": {
       "parent": "pwrgoal",
@@ -22569,7 +23688,10 @@
           "n": "d94-11.bin",
           "c": "61ed83fa"
         }
-      ]
+      ],
+      "t": "Hat Trick Hero '95 (Ver 2.6Asia 1994/11/17)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "qtheater": {
       "parent": null,
@@ -22622,7 +23744,10 @@
           "n": "d95-04.41",
           "c": "e9049d16"
         }
-      ]
+      ],
+      "t": "Quiz Theater - 3tsu no Monogatari (Ver 2.3J 1994/11/10)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "spcinv95": {
       "parent": null,
@@ -22703,7 +23828,10 @@
           "n": "palce16v8q-d77-13.bin",
           "c": "66e32e73"
         }
-      ]
+      ],
+      "t": "Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5O 1995/06/14)",
+      "y": "1995",
+      "m": "Taito Corporation Japan"
     },
     "spcinv95u": {
       "parent": "spcinv95",
@@ -22784,7 +23912,10 @@
           "n": "palce16v8q-d77-13.bin",
           "c": "66e32e73"
         }
-      ]
+      ],
+      "t": "Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5A 1995/06/14)",
+      "y": "1995",
+      "m": "Taito America Corporation"
     },
     "akkanvdr": {
       "parent": "spcinv95",
@@ -22845,7 +23976,10 @@
           "n": "e06-05",
           "c": "f370ff15"
         }
-      ]
+      ],
+      "t": "Akkanbeder (Ver 2.5J 1995/06/14)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "elvactr": {
       "parent": null,
@@ -22930,7 +24064,10 @@
           "n": "pal16l8b.b64",
           "c": "3aed3d98"
         }
-      ]
+      ],
+      "t": "Elevator Action Returns (Ver 2.2O 1995/02/20)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "elvactrj": {
       "parent": "elvactr",
@@ -22991,7 +24128,10 @@
           "n": "e02-05.39",
           "c": "eb729855"
         }
-      ]
+      ],
+      "t": "Elevator Action Returns (Ver 2.2J 1995/02/20)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "elvact2u": {
       "parent": "elvactr",
@@ -23052,7 +24192,10 @@
           "n": "e02-05.39",
           "c": "eb729855"
         }
-      ]
+      ],
+      "t": "Elevator Action II (Ver 2.2A 1995/02/20)",
+      "y": "1994",
+      "m": "Taito America Corporation"
     },
     "twinqix": {
       "parent": null,
@@ -23149,7 +24292,10 @@
           "n": "pal16l8b.b64",
           "c": "3aed3d98"
         }
-      ]
+      ],
+      "t": "Twin Qix (Ver 1.0A 1995/01/17, prototype)",
+      "y": "1995",
+      "m": "Taito America Corporation"
     },
     "twinqixjh": {
       "parent": "twinqix",
@@ -23246,7 +24392,10 @@
           "n": "pal16l8b.b64",
           "c": "3aed3d98"
         }
-      ]
+      ],
+      "t": "Twin Qix Japan (Ver 1.0A 1995/01/17) (Hack)",
+      "y": "1995",
+      "m": "hack"
     },
     "quizhuhu": {
       "parent": null,
@@ -23323,7 +24472,10 @@
           "n": "e08-09.41",
           "c": "200b26ee"
         }
-      ]
+      ],
+      "t": "Moriguchi Hiroko no Quiz de Hyuu!Hyuu! (Ver 2.2J 1995/05/25)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "pbobble2": {
       "parent": null,
@@ -23384,7 +24536,10 @@
           "n": "e10-21.bin",
           "c": "458499b7"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 2 (Ver 2.3O 1995/07/31)",
+      "y": "1995",
+      "m": "Taito Corporation Japan"
     },
     "pbobble2o": {
       "parent": "pbobble2",
@@ -23441,7 +24596,10 @@
           "n": "e10-03.rom",
           "c": "46d68ac8"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 2 (Ver 2.2O 1995/07/20)",
+      "y": "1995",
+      "m": "Taito Corporation Japan"
     },
     "pbobble2j": {
       "parent": "pbobble2",
@@ -23498,7 +24656,10 @@
           "n": "e10-03.rom",
           "c": "46d68ac8"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 2 (Ver 2.2J 1995/07/20)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "pbobble2u": {
       "parent": "pbobble2",
@@ -23555,7 +24716,10 @@
           "n": "e10-03.rom",
           "c": "46d68ac8"
         }
-      ]
+      ],
+      "t": "Bust-A-Move Again (Ver 2.3A 1995/07/31)",
+      "y": "1995",
+      "m": "Taito America Corporation"
     },
     "pbobble2x": {
       "parent": "pbobble2",
@@ -23632,7 +24796,10 @@
           "n": "palce16v8q-d77-14.bin",
           "c": "7427e777"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 2X (Ver 2.2J 1995/11/11)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "gekiridn": {
       "parent": null,
@@ -23693,7 +24860,10 @@
           "n": "e11-05.ic41",
           "c": "a4d08cf1"
         }
-      ]
+      ],
+      "t": "Gekirindan (Ver 2.3O 1995/09/21)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "gekiridnj": {
       "parent": "gekiridn",
@@ -23754,7 +24924,10 @@
           "n": "e11-05.ic41",
           "c": "a4d08cf1"
         }
-      ]
+      ],
+      "t": "Gekirindan (Ver 2.3J 1995/09/21)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "tcobra2": {
       "parent": null,
@@ -23835,7 +25008,10 @@
           "n": "palce16v8.ic37.bin",
           "c": "6ccd8168"
         }
-      ]
+      ],
+      "t": "Twin Cobra II (Ver 2.1O 1995/11/30)",
+      "y": "1995",
+      "m": "Taito Corporation Japan"
     },
     "tcobra2u": {
       "parent": "tcobra2",
@@ -23916,7 +25092,10 @@
           "n": "palce16v8.ic37.bin",
           "c": "6ccd8168"
         }
-      ]
+      ],
+      "t": "Twin Cobra II (Ver 2.1A 1995/11/30)",
+      "y": "1995",
+      "m": "Taito America Corporation"
     },
     "ktiger2": {
       "parent": "tcobra2",
@@ -23997,7 +25176,10 @@
           "n": "palce16v8.ic37.bin",
           "c": "6ccd8168"
         }
-      ]
+      ],
+      "t": "Kyukyoku Tiger II (Ver 2.1J 1995/11/30)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "bubblem": {
       "parent": null,
@@ -24058,7 +25240,10 @@
           "n": "bubblem.nv",
           "c": "9a59326e"
         }
-      ]
+      ],
+      "t": "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)",
+      "y": "1995",
+      "m": "Taito Corporation Japan"
     },
     "bubblemu": {
       "parent": "bubblem",
@@ -24119,7 +25304,10 @@
           "n": "bubblemu.nv",
           "c": "a503276c"
         }
-      ]
+      ],
+      "t": "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.5A 1996/02/21)",
+      "y": "1995",
+      "m": "Taito America Corporation"
     },
     "bubblemj": {
       "parent": "bubblem",
@@ -24180,7 +25368,10 @@
           "n": "bubblemj.nv",
           "c": "cb4ef35c"
         }
-      ]
+      ],
+      "t": "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.3J 1996/02/07)",
+      "y": "1995",
+      "m": "Taito Corporation"
     },
     "bubblembe": {
       "parent": "bubblem",
@@ -24241,7 +25432,10 @@
           "n": "bubblem.nv",
           "c": "9a59326e"
         }
-      ]
+      ],
+      "t": "Bubble Memories: Black Edition (Hack)",
+      "y": "2020",
+      "m": "rtw, MetalliC"
     },
     "cleopatr": {
       "parent": null,
@@ -24294,7 +25488,10 @@
           "n": "e28-03.bin",
           "c": "15c7989d"
         }
-      ]
+      ],
+      "t": "Cleopatra Fortune (Ver 2.1J 1996/09/05)",
+      "y": "1996",
+      "m": "Taito Corporation"
     },
     "cleopatro": {
       "parent": "cleopatr",
@@ -24347,7 +25544,10 @@
           "n": "e28-03.bin",
           "c": "15c7989d"
         }
-      ]
+      ],
+      "t": "Cleopatra Fortune (Ver 2.1O 1996/09/05, bootleg)",
+      "y": "1996",
+      "m": "bootleg"
     },
     "pbobble3": {
       "parent": null,
@@ -24408,7 +25608,10 @@
           "n": "e29-05.rom",
           "c": "e33c1234"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 3 (Ver 2.1O 1996/09/27)",
+      "y": "1996",
+      "m": "Taito Corporation"
     },
     "pbobble3u": {
       "parent": "pbobble3",
@@ -24469,7 +25672,10 @@
           "n": "e29-05.rom",
           "c": "e33c1234"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 3 (Ver 2.1A 1996/09/27)",
+      "y": "1996",
+      "m": "Taito Corporation"
     },
     "pbobble3j": {
       "parent": "pbobble3",
@@ -24530,7 +25736,10 @@
           "n": "e29-05.ic41",
           "c": "e33c1234"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 3 (Ver 2.1J 1996/09/27)",
+      "y": "1996",
+      "m": "Taito Corporation"
     },
     "pbobble3rc": {
       "parent": "pbobble3",
@@ -24591,7 +25800,10 @@
           "n": "e29-05.rom",
           "c": "e33c1234"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 3 Recarbonated",
+      "y": "2022",
+      "m": "Bank Bank"
     },
     "arkretrn": {
       "parent": null,
@@ -24668,7 +25880,10 @@
           "n": "palce16v8-d77-14.bin",
           "c": "7427e777"
         }
-      ]
+      ],
+      "t": "Arkanoid Returns (Ver 2.02O 1997/02/10)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "arkretrnu": {
       "parent": "arkretrn",
@@ -24745,7 +25960,10 @@
           "n": "palce16v8-d77-14.bin",
           "c": "7427e777"
         }
-      ]
+      ],
+      "t": "Arkanoid Returns (Ver 2.02A 1997/02/10)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "arkretrnj": {
       "parent": "arkretrn",
@@ -24822,7 +26040,10 @@
           "n": "palce16v8-d77-14.bin",
           "c": "7427e777"
         }
-      ]
+      ],
+      "t": "Arkanoid Returns (Ver 2.02J 1997/02/10)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "kirameki": {
       "parent": null,
@@ -24915,7 +26136,10 @@
           "n": "d77-20.37",
           "c": "6bfbec07"
         }
-      ]
+      ],
+      "t": "Kirameki Star Road (Ver 2.10J 1997/08/29)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "puchicar": {
       "parent": null,
@@ -25012,7 +26236,10 @@
           "n": "palce16v8q-d77-15a.bin",
           "c": "0edf820a"
         }
-      ]
+      ],
+      "t": "Puchi Carat (Ver 2.02O 1997/10/29)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "puchicarj": {
       "parent": "puchicar",
@@ -25109,7 +26336,10 @@
           "n": "palce16v8q-d77-15a.bin",
           "c": "0edf820a"
         }
-      ]
+      ],
+      "t": "Puchi Carat (Ver 2.02J 1997/10/29)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "puchicaru": {
       "parent": "puchicar",
@@ -25206,7 +26436,10 @@
           "n": "palce16v8q-d77-15a.bin",
           "c": "0edf820a"
         }
-      ]
+      ],
+      "t": "Puchi Carat (Ver 2.04A 1997/11/08)",
+      "y": "1997",
+      "m": "Taito America Corporation"
     },
     "pbobble4": {
       "parent": null,
@@ -25283,7 +26516,10 @@
           "n": "palce16v8q-d77-12.bin",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 4 (Ver 2.04O 1997/12/19)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "pbobble4j": {
       "parent": "pbobble4",
@@ -25360,7 +26596,10 @@
           "n": "palce16v8q-d77-12.bin",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 4 (Ver 2.04J 1997/12/19)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "pbobble4u": {
       "parent": "pbobble4",
@@ -25437,7 +26676,10 @@
           "n": "palce16v8q-d77-12.bin",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Puzzle Bobble 4 (Ver 2.04A 1997/12/19)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "popnpop": {
       "parent": null,
@@ -25514,7 +26756,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Pop'n Pop (Ver 2.07O 1998/02/09)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "popnpopj": {
       "parent": "popnpop",
@@ -25591,7 +26836,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Pop'n Pop (Ver 2.07J 1998/02/09)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "popnpopu": {
       "parent": "popnpop",
@@ -25668,7 +26916,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Pop'n Pop (Ver 2.07A 1998/02/09)",
+      "y": "1997",
+      "m": "Taito Corporation"
     },
     "landmakr": {
       "parent": null,
@@ -25749,7 +27000,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Land Maker (Ver 2.02O 1998/06/02)",
+      "y": "1998",
+      "m": "Taito Corporation"
     },
     "landmakrj": {
       "parent": "landmakr",
@@ -25830,7 +27084,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Land Maker (Ver 2.01J 1998/06/01)",
+      "y": "1998",
+      "m": "Taito Corporation"
     },
     "landmakrp": {
       "parent": "landmakr",
@@ -26003,7 +27260,10 @@
           "n": "snd-11.23",
           "c": "4caf571a"
         }
-      ]
+      ],
+      "t": "Land Maker (Ver 2.02O 1998/06/02, prototype)",
+      "y": "1998",
+      "m": "Taito Corporation"
     },
     "landmakrhe": {
       "parent": "landmakr",
@@ -26084,7 +27344,10 @@
           "n": "palce16v8q-d77-12.ic48",
           "c": "e9920cfe"
         }
-      ]
+      ],
+      "t": "Land Maker (English Translation Hack)",
+      "y": "2023",
+      "m": "hack (ywy)"
     },
     "syvalion": {
       "parent": null,
@@ -26181,7 +27444,10 @@
           "n": "b51-18.bin",
           "c": "8b23ac83"
         }
-      ]
+      ],
+      "t": "Syvalion (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "syvalionp": {
       "parent": "syvalion",
@@ -26310,7 +27576,10 @@
           "n": "cpu2-pal20l8a.ic39.bin",
           "c": "c0abf131"
         }
-      ]
+      ],
+      "t": "Syvalion (World, prototype)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "syvalionu": {
       "parent": "syvalion",
@@ -26407,7 +27676,10 @@
           "n": "b51-18.bin",
           "c": "8b23ac83"
         }
-      ]
+      ],
+      "t": "Syvalion (US, PS2 Taito Legends 2)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "syvalionw": {
       "parent": "syvalion",
@@ -26504,7 +27776,10 @@
           "n": "b51-18.bin",
           "c": "8b23ac83"
         }
-      ]
+      ],
+      "t": "Syvalion (World, PS2 Taito Legends 2)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "recordbr": {
       "parent": null,
@@ -26573,7 +27848,10 @@
           "n": "b56-18.bin",
           "c": "c88f0bbe"
         }
-      ]
+      ],
+      "t": "Recordbreaker (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "gogold": {
       "parent": "recordbr",
@@ -26642,7 +27920,10 @@
           "n": "b56-18.bin",
           "c": "c88f0bbe"
         }
-      ]
+      ],
+      "t": "Go For The Gold (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "tetristh": {
       "parent": "tetris",
@@ -26703,7 +27984,10 @@
           "n": "b56-18.bin",
           "c": "c88f0bbe"
         }
-      ]
+      ],
+      "t": "Tetris (Japan, rev 1, Taito H-System)",
+      "y": "1988",
+      "m": "Sega"
     },
     "dleague": {
       "parent": null,
@@ -26784,7 +28068,10 @@
           "n": "c02-18.22",
           "c": "c88f0bbe"
         }
-      ]
+      ],
+      "t": "Dynamite League (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "dleaguej": {
       "parent": "dleague",
@@ -26865,7 +28152,10 @@
           "n": "c02-18.22",
           "c": "c88f0bbe"
         }
-      ]
+      ],
+      "t": "Dynamite League (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "raimais": {
       "parent": null,
@@ -26906,7 +28196,10 @@
           "n": "b36-05.ic11",
           "c": "57342384"
         }
-      ]
+      ],
+      "t": "Raimais (World, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "raimaisj": {
       "parent": "raimais",
@@ -26947,7 +28240,10 @@
           "n": "b36-05.ic11",
           "c": "57342384"
         }
-      ]
+      ],
+      "t": "Raimais (Japan, rev 1)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "raimaisjo": {
       "parent": "raimais",
@@ -26988,7 +28284,10 @@
           "n": "b36-05.ic11",
           "c": "57342384"
         }
-      ]
+      ],
+      "t": "Raimais (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "fhawk": {
       "parent": null,
@@ -27017,7 +28316,10 @@
           "n": "b70-02.ic2",
           "c": "35f7172e"
         }
-      ]
+      ],
+      "t": "Fighting Hawk (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "fhawkj": {
       "parent": "fhawk",
@@ -27046,7 +28348,10 @@
           "n": "b70-02.ic2",
           "c": "35f7172e"
         }
-      ]
+      ],
+      "t": "Fighting Hawk (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "champwr": {
       "parent": null,
@@ -27083,7 +28388,10 @@
           "n": "c01-05.rom",
           "c": "22efad4a"
         }
-      ]
+      ],
+      "t": "Champion Wrestler (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "champwru": {
       "parent": "champwr",
@@ -27120,7 +28428,10 @@
           "n": "c01-05.rom",
           "c": "22efad4a"
         }
-      ]
+      ],
+      "t": "Champion Wrestler (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "champwrj": {
       "parent": "champwr",
@@ -27157,7 +28468,10 @@
           "n": "c01-05.rom",
           "c": "22efad4a"
         }
-      ]
+      ],
+      "t": "Champion Wrestler (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "kurikint": {
       "parent": null,
@@ -27190,7 +28504,10 @@
           "n": "gal16v8-b42-04.ic21.bin",
           "c": "b57b806c"
         }
-      ]
+      ],
+      "t": "Kuri Kinton (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "kurikintw": {
       "parent": "kurikint",
@@ -27223,7 +28540,10 @@
           "n": "gal16v8-b42-04.ic21.bin",
           "c": "b57b806c"
         }
-      ]
+      ],
+      "t": "Kuri Kinton (US, World Games license)",
+      "y": "1988",
+      "m": "Taito Corporation (World Games, Inc. license)"
     },
     "kurikintu": {
       "parent": "kurikint",
@@ -27256,7 +28576,10 @@
           "n": "gal16v8-b42-04.ic21.bin",
           "c": "b57b806c"
         }
-      ]
+      ],
+      "t": "Kuri Kinton (US)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "kurikintj": {
       "parent": "kurikint",
@@ -27289,7 +28612,10 @@
           "n": "gal16v8-b42-04.ic21.bin",
           "c": "b57b806c"
         }
-      ]
+      ],
+      "t": "Kuri Kinton (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "kurikinta": {
       "parent": "kurikint",
@@ -27338,7 +28664,10 @@
           "n": "kk_8-4h.rom",
           "c": "117bde99"
         }
-      ]
+      ],
+      "t": "Kuri Kinton (World, prototype)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "plotting": {
       "parent": null,
@@ -27359,7 +28688,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Plotting (World set 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "plottinga": {
       "parent": "plotting",
@@ -27380,7 +28712,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Plotting (World set 2, protected)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "plottingb": {
       "parent": "plotting",
@@ -27401,7 +28736,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Plotting (World set 3, earliest version)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "plottingu": {
       "parent": "plotting",
@@ -27422,7 +28760,10 @@
           "n": "b96-04.ic12",
           "c": "9390a782"
         }
-      ]
+      ],
+      "t": "Plotting (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "flipull": {
       "parent": "plotting",
@@ -27443,7 +28784,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Flipull (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "puzznic": {
       "parent": null,
@@ -27464,7 +28808,10 @@
           "n": "c20-01.ic4",
           "c": "085f68b4"
         }
-      ]
+      ],
+      "t": "Puzznic (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "puzznicu": {
       "parent": "puzznic",
@@ -27485,7 +28832,10 @@
           "n": "c20-01.ic4",
           "c": "085f68b4"
         }
-      ]
+      ],
+      "t": "Puzznic (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "puzznicj": {
       "parent": "puzznic",
@@ -27510,7 +28860,10 @@
           "n": "c20-05.ic3",
           "c": "f90e5594"
         }
-      ]
+      ],
+      "t": "Puzznic (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "puzznici": {
       "parent": "puzznic",
@@ -27527,7 +28880,10 @@
           "n": "3.ic9",
           "c": "2bf5232a"
         }
-      ]
+      ],
+      "t": "Puzznic (Italian bootleg)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "puzznicb": {
       "parent": "puzznic",
@@ -27544,7 +28900,10 @@
           "n": "ic9.bin",
           "c": "0f183340"
         }
-      ]
+      ],
+      "t": "Puzznic (bootleg, set 1)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "puzznicba": {
       "parent": "puzznic",
@@ -27561,7 +28920,10 @@
           "n": "20.ic8",
           "c": "3c115f8b"
         }
-      ]
+      ],
+      "t": "Puzznic (bootleg, set 2)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "palamed": {
       "parent": null,
@@ -27578,7 +28940,10 @@
           "n": "chr-h_ic7.ic7",
           "c": "fcd86e44"
         }
-      ]
+      ],
+      "t": "Palamedes (US)",
+      "y": "1990",
+      "m": "Hot-B Co., Ltd."
     },
     "palamedj": {
       "parent": "palamed",
@@ -27595,7 +28960,10 @@
           "n": "c63-03.ic7",
           "c": "fcd86e44"
         }
-      ]
+      ],
+      "t": "Palamedes (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "cachat": {
       "parent": null,
@@ -27624,7 +28992,10 @@
           "n": "pal20l8b-c63-01.14",
           "c": "14a7dd2a"
         }
-      ]
+      ],
+      "t": "Cachat (Japan)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "cubybop": {
       "parent": null,
@@ -27649,7 +29020,10 @@
           "n": "cb08.8",
           "c": "09e18a51"
         }
-      ]
+      ],
+      "t": "Cuby Bop (location test)",
+      "y": "199?",
+      "m": "Hot-B Co., Ltd."
     },
     "tubeit": {
       "parent": "cachat",
@@ -27670,7 +29044,10 @@
           "n": "pal20l8b-c63-01.14",
           "c": "14a7dd2a"
         }
-      ]
+      ],
+      "t": "Tube-It",
+      "y": "1993",
+      "m": "bootleg"
     },
     "plgirls": {
       "parent": null,
@@ -27687,7 +29064,10 @@
           "n": "pg01.ic7",
           "c": "79e41e74"
         }
-      ]
+      ],
+      "t": "Play Girls",
+      "y": "1992",
+      "m": "Hot-B Co., Ltd."
     },
     "lagirl": {
       "parent": "plgirls",
@@ -27712,7 +29092,10 @@
           "n": "rom5",
           "c": "b1782816"
         }
-      ]
+      ],
+      "t": "LA Girl",
+      "y": "1992",
+      "m": "bootleg"
     },
     "plgirls2": {
       "parent": null,
@@ -27729,7 +29112,10 @@
           "n": "cho-h.ic7",
           "c": "992f99b1"
         }
-      ]
+      ],
+      "t": "Play Girls 2 (Europe)",
+      "y": "1993",
+      "m": "Hot-B Co., Ltd."
     },
     "plgirls2j": {
       "parent": "plgirls2",
@@ -27746,7 +29132,10 @@
           "n": "cho-h.ic7",
           "c": "992f99b1"
         }
-      ]
+      ],
+      "t": "Play Girls 2 (Japan)",
+      "y": "1993",
+      "m": "Hot-B Co., Ltd."
     },
     "plgirls2b": {
       "parent": "plgirls2",
@@ -27771,7 +29160,10 @@
           "n": "playgirls2b.b6",
           "c": "aac6c90b"
         }
-      ]
+      ],
+      "t": "Play Girls 2 (bootleg)",
+      "y": "1993",
+      "m": "bootleg"
     },
     "horshoes": {
       "parent": null,
@@ -27800,7 +29192,10 @@
           "n": "c47-06.ic12",
           "c": "4342ca6c"
         }
-      ]
+      ],
+      "t": "American Horseshoes (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "evilston": {
       "parent": null,
@@ -27825,7 +29220,10 @@
           "n": "c67-02.ic5",
           "c": "eb4f895c"
         }
-      ]
+      ],
+      "t": "Evil Stone",
+      "y": "1990",
+      "m": "Spacy Industrial, Ltd."
     },
     "sokoban": {
       "parent": null,
@@ -27846,7 +29244,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Sokoban LE",
+      "y": "2015",
+      "m": "cmonkey"
     },
     "speccies": {
       "parent": null,
@@ -27871,7 +29272,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "Speccies 2",
+      "y": "2015",
+      "m": "Sokurah"
     },
     "sqij": {
       "parent": null,
@@ -27892,7 +29296,10 @@
           "n": "gal16v8-b86-04.bin",
           "c": "bf8c0ea0"
         }
-      ]
+      ],
+      "t": "SQIJ!",
+      "y": "2018",
+      "m": "Sokurah"
     },
     "darius": {
       "parent": null,
@@ -28037,7 +29444,10 @@
           "n": "a96-26.165",
           "c": "4891b9c0"
         }
-      ]
+      ],
+      "t": "Darius (World, rev 2)",
+      "y": "1986",
+      "m": "Taito Corporation Japan"
     },
     "dariusu": {
       "parent": "darius",
@@ -28182,7 +29592,10 @@
           "n": "a96-26.165",
           "c": "4891b9c0"
         }
-      ]
+      ],
+      "t": "Darius (US, rev 2)",
+      "y": "1986",
+      "m": "Taito America Corporation"
     },
     "dariusj": {
       "parent": "darius",
@@ -28319,7 +29732,10 @@
           "n": "a96-26.165",
           "c": "4891b9c0"
         }
-      ]
+      ],
+      "t": "Darius (Japan, rev 1)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "dariuso": {
       "parent": "darius",
@@ -28456,7 +29872,10 @@
           "n": "a96-26.165",
           "c": "4891b9c0"
         }
-      ]
+      ],
+      "t": "Darius (Japan)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "dariuse": {
       "parent": "darius",
@@ -28593,7 +30012,10 @@
           "n": "a96-26.165",
           "c": "4891b9c0"
         }
-      ]
+      ],
+      "t": "Darius Extra Version (Japan)",
+      "y": "1986",
+      "m": "Taito Corporation"
     },
     "opwolf": {
       "parent": null,
@@ -28634,7 +30056,10 @@
           "n": "b20-18.73",
           "c": "5987b4e9"
         }
-      ]
+      ],
+      "t": "Operation Wolf (World, rev 2, set 1)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "opwolfa": {
       "parent": "opwolf",
@@ -28675,7 +30100,10 @@
           "n": "b20-18.73",
           "c": "5987b4e9"
         }
-      ]
+      ],
+      "t": "Operation Wolf (World, rev 2, set 2)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "opwolfj": {
       "parent": "opwolf",
@@ -28716,7 +30144,10 @@
           "n": "b20-18.73",
           "c": "5987b4e9"
         }
-      ]
+      ],
+      "t": "Operation Wolf (Japan, rev 2)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "opwolfjsc": {
       "parent": "opwolf",
@@ -28757,7 +30188,10 @@
           "n": "b20-18.73",
           "c": "5987b4e9"
         }
-      ]
+      ],
+      "t": "Operation Wolf (Japan, SC)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "opwolfu": {
       "parent": "opwolf",
@@ -28798,7 +30232,10 @@
           "n": "b20-18.73",
           "c": "5987b4e9"
         }
-      ]
+      ],
+      "t": "Operation Wolf (US, rev 2)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "opwolfb": {
       "parent": "opwolf",
@@ -28923,7 +30360,10 @@
           "n": "opwlfb.22",
           "c": "9228481f"
         }
-      ]
+      ],
+      "t": "Operation Bear (bootleg of Operation Wolf)",
+      "y": "1987",
+      "m": "bootleg (Bear Corporation Korea)"
     },
     "rbisland": {
       "parent": null,
@@ -28976,7 +30416,10 @@
           "n": "cchip_b22-15.53",
           "c": "08c588a6"
         }
-      ]
+      ],
+      "t": "Rainbow Islands (rev 1)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "rbislando": {
       "parent": "rbisland",
@@ -29029,7 +30472,10 @@
           "n": "cchip_b22-15.53",
           "c": "08c588a6"
         }
-      ]
+      ],
+      "t": "Rainbow Islands",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "rbislande": {
       "parent": null,
@@ -29082,7 +30528,10 @@
           "n": "cchip_b39-05.53",
           "c": "397735e3"
         }
-      ]
+      ],
+      "t": "Rainbow Islands - Extra Version",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "jumping": {
       "parent": "rbisland",
@@ -29219,7 +30668,10 @@
           "n": "pal16l8a.ic51.bin",
           "c": "c1e6cb8f"
         }
-      ]
+      ],
+      "t": "Jumping (set 1)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "jumpinga": {
       "parent": "rbisland",
@@ -29356,7 +30808,10 @@
           "n": "pal16l8a.ic51.bin",
           "c": "c1e6cb8f"
         }
-      ]
+      ],
+      "t": "Jumping (set 2)",
+      "y": "1988",
+      "m": "bootleg (Seyutu)"
     },
     "jumpingi": {
       "parent": "rbisland",
@@ -29477,7 +30932,10 @@
           "n": "jp3.ic51",
           "c": "c1e6cb8f"
         }
-      ]
+      ],
+      "t": "Jumping (set 3, Imnoe PCB)",
+      "y": "1988",
+      "m": "bootleg (Seyutu)"
     },
     "rastan": {
       "parent": null,
@@ -29546,7 +31004,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (World Rev 1)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "rastana": {
       "parent": "rastan",
@@ -29615,7 +31076,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (World)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "rastanb": {
       "parent": "rastan",
@@ -29684,7 +31148,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (World, earlier code base)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "rastanu": {
       "parent": "rastan",
@@ -29753,7 +31220,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (US Rev 1)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "rastanua": {
       "parent": "rastan",
@@ -29822,7 +31292,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (US)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "rastanub": {
       "parent": "rastan",
@@ -29891,7 +31364,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan (US, earlier code base)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "rastsaga": {
       "parent": "rastan",
@@ -29960,7 +31436,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan Saga (Japan Rev 1)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "rastsagaa": {
       "parent": "rastan",
@@ -30029,7 +31508,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan Saga (Japan Rev 1, earlier code base)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "rastsagaabl": {
       "parent": "rastan",
@@ -30146,7 +31628,10 @@
           "n": "1",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan Saga (bootleg, Japan Rev 1, earlier code base)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "rastsagab": {
       "parent": "rastan",
@@ -30215,7 +31700,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan Saga (Japan, earlier code base)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "topspeed": {
       "parent": null,
@@ -30348,7 +31836,10 @@
           "n": "27c256.ic17",
           "c": "e52dfee1"
         }
-      ]
+      ],
+      "t": "Top Speed (World, rev 1)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "topspeedu": {
       "parent": "topspeed",
@@ -30421,7 +31912,10 @@
           "n": "27c256.ic17",
           "c": "e52dfee1"
         }
-      ]
+      ],
+      "t": "Top Speed (US)",
+      "y": "1987",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "fullthrl": {
       "parent": "topspeed",
@@ -30494,7 +31988,10 @@
           "n": "27c256.ic17",
           "c": "e52dfee1"
         }
-      ]
+      ],
+      "t": "Full Throttle (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "volfied": {
       "parent": null,
@@ -30579,7 +32076,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (World, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "volfiedj": {
       "parent": "volfied",
@@ -30664,7 +32164,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (Japan, rev 1)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "volfiedjo": {
       "parent": "volfied",
@@ -30749,7 +32252,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "volfiedu": {
       "parent": "volfied",
@@ -30834,7 +32340,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (US, rev 1)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "volfiedo": {
       "parent": "volfied",
@@ -30919,7 +32428,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "volfieduo": {
       "parent": "volfied",
@@ -31004,7 +32516,10 @@
           "n": "c04-5.75",
           "c": "2763ec89"
         }
-      ]
+      ],
+      "t": "Volfied (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "rastsagabr": {
       "parent": "rastan",
@@ -31073,7 +32588,10 @@
           "n": "b04-20.76",
           "c": "fd1a34cc"
         }
-      ]
+      ],
+      "t": "Rastan Saga (Portuguese-BR Translation v1.11, Hack)",
+      "y": "2019",
+      "m": "hack (Antigeno)"
     },
     "spaceskr": {
       "parent": null,
@@ -31142,7 +32660,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Space Seeker",
+      "y": "1981",
+      "m": "Taito Corporation"
     },
     "spacecr": {
       "parent": null,
@@ -31227,7 +32748,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Space Cruiser",
+      "y": "1981",
+      "m": "Taito Corporation"
     },
     "junglek": {
       "parent": null,
@@ -31316,7 +32840,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle King (Japan)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "junglekas": {
       "parent": "junglek",
@@ -31405,7 +32932,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle King (alternate sound)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "jungleby": {
       "parent": "junglek",
@@ -31494,7 +33024,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle Boy (bootleg)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "junglekj2": {
       "parent": "junglek",
@@ -31583,7 +33116,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle King (Japan, earlier)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "junglekj2a": {
       "parent": "junglek",
@@ -31672,7 +33208,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle King (Japan, earlier, alt)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "jungleh": {
       "parent": "junglek",
@@ -31761,7 +33300,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle Hunt (US)",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "junglehbr": {
       "parent": "junglek",
@@ -31838,7 +33380,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle Hunt (Brazil)",
+      "y": "1983",
+      "m": "Taito do Brasil"
     },
     "jungleha": {
       "parent": "junglek",
@@ -31927,7 +33472,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Jungle Hunt (US, alternate set)",
+      "y": "1982",
+      "m": "Taito America Corp"
     },
     "piratpet": {
       "parent": "junglek",
@@ -32012,7 +33560,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Pirate Pete",
+      "y": "1982",
+      "m": "Taito America Corporation"
     },
     "alpine": {
       "parent": null,
@@ -32073,7 +33624,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Alpine Ski (set 1)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "alpinea": {
       "parent": "alpine",
@@ -32134,7 +33688,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Alpine Ski (set 2)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "adcanoe": {
       "parent": null,
@@ -32199,7 +33756,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Adventure Canoe",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "timetunl": {
       "parent": null,
@@ -32284,7 +33844,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Time Tunnel",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "wwestern": {
       "parent": null,
@@ -32349,7 +33912,10 @@
           "n": "ww17",
           "c": "93447d2b"
         }
-      ]
+      ],
+      "t": "Wild Western (set 1)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "wwestern1": {
       "parent": "wwestern",
@@ -32414,7 +33980,10 @@
           "n": "ww17",
           "c": "93447d2b"
         }
-      ]
+      ],
+      "t": "Wild Western (set 2)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "frontlin": {
       "parent": null,
@@ -32475,7 +34044,10 @@
           "n": "aa1_13.ic24",
           "c": "7e78bdd3"
         }
-      ]
+      ],
+      "t": "Front Line (AA1, 4 PCB version)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "frontlina": {
       "parent": "frontlin",
@@ -32572,7 +34144,10 @@
           "n": "aa1_13.ic24",
           "c": "7e78bdd3"
         }
-      ]
+      ],
+      "t": "Front Line (FL, 5 PCB version)",
+      "y": "1982",
+      "m": "Taito Corporation"
     },
     "elevator": {
       "parent": null,
@@ -32629,7 +34204,10 @@
           "n": "ww15.pal16l8.ic24.jed.bin",
           "c": "c3ec20d6"
         }
-      ]
+      ],
+      "t": "Elevator Action (BA3, 4 PCB version, 1.1)",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "elevatora": {
       "parent": "elevator",
@@ -32718,7 +34296,10 @@
           "n": "ww15.pal16l8.ic24.jed.bin",
           "c": "c3ec20d6"
         }
-      ]
+      ],
+      "t": "Elevator Action (EA, 5 PCB version, 1.1)",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "elevatorb": {
       "parent": "elevator",
@@ -32807,7 +34388,10 @@
           "n": "ww15.pal16l8.ic24.jed.bin",
           "c": "c3ec20d6"
         }
-      ]
+      ],
+      "t": "Elevator Action (bootleg)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "tinstar": {
       "parent": null,
@@ -32860,7 +34444,10 @@
           "n": "a10-12",
           "c": "889eefc9"
         }
-      ]
+      ],
+      "t": "The Tin Star (A10, 4 PCB version)",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "tinstara": {
       "parent": "tinstar",
@@ -32949,7 +34536,10 @@
           "n": "a10-12",
           "c": "889eefc9"
         }
-      ]
+      ],
+      "t": "The Tin Star (TS, 5 PCB version)",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "waterski": {
       "parent": null,
@@ -33014,7 +34604,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Water Ski",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "bioatack": {
       "parent": null,
@@ -33091,7 +34684,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "Bio Attack",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "sfposeid": {
       "parent": null,
@@ -33148,7 +34744,10 @@
           "n": "a14-12",
           "c": "091beed8"
         }
-      ]
+      ],
+      "t": "Sea Fighter Poseidon",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "hwrace": {
       "parent": null,
@@ -33229,7 +34828,10 @@
           "n": "eb16.22",
           "c": "b833b5ea"
         }
-      ]
+      ],
+      "t": "High Way Race",
+      "y": "1983",
+      "m": "Taito Corporation"
     },
     "kikstart": {
       "parent": null,
@@ -33290,7 +34892,10 @@
           "n": "a20-13.ic91",
           "c": "3fb6c4fb"
         }
-      ]
+      ],
+      "t": "Kick Start: Wheelie King",
+      "y": "1984",
+      "m": "Taito Corporation"
     },
     "ballbros": {
       "parent": null,
@@ -33331,7 +34936,10 @@
           "n": "east-10",
           "c": "ca0ac419"
         }
-      ]
+      ],
+      "t": "Balloon Brothers",
+      "y": "1992",
+      "m": "East Technology"
     },
     "gigandes": {
       "parent": null,
@@ -33380,7 +34988,10 @@
           "n": "east-10.16e",
           "c": "ca0ac419"
         }
-      ]
+      ],
+      "t": "Gigandes",
+      "y": "1989",
+      "m": "East Technology"
     },
     "gigandesa": {
       "parent": "gigandes",
@@ -33429,7 +35040,10 @@
           "n": "east-10.16e",
           "c": "ca0ac419"
         }
-      ]
+      ],
+      "t": "Gigandes (earlier)",
+      "y": "1989",
+      "m": "East Technology"
     },
     "kyustrkr": {
       "parent": null,
@@ -33470,7 +35084,10 @@
           "n": "m-8-4.u1",
           "c": "d3f6047a"
         }
-      ]
+      ],
+      "t": "Last Striker / Kyuukyoku no Striker",
+      "y": "1989",
+      "m": "East Technology"
     },
     "superman": {
       "parent": null,
@@ -33519,7 +35136,10 @@
           "n": "b61_11.m11",
           "c": "3bc5d44b"
         }
-      ]
+      ],
+      "t": "Superman (World)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "supermanu": {
       "parent": "superman",
@@ -33568,7 +35188,10 @@
           "n": "b61_11.m11",
           "c": "3bc5d44b"
         }
-      ]
+      ],
+      "t": "Superman (US)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "supermanj": {
       "parent": "superman",
@@ -33617,7 +35240,10 @@
           "n": "b61_11.m11",
           "c": "3bc5d44b"
         }
-      ]
+      ],
+      "t": "Superman (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "twinhawk": {
       "parent": null,
@@ -33650,7 +35276,10 @@
           "n": "b87-03.3j",
           "c": "ce155ae0"
         }
-      ]
+      ],
+      "t": "Twin Hawk (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "twinhawku": {
       "parent": "twinhawk",
@@ -33683,7 +35312,10 @@
           "n": "b87-03.3j",
           "c": "ce155ae0"
         }
-      ]
+      ],
+      "t": "Twin Hawk (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "daisenpu": {
       "parent": "twinhawk",
@@ -33716,7 +35348,10 @@
           "n": "b87-03.3j",
           "c": "ce155ae0"
         }
-      ]
+      ],
+      "t": "Daisenpu (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "aquajack": {
       "parent": null,
@@ -33785,7 +35420,10 @@
           "n": "b77-18.ic37",
           "c": "7b7d8ff4"
         }
-      ]
+      ],
+      "t": "Aqua Jack (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "aquajackj": {
       "parent": "aquajack",
@@ -33854,7 +35492,10 @@
           "n": "b77-18.ic37",
           "c": "7b7d8ff4"
         }
-      ]
+      ],
+      "t": "Aqua Jack (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "aquajacku": {
       "parent": "aquajack",
@@ -33923,7 +35564,10 @@
           "n": "b77-18.ic37",
           "c": "7b7d8ff4"
         }
-      ]
+      ],
+      "t": "Aqua Jack (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "bshark": {
       "parent": null,
@@ -34040,7 +35684,10 @@
           "n": "c34-28.ic95",
           "c": "bf7c2a41"
         }
-      ]
+      ],
+      "t": "Battle Shark (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "bsharkj": {
       "parent": "bshark",
@@ -34157,7 +35804,10 @@
           "n": "c34-28.ic95",
           "c": "bf7c2a41"
         }
-      ]
+      ],
+      "t": "Battle Shark (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "bsharkjjs": {
       "parent": "bshark",
@@ -34274,7 +35924,10 @@
           "n": "c34-28.ic95",
           "c": "bf7c2a41"
         }
-      ]
+      ],
+      "t": "Battle Shark (Japan, Joystick)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "bsharku": {
       "parent": "bshark",
@@ -34391,7 +36044,10 @@
           "n": "c34-28.ic95",
           "c": "bf7c2a41"
         }
-      ]
+      ],
+      "t": "Battle Shark (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "bsharkuo": {
       "parent": "bshark",
@@ -34508,7 +36164,10 @@
           "n": "c34-28.ic95",
           "c": "bf7c2a41"
         }
-      ]
+      ],
+      "t": "Battle Shark (US, older)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "chasehq": {
       "parent": null,
@@ -34729,7 +36388,10 @@
           "n": "pal16l8b-b52-125.ic112",
           "c": "7628c557"
         }
-      ]
+      ],
+      "t": "Chase H.Q. (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "chasehqj": {
       "parent": "chasehq",
@@ -34950,7 +36612,10 @@
           "n": "pal16l8b-b52-125.ic112",
           "c": "7628c557"
         }
-      ]
+      ],
+      "t": "Chase H.Q. (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "chasehqju": {
       "parent": "chasehq",
@@ -35167,7 +36832,10 @@
           "n": "pal16l8b-b52-125.ic112",
           "c": "7628c557"
         }
-      ]
+      ],
+      "t": "Chase H.Q. (Japan, upright?)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "chasehqu": {
       "parent": "chasehq",
@@ -35388,7 +37056,10 @@
           "n": "pal16l8b-b52-125.ic112",
           "c": "7628c557"
         }
-      ]
+      ],
+      "t": "Chase H.Q. (US)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "contcirc": {
       "parent": null,
@@ -35469,7 +37140,10 @@
           "n": "b33-18.17",
           "c": "fbf81f30"
         }
-      ]
+      ],
+      "t": "Continental Circus (World)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "contcircu": {
       "parent": "contcirc",
@@ -35550,7 +37224,10 @@
           "n": "b33-18.17",
           "c": "fbf81f30"
         }
-      ]
+      ],
+      "t": "Continental Circus (US set 1)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "contcircua": {
       "parent": "contcirc",
@@ -35631,7 +37308,10 @@
           "n": "b33-18.17",
           "c": "fbf81f30"
         }
-      ]
+      ],
+      "t": "Continental Circus (US set 2)",
+      "y": "1987",
+      "m": "Taito America Corporation"
     },
     "contcircj": {
       "parent": "contcirc",
@@ -35712,7 +37392,10 @@
           "n": "b33-18.17",
           "c": "fbf81f30"
         }
-      ]
+      ],
+      "t": "Continental Circus (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "dblaxle": {
       "parent": null,
@@ -35809,7 +37492,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Double Axle (US, Rev 1, set 1)",
+      "y": "1991",
+      "m": "Taito America Corporation"
     },
     "dblaxleu": {
       "parent": "dblaxle",
@@ -35910,7 +37596,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Double Axle (US)",
+      "y": "1991",
+      "m": "Taito America Corporation"
     },
     "dblaxleua": {
       "parent": "dblaxle",
@@ -36007,7 +37696,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Double Axle (US, Rev 1, set 2)",
+      "y": "1991",
+      "m": "Taito America Corporation"
     },
     "dblaxleul": {
       "parent": "dblaxle",
@@ -36104,7 +37796,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Double Axle (US, Rev 1, Linkable)",
+      "y": "1991",
+      "m": "Taito America Corporation"
     },
     "pwheelsj": {
       "parent": "dblaxle",
@@ -36201,7 +37896,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Power Wheels (Japan, Rev 2, Linkable)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "enforce": {
       "parent": null,
@@ -36286,7 +37984,10 @@
           "n": "b58-25.75",
           "c": "de547342"
         }
-      ]
+      ],
+      "t": "Enforce (World)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "enforcej": {
       "parent": "enforce",
@@ -36371,7 +38072,10 @@
           "n": "b58-25.75",
           "c": "de547342"
         }
-      ]
+      ],
+      "t": "Enforce (Japan)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "enforceja": {
       "parent": "enforce",
@@ -36456,7 +38160,10 @@
           "n": "b58-25.75",
           "c": "de547342"
         }
-      ]
+      ],
+      "t": "Enforce (Japan, Analog Controls)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "nightstr": {
       "parent": null,
@@ -36577,7 +38284,10 @@
           "n": "b91-33.bin",
           "c": "89719d17"
         }
-      ]
+      ],
+      "t": "Night Striker (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "nightstrj": {
       "parent": "nightstr",
@@ -36698,7 +38408,10 @@
           "n": "b91-33.bin",
           "c": "89719d17"
         }
-      ]
+      ],
+      "t": "Night Striker (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "nightstru": {
       "parent": "nightstr",
@@ -36819,7 +38532,10 @@
           "n": "b91-33.bin",
           "c": "89719d17"
         }
-      ]
+      ],
+      "t": "Night Striker (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "racingb": {
       "parent": null,
@@ -36916,7 +38632,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Racing Beat (World)",
+      "y": "1991",
+      "m": "Taito Corporation Japan"
     },
     "racingbj": {
       "parent": "racingb",
@@ -37013,7 +38732,10 @@
           "n": "c84-11.17",
           "c": "10728853"
         }
-      ]
+      ],
+      "t": "Racing Beat (Japan)",
+      "y": "1991",
+      "m": "Taito Corporation"
     },
     "sci": {
       "parent": null,
@@ -37134,7 +38856,10 @@
           "n": "c09-26_pal16l8b.ic26",
           "c": "36a8eb27"
         }
-      ]
+      ],
+      "t": "Special Criminal Investigation (World set 1)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "scia": {
       "parent": "sci",
@@ -37255,7 +38980,10 @@
           "n": "c09-26_pal16l8b.ic26",
           "c": "36a8eb27"
         }
-      ]
+      ],
+      "t": "Special Criminal Investigation (World set 2)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "scij": {
       "parent": "sci",
@@ -37376,7 +39104,10 @@
           "n": "c09-26_pal16l8b.ic26",
           "c": "36a8eb27"
         }
-      ]
+      ],
+      "t": "Special Criminal Investigation (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "sciu": {
       "parent": "sci",
@@ -37497,7 +39228,10 @@
           "n": "c09-26_pal16l8b.ic26",
           "c": "36a8eb27"
         }
-      ]
+      ],
+      "t": "Special Criminal Investigation (US)",
+      "y": "1989",
+      "m": "Taito America Corporation"
     },
     "scin": {
       "parent": "sci",
@@ -37618,7 +39352,10 @@
           "n": "c09-26_pal16l8b.ic26",
           "c": "36a8eb27"
         }
-      ]
+      ],
+      "t": "Super Special Criminal Investigation (Negro Torino hack)",
+      "y": "1991",
+      "m": "hack (Negro Torino)"
     },
     "spacegun": {
       "parent": null,
@@ -37707,7 +39444,10 @@
           "n": "93c46.ic93",
           "c": "4900416b"
         }
-      ]
+      ],
+      "t": "Space Gun (World)",
+      "y": "1990",
+      "m": "Taito Corporation Japan"
     },
     "spacegunj": {
       "parent": "spacegun",
@@ -37796,7 +39536,10 @@
           "n": "93c46.ic93",
           "c": "4900416b"
         }
-      ]
+      ],
+      "t": "Space Gun (Japan)",
+      "y": "1990",
+      "m": "Taito Corporation"
     },
     "spacegunu": {
       "parent": "spacegun",
@@ -37885,7 +39628,10 @@
           "n": "93c46.ic93",
           "c": "4900416b"
         }
-      ]
+      ],
+      "t": "Space Gun (US)",
+      "y": "1990",
+      "m": "Taito America Corporation"
     },
     "plumppop": {
       "parent": null,
@@ -37946,7 +39692,10 @@
           "n": "a98-12.17f",
           "c": "90dc9da7"
         }
-      ]
+      ],
+      "t": "Plump Pop (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "extrmatn": {
       "parent": null,
@@ -37991,7 +39740,10 @@
           "n": "b06-08.17f",
           "c": "10c9aac3"
         }
-      ]
+      ],
+      "t": "Extermination (World)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "extrmatnu": {
       "parent": "extrmatn",
@@ -38036,7 +39788,10 @@
           "n": "b06-08.17f",
           "c": "10c9aac3"
         }
-      ]
+      ],
+      "t": "Extermination (US, World Games)",
+      "y": "1987",
+      "m": "Taito (World Games license)"
     },
     "extrmatnur": {
       "parent": "extrmatn",
@@ -38081,7 +39836,10 @@
           "n": "b06-08.17f",
           "c": "10c9aac3"
         }
-      ]
+      ],
+      "t": "Extermination (US, Romstar)",
+      "y": "1987",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "extrmatnj": {
       "parent": "extrmatn",
@@ -38126,7 +39884,10 @@
           "n": "b06-08.17f",
           "c": "10c9aac3"
         }
-      ]
+      ],
+      "t": "Extermination (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "arknoid2": {
       "parent": null,
@@ -38163,7 +39924,10 @@
           "n": "b08-07.16f",
           "c": "ea34d9f7"
         }
-      ]
+      ],
+      "t": "Arkanoid - Revenge of DOH (World)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "arknoid2u": {
       "parent": "arknoid2",
@@ -38200,7 +39964,10 @@
           "n": "b08-07.16f",
           "c": "ea34d9f7"
         }
-      ]
+      ],
+      "t": "Arkanoid - Revenge of DOH (US)",
+      "y": "1987",
+      "m": "Taito America Corporation (Romstar license)"
     },
     "arknoid2j": {
       "parent": "arknoid2",
@@ -38237,7 +40004,10 @@
           "n": "b08-07.16f",
           "c": "ea34d9f7"
         }
-      ]
+      ],
+      "t": "Arkanoid - Revenge of DOH (Japan)",
+      "y": "1987",
+      "m": "Taito Corporation"
     },
     "arknoid2b": {
       "parent": "arknoid2",
@@ -38274,7 +40044,10 @@
           "n": "b08-07.16f",
           "c": "ea34d9f7"
         }
-      ]
+      ],
+      "t": "Arkanoid - Revenge of DOH (Japan bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "drtoppel": {
       "parent": null,
@@ -38335,7 +40108,10 @@
           "n": "b19-12.am27s29.16f",
           "c": "5754e9d8"
         }
-      ]
+      ],
+      "t": "Dr. Toppel's Adventure (World)",
+      "y": "1987",
+      "m": "Kaneko / Taito Corporation Japan"
     },
     "drtoppela": {
       "parent": "drtoppel",
@@ -38392,7 +40168,10 @@
           "n": "b19-12.16f",
           "c": "5754e9d8"
         }
-      ]
+      ],
+      "t": "Dr. Toppel's Adventure (World, alt?)",
+      "y": "1987",
+      "m": "Taito Corporation Japan"
     },
     "drtoppelu": {
       "parent": "drtoppel",
@@ -38453,7 +40232,10 @@
           "n": "b19-12.am27s29.16f",
           "c": "5754e9d8"
         }
-      ]
+      ],
+      "t": "Dr. Toppel's Adventure (US)",
+      "y": "1987",
+      "m": "Kaneko / Taito America Corporation"
     },
     "drtoppelj": {
       "parent": "drtoppel",
@@ -38514,7 +40296,10 @@
           "n": "b19-12.am27s29.16f",
           "c": "5754e9d8"
         }
-      ]
+      ],
+      "t": "Dr. Toppel's Tankentai (Japan)",
+      "y": "1987",
+      "m": "Kaneko / Taito Corporation"
     },
     "kageki": {
       "parent": null,
@@ -38567,7 +40352,10 @@
           "n": "b35-15.98g",
           "c": "e6212a0f"
         }
-      ]
+      ],
+      "t": "Kageki (World)",
+      "y": "1988",
+      "m": "Kaneko / Taito Corporation"
     },
     "kagekiu": {
       "parent": "kageki",
@@ -38620,7 +40408,10 @@
           "n": "b35-15.98g",
           "c": "e6212a0f"
         }
-      ]
+      ],
+      "t": "Kageki (US)",
+      "y": "1988",
+      "m": "Kaneko / Taito America Corporation (Romstar license)"
     },
     "kagekij": {
       "parent": "kageki",
@@ -38673,7 +40464,10 @@
           "n": "b35-12.98g",
           "c": "184409f1"
         }
-      ]
+      ],
+      "t": "Kageki (Japan)",
+      "y": "1988",
+      "m": "Kaneko / Taito Corporation"
     },
     "kagekih": {
       "parent": "kageki",
@@ -38726,7 +40520,10 @@
           "n": "b35-12.98g",
           "c": "184409f1"
         }
-      ]
+      ],
+      "t": "Kageki (hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "chukatai": {
       "parent": null,
@@ -38779,7 +40576,10 @@
           "n": "b44-08.a02",
           "c": "6cb1e8fc"
         }
-      ]
+      ],
+      "t": "Chuka Taisen (World) (P0-028-A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "chukataiu": {
       "parent": "chukatai",
@@ -38832,7 +40632,10 @@
           "n": "b44-08.a02",
           "c": "6cb1e8fc"
         }
-      ]
+      ],
+      "t": "Chuka Taisen (US) (P0-028-A PCB)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "chukataij": {
       "parent": "chukatai",
@@ -38885,7 +40688,10 @@
           "n": "b44-08.a02",
           "c": "6cb1e8fc"
         }
-      ]
+      ],
+      "t": "Chuka Taisen (Japan) (P0-028-A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "chukataija": {
       "parent": "chukatai",
@@ -38946,7 +40752,10 @@
           "n": "b44-29.17f",
           "c": "ae44b8fb"
         }
-      ]
+      ],
+      "t": "Chuka Taisen (Japan) (P0-025-A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "tnzs": {
       "parent": null,
@@ -38995,7 +40804,10 @@
           "n": "b53-21.ic14",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (World, new version) (P0-043A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "tnzsj": {
       "parent": "tnzs",
@@ -39044,7 +40856,10 @@
           "n": "b53-21.ic14",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (Japan, new version) (P0-043A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "tnzsjo": {
       "parent": "tnzs",
@@ -39093,7 +40908,10 @@
           "n": "b53-01.u1",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (Japan, old version) (P0-041A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation"
     },
     "tnzsuo": {
       "parent": "tnzs",
@@ -39142,7 +40960,10 @@
           "n": "b53-01.u1",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (US, old version) (P0-041A PCB)",
+      "y": "1988",
+      "m": "Taito America Corporation"
     },
     "tnzso": {
       "parent": "tnzs",
@@ -39191,7 +41012,10 @@
           "n": "b53-01.u1",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (World, old version) (P0-041A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "tnzsoa": {
       "parent": "tnzs",
@@ -39240,7 +41064,10 @@
           "n": "b53-01.u1",
           "c": "9800c54d"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (World, unknown version) (P0-041A PCB)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "tnzsop": {
       "parent": "tnzs",
@@ -39289,7 +41116,10 @@
           "n": "a02__904f.d27c1000d-15.a2",
           "c": "2ab06bda"
         }
-      ]
+      ],
+      "t": "The NewZealand Story (World, prototype) (P0-041-1 PCB)",
+      "y": "1988",
+      "m": "Taito Corporation Japan"
     },
     "kabukiz": {
       "parent": null,
@@ -39322,7 +41152,10 @@
           "n": "b50-01.u46",
           "c": "f4277751"
         }
-      ]
+      ],
+      "t": "Kabuki-Z (World)",
+      "y": "1988",
+      "m": "Kaneko / Taito Corporation Japan"
     },
     "kabukizj": {
       "parent": "kabukiz",
@@ -39355,7 +41188,10 @@
           "n": "b50-01.u46",
           "c": "f4277751"
         }
-      ]
+      ],
+      "t": "Kabuki-Z (Japan)",
+      "y": "1988",
+      "m": "Kaneko / Taito Corporation"
     },
     "insectx": {
       "parent": null,
@@ -39376,7 +41212,10 @@
           "n": "b97__02.u2",
           "c": "db5a7434"
         }
-      ]
+      ],
+      "t": "Insector X (World)",
+      "y": "1989",
+      "m": "Taito Corporation Japan"
     },
     "insectxj": {
       "parent": "insectx",
@@ -39397,7 +41236,10 @@
           "n": "b97__02.u2",
           "c": "db5a7434"
         }
-      ]
+      ],
+      "t": "Insector X (Japan)",
+      "y": "1989",
+      "m": "Taito Corporation"
     },
     "insectxbl": {
       "parent": "insectx",
@@ -39442,7 +41284,10 @@
           "n": "ic215",
           "c": "ff1dee9e"
         }
-      ]
+      ],
+      "t": "Insector X (bootleg)",
+      "y": "1990",
+      "m": "bootleg (Nagoya Kaihatsu)"
     },
     "jpopnics": {
       "parent": null,
@@ -39471,7 +41316,10 @@
           "n": "u91gfx",
           "c": "18ada5f2"
         }
-      ]
+      ],
+      "t": "Jumping Pop (Nics, Korean hack of Plump Pop)",
+      "y": "1992",
+      "m": "Nics"
     },
     "undrfire": {
       "parent": null,
@@ -39556,7 +41404,10 @@
           "n": "eeprom-undrfire.bin",
           "c": "9f7368f4"
         }
-      ]
+      ],
+      "t": "Under Fire (World)",
+      "y": "1993",
+      "m": "Taito Corporation Japan"
     },
     "undrfireu": {
       "parent": "undrfire",
@@ -39641,7 +41492,10 @@
           "n": "eeprom-undrfire.bin",
           "c": "9f7368f4"
         }
-      ]
+      ],
+      "t": "Under Fire (US)",
+      "y": "1993",
+      "m": "Taito America Corporation"
     },
     "undrfirej": {
       "parent": "undrfire",
@@ -39726,7 +41580,10 @@
           "n": "eeprom-undrfire.bin",
           "c": "9f7368f4"
         }
-      ]
+      ],
+      "t": "Under Fire (Japan)",
+      "y": "1993",
+      "m": "Taito Corporation"
     },
     "cbombers": {
       "parent": null,
@@ -39851,7 +41708,10 @@
           "n": "eeprom-cbombers.bin",
           "c": "9f7368f4"
         }
-      ]
+      ],
+      "t": "Chase Bombers (World)",
+      "y": "1994",
+      "m": "Taito Corporation Japan"
     },
     "cbombersj": {
       "parent": "cbombers",
@@ -39976,7 +41836,10 @@
           "n": "eeprom-cbombers.bin",
           "c": "9f7368f4"
         }
-      ]
+      ],
+      "t": "Chase Bombers (Japan)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "cbombersp": {
       "parent": "cbombers",
@@ -40229,7 +42092,10 @@
           "n": "ic108_a148_wave15.bin",
           "c": "2edaa9dc"
         }
-      ]
+      ],
+      "t": "Chase Bombers (Japan Prototype)",
+      "y": "1994",
+      "m": "Taito Corporation"
     },
     "wyvernf0": {
       "parent": null,
@@ -40298,7 +42164,10 @@
           "n": "a39_mc68705p5s.ic23",
           "c": "14bff574"
         }
-      ]
+      ],
+      "t": "Wyvern F-0 (Rev 1)",
+      "y": "1985",
+      "m": "Taito Corporation"
     },
     "wyvernf0a": {
       "parent": "wyvernf0",
@@ -40367,7 +42236,10 @@
           "n": "a39_mc68705p5s.ic23",
           "c": "14bff574"
         }
-      ]
+      ],
+      "t": "Wyvern F-0",
+      "y": "1985",
+      "m": "Taito Corporation"
     }
   }
 }

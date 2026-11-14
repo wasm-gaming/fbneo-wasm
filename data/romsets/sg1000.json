@@ -8,7 +8,10 @@
           "n": "Bank Panic (Japan)(1985)(Sega).sg",
           "c": "d8a87095"
         }
-      ]
+      ],
+      "t": "Bank Panic (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_bilidada": {
       "parent": "sg1k_bankp",
@@ -17,7 +20,10 @@
           "n": "Bank Panic - Bi Li Da Dao (Taiwan)(198x)(Aaronix).sg",
           "c": "bd43fde4"
         }
-      ]
+      ],
+      "t": "Bank Panic ~ Bi Li Da Dao (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_blckonyx": {
       "parent": null,
@@ -26,7 +32,10 @@
           "n": "Black Onyx, The (Japan)(1987)(Sega).sg",
           "c": "26ecd094"
         }
-      ]
+      ],
+      "t": "Black Onyx, The (Japan)",
+      "y": "1987",
+      "m": "Sega"
     },
     "sg1k_blckonyxe": {
       "parent": "sg1k_blckonyx",
@@ -35,7 +44,10 @@
           "n": "Black Onyx, the T-Eng (2010)(SSTranslations).sg",
           "c": "626e30cc"
         }
-      ]
+      ],
+      "t": "Black Onyx, The (Hack, English)",
+      "y": "2010",
+      "m": "SSTranslations"
     },
     "sg1k_blckonyxee": {
       "parent": "sg1k_blckonyx",
@@ -44,7 +56,10 @@
           "n": "Black Onyx Enhanced, the T-Eng (2010)(SSTranslations).sg",
           "c": "3003d9bd"
         }
-      ]
+      ],
+      "t": "Black Onyx Enhanced, The (Hack, English)",
+      "y": "2010",
+      "m": "SSTranslations"
     },
     "sg1k_bombjack": {
       "parent": null,
@@ -53,7 +68,10 @@
           "n": "Bomb Jack (Japan)(1985)(Sega).sg",
           "c": "ea0f2691"
         }
-      ]
+      ],
+      "t": "Bomb Jack (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_bombjackk1": {
       "parent": "sg1k_bombjack",
@@ -62,7 +80,10 @@
           "n": "Bomb Jack (Korea)(198x).sg",
           "c": "0c69d837"
         }
-      ]
+      ],
+      "t": "Bomb Jack (Korea)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_bombjackk2": {
       "parent": "sg1k_bombjack",
@@ -71,7 +92,10 @@
           "n": "Bomb Jack (Korea, Alt)(198x).sg",
           "c": "b0c7b310"
         }
-      ]
+      ],
+      "t": "Bomb Jack (Korea, Alt)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_bombjackt1": {
       "parent": "sg1k_bombjack",
@@ -80,7 +104,10 @@
           "n": "Bomb Jack (Taiwan)(198x).sg",
           "c": "cda3a335"
         }
-      ]
+      ],
+      "t": "Bomb Jack (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_bombmnsp": {
       "parent": null,
@@ -89,7 +116,10 @@
           "n": "Bomber Man Special (Taiwan)(198x)(DahJee).sg",
           "c": "69fc1494"
         }
-      ]
+      ],
+      "t": "Bomber Man Special (Taiwan)",
+      "y": "198?",
+      "m": "DahJee"
     },
     "sg1k_bordrlin": {
       "parent": null,
@@ -98,7 +128,10 @@
           "n": "Borderline (Euro, Japan)(1983)(Sega).sg",
           "c": "0b4bca74"
         }
-      ]
+      ],
+      "t": "Borderline (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_bombjackt2": {
       "parent": "sg1k_bombjack",
@@ -107,7 +140,10 @@
           "n": "Chaoren (Taiwan)(198x).sg",
           "c": "deb213fe"
         }
-      ]
+      ],
+      "t": "Chaoren (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_cabkids": {
       "parent": null,
@@ -116,7 +152,10 @@
           "n": "Cabbage Patch Kids (Taiwan)(198x)(Aaronix).sg",
           "c": "9d91ab78"
         }
-      ]
+      ],
+      "t": "Cabbage Patch Kids (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_castle": {
       "parent": null,
@@ -125,7 +164,10 @@
           "n": "Castle, The (Japan)(1986)(Sega).sg",
           "c": "092f29d6"
         }
-      ]
+      ],
+      "t": "Castle, The (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_castlet": {
       "parent": "sg1k_castle",
@@ -134,7 +176,10 @@
           "n": "Mowang migong - Castle, The (Taiwan)(198x)(DahJee).sg",
           "c": "2e366ccf"
         }
-      ]
+      ],
+      "t": "Mowang migong ~ Castle, The (Taiwan)",
+      "y": "198?",
+      "m": "DahJee"
     },
     "sg1k_chackn": {
       "parent": null,
@@ -143,7 +188,10 @@
           "n": "Chack'n Pop (Japan)(1985)(Sega).sg",
           "c": "d37bda49"
         }
-      ]
+      ],
+      "t": "Chack'n Pop (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_chackne": {
       "parent": "sg1k_chackn",
@@ -152,7 +200,10 @@
           "n": "Chack'n Pop T-Eng (2010)(goldenband).sg",
           "c": "c106c923"
         }
-      ]
+      ],
+      "t": "Chack'n Pop (Hack, English)",
+      "y": "2010",
+      "m": "goldenband"
     },
     "sg1k_dayu": {
       "parent": "sg1k_chackn",
@@ -161,7 +212,10 @@
           "n": "Da Yu - Chack'n Pop (Taiwan)(198x).sg",
           "c": "d81a72ce"
         }
-      ]
+      ],
+      "t": "Da Yu ~ Chack'n Pop",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_chaldrby": {
       "parent": null,
@@ -170,7 +224,10 @@
           "n": "Challenge Derby (Japan, OMV)(198x)(Tsukuda Original).sg",
           "c": "c91551da"
         }
-      ]
+      ],
+      "t": "Challenge Derby (Japan, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_chaldrbya": {
       "parent": "sg1k_chaldrby",
@@ -179,7 +236,10 @@
           "n": "Challenge Derby (Japan, OMV, Alt)(198x)(Tsukuda Original).sg",
           "c": "02bc891f"
         }
-      ]
+      ],
+      "t": "Challenge Derby (Japan, OMV, Alt)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_chaldrbyb": {
       "parent": "sg1k_chaldrby",
@@ -188,7 +248,10 @@
           "n": "Challenge Derby (Japan, OMV, Hacked)(198x)(Tsukuda Original).sg",
           "c": "c5f014dc"
         }
-      ]
+      ],
+      "t": "Challenge Derby (Japan, OMV, Hacked)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_champbas": {
       "parent": null,
@@ -197,7 +260,10 @@
           "n": "Champion Baseball (Japan)(1983)(Sega).sg",
           "c": "5970a12b"
         }
-      ]
+      ],
+      "t": "Champion Baseball (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_champbasa": {
       "parent": "sg1k_champbas",
@@ -206,7 +272,10 @@
           "n": "Champion Baseball (Japan, Older)(1983)(Sega).sg",
           "c": "c0c16fa7"
         }
-      ]
+      ],
+      "t": "Champion Baseball (Japan, Older)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_champbast": {
       "parent": "sg1k_champbas",
@@ -215,7 +284,10 @@
           "n": "Champion Baseball (Taiwan)(198x)(Aaronix).sg",
           "c": "677e6878"
         }
-      ]
+      ],
+      "t": "Champion Baseball (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_champbil": {
       "parent": null,
@@ -224,7 +296,10 @@
           "n": "Champion Billiards (Japan)(1986)(Sega).sg",
           "c": "62b21e31"
         }
-      ]
+      ],
+      "t": "Champion Billiards (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_champbox": {
       "parent": null,
@@ -233,7 +308,10 @@
           "n": "Champion Boxing (Japan)(1984)(Sega).sg",
           "c": "26f947d1"
         }
-      ]
+      ],
+      "t": "Champion Boxing (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_champboxt": {
       "parent": "sg1k_champbox",
@@ -242,7 +320,10 @@
           "n": "Champion Boxing (Taiwan)(198x)(Aaronix).sg",
           "c": "15d2ce33"
         }
-      ]
+      ],
+      "t": "Champion Boxing (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_champbox1": {
       "parent": "sg1k_champbox",
@@ -251,7 +332,10 @@
           "n": "Champion Boxing (Japan, MyCard)(1984)(Sega).sg",
           "c": "f8b2ac1d"
         }
-      ]
+      ],
+      "t": "Champion Boxing (Japan, MyCard)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_champglf": {
       "parent": null,
@@ -260,7 +344,10 @@
           "n": "Champion Golf (Japan)(1983)(Sega).sg",
           "c": "868419b5"
         }
-      ]
+      ],
+      "t": "Champion Golf (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_champglfk": {
       "parent": "sg1k_champglf",
@@ -269,7 +356,10 @@
           "n": "Champion Golf (Korea)(198x)(Samsung).sg",
           "c": "35af42ad"
         }
-      ]
+      ],
+      "t": "Champion Golf (Korea)",
+      "y": "198?",
+      "m": "Samsung"
     },
     "sg1k_champglf1": {
       "parent": "sg1k_champglf",
@@ -278,7 +368,10 @@
           "n": "Champion Golf (Japan, MyCard)(1983)(Sega).sg",
           "c": "5a904122"
         }
-      ]
+      ],
+      "t": "Champion Golf (Japan, MyCard)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_champice": {
       "parent": null,
@@ -287,7 +380,10 @@
           "n": "Champion Ice Hockey (Japan)(1985)(Sega).sg",
           "c": "bdc05652"
         }
-      ]
+      ],
+      "t": "Champion Ice Hockey (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_champicek": {
       "parent": "sg1k_champice",
@@ -296,7 +392,10 @@
           "n": "Champion Ice Hockey (Korea)(198x)(Samsung).sg",
           "c": "ec0b862c"
         }
-      ]
+      ],
+      "t": "Champion Ice Hockey (Korea)",
+      "y": "198?",
+      "m": "Samsung"
     },
     "sg1k_champicet": {
       "parent": "sg1k_champice",
@@ -305,7 +404,10 @@
           "n": "Champion Ice Hockey - Qugunqiu (Taiwan)(198x).sg",
           "c": "c6e5192f"
         }
-      ]
+      ],
+      "t": "Champion Ice Hockey ~ Qugunqiu (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_champken": {
       "parent": null,
@@ -314,7 +416,10 @@
           "n": "Champion Kendou (Japan)(1986)(Sega).sg",
           "c": "10cdebce"
         }
-      ]
+      ],
+      "t": "Champion Kendou (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_champkent": {
       "parent": "sg1k_champken",
@@ -323,7 +428,10 @@
           "n": "Jiandao (Taiwan)(198x).sg",
           "c": "a5f61363"
         }
-      ]
+      ],
+      "t": "Jiandao (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_champpwr": {
       "parent": null,
@@ -332,7 +440,10 @@
           "n": "Champion Pro Wrestling (Japan)(1985)(Sega).sg",
           "c": "372fe6bc"
         }
-      ]
+      ],
+      "t": "Champion Pro Wrestling (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_champscr": {
       "parent": null,
@@ -341,7 +452,10 @@
           "n": "Champion Soccer (Japan)(1984)(Sega).sg",
           "c": "6f39719e"
         }
-      ]
+      ],
+      "t": "Champion Soccer (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_champscrt": {
       "parent": "sg1k_champscr",
@@ -350,7 +464,10 @@
           "n": "Champion Soccer (Taiwan)(198x)(Aaronix).sg",
           "c": "269c1aee"
         }
-      ]
+      ],
+      "t": "Champion Soccer (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_champtns": {
       "parent": null,
@@ -359,7 +476,10 @@
           "n": "Champion Tennis (Japan)(1983)(Sega).sg",
           "c": "7c663316"
         }
-      ]
+      ],
+      "t": "Champion Tennis (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_choplift": {
       "parent": null,
@@ -368,7 +488,10 @@
           "n": "Choplifter (Japan)(1985)(Sega).sg",
           "c": "732b7180"
         }
-      ]
+      ],
+      "t": "Choplifter (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_chopliftp": {
       "parent": "sg1k_choplift",
@@ -377,7 +500,10 @@
           "n": "Choplifter (Japan, Proto)(1985)(Sega).sg",
           "c": "ff435469"
         }
-      ]
+      ],
+      "t": "Choplifter (Japan, Prototype)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_chopliftk": {
       "parent": "sg1k_choplift",
@@ -386,7 +512,10 @@
           "n": "Choplifter (Korea)(198x).sg",
           "c": "954d8f26"
         }
-      ]
+      ],
+      "t": "Choplifter (Korea)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_feilang": {
       "parent": "sg1k_choplift",
@@ -395,7 +524,10 @@
           "n": "Fei Lang (Taiwan)(198x)(Aaronix).sg",
           "c": "746a8d86"
         }
-      ]
+      ],
+      "t": "Fei Lang ~ Choplifter (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_feilanga": {
       "parent": "sg1k_choplift",
@@ -404,7 +536,10 @@
           "n": "Fei Lang (Taiwan, Alt)(198x)(Aaronix).sg",
           "c": "7c603987"
         }
-      ]
+      ],
+      "t": "Fei Lang ~ Choplifter (Taiwan, Alt)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_chopliftt": {
       "parent": "sg1k_choplift",
@@ -413,7 +548,10 @@
           "n": "Choplifter (Taiwan, no logo)(198x)(Aaronix).sg",
           "c": "825e1aae"
         }
-      ]
+      ],
+      "t": "Choplifter (Taiwan, no logo)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_cloderun": {
       "parent": null,
@@ -422,7 +560,10 @@
           "n": "Championship Lode Runner (Japan)(1985)(Sega).sg",
           "c": "11db4b1d"
         }
-      ]
+      ],
+      "t": "Championship Lode Runner (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_cloderunt": {
       "parent": "sg1k_cloderun",
@@ -431,7 +572,10 @@
           "n": "Xun bao er dai (Taiwan)(198x).sg",
           "c": "ec95ebcb"
         }
-      ]
+      ],
+      "t": "Lode Runner II ~ Xun bao er dai (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_circusc": {
       "parent": null,
@@ -440,7 +584,10 @@
           "n": "Circus Charlie (Taiwan)(198x)(Aaronix).sg",
           "c": "3404fce4"
         }
-      ]
+      ],
+      "t": "Circus Charlie ~ Maxi Tuan (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_circusck": {
       "parent": "sg1k_circusc",
@@ -449,7 +596,10 @@
           "n": "Circus Charlie (Korea)(198x).sg",
           "c": "7f7f009d"
         }
-      ]
+      ],
+      "t": "Circus Charlie (Korea)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_congo": {
       "parent": null,
@@ -458,7 +608,10 @@
           "n": "Congo Bongo (Euro, Japan, v1.1)(1983)(Sega).sg",
           "c": "5a24c7cf"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Euro, Japan, v1.1)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_congoa": {
       "parent": "sg1k_congo",
@@ -467,7 +620,10 @@
           "n": "Congo Bongo (Euro, Japan, v1.1, Alt)(1983)(Sega).sg",
           "c": "f1506565"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Euro, Japan, v1.1, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_congob": {
       "parent": "sg1k_congo",
@@ -476,7 +632,10 @@
           "n": "Congo Bongo (Japan)(1983)(Sega).sg",
           "c": "5eb48a20"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_congot": {
       "parent": "sg1k_congo",
@@ -485,7 +644,10 @@
           "n": "Congo Bongo (Taiwan)(198x).sg",
           "c": "f7eb94c5"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_cso": {
       "parent": null,
@@ -494,7 +656,10 @@
           "n": "C_So! (Japan)(1985)(Sega).sg",
           "c": "be7ed0eb"
         }
-      ]
+      ],
+      "t": "C_So! (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_csot": {
       "parent": "sg1k_cso",
@@ -503,7 +668,10 @@
           "n": "C_So! (Taiwan)(198x).sg",
           "c": "82c4e3e5"
         }
-      ]
+      ],
+      "t": "C_So! (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_dacike": {
       "parent": null,
@@ -512,7 +680,10 @@
           "n": "Da Cike - Yie Ar Kung-Fu II (Taiwan)(198x)(DahJee).sg",
           "c": "fc87463c"
         }
-      ]
+      ],
+      "t": "Da Cike ~ Yie Ar Kung-Fu II (Taiwan)",
+      "y": "198?",
+      "m": "DahJee"
     },
     "sg1k_dokidoki": {
       "parent": null,
@@ -521,7 +692,10 @@
           "n": "Dokidoki Penguin Land (Japan)(1985)(Sega).sg",
           "c": "346556b9"
         }
-      ]
+      ],
+      "t": "Dokidoki Penguin Land (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_qie": {
       "parent": "sg1k_dokidoki",
@@ -530,7 +704,10 @@
           "n": "Qi E - Dokidoki Penguin Land (Taiwan)(198x)(Aaronix).sg",
           "c": "fdc095bc"
         }
-      ]
+      ],
+      "t": "Qi E ~ Dokidoki Penguin Land (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_dragwang": {
       "parent": null,
@@ -539,7 +716,10 @@
           "n": "Dragon Wang (Japan, v1.1)(1985)(Sega).sg",
           "c": "99c3de21"
         }
-      ]
+      ],
+      "t": "Dragon Wang (Japan, v1.1)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_dragwang1": {
       "parent": "sg1k_dragwang",
@@ -548,7 +728,10 @@
           "n": "Dragon Wang (Japan)(1985)(Sega).sg",
           "c": "60f30138"
         }
-      ]
+      ],
+      "t": "Dragon Wang (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_jingwumn": {
       "parent": "sg1k_dragwang",
@@ -557,7 +740,10 @@
           "n": "Dragon Wang - Jing Wumen (Taiwan)(198x)(Aaronix).sg",
           "c": "7c7d4397"
         }
-      ]
+      ],
+      "t": "Dragon Wang ~ Jing Wumen (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_jingwumna": {
       "parent": "sg1k_dragwang",
@@ -566,7 +752,10 @@
           "n": "Dragon Wang - Jing Wumen (Taiwan, Alt)(198x)(Aaronix).sg",
           "c": "6f94e5c0"
         }
-      ]
+      ],
+      "t": "Dragon Wang ~ Jing Wumen (Taiwan, Alt)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_drol": {
       "parent": null,
@@ -575,7 +764,10 @@
           "n": "Drol (Japan)(1985)(Sega).sg",
           "c": "288940cb"
         }
-      ]
+      ],
+      "t": "Drol (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_drolt": {
       "parent": "sg1k_drol",
@@ -584,7 +776,10 @@
           "n": "Drol (Taiwan)(198x)(Aaronix).sg",
           "c": "b7fc033d"
         }
-      ]
+      ],
+      "t": "Drol (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_drolk": {
       "parent": "sg1k_drol",
@@ -593,7 +788,10 @@
           "n": "Drol (Korea)(198x)(Samsung).sg",
           "c": "1d7c53bb"
         }
-      ]
+      ],
+      "t": "Drol (Korea)",
+      "y": "198?",
+      "m": "Samsung"
     },
     "sg1k_elevator": {
       "parent": null,
@@ -602,7 +800,10 @@
           "n": "Elevator Action (Japan)(1985)(Sega).sg",
           "c": "5af8f69d"
         }
-      ]
+      ],
+      "t": "Elevator Action (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_elevatort": {
       "parent": "sg1k_elevator",
@@ -611,7 +812,10 @@
           "n": "Die Dui Die (Taiwan)(198x)(Aaronix).sg",
           "c": "6846e36d"
         }
-      ]
+      ],
+      "t": "Die Dui Die (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_exerion": {
       "parent": null,
@@ -620,7 +824,10 @@
           "n": "Exerion (Euro, Japan)(1983)(Sega).sg",
           "c": "a2c45b61"
         }
-      ]
+      ],
+      "t": "Exerion (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_exeriont": {
       "parent": "sg1k_exerion",
@@ -629,7 +836,10 @@
           "n": "Exerion (Taiwan)(198x)(Aaronix).sg",
           "c": "b5c84a32"
         }
-      ]
+      ],
+      "t": "Exerion (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_exerionk": {
       "parent": "sg1k_exerion",
@@ -638,7 +848,10 @@
           "n": "Exerion (Korea)(198x)(Samsung).sg",
           "c": "fc628d0d"
         }
-      ]
+      ],
+      "t": "Exerion (Korea)",
+      "y": "198?",
+      "m": "Samsung"
     },
     "sg1k_flicky": {
       "parent": null,
@@ -647,7 +860,10 @@
           "n": "Flicky (Japan, v1.1)(1984)(Sega).sg",
           "c": "26d2862c"
         }
-      ]
+      ],
+      "t": "Flicky (Japan, v1.1)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_flickya": {
       "parent": "sg1k_flicky",
@@ -656,7 +872,10 @@
           "n": "Flicky (Japan)(1984)(Sega).sg",
           "c": "bd24d27b"
         }
-      ]
+      ],
+      "t": "Flicky (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_flickyt": {
       "parent": "sg1k_flicky",
@@ -665,7 +884,10 @@
           "n": "Flicky (Taiwan)(198x)(Aaronix).sg",
           "c": "cd0666a7"
         }
-      ]
+      ],
+      "t": "Flicky (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_girlgard": {
       "parent": null,
@@ -674,7 +896,10 @@
           "n": "Girl's Garden (Japan)(1984)(Sega).sg",
           "c": "1898f274"
         }
-      ]
+      ],
+      "t": "Girl's Garden (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_girlgardt": {
       "parent": "sg1k_girlgard",
@@ -683,7 +908,10 @@
           "n": "Girl's Garden (Taiwan)(198x)(Aaronix).sg",
           "c": "b9635ac4"
         }
-      ]
+      ],
+      "t": "Girl's Garden (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_girlgardpt": {
       "parent": "sg1k_girlgard",
@@ -692,7 +920,10 @@
           "n": "Jardim do Amor T-Por v2.0 (2016-26)(Patryckpo).sg",
           "c": "149ef6b1"
         }
-      ]
+      ],
+      "t": "Girl's Garden ~ Jardim do Amor (Hack, Portuguese v2.0)",
+      "y": "2016-26",
+      "m": "Patryckpo"
     },
     "sg1k_golgo13": {
       "parent": null,
@@ -701,7 +932,10 @@
           "n": "Golgo 13 (Japan)(1984)(Sega).sg",
           "c": "0d159ed0"
         }
-      ]
+      ],
+      "t": "Golgo 13 (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_gpworld": {
       "parent": null,
@@ -710,7 +944,10 @@
           "n": "GP World (Japan, v1.1)(1985)(Sega).sg",
           "c": "191ffe0a"
         }
-      ]
+      ],
+      "t": "GP World (Japan, v1.1)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_gpworlda": {
       "parent": "sg1k_gpworld",
@@ -719,7 +956,10 @@
           "n": "GP World (Japan)(1985)(Sega).sg",
           "c": "942adf84"
         }
-      ]
+      ],
+      "t": "GP World (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_gpworldt": {
       "parent": "sg1k_gpworld",
@@ -728,7 +968,10 @@
           "n": "GP World (Taiwan)(198x)(Aaronix).sg",
           "c": "f19f7548"
         }
-      ]
+      ],
+      "t": "GP World (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_gulkave": {
       "parent": null,
@@ -737,7 +980,10 @@
           "n": "Gulkave (Japan)(1986)(Sega).sg",
           "c": "15a754a3"
         }
-      ]
+      ],
+      "t": "Gulkave (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_gulkavek": {
       "parent": "sg1k_gulkave",
@@ -746,7 +992,10 @@
           "n": "Gulkave (Korea)(198x).sg",
           "c": "ddcb708b"
         }
-      ]
+      ],
+      "t": "Gulkave (Korea)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_guzzler": {
       "parent": null,
@@ -755,7 +1004,10 @@
           "n": "Guzzler (Japan, OMV)(1983)(Tsukuda Original).sg",
           "c": "61fa9ea0"
         }
-      ]
+      ],
+      "t": "Guzzler (Japan, OMV)",
+      "y": "1983",
+      "m": "Tsukuda Original"
     },
     "sg1k_guzzlert": {
       "parent": "sg1k_guzzler",
@@ -764,7 +1016,10 @@
           "n": "Guzzler (Taiwan)(198x)(Aaronix).sg",
           "c": "eb808158"
         }
-      ]
+      ],
+      "t": "Guzzler (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_hangon2": {
       "parent": null,
@@ -773,7 +1028,10 @@
           "n": "Hang-On II (Japan)(1985)(Sega).sg",
           "c": "9be3c6bd"
         }
-      ]
+      ],
+      "t": "Hang-On II (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_hangon2t1": {
       "parent": "sg1k_hangon2",
@@ -782,7 +1040,10 @@
           "n": "Hang-On II (Taiwan)(198x).sg",
           "c": "cabd451b"
         }
-      ]
+      ],
+      "t": "Hang-On II (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_hangon2t2": {
       "parent": "sg1k_hangon2",
@@ -791,7 +1052,10 @@
           "n": "Motuo Feiche (Taiwan)(198x).sg",
           "c": "e98a111e"
         }
-      ]
+      ],
+      "t": "Motuo Feiche (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_hero": {
       "parent": null,
@@ -800,7 +1064,10 @@
           "n": "H.E.R.O. (Japan)(1985)(Sega).sg",
           "c": "4587de6e"
         }
-      ]
+      ],
+      "t": "H.E.R.O. (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_herot": {
       "parent": "sg1k_hero",
@@ -809,7 +1076,10 @@
           "n": "Qing Feng Xia (Taiwan)(198x).sg",
           "c": "83958998"
         }
-      ]
+      ],
+      "t": "Qing Feng Xia (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_homemj": {
       "parent": null,
@@ -818,7 +1088,10 @@
           "n": "Home Mahjong (Japan, v1.1)(1984)(Sega).sg",
           "c": "e7e0f0e3"
         }
-      ]
+      ],
+      "t": "Home Mahjong (Japan, v1.1)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_homemj1": {
       "parent": "sg1k_homemj",
@@ -827,7 +1100,10 @@
           "n": "Home Mahjong (Japan)(1984)(Sega).sg",
           "c": "c9d1ae7d"
         }
-      ]
+      ],
+      "t": "Home Mahjong (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_homemjt": {
       "parent": "sg1k_homemj",
@@ -836,7 +1112,10 @@
           "n": "Si Ren Maque (Taiwan)(198x)(Aaronix).sg",
           "c": "0583a9fa"
         }
-      ]
+      ],
+      "t": "Si Ren Maque (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_hustle": {
       "parent": null,
@@ -845,7 +1124,10 @@
           "n": "Hustle Chumy (Japan)(1984)(Compile).sg",
           "c": "a627d440"
         }
-      ]
+      ],
+      "t": "Hustle Chumy (Japan)",
+      "y": "1984",
+      "m": "Compile"
     },
     "sg1k_hyperspt": {
       "parent": null,
@@ -854,7 +1136,10 @@
           "n": "Hyper Sports (Japan)(1985)(Sega).sg",
           "c": "ba09a0fd"
         }
-      ]
+      ],
+      "t": "Hyper Sports (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_hypersptt": {
       "parent": "sg1k_hyperspt",
@@ -863,7 +1148,10 @@
           "n": "Hyper Sports (Taiwan)(198x)(aaronix).sg",
           "c": "87619ac2"
         }
-      ]
+      ],
+      "t": "Hyper Sports (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_hypersptk": {
       "parent": "sg1k_hyperspt",
@@ -872,7 +1160,10 @@
           "n": "Hyper Sports (Korea)(198x)(Samsung).sg",
           "c": "3157ef9c"
         }
-      ]
+      ],
+      "t": "Hyper Sports (Korea)",
+      "y": "198?",
+      "m": "Samsung"
     },
     "sg1k_hypersp2": {
       "parent": null,
@@ -881,7 +1172,10 @@
           "n": "Hyper Sports 2 (Taiwan)(198x)(Aaronix).sg",
           "c": "b0234e12"
         }
-      ]
+      ],
+      "t": "Hyper Sports 2 (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_jb007": {
       "parent": null,
@@ -890,7 +1184,10 @@
           "n": "007 James Bond (Japan, v2.7, OMV)(1984)(Tsukuda Original).sg",
           "c": "90160849"
         }
-      ]
+      ],
+      "t": "007 James Bond (Japan, v2.7, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_jb007a": {
       "parent": "sg1k_jb007",
@@ -899,7 +1196,10 @@
           "n": "007 James Bond (Japan, v2.6, OMV)(1984)(Tsukuda Original).sg",
           "c": "a8b5b57f"
         }
-      ]
+      ],
+      "t": "007 James Bond (Japan, v2.6, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_jb007t": {
       "parent": "sg1k_jb007",
@@ -908,7 +1208,10 @@
           "n": "007 James Bond (Taiwan)(198x)(Aaronix).sg",
           "c": "76d6c64d"
         }
-      ]
+      ],
+      "t": "007 James Bond (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_jinzita": {
       "parent": null,
@@ -917,7 +1220,10 @@
           "n": "Jinzita - King's Valley (Taiwan)(198x)(Aaronix).sg",
           "c": "223397a1"
         }
-      ]
+      ],
+      "t": "Jinzita ~ King's Valley (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_ldrun": {
       "parent": null,
@@ -926,7 +1232,10 @@
           "n": "Lode Runner (Euro, Japan)(1984)(Sega).sg",
           "c": "00ed3970"
         }
-      ]
+      ],
+      "t": "Lode Runner (Euro, Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_ldrunk": {
       "parent": "sg1k_ldrun",
@@ -935,7 +1244,10 @@
           "n": "Lode Runner (Korea)(198x).sg",
           "c": "e68bc7d6"
         }
-      ]
+      ],
+      "t": "Lode Runner (Korea)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_ldrunt": {
       "parent": "sg1k_ldrun",
@@ -944,7 +1256,10 @@
           "n": "Lode Runner (Taiwan)(198x)(Aaronix).sg",
           "c": "d953bdb7"
         }
-      ]
+      ],
+      "t": "Lode Runner (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_m2cp": {
       "parent": null,
@@ -953,7 +1268,10 @@
           "n": "SG-1000 M2 Check Program (Japan)(1984)(Sega).sg",
           "c": "207e7e99"
         }
-      ]
+      ],
+      "t": "SG-1000 M2 Check Program (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_magtree": {
       "parent": null,
@@ -962,7 +1280,10 @@
           "n": "Magical Tree (Taiwan)(198x)(Aaronix).sg",
           "c": "b3a8291a"
         }
-      ]
+      ],
+      "t": "Magical Tree (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_mkidwiz": {
       "parent": null,
@@ -971,7 +1292,10 @@
           "n": "Magical Kid Wiz (Taiwan)(198x)(Aaronix).sg",
           "c": "ffc4ee3f"
         }
-      ]
+      ],
+      "t": "Magical Kid Wiz (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_mahjong": {
       "parent": null,
@@ -980,7 +1304,10 @@
           "n": "Mahjong (Japan)(1983)(Sega).sg",
           "c": "6d909857"
         }
-      ]
+      ],
+      "t": "Mahjong (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_mahjonga": {
       "parent": "sg1k_mahjong",
@@ -989,7 +1316,10 @@
           "n": "Mahjong (Japan, Alt)(1983)(Sega).sg",
           "c": "1c137cab"
         }
-      ]
+      ],
+      "t": "Mahjong (Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_mahjongt": {
       "parent": "sg1k_mahjong",
@@ -998,7 +1328,10 @@
           "n": "Mahjong (Taiwan)(198x)(Aaronix).sg",
           "c": "bc823a89"
         }
-      ]
+      ],
+      "t": "Mahjong (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_monacogp": {
       "parent": null,
@@ -1007,7 +1340,10 @@
           "n": "Monaco GP (Japan, v1.2)(1983)(Sega).sg",
           "c": "02e5d66a"
         }
-      ]
+      ],
+      "t": "Monaco GP (Japan, v1.2)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_monacogpa": {
       "parent": "sg1k_monacogp",
@@ -1016,7 +1352,10 @@
           "n": "Monaco GP (Japan, v1.1)(1983)(Sega).sg",
           "c": "da2d57f3"
         }
-      ]
+      ],
+      "t": "Monaco GP (Japan, v1.1)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_monacogpb": {
       "parent": "sg1k_monacogp",
@@ -1025,7 +1364,10 @@
           "n": "Monaco GP (Japan)(1983)(Sega).sg",
           "c": "8572d73a"
         }
-      ]
+      ],
+      "t": "Monaco GP (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_monacogpt": {
       "parent": "sg1k_monacogp",
@@ -1034,7 +1376,10 @@
           "n": "Monaco GP (Taiwan)(198x)(Aaronix).sg",
           "c": "01cda679"
         }
-      ]
+      ],
+      "t": "Monaco GP (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_moyuchua": {
       "parent": null,
@@ -1043,7 +1388,10 @@
           "n": "Mo Yu Chuanqi ~ Knightmare (Taiwan)(198x)(Jumbo).sg",
           "c": "281d2888"
         }
-      ]
+      ],
+      "t": "Mo Yu Chuanqi ~ Knightmare (Taiwan)",
+      "y": "198?",
+      "m": "Jumbo"
     },
     "sg1k_ninjapri": {
       "parent": null,
@@ -1052,7 +1400,10 @@
           "n": "Ninja Princess (Japan)(1986)(Sega).sg",
           "c": "3b912408"
         }
-      ]
+      ],
+      "t": "Ninja Princess (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_ninjaprie": {
       "parent": "sg1k_ninjapri",
@@ -1061,7 +1412,10 @@
           "n": "Ninja Princess T-Eng (2010)(goldenband).sg",
           "c": "bdb6cf0e"
         }
-      ]
+      ],
+      "t": "Ninja Princess (Hack, English)",
+      "y": "2010",
+      "m": "goldenband"
     },
     "sg1k_ninjaprit": {
       "parent": "sg1k_ninjapri",
@@ -1070,7 +1424,10 @@
           "n": "Renzhe Gongzhu (Taiwan)(198x).sg",
           "c": "464d144b"
         }
-      ]
+      ],
+      "t": "Renzhe Gongzhu (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_nsub": {
       "parent": null,
@@ -1079,7 +1436,10 @@
           "n": "N-Sub (1988)(Sega).sg",
           "c": "09196fc5"
         }
-      ]
+      ],
+      "t": "N-Sub (Euro?)",
+      "y": "1988",
+      "m": "Sega"
     },
     "sg1k_nsuba": {
       "parent": "sg1k_nsub",
@@ -1088,7 +1448,10 @@
           "n": "N-Sub (Japan)(1983)(Sega).sg",
           "c": "652bbd1e"
         }
-      ]
+      ],
+      "t": "N-Sub (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_nsubb": {
       "parent": "sg1k_nsub",
@@ -1097,7 +1460,10 @@
           "n": "N-Sub (Japan, Alt)(1983)(Sega).sg",
           "c": "b377d6e1"
         }
-      ]
+      ],
+      "t": "N-Sub (Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_nsubt": {
       "parent": "sg1k_nsub",
@@ -1106,7 +1472,10 @@
           "n": "N-Sub (Taiwan)(198x)(Aaronix).sg",
           "c": "3e371769"
         }
-      ]
+      ],
+      "t": "N-Sub (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_matchpg": {
       "parent": null,
@@ -1115,7 +1484,10 @@
           "n": "Okamoto Ayako no Match Play Golf (Japan, OMV)(1984)(Tsukuda Original).sg",
           "c": "49d3db2c"
         }
-      ]
+      ],
+      "t": "Okamoto Ayako no Match Play Golf (Japan, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_matchpga": {
       "parent": "sg1k_matchpg",
@@ -1124,7 +1496,10 @@
           "n": "Okamoto Ayako no Match Play Golf (Japan, OMV, Alt)(1984)(Tsukuda Original).sg",
           "c": "547dd7fd"
         }
-      ]
+      ],
+      "t": "Okamoto Ayako no Match Play Golf (Japan, OMV, Alt)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_matchpgt": {
       "parent": "sg1k_matchpg",
@@ -1133,7 +1508,10 @@
           "n": "Okamoto Ayako no Match Play Golf (Taiwan)(198x)(Aaronix).sg",
           "c": "b60492d5"
         }
-      ]
+      ],
+      "t": "Okamoto Ayako no Match Play Golf (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_orguss": {
       "parent": null,
@@ -1142,7 +1520,10 @@
           "n": "Orguss (Japan)(1984)(Sega).sg",
           "c": "f4f78b76"
         }
-      ]
+      ],
+      "t": "Orguss (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_othello": {
       "parent": null,
@@ -1151,7 +1532,10 @@
           "n": "Othello (Japan)(1985)(Sega).sg",
           "c": "af4f14bc"
         }
-      ]
+      ],
+      "t": "Othello (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_heibaiqi": {
       "parent": "sg1k_othello",
@@ -1160,7 +1544,10 @@
           "n": "Heibai Qi (Taiwan)(198x)(Aaronix).sg",
           "c": "1d1a0ca3"
         }
-      ]
+      ],
+      "t": "Heibai Qi (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_pacar": {
       "parent": null,
@@ -1169,7 +1556,10 @@
           "n": "Pacar (Japan)(1983)(Sega).sg",
           "c": "30c52e5e"
         }
-      ]
+      ],
+      "t": "Pacar (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_pacara": {
       "parent": "sg1k_pacar",
@@ -1178,7 +1568,10 @@
           "n": "Pacar (Japan, Alt)(1983)(Sega).sg",
           "c": "19949375"
         }
-      ]
+      ],
+      "t": "Pacar (Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_pacart": {
       "parent": "sg1k_pacar",
@@ -1187,7 +1580,10 @@
           "n": "Pacar (Taiwan)(198x)(Aaronix).sg",
           "c": "dd6817a0"
         }
-      ]
+      ],
+      "t": "Pacar (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_pachink2": {
       "parent": null,
@@ -1196,7 +1592,10 @@
           "n": "Pachinko II (Japan)(1984)(Sega).sg",
           "c": "fd7cb50a"
         }
-      ]
+      ],
+      "t": "Pachinko II (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_pachink2t": {
       "parent": "sg1k_pachink2",
@@ -1205,7 +1604,10 @@
           "n": "Pachinko II (Taiwan)(198x)(Aaronix).sg",
           "c": "6ebe81bf"
         }
-      ]
+      ],
+      "t": "Pachinko II (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_pachinko": {
       "parent": null,
@@ -1214,7 +1616,10 @@
           "n": "Pachinko (Japan)(1983)(Sega).sg",
           "c": "326587e1"
         }
-      ]
+      ],
+      "t": "Pachinko (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_pingpong": {
       "parent": null,
@@ -1223,7 +1628,10 @@
           "n": "Ping Pong (Taiwan)(198x)(Aaronix).sg",
           "c": "4d972a9e"
         }
-      ]
+      ],
+      "t": "Ping Pong (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_pitfall2a": {
       "parent": "sg1k_pitfall2",
@@ -1232,7 +1640,10 @@
           "n": "Pitfall II - The Lost Caverns (Japan)(1985)(Sega).sg",
           "c": "37fca2eb"
         }
-      ]
+      ],
+      "t": "Pitfall II: The Lost Caverns (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_pitfall2": {
       "parent": null,
@@ -1241,7 +1652,10 @@
           "n": "Pitfall II - The Lost Caverns (Japan, v1.1)(1985)(Sega).sg",
           "c": "3db74761"
         }
-      ]
+      ],
+      "t": "Pitfall II: The Lost Caverns (Japan, v1.1)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_faguiqib": {
       "parent": "sg1k_pitfall2",
@@ -1250,7 +1664,10 @@
           "n": "Fa Gui Qibing (Taiwan)(198x)(Aaronix).sg",
           "c": "476a079b"
         }
-      ]
+      ],
+      "t": "Fa Gui Qibing (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_faguiqiba": {
       "parent": "sg1k_pitfall2",
@@ -1259,7 +1676,10 @@
           "n": "Fa Gui Qibing - Pitfall II (Taiwan, Alt)(198x)(Aaronix).sg",
           "c": "4e93bc8e"
         }
-      ]
+      ],
+      "t": "Pitfall II (Taiwan, Alt)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_popflame": {
       "parent": null,
@@ -1268,7 +1688,10 @@
           "n": "Pop Flamer (Euro, Japan)(1983)(Sega).sg",
           "c": "db6404ba"
         }
-      ]
+      ],
+      "t": "Pop Flamer (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_popflamet": {
       "parent": "sg1k_popflame",
@@ -1277,7 +1700,10 @@
           "n": "Pop Flamer (Taiwan)(198x)(Aaronix).sg",
           "c": "ab1da8a6"
         }
-      ]
+      ],
+      "t": "Pop Flamer (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_qbert": {
       "parent": null,
@@ -1286,7 +1712,10 @@
           "n": "Q-bert (Japan, OMV)(1983)(Tsukuda Original).sg",
           "c": "77db4704"
         }
-      ]
+      ],
+      "t": "Q*bert (Japan, OMV)",
+      "y": "1983",
+      "m": "Tsukuda Original"
     },
     "sg1k_rallyx": {
       "parent": null,
@@ -1295,7 +1724,10 @@
           "n": "Rally-X (Taiwan)(Unl)(198x).sg",
           "c": "aaac12cf"
         }
-      ]
+      ],
+      "t": "Rally-X (Taiwan) (Unl)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_duduche": {
       "parent": "sg1k_rallyx",
@@ -1304,7 +1736,10 @@
           "n": "Du Du Che (Taiwan)(Unl)(198x)(DahJee).sg",
           "c": "306d5f78"
         }
-      ]
+      ],
+      "t": "Du Du Che (Taiwan) (Unl)",
+      "y": "198?",
+      "m": "DahJee"
     },
     "sg1k_roadfght": {
       "parent": null,
@@ -1313,7 +1748,10 @@
           "n": "Road Fighter (Taiwan)(Unl)(198x).sg",
           "c": "d2edd329"
         }
-      ]
+      ],
+      "t": "Road Fighter (Taiwan) (Unl)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_huojiche": {
       "parent": "sg1k_roadfght",
@@ -1322,7 +1760,10 @@
           "n": "Huojian Che (Taiwan)(Unl)(198x)(Jumbo).sg",
           "c": "29e047cc"
         }
-      ]
+      ],
+      "t": "Huojian Che (Taiwan) (Unl)",
+      "y": "198?",
+      "m": "Jumbo"
     },
     "sg1k_rocknbol": {
       "parent": null,
@@ -1331,7 +1772,10 @@
           "n": "Rock n' Bolt (Japan)(1985)(Sega).sg",
           "c": "0ffdd03d"
         }
-      ]
+      ],
+      "t": "Rock n' Bolt (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_motianda": {
       "parent": "sg1k_rocknbol",
@@ -1340,7 +1784,10 @@
           "n": "Mo Tian Da Lou (Taiwan)(198x)(Aaronix).sg",
           "c": "4eacb981"
         }
-      ]
+      ],
+      "t": "Mo Tian Da Lou (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_safarihu": {
       "parent": null,
@@ -1349,7 +1796,10 @@
           "n": "Safari Hunting (Japan)(1983)(Sega).sg",
           "c": "49e9718b"
         }
-      ]
+      ],
+      "t": "Safari Hunting (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_safarihut": {
       "parent": "sg1k_safarihu",
@@ -1358,7 +1808,10 @@
           "n": "Safari Hunting (Taiwan)(198x)(Aaronix).sg",
           "c": "6dc51c01"
         }
-      ]
+      ],
+      "t": "Safari Hunting (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_safarirc": {
       "parent": null,
@@ -1367,7 +1820,10 @@
           "n": "Safari Race (Euro)(1988)(Sega).sg",
           "c": "619dd066"
         }
-      ]
+      ],
+      "t": "Safari Race (Euro)",
+      "y": "1988",
+      "m": "Sega"
     },
     "sg1k_safarircj": {
       "parent": "sg1k_safarirc",
@@ -1376,7 +1832,10 @@
           "n": "Safari Race (Japan)(1984)(Sega).sg",
           "c": "08707fe3"
         }
-      ]
+      ],
+      "t": "Safari Race (Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "sg1k_safarirct": {
       "parent": "sg1k_safarirc",
@@ -1385,7 +1844,10 @@
           "n": "Safari Race (Taiwan)(198x)(Aaronix).sg",
           "c": "b2724428"
         }
-      ]
+      ],
+      "t": "Safari Race (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_3ninmj": {
       "parent": null,
@@ -1394,7 +1856,10 @@
           "n": "San-nin Mahjong (Japan, OMV)(1984)(Tsukuda Original).sg",
           "c": "885fa64d"
         }
-      ]
+      ],
+      "t": "San-nin Mahjong (Japan, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_3ninmjt": {
       "parent": "sg1k_3ninmj",
@@ -1403,7 +1868,10 @@
           "n": "San-nin Mahjong (Taiwan)(198x)(Aaronix).sg",
           "c": "6fd17655"
         }
-      ]
+      ],
+      "t": "San-nin Mahjong (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_segaflip": {
       "parent": null,
@@ -1412,7 +1880,10 @@
           "n": "Sega Flipper (Euro, Japan)(1983)(Sega).sg",
           "c": "8efc77bc"
         }
-      ]
+      ],
+      "t": "Sega Flipper (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_segaflipa": {
       "parent": "sg1k_segaflip",
@@ -1421,7 +1892,10 @@
           "n": "Sega Flipper (Japan, Alt)(1983)(Sega).sg",
           "c": "fd76ad99"
         }
-      ]
+      ],
+      "t": "Sega Flipper (Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_segaflipt": {
       "parent": "sg1k_segaflip",
@@ -1430,7 +1904,10 @@
           "n": "Flipper (Taiwan)(198x)(Aaronix).sg",
           "c": "042c36ba"
         }
-      ]
+      ],
+      "t": "Flipper (Taiwan)",
+      "y": "1984?",
+      "m": "Aaronix"
     },
     "sg1k_segagala": {
       "parent": null,
@@ -1439,7 +1916,10 @@
           "n": "Sega-Galaga (Japan)(1983)(Sega).sg",
           "c": "981e36c1"
         }
-      ]
+      ],
+      "t": "Sega-Galaga (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_segagala1": {
       "parent": "sg1k_segagala",
@@ -1448,7 +1928,10 @@
           "n": "Sega-Galaga (Japan, Alt)(1983)(Sega).sg",
           "c": "31283003"
         }
-      ]
+      ],
+      "t": "Sega-Galaga (Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_galaga": {
       "parent": "sg1k_segagala",
@@ -1457,7 +1940,10 @@
           "n": "Galaga (Taiwan)(198x)(Aaronix).sg",
           "c": "845bbb22"
         }
-      ]
+      ],
+      "t": "Galaga (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_serizawa": {
       "parent": null,
@@ -1466,7 +1952,10 @@
           "n": "Serizawa Hachidan no Tsumeshogi (Japan)(1983)(Sega).sg",
           "c": "545fc9bb"
         }
-      ]
+      ],
+      "t": "Serizawa Hachidan no Tsumeshogi (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_shinnyus": {
       "parent": null,
@@ -1475,7 +1964,10 @@
           "n": "Shinnyushain Tooru-kun (Japan)(1985)(Sega).sg",
           "c": "5a917e06"
         }
-      ]
+      ],
+      "t": "Shinnyushain Tooru-kun (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_shinnyust": {
       "parent": "sg1k_shinnyus",
@@ -1484,7 +1976,10 @@
           "n": "Shinnyushain Tooru-kun (Taiwan)(198x).sg",
           "c": "33fc5cf6"
         }
-      ]
+      ],
+      "t": "Shinnyushain Tooru-kun (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_sxpao": {
       "parent": null,
@@ -1493,7 +1988,10 @@
           "n": "Shuangxiang Pao - Twinbee (Taiwan)(198x)(Jumbo).sg",
           "c": "c550b4f0"
         }
-      ]
+      ],
+      "t": "Shuangxiang Pao ~ Twinbee (Taiwan)",
+      "y": "198?",
+      "m": "Jumbo"
     },
     "sg1k_sindbadm": {
       "parent": null,
@@ -1502,7 +2000,10 @@
           "n": "Sindbad Mystery (Euro, Japan)(1983)(Sega).sg",
           "c": "01932df9"
         }
-      ]
+      ],
+      "t": "Sindbad Mystery (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_sindbadmt": {
       "parent": "sg1k_sindbadm",
@@ -1511,7 +2012,10 @@
           "n": "Sindbad Mystery (Taiwan)(198x)(Aaronix).sg",
           "c": "945f7847"
         }
-      ]
+      ],
+      "t": "Sindbad Mystery (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_sokoban": {
       "parent": null,
@@ -1520,7 +2024,10 @@
           "n": "Soukoban (Japan)(1985)(Sega).sg",
           "c": "922c5468"
         }
-      ]
+      ],
+      "t": "Soukoban (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_sokobant": {
       "parent": "sg1k_sokoban",
@@ -1529,7 +2036,10 @@
           "n": "Soukoban (Taiwan)(198x).sg",
           "c": "a2c3fc97"
         }
-      ]
+      ],
+      "t": "Soukoban (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_sokobank": {
       "parent": "sg1k_sokoban",
@@ -1538,7 +2048,10 @@
           "n": "Soukoban (Korea)(1989)(Samsung).sg",
           "c": "148ea752"
         }
-      ]
+      ],
+      "t": "Soukoban (Korea)",
+      "y": "1989",
+      "m": "Samsung"
     },
     "sg1k_iq": {
       "parent": "sg1k_sokoban",
@@ -1547,7 +2060,10 @@
           "n": "I.Q. (Korea)(1985).sg",
           "c": "89bafec5"
         }
-      ]
+      ],
+      "t": "I.Q. (Korea)",
+      "y": "1985",
+      "m": "<unknown>"
     },
     "sg1k_spacearm": {
       "parent": null,
@@ -1556,7 +2072,10 @@
           "n": "Space Armor (Japan, v20, OMV)(1984)(Tsukuda Original).sg",
           "c": "ac4f0a5c"
         }
-      ]
+      ],
+      "t": "Space Armor (Japan, v20, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_spacearma": {
       "parent": "sg1k_spacearm",
@@ -1565,7 +2084,10 @@
           "n": "Space Armor (Japan, v20, OMV, Alt)(1984)(Tsukuda Original).sg",
           "c": "d5fdb4a3"
         }
-      ]
+      ],
+      "t": "Space Armor (Japan, v20, OMV, Alt)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_spacearmb": {
       "parent": "sg1k_spacearm",
@@ -1574,7 +2096,10 @@
           "n": "Space Armor (Japan, v10, OMV)(1984)(Tsukuda Original).sg",
           "c": "d23b0e3e"
         }
-      ]
+      ],
+      "t": "Space Armor (Japan, v10, OMV)",
+      "y": "1984",
+      "m": "Tsukuda Original"
     },
     "sg1k_spaceinv": {
       "parent": null,
@@ -1583,7 +2108,10 @@
           "n": "Space Invaders (Japan)(1985)(Sega).sg",
           "c": "6ad5cb3d"
         }
-      ]
+      ],
+      "t": "Space Invaders (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_spaceinvt": {
       "parent": "sg1k_spaceinv",
@@ -1592,7 +2120,10 @@
           "n": "Space Invaders (Taiwan)(198x)(Aaronix).sg",
           "c": "0760ea93"
         }
-      ]
+      ],
+      "t": "Space Invaders (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_spacemnt": {
       "parent": null,
@@ -1601,7 +2132,10 @@
           "n": "Space Mountain (Japan, OMV)(1983)(Tsukuda Original).sg",
           "c": "bbd87d8f"
         }
-      ]
+      ],
+      "t": "Space Mountain (Japan, OMV)",
+      "y": "1983",
+      "m": "Tsukuda Original"
     },
     "sg1k_spacesla": {
       "parent": null,
@@ -1610,7 +2144,10 @@
           "n": "Space Slalom (Japan)(1983)(Sega).sg",
           "c": "b8b58b30"
         }
-      ]
+      ],
+      "t": "Space Slalom (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_starfrce": {
       "parent": null,
@@ -1619,7 +2156,10 @@
           "n": "Star Force (Japan)(1985)(Sega).sg",
           "c": "b846b52a"
         }
-      ]
+      ],
+      "t": "Star Force (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_starfrcet": {
       "parent": "sg1k_starfrce",
@@ -1628,7 +2168,10 @@
           "n": "Star Force (Taiwan)(198x)(Aaronix).sg",
           "c": "1f736931"
         }
-      ]
+      ],
+      "t": "Star Force (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_starfrceta": {
       "parent": "sg1k_starfrce",
@@ -1637,7 +2180,10 @@
           "n": "Star Force (Taiwan, Alt)(198x)(Aaronix).sg",
           "c": "6f9b1ccd"
         }
-      ]
+      ],
+      "t": "Star Force (Taiwan, Alt)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_starjack": {
       "parent": null,
@@ -1646,7 +2192,10 @@
           "n": "Star Jacker (Euro, Japan, v1.2)(1983)(Sega).sg",
           "c": "3fe59505"
         }
-      ]
+      ],
+      "t": "Star Jacker (Euro, Japan, v1.2)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_starjack1": {
       "parent": "sg1k_starjack",
@@ -1655,7 +2204,10 @@
           "n": "Star Jacker (Euro, Japan, v1.1)(1983)(Sega).sg",
           "c": "7f25deca"
         }
-      ]
+      ],
+      "t": "Star Jacker (Euro, Japan, v1.1)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_starjack2": {
       "parent": "sg1k_starjack",
@@ -1664,7 +2216,10 @@
           "n": "Star Jacker (Japan)(1983)(Sega).sg",
           "c": "1ae94122"
         }
-      ]
+      ],
+      "t": "Star Jacker (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_starjackt": {
       "parent": "sg1k_starjack",
@@ -1673,7 +2228,10 @@
           "n": "Star Jacker (Taiwan)(198x)(Aaronix).sg",
           "c": "df162201"
         }
-      ]
+      ],
+      "t": "Star Jacker (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_supertnk": {
       "parent": null,
@@ -1682,7 +2240,10 @@
           "n": "Super Tank (Japan)(1986)(Sega).sg",
           "c": "084cc13e"
         }
-      ]
+      ],
+      "t": "Super Tank (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_supertnkk": {
       "parent": "sg1k_supertnk",
@@ -1691,7 +2252,10 @@
           "n": "Super Tank (Korea)(198x).sg",
           "c": "4c48b7ac"
         }
-      ]
+      ],
+      "t": "Super Tank (Korea)",
+      "y": "1986?",
+      "m": "<unknown>"
     },
     "sg1k_supertnkt": {
       "parent": "sg1k_supertnk",
@@ -1700,7 +2264,10 @@
           "n": "Chaoji Tanke (Taiwan)(198x).sg",
           "c": "d0c3df3f"
         }
-      ]
+      ],
+      "t": "Chaoji Tanke (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_wboy": {
       "parent": null,
@@ -1709,7 +2276,10 @@
           "n": "Wonder Boy (Japan, v1.1)(1986)(Sega).sg",
           "c": "e8f0344d"
         }
-      ]
+      ],
+      "t": "Wonder Boy (Japan, v1.1)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_wboya": {
       "parent": "sg1k_wboy",
@@ -1718,7 +2288,10 @@
           "n": "Wonder Boy (Japan)(1986)(Sega).sg",
           "c": "160535c5"
         }
-      ]
+      ],
+      "t": "Wonder Boy (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sg1k_wboyt": {
       "parent": "sg1k_wboy",
@@ -1727,7 +2300,10 @@
           "n": "Wonder Boy (Taiwan)(198x).sg",
           "c": "953fc2b2"
         }
-      ]
+      ],
+      "t": "Wonder Boy (Taiwan)",
+      "y": "198?",
+      "m": "<unknown>"
     },
     "sg1k_yamato": {
       "parent": null,
@@ -1736,7 +2312,10 @@
           "n": "Yamato (Euro, Japan)(1983)(Sega).sg",
           "c": "e2fd5201"
         }
-      ]
+      ],
+      "t": "Yamato (Euro, Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_yamatoa": {
       "parent": "sg1k_yamato",
@@ -1745,7 +2324,10 @@
           "n": "Yamato (Euro, Japan, Alt)(1983)(Sega).sg",
           "c": "9c7497ff"
         }
-      ]
+      ],
+      "t": "Yamato (Euro, Japan, Alt)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_yamatot": {
       "parent": "sg1k_yamato",
@@ -1754,7 +2336,10 @@
           "n": "Yamato (Taiwan)(198x)(aaronix).sg",
           "c": "b65a093f"
         }
-      ]
+      ],
+      "t": "Yamato (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_yiear": {
       "parent": null,
@@ -1763,7 +2348,10 @@
           "n": "Yie Ar Kung-Fu (Taiwan)(198x)(Aaronix).sg",
           "c": "bb0f1930"
         }
-      ]
+      ],
+      "t": "Yie Ar Kung-Fu (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_zaxxon": {
       "parent": null,
@@ -1772,7 +2360,10 @@
           "n": "Zaxxon (Japan)(1985)(Sega).sg",
           "c": "905467e4"
         }
-      ]
+      ],
+      "t": "Zaxxon (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_zaxxont": {
       "parent": "sg1k_zaxxon",
@@ -1781,7 +2372,10 @@
           "n": "Zaxxon (Taiwan)(198x)(Aaronix).sg",
           "c": "49cae925"
         }
-      ]
+      ],
+      "t": "Zaxxon (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_zippyrac": {
       "parent": null,
@@ -1790,7 +2384,10 @@
           "n": "Zippy Race (Japan)(1983)(Sega).sg",
           "c": "bc5d20df"
         }
-      ]
+      ],
+      "t": "Zippy Race (Japan)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sg1k_zippyract": {
       "parent": "sg1k_zippyrac",
@@ -1799,7 +2396,10 @@
           "n": "Zippy Race (Taiwan)(198x)(Aaronix).sg",
           "c": "bcf441a5"
         }
-      ]
+      ],
+      "t": "Zippy Race (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_zoom909": {
       "parent": null,
@@ -1808,7 +2408,10 @@
           "n": "Zoom 909 (Japan)(1985)(Sega).sg",
           "c": "093830d8"
         }
-      ]
+      ],
+      "t": "Zoom 909 (Japan)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sg1k_huohuli": {
       "parent": "sg1k_zoom909",
@@ -1817,7 +2420,10 @@
           "n": "Huo Huli (Taiwan)(198x)(Aaronix).sg",
           "c": "9943fc2b"
         }
-      ]
+      ],
+      "t": "Huo Huli ~ Zoom 909 (Taiwan)",
+      "y": "198?",
+      "m": "Aaronix"
     },
     "sg1k_aerial": {
       "parent": null,
@@ -1826,7 +2432,10 @@
           "n": "Aerial (2022)(Inufuto).sg",
           "c": "87e4f535"
         }
-      ]
+      ],
+      "t": "Aerial (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_antiair": {
       "parent": null,
@@ -1835,7 +2444,10 @@
           "n": "AntiAir (2024)(Inufuto).sg",
           "c": "948599bd"
         }
-      ]
+      ],
+      "t": "AntiAir (HB)",
+      "y": "2024",
+      "m": "Inufuto"
     },
     "sg1k_arnodash": {
       "parent": null,
@@ -1844,7 +2456,10 @@
           "n": "Arno Dash v1.03 (2021)(Under4Mhz).sg",
           "c": "6dad65d3"
         }
-      ]
+      ],
+      "t": "Arno Dash (HB, v1.03)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_arnodash2": {
       "parent": null,
@@ -1853,7 +2468,10 @@
           "n": "Arno Dash 2 v1.03 (2020)(Under4Mhz).sg",
           "c": "e0478a53"
         }
-      ]
+      ],
+      "t": "Arno Dash 2 (HB, v1.03)",
+      "y": "2020",
+      "m": "Under4Mhz"
     },
     "sg1k_ascend": {
       "parent": null,
@@ -1862,7 +2480,10 @@
           "n": "Ascend (2022)(Inufuto).sg",
           "c": "69e60ce5"
         }
-      ]
+      ],
+      "t": "Ascend (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_astrododge": {
       "parent": null,
@@ -1871,7 +2492,10 @@
           "n": "Astrododge (2012)(Revival Studios).sg",
           "c": "b895942d"
         }
-      ]
+      ],
+      "t": "Astrododge (HB)",
+      "y": "2012",
+      "m": "Revival Studios"
     },
     "sg1k_awass": {
       "parent": null,
@@ -1880,7 +2504,10 @@
           "n": "Awass (2026)(Inufuto).sg",
           "c": "bbff7ebf"
         }
-      ]
+      ],
+      "t": "Awass (HB)",
+      "y": "2026",
+      "m": "Inufuto"
     },
     "sg1k_barbarricade": {
       "parent": null,
@@ -1889,7 +2516,10 @@
           "n": "Barbarricade 06-02-26 (2026)(Jess Creations, ArugulaZ).sg",
           "c": "e8b1959c"
         }
-      ]
+      ],
+      "t": "Barbarricade (HB, 06-02-26)",
+      "y": "2026",
+      "m": "Jess Creations - ArugulaZ"
     },
     "sg1k_battlot": {
       "parent": null,
@@ -1898,7 +2528,10 @@
           "n": "Battlot (2021)(Inufuto).sg",
           "c": "90532d80"
         }
-      ]
+      ],
+      "t": "Battlot (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "sg1k_bloktris": {
       "parent": null,
@@ -1907,7 +2540,10 @@
           "n": "Bloktris (2023)(Under4Mhz).sg",
           "c": "7febcd40"
         }
-      ]
+      ],
+      "t": "Bloktris (HB)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "sg1k_bootskell": {
       "parent": null,
@@ -1916,7 +2552,10 @@
           "n": "Bootskell (2021)(Inufuto).sg",
           "c": "c2413720"
         }
-      ]
+      ],
+      "t": "Bootskell (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "sg1k_cacorm": {
       "parent": null,
@@ -1925,7 +2564,10 @@
           "n": "Cacorm (2022)(Inufuto).sg",
           "c": "26d37da3"
         }
-      ]
+      ],
+      "t": "Cacorm (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_camknights": {
       "parent": null,
@@ -1934,7 +2576,10 @@
           "n": "Camelot Knights (2024)(Nanochess).sg",
           "c": "e094af08"
         }
-      ]
+      ],
+      "t": "Camelot Knights (HB)",
+      "y": "2024",
+      "m": "Nanochess"
     },
     "sg1k_cavit": {
       "parent": null,
@@ -1943,7 +2588,10 @@
           "n": "Cavit (2021)(Inufuto).sg",
           "c": "421d3f26"
         }
-      ]
+      ],
+      "t": "Cavit (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "sg1k_cheman": {
       "parent": null,
@@ -1952,7 +2600,10 @@
           "n": "Che-Man (2018)(The Mojon Twins).sg",
           "c": "477a5d75"
         }
-      ]
+      ],
+      "t": "Che-Man (HB)",
+      "y": "2018",
+      "m": "The Mojon Twins"
     },
     "sg1k_cherilp": {
       "parent": null,
@@ -1961,7 +2612,10 @@
           "n": "Cheril Perils Classic (2018)(The Mojon Twins).sg",
           "c": "f87d6ef5"
         }
-      ]
+      ],
+      "t": "Cheril Perils Classic (HB)",
+      "y": "2018",
+      "m": "The Mojon Twins"
     },
     "sg1k_cracky": {
       "parent": null,
@@ -1970,7 +2624,10 @@
           "n": "Cracky (2023)(Inufuto).sg",
           "c": "34517b4c"
         }
-      ]
+      ],
+      "t": "Cracky (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "sg1k_crossbomber": {
       "parent": null,
@@ -1979,7 +2636,10 @@
           "n": "Cross Bomber (2023)(Fabrizio Caruso).sg",
           "c": "c44b95f7"
         }
-      ]
+      ],
+      "t": "Cross Bomber (HB)",
+      "y": "2023",
+      "m": "Fabrizio Caruso"
     },
     "sg1k_crosstrex": {
       "parent": null,
@@ -1988,7 +2648,10 @@
           "n": "Cross TREX (2024)(Fabrizio Caruso).sg",
           "c": "6211e354"
         }
-      ]
+      ],
+      "t": "Cross TREX (HB)",
+      "y": "2024",
+      "m": "Fabrizio Caruso"
     },
     "sg1k_eyebrawls": {
       "parent": null,
@@ -1997,7 +2660,10 @@
           "n": "Eye Brawls 1-30-26 (2026)(Jess Creations, ArugulaZ).sg",
           "c": "3ea1da76"
         }
-      ]
+      ],
+      "t": "Eye Brawls (HB, 1-30-26)",
+      "y": "2026",
+      "m": "Jess Creations - ArugulaZ"
     },
     "sg1k_foryster": {
       "parent": null,
@@ -2006,7 +2672,10 @@
           "n": "Foryster v00.9 (2022)(siudym).sg",
           "c": "f8d7fa2c"
         }
-      ]
+      ],
+      "t": "Foryster (HB, v00.9)",
+      "y": "2022",
+      "m": "siudym"
     },
     "sg1k_guntus": {
       "parent": null,
@@ -2015,7 +2684,10 @@
           "n": "Guntus (2022)(Inufuto).sg",
           "c": "c23f2f57"
         }
-      ]
+      ],
+      "t": "Guntus (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_hopman": {
       "parent": null,
@@ -2024,7 +2696,10 @@
           "n": "Hopman (2023)(Inufuto).sg",
           "c": "8bc01dd6"
         }
-      ]
+      ],
+      "t": "Hopman (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     },
     "sg1k_impetus": {
       "parent": null,
@@ -2033,7 +2708,10 @@
           "n": "Impetus (2022)(Inufuto).sg",
           "c": "42179ce3"
         }
-      ]
+      ],
+      "t": "Impetus (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_impetusplus": {
       "parent": null,
@@ -2042,7 +2720,10 @@
           "n": "Impetus+ (2025)(Inufuto).sg",
           "c": "57f3ceec"
         }
-      ]
+      ],
+      "t": "Impetus+ (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "sg1k_jetpaco": {
       "parent": null,
@@ -2051,7 +2732,10 @@
           "n": "Jet Paco and Jet Puri (2018)(The Mojon Twins).sg",
           "c": "d31c6b3b"
         }
-      ]
+      ],
+      "t": "Jet Paco and Jet Puri (HB)",
+      "y": "2018",
+      "m": "The Mojon Twins"
     },
     "sg1k_ksolitaire": {
       "parent": null,
@@ -2060,7 +2744,10 @@
           "n": "Klondike Solitaire v1.04 (2021)(Under4Mhz).sg",
           "c": "5f9f8b15"
         }
-      ]
+      ],
+      "t": "Klondike Solitaire (HB, v1.04)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_lift": {
       "parent": null,
@@ -2069,7 +2756,10 @@
           "n": "Lift (2022)(Inufuto).sg",
           "c": "f5e62875"
         }
-      ]
+      ],
+      "t": "Lift (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_msolitaire": {
       "parent": null,
@@ -2078,7 +2768,10 @@
           "n": "Mahjong Solitaire v1.16 (2023)(Under4Mhz).sg",
           "c": "d07afa95"
         }
-      ]
+      ],
+      "t": "Mahjong Solitaire (HB, v1.16)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "sg1k_manhole": {
       "parent": null,
@@ -2087,7 +2780,10 @@
           "n": "Manhole v0.6b (2024)(Electric Dreams).sg",
           "c": "e96272f6"
         }
-      ]
+      ],
+      "t": "Manhole (HB, v0.6b)",
+      "y": "2024",
+      "m": "Electric Dreams"
     },
     "sg1k_mazy": {
       "parent": null,
@@ -2096,7 +2792,10 @@
           "n": "Mazy (2022)(Inufuto).sg",
           "c": "8f972417"
         }
-      ]
+      ],
+      "t": "Mazy (HB)",
+      "y": "2022",
+      "m": "Inufuto"
     },
     "sg1k_mazy2": {
       "parent": null,
@@ -2105,7 +2804,10 @@
           "n": "Mazy 2 (2025)(Inufuto).sg",
           "c": "ad494ba4"
         }
-      ]
+      ],
+      "t": "Mazy 2 (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "sg1k_mieyen": {
       "parent": null,
@@ -2114,7 +2816,10 @@
           "n": "Mieyen (2025)(Inufuto).sg",
           "c": "3c65bb5a"
         }
-      ]
+      ],
+      "t": "Mieyen (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "sg1k_neuras": {
       "parent": null,
@@ -2123,7 +2828,10 @@
           "n": "Neuras (2021)(Inufuto).sg",
           "c": "beb45e42"
         }
-      ]
+      ],
+      "t": "Neuras (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "sg1k_ophibernplus": {
       "parent": null,
@@ -2132,7 +2840,10 @@
           "n": "Operation Hibernation Plus 02-15-26 (2025-26)(Jess Creations - ArugulaZ).sg",
           "c": "abc33998"
         }
-      ]
+      ],
+      "t": "Operation Hibernation Plus (HB, 02-15-26)",
+      "y": "2025-26",
+      "m": "Jess Creations - ArugulaZ"
     },
     "sg1k_osotos": {
       "parent": null,
@@ -2141,7 +2852,10 @@
           "n": "Osotos (2024)(Inufuto).sg",
           "c": "5e4238de"
         }
-      ]
+      ],
+      "t": "Osotos (HB)",
+      "y": "2024",
+      "m": "Inufuto"
     },
     "sg1k_palikat": {
       "parent": null,
@@ -2150,7 +2864,10 @@
           "n": "Palikat (2020)(helmha).sg",
           "c": "ec169914"
         }
-      ]
+      ],
+      "t": "Palikat (HB)",
+      "y": "2020",
+      "m": "helmha"
     },
     "sg1k_pegged": {
       "parent": null,
@@ -2159,7 +2876,10 @@
           "n": "Pegged v1.02 (2021)(Under4Mhz).sg",
           "c": "21e891f0"
         }
-      ]
+      ],
+      "t": "Pegged (HB, v1.02)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_pitman": {
       "parent": null,
@@ -2168,7 +2888,10 @@
           "n": "Pitman v1.03 (2021)(Under4Mhz).sg",
           "c": "e325f022"
         }
-      ]
+      ],
+      "t": "Pitman (HB, v1.03)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_retropipe": {
       "parent": null,
@@ -2177,7 +2900,10 @@
           "n": "RetroPIPE v0.2 (2025)(Visrealm).sg",
           "c": "3885a1f3"
         }
-      ]
+      ],
+      "t": "RetroPIPE (HB, v0.2)",
+      "y": "2025",
+      "m": "Visrealm"
     },
     "sg1k_ruptus": {
       "parent": null,
@@ -2186,7 +2912,10 @@
           "n": "Ruptus (2021)(Inufuto).sg",
           "c": "61b4a940"
         }
-      ]
+      ],
+      "t": "Ruptus (HB)",
+      "y": "2021",
+      "m": "Inufuto"
     },
     "sg1k_snake": {
       "parent": null,
@@ -2195,7 +2924,10 @@
           "n": "Snake v1.04 (2021)(Under4Mhz).sg",
           "c": "b9ab9d0c"
         }
-      ]
+      ],
+      "t": "Snake (HB, v1.04)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_sgthelmet": {
       "parent": null,
@@ -2204,7 +2936,10 @@
           "n": "Sgt. Helmet - Training Day (2018)(The Mojon Twins).sg",
           "c": "27c065a5"
         }
-      ]
+      ],
+      "t": "Sgt. Helmet: Training Day (HB)",
+      "y": "2018",
+      "m": "The Mojon Twins"
     },
     "sg1k_solarfoxii": {
       "parent": null,
@@ -2213,7 +2948,10 @@
           "n": "Solar Fox II 21-10-25 (2025)(Jess Creations - ArugulaZ).sg",
           "c": "7886d024"
         }
-      ]
+      ],
+      "t": "Solar Fox II (HB, 21-10-25)",
+      "y": "2025",
+      "m": "Jess Creations - ArugulaZ"
     },
     "sg1k_spacerocks": {
       "parent": null,
@@ -2222,7 +2960,10 @@
           "n": "Space Rocks (2021)(Under4Mhz).sg",
           "c": "0d1b085b"
         }
-      ]
+      ],
+      "t": "Space Rocks (HB)",
+      "y": "2021",
+      "m": "Under4Mhz"
     },
     "sg1k_superuwol": {
       "parent": null,
@@ -2231,7 +2972,22 @@
           "n": "Super UWOL (2016)(The Mojon Twins).sg",
           "c": "aa8ea6eb"
         }
-      ]
+      ],
+      "t": "Super UWOL! (HB)",
+      "y": "2016",
+      "m": "The Mojon Twins"
+    },
+    "sg1k_structris": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "Structris (2026)(unhuman).sg",
+          "c": "58a27c68"
+        }
+      ],
+      "t": "Structris (HB)",
+      "y": "2026",
+      "m": "unhuman"
     },
     "sg1k_svellas": {
       "parent": null,
@@ -2240,7 +2996,10 @@
           "n": "Svellas (2025)(Inufuto).sg",
           "c": "ea0cc388"
         }
-      ]
+      ],
+      "t": "Svellas (HB)",
+      "y": "2025",
+      "m": "Inufuto"
     },
     "sg1k_swordwork": {
       "parent": null,
@@ -2249,7 +3008,10 @@
           "n": "SwordWork (2026)(Inufuto).sg",
           "c": "1bfc657f"
         }
-      ]
+      ],
+      "t": "SwordWork (HB)",
+      "y": "2026",
+      "m": "Inufuto"
     },
     "sg1k_ultdungesc": {
       "parent": null,
@@ -2258,7 +3020,10 @@
           "n": "Ultimate Dungeon Escape (2025)(tibone, Cyrus, Revo).sg",
           "c": "73515934"
         }
-      ]
+      ],
+      "t": "Ultimate Dungeon Escape (HB)",
+      "y": "2025",
+      "m": "tibone, Cyrus, Revo"
     },
     "sg1k_vexed": {
       "parent": null,
@@ -2267,7 +3032,10 @@
           "n": "Vexed v1.08 (2023)(Under4Mhz).sg",
           "c": "124b2a43"
         }
-      ]
+      ],
+      "t": "Vexed (HB, v1.08)",
+      "y": "2023",
+      "m": "Under4Mhz"
     },
     "sg1k_wsbyrons": {
       "parent": null,
@@ -2276,7 +3044,10 @@
           "n": "Whack 'Em Smack 'Em Byrons (2024)(Jess Creations - ArugulaZ).sg",
           "c": "073dd0e9"
         }
-      ]
+      ],
+      "t": "Whack 'Em Smack 'Em Byrons (HB)",
+      "y": "2024",
+      "m": "Jess Creations - ArugulaZ"
     },
     "sg1k_yawi": {
       "parent": null,
@@ -2285,7 +3056,10 @@
           "n": "Yawi v0.9.3 (2025)(dark).sg",
           "c": "a1cc62dd"
         }
-      ]
+      ],
+      "t": "Yawi (HB, v0.9.3)",
+      "y": "2025",
+      "m": "dark"
     },
     "sg1k_yewdow": {
       "parent": null,
@@ -2294,7 +3068,10 @@
           "n": "Yewdow (2023)(Inufuto).sg",
           "c": "5917970d"
         }
-      ]
+      ],
+      "t": "Yewdow (HB)",
+      "y": "2023",
+      "m": "Inufuto"
     }
   }
 }

@@ -2,7 +2,7 @@
   "systems": [
     {
       "system": "atari",
-      "games": 118
+      "games": 152
     },
     {
       "system": "capcom",
@@ -18,7 +18,7 @@
     },
     {
       "system": "coleco",
-      "games": 656
+      "games": 658
     },
     {
       "system": "cps3",
@@ -33,6 +33,10 @@
       "games": 298
     },
     {
+      "system": "gba",
+      "games": 16
+    },
+    {
       "system": "irem",
       "games": 199
     },
@@ -42,7 +46,7 @@
     },
     {
       "system": "megadrive",
-      "games": 2923
+      "games": 2940
     },
     {
       "system": "midway",
@@ -50,15 +54,15 @@
     },
     {
       "system": "msx",
-      "games": 1798
+      "games": 1799
     },
     {
       "system": "neogeo",
-      "games": 682
+      "games": 683
     },
     {
       "system": "nes",
-      "games": 3144
+      "games": 3163
     },
     {
       "system": "pce",
@@ -74,7 +78,7 @@
     },
     {
       "system": "pre90s",
-      "games": 2074
+      "games": 2184
     },
     {
       "system": "psikyo",
@@ -82,15 +86,15 @@
     },
     {
       "system": "pst90s",
-      "games": 1597
+      "games": 1598
     },
     {
       "system": "sega",
-      "games": 658
+      "games": 659
     },
     {
       "system": "sg1000",
-      "games": 255
+      "games": 256
     },
     {
       "system": "sms",
@@ -98,11 +102,11 @@
     },
     {
       "system": "snes",
-      "games": 2625
+      "games": 2650
     },
     {
       "system": "spectrum",
-      "games": 3350
+      "games": 3364
     },
     {
       "system": "taito",
