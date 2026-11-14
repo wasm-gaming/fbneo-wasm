@@ -184,10 +184,17 @@ function parseDrivers(text) {
     if (!nameParent) continue;
     const romInfo = /(\w+)RomInfo\b/.exec(body);
     if (!romInfo) continue;
+    // Then: board ("neogeo" BIOS set), sample set, year, full name, comment, maker.
+    const str = '(NULL|"(?:[^"\\\\]|\\\\.)*")';
+    const meta = new RegExp(`^\\s*"[^"]+"\\s*,\\s*${str}\\s*,\\s*${str}\\s*,\\s*${str}\\s*,\\s*${str}\\s*,\\s*${str}\\s*,\\s*${str}\\s*,\\s*${str}`).exec(body);
+    const unquote = (lit) => (!lit || lit === 'NULL' ? null : lit.slice(1, -1).replace(/\\0$/, '').replace(/\\(.)/g, '$1').trim() || null);
     drivers.push({
       name: nameParent[1],
       parent: nameParent[3] ?? null,
       base: romInfo[1],
+      year: unquote(meta?.[4]),
+      title: unquote(meta?.[5]),
+      maker: unquote(meta?.[7]),
       // Neo Geo: the first program ROM is stored on the cart with its two halves
       // swapped and FBNeo un-swaps it after loading (neogeo.cpp). Anything
       // rebuilding a set from raw cart data has to swap it back.
@@ -206,6 +213,10 @@ function buildFromText(text, regions = null) {
     const roms = tables[d.base];
     if (!roms) continue; // driver references a table defined in another file
     games[d.name] = { parent: d.parent, roms };
+    // What a library shows: FBNeo's own full name, year and maker for the set.
+    if (d.title) games[d.name].t = d.title;
+    if (d.year) games[d.name].y = d.year;
+    if (d.maker) games[d.name].m = d.maker;
     if (regions && d.swapP) games[d.name].swapP = true;
   }
   return games;

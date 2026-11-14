@@ -108,7 +108,10 @@
           "n": "63s081n.u5",
           "c": "36b98627"
         }
-      ]
+      ],
+      "t": "Angel Kids (Japan)",
+      "y": "1988",
+      "m": "Sega / Nasco?"
     },
     "spcpostn": {
       "parent": null,
@@ -181,7 +184,10 @@
           "n": "63s081n.u5",
           "c": "36b98627"
         }
-      ]
+      ],
+      "t": "Space Position (Japan)",
+      "y": "1986",
+      "m": "Sega / Nasco"
     },
     "appoooh": {
       "parent": null,
@@ -278,7 +284,10 @@
           "n": "epr-5905.bin",
           "c": "fb5cd70e"
         }
-      ]
+      ],
+      "t": "Appoooh",
+      "y": "1984",
+      "m": "Sanritsu / Sega"
     },
     "robowres": {
       "parent": null,
@@ -335,7 +344,10 @@
           "n": "epr-7543.12b",
           "c": "4d108c49"
         }
-      ]
+      ],
+      "t": "Robo Wres 2001",
+      "y": "1986",
+      "m": "Sanritsu / Sega"
     },
     "bankp": {
       "parent": null,
@@ -404,7 +416,10 @@
           "n": "315-5074.2c.bin",
           "c": "2e57bbba"
         }
-      ]
+      ],
+      "t": "Bank Panic",
+      "y": "1984",
+      "m": "Sanritsu / Sega"
     },
     "bankpt": {
       "parent": "bankp",
@@ -469,7 +484,10 @@
           "n": "5_82s129.bin",
           "c": "e53bafdb"
         }
-      ]
+      ],
+      "t": "Bank Panic (Tecfri bootleg)",
+      "y": "1984",
+      "m": "bootleg (Tecfri)"
     },
     "combh": {
       "parent": null,
@@ -538,7 +556,10 @@
           "n": "315-5074.2c.bin",
           "c": "2e57bbba"
         }
-      ]
+      ],
+      "t": "Combat Hawk",
+      "y": "1987",
+      "m": "Sanritsu / Sega"
     },
     "dotrikun": {
       "parent": null,
@@ -547,7 +568,10 @@
           "n": "mpr-14479a.ic2",
           "c": "b77a50db"
         }
-      ]
+      ],
+      "t": "Dottori Kun (new version)",
+      "y": "1990",
+      "m": "Sega"
     },
     "dotrikun2": {
       "parent": "dotrikun",
@@ -556,7 +580,10 @@
           "n": "mpr-14479.ic2",
           "c": "a6aa7fa5"
         }
-      ]
+      ],
+      "t": "Dottori Kun (old version)",
+      "y": "1990",
+      "m": "Sega"
     },
     "dotriman": {
       "parent": "dotrikun",
@@ -565,7 +592,10 @@
           "n": "dotriman.bin",
           "c": "4ba6d2f5"
         }
-      ]
+      ],
+      "t": "Dottori-Man Jr.",
+      "y": "2016",
+      "m": "hack (Chris Covell)"
     },
     "enduror": {
       "parent": null,
@@ -766,7 +796,10 @@
           "n": "317-0013a.key",
           "c": "a965b2da"
         }
-      ]
+      ],
+      "t": "Enduro Racer (Rev A, YM2151, FD1089B 317-0013A)",
+      "y": "1986",
+      "m": "Sega"
     },
     "endurord": {
       "parent": "enduror",
@@ -963,7 +996,10 @@
           "n": "epr-6844.ic123",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "Enduro Racer (bootleg of Rev A, YM2151, FD1089B 317-0013A set)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "enduror1": {
       "parent": "enduror",
@@ -1168,7 +1204,10 @@
           "n": "317-0013a.key",
           "c": "a965b2da"
         }
-      ]
+      ],
+      "t": "Enduro Racer (YM2203, FD1089B 317-0013A)",
+      "y": "1986",
+      "m": "Sega"
     },
     "enduror1d": {
       "parent": "enduror",
@@ -1369,7 +1408,10 @@
           "n": "epr-6844.ic123",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "Enduro Racer (bootleg of YM2203, FD1089B 317-0013A set)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "endurora": {
       "parent": "enduror",
@@ -1474,7 +1516,10 @@
           "n": "317-0013a.key",
           "c": "a965b2da"
         }
-      ]
+      ],
+      "t": "Enduro Racer (Rev A, YM2151, mask ROM sprites, FD1089B 317-0013A)",
+      "y": "1986",
+      "m": "Sega"
     },
     "endurorb": {
       "parent": "enduror",
@@ -1675,7 +1720,10 @@
           "n": "317-0013a.key",
           "c": "a965b2da"
         }
-      ]
+      ],
+      "t": "Enduro Racer (YM2151, FD1089B 317-0013A)",
+      "y": "1986",
+      "m": "Sega"
     },
     "endurobl": {
       "parent": "enduror",
@@ -1876,7 +1924,10 @@
           "n": "epr-6844.ic123",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "Enduro Racer (bootleg set 1)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "hangon": {
       "parent": null,
@@ -2013,7 +2064,10 @@
           "n": "315-5121.2a",
           "c": "5dd89643"
         }
-      ]
+      ],
+      "t": "Hang-On (Rev A)",
+      "y": "1985",
+      "m": "Sega"
     },
     "hangon1": {
       "parent": "hangon",
@@ -2150,7 +2204,10 @@
           "n": "315-5121.2a",
           "c": "5dd89643"
         }
-      ]
+      ],
+      "t": "Hang-On",
+      "y": "1985",
+      "m": "Sega"
     },
     "hangon2": {
       "parent": "hangon",
@@ -2287,7 +2344,10 @@
           "n": "315-5121.2a",
           "c": "5dd89643"
         }
-      ]
+      ],
+      "t": "Hang-On (Rev A, ride-on)",
+      "y": "1985",
+      "m": "Sega"
     },
     "hangonvf": {
       "parent": "hangon",
@@ -2404,7 +2464,10 @@
           "n": "1.9d",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "VF (bootleg of Hang-On)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "shangonro": {
       "parent": "shangon",
@@ -2541,7 +2604,10 @@
           "n": "317-0038.key",
           "c": "85943925"
         }
-      ]
+      ],
+      "t": "Super Hang-On (Hang-On conversion, ride-on, Japan, FD1094 317-0038)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangonho": {
       "parent": "shangon",
@@ -2678,7 +2744,10 @@
           "n": "317-0039.key",
           "c": "97b05dd6"
         }
-      ]
+      ],
+      "t": "Super Hang-On (Hang-On conversion, Japan, FD1094 317-0039)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangonrb": {
       "parent": "shangon",
@@ -2803,7 +2872,10 @@
           "n": "epr-6844.119",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "Super Hang-On (Hang-On conversion, bootleg)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "shangonrb2": {
       "parent": "shangon",
@@ -2928,7 +3000,10 @@
           "n": "sho-philco-s-22-c-d2.bin",
           "c": "e3ec7bd6"
         }
-      ]
+      ],
+      "t": "Super Hang-On (Hang-On conversion, Beta bootleg)",
+      "y": "1987",
+      "m": "bootleg (Beta)"
     },
     "sharrier": {
       "parent": null,
@@ -3141,7 +3216,10 @@
           "n": "315-5163a.ic32",
           "c": "203dffeb"
         }
-      ]
+      ],
+      "t": "Space Harrier (Rev A, 8751 315-5163A)",
+      "y": "1985",
+      "m": "Sega"
     },
     "sharrier1": {
       "parent": "sharrier",
@@ -3354,7 +3432,10 @@
           "n": "315-5163.ic32",
           "c": "52b0c81a"
         }
-      ]
+      ],
+      "t": "Space Harrier (8751 315-5163)",
+      "y": "1985",
+      "m": "Sega"
     },
     "outrun": {
       "parent": null,
@@ -3483,7 +3564,10 @@
           "n": "opr-10188.71",
           "c": "bad30ad9"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev B)",
+      "y": "1986",
+      "m": "Sega"
     },
     "outrunra": {
       "parent": "outrun",
@@ -3612,7 +3696,10 @@
           "n": "opr-10188.71",
           "c": "bad30ad9"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev A)",
+      "y": "1986",
+      "m": "Sega"
     },
     "outruneh": {
       "parent": "outrun",
@@ -3741,7 +3828,10 @@
           "n": "enhanced_203_opr-10188.71",
           "c": "c2de09b2"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev B) (Enhanced Edition v2.0.3)",
+      "y": "2020",
+      "m": "hack (Chris White)"
     },
     "outruneha": {
       "parent": "outrun",
@@ -3870,7 +3960,10 @@
           "n": "enhanced_103_opr-10188.71",
           "c": "37598616"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev B) (Enhanced Edition v1.1.0)",
+      "y": "2014",
+      "m": "hack (Chris White)"
     },
     "outrunehb": {
       "parent": "outrun",
@@ -3999,7 +4092,10 @@
           "n": "enhanced_202_opr-10188.71",
           "c": "57d5c867"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev B) (Enhanced Edition v2.0.2)",
+      "y": "2017",
+      "m": "hack (Chris White)"
     },
     "outrundx": {
       "parent": "outrun",
@@ -4224,7 +4320,10 @@
           "n": "opr-10188.71",
           "c": "bad30ad9"
         }
-      ]
+      ],
+      "t": "Out Run (deluxe sitdown)",
+      "y": "1986",
+      "m": "Sega"
     },
     "outrundxj": {
       "parent": "outrun",
@@ -4357,7 +4456,10 @@
           "n": "317-0019.key",
           "c": "8ffbed98"
         }
-      ]
+      ],
+      "t": "Out Run (Japan, deluxe sitdown) (FD1089A 317-0019)",
+      "y": "1986",
+      "m": "Sega"
     },
     "outrundxa": {
       "parent": "outrun",
@@ -4614,7 +4716,10 @@
           "n": "opr-10188.71",
           "c": "bad30ad9"
         }
-      ]
+      ],
+      "t": "Out Run (deluxe sitdown earlier version)",
+      "y": "1986",
+      "m": "Sega"
     },
     "outrundxeh": {
       "parent": "outrun",
@@ -4839,7 +4944,10 @@
           "n": "enhanced_203_opr-10188.71",
           "c": "c2de09b2"
         }
-      ]
+      ],
+      "t": "Out Run (deluxe sitdown) (Enhanced Edition v2.0.3)",
+      "y": "2020",
+      "m": "hack (Chris White)"
     },
     "outrundxeha": {
       "parent": "outrun",
@@ -5064,7 +5172,10 @@
           "n": "enhanced_103_opr-10188.71",
           "c": "37598616"
         }
-      ]
+      ],
+      "t": "Out Run (deluxe sitdown) (Enhanced Edition v1.0.3)",
+      "y": "2013",
+      "m": "hack (Chris White)"
     },
     "outrunb": {
       "parent": "outrun",
@@ -5201,7 +5312,10 @@
           "n": "a-4.bin",
           "c": "2a27d0b0"
         }
-      ]
+      ],
+      "t": "Out Run (bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "outrunm": {
       "parent": "outrun",
@@ -5330,7 +5444,10 @@
           "n": "opr-10188.71a",
           "c": "c2de09b2"
         }
-      ]
+      ],
+      "t": "Out Run (sitdown/upright, Rev B) (added music)",
+      "y": "2016",
+      "m": "cmonkey"
     },
     "shangon": {
       "parent": null,
@@ -5435,7 +5552,10 @@
           "n": "epr-10646.69",
           "c": "473cc411"
         }
-      ]
+      ],
+      "t": "Super Hang-On (sitdown/upright) (unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangoneh": {
       "parent": "shangon",
@@ -5540,7 +5660,10 @@
           "n": "epr-10646.69",
           "c": "473cc411"
         }
-      ]
+      ],
+      "t": "Super Hang-On (sitdown/upright, unprotected) (Enhanced Edition v2.0.2)",
+      "y": "2014",
+      "m": "hack (Chris White)"
     },
     "shangon1": {
       "parent": "shangon",
@@ -5673,7 +5796,10 @@
           "n": "317-0034.key",
           "c": "ad61539a"
         }
-      ]
+      ],
+      "t": "Super Hang-On (mini ride-on) (FD1089B 317-0034)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangon2": {
       "parent": "shangon",
@@ -5806,7 +5932,10 @@
           "n": "317-0034.key",
           "c": "ad61539a"
         }
-      ]
+      ],
+      "t": "Super Hang-On (mini ride-on, Rev A) (FD1089B 317-0034)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangon3": {
       "parent": "shangon",
@@ -5939,7 +6068,10 @@
           "n": "317-0034.key",
           "c": "ad61539a"
         }
-      ]
+      ],
+      "t": "Super Hang-On (sitdown/upright) (FD1089B 317-0034)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shangon3d": {
       "parent": "shangon",
@@ -6068,7 +6200,10 @@
           "n": "epr-10646.69",
           "c": "473cc411"
         }
-      ]
+      ],
+      "t": "Super Hang-On (sitdown/upright) (bootleg of FD1089B 317-0034 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "shangonle": {
       "parent": "shangon",
@@ -6197,7 +6332,10 @@
           "n": "epr-10646.69",
           "c": "473cc411"
         }
-      ]
+      ],
+      "t": "Limited Edition Hang-On",
+      "y": "1991",
+      "m": "Sega"
     },
     "shangonleeh": {
       "parent": "shangon",
@@ -6326,7 +6464,10 @@
           "n": "epr-10646.69",
           "c": "473cc411"
         }
-      ]
+      ],
+      "t": "Limited Edition Hang-On (Enhanced Edition v2.0.2)",
+      "y": "2014",
+      "m": "hack (Chris White)"
     },
     "toutrun": {
       "parent": null,
@@ -6455,7 +6596,10 @@
           "n": "317-0118.key",
           "c": "083d7d56"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrund": {
       "parent": "toutrun",
@@ -6580,7 +6724,10 @@
           "n": "opr-12306.71",
           "c": "e49249fd"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Out Run upgrade) (bootleg of FD1094 317-0118 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "toutrunj": {
       "parent": "toutrun",
@@ -6709,7 +6856,10 @@
           "n": "317-0117.key",
           "c": "dcac383e"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Japan, Out Run upgrade) (FD1094 317-0117)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrunjd": {
       "parent": "toutrun",
@@ -6834,7 +6984,10 @@
           "n": "opr-12306.71",
           "c": "e49249fd"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Japan, Out Run upgrade) (bootleg of FD1094 317-0117 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "toutrun1": {
       "parent": "toutrun",
@@ -6995,7 +7148,10 @@
           "n": "317-0109.key",
           "c": "e12a6e78"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (deluxe cockpit) (FD1094 317-0109)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrun2": {
       "parent": "toutrun",
@@ -7156,7 +7312,10 @@
           "n": "317-0106.key",
           "c": "a4e33916"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (cockpit) (FD1094 317-0106)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrun2d": {
       "parent": "toutrun",
@@ -7313,7 +7472,10 @@
           "n": "opr-12306.71",
           "c": "e49249fd"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (cockpit) (bootleg of FD1094 317-0106 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "toutrun3": {
       "parent": "toutrun",
@@ -7474,7 +7636,10 @@
           "n": "317-0107.key",
           "c": "33e632ae"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (cockpit) (FD1094 317-0107)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrun3d": {
       "parent": "toutrun",
@@ -7631,7 +7796,10 @@
           "n": "opr-12306.71",
           "c": "e49249fd"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (cockpit) (bootleg of FD1094 317-0107 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "toutrunj1": {
       "parent": "toutrun",
@@ -7792,7 +7960,10 @@
           "n": "317-0101.key",
           "c": "eb636314"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Japan, cockpit) (FD1094 317-0101)",
+      "y": "1989",
+      "m": "Sega"
     },
     "toutrunj1d": {
       "parent": "toutrun",
@@ -7949,7 +8120,10 @@
           "n": "epr-12306.ic71",
           "c": "e49249fd"
         }
-      ]
+      ],
+      "t": "Turbo Out Run (Japan, cockpit) (bootleg of FD1094 317-0101 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "bloxeedc": {
       "parent": "bloxeed",
@@ -7970,7 +8144,10 @@
           "n": "epr-12992.ic33",
           "c": "19b0084c"
         }
-      ]
+      ],
+      "t": "Bloxeed (World, C System)",
+      "y": "1989",
+      "m": "Sega / Elorg"
     },
     "bloxeedu": {
       "parent": "bloxeed",
@@ -7991,7 +8168,10 @@
           "n": "epr-12992.ic33",
           "c": "19b0084c"
         }
-      ]
+      ],
+      "t": "Bloxeed (US, C System, Rev A)",
+      "y": "1989",
+      "m": "Sega / Elorg"
     },
     "columns": {
       "parent": null,
@@ -8004,7 +8184,10 @@
           "n": "epr-13113.ic31",
           "c": "9a426d9b"
         }
-      ]
+      ],
+      "t": "Columns (World)",
+      "y": "1990",
+      "m": "Sega"
     },
     "columnsu": {
       "parent": "columns",
@@ -8017,7 +8200,10 @@
           "n": "epr-13115a.ic31",
           "c": "e37496f3"
         }
-      ]
+      ],
+      "t": "Columns (US, cocktail, Rev A)",
+      "y": "1990",
+      "m": "Sega"
     },
     "columnsj": {
       "parent": "columns",
@@ -8030,7 +8216,10 @@
           "n": "epr-13111.ic31",
           "c": "aa5ccd6d"
         }
-      ]
+      ],
+      "t": "Columns (Japan)",
+      "y": "1990",
+      "m": "Sega"
     },
     "columns2": {
       "parent": null,
@@ -8043,7 +8232,10 @@
           "n": "epr-13362.ic31",
           "c": "394e2419"
         }
-      ]
+      ],
+      "t": "Columns II: The Voyage Through Time (World)",
+      "y": "1990",
+      "m": "Sega"
     },
     "column2j": {
       "parent": "columns2",
@@ -8056,7 +8248,10 @@
           "n": "epr-13360.ic31",
           "c": "a59b1d4f"
         }
-      ]
+      ],
+      "t": "Columns II: The Voyage Through Time (Japan)",
+      "y": "1990",
+      "m": "Sega"
     },
     "tfrceac": {
       "parent": null,
@@ -8081,7 +8276,10 @@
           "n": "epr-13655.ic4",
           "c": "e09961f6"
         }
-      ]
+      ],
+      "t": "Thunder Force AC",
+      "y": "1990",
+      "m": "Technosoft / Sega"
     },
     "tfrceacj": {
       "parent": "tfrceac",
@@ -8106,7 +8304,10 @@
           "n": "epr-13655.ic4",
           "c": "e09961f6"
         }
-      ]
+      ],
+      "t": "Thunder Force AC (Japan)",
+      "y": "1990",
+      "m": "Technosoft / Sega"
     },
     "tfrceacjpb": {
       "parent": "tfrceac",
@@ -8127,7 +8328,10 @@
           "n": "ic33_t.f.ac_d131.ic33",
           "c": "b162219d"
         }
-      ]
+      ],
+      "t": "Thunder Force AC (Japan, prototype, bootleg)",
+      "y": "1990",
+      "m": "Technosoft / Sega"
     },
     "tfrceacb": {
       "parent": "tfrceac",
@@ -8152,7 +8356,10 @@
           "n": "epr-13655.ic4",
           "c": "e09961f6"
         }
-      ]
+      ],
+      "t": "Thunder Force AC (bootleg)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "borench": {
       "parent": null,
@@ -8169,7 +8376,10 @@
           "n": "epr-13587.ic4",
           "c": "62b85e56"
         }
-      ]
+      ],
+      "t": "Borench (set 1)",
+      "y": "1990",
+      "m": "Sega"
     },
     "borencha": {
       "parent": "borench",
@@ -8186,7 +8396,10 @@
           "n": "epr-13587.ic4",
           "c": "62b85e56"
         }
-      ]
+      ],
+      "t": "Borench (set 2)",
+      "y": "1990",
+      "m": "Sega"
     },
     "borenchj": {
       "parent": "borench",
@@ -8203,7 +8416,10 @@
           "n": "epr-13587.ic4",
           "c": "62b85e56"
         }
-      ]
+      ],
+      "t": "Borench (Japan)",
+      "y": "1990",
+      "m": "Sega"
     },
     "ribbit": {
       "parent": null,
@@ -8228,7 +8444,10 @@
           "n": "epr-13834.ic4",
           "c": "ab0c1833"
         }
-      ]
+      ],
+      "t": "Ribbit!",
+      "y": "1991",
+      "m": "Sega"
     },
     "ribbitj": {
       "parent": "ribbit",
@@ -8253,7 +8472,10 @@
           "n": "epr-13834.ic4",
           "c": "ab0c1833"
         }
-      ]
+      ],
+      "t": "Ribbit! (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "twinsqua": {
       "parent": null,
@@ -8270,7 +8492,10 @@
           "n": "epr-14588.ic4",
           "c": "5a9b6881"
         }
-      ]
+      ],
+      "t": "Twin Squash",
+      "y": "1991",
+      "m": "Sega"
     },
     "soniccar": {
       "parent": null,
@@ -8287,7 +8512,10 @@
           "n": "epr-14394.ic4",
           "c": "476e30dd"
         }
-      ]
+      ],
+      "t": "Waku Waku Sonic Patrol Car",
+      "y": "1991",
+      "m": "Sega"
     },
     "ssonicbr": {
       "parent": null,
@@ -8304,7 +8532,10 @@
           "n": "ssonicbr.ic4",
           "c": "78e56a51"
         }
-      ]
+      ],
+      "t": "SegaSonic Bros. (prototype, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "ooparts": {
       "parent": null,
@@ -8329,7 +8560,10 @@
           "n": "epr-13655.ic4",
           "c": "e09961f6"
         }
-      ]
+      ],
+      "t": "OOPArts (prototype, joystick hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "puyo": {
       "parent": null,
@@ -8354,7 +8588,10 @@
           "n": "epr-15196.ic4",
           "c": "79112b3b"
         }
-      ]
+      ],
+      "t": "Puyo Puyo (World)",
+      "y": "1992",
+      "m": "Compile / Sega"
     },
     "puyoj": {
       "parent": "puyo",
@@ -8379,7 +8616,10 @@
           "n": "epr-15034.ic4",
           "c": "5688213b"
         }
-      ]
+      ],
+      "t": "Puyo Puyo (Japan, Rev B)",
+      "y": "1992",
+      "m": "Compile / Sega"
     },
     "puyoja": {
       "parent": "puyo",
@@ -8404,7 +8644,10 @@
           "n": "epr-15034.ic4",
           "c": "5688213b"
         }
-      ]
+      ],
+      "t": "Puyo Puyo (Japan, Rev A)",
+      "y": "1992",
+      "m": "Compile / Sega"
     },
     "puyobl": {
       "parent": "puyo",
@@ -8429,7 +8672,10 @@
           "n": "puyopuyb.abo",
           "c": "79112b3b"
         }
-      ]
+      ],
+      "t": "Puyo Puyo (World, bootleg)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "tantr": {
       "parent": null,
@@ -8454,7 +8700,10 @@
           "n": "epr-15617.ic4",
           "c": "338324a1"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "tantrkor": {
       "parent": "tantr",
@@ -8479,7 +8728,10 @@
           "n": "epr-15617.ic4",
           "c": "338324a1"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Korea)",
+      "y": "1993",
+      "m": "Sega"
     },
     "tantrbl": {
       "parent": "tantr",
@@ -8508,7 +8760,10 @@
           "n": "pa_e02.bin",
           "c": "4e85b2a3"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Japan) (bootleg set 1)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "tantrbl2": {
       "parent": "tantr",
@@ -8529,7 +8784,10 @@
           "n": "mpr-15615.ic33",
           "c": "36a88bd4"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Japan) (bootleg set 2)",
+      "y": "1994",
+      "m": "bootleg"
     },
     "tantrbl3": {
       "parent": "tantr",
@@ -8550,7 +8808,10 @@
           "n": "3.u30",
           "c": "36a88bd4"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Japan) (bootleg set 3)",
+      "y": "1994",
+      "m": "bootleg"
     },
     "tantrbl4": {
       "parent": "tantr",
@@ -8579,7 +8840,10 @@
           "n": "1.bin",
           "c": "4e85b2a3"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Tant-R (Japan) (bootleg set 4)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "wwmarine": {
       "parent": null,
@@ -8596,7 +8860,10 @@
           "n": "epr-15095.ic4",
           "c": "df13755b"
         }
-      ]
+      ],
+      "t": "Waku Waku Marine",
+      "y": "1992",
+      "m": "Sega"
     },
     "wwanpanm": {
       "parent": null,
@@ -8613,7 +8880,10 @@
           "n": "epr-14121.ic4",
           "c": "69adf3a1"
         }
-      ]
+      ],
+      "t": "Waku Waku Anpanman (Rev A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "wwanpanmo": {
       "parent": "wwanpanm",
@@ -8630,7 +8900,10 @@
           "n": "epr-14121.ic4",
           "c": "69adf3a1"
         }
-      ]
+      ],
+      "t": "Waku Waku Anpanman",
+      "y": "1992",
+      "m": "Sega"
     },
     "sonicfgt": {
       "parent": null,
@@ -8655,7 +8928,10 @@
           "n": "epr-17176.ic4",
           "c": "4211745d"
         }
-      ]
+      ],
+      "t": "SegaSonic Cosmo Fighter (World)",
+      "y": "1993",
+      "m": "Sega"
     },
     "sonicfgtj": {
       "parent": "sonicfgt",
@@ -8680,7 +8956,10 @@
           "n": "epr-16004.ic4",
           "c": "e87e8433"
         }
-      ]
+      ],
+      "t": "SegaSonic Cosmo Fighter (Japan)",
+      "y": "1993",
+      "m": "Sega"
     },
     "potopoto": {
       "parent": null,
@@ -8697,7 +8976,10 @@
           "n": "epr-16660.ic4",
           "c": "8251c61c"
         }
-      ]
+      ],
+      "t": "Poto Poto (Japan, Rev A)",
+      "y": "1994",
+      "m": "Sega"
     },
     "stkclmns": {
       "parent": null,
@@ -8722,7 +9004,10 @@
           "n": "epr-16793.ic4",
           "c": "ebb2d057"
         }
-      ]
+      ],
+      "t": "Stack Columns (World)",
+      "y": "1994",
+      "m": "Sega"
     },
     "stkclmnsj": {
       "parent": "stkclmns",
@@ -8747,7 +9032,10 @@
           "n": "epr-16793.ic4",
           "c": "ebb2d057"
         }
-      ]
+      ],
+      "t": "Stack Columns (Japan)",
+      "y": "1994",
+      "m": "Sega"
     },
     "ichir": {
       "parent": null,
@@ -8772,7 +9060,10 @@
           "n": "pa2_02.bin",
           "c": "fc7b0da5"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Ichidant-R (World)",
+      "y": "1994",
+      "m": "Sega"
     },
     "ichirbl": {
       "parent": "ichir",
@@ -8797,7 +9088,10 @@
           "n": "2.e3",
           "c": "fc7b0da5"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Ichidant-R (World) (bootleg)",
+      "y": "1994",
+      "m": "bootleg"
     },
     "ichirk": {
       "parent": "ichir",
@@ -8822,7 +9116,10 @@
           "n": "pa2_02.bin",
           "c": "fc7b0da5"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Ichidant-R (Korea)",
+      "y": "1994",
+      "m": "Sega"
     },
     "ichirj": {
       "parent": "ichir",
@@ -8847,7 +9144,10 @@
           "n": "epr-16884.ic4",
           "c": "fd9dcdd6"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Ichidant-R (Japan)",
+      "y": "1994",
+      "m": "Sega"
     },
     "ichirjbl": {
       "parent": "ichir",
@@ -8868,7 +9168,10 @@
           "n": "epr-16887",
           "c": "bc3bbf25"
         }
-      ]
+      ],
+      "t": "Puzzle & Action: Ichidant-R (Japan) (bootleg)",
+      "y": "1994",
+      "m": "bootleg"
     },
     "puyopuy2": {
       "parent": null,
@@ -8885,7 +9188,10 @@
           "n": "epr-17239.ic4",
           "c": "020ff6ef"
         }
-      ]
+      ],
+      "t": "Puyo Puyo 2 (Japan)",
+      "y": "1994",
+      "m": "Compile (Sega license)"
     },
     "zunkyou": {
       "parent": null,
@@ -8910,7 +9216,10 @@
           "n": "epr-16810.ic4",
           "c": "d542f0fe"
         }
-      ]
+      ],
+      "t": "Zunzunkyou no Yabou (Japan)",
+      "y": "1994",
+      "m": "Sega"
     },
     "headonch": {
       "parent": null,
@@ -8935,7 +9244,10 @@
           "n": "headonch.ic4",
           "c": "90af7301"
         }
-      ]
+      ],
+      "t": "Monita to Rimoko no Head On Channel (prototype, hack)",
+      "y": "1994",
+      "m": "hack"
     },
     "hangonjr": {
       "parent": null,
@@ -8960,7 +9272,10 @@
           "n": "epr-7261.ic2",
           "c": "3810cbf5"
         }
-      ]
+      ],
+      "t": "Hang-On Jr. (Rev. B)",
+      "y": "1985",
+      "m": "Sega"
     },
     "tetrisse": {
       "parent": null,
@@ -8977,7 +9292,10 @@
           "n": "epr-12211.4",
           "c": "5aa114e9"
         }
-      ]
+      ],
+      "t": "Tetris (Japan, System E)",
+      "y": "1988",
+      "m": "Sega"
     },
     "transfrm": {
       "parent": null,
@@ -9002,7 +9320,10 @@
           "n": "epr-7350.ic2",
           "c": "0052165d"
         }
-      ]
+      ],
+      "t": "Transformer",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzn2": {
       "parent": null,
@@ -9031,7 +9352,10 @@
           "n": "317-0057.key",
           "c": "ee43d0f0"
         }
-      ]
+      ],
+      "t": "Fantasy Zone II - The Tears of Opa-Opa (MC-8123, 317-0057)",
+      "y": "1988",
+      "m": "Sega"
     },
     "opaopa": {
       "parent": null,
@@ -9060,7 +9384,10 @@
           "n": "317-0042.key",
           "c": "d6312538"
         }
-      ]
+      ],
+      "t": "Opa Opa (MC-8123, 317-0042)",
+      "y": "1987",
+      "m": "Sega"
     },
     "opaopan": {
       "parent": "opaopa",
@@ -9085,7 +9412,10 @@
           "n": "epr-11019.ic2",
           "c": "bd0a6248"
         }
-      ]
+      ],
+      "t": "Opa Opa (Rev A, unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "slapshtr": {
       "parent": null,
@@ -9110,7 +9440,10 @@
           "n": "epr-7355.ic2",
           "c": "c67e1aef"
         }
-      ]
+      ],
+      "t": "Slap Shooter",
+      "y": "1986",
+      "m": "Sega"
     },
     "astrofl": {
       "parent": "transfrm",
@@ -9135,7 +9468,10 @@
           "n": "epr-7350.ic2",
           "c": "0052165d"
         }
-      ]
+      ],
+      "t": "Astro Flash (Japan)",
+      "y": "1986",
+      "m": "Sega"
     },
     "ridleofp": {
       "parent": null,
@@ -9160,7 +9496,10 @@
           "n": "epr-10422.bin",
           "c": "14781e56"
         }
-      ]
+      ],
+      "t": "Riddle of Pythagoras (Japan)",
+      "y": "1986",
+      "m": "Sega / Nasco"
     },
     "megrescu": {
       "parent": null,
@@ -9185,7 +9524,10 @@
           "n": "megumi_rescue_version_10.30_final_version_ic-2.ic2",
           "c": "5b74c767"
         }
-      ]
+      ],
+      "t": "Megumi Rescue",
+      "y": "1987",
+      "m": "Sega / Exa"
     },
     "astrob": {
       "parent": null,
@@ -9302,7 +9644,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 3)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrob2": {
       "parent": "astrob",
@@ -9419,7 +9764,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 2)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrob2h": {
       "parent": "astrob",
@@ -9536,7 +9884,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 2 Hack)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrob2a": {
       "parent": "astrob",
@@ -9653,7 +10004,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 2a)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrob2b": {
       "parent": "astrob",
@@ -9770,7 +10124,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 2b)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrob1": {
       "parent": "astrob",
@@ -9875,7 +10232,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (version 1)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrobf": {
       "parent": "astrob",
@@ -9980,7 +10340,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (French)",
+      "y": "1981",
+      "m": "Sega"
     },
     "astrobg": {
       "parent": "astrob",
@@ -10085,7 +10448,10 @@
           "n": "316-0764.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Astro Blaster (German)",
+      "y": "1981",
+      "m": "Sega"
     },
     "005": {
       "parent": null,
@@ -10182,7 +10548,10 @@
           "n": "6331.sound-u8",
           "c": "1d298cb0"
         }
-      ]
+      ],
+      "t": "005",
+      "y": "1981",
+      "m": "Sega"
     },
     "005a": {
       "parent": "005",
@@ -10279,7 +10648,10 @@
           "n": "6331.sound-u8",
           "c": "1d298cb0"
         }
-      ]
+      ],
+      "t": "005 (earlier version?)",
+      "y": "1981",
+      "m": "Sega"
     },
     "spaceod": {
       "parent": null,
@@ -10400,7 +10772,10 @@
           "n": "epr-12.bg-u4",
           "c": "629a4a1f"
         }
-      ]
+      ],
+      "t": "Space Odyssey (version 2)",
+      "y": "1981",
+      "m": "Sega"
     },
     "spaceod2": {
       "parent": "spaceod",
@@ -10521,7 +10896,10 @@
           "n": "epr-12.bg-u4",
           "c": "629a4a1f"
         }
-      ]
+      ],
+      "t": "Space Odyssey (version 1)",
+      "y": "1981",
+      "m": "Sega"
     },
     "monsterb": {
       "parent": null,
@@ -10650,7 +11028,10 @@
           "n": "1518a.bg-u22",
           "c": "2d5932fe"
         }
-      ]
+      ],
+      "t": "Monster Bash",
+      "y": "1982",
+      "m": "Sega"
     },
     "monsterb2": {
       "parent": "monsterb",
@@ -10739,7 +11120,10 @@
           "n": "pr-5021.39",
           "c": "5222c542"
         }
-      ]
+      ],
+      "t": "Monster Bash (2 board version)",
+      "y": "1982",
+      "m": "Sega"
     },
     "pignewt": {
       "parent": null,
@@ -10852,7 +11236,10 @@
           "n": "1908c.bg",
           "c": "92cb14da"
         }
-      ]
+      ],
+      "t": "Pig Newton (version C)",
+      "y": "1983",
+      "m": "Sega"
     },
     "pignewta": {
       "parent": "pignewt",
@@ -10957,7 +11344,10 @@
           "n": "1908a.bg",
           "c": "92cb14da"
         }
-      ]
+      ],
+      "t": "Pig Newton (version A)",
+      "y": "1983",
+      "m": "Sega"
     },
     "sindbadm": {
       "parent": null,
@@ -11014,7 +11404,10 @@
           "n": "epr-5427.9l",
           "c": "a94f4d41"
         }
-      ]
+      ],
+      "t": "Sindbad Mystery",
+      "y": "1983",
+      "m": "Sega"
     },
     "elim2": {
       "parent": null,
@@ -11083,7 +11476,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Eliminator (2 Players, set 1)",
+      "y": "1981",
+      "m": "Gremlin"
     },
     "elim2a": {
       "parent": "elim2",
@@ -11152,7 +11548,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Eliminator (2 Players, set 2)",
+      "y": "1981",
+      "m": "Gremlin"
     },
     "elim2c": {
       "parent": "elim2",
@@ -11221,7 +11620,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Eliminator (2 Players, cocktail)",
+      "y": "1981",
+      "m": "Gremlin"
     },
     "elim4": {
       "parent": "elim2",
@@ -11294,7 +11696,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Eliminator (4 Players)",
+      "y": "1981",
+      "m": "Gremlin"
     },
     "elim4p": {
       "parent": "elim2",
@@ -11367,7 +11772,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Eliminator (4 Players, prototype)",
+      "y": "1981",
+      "m": "Gremlin"
     },
     "spacfury": {
       "parent": null,
@@ -11440,7 +11848,10 @@
           "n": "6331.speech-u30",
           "c": "adcb81d0"
         }
-      ]
+      ],
+      "t": "Space Fury (revision C)",
+      "y": "1981",
+      "m": "Sega"
     },
     "spacfurya": {
       "parent": "spacfury",
@@ -11513,7 +11924,10 @@
           "n": "6331.speech-u30",
           "c": "adcb81d0"
         }
-      ]
+      ],
+      "t": "Space Fury (revision A)",
+      "y": "1981",
+      "m": "Sega"
     },
     "spacfuryb": {
       "parent": "spacfury",
@@ -11586,7 +12000,10 @@
           "n": "6331.speech-u30",
           "c": "adcb81d0"
         }
-      ]
+      ],
+      "t": "Space Fury (revision B)",
+      "y": "1981",
+      "m": "Sega"
     },
     "zektor": {
       "parent": null,
@@ -11707,7 +12124,10 @@
           "n": "6331.speech-u30",
           "c": "adcb81d0"
         }
-      ]
+      ],
+      "t": "Zektor (revision B)",
+      "y": "1982",
+      "m": "Sega"
     },
     "tacscan": {
       "parent": null,
@@ -11808,7 +12228,10 @@
           "n": "pr-82.cpu-u15",
           "c": "c609b79e"
         }
-      ]
+      ],
+      "t": "Tac/Scan",
+      "y": "1982",
+      "m": "Sega"
     },
     "startrek": {
       "parent": null,
@@ -11933,7 +12356,10 @@
           "n": "6331.speech-u30",
           "c": "adcb81d0"
         }
-      ]
+      ],
+      "t": "Star Trek",
+      "y": "1982",
+      "m": "Sega"
     },
     "arescue": {
       "parent": null,
@@ -12102,7 +12528,10 @@
           "n": "mpr-14507.ic36",
           "c": "db3f59ec"
         }
-      ]
+      ],
+      "t": "Air Rescue (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "arescueu": {
       "parent": "arescue",
@@ -12271,7 +12700,10 @@
           "n": "mpr-14507.ic36",
           "c": "db3f59ec"
         }
-      ]
+      ],
+      "t": "Air Rescue (US)",
+      "y": "1992",
+      "m": "Sega"
     },
     "arescuej": {
       "parent": "arescue",
@@ -12440,7 +12872,10 @@
           "n": "mpr-14507.ic36",
           "c": "db3f59ec"
         }
-      ]
+      ],
+      "t": "Air Rescue (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "arabfgt": {
       "parent": null,
@@ -12517,7 +12952,10 @@
           "n": "mpr-14607.ic25",
           "c": "b70b0735"
         }
-      ]
+      ],
+      "t": "Arabian Fight (World)",
+      "y": "1991",
+      "m": "Sega"
     },
     "arabfgtu": {
       "parent": "arabfgt",
@@ -12594,7 +13032,10 @@
           "n": "mpr-14607.ic25",
           "c": "b70b0735"
         }
-      ]
+      ],
+      "t": "Arabian Fight (US)",
+      "y": "1991",
+      "m": "Sega"
     },
     "arabfgtj": {
       "parent": "arabfgt",
@@ -12671,7 +13112,10 @@
           "n": "mpr-14607.ic25",
           "c": "b70b0735"
         }
-      ]
+      ],
+      "t": "Arabian Fight (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ga2": {
       "parent": null,
@@ -12752,7 +13196,10 @@
           "n": "mpr-14956.ic25",
           "c": "298fca50"
         }
-      ]
+      ],
+      "t": "Golden Axe: The Revenge of Death Adder (World, Rev B)",
+      "y": "1992",
+      "m": "Sega"
     },
     "ga2u": {
       "parent": "ga2",
@@ -12833,7 +13280,10 @@
           "n": "mpr-14956.ic25",
           "c": "298fca50"
         }
-      ]
+      ],
+      "t": "Golden Axe: The Revenge of Death Adder (US, Rev A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "ga2j": {
       "parent": "ga2",
@@ -12914,7 +13364,10 @@
           "n": "mpr-14956.ic25",
           "c": "298fca50"
         }
-      ]
+      ],
+      "t": "Golden Axe: The Revenge of Death Adder (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "darkedge": {
       "parent": null,
@@ -12979,7 +13432,10 @@
           "n": "mpr-15256.ic25",
           "c": "44c36b62"
         }
-      ]
+      ],
+      "t": "Dark Edge (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "darkedgej": {
       "parent": "darkedge",
@@ -13044,7 +13500,10 @@
           "n": "mpr-15256.ic25",
           "c": "44c36b62"
         }
-      ]
+      ],
+      "t": "Dark Edge (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "spidman": {
       "parent": null,
@@ -13129,7 +13588,10 @@
           "n": "mpr-14292-s.ic24",
           "c": "41f71443"
         }
-      ]
+      ],
+      "t": "Spider-Man: The Videogame (World)",
+      "y": "1991",
+      "m": "Sega"
     },
     "spidmanu": {
       "parent": "spidman",
@@ -13214,7 +13676,10 @@
           "n": "mpr-14292-s.ic24",
           "c": "41f71443"
         }
-      ]
+      ],
+      "t": "Spider-Man: The Videogame (US, Rev A)",
+      "y": "1991",
+      "m": "Sega"
     },
     "spidmanj": {
       "parent": "spidman",
@@ -13299,7 +13764,10 @@
           "n": "mpr-14292-s.ic24",
           "c": "41f71443"
         }
-      ]
+      ],
+      "t": "Spider-Man: The Videogame (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "dbzvrvs": {
       "parent": null,
@@ -13368,7 +13836,10 @@
           "n": "mpr-16553",
           "c": "c0a43009"
         }
-      ]
+      ],
+      "t": "Dragon Ball Z: V.R. V.S. (Japan, Rev A)",
+      "y": "1994",
+      "m": "Sega / Banpresto"
     },
     "holo": {
       "parent": null,
@@ -13437,7 +13908,10 @@
           "n": "mpr-14966",
           "c": "dffba2e9"
         }
-      ]
+      ],
+      "t": "Holosseum (US, Rev A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "sonic": {
       "parent": null,
@@ -13514,7 +13988,10 @@
           "n": "mpr-15797.ic25",
           "c": "013c6cab"
         }
-      ]
+      ],
+      "t": "SegaSonic The Hedgehog (Japan, rev. C)",
+      "y": "1992",
+      "m": "Sega"
     },
     "sonicp": {
       "parent": "sonic",
@@ -13599,7 +14076,10 @@
           "n": "sonobj7.bin",
           "c": "3784c507"
         }
-      ]
+      ],
+      "t": "SegaSonic The Hedgehog (Japan, prototype)",
+      "y": "1992",
+      "m": "Sega"
     },
     "alien3": {
       "parent": null,
@@ -13680,7 +14160,10 @@
           "n": "93c45_eeprom.ic76",
           "c": "6e1d9df3"
         }
-      ]
+      ],
+      "t": "Alien3: The Gun (World)",
+      "y": "1993",
+      "m": "Sega"
     },
     "alien3u": {
       "parent": "alien3",
@@ -13761,7 +14244,10 @@
           "n": "93c45_eeprom.ic76",
           "c": "6e1d9df3"
         }
-      ]
+      ],
+      "t": "Alien3: The Gun (US, Rev A)",
+      "y": "1993",
+      "m": "Sega"
     },
     "alien3j": {
       "parent": "alien3",
@@ -13842,7 +14328,10 @@
           "n": "93c45_eeprom.ic76",
           "c": "6e1d9df3"
         }
-      ]
+      ],
+      "t": "Alien3: The Gun (Japan)",
+      "y": "1993",
+      "m": "Sega"
     },
     "brival": {
       "parent": null,
@@ -13915,7 +14404,10 @@
           "n": "mpr-15630.ic25",
           "c": "bf7dd2f6"
         }
-      ]
+      ],
+      "t": "Burning Rival (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "brivalj": {
       "parent": "brival",
@@ -13988,7 +14480,10 @@
           "n": "mpr-15630.ic25",
           "c": "bf7dd2f6"
         }
-      ]
+      ],
+      "t": "Burning Rival (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "f1lap": {
       "parent": null,
@@ -14069,7 +14564,10 @@
           "n": "15612",
           "c": "9d204617"
         }
-      ]
+      ],
+      "t": "F1 Super Lap (World)",
+      "y": "1993",
+      "m": "Sega"
     },
     "f1lapt": {
       "parent": "f1lap",
@@ -14150,7 +14648,10 @@
           "n": "15612",
           "c": "9d204617"
         }
-      ]
+      ],
+      "t": "F1 Super Lap (World, Unprotected)",
+      "y": "1993",
+      "m": "Sega"
     },
     "f1lapj": {
       "parent": "f1lap",
@@ -14231,7 +14732,10 @@
           "n": "15612",
           "c": "9d204617"
         }
-      ]
+      ],
+      "t": "F1 Super Lap (Japan)",
+      "y": "1993",
+      "m": "Sega"
     },
     "f1en": {
       "parent": null,
@@ -14388,7 +14892,10 @@
           "n": "mpr-14363.ic24",
           "c": "f3427a56"
         }
-      ]
+      ],
+      "t": "F1 Exhaust Note (World, Rev A)",
+      "y": "1991",
+      "m": "Sega"
     },
     "f1enu": {
       "parent": "f1en",
@@ -14545,7 +15052,10 @@
           "n": "mpr-14363.ic24",
           "c": "f3427a56"
         }
-      ]
+      ],
+      "t": "F1 Exhaust Note (US, Rev A)",
+      "y": "1991",
+      "m": "Sega"
     },
     "f1enj": {
       "parent": "f1en",
@@ -14702,7 +15212,10 @@
           "n": "mpr-14363.ic24",
           "c": "f3427a56"
         }
-      ]
+      ],
+      "t": "F1 Exhaust Note (Japan, Rev A)",
+      "y": "1991",
+      "m": "Sega"
     },
     "jpark": {
       "parent": null,
@@ -14779,7 +15292,10 @@
           "n": "epr-13908.xx",
           "c": "6228c1d2"
         }
-      ]
+      ],
+      "t": "Jurassic Park (World, Rev A)",
+      "y": "1993",
+      "m": "Sega"
     },
     "jparkj": {
       "parent": "jpark",
@@ -14856,7 +15372,10 @@
           "n": "epr-13908.xx",
           "c": "6228c1d2"
         }
-      ]
+      ],
+      "t": "Jurassic Park (Japan, Rev A, Deluxe)",
+      "y": "1993",
+      "m": "Sega"
     },
     "jparkja": {
       "parent": "jpark",
@@ -14933,7 +15452,10 @@
           "n": "epr-13908.xx",
           "c": "6228c1d2"
         }
-      ]
+      ],
+      "t": "Jurassic Park (Japan, Deluxe)",
+      "y": "1993",
+      "m": "Sega"
     },
     "jparkjc": {
       "parent": "jpark",
@@ -15006,7 +15528,10 @@
           "n": "mpr-16412.ic25",
           "c": "105dc26e"
         }
-      ]
+      ],
+      "t": "Jurassic Park (Japan, Rev A, Conversion)",
+      "y": "1993",
+      "m": "Sega"
     },
     "radm": {
       "parent": null,
@@ -15095,7 +15620,10 @@
           "n": "eeprom-radm.ic76",
           "c": "b1737c06"
         }
-      ]
+      ],
+      "t": "Rad Mobile (World)",
+      "y": "1990",
+      "m": "Sega"
     },
     "radmu": {
       "parent": "radm",
@@ -15184,7 +15712,10 @@
           "n": "eeprom-radm.ic76",
           "c": "b1737c06"
         }
-      ]
+      ],
+      "t": "Rad Mobile (US)",
+      "y": "1990",
+      "m": "Sega"
     },
     "radr": {
       "parent": null,
@@ -15273,7 +15804,10 @@
           "n": "eeprom-radr.ic76",
           "c": "602032c6"
         }
-      ]
+      ],
+      "t": "Rad Rally (World)",
+      "y": "1991",
+      "m": "Sega"
     },
     "radru": {
       "parent": "radr",
@@ -15362,7 +15896,10 @@
           "n": "eeprom-radr.ic76",
           "c": "602032c6"
         }
-      ]
+      ],
+      "t": "Rad Rally (US)",
+      "y": "1991",
+      "m": "Sega"
     },
     "radrj": {
       "parent": "radr",
@@ -15451,7 +15988,10 @@
           "n": "eeprom-radr.ic76",
           "c": "602032c6"
         }
-      ]
+      ],
+      "t": "Rad Rally (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "slipstrm": {
       "parent": null,
@@ -15524,7 +16064,10 @@
           "n": "s32_obj07.ic24",
           "c": "22c129cf"
         }
-      ]
+      ],
+      "t": "Slip Stream (Brazil 950515)",
+      "y": "1995",
+      "m": "Capcom"
     },
     "slipstrmh": {
       "parent": "slipstrm",
@@ -15597,7 +16140,10 @@
           "n": "s32_obj07.ic24",
           "c": "22c129cf"
         }
-      ]
+      ],
+      "t": "Slip Stream (Hispanic 950515)",
+      "y": "1995",
+      "m": "Capcom"
     },
     "svf": {
       "parent": null,
@@ -15674,7 +16220,10 @@
           "n": "mpr-16863.ic25",
           "c": "42338226"
         }
-      ]
+      ],
+      "t": "Super Visual Football: European Sega Cup (Rev A)",
+      "y": "1994",
+      "m": "Sega"
     },
     "svfo": {
       "parent": "svf",
@@ -15751,7 +16300,10 @@
           "n": "mpr-16863.ic25",
           "c": "42338226"
         }
-      ]
+      ],
+      "t": "Super Visual Football: European Sega Cup",
+      "y": "1994",
+      "m": "Sega"
     },
     "svs": {
       "parent": "svf",
@@ -15828,7 +16380,10 @@
           "n": "mpr-16863.ic25",
           "c": "42338226"
         }
-      ]
+      ],
+      "t": "Super Visual Soccer: Sega Cup (US, Rev A)",
+      "y": "1994",
+      "m": "Sega"
     },
     "jleague": {
       "parent": "svf",
@@ -15905,7 +16460,10 @@
           "n": "mpr-16792.ic25",
           "c": "9f416072"
         }
-      ]
+      ],
+      "t": "The J.League 1994 (Japan, Rev A)",
+      "y": "1994",
+      "m": "Sega"
     },
     "jleagueo": {
       "parent": "svf",
@@ -15982,7 +16540,10 @@
           "n": "mpr-16792.ic25",
           "c": "9f416072"
         }
-      ]
+      ],
+      "t": "The J.League 1994 (Japan)",
+      "y": "1994",
+      "m": "Sega"
     },
     "kokoroj": {
       "parent": null,
@@ -16047,7 +16608,10 @@
           "n": "mpr-15534.ic25",
           "c": "4fa5c56d"
         }
-      ]
+      ],
+      "t": "Soreike Kokology (Rev A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "kokoroja": {
       "parent": "kokoroj",
@@ -16112,7 +16676,10 @@
           "n": "mpr-15534.ic25",
           "c": "4fa5c56d"
         }
-      ]
+      ],
+      "t": "Soreike Kokology",
+      "y": "1992",
+      "m": "Sega"
     },
     "kokoroj2": {
       "parent": null,
@@ -16177,7 +16744,10 @@
           "n": "mpr-16196.ic25",
           "c": "b8e22e05"
         }
-      ]
+      ],
+      "t": "Soreike Kokology Vol. 2 - Kokoro no Tanteikyoku",
+      "y": "1993",
+      "m": "Sega"
     },
     "harddunk": {
       "parent": null,
@@ -16242,7 +16812,10 @@
           "n": "mpr-16507.2",
           "c": "31e068d3"
         }
-      ]
+      ],
+      "t": "Hard Dunk (World)",
+      "y": "1994",
+      "m": "Sega"
     },
     "harddunkj": {
       "parent": "harddunk",
@@ -16307,7 +16880,10 @@
           "n": "mpr-16507.ic2",
           "c": "31e068d3"
         }
-      ]
+      ],
+      "t": "Hard Dunk (Japan)",
+      "y": "1994",
+      "m": "Sega"
     },
     "orunners": {
       "parent": null,
@@ -16380,7 +16956,10 @@
           "n": "mpr-15552.ic2",
           "c": "1c4b5e73"
         }
-      ]
+      ],
+      "t": "OutRunners (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "orunnersu": {
       "parent": "orunners",
@@ -16453,7 +17032,10 @@
           "n": "mpr-15552.ic2",
           "c": "1c4b5e73"
         }
-      ]
+      ],
+      "t": "OutRunners (US)",
+      "y": "1992",
+      "m": "Sega"
     },
     "orunnersj": {
       "parent": "orunners",
@@ -16526,7 +17108,10 @@
           "n": "mpr-15552.ic2",
           "c": "1c4b5e73"
         }
-      ]
+      ],
+      "t": "OutRunners (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "scross": {
       "parent": null,
@@ -16603,7 +17188,10 @@
           "n": "epr-15033.ic17",
           "c": "dc19ac00"
         }
-      ]
+      ],
+      "t": "Stadium Cross (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "scrossa": {
       "parent": "scross",
@@ -16680,7 +17268,10 @@
           "n": "epr-15033.ic17",
           "c": "dc19ac00"
         }
-      ]
+      ],
+      "t": "Stadium Cross (World, linkable)",
+      "y": "1992",
+      "m": "Sega"
     },
     "scrossu": {
       "parent": "scross",
@@ -16757,7 +17348,10 @@
           "n": "epr-15033.ic17",
           "c": "dc19ac00"
         }
-      ]
+      ],
+      "t": "Stadium Cross (US)",
+      "y": "1992",
+      "m": "Sega"
     },
     "titlef": {
       "parent": null,
@@ -16818,7 +17412,10 @@
           "n": "mpr-15385.ic1",
           "c": "5a9b0aa0"
         }
-      ]
+      ],
+      "t": "Title Fight (World)",
+      "y": "1992",
+      "m": "Sega"
     },
     "titlefu": {
       "parent": "titlef",
@@ -16879,7 +17476,10 @@
           "n": "mpr-15385.ic1",
           "c": "5a9b0aa0"
         }
-      ]
+      ],
+      "t": "Title Fight (US)",
+      "y": "1992",
+      "m": "Sega"
     },
     "titlefj": {
       "parent": "titlef",
@@ -16940,7 +17540,10 @@
           "n": "mpr-15385.ic1",
           "c": "5a9b0aa0"
         }
-      ]
+      ],
+      "t": "Title Fight (Japan)",
+      "y": "1992",
+      "m": "Sega"
     },
     "as1": {
       "parent": null,
@@ -16965,7 +17568,10 @@
           "n": "epr15423.ic11",
           "c": "5178912a"
         }
-      ]
+      ],
+      "t": "AS-1 Controller",
+      "y": "1993",
+      "m": "Sega"
     },
     "suprloco": {
       "parent": null,
@@ -17018,7 +17624,10 @@
           "n": "pr-5221.7",
           "c": "89ba674f"
         }
-      ]
+      ],
+      "t": "Super Locomotive (Rev.A)",
+      "y": "1982",
+      "m": "Sega"
     },
     "suprlocoo": {
       "parent": "suprloco",
@@ -17071,7 +17680,10 @@
           "n": "pr-5221.7",
           "c": "89ba674f"
         }
-      ]
+      ],
+      "t": "Super Locomotive",
+      "y": "1982",
+      "m": "Sega"
     },
     "4dwarrio": {
       "parent": null,
@@ -17136,7 +17748,10 @@
           "n": "pr5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "4-D Warriors (315-5162)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "blockgal": {
       "parent": null,
@@ -17201,7 +17816,10 @@
           "n": "317-0029.key",
           "c": "350d7f93"
         }
-      ]
+      ],
+      "t": "Block Gal (MC-8123B, 317-0029)",
+      "y": "1987",
+      "m": "Sega / Vic Tokai"
     },
     "brain": {
       "parent": null,
@@ -17262,7 +17880,10 @@
           "n": "pr5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Brain",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "bullfgt": {
       "parent": null,
@@ -17331,7 +17952,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Bullfight (315-5065)",
+      "y": "1984",
+      "m": "Coreland / Sega"
     },
     "thetogyu": {
       "parent": "bullfgt",
@@ -17388,7 +18012,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "The Togyu (315-5065, Japan)",
+      "y": "1984",
+      "m": "Coreland / Sega"
     },
     "flicky": {
       "parent": null,
@@ -17441,7 +18068,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, 315-5051)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickya": {
       "parent": "flicky",
@@ -17482,7 +18112,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, 315-5051, larger ROMs)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickyb": {
       "parent": "flicky",
@@ -17523,7 +18156,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, 315-5051, larger ROMs, newer)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickyg": {
       "parent": "flicky",
@@ -17564,7 +18200,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, System 2, 315-5051, alt graphics)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickys1": {
       "parent": "flicky",
@@ -17625,7 +18264,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (64k Version, 315-5051, set 2)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickys2": {
       "parent": "flicky",
@@ -17678,7 +18320,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, not encrypted)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickys2g": {
       "parent": "flicky",
@@ -17719,7 +18364,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (128k Version, System 2, not encrypted, alt graphics)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickyo": {
       "parent": "flicky",
@@ -17780,7 +18428,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (64k Version, 315-5051, set 1)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickyup": {
       "parent": "flicky",
@@ -17841,7 +18492,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (64k Version, on Up'n Down boardset, set 1)",
+      "y": "1984",
+      "m": "Sega"
     },
     "flickyupa": {
       "parent": "flicky",
@@ -17902,7 +18556,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Flicky (64k Version, on Up'n Down boardset, set 2)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "gardia": {
       "parent": null,
@@ -17967,7 +18624,10 @@
           "n": "pr5317.4",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Gardia (317-0006)",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "gardiab": {
       "parent": "gardia",
@@ -18032,7 +18692,10 @@
           "n": "pr5317.4",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Gardia (317-0007?, bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "gardiaj": {
       "parent": "gardia",
@@ -18105,7 +18768,10 @@
           "n": "315-5138.bin",
           "c": "dd223015"
         }
-      ]
+      ],
+      "t": "Gardia (Japan, 317-0006)",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "hvymetal": {
       "parent": null,
@@ -18182,7 +18848,10 @@
           "n": "pr5317p.4",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Heavy Metal (315-5135)",
+      "y": "1985",
+      "m": "Sega"
     },
     "imsorry": {
       "parent": null,
@@ -18239,7 +18908,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "I'm Sorry (315-5110, US)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "imsorryj": {
       "parent": "imsorry",
@@ -18296,7 +18968,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Gonbee no I'm Sorry (315-5110, Japan)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "mrviking": {
       "parent": null,
@@ -18365,7 +19040,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Mister Viking (315-5041)",
+      "y": "1984",
+      "m": "Sega"
     },
     "mrvikingj": {
       "parent": "mrviking",
@@ -18434,7 +19112,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Mister Viking (315-5041, Japan)",
+      "y": "1984",
+      "m": "Sega"
     },
     "myhero": {
       "parent": null,
@@ -18499,7 +19180,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "My Hero (US, not encrypted)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "sscandal": {
       "parent": "myhero",
@@ -18564,7 +19248,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Seishun Scandal (315-5132, Japan)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "myherobl": {
       "parent": "myhero",
@@ -18621,7 +19308,10 @@
           "n": "prom.a2",
           "c": "4fcaf000"
         }
-      ]
+      ],
+      "t": "My Hero (bootleg, 315-5132 encryption)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "myherok": {
       "parent": "myhero",
@@ -18674,7 +19364,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Cheongchun Ilbeonji (Korea)",
+      "y": "1985",
+      "m": "Coreland / Sega"
     },
     "nob": {
       "parent": null,
@@ -18743,7 +19436,10 @@
           "n": "dc-11.6a",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Noboranka (Japan)",
+      "y": "1986",
+      "m": "Coreland / Data East Corporation"
     },
     "nobb": {
       "parent": "nob",
@@ -18808,7 +19504,10 @@
           "n": "nobo_pr.13a",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Noboranka (Japan, bootleg)",
+      "y": "1986",
+      "m": "bootleg (Game Electronics)"
     },
     "pitfall2": {
       "parent": null,
@@ -18865,7 +19564,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Pitfall II (315-5093)",
+      "y": "1985",
+      "m": "Sega"
     },
     "pitfall2a": {
       "parent": "pitfall2",
@@ -18922,7 +19624,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Pitfall II (315-5093, Flicky Conversion)",
+      "y": "1985",
+      "m": "Sega"
     },
     "pitfall2u": {
       "parent": "pitfall2",
@@ -18979,7 +19684,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Pitfall II (not encrypted)",
+      "y": "1985",
+      "m": "Sega"
     },
     "raflesia": {
       "parent": null,
@@ -19044,7 +19752,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Rafflesia (315-5162)",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "raflesiau": {
       "parent": "raflesia",
@@ -19121,7 +19832,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Rafflesia (not encrypted)",
+      "y": "1986",
+      "m": "Coreland / Sega"
     },
     "regulus": {
       "parent": null,
@@ -19190,7 +19904,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Regulus (315-5033, Rev A.)",
+      "y": "1983",
+      "m": "Sega"
     },
     "reguluso": {
       "parent": "regulus",
@@ -19259,7 +19976,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Regulus (315-5033)",
+      "y": "1983",
+      "m": "Sega"
     },
     "regulusu": {
       "parent": "regulus",
@@ -19328,7 +20048,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Regulus (not encrypted)",
+      "y": "1983",
+      "m": "Sega"
     },
     "seganinj": {
       "parent": null,
@@ -19393,7 +20116,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Sega Ninja (315-5102)",
+      "y": "1985",
+      "m": "Sega"
     },
     "seganinju": {
       "parent": "seganinj",
@@ -19458,7 +20184,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Sega Ninja (not encrypted)",
+      "y": "1985",
+      "m": "Sega"
     },
     "seganinja": {
       "parent": "seganinj",
@@ -19523,7 +20252,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Sega Ninja (315-5113)",
+      "y": "1985",
+      "m": "Sega"
     },
     "ninja": {
       "parent": "seganinj",
@@ -19588,7 +20320,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Ninja (315-5102)",
+      "y": "1985",
+      "m": "Sega"
     },
     "nprinces": {
       "parent": "seganinj",
@@ -19665,7 +20400,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Ninja Princess (315-5051, 64k Ver. bootleg?)",
+      "y": "1985",
+      "m": "bootleg?"
     },
     "nprinceso": {
       "parent": "seganinj",
@@ -19730,7 +20468,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Ninja Princess (315-5098, 128k Ver.)",
+      "y": "1985",
+      "m": "Sega"
     },
     "nprincesu": {
       "parent": "seganinj",
@@ -19807,7 +20548,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Ninja Princess (64k Ver. not encrypted)",
+      "y": "1985",
+      "m": "Sega"
     },
     "nprincesb": {
       "parent": "seganinj",
@@ -19880,7 +20624,10 @@
           "n": "nprinces.123",
           "c": "ed5146e9"
         }
-      ]
+      ],
+      "t": "Ninja Princess (315-5051?, 128k Ver. bootleg?)",
+      "y": "1985",
+      "m": "bootleg?"
     },
     "spatter": {
       "parent": null,
@@ -19945,7 +20692,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Spatter (315-5096)",
+      "y": "1984",
+      "m": "Sega"
     },
     "spattera": {
       "parent": "spatter",
@@ -20010,7 +20760,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Spatter (315-5099)",
+      "y": "1984",
+      "m": "Sega"
     },
     "ssanchan": {
       "parent": "spatter",
@@ -20075,7 +20828,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Sanrin San Chan (Japan, 315-5096)",
+      "y": "1984",
+      "m": "Sega"
     },
     "starjack": {
       "parent": null,
@@ -20144,7 +20900,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Star Jacker (Sega)",
+      "y": "1983",
+      "m": "Sega"
     },
     "starjacks": {
       "parent": "starjack",
@@ -20213,7 +20972,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Star Jacker (Stern Electronics)",
+      "y": "1983",
+      "m": "Sega (Stern Electronics license)"
     },
     "swat": {
       "parent": null,
@@ -20282,7 +21044,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "SWAT (315-5048)",
+      "y": "1984",
+      "m": "Coreland / Sega"
     },
     "teddybb": {
       "parent": null,
@@ -20347,7 +21112,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "TeddyBoy Blues (315-5115, New Ver.)",
+      "y": "1985",
+      "m": "Sega"
     },
     "teddybbo": {
       "parent": "teddybb",
@@ -20412,7 +21180,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "TeddyBoy Blues (315-5115, Old Ver.)",
+      "y": "1985",
+      "m": "Sega"
     },
     "teddybboa": {
       "parent": "teddybb",
@@ -20477,7 +21248,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "TeddyBoy Blues (315-5111, Old Ver.)",
+      "y": "1985",
+      "m": "Sega"
     },
     "teddybbobl": {
       "parent": "teddybb",
@@ -20534,7 +21308,10 @@
           "n": "74s287.bin",
           "c": "de9af32c"
         }
-      ]
+      ],
+      "t": "TeddyBoy Blues (Old Ver. bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "tokisens": {
       "parent": null,
@@ -20603,7 +21380,10 @@
           "n": "317-0040.key",
           "c": "e2b67fd6"
         }
-      ]
+      ],
+      "t": "Toki no Senshi - Chrono Soldier (MC-8123, 317-0040)",
+      "y": "1987",
+      "m": "Sega"
     },
     "tokisensa": {
       "parent": "tokisens",
@@ -20668,7 +21448,10 @@
           "n": "pr-5317.ic28",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Toki no Senshi - Chrono Soldier (prototype?)",
+      "y": "1987",
+      "m": "Sega"
     },
     "upndown": {
       "parent": null,
@@ -20737,7 +21520,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Up'n Down (315-5030)",
+      "y": "1983",
+      "m": "Sega"
     },
     "upndownu": {
       "parent": "upndown",
@@ -20806,7 +21592,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Up'n Down (not encrypted)",
+      "y": "1983",
+      "m": "Sega"
     },
     "wboy": {
       "parent": null,
@@ -20871,7 +21660,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 1, 315-5177)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboyub": {
       "parent": "wboy",
@@ -20928,7 +21720,10 @@
           "n": "0cpu.bin",
           "c": "a962e6af"
         }
-      ]
+      ],
+      "t": "Wonder Boy (US bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "wboyo": {
       "parent": "wboy",
@@ -20993,7 +21788,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 2, 315-5135)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboy2": {
       "parent": "wboy",
@@ -21070,7 +21868,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 2, 315-5178)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboy2u": {
       "parent": "wboy",
@@ -21147,7 +21948,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 2, not encrypted)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboy3": {
       "parent": "wboy",
@@ -21212,7 +22016,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 3, 315-5135)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboy4": {
       "parent": "wboy",
@@ -21253,7 +22060,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (315-5162, 4-D Warriors Conversion)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboy5": {
       "parent": "wboy",
@@ -21318,7 +22128,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 5, bootleg)",
+      "y": "1986",
+      "m": "bootleg"
     },
     "wboy6": {
       "parent": "wboy",
@@ -21395,7 +22208,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (set 6, 315-5179)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboyblt": {
       "parent": "wboy",
@@ -21460,7 +22276,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (Tecfri bootleg)",
+      "y": "1986",
+      "m": "bootleg (Tecfri)"
     },
     "wboyu": {
       "parent": "wboy",
@@ -21525,7 +22344,10 @@
           "n": "pr-5317.76",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (prototype?)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wbdeluxe": {
       "parent": "wboy",
@@ -21602,7 +22424,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy Deluxe",
+      "y": "1986",
+      "m": "hack (Vision Electronics)"
     },
     "wmatch": {
       "parent": null,
@@ -21671,7 +22496,10 @@
           "n": "pr-5317.106",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Water Match (315-5064)",
+      "y": "1984",
+      "m": "Sega"
     },
     "shtngmst": {
       "parent": null,
@@ -21764,7 +22592,10 @@
           "n": "315-5139.ic50",
           "c": "943d91b0"
         }
-      ]
+      ],
+      "t": "Shooting Master (8751 315-5159a)",
+      "y": "1985",
+      "m": "Sega"
     },
     "choplift": {
       "parent": null,
@@ -21845,7 +22676,10 @@
           "n": "315-5139.ic50",
           "c": "943d91b0"
         }
-      ]
+      ],
+      "t": "Choplifter (8751 315-5151)",
+      "y": "1985",
+      "m": "Sega"
     },
     "chopliftu": {
       "parent": "choplift",
@@ -21922,7 +22756,10 @@
           "n": "315-5139.ic50",
           "c": "943d91b0"
         }
-      ]
+      ],
+      "t": "Choplifter (unprotected)",
+      "y": "1985",
+      "m": "Sega"
     },
     "chopliftbl": {
       "parent": "choplift",
@@ -22003,7 +22840,10 @@
           "n": "pal16l8a-chopbl2.bin",
           "c": "afa7425d"
         }
-      ]
+      ],
+      "t": "Choplifter (bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "wboysys2": {
       "parent": "wboy",
@@ -22056,7 +22896,10 @@
           "n": "pr-5317.28",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (system 2, set 1, 315-5177)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "wboysys2a": {
       "parent": "wboy",
@@ -22109,7 +22952,10 @@
           "n": "pr-5317.28",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy (system 2, set 2, 315-5176)",
+      "y": "1986",
+      "m": "Escape (Sega license)"
     },
     "ufosensi": {
       "parent": null,
@@ -22178,7 +23024,10 @@
           "n": "317-0064.key",
           "c": "da326f36"
         }
-      ]
+      ],
+      "t": "Ufo Senshi Yohko Chan (MC-8123, 317-0064)",
+      "y": "1988",
+      "m": "Sega"
     },
     "wbml": {
       "parent": null,
@@ -22247,7 +23096,10 @@
           "n": "317-0043.key",
           "c": "e354abfc"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (Japan New Ver., MC-8123, 317-0043)",
+      "y": "1987",
+      "m": "Sega / Westone"
     },
     "wbmljb": {
       "parent": "wbml",
@@ -22312,7 +23164,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (Japan bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "wbmljo": {
       "parent": "wbml",
@@ -22381,7 +23236,10 @@
           "n": "317-0043.key",
           "c": "e354abfc"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (Japan Old Ver., MC-8123, 317-0043)",
+      "y": "1987",
+      "m": "Sega / Westone"
     },
     "wbmlb": {
       "parent": "wbml",
@@ -22446,7 +23304,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English bootleg set 1)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "wbmlb2": {
       "parent": "wbml",
@@ -22511,7 +23372,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English bootleg set 4)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "wbmlbg": {
       "parent": "wbml",
@@ -22576,7 +23440,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English bootleg set 2)",
+      "y": "1987",
+      "m": "bootleg (Galaxy Electronics)"
     },
     "wbmlbge": {
       "parent": "wbml",
@@ -22641,7 +23508,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English bootleg set 3)",
+      "y": "1987",
+      "m": "bootleg (Gecas)"
     },
     "wbmlvc": {
       "parent": "wbml",
@@ -22706,7 +23576,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English, Virtual Console)",
+      "y": "2009",
+      "m": "Sega"
     },
     "wbmlvcd": {
       "parent": "wbml",
@@ -22771,7 +23644,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (decrypted bootleg of English, Virtual Console release)",
+      "y": "2009",
+      "m": "bootleg (mpatou)"
     },
     "wbmld": {
       "parent": "wbml",
@@ -22836,7 +23712,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (decrypted bootleg of Japan New Ver., MC-8123, 317-0043)",
+      "y": "1987",
+      "m": "bootleg (mpatou)"
     },
     "wbmljod": {
       "parent": "wbml",
@@ -22901,7 +23780,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (decrypted bootleg of Japan Old Ver., MC-8123, 317-0043)",
+      "y": "1987",
+      "m": "bootleg (mpatou)"
     },
     "wbmlh": {
       "parent": "wbml",
@@ -22966,7 +23848,10 @@
           "n": "pr5317.37",
           "c": "648350b8"
         }
-      ]
+      ],
+      "t": "Wonder Boy: Monster Land (English, difficulty hack)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "aceattaca": {
       "parent": "aceattac",
@@ -23059,7 +23944,10 @@
           "n": "317-0060.key",
           "c": "f4ee940f"
         }
-      ]
+      ],
+      "t": "Ace Attacker (Japan, System 16A, FD1094 317-0060)",
+      "y": "1988",
+      "m": "Sega"
     },
     "afighter": {
       "parent": null,
@@ -23140,7 +24028,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (FD1089A 317-0018)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afightera": {
       "parent": "afighter",
@@ -23217,7 +24108,10 @@
           "n": "epr-10284.12",
           "c": "8ff09116"
         }
-      ]
+      ],
+      "t": "Action Fighter (unprotected)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterb": {
       "parent": "afighter",
@@ -23294,7 +24188,10 @@
           "n": "epr-10284.12",
           "c": "8ff09116"
         }
-      ]
+      ],
+      "t": "Action Fighter (unprotected, analog controls)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterc": {
       "parent": "afighter",
@@ -23375,7 +24272,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (FD1089B 317-unknown)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterd": {
       "parent": "afighter",
@@ -23456,7 +24356,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (FD1089B 317-unknown, analog controls)",
+      "y": "1986",
+      "m": "Sega"
     },
     "alexkidd": {
       "parent": null,
@@ -23537,7 +24440,10 @@
           "n": "epr-10436.2",
           "c": "96c76613"
         }
-      ]
+      ],
+      "t": "Alex Kidd: The Lost Stars (set 2, unprotected)",
+      "y": "1986",
+      "m": "Sega"
     },
     "alexkidd1": {
       "parent": "alexkidd",
@@ -23622,7 +24528,10 @@
           "n": "317-0021.key",
           "c": "504388a3"
         }
-      ]
+      ],
+      "t": "Alex Kidd: The Lost Stars (set 1, FD1089A 317-0021)",
+      "y": "1986",
+      "m": "Sega"
     },
     "aliensynjo": {
       "parent": "aliensyn",
@@ -23719,7 +24628,10 @@
           "n": "317-0033.key",
           "c": "68bb7745"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 1, Japan, old, System 16A, FD1089A 317-0033)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aliensyn2": {
       "parent": "aliensyn",
@@ -23816,7 +24728,10 @@
           "n": "317-0033.key",
           "c": "68bb7745"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 2, System 16A, FD1089A 317-0033)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aliensyn5": {
       "parent": "aliensyn",
@@ -23913,7 +24828,10 @@
           "n": "317-0037.key",
           "c": "68bb7745"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 5, System 16A, FD1089B 317-0037)",
+      "y": "1987",
+      "m": "Sega"
     },
     "bodyslam": {
       "parent": null,
@@ -24014,7 +24932,10 @@
           "n": "317-0015.bin",
           "c": "833869e2"
         }
-      ]
+      ],
+      "t": "Body Slam (8751 317-0015)",
+      "y": "1986",
+      "m": "Sega"
     },
     "dumpmtmt": {
       "parent": "bodyslam",
@@ -24111,7 +25032,10 @@
           "n": "epr-7714.c4",
           "c": "8fd48c47"
         }
-      ]
+      ],
+      "t": "Dump Matsumoto (Japan, 8751 317-0011a)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzone": {
       "parent": null,
@@ -24180,7 +25104,10 @@
           "n": "epr-7535a.12",
           "c": "bc1374fa"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (Rev A, unprotected)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzone1": {
       "parent": "fantzone",
@@ -24249,7 +25176,10 @@
           "n": "epr-7535.12",
           "c": "0cb2126a"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (unprotected)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzoneno": {
       "parent": "fantzone",
@@ -24298,7 +25228,10 @@
           "n": "epr-7535a.12",
           "c": "bc1374fa"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (New, Oversea, PS2)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzonenu": {
       "parent": "fantzone",
@@ -24347,7 +25280,10 @@
           "n": "epr-7535a.12",
           "c": "bc1374fa"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (New, US Rev.A, PS2)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzonee": {
       "parent": "fantzone",
@@ -24420,7 +25356,10 @@
           "n": "317-0016.key",
           "c": "16869a2c"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (FD1089B 317-0016)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzonep": {
       "parent": "fantzone",
@@ -24489,7 +25428,10 @@
           "n": "epr-7391.12",
           "c": "c03e155e"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (317-5000)",
+      "y": "1986",
+      "m": "Sega"
     },
     "fantzonepr": {
       "parent": "fantzone",
@@ -24570,7 +25512,10 @@
           "n": "8751.bin",
           "c": "c0d325e6"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (prototype)",
+      "y": "1986",
+      "m": "Sega"
     },
     "mjleague": {
       "parent": null,
@@ -24667,7 +25612,10 @@
           "n": "epr-7066.4a",
           "c": "f5cfa91f"
         }
-      ]
+      ],
+      "t": "Major League",
+      "y": "1985",
+      "m": "Sega"
     },
     "passsht16a": {
       "parent": "passsht",
@@ -24744,7 +25692,10 @@
           "n": "317-0071.key",
           "c": "c69949ec"
         }
-      ]
+      ],
+      "t": "Passing Shot (Japan, 4 Players, System 16A) (FD1094 317-0071)",
+      "y": "1988",
+      "m": "Sega"
     },
     "quartet": {
       "parent": null,
@@ -24849,7 +25800,10 @@
           "n": "315-5193.pls153.8j",
           "c": "0fe1eefd"
         }
-      ]
+      ],
+      "t": "Quartet (Rev A, 8751 315-5194)",
+      "y": "1986",
+      "m": "Sega"
     },
     "quarteta": {
       "parent": "quartet",
@@ -24954,7 +25908,10 @@
           "n": "315-5193.pls153.8j",
           "c": "0fe1eefd"
         }
-      ]
+      ],
+      "t": "Quartet (8751 315-5194)",
+      "y": "1986",
+      "m": "Sega"
     },
     "quartet2": {
       "parent": "quartet",
@@ -25055,7 +26012,10 @@
           "n": "317-0010.bin",
           "c": "8c2033ea"
         }
-      ]
+      ],
+      "t": "Quartet 2 (8751 317-0010)",
+      "y": "1986",
+      "m": "Sega"
     },
     "quartet2a": {
       "parent": "quartet",
@@ -25152,7 +26112,10 @@
           "n": "epr-7476.4c",
           "c": "5eba655a"
         }
-      ]
+      ],
+      "t": "Quartet 2 (unprotected)",
+      "y": "1986",
+      "m": "Sega"
     },
     "sdi": {
       "parent": null,
@@ -25225,7 +26188,10 @@
           "n": "317-0027.key",
           "c": "7bdeed05"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
+      "y": "1987",
+      "m": "Sega"
     },
     "sdia": {
       "parent": "sdi",
@@ -25298,7 +26264,10 @@
           "n": "317-0027.key",
           "c": "7bdeed05"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (Japan, old, System 16A, FD1089B 317-0027)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi": {
       "parent": null,
@@ -25375,7 +26344,10 @@
           "n": "epr-11268.1",
           "c": "6d7966da"
         }
-      ]
+      ],
+      "t": "Shinobi (set 6, System 16A) (unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi1": {
       "parent": "shinobi",
@@ -25456,7 +26428,10 @@
           "n": "317-0050.key",
           "c": "82c39ced"
         }
-      ]
+      ],
+      "t": "Shinobi (set 1, System 16A) (FD1094 317-0050)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi1d": {
       "parent": "shinobi",
@@ -25533,7 +26508,10 @@
           "n": "epr-11268.1",
           "c": "6d7966da"
         }
-      ]
+      ],
+      "t": "Shinobi (set 1, System 16A) (bootleg of FD1094 317-0050 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "shinobls": {
       "parent": "shinobi",
@@ -25610,7 +26588,10 @@
           "n": "b9",
           "c": "6d7966da"
         }
-      ]
+      ],
+      "t": "Shinobi (Star bootleg, set 1, System 16A)",
+      "y": "1987",
+      "m": "bootleg (Star)"
     },
     "shinobls2": {
       "parent": "shinobi",
@@ -25687,7 +26668,10 @@
           "n": "e-17.6w",
           "c": "6d7966da"
         }
-      ]
+      ],
+      "t": "Shinobi (Star bootleg, set 2, System 16A)",
+      "y": "1987",
+      "m": "bootleg (Star)"
     },
     "shinoblb": {
       "parent": "shinobi",
@@ -25768,7 +26752,10 @@
           "n": "17.6u",
           "c": "b7a6890c"
         }
-      ]
+      ],
+      "t": "Shinobi (Beta bootleg)",
+      "y": "1987",
+      "m": "bootleg (Beta)"
     },
     "sjryuko1": {
       "parent": "sjryuko",
@@ -25861,7 +26848,10 @@
           "n": "317-5021.key",
           "c": "8e40b2ab"
         }
-      ]
+      ],
+      "t": "Sukeban Jansi Ryuko (set 1, System 16A, FD1089B 317-5021)",
+      "y": "1987",
+      "m": "White Board"
     },
     "tetris": {
       "parent": null,
@@ -25902,7 +26892,10 @@
           "n": "317-0093.key",
           "c": "e0064442"
         }
-      ]
+      ],
+      "t": "Tetris (set 4, Japan, System 16A) (FD1094 317-0093)",
+      "y": "1988",
+      "m": "Sega"
     },
     "tetrisd": {
       "parent": "tetris",
@@ -25939,7 +26932,10 @@
           "n": "epr-12205.rom",
           "c": "6695dc99"
         }
-      ]
+      ],
+      "t": "Tetris (set 4, Japan, System 16A) (bootleg of FD1094 317-0093 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "tetris3": {
       "parent": "tetris",
@@ -25980,7 +26976,10 @@
           "n": "317-0093a.key",
           "c": "7ca4a8ee"
         }
-      ]
+      ],
+      "t": "Tetris (set 3, Japan, System 16A) (FD1094 317-0093a)",
+      "y": "1988",
+      "m": "Sega"
     },
     "tetris3d": {
       "parent": "tetris",
@@ -26017,7 +27016,10 @@
           "n": "epr-12205.rom",
           "c": "6695dc99"
         }
-      ]
+      ],
+      "t": "Tetris (set 3, Japan, System 16A) (bootleg of FD1094 317-0093a set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "timescan1": {
       "parent": "timescan",
@@ -26106,7 +27108,10 @@
           "n": "317-0024.key",
           "c": "dcd41d24"
         }
-      ]
+      ],
+      "t": "Time Scanner (set 1, System 16A, FD1089B 317-0024)",
+      "y": "1987",
+      "m": "Sega"
     },
     "wb31": {
       "parent": "wb3",
@@ -26179,7 +27184,10 @@
           "n": "317-0084.key",
           "c": "2c58dafa"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (FD1094 317-0084)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb31d": {
       "parent": "wb3",
@@ -26248,7 +27256,10 @@
           "n": "epr-12089.bin",
           "c": "8321eb0b"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (bootleg of FD1094 317-0084 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "wb35": {
       "parent": "wb3",
@@ -26321,7 +27332,10 @@
           "n": "317-0086.key",
           "c": "5b8e7076"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (FD1089A 317-0086)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb35d": {
       "parent": "wb3",
@@ -26390,7 +27404,10 @@
           "n": "epr-12089.12",
           "c": "8321eb0b"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (bootleg of FD1089A 317-0086 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "aceattac": {
       "parent": null,
@@ -26479,7 +27496,10 @@
           "n": "317-0059.key",
           "c": "4512e2fa"
         }
-      ]
+      ],
+      "t": "Ace Attacker (FD1094 317-0059)",
+      "y": "1988",
+      "m": "Sega"
     },
     "afightere": {
       "parent": "afighter",
@@ -26556,7 +27576,10 @@
           "n": "epr10039.bin",
           "c": "b04757b0"
         }
-      ]
+      ],
+      "t": "Action Fighter (System 16B, unprotected, analog controls)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterf": {
       "parent": "afighter",
@@ -26637,7 +27660,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (System 16B, FD1089B 317-unknown, analog controls)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterg": {
       "parent": "afighter",
@@ -26718,7 +27744,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (System 16B, FD1089B 317-unknown)",
+      "y": "1986",
+      "m": "Sega"
     },
     "afighterh": {
       "parent": "afighter",
@@ -26799,7 +27828,10 @@
           "n": "317-0018.key",
           "c": "65b5b1af"
         }
-      ]
+      ],
+      "t": "Action Fighter (System 16B, FD1089A 317-0018)",
+      "y": "1986",
+      "m": "Sega"
     },
     "aliensyn": {
       "parent": null,
@@ -26888,7 +27920,10 @@
           "n": "epr-10726.a10",
           "c": "d50b7736"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 4, System 16B, unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aliensyn3": {
       "parent": "aliensyn",
@@ -26981,7 +28016,10 @@
           "n": "317-0033.key",
           "c": "68bb7745"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 3, System 16B, FD1089A 317-0033)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aliensyn7": {
       "parent": "aliensyn",
@@ -27074,7 +28112,10 @@
           "n": "317-00xx.key",
           "c": "76b370cd"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 7, System 16B, MC-8123B 317-00xx)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aliensynj": {
       "parent": "aliensyn",
@@ -27167,7 +28208,10 @@
           "n": "317-0033.key",
           "c": "68bb7745"
         }
-      ]
+      ],
+      "t": "Alien Syndrome (set 6, Japan, new, System 16B, FD1089A 317-0033)",
+      "y": "1987",
+      "m": "Sega"
     },
     "altbeast": {
       "parent": null,
@@ -27244,7 +28288,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 8) (8751 317-0078)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeastj": {
       "parent": "altbeast",
@@ -27357,7 +28404,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Juuouki (set 7, Japan) (8751 317-0077)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeast2": {
       "parent": "altbeast",
@@ -27434,7 +28484,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 2) (MC-8123B 317-0066)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeastj1": {
       "parent": "altbeast",
@@ -27511,7 +28564,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Juuouki (set 1, Japan) (FD1094 317-0065)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeastj3": {
       "parent": "altbeast",
@@ -27624,7 +28680,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Juuouki (set 3, Japan) (FD1094 317-0068)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeastj3d": {
       "parent": "altbeast",
@@ -27733,7 +28792,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Juuouki (set 3, Japan) (bootleg of FD1094 317-0068 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "altbeast4": {
       "parent": "altbeast",
@@ -27846,7 +28908,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 4) (MC-8123B 317-0066)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeast5": {
       "parent": "altbeast",
@@ -27959,7 +29024,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 5) (FD1094 317-0069)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeast5d": {
       "parent": "altbeast",
@@ -28068,7 +29136,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 5) (bootleg of FD1094 317-0069 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "altbeast6": {
       "parent": "altbeast",
@@ -28181,7 +29252,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Altered Beast (set 6) (8751 317-0076)",
+      "y": "1988",
+      "m": "Sega"
     },
     "altbeastbl": {
       "parent": "altbeast",
@@ -28290,7 +29364,10 @@
           "n": "2.bin",
           "c": "7c653d8b"
         }
-      ]
+      ],
+      "t": "Altered Beast (Datsu bootleg)",
+      "y": "1988",
+      "m": "bootleg (Datsu)"
     },
     "mutantwarr": {
       "parent": "altbeast",
@@ -28399,7 +29476,10 @@
           "n": "2.bin",
           "c": "7c653d8b"
         }
-      ]
+      ],
+      "t": "Mutant Warrior (Datsu bootleg of Altered Beast)",
+      "y": "1988",
+      "m": "bootleg (Datsu)"
     },
     "atomicp": {
       "parent": null,
@@ -28424,7 +29504,10 @@
           "n": "ap-t5.bin",
           "c": "ef5ecd6b"
         }
-      ]
+      ],
+      "t": "Atomic Point (Korea)",
+      "y": "1990",
+      "m": "Philko"
     },
     "aurail": {
       "parent": null,
@@ -28545,7 +29628,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Aurail (set 3, US) (unprotected)",
+      "y": "1990",
+      "m": "Sega / Westone"
     },
     "aurail1": {
       "parent": "aurail",
@@ -28670,7 +29756,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Aurail (set 2, World) (FD1089B 317-0168)",
+      "y": "1990",
+      "m": "Sega / Westone"
     },
     "aurail1d": {
       "parent": "aurail",
@@ -28791,7 +29880,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Aurail (set 2, World) (bootleg of FD1089B 317-0168 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "aurailj": {
       "parent": "aurail",
@@ -28916,7 +30008,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Aurail (set 1, Japan) (FD1089A 317-0167)",
+      "y": "1990",
+      "m": "Sega / Westone"
     },
     "aurailjd": {
       "parent": "aurail",
@@ -29037,7 +30132,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Aurail (set 1, Japan) (bootleg of FD1089A 317-0167 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "bayroute": {
       "parent": null,
@@ -29106,7 +30204,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Bay Route (set 3, World) (FD1094 317-0116)",
+      "y": "1989",
+      "m": "Sunsoft / Sega"
     },
     "bayrouted": {
       "parent": "bayroute",
@@ -29171,7 +30272,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Bay Route (set 3, World) (bootleg of FD1094 317-0116 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "bayroutej": {
       "parent": "bayroute",
@@ -29240,7 +30344,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Bay Route (set 2, Japan) (FD1094 317-0115)",
+      "y": "1989",
+      "m": "Sunsoft / Sega"
     },
     "bayroutejd": {
       "parent": "bayroute",
@@ -29305,7 +30412,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Bay Route (set 2, Japan) (bootleg of FD1094 317-0115 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "bayroute1": {
       "parent": "bayroute",
@@ -29398,7 +30508,10 @@
           "n": "sound.a11",
           "c": "a602ea2d"
         }
-      ]
+      ],
+      "t": "Bay Route (set 1, US) (unprotected)",
+      "y": "1989",
+      "m": "Sunsoft / Sega"
     },
     "blox16b": {
       "parent": "bloxeed",
@@ -29419,7 +30532,10 @@
           "n": "bs16b.snd",
           "c": "930c7e7b"
         }
-      ]
+      ],
+      "t": "Bloxeed (System 16B, PS2 data file)",
+      "y": "2008",
+      "m": "Sega"
     },
     "bullet": {
       "parent": null,
@@ -29504,7 +30620,10 @@
           "n": "317-0041.key",
           "c": "4cd4861a"
         }
-      ]
+      ],
+      "t": "Bullet (FD1094 317-0041)",
+      "y": "1987",
+      "m": "Sega"
     },
     "bulletd": {
       "parent": "bullet",
@@ -29585,7 +30704,10 @@
           "n": "epr-10998.a8",
           "c": "f971a817"
         }
-      ]
+      ],
+      "t": "Bullet (bootleg of FD1094 317-0041 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "cotton": {
       "parent": null,
@@ -29710,7 +30832,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 4, World) (FD1094 317-0181a)",
+      "y": "1991",
+      "m": "Success / Sega"
     },
     "cottond": {
       "parent": "cotton",
@@ -29831,7 +30956,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 4, World) (bootleg of FD1094 317-0181a set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "cottonu": {
       "parent": "cotton",
@@ -29956,7 +31084,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 3, US) (FD1094 317-0180)",
+      "y": "1991",
+      "m": "Success / Sega"
     },
     "cottonud": {
       "parent": "cotton",
@@ -30077,7 +31208,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 3, US) (bootleg of FD1094 317-0180 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "cottonj": {
       "parent": "cotton",
@@ -30202,7 +31336,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 2, Japan, Rev B) (FD1094 317-0179b)",
+      "y": "1991",
+      "m": "Success / Sega"
     },
     "cottonjd": {
       "parent": "cotton",
@@ -30323,7 +31460,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 2, Japan, Rev B) (bootleg of FD1094 317-0179b set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "cottonja": {
       "parent": "cotton",
@@ -30448,7 +31588,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 1, Japan, Rev A) (FD1094 317-0179a)",
+      "y": "1991",
+      "m": "Success / Sega"
     },
     "cottonjad": {
       "parent": "cotton",
@@ -30569,7 +31712,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cotton (set 1, Japan, Rev A) (bootleg of FD1094 317-0179a set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddux": {
       "parent": null,
@@ -30630,7 +31776,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (set 3, World) (FD1094 317-0096)",
+      "y": "1988",
+      "m": "Sega"
     },
     "dduxd": {
       "parent": "ddux",
@@ -30687,7 +31836,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (set 3, World) (bootleg of FD1094 317-0096 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "dduxj": {
       "parent": "ddux",
@@ -30748,7 +31900,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (set 2, Japan) (FD1094 317-0094)",
+      "y": "1988",
+      "m": "Sega"
     },
     "dduxjd": {
       "parent": "ddux",
@@ -30805,7 +31960,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (set 2, Japan) (bootleg of FD1094 317-0094 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "ddux1": {
       "parent": "ddux",
@@ -30866,7 +32024,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (set 1, World) (8751 317-0095)",
+      "y": "1988",
+      "m": "Sega"
     },
     "dduxbl": {
       "parent": "ddux",
@@ -30955,7 +32116,10 @@
           "n": "dduxb_pal20l8.2",
           "c": "09098fbe"
         }
-      ]
+      ],
+      "t": "Dynamite Dux (Datsu bootleg)",
+      "y": "1989",
+      "m": "bootleg (Datsu)"
     },
     "dunkshot": {
       "parent": null,
@@ -31048,7 +32212,10 @@
           "n": "317-0022.key",
           "c": "3f218333"
         }
-      ]
+      ],
+      "t": "Dunk Shot (Rev C, FD1089A 317-0022)",
+      "y": "1987",
+      "m": "Sega"
     },
     "dunkshota": {
       "parent": "dunkshot",
@@ -31141,7 +32308,10 @@
           "n": "317-0022.key",
           "c": "3f218333"
         }
-      ]
+      ],
+      "t": "Dunk Shot (Rev A, FD1089A 317-0022)",
+      "y": "1987",
+      "m": "Sega"
     },
     "dunkshoto": {
       "parent": "dunkshot",
@@ -31234,7 +32404,10 @@
           "n": "317-0022.key",
           "c": "3f218333"
         }
-      ]
+      ],
+      "t": "Dunk Shot (FD1089A 317-0022)",
+      "y": "1986",
+      "m": "Sega"
     },
     "eswat": {
       "parent": null,
@@ -31299,7 +32472,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 4, World) (FD1094 317-0130)",
+      "y": "1989",
+      "m": "Sega"
     },
     "eswatd": {
       "parent": "eswat",
@@ -31360,7 +32536,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 4, World) (bootleg of FD1094 317-0130 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "eswatj": {
       "parent": "eswat",
@@ -31425,7 +32604,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 2, Japan) (FD1094 317-0128)",
+      "y": "1989",
+      "m": "Sega"
     },
     "eswatjd": {
       "parent": "eswat",
@@ -31486,7 +32668,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 2, Japan) (bootleg of FD1094 317-0128 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "eswatj1": {
       "parent": "eswat",
@@ -31599,7 +32784,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 1, Japan) (FD1094 317-0131)",
+      "y": "1989",
+      "m": "Sega"
     },
     "eswatj1d": {
       "parent": "eswat",
@@ -31708,7 +32896,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 1, Japan) (bootleg of FD1094 317-0131 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "eswatu": {
       "parent": "eswat",
@@ -31773,7 +32964,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 3, US) (FD1094 317-0129)",
+      "y": "1989",
+      "m": "Sega"
     },
     "eswatud": {
       "parent": "eswat",
@@ -31834,7 +33028,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (set 3, US) (bootleg of FD1094 317-0129 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "eswatbl": {
       "parent": "eswat",
@@ -31907,7 +33104,10 @@
           "n": "ic6",
           "c": "254347c2"
         }
-      ]
+      ],
+      "t": "Cyber Police ESWAT (bootleg, set 1)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "exctleag": {
       "parent": null,
@@ -32004,7 +33204,10 @@
           "n": "317-0079.key",
           "c": "effefa1c"
         }
-      ]
+      ],
+      "t": "Excite League (FD1094 317-0079)",
+      "y": "1988",
+      "m": "Sega"
     },
     "exctleagd": {
       "parent": "exctleag",
@@ -32097,7 +33300,10 @@
           "n": "epr-11143.a11",
           "c": "848b7b77"
         }
-      ]
+      ],
+      "t": "Excite League (bootleg of FD1094 317-0079 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "fantzoneta": {
       "parent": "fantzone",
@@ -32142,7 +33348,10 @@
           "n": "fzta__a10.bin",
           "c": "dab6fcd0"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (Time Attack, bootleg)",
+      "y": "2008",
+      "m": "bootleg"
     },
     "fantzn2x": {
       "parent": null,
@@ -32235,7 +33444,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Fantasy Zone II - The Tears of Opa-Opa (System 16C version)",
+      "y": "2008",
+      "m": "Sega / M2"
     },
     "fantzn2xp": {
       "parent": "fantzn2x",
@@ -32316,7 +33528,10 @@
           "n": "cpu2b.bin",
           "c": "2c8ad475"
         }
-      ]
+      ],
+      "t": "Fantasy Zone II - The Tears of Opa-Opa (System 16C version, prototype)",
+      "y": "2008",
+      "m": "Sega / M2"
     },
     "fantzn2xps2": {
       "parent": "fantzn2x",
@@ -32341,7 +33556,10 @@
           "n": "fz2_s16c.snd",
           "c": "0ed30ec1"
         }
-      ]
+      ],
+      "t": "Fantasy Zone II - The Tears of Opa-Opa (System 16C, PS2 data file)",
+      "y": "2008",
+      "m": "Sega / M2"
     },
     "fantznta": {
       "parent": "fantzone",
@@ -32362,7 +33580,10 @@
           "n": "fz1_s16b.snd",
           "c": "a00701fb"
         }
-      ]
+      ],
+      "t": "Fantasy Zone Time Attack (System 16B, PS2 data file)",
+      "y": "2008",
+      "m": "Sega"
     },
     "fantznps2": {
       "parent": "fantzone",
@@ -32383,7 +33604,10 @@
           "n": "fz1_s16b.snd",
           "c": "a00701fb"
         }
-      ]
+      ],
+      "t": "Fantasy Zone (System 16B, PS2 data file)",
+      "y": "2008",
+      "m": "Sega"
     },
     "fpoint": {
       "parent": null,
@@ -32424,7 +33648,10 @@
           "n": "317-0127a.key",
           "c": "5adb0042"
         }
-      ]
+      ],
+      "t": "Flash Point (set 2, Japan) (FD1094 317-0127A)",
+      "y": "1989",
+      "m": "Sega"
     },
     "fpointd": {
       "parent": "fpoint",
@@ -32461,7 +33688,10 @@
           "n": "epr-12592.a10",
           "c": "9a8c11bb"
         }
-      ]
+      ],
+      "t": "Flash Point (set 2, Japan) (bootleg of FD1094 317-0127A set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "fpoint1": {
       "parent": "fpoint",
@@ -32506,7 +33736,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Flash Point (set 1, Japan) (FD1094 317-0127A)",
+      "y": "1989",
+      "m": "Sega"
     },
     "fpoint1d": {
       "parent": "fpoint",
@@ -32547,7 +33780,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Flash Point (set 1, Japan) (bootleg of FD1094 317-0127A set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "fpointbl": {
       "parent": "fpoint",
@@ -32584,7 +33820,10 @@
           "n": "flpoint.001",
           "c": "c5b8e0fe"
         }
-      ]
+      ],
+      "t": "Flash Point (World, bootleg)",
+      "y": "1989",
+      "m": "bootleg (Datsu)"
     },
     "fpointbj": {
       "parent": "fpoint",
@@ -32637,7 +33876,10 @@
           "n": "fpointbj_gal16v8_3.bin",
           "c": "ce1ab1e1"
         }
-      ]
+      ],
+      "t": "Flash Point (Japan, bootleg set 1)",
+      "y": "1989",
+      "m": "bootleg (Datsu)"
     },
     "goldnaxe": {
       "parent": null,
@@ -32702,7 +33944,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 6, US) (8751 317-123A)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxe1": {
       "parent": "goldnaxe",
@@ -32767,7 +34012,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 1, World) (FD1094 317-0110)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxe1d": {
       "parent": "goldnaxe",
@@ -32828,7 +34076,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 1, World) (bootleg of FD1094 317-0110 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "goldnaxe2": {
       "parent": "goldnaxe",
@@ -32901,7 +34152,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 2, US) (8751 317-0112)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxe3": {
       "parent": "goldnaxe",
@@ -32974,7 +34228,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 3, World) (FD1094 317-0120)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxe3d": {
       "parent": "goldnaxe",
@@ -33043,7 +34300,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 3, World) (bootleg of FD1094 317-0120 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "goldnaxej": {
       "parent": "goldnaxe",
@@ -33116,7 +34376,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 4, Japan) (FD1094 317-0121)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxejd": {
       "parent": "goldnaxe",
@@ -33185,7 +34448,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 4, Japan) (bootleg of FD1094 317-0121 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "goldnaxeu": {
       "parent": "goldnaxe",
@@ -33250,7 +34516,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 5, US) (FD1094 317-0122)",
+      "y": "1989",
+      "m": "Sega"
     },
     "goldnaxeud": {
       "parent": "goldnaxe",
@@ -33311,7 +34580,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Golden Axe (set 5, US) (bootleg of FD1094 317-0122 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "hwchamp": {
       "parent": null,
@@ -33396,7 +34668,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Heavyweight Champ (set 1)",
+      "y": "1987",
+      "m": "Sega"
     },
     "hwchampa": {
       "parent": "hwchamp",
@@ -33481,7 +34756,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Heavyweight Champ (set 2)",
+      "y": "1987",
+      "m": "Sega"
     },
     "hwchampj": {
       "parent": "hwchamp",
@@ -33570,7 +34848,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Heavyweight Champ (Japan) (FD1094 317-0046)",
+      "y": "1987",
+      "m": "Sega"
     },
     "hwchampjd": {
       "parent": "hwchamp",
@@ -33655,7 +34936,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Heavyweight Champ (Japan) (bootleg of FD1094 317-0046 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "lockonph": {
       "parent": null,
@@ -33716,7 +35000,10 @@
           "n": "b5",
           "c": "d6369a39"
         }
-      ]
+      ],
+      "t": "Lock On (Philko)",
+      "y": "1991",
+      "m": "Philko"
     },
     "mvp": {
       "parent": null,
@@ -33789,7 +35076,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "MVP (set 2, US) (FD1094 317-0143)",
+      "y": "1989",
+      "m": "Sega"
     },
     "mvpd": {
       "parent": "mvp",
@@ -33858,7 +35148,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "MVP (set 2, US) (bootleg of FD1094 317-0143 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "mvpj": {
       "parent": "mvp",
@@ -33967,7 +35260,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "MVP (set 1, Japan) (FD1094 317-0142)",
+      "y": "1989",
+      "m": "Sega"
     },
     "mvpjd": {
       "parent": "mvp",
@@ -34072,7 +35368,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "MVP (set 1, Japan) (bootleg of FD1094 317-0142 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "passsht": {
       "parent": null,
@@ -34145,7 +35444,10 @@
           "n": "317-0080.key",
           "c": "222d016f"
         }
-      ]
+      ],
+      "t": "Passing Shot (World, 2 Players) (FD1094 317-0080)",
+      "y": "1988",
+      "m": "Sega"
     },
     "passshtd": {
       "parent": "passsht",
@@ -34214,7 +35516,10 @@
           "n": "epr-11861.a11",
           "c": "38b54a71"
         }
-      ]
+      ],
+      "t": "Passing Shot (World, 2 Players) (bootleg of FD1094 317-0080 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "passshta": {
       "parent": "passsht",
@@ -34287,7 +35592,10 @@
           "n": "317-0074.key",
           "c": "71bd232d"
         }
-      ]
+      ],
+      "t": "Passing Shot (World, 4 Players) (FD1094 317-0074)",
+      "y": "1988",
+      "m": "Sega"
     },
     "passshtad": {
       "parent": "passsht",
@@ -34356,7 +35664,10 @@
           "n": "epr-11861.a11",
           "c": "38b54a71"
         }
-      ]
+      ],
+      "t": "Passing Shot (World, 4 Players) (bootleg of FD1094 317-0074 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "passshtj": {
       "parent": "passsht",
@@ -34429,7 +35740,10 @@
           "n": "317-0070.key",
           "c": "5d0308aa"
         }
-      ]
+      ],
+      "t": "Passing Shot (Japan, 4 Players) (FD1094 317-0070)",
+      "y": "1988",
+      "m": "Sega"
     },
     "passshtjd": {
       "parent": "passsht",
@@ -34498,7 +35812,10 @@
           "n": "epr-11861.a11",
           "c": "38b54a71"
         }
-      ]
+      ],
+      "t": "Passing Shot (Japan, 4 Players) (bootleg of FD1094 317-0070 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "passshtb": {
       "parent": "passsht",
@@ -34567,7 +35884,10 @@
           "n": "epr11861.a11",
           "c": "38b54a71"
         }
-      ]
+      ],
+      "t": "Passing Shot (2 Players) (bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "cencourt": {
       "parent": "passsht",
@@ -34648,7 +35968,10 @@
           "n": "mc-8123b_center_court.key",
           "c": "2be5c90b"
         }
-      ]
+      ],
+      "t": "Center Court (World, 4 Players, prototype) (MC-8123B)",
+      "y": "1988",
+      "m": "Sega"
     },
     "riotcity": {
       "parent": null,
@@ -34729,7 +36052,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Riot City (Japan)",
+      "y": "1991",
+      "m": "Sega / Westone"
     },
     "ryukyu": {
       "parent": null,
@@ -34786,7 +36112,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "RyuKyu (Rev A, Japan) (FD1094 317-5023A)",
+      "y": "1990",
+      "m": "Success / Sega"
     },
     "ryukyua": {
       "parent": "ryukyu",
@@ -34843,7 +36172,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "RyuKyu (Japan) (FD1094 317-5023)",
+      "y": "1990",
+      "m": "Success / Sega"
     },
     "ryukyud": {
       "parent": "ryukyu",
@@ -34896,7 +36228,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "RyuKyu (Japan) (bootleg of FD1094 317-5023 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "sdib": {
       "parent": "sdi",
@@ -34969,7 +36304,10 @@
           "n": "317-0028.key",
           "c": "1514662f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (System 16B, FD1089A 317-0028)",
+      "y": "1987",
+      "m": "Sega"
     },
     "sdibl": {
       "parent": "sdi",
@@ -35038,7 +36376,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, original hardware)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sdibl2": {
       "parent": "sdi",
@@ -35131,7 +36472,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, set 1)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sdibl3": {
       "parent": "sdi",
@@ -35224,7 +36568,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, set 2)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sdibl4": {
       "parent": "sdi",
@@ -35317,7 +36664,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, set 3)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sdibl5": {
       "parent": "sdi",
@@ -35410,7 +36760,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, set 4)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "sdibl6": {
       "parent": "sdi",
@@ -35503,7 +36856,10 @@
           "n": "a7.rom",
           "c": "793f9f7f"
         }
-      ]
+      ],
+      "t": "SDI - Strategic Defense Initiative (bootleg, set 5)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "defense": {
       "parent": "sdi",
@@ -35576,7 +36932,10 @@
           "n": "317-0028.key",
           "c": "1514662f"
         }
-      ]
+      ],
+      "t": "Defense (System 16B, FD1089A 317-0028)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi2": {
       "parent": "shinobi",
@@ -35657,7 +37016,10 @@
           "n": "317-0049.key",
           "c": "8fac824f"
         }
-      ]
+      ],
+      "t": "Shinobi (set 2, System 16B) (FD1094 317-0049)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi2d": {
       "parent": "shinobi",
@@ -35734,7 +37096,10 @@
           "n": "epr-11289.a9",
           "c": "e5a4cf30"
         }
-      ]
+      ],
+      "t": "Shinobi (set 2, System 16B) (bootleg of FD1094 317-0049 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "shinobi3": {
       "parent": "shinobi",
@@ -35815,7 +37180,10 @@
           "n": "317-0054.key",
           "c": "39fd4535"
         }
-      ]
+      ],
+      "t": "Shinobi (set 3, System 16B) (MC-8123B 317-0054)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi4": {
       "parent": "shinobi",
@@ -35872,7 +37240,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Shinobi (set 4, System 16B) (MC-8123B 317-0054)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi5": {
       "parent": "shinobi",
@@ -35949,7 +37320,10 @@
           "n": "epr-11289.a9",
           "c": "e5a4cf30"
         }
-      ]
+      ],
+      "t": "Shinobi (set 5, System 16B) (unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "shinobi6": {
       "parent": "shinobi",
@@ -36002,7 +37376,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Shinobi (set 6, System 16B) (unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "sjryuko": {
       "parent": null,
@@ -36091,7 +37468,10 @@
           "n": "317-5021.key",
           "c": "8e40b2ab"
         }
-      ]
+      ],
+      "t": "Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)",
+      "y": "1988",
+      "m": "White Board"
     },
     "snapper": {
       "parent": null,
@@ -36116,7 +37496,10 @@
           "n": "snap5.r05",
           "c": "378e08eb"
         }
-      ]
+      ],
+      "t": "Snapper (Korea)",
+      "y": "1990",
+      "m": "Philko"
     },
     "sonicbom": {
       "parent": null,
@@ -36197,7 +37580,10 @@
           "n": "317-0053.key",
           "c": "91c80c88"
         }
-      ]
+      ],
+      "t": "Sonic Boom (FD1094 317-0053)",
+      "y": "1987",
+      "m": "Sega"
     },
     "sonicbomd": {
       "parent": "sonicbom",
@@ -36274,7 +37660,10 @@
           "n": "epr-11349.a9",
           "c": "8e4b6204"
         }
-      ]
+      ],
+      "t": "Sonic Boom (bootleg of FD1094 317-0053 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "suprleag": {
       "parent": null,
@@ -36371,7 +37760,10 @@
           "n": "317-0045.key",
           "c": "0594cc2e"
         }
-      ]
+      ],
+      "t": "Super League (FD1094 317-0045)",
+      "y": "1987",
+      "m": "Sega"
     },
     "tetris1": {
       "parent": "tetris",
@@ -36412,7 +37804,10 @@
           "n": "317-0091.key",
           "c": "a7937661"
         }
-      ]
+      ],
+      "t": "Tetris (set 1, Japan, System 16B) (FD1094 317-0091)",
+      "y": "1988",
+      "m": "Sega"
     },
     "tetris1d": {
       "parent": "tetris",
@@ -36449,7 +37844,10 @@
           "n": "epr-12168.a7",
           "c": "bd9ba01b"
         }
-      ]
+      ],
+      "t": "Tetris (set 1, Japan, System 16B) (bootleg of FD1094 317-0091 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "tetris2": {
       "parent": "tetris",
@@ -36494,7 +37892,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Tetris (set 2, Japan, System 16B) (FD1094 317-0092)",
+      "y": "1988",
+      "m": "Sega"
     },
     "tetris2d": {
       "parent": "tetris",
@@ -36535,7 +37936,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Tetris (set 2, Japan, System 16B) (bootleg of FD1094 317-0092 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "tetrisbl": {
       "parent": "tetris",
@@ -36572,7 +37976,10 @@
           "n": "epr12168.a7",
           "c": "bd9ba01b"
         }
-      ]
+      ],
+      "t": "Tetris (bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "timescan": {
       "parent": null,
@@ -36653,7 +38060,10 @@
           "n": "epr-10563.a8",
           "c": "9db7eddf"
         }
-      ]
+      ],
+      "t": "Time Scanner (set 2, System 16B)",
+      "y": "1987",
+      "m": "Sega"
     },
     "timescan3": {
       "parent": "timescan",
@@ -36738,7 +38148,10 @@
           "n": "317-0024.key",
           "c": "dcd41d24"
         }
-      ]
+      ],
+      "t": "Time Scanner (set 3, Japan, System 16B) (FD1089B 317-0024)",
+      "y": "1987",
+      "m": "Sega"
     },
     "toryumon": {
       "parent": null,
@@ -36807,7 +38220,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Toryumon",
+      "y": "1994",
+      "m": "Sega"
     },
     "tturf": {
       "parent": null,
@@ -36880,7 +38296,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Tough Turf (set 2, Japan) (8751 317-0104)",
+      "y": "1989",
+      "m": "Sega / Sunsoft"
     },
     "tturfu": {
       "parent": "tturf",
@@ -36969,7 +38388,10 @@
           "n": "317-0099.c2",
           "c": "f676e3e4"
         }
-      ]
+      ],
+      "t": "Tough Turf (set 1, US) (8751 317-0099)",
+      "y": "1989",
+      "m": "Sega / Sunsoft"
     },
     "ultracin": {
       "parent": null,
@@ -37034,7 +38456,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Waku Waku Ultraman Racing",
+      "y": "1996",
+      "m": "Sega"
     },
     "wb3": {
       "parent": null,
@@ -37099,7 +38524,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb32": {
       "parent": "wb3",
@@ -37172,7 +38600,10 @@
           "n": "317-0085.key",
           "c": "8150f38d"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (FD1094 317-0085)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb32d": {
       "parent": "wb3",
@@ -37241,7 +38672,10 @@
           "n": "epr-12127.a7",
           "c": "0bb901bb"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (bootleg of FD1094 317-0085 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "wb33": {
       "parent": "wb3",
@@ -37310,7 +38744,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 3, World, System 16B) (FD1094 317-0089)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb33d": {
       "parent": "wb3",
@@ -37375,7 +38812,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 3, World, System 16B) (bootleg of FD1094 317-0089 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "wb34": {
       "parent": "wb3",
@@ -37444,7 +38884,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 4, Japan, System 16B) (FD1094 317-0087)",
+      "y": "1988",
+      "m": "Sega / Westone"
     },
     "wb34d": {
       "parent": "wb3",
@@ -37509,7 +38952,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (set 4, Japan, System 16B) (bootleg of FD1094 317-0087 set)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "wb3bbl": {
       "parent": "wb3",
@@ -37578,7 +39024,10 @@
           "n": "epr12127.a10",
           "c": "0bb901bb"
         }
-      ]
+      ],
+      "t": "Wonder Boy III - Monster Lair (bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "wrestwar": {
       "parent": null,
@@ -37679,7 +39128,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wrestle War (set 3, World) (8751 317-0103)",
+      "y": "1989",
+      "m": "Sega"
     },
     "wrestwar1": {
       "parent": "wrestwar",
@@ -37780,7 +39232,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wrestle War (set 1, Japan) (FD1094 317-0090)",
+      "y": "1989",
+      "m": "Sega"
     },
     "wrestwar1d": {
       "parent": "wrestwar",
@@ -37877,7 +39332,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wrestle War (set 1, Japan) (bootleg of FD1094 317-0090 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "wrestwar2": {
       "parent": "wrestwar",
@@ -37978,7 +39436,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wrestle War (set 2, World) (FD1094 317-0102)",
+      "y": "1989",
+      "m": "Sega"
     },
     "wrestwar2d": {
       "parent": "wrestwar",
@@ -38075,7 +39536,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Wrestle War (set 2, World) (bootleg of FD1094 317-0102 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "isgsm": {
       "parent": null,
@@ -38084,7 +39548,10 @@
           "n": "ism2006v00.u1",
           "c": "2292585c"
         }
-      ]
+      ],
+      "t": "ISG Selection Master Type 2006 System BIOS",
+      "y": "2006",
+      "m": "bootleg (ISG)"
     },
     "shinfz": {
       "parent": null,
@@ -38093,7 +39560,10 @@
           "n": "shin06.u13",
           "c": "39d773e9"
         }
-      ]
+      ],
+      "t": "Shinobi / FZ-2006 (Korean System 16 bootleg) (ISG Selection Master Type 2006)",
+      "y": "2008",
+      "m": "bootleg (ISG)"
     },
     "tetrbx": {
       "parent": null,
@@ -38102,7 +39572,134 @@
           "n": "tetr06.u13",
           "c": "884dd693"
         }
-      ]
+      ],
+      "t": "Tetris / Bloxeed (Korean System 16 bootleg) (ISG Selection Master Type 2006)",
+      "y": "2006",
+      "m": "bootleg (ISG)"
+    },
+    "dfjail": {
+      "parent": null,
+      "roms": [
+        {
+          "n": "3.c15",
+          "c": "dc763979"
+        },
+        {
+          "n": "1.b15",
+          "c": "ee235fa5"
+        },
+        {
+          "n": "4.c16",
+          "c": "cdcbf6b1"
+        },
+        {
+          "n": "2.b16",
+          "c": "49ff074d"
+        },
+        {
+          "n": "9.f16",
+          "c": "b2a49d12"
+        },
+        {
+          "n": "10.f17",
+          "c": "7d9e8397"
+        },
+        {
+          "n": "7.f14",
+          "c": "549af682"
+        },
+        {
+          "n": "8.f15",
+          "c": "625c118d"
+        },
+        {
+          "n": "5.f12",
+          "c": "9d00656d"
+        },
+        {
+          "n": "6.f13",
+          "c": "37b7bf90"
+        },
+        {
+          "n": "11.g12",
+          "c": "019662e6"
+        },
+        {
+          "n": "19.h12",
+          "c": "f84f472b"
+        },
+        {
+          "n": "12.g13",
+          "c": "d222e52b"
+        },
+        {
+          "n": "20.h13",
+          "c": "f28bdf76"
+        },
+        {
+          "n": "13.g14",
+          "c": "f125b5b0"
+        },
+        {
+          "n": "21.h14",
+          "c": "0508cb29"
+        },
+        {
+          "n": "14.g15",
+          "c": "ca831a54"
+        },
+        {
+          "n": "22.h15",
+          "c": "7329f038"
+        },
+        {
+          "n": "15.g16",
+          "c": "db426709"
+        },
+        {
+          "n": "23.h16",
+          "c": "94ca23e8"
+        },
+        {
+          "n": "16.g17",
+          "c": "f7b2aad6"
+        },
+        {
+          "n": "24.h17",
+          "c": "6628becc"
+        },
+        {
+          "n": "17.g19",
+          "c": "9302cfc3"
+        },
+        {
+          "n": "25.h19",
+          "c": "26ca591f"
+        },
+        {
+          "n": "18.g20",
+          "c": "fc8aced0"
+        },
+        {
+          "n": "26.h20",
+          "c": "5828e0af"
+        },
+        {
+          "n": "29.f3",
+          "c": "7f3ebb6a"
+        },
+        {
+          "n": "27.g1",
+          "c": "7a88e1c1"
+        },
+        {
+          "n": "28.g3",
+          "c": "ed96d6b9"
+        }
+      ],
+      "t": "The Destroyer From Jail (Korea)",
+      "y": "1991",
+      "m": "Philko"
     },
     "toryumondx": {
       "parent": "toryumon",
@@ -38171,7 +39768,10 @@
           "n": "315-5298.b9",
           "c": "39b47212"
         }
-      ]
+      ],
+      "t": "Toryumon DX",
+      "y": "2023",
+      "m": "hack (bankbank)"
     },
     "astorm": {
       "parent": null,
@@ -38248,7 +39848,10 @@
           "n": "317-0154.key",
           "c": "b86b6b8f"
         }
-      ]
+      ],
+      "t": "Alien Storm (World, 2 Players) (FD1094 317-0154)",
+      "y": "1990",
+      "m": "Sega"
     },
     "astorm3": {
       "parent": "astorm",
@@ -38325,7 +39928,10 @@
           "n": "317-0148.key",
           "c": "72e4b64a"
         }
-      ]
+      ],
+      "t": "Alien Storm (World, 3 Players) (FD1094 317-0148)",
+      "y": "1990",
+      "m": "Sega"
     },
     "astorm3d": {
       "parent": "astorm",
@@ -38398,7 +40004,10 @@
           "n": "epr-13078.bin",
           "c": "15684dc5"
         }
-      ]
+      ],
+      "t": "Alien Storm (World, 3 Players) (bootleg of FD1094 317-0148 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "astormj": {
       "parent": "astorm",
@@ -38475,7 +40084,10 @@
           "n": "317-0146.key",
           "c": "e94991c5"
         }
-      ]
+      ],
+      "t": "Alien Storm (Japan, 2 Players) (FD1094 317-0146)",
+      "y": "1990",
+      "m": "Sega"
     },
     "astormjd": {
       "parent": "astorm",
@@ -38548,7 +40160,10 @@
           "n": "epr-13078.bin",
           "c": "15684dc5"
         }
-      ]
+      ],
+      "t": "Alien Storm (Japan, 2 Players) (bootleg of FD1094 317-0146 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "astormu": {
       "parent": "astorm",
@@ -38625,7 +40240,10 @@
           "n": "317-0147.key",
           "c": "3fd54ba7"
         }
-      ]
+      ],
+      "t": "Alien Storm (US, 3 Players) (FD1094 317-0147)",
+      "y": "1990",
+      "m": "Sega"
     },
     "astormud": {
       "parent": "astorm",
@@ -38698,7 +40316,10 @@
           "n": "epr-13078.bin",
           "c": "15684dc5"
         }
-      ]
+      ],
+      "t": "Alien Storm (US, 3 Players) (bootleg of FD1094 317-0147 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "bloxeed": {
       "parent": null,
@@ -38739,7 +40360,10 @@
           "n": "317-0139.key",
           "c": "9aae84cb"
         }
-      ]
+      ],
+      "t": "Bloxeed (Japan) (FD1094 317-0139)",
+      "y": "1989",
+      "m": "Sega / Elorg"
     },
     "bloxeeda": {
       "parent": "bloxeed",
@@ -38780,7 +40404,10 @@
           "n": "317-0139.key",
           "c": "9aae84cb"
         }
-      ]
+      ],
+      "t": "Bloxeed (Japan, earlier) (FD1094 317-0139)",
+      "y": "1989",
+      "m": "Sega"
     },
     "bloxeedd": {
       "parent": "bloxeed",
@@ -38817,7 +40444,10 @@
           "n": "epr-12888.a4",
           "c": "6f2fc63c"
         }
-      ]
+      ],
+      "t": "Bloxeed (Japan) (bootleg of FD1094 317-0139 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "cltchitr": {
       "parent": null,
@@ -38890,7 +40520,10 @@
           "n": "317-0176.key",
           "c": "9b072430"
         }
-      ]
+      ],
+      "t": "Clutch Hitter (US) (FD1094 317-0176)",
+      "y": "1991",
+      "m": "Sega"
     },
     "cltchitrd": {
       "parent": "cltchitr",
@@ -38959,7 +40592,10 @@
           "n": "epr-13791.c5",
           "c": "35c16d80"
         }
-      ]
+      ],
+      "t": "Clutch Hitter (US) (bootleg of FD1094 317-0176 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "cltchitrj": {
       "parent": "cltchitr",
@@ -39040,7 +40676,10 @@
           "n": "317-0175.key",
           "c": "70d9d283"
         }
-      ]
+      ],
+      "t": "Clutch Hitter (Japan) (FD1094 317-0175)",
+      "y": "1991",
+      "m": "Sega"
     },
     "cltchitrjd": {
       "parent": "cltchitr",
@@ -39117,7 +40756,10 @@
           "n": "epr-13776.c5",
           "c": "282ac9fe"
         }
-      ]
+      ],
+      "t": "Clutch Hitter (Japan) (bootleg of FD1094 317-0175 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrew": {
       "parent": null,
@@ -39202,7 +40844,10 @@
           "n": "317-0190.key",
           "c": "2d502b11"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 3 Players) (FD1094 317-0190)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrewd": {
       "parent": "ddcrew",
@@ -39283,7 +40928,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 3 Players) (bootleg of FD1094 317-0190 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrew1": {
       "parent": "ddcrew",
@@ -39368,7 +41016,10 @@
           "n": "317-0187.key",
           "c": "1dfb60be"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 4 Players) (FD1094 317-0187)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrew1d": {
       "parent": "ddcrew",
@@ -39449,7 +41100,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 4 Players) (bootleg of FD1094 317-0187 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrew2": {
       "parent": "ddcrew",
@@ -39534,7 +41188,10 @@
           "n": "317-0184.key",
           "c": "cee06254"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 2 Players) (FD1094 317-0184)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrew2d": {
       "parent": "ddcrew",
@@ -39615,7 +41272,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (World, 2 Players) (bootleg of FD1094 317-0184 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrewj": {
       "parent": "ddcrew",
@@ -39700,7 +41360,10 @@
           "n": "317-0185.key",
           "c": "a650b506"
         }
-      ]
+      ],
+      "t": "D. D. Crew (Japan, 4 Players) (FD1094 317-0185)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrewjd": {
       "parent": "ddcrew",
@@ -39781,7 +41444,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (Japan, 4 Players) (bootleg of FD1094 317-0185 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrewj2": {
       "parent": "ddcrew",
@@ -39866,7 +41532,10 @@
           "n": "317-0182.key",
           "c": "2e8a3601"
         }
-      ]
+      ],
+      "t": "D. D. Crew (Japan, 2 Players) (FD1094 317-0182)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrewj2d": {
       "parent": "ddcrew",
@@ -39947,7 +41616,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (Japan, 2 Players) (bootleg of FD1094 317-0182 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "ddcrewu": {
       "parent": "ddcrew",
@@ -40032,7 +41704,10 @@
           "n": "317-0186.key",
           "c": "7acaf1fd"
         }
-      ]
+      ],
+      "t": "D. D. Crew (US, 4 Players) (FD1094 317-0186)",
+      "y": "1991",
+      "m": "Sega"
     },
     "ddcrewud": {
       "parent": "ddcrew",
@@ -40113,7 +41788,10 @@
           "n": "epr-14130.c4",
           "c": "948f34a1"
         }
-      ]
+      ],
+      "t": "D. D. Crew (US, 4 Players) (bootleg of FD1094 317-0186 set)",
+      "y": "1991",
+      "m": "bootleg"
     },
     "desertbr": {
       "parent": null,
@@ -40198,7 +41876,10 @@
           "n": "317-0196.key",
           "c": "cb942262"
         }
-      ]
+      ],
+      "t": "Desert Breaker (World) (FD1094 317-0196)",
+      "y": "1992",
+      "m": "Sega"
     },
     "desertbrd": {
       "parent": "desertbr",
@@ -40279,7 +41960,10 @@
           "n": "mpr-14784.c4",
           "c": "073878e4"
         }
-      ]
+      ],
+      "t": "Desert Breaker (World) (bootleg of FD1094 317-0196 set)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "desertbrj": {
       "parent": "desertbr",
@@ -40364,7 +42048,10 @@
           "n": "317-0194.key",
           "c": "40cbc4cb"
         }
-      ]
+      ],
+      "t": "Desert Breaker (Japan) (FD1094 317-0194)",
+      "y": "1992",
+      "m": "Sega"
     },
     "desertbrjd": {
       "parent": "desertbr",
@@ -40445,7 +42132,10 @@
           "n": "mpr-14784.c4",
           "c": "073878e4"
         }
-      ]
+      ],
+      "t": "Desert Breaker (Japan) (bootleg of FD1094 317-0194 set)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "hamaway": {
       "parent": null,
@@ -40522,7 +42212,10 @@
           "n": "c15.bin",
           "c": "b53694fc"
         }
-      ]
+      ],
+      "t": "Hammer Away (Japan, prototype)",
+      "y": "1991",
+      "m": "Sega / Santos"
     },
     "lghost": {
       "parent": null,
@@ -40607,7 +42300,10 @@
           "n": "317-0166.key",
           "c": "8379961f"
         }
-      ]
+      ],
+      "t": "Laser Ghost (World) (FD1094 317-0166)",
+      "y": "1990",
+      "m": "Sega"
     },
     "lghostd": {
       "parent": "lghost",
@@ -40688,7 +42384,10 @@
           "n": "mpr-13418.c4",
           "c": "0732594d"
         }
-      ]
+      ],
+      "t": "Laser Ghost (World) (bootleg of FD1094 317-0166 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "lghostj": {
       "parent": "lghost",
@@ -40773,7 +42472,10 @@
           "n": "317-0164.key",
           "c": "6bf5cf2d"
         }
-      ]
+      ],
+      "t": "Laser Ghost (Japan) (FD1094 317-0164)",
+      "y": "1990",
+      "m": "Sega"
     },
     "lghostu": {
       "parent": "lghost",
@@ -40858,7 +42560,10 @@
           "n": "317-0165.key",
           "c": "a04267ab"
         }
-      ]
+      ],
+      "t": "Laser Ghost (US) (FD1094 317-0165)",
+      "y": "1990",
+      "m": "Sega"
     },
     "lghostud": {
       "parent": "lghost",
@@ -40939,7 +42644,10 @@
           "n": "mpr-13418.c4",
           "c": "0732594d"
         }
-      ]
+      ],
+      "t": "Laser Ghost (US) (bootleg of FD1094 317-0165 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "mwalk": {
       "parent": null,
@@ -41020,7 +42728,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (World) (FD1094/8751 317-0159)",
+      "y": "1990",
+      "m": "Sega"
     },
     "mwalkd": {
       "parent": "mwalk",
@@ -41097,7 +42808,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (World) (bootleg of FD1094/8751 317-0159 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "mwalkj": {
       "parent": "mwalk",
@@ -41178,7 +42892,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (Japan) (FD1094/8751 317-0157)",
+      "y": "1990",
+      "m": "Sega"
     },
     "mwalkjd": {
       "parent": "mwalk",
@@ -41255,7 +42972,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (Japan) (bootleg of FD1094/8751 317-0157 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "mwalku": {
       "parent": "mwalk",
@@ -41336,7 +43056,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (US) (FD1094/8751 317-0158)",
+      "y": "1990",
+      "m": "Sega"
     },
     "mwalkud": {
       "parent": "mwalk",
@@ -41413,7 +43136,10 @@
           "n": "315-5437.ic4",
           "c": "4bf63bc1"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (US) (bootleg of FD1094/8751 317-0158 set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "mwalkbl2": {
       "parent": "mwalk",
@@ -41510,7 +43236,10 @@
           "n": "mpr13249.b6",
           "c": "623edc5d"
         }
-      ]
+      ],
+      "t": "Michael Jackson's Moonwalker (bootleg)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "shdancer": {
       "parent": null,
@@ -41575,7 +43304,10 @@
           "n": "mpr-12715.b4",
           "c": "07051a52"
         }
-      ]
+      ],
+      "t": "Shadow Dancer (World)",
+      "y": "1989",
+      "m": "Sega"
     },
     "shdancer1": {
       "parent": "shdancer",
@@ -41640,7 +43372,10 @@
           "n": "mpr-12715.b4",
           "c": "07051a52"
         }
-      ]
+      ],
+      "t": "Shadow Dancer (US)",
+      "y": "1989",
+      "m": "Sega"
     },
     "shdancerj": {
       "parent": "shdancer",
@@ -41705,7 +43440,10 @@
           "n": "mpr-12715.b4",
           "c": "07051a52"
         }
-      ]
+      ],
+      "t": "Shadow Dancer (Japan)",
+      "y": "1989",
+      "m": "Sega"
     },
     "shdancbl": {
       "parent": "shdancer",
@@ -41902,7 +43640,10 @@
           "n": "ic46",
           "c": "c84e8c84"
         }
-      ]
+      ],
+      "t": "Shadow Dancer (bootleg, set 1)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "wwallyj": {
       "parent": null,
@@ -41971,7 +43712,10 @@
           "n": "317-0197b.key",
           "c": "f5b7c5b4"
         }
-      ]
+      ],
+      "t": "Wally wo Sagase! (rev B, Japan, 2 players) (FD1094 317-0197B)",
+      "y": "1992",
+      "m": "Sega"
     },
     "wwallyjd": {
       "parent": "wwallyj",
@@ -42036,7 +43780,10 @@
           "n": "mpr-14722.c4",
           "c": "1bd081f8"
         }
-      ]
+      ],
+      "t": "Wally wo Sagase! (rev B, Japan) (bootleg of FD1094 317-0197B set)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "wwallyja": {
       "parent": "wwallyj",
@@ -42105,7 +43852,10 @@
           "n": "317-0197a.key",
           "c": "2fb6a9a1"
         }
-      ]
+      ],
+      "t": "Wally wo Sagase! (rev A, Japan, 2 players) (FD1094 317-0197A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "wwallyjad": {
       "parent": "wwallyj",
@@ -42170,7 +43920,10 @@
           "n": "mpr-14722.c4",
           "c": "1bd081f8"
         }
-      ]
+      ],
+      "t": "Wally wo Sagase! (rev A, Japan) (bootleg of FD1094 317-0197A set)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "wwallyja3p": {
       "parent": "wwallyj",
@@ -42239,7 +43992,10 @@
           "n": "317-0198a.key",
           "c": "32d313a4"
         }
-      ]
+      ],
+      "t": "Wally wo Sagase! (rev A, Japan, 3 players) (FD1094 317-0198A)",
+      "y": "1992",
+      "m": "Sega"
     },
     "aquario": {
       "parent": null,
@@ -42320,7 +44076,10 @@
           "n": "c4.bin",
           "c": "1bd081f8"
         }
-      ]
+      ],
+      "t": "Clockwork Aquario (prototype)",
+      "y": "2021",
+      "m": "Sega / Westone"
     },
     "hotrod": {
       "parent": null,
@@ -42337,7 +44096,10 @@
           "n": "ds3-5000-01d_3p_turbo.img",
           "c": "842006fd"
         }
-      ]
+      ],
+      "t": "Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)",
+      "y": "1988",
+      "m": "Sega"
     },
     "hotroda": {
       "parent": "hotrod",
@@ -42354,7 +44116,10 @@
           "n": "ds3-5000-01d.img",
           "c": "e25c6b63"
         }
-      ]
+      ],
+      "t": "Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)",
+      "y": "1988",
+      "m": "Sega"
     },
     "hotrodja": {
       "parent": "hotrod",
@@ -42371,7 +44136,10 @@
           "n": "ds3-5000-01a-rev-b.img",
           "c": "c18f6dca"
         }
-      ]
+      ],
+      "t": "Hot Rod (Japan, 4 Players, Floppy Based, Rev B)",
+      "y": "1988",
+      "m": "Sega"
     },
     "hotrodj": {
       "parent": "hotrod",
@@ -42388,7 +44156,10 @@
           "n": "ds3-5000-01a-rev-c.img",
           "c": "852f9b5f"
         }
-      ]
+      ],
+      "t": "Hot Rod (Japan, 4 Players, Floppy Based, Rev C)",
+      "y": "1988",
+      "m": "Sega"
     },
     "qgh": {
       "parent": null,
@@ -42433,7 +44204,10 @@
           "n": "16907",
           "c": "734b0a82"
         }
-      ]
+      ],
+      "t": "Quiz Ghost Hunter (Japan, ROM Based)",
+      "y": "1994",
+      "m": "Sega"
     },
     "sspirits": {
       "parent": null,
@@ -42450,7 +44224,10 @@
           "n": "ds3-5000-02-.img",
           "c": "179b98e9"
         }
-      ]
+      ],
+      "t": "Scramble Spirits (World, Floppy Based)",
+      "y": "1988",
+      "m": "Sega"
     },
     "sspiritj": {
       "parent": "sspirits",
@@ -42467,7 +44244,10 @@
           "n": "ds3-5000-02-rev-a.img",
           "c": "0385470f"
         }
-      ]
+      ],
+      "t": "Scramble Spirits (Japan, Floppy DS3-5000-02-REV-A Based)",
+      "y": "1988",
+      "m": "Sega"
     },
     "sspirtfc": {
       "parent": "sspirits",
@@ -42484,7 +44264,10 @@
           "n": "317-0058-02c.key",
           "c": "ebae170e"
         }
-      ]
+      ],
+      "t": "Scramble Spirits (World, Floppy Based, FD1094 317-0058-02c)",
+      "y": "1988",
+      "m": "Sega"
     },
     "bnzabros": {
       "parent": null,
@@ -42517,7 +44300,10 @@
           "n": "ds3-5000-07d.img",
           "c": "2e70251f"
         }
-      ]
+      ],
+      "t": "Bonanza Bros (US, Floppy DS3-5000-07d? Based)",
+      "y": "1990",
+      "m": "Sega"
     },
     "bnzabrosj": {
       "parent": "bnzabros",
@@ -42550,7 +44336,10 @@
           "n": "ds3-5000-07b.img",
           "c": "efa7f2a7"
         }
-      ]
+      ],
+      "t": "Bonanza Bros (Japan, Floppy DS3-5000-07b Based)",
+      "y": "1990",
+      "m": "Sega"
     },
     "qrouka": {
       "parent": null,
@@ -42571,7 +44360,10 @@
           "n": "14483",
           "c": "f3eb51a0"
         }
-      ]
+      ],
+      "t": "Quiz Rouka Ni Tattenasai (Japan, ROM Based)",
+      "y": "1991",
+      "m": "Sega"
     },
     "quizmeku": {
       "parent": null,
@@ -42608,7 +44400,10 @@
           "n": "mpr15348.ic8",
           "c": "7666e960"
         }
-      ]
+      ],
+      "t": "Quiz Mekurumeku Story (Japan, ROM Based)",
+      "y": "1992",
+      "m": "Sega"
     },
     "dcclub": {
       "parent": null,
@@ -42637,7 +44432,10 @@
           "n": "mpr-14096-t.3",
           "c": "38d96502"
         }
-      ]
+      ],
+      "t": "Dynamic Country Club (World, ROM Based)",
+      "y": "1991",
+      "m": "Sega"
     },
     "dcclubfd": {
       "parent": "dcclub",
@@ -42658,7 +44456,10 @@
           "n": "ds3-5000-09d.img",
           "c": "69870887"
         }
-      ]
+      ],
+      "t": "Dynamic Country Club (US, Floppy Based, FD1094 317-0058-09d)",
+      "y": "1991",
+      "m": "Sega"
     },
     "dcclubj": {
       "parent": "dcclub",
@@ -42687,7 +44488,10 @@
           "n": "mpr-14096-t.3",
           "c": "38d96502"
         }
-      ]
+      ],
+      "t": "Dynamic Country Club (Japan, ROM Based)",
+      "y": "1991",
+      "m": "Sega"
     },
     "sgmast": {
       "parent": null,
@@ -42708,7 +44512,10 @@
           "n": "ds3-5000-05d.img",
           "c": "e9a69f93"
         }
-      ]
+      ],
+      "t": "Super Masters Golf (World?, Floppy Based, FD1094 317-0058-05d?)",
+      "y": "1989",
+      "m": "Sega"
     },
     "sgmastc": {
       "parent": "sgmast",
@@ -42729,7 +44536,10 @@
           "n": "ds3-5000-05c.img",
           "c": "63a6ef3a"
         }
-      ]
+      ],
+      "t": "Jumbo Ozaki Super Masters Golf (World, Floppy Based, FD1094 317-0058-05c)",
+      "y": "1989",
+      "m": "Sega"
     },
     "sgmastj": {
       "parent": "sgmast",
@@ -42750,7 +44560,10 @@
           "n": "ds3-5000-05b.img",
           "c": "a136668c"
         }
-      ]
+      ],
+      "t": "Jumbo Ozaki Super Masters Golf (Japan, Floppy Based, FD1094 317-0058-05b)",
+      "y": "1989",
+      "m": "Sega"
     },
     "mahmajn": {
       "parent": null,
@@ -42795,7 +44608,10 @@
           "n": "mpr14825.bin",
           "c": "191080a1"
         }
-      ]
+      ],
+      "t": "Tokoro San no MahMahjan (Japan, ROM Based)",
+      "y": "1992",
+      "m": "Sega"
     },
     "mahmajn2": {
       "parent": null,
@@ -42840,7 +44656,10 @@
           "n": "mpr16806.bin",
           "c": "54b353d3"
         }
-      ]
+      ],
+      "t": "Tokoro San no MahMahjan 2 (Japan, ROM Based)",
+      "y": "1994",
+      "m": "Sega"
     },
     "qsww": {
       "parent": null,
@@ -42861,7 +44680,10 @@
           "n": "ds3-5000-08b.img",
           "c": "5a886d38"
         }
-      ]
+      ],
+      "t": "Quiz Syukudai wo Wasuremashita (Japan, Floppy Based, FD1094 317-0058-08b)",
+      "y": "1991",
+      "m": "Sega"
     },
     "gground": {
       "parent": null,
@@ -42882,7 +44704,10 @@
           "n": "ds3-5000-03d-rev-a.img",
           "c": "5c5910f2"
         }
-      ]
+      ],
+      "t": "Gain Ground (World, 3 Players, Floppy Based, FD1094 317-0058-03d Rev A)",
+      "y": "1988",
+      "m": "Sega"
     },
     "ggroundj": {
       "parent": "gground",
@@ -42903,7 +44728,10 @@
           "n": "ds3-5000-03b.img",
           "c": "7200dac9"
         }
-      ]
+      ],
+      "t": "Gain Ground (Japan, 2 Players, Floppy Based, FD1094 317-0058-03b)",
+      "y": "1988",
+      "m": "Sega"
     },
     "crkdown": {
       "parent": null,
@@ -42924,7 +44752,10 @@
           "n": "ds3-5000-04c.img",
           "c": "7d97ba5e"
         }
-      ]
+      ],
+      "t": "Crack Down (World, Floppy Based, FD1094 317-0058-04c)",
+      "y": "1989",
+      "m": "Sega"
     },
     "crkdownu": {
       "parent": "crkdown",
@@ -42945,7 +44776,10 @@
           "n": "ds3-5000-04d.img",
           "c": "8679032c"
         }
-      ]
+      ],
+      "t": "Crack Down (US, Floppy Based, FD1094 317-0058-04d)",
+      "y": "1989",
+      "m": "Sega"
     },
     "crkdownj": {
       "parent": "crkdown",
@@ -42966,7 +44800,10 @@
           "n": "ds3-5000-04b-rev-a.img",
           "c": "5daa1a9a"
         }
-      ]
+      ],
+      "t": "Crack Down (Japan, Floppy Based, FD1094 317-0058-04b Rev A)",
+      "y": "1989",
+      "m": "Sega"
     },
     "roughrac": {
       "parent": null,
@@ -42987,7 +44824,10 @@
           "n": "ds3-5000-06b.img",
           "c": "a7fb2149"
         }
-      ]
+      ],
+      "t": "Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)",
+      "y": "1990",
+      "m": "Sega"
     },
     "turbo": {
       "parent": null,
@@ -43144,7 +44984,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (program 1513-1515)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turboa": {
       "parent": "turbo",
@@ -43301,7 +45144,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (encrypted, program 1262-1264)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turbob": {
       "parent": "turbo",
@@ -43458,7 +45304,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (encrypted, program 1363-1365 rev C)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turboc": {
       "parent": "turbo",
@@ -43615,7 +45464,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (encrypted, program 1363-1365 rev B)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turbod": {
       "parent": "turbo",
@@ -43772,7 +45624,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (encrypted, program 1363-1365 rev A)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turboe": {
       "parent": "turbo",
@@ -43929,7 +45784,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Turbo (encrypted, program 1363-1365)",
+      "y": "1981",
+      "m": "Sega"
     },
     "turbobl": {
       "parent": "turbo",
@@ -44074,7 +45932,10 @@
           "n": "pr-1279.sound-ic40",
           "c": "b369a6ae"
         }
-      ]
+      ],
+      "t": "Indianapolis (bootleg of Turbo)",
+      "y": "1981",
+      "m": "bootleg"
     },
     "subroc3d": {
       "parent": null,
@@ -44223,7 +46084,10 @@
           "n": "pr-1454.cpu-ic67",
           "c": "dc683440"
         }
-      ]
+      ],
+      "t": "Subroc-3D",
+      "y": "1982",
+      "m": "Sega"
     },
     "buckrog": {
       "parent": null,
@@ -44320,7 +46184,10 @@
           "n": "pr-5233.cpu-ic95",
           "c": "1cd08c4e"
         }
-      ]
+      ],
+      "t": "Buck Rogers: Planet of Zoom",
+      "y": "1982",
+      "m": "Sega"
     },
     "buckrogn": {
       "parent": "buckrog",
@@ -44417,7 +46284,10 @@
           "n": "pr-5199.cpu-ic95",
           "c": "45e997a8"
         }
-      ]
+      ],
+      "t": "Buck Rogers: Planet of Zoom (not encrypted, set 1)",
+      "y": "1982",
+      "m": "Sega"
     },
     "buckrogn2": {
       "parent": "buckrog",
@@ -44514,7 +46384,10 @@
           "n": "pr-5233.cpu-ic95",
           "c": "1cd08c4e"
         }
-      ]
+      ],
+      "t": "Buck Rogers: Planet of Zoom (not encrypted, set 2)",
+      "y": "1982",
+      "m": "Sega"
     },
     "zoom909": {
       "parent": "buckrog",
@@ -44611,7 +46484,10 @@
           "n": "pr-5199.cpu-ic95",
           "c": "45e997a8"
         }
-      ]
+      ],
+      "t": "Zoom 909",
+      "y": "1982",
+      "m": "Sega"
     },
     "abcop": {
       "parent": null,
@@ -44740,7 +46616,10 @@
           "n": "317-0169b.key",
           "c": "058da36e"
         }
-      ]
+      ],
+      "t": "A.B. Cop (World) (FD1094 317-0169b)",
+      "y": "1990",
+      "m": "Sega"
     },
     "abcopd": {
       "parent": "abcop",
@@ -44865,7 +46744,10 @@
           "n": "opr-13561.ic13",
           "c": "80a7c02a"
         }
-      ]
+      ],
+      "t": "A.B. Cop (World) (bootleg of FD1094 317-0169b set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "abcopj": {
       "parent": "abcop",
@@ -44994,7 +46876,10 @@
           "n": "317-0169b.key",
           "c": "058da36e"
         }
-      ]
+      ],
+      "t": "A.B. Cop (Japan) (FD1094 317-0169b)",
+      "y": "1990",
+      "m": "Sega"
     },
     "abcopjd": {
       "parent": "abcop",
@@ -45119,7 +47004,10 @@
           "n": "opr-13561.ic13",
           "c": "80a7c02a"
         }
-      ]
+      ],
+      "t": "A.B. Cop (Japan) (bootleg of FD1094 317-0169b set)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "aburner2": {
       "parent": null,
@@ -45236,7 +47124,10 @@
           "n": "epr-11102.13",
           "c": "6c07c78d"
         }
-      ]
+      ],
+      "t": "After Burner II",
+      "y": "1987",
+      "m": "Sega"
     },
     "aburner2g": {
       "parent": "aburner2",
@@ -45353,7 +47244,10 @@
           "n": "epr-10929.13",
           "c": "6c07c78d"
         }
-      ]
+      ],
+      "t": "After Burner II (German)",
+      "y": "1987",
+      "m": "Sega"
     },
     "aburner": {
       "parent": null,
@@ -45470,7 +47364,10 @@
           "n": "epr-10929.13",
           "c": "6c07c78d"
         }
-      ]
+      ],
+      "t": "After Burner",
+      "y": "1987",
+      "m": "Sega"
     },
     "gprider": {
       "parent": null,
@@ -45595,7 +47492,10 @@
           "n": "317-0163.key",
           "c": "c1d4d207"
         }
-      ]
+      ],
+      "t": "GP Rider (World, FD1094 317-0163) (Twin setup)",
+      "y": "1990",
+      "m": "Sega"
     },
     "gpriders": {
       "parent": "gprider",
@@ -45720,7 +47620,10 @@
           "n": "317-0163.key",
           "c": "c1d4d207"
         }
-      ]
+      ],
+      "t": "GP Rider (World, FD1094 317-0163)",
+      "y": "1990",
+      "m": "Sega"
     },
     "gpriderj": {
       "parent": "gprider",
@@ -45845,7 +47748,10 @@
           "n": "317-0161.key",
           "c": "e38ddc16"
         }
-      ]
+      ],
+      "t": "GP Rider (Japan, FD1094 317-0161) (Twin setup)",
+      "y": "1990",
+      "m": "Sega"
     },
     "gpriderjs": {
       "parent": "gprider",
@@ -45970,7 +47876,10 @@
           "n": "317-0161.key",
           "c": "e38ddc16"
         }
-      ]
+      ],
+      "t": "GP Rider (Japan, FD1094 317-0161)",
+      "y": "1990",
+      "m": "Sega"
     },
     "gprideru": {
       "parent": "gprider",
@@ -46095,7 +48004,10 @@
           "n": "317-0162.key",
           "c": "8067de53"
         }
-      ]
+      ],
+      "t": "GP Rider (US, FD1094 317-0162) (Twin setup)",
+      "y": "1990",
+      "m": "Sega"
     },
     "gpriderus": {
       "parent": "gprider",
@@ -46220,7 +48132,10 @@
           "n": "317-0162.key",
           "c": "8067de53"
         }
-      ]
+      ],
+      "t": "GP Rider (US, FD1094 317-0162)",
+      "y": "1990",
+      "m": "Sega"
     },
     "lastsurv": {
       "parent": null,
@@ -46353,7 +48268,10 @@
           "n": "317-0083.key",
           "c": "dca0b9cc"
         }
-      ]
+      ],
+      "t": "Last Survivor (Japan) (FD1094 317-0083)",
+      "y": "1989",
+      "m": "Sega"
     },
     "lastsurvd": {
       "parent": "lastsurv",
@@ -46482,7 +48400,10 @@
           "n": "epr-12060.ic13",
           "c": "7ed382b3"
         }
-      ]
+      ],
+      "t": "Last Survivor (Japan) (bootleg of FD1094 317-0083 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "loffire": {
       "parent": null,
@@ -46607,7 +48528,10 @@
           "n": "317-0136.key",
           "c": "344bfe0c"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (World) (FD1094 317-0136)",
+      "y": "1989",
+      "m": "Sega"
     },
     "loffired": {
       "parent": "loffire",
@@ -46728,7 +48652,10 @@
           "n": "epr-12801.13",
           "c": "2d6567c4"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (World) (bootleg of FD1094 317-0136 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "loffirej": {
       "parent": "loffire",
@@ -46853,7 +48780,10 @@
           "n": "317-0134.key",
           "c": "732626d4"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)",
+      "y": "1989",
+      "m": "Sega"
     },
     "loffirejd": {
       "parent": "loffire",
@@ -46974,7 +48904,10 @@
           "n": "epr-12801.13",
           "c": "2d6567c4"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (Japan) (bootleg of FD1094 317-0134 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "loffireu": {
       "parent": "loffire",
@@ -47099,7 +49032,10 @@
           "n": "317-0135.key",
           "c": "c53ad019"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (US) (FD1094 317-0135)",
+      "y": "1989",
+      "m": "Sega"
     },
     "loffireud": {
       "parent": "loffire",
@@ -47220,7 +49156,10 @@
           "n": "epr-12801.13",
           "c": "2d6567c4"
         }
-      ]
+      ],
+      "t": "Line of Fire / Bakudan Yarou (US) (bootleg of FD1094 317-0135 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "rachero": {
       "parent": null,
@@ -47345,7 +49284,10 @@
           "n": "317-0144.key",
           "c": "8740bbff"
         }
-      ]
+      ],
+      "t": "Racing Hero (FD1094 317-0144)",
+      "y": "1989",
+      "m": "Sega"
     },
     "racherod": {
       "parent": "rachero",
@@ -47466,7 +49408,10 @@
           "n": "epr-12878.ic13",
           "c": "7c212c15"
         }
-      ]
+      ],
+      "t": "Racing Hero (bootleg of FD1094 317-0144 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "rascot": {
       "parent": null,
@@ -47535,7 +49480,10 @@
           "n": "g1049.bin",
           "c": "3ab80f90"
         }
-      ]
+      ],
+      "t": "Royal Ascot (Japan, terminal?)",
+      "y": "1991",
+      "m": "Sega"
     },
     "smgp": {
       "parent": null,
@@ -47676,7 +49624,10 @@
           "n": "317-0126a.key",
           "c": "2abc1982"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World, Rev B) (FD1094 317-0126a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgpd": {
       "parent": "smgp",
@@ -47813,7 +49764,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World, Rev B) (bootleg of FD1094 317-0126a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgp6": {
       "parent": "smgp",
@@ -47954,7 +49908,10 @@
           "n": "317-0126a.key",
           "c": "2abc1982"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World, Rev A) (FD1094 317-0126a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgp6d": {
       "parent": "smgp",
@@ -48091,7 +50048,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World, Rev A) (bootleg of FD1094 317-0126a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgp5": {
       "parent": "smgp",
@@ -48232,7 +50192,10 @@
           "n": "317-0126.key",
           "c": "4d917996"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World) (FD1094 317-0126)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgp5d": {
       "parent": "smgp",
@@ -48369,7 +50332,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (World) (bootleg of FD1094 317-0126 set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgpu": {
       "parent": "smgp",
@@ -48510,7 +50476,10 @@
           "n": "317-0125a.key",
           "c": "3ecdb120"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev C) (FD1094 317-0125a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgpud": {
       "parent": "smgp",
@@ -48647,7 +50616,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev C) (bootleg of FD1094 317-0125a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgpu1": {
       "parent": "smgp",
@@ -48788,7 +50760,10 @@
           "n": "317-0125a.key",
           "c": "3ecdb120"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev B) (FD1094 317-0125a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgpu1d": {
       "parent": "smgp",
@@ -48925,7 +50900,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev B) (bootleg of FD1094 317-0125a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgpu2": {
       "parent": "smgp",
@@ -49066,7 +51044,10 @@
           "n": "317-0125a.key",
           "c": "3ecdb120"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev A) (FD1094 317-0125a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgpu2d": {
       "parent": "smgp",
@@ -49203,7 +51184,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (US, Rev A) (bootleg of FD1094 317-0125a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgpj": {
       "parent": "smgp",
@@ -49344,7 +51328,10 @@
           "n": "317-0124a.key",
           "c": "022a8a16"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (Japan, Rev B) (FD1094 317-0124a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "smgpjd": {
       "parent": "smgp",
@@ -49481,7 +51468,10 @@
           "n": "mpr-12439.22",
           "c": "13bf6de5"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (Japan, Rev B) (bootleg of FD1094 317-0124a set)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "smgpja": {
       "parent": "smgp",
@@ -49622,7 +51612,10 @@
           "n": "317-0124a.key",
           "c": "022a8a16"
         }
-      ]
+      ],
+      "t": "Super Monaco GP (Japan, Rev A) (FD1094 317-0124a)",
+      "y": "1989",
+      "m": "Sega"
     },
     "thndrbld": {
       "parent": null,
@@ -49759,7 +51752,10 @@
           "n": "317-0056.key",
           "c": "b40cd2c5"
         }
-      ]
+      ],
+      "t": "Thunder Blade (upright) (FD1094 317-0056)",
+      "y": "1987",
+      "m": "Sega"
     },
     "thndrbldd": {
       "parent": "thndrbld",
@@ -49892,7 +51888,10 @@
           "n": "epr-11319.ic13",
           "c": "50d9242e"
         }
-      ]
+      ],
+      "t": "Thunder Blade (upright) (bootleg of FD1094 317-0056 set)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "thndrbld1": {
       "parent": "thndrbld",
@@ -50025,7 +52024,10 @@
           "n": "epr-11319.ic13",
           "c": "50d9242e"
         }
-      ]
+      ],
+      "t": "Thunder Blade (deluxe/standing) (unprotected)",
+      "y": "1987",
+      "m": "Sega"
     },
     "gforce2": {
       "parent": null,
@@ -50214,7 +52216,10 @@
           "n": "epr-11814.105",
           "c": "0b05d376"
         }
-      ]
+      ],
+      "t": "Galaxy Force 2",
+      "y": "1988",
+      "m": "Sega"
     },
     "gforce2sd": {
       "parent": "gforce2",
@@ -50407,7 +52412,10 @@
           "n": "motorpcb.prg",
           "c": "fecee31e"
         }
-      ]
+      ],
+      "t": "Galaxy Force 2 (Super Deluxe unit)",
+      "y": "1988",
+      "m": "Sega"
     },
     "gforce2j": {
       "parent": "gforce2",
@@ -50596,7 +52604,10 @@
           "n": "epr-11814.105",
           "c": "0b05d376"
         }
-      ]
+      ],
+      "t": "Galaxy Force 2 (Japan)",
+      "y": "1988",
+      "m": "Sega"
     },
     "gforce2ja": {
       "parent": "gforce2",
@@ -50785,7 +52796,10 @@
           "n": "epr-11814.105",
           "c": "0b05d376"
         }
-      ]
+      ],
+      "t": "Galaxy Force 2 (Japan, Rev A)",
+      "y": "1988",
+      "m": "Sega"
     },
     "gloc": {
       "parent": null,
@@ -50986,7 +53000,10 @@
           "n": "epr-11830.ic37",
           "c": "c1201c02"
         }
-      ]
+      ],
+      "t": "G-LOC Air Battle (World)",
+      "y": "1990",
+      "m": "Sega"
     },
     "glocj": {
       "parent": "gloc",
@@ -51187,7 +53204,10 @@
           "n": "epr-11830.ic37",
           "c": "c1201c02"
         }
-      ]
+      ],
+      "t": "G-LOC Air Battle (Japan)",
+      "y": "1990",
+      "m": "Sega"
     },
     "glocu": {
       "parent": "gloc",
@@ -51388,7 +53408,10 @@
           "n": "epr-11830.ic37",
           "c": "c1201c02"
         }
-      ]
+      ],
+      "t": "G-LOC Air Battle (US)",
+      "y": "1990",
+      "m": "Sega"
     },
     "glocr360": {
       "parent": "gloc",
@@ -51585,7 +53608,10 @@
           "n": "epr-13625.105",
           "c": "fae71fd2"
         }
-      ]
+      ],
+      "t": "G-LOC R360 (World)",
+      "y": "1990",
+      "m": "Sega"
     },
     "glocr360j": {
       "parent": "gloc",
@@ -51790,7 +53816,10 @@
           "n": "epr-13316.ic27",
           "c": "83d6c6a3"
         }
-      ]
+      ],
+      "t": "G-LOC R360 (Japan)",
+      "y": "1990",
+      "m": "Sega"
     },
     "pdrift": {
       "parent": null,
@@ -52007,7 +54036,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (World, Rev A)",
+      "y": "1988",
+      "m": "Sega"
     },
     "pdrifta": {
       "parent": "pdrift",
@@ -52224,7 +54256,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (World)",
+      "y": "1988",
+      "m": "Sega"
     },
     "pdrifte": {
       "parent": "pdrift",
@@ -52441,7 +54476,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (World, earlier)",
+      "y": "1988",
+      "m": "Sega"
     },
     "pdriftj": {
       "parent": "pdrift",
@@ -52658,7 +54696,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (Japan, Rev C)",
+      "y": "1988",
+      "m": "Sega"
     },
     "pdriftjb": {
       "parent": "pdrift",
@@ -52875,7 +54916,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (Japan, Rev B)",
+      "y": "1988",
+      "m": "Sega"
     },
     "pdriftja": {
       "parent": "pdrift",
@@ -53092,7 +55136,10 @@
           "n": "epr-11485.ic27",
           "c": "069b4201"
         }
-      ]
+      ],
+      "t": "Power Drift (Japan, Rev A)",
+      "y": "1988",
+      "m": "Sega"
     },
     "rchase": {
       "parent": null,
@@ -53249,7 +55296,10 @@
           "n": "mpr-13994.105",
           "c": "76095538"
         }
-      ]
+      ],
+      "t": "Rail Chase (World)",
+      "y": "1991",
+      "m": "Sega"
     },
     "rchasej": {
       "parent": "rchase",
@@ -53406,7 +55456,10 @@
           "n": "mpr-13994.105",
           "c": "76095538"
         }
-      ]
+      ],
+      "t": "Rail Chase (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "rchasejb": {
       "parent": "rchase",
@@ -53563,7 +55616,10 @@
           "n": "mpr-13994.105",
           "c": "76095538"
         }
-      ]
+      ],
+      "t": "Rail Chase (Japan, Rev B)",
+      "y": "1991",
+      "m": "Sega"
     },
     "strkfgtr": {
       "parent": null,
@@ -53760,7 +55816,10 @@
           "n": "mpr-13034.105",
           "c": "cd22d95d"
         }
-      ]
+      ],
+      "t": "Strike Fighter (World)",
+      "y": "1991",
+      "m": "Sega"
     },
     "strkfgtrj": {
       "parent": "strkfgtr",
@@ -53957,7 +56016,10 @@
           "n": "mpr-13034.105",
           "c": "cd22d95d"
         }
-      ]
+      ],
+      "t": "Strike Fighter (Japan)",
+      "y": "1991",
+      "m": "Sega"
     },
     "zaxxon": {
       "parent": null,
@@ -54030,7 +56092,10 @@
           "n": "zaxxon.u72",
           "c": "deaa21f7"
         }
-      ]
+      ],
+      "t": "Zaxxon (set 1, rev D)",
+      "y": "1982",
+      "m": "Sega"
     },
     "zaxxon2": {
       "parent": "zaxxon",
@@ -54107,7 +56172,10 @@
           "n": "pal16l8cn.bin",
           "c": "a3e8657c"
         }
-      ]
+      ],
+      "t": "Zaxxon (set 2, unknown rev)",
+      "y": "1982",
+      "m": "Sega"
     },
     "zaxxon3": {
       "parent": "zaxxon",
@@ -54180,7 +56248,10 @@
           "n": "mro17.u41",
           "c": "a9e1fb43"
         }
-      ]
+      ],
+      "t": "Zaxxon (set 3, unknown rev)",
+      "y": "1982",
+      "m": "Sega"
     },
     "zaxxonj": {
       "parent": "zaxxon",
@@ -54253,7 +56324,10 @@
           "n": "mro17.u41",
           "c": "a9e1fb43"
         }
-      ]
+      ],
+      "t": "Zaxxon (Japan)",
+      "y": "1982",
+      "m": "Sega"
     },
     "zaxxonb": {
       "parent": "zaxxon",
@@ -54326,7 +56400,10 @@
           "n": "zaxxon.u72",
           "c": "deaa21f7"
         }
-      ]
+      ],
+      "t": "Jackson",
+      "y": "1982",
+      "m": "bootleg"
     },
     "szaxxon": {
       "parent": null,
@@ -54399,7 +56476,10 @@
           "n": "pr-5167.u72",
           "c": "deaa21f7"
         }
-      ]
+      ],
+      "t": "Super Zaxxon (315-5013)",
+      "y": "1982",
+      "m": "Sega"
     },
     "futspy": {
       "parent": null,
@@ -54472,7 +56552,10 @@
           "n": "futrprom.u72",
           "c": "f9e26790"
         }
-      ]
+      ],
+      "t": "Future Spy (315-5061)",
+      "y": "1984",
+      "m": "Sega"
     },
     "razmataz": {
       "parent": null,
@@ -54553,7 +56636,10 @@
           "n": "1923.u50",
           "c": "59994a51"
         }
-      ]
+      ],
+      "t": "Razzmatazz",
+      "y": "1983",
+      "m": "Sega"
     },
     "ixion": {
       "parent": null,
@@ -54634,7 +56720,10 @@
           "n": "1943a.u50",
           "c": "77e5a1f0"
         }
-      ]
+      ],
+      "t": "Ixion (prototype)",
+      "y": "1983",
+      "m": "Sega"
     },
     "congo": {
       "parent": null,
@@ -54711,7 +56800,10 @@
           "n": "tip_top_rom_17.u19",
           "c": "5024e673"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Rev C, 2 board stack)",
+      "y": "1983",
+      "m": "Sega"
     },
     "congoa": {
       "parent": "congo",
@@ -54788,7 +56880,10 @@
           "n": "tip_top_rom_17.u11",
           "c": "5024e673"
         }
-      ]
+      ],
+      "t": "Congo Bongo (Rev C, 3 board stack)",
+      "y": "1983",
+      "m": "Sega"
     },
     "tiptop": {
       "parent": "congo",
@@ -54865,7 +56960,10 @@
           "n": "tip_top_rom_17.u11",
           "c": "5024e673"
         }
-      ]
+      ],
+      "t": "Tip Top (3 board stack)",
+      "y": "1983",
+      "m": "Sega"
     }
   }
 }

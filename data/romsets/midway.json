@@ -56,7 +56,10 @@
           "n": "ki-l14.u98",
           "c": "afedb75f"
         }
-      ]
+      ],
+      "t": "Killer Instinct (ROM ver. 1.5d)",
+      "y": "1994",
+      "m": "Rare/Nintendo"
     },
     "kinst14": {
       "parent": "kinst",
@@ -97,7 +100,10 @@
           "n": "u36-l1",
           "c": "0577bb60"
         }
-      ]
+      ],
+      "t": "Killer Instinct (ROM ver. 1.4)",
+      "y": "1994",
+      "m": "Rare/Nintendo"
     },
     "kinst13": {
       "parent": "kinst",
@@ -138,7 +144,10 @@
           "n": "u36-l1",
           "c": "0577bb60"
         }
-      ]
+      ],
+      "t": "Killer Instinct (ROM ver. 1.3)",
+      "y": "1994",
+      "m": "Rare/Nintendo"
     },
     "kinstp47": {
       "parent": "kinst",
@@ -179,7 +188,10 @@
           "n": "u36-l1",
           "c": "0577bb60"
         }
-      ]
+      ],
+      "t": "Killer Instinct (ROM proto ver. 4.7)",
+      "y": "1994",
+      "m": "Rare/Nintendo"
     },
     "kinst15ai": {
       "parent": "kinst",
@@ -220,7 +232,10 @@
           "n": "u36-l1",
           "c": "0577bb60"
         }
-      ]
+      ],
+      "t": "Killer Instinct (ROM ver. 1.5 AnyIDE)",
+      "y": "1994",
+      "m": "Rare/Nintendo"
     },
     "kinst2": {
       "parent": null,
@@ -277,7 +292,10 @@
           "n": "ki2_l14p.u98",
           "c": "d80c937a"
         }
-      ]
+      ],
+      "t": "Killer Instinct II (ROM ver. 1.4)",
+      "y": "1995",
+      "m": "Rare/Nintendo"
     },
     "kinst213": {
       "parent": "kinst2",
@@ -318,7 +336,10 @@
           "n": "ki2_l1.u36",
           "c": "8920acbb"
         }
-      ]
+      ],
+      "t": "Killer Instinct II (ROM ver. 1.3)",
+      "y": "1995",
+      "m": "Rare/Nintendo"
     },
     "kinst211": {
       "parent": "kinst2",
@@ -359,7 +380,10 @@
           "n": "ki2_l1.u36",
           "c": "8920acbb"
         }
-      ]
+      ],
+      "t": "Killer Instinct II (ROM ver. 1.1)",
+      "y": "1995",
+      "m": "Rare/Nintendo"
     },
     "kinst210": {
       "parent": "kinst2",
@@ -400,7 +424,10 @@
           "n": "ki2_l1.u36",
           "c": "8920acbb"
         }
-      ]
+      ],
+      "t": "Killer Instinct II (ROM ver. 1.0)",
+      "y": "1995",
+      "m": "Rare/Nintendo"
     },
     "kinst214ai": {
       "parent": "kinst2",
@@ -441,7 +468,10 @@
           "n": "ki2_l1.u36",
           "c": "8920acbb"
         }
-      ]
+      ],
+      "t": "Killer Instinct II (ROM ver. 1.4 AnyIDE)",
+      "y": "1995",
+      "m": "Rare/Nintendo"
     },
     "mk": {
       "parent": null,
@@ -514,7 +544,10 @@
           "n": "l1_mortal_kombat_t-unit_uj22_game_rom.uj22",
           "c": "5e12523b"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 5.0 T-Unit 03/19/93)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkr4": {
       "parent": "mk",
@@ -587,7 +620,10 @@
           "n": "l1_mortal_kombat_t-unit_uj22_game_rom.uj22",
           "c": "5e12523b"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 4.0 T-Unit 02/11/93)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkplus": {
       "parent": "mk",
@@ -660,7 +696,10 @@
           "n": "mortal_kombat_plus.uj22",
           "c": "34110899"
         }
-      ]
+      ],
+      "t": "Mortal Kombat Plus (Hack, BUILD 5.0.0741)",
+      "y": "2020",
+      "m": "Paul"
     },
     "mktturbo": {
       "parent": "mk",
@@ -733,7 +772,10 @@
           "n": "l1_mortal_kombat_t-unit_uj22_game_rom.uj22",
           "c": "5e12523b"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Turbo Ninja T-Unit 03/19/93, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mk2": {
       "parent": null,
@@ -818,7 +860,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L3.1)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r32e": {
       "parent": "mk2",
@@ -903,7 +948,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L3.2, European)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r31e": {
       "parent": "mk2",
@@ -988,7 +1036,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L3.1, European)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r30": {
       "parent": "mk2",
@@ -1073,7 +1124,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L3.0)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r21": {
       "parent": "mk2",
@@ -1158,7 +1212,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L2.1)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r20": {
       "parent": "mk2",
@@ -1243,7 +1300,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L2.0)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r14": {
       "parent": "mk2",
@@ -1328,7 +1388,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L1.4)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r11": {
       "parent": "mk2",
@@ -1413,7 +1476,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L1.1)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk2r42": {
       "parent": "mk2",
@@ -1498,7 +1564,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L4.2, hack)",
+      "y": "1993",
+      "m": "hack"
     },
     "mk2r91": {
       "parent": "mk2",
@@ -1583,7 +1652,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II (rev L9.1, hack)",
+      "y": "1993",
+      "m": "hack"
     },
     "mk2chal": {
       "parent": "mk2",
@@ -1668,7 +1740,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II Challenger (hack)",
+      "y": "1993",
+      "m": "hack"
     },
     "mk2ute": {
       "parent": "mk2",
@@ -1753,7 +1828,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II Ultimate Tournament Edition (hack, V5.0.053)",
+      "y": "2014",
+      "m": "hack"
     },
     "mk2p": {
       "parent": "mk2",
@@ -1838,7 +1916,10 @@
           "n": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
           "c": "8891d785"
         }
-      ]
+      ],
+      "t": "Mortal Kombat II Plus (Beta 2, Hack)",
+      "y": "1993",
+      "m": "hack"
     },
     "nbajam": {
       "parent": null,
@@ -1927,7 +2008,10 @@
           "n": "l1_nba_jam_game_rom_uj23.uj23",
           "c": "427d2eee"
         }
-      ]
+      ],
+      "t": "NBA Jam (rev 3.01 4/07/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamr2": {
       "parent": "nbajam",
@@ -2016,7 +2100,10 @@
           "n": "l1_nba_jam_game_rom_uj23.uj23",
           "c": "427d2eee"
         }
-      ]
+      ],
+      "t": "NBA Jam (rev 2.00 2/10/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamr1": {
       "parent": "nbajam",
@@ -2105,7 +2192,10 @@
           "n": "l1_nba_jam_game_rom_uj23.uj23",
           "c": "427d2eee"
         }
-      ]
+      ],
+      "t": "NBA Jam (rev 1.00 2/1/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamp2": {
       "parent": "nbajam",
@@ -2194,7 +2284,10 @@
           "n": "p1_nba_jam_game_rom_uj23.uj23",
           "c": "5f87a4cf"
         }
-      ]
+      ],
+      "t": "NBA Jam (proto v 2.00 1/24/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamp1": {
       "parent": "nbajam",
@@ -2283,7 +2376,10 @@
           "n": "p1_nba_jam_game_rom_uj23.uj23",
           "c": "5f87a4cf"
         }
-      ]
+      ],
+      "t": "NBA Jam (proto v 1.01 1/23/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamte": {
       "parent": null,
@@ -2372,7 +2468,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 4.0 3/23/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte4": {
       "parent": "nbajamte",
@@ -2461,7 +2560,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 4.0 3/03/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte3": {
       "parent": "nbajamte",
@@ -2550,7 +2652,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 3.0 3/04/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte3a": {
       "parent": "nbajamte",
@@ -2639,7 +2744,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 3.0 2/26/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte2": {
       "parent": "nbajamte",
@@ -2728,7 +2836,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 2.1 2/06/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte2a": {
       "parent": "nbajamte",
@@ -2817,7 +2928,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 2.0 1/28/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamte1": {
       "parent": "nbajamte",
@@ -2906,7 +3020,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (rev 1.00 1/17/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "nbajamtep2": {
       "parent": "nbajamte",
@@ -2995,7 +3112,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (proto 2.00 12/17/93)",
+      "y": "1993",
+      "m": "Midway"
     },
     "nbajamten": {
       "parent": "nbajamte",
@@ -3084,7 +3204,10 @@
           "n": "l1_nba_jam_tournament_game_rom_uj23.uj23",
           "c": "f8c30998"
         }
-      ]
+      ],
+      "t": "NBA Jam Tournament Edition (Nani Edition, rev 5.2 8/11/95, prototype)",
+      "y": "1995",
+      "m": "Midway"
     },
     "nbajamre": {
       "parent": "nbajamte",
@@ -3173,7 +3296,10 @@
           "n": "nbajamre.uj23",
           "c": "b5bf66f9"
         }
-      ]
+      ],
+      "t": "NBA Jam Rewind (Hack, v1.1)",
+      "y": "2022",
+      "m": "hack"
     },
     "nbajamr4j": {
       "parent": "nbajamte",
@@ -3262,7 +3388,10 @@
           "n": "nbajamr4j.uj23",
           "c": "b5bf66f9"
         }
-      ]
+      ],
+      "t": "NBA Rewind 4 Jam (protection hack, v1.2)",
+      "y": "2023",
+      "m": "hack"
     },
     "nbajamse502": {
       "parent": "nbajamte",
@@ -3351,7 +3480,10 @@
           "n": "l5.2__nba_jam_tournament_game_rom_uj23.uj23",
           "c": "a659b604"
         }
-      ]
+      ],
+      "t": "NBA JAM Special Edition (T-Unit, rev 5.02 4/26/25)",
+      "y": "2025",
+      "m": "hack (Team Jam)"
     },
     "jdreddp": {
       "parent": null,
@@ -3440,7 +3572,10 @@
           "n": "t1_judge_dredd_game_rom_uj23.uj23",
           "c": "86ea157d"
         }
-      ]
+      ],
+      "t": "Judge Dredd (rev TA1 7/12/92, location test)",
+      "y": "1993",
+      "m": "Midway"
     },
     "mk3": {
       "parent": null,
@@ -3549,7 +3684,10 @@
           "n": "l1_mortal_kombat_3_u114_game_rom.u114",
           "c": "a8d99922"
         }
-      ]
+      ],
+      "t": "Mortal Kombat 3 (rev 2.1)",
+      "y": "1994",
+      "m": "Midway"
     },
     "mk3r20": {
       "parent": "mk3",
@@ -3658,7 +3796,10 @@
           "n": "l1_mortal_kombat_3_u114_game_rom.u114",
           "c": "a8d99922"
         }
-      ]
+      ],
+      "t": "Mortal Kombat 3 (rev 2.0)",
+      "y": "1994",
+      "m": "Midway"
     },
     "mk3r10": {
       "parent": "mk3",
@@ -3767,7 +3908,10 @@
           "n": "l1_mortal_kombat_3_u114_game_rom.u114",
           "c": "a8d99922"
         }
-      ]
+      ],
+      "t": "Mortal Kombat 3 (rev 1.0)",
+      "y": "1994",
+      "m": "Midway"
     },
     "mk3p40": {
       "parent": "mk3",
@@ -3876,7 +4020,10 @@
           "n": "l1_mortal_kombat_3_u114_game_rom.u114",
           "c": "a8d99922"
         }
-      ]
+      ],
+      "t": "Mortal Kombat 3 (rev 1 chip label p4.0)",
+      "y": "1994",
+      "m": "Midway"
     },
     "umk3": {
       "parent": null,
@@ -3989,7 +4136,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 (rev 1.2)",
+      "y": "1994",
+      "m": "Midway"
     },
     "umk3w": {
       "parent": "umk3",
@@ -4102,7 +4252,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 WaveNet Edition (rev 2.03 04/01/97)",
+      "y": "1997",
+      "m": "Midway"
     },
     "umk3wp": {
       "parent": "umk3",
@@ -4215,7 +4368,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 WaveNet Edition + (Kano Transformations) (rev 2.03 04/01/97)",
+      "y": "1997",
+      "m": "Midway"
     },
     "umk3r11": {
       "parent": "umk3",
@@ -4328,7 +4484,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 (rev 1.1)",
+      "y": "1994",
+      "m": "Midway"
     },
     "umk3r10": {
       "parent": "umk3",
@@ -4441,7 +4600,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 (rev 1.0)",
+      "y": "1994",
+      "m": "Midway"
     },
     "umk3te": {
       "parent": "umk3",
@@ -4554,7 +4716,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 Tournament Edition (hack, V2.0.042/August 2018)",
+      "y": "2018",
+      "m": "Midway"
     },
     "umk3uk": {
       "parent": "umk3",
@@ -4683,7 +4848,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 Uk (FBNeo, Ver. 2021-07-20)",
+      "y": "2021",
+      "m": "hack"
     },
     "umk3p": {
       "parent": "umk3",
@@ -4812,7 +4980,10 @@
           "n": "463_mk3_ultimate.u64",
           "c": "4f425218"
         }
-      ]
+      ],
+      "t": "Ultimate Mortal Kombat 3 Plus (Hack, Beta 2)",
+      "y": "2022",
+      "m": "Midway"
     },
     "openice": {
       "parent": null,
@@ -4905,7 +5076,10 @@
           "n": "open_ice_l1.2.u118",
           "c": "9eaaf93e"
         }
-      ]
+      ],
+      "t": "NHL Open Ice: 2 on 2 Challenge (rev 1.21)",
+      "y": "1995",
+      "m": "Midway"
     },
     "openicea": {
       "parent": "openice",
@@ -4998,7 +5172,10 @@
           "n": "open_ice_l1.2.u118",
           "c": "9eaaf93e"
         }
-      ]
+      ],
+      "t": "NHL Open Ice: 2 on 2 Challenge (rev 1.2A)",
+      "y": "1995",
+      "m": "Midway"
     },
     "nbahangt": {
       "parent": null,
@@ -5111,7 +5288,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver L1.3 10/10/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbahangtm13": {
       "parent": "nbahangt",
@@ -5224,7 +5404,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver M1.3 10/10/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbahangtl12": {
       "parent": "nbahangt",
@@ -5337,7 +5520,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver L1.2 8/29/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbahangtm12": {
       "parent": "nbahangt",
@@ -5450,7 +5636,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver M1.2 8/29/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbahangtl11": {
       "parent": "nbahangt",
@@ -5563,7 +5752,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver L1.1 4/16/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbahangtm11": {
       "parent": "nbahangt",
@@ -5676,7 +5868,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Hangtime (ver M1.1 4/16/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbamht": {
       "parent": "nbahangt",
@@ -5789,7 +5984,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Maximum Hangtime (ver L1.03 06/09/97)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbamhtl10": {
       "parent": "nbahangt",
@@ -5902,7 +6100,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Maximum Hangtime (ver L1.0 11/08/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbamhtm10": {
       "parent": "nbahangt",
@@ -6015,7 +6216,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Maximum Hangtime (ver M1.0 11/08/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbamhtp": {
       "parent": "nbahangt",
@@ -6128,7 +6332,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Maximum Hangtime (ver L0.9 10/30/96)",
+      "y": "1996",
+      "m": "Midway"
     },
     "nbamhtx": {
       "parent": "nbahangt",
@@ -6257,7 +6464,10 @@
           "n": "459_nba_hang_time_u64.u64",
           "c": "0e642b39"
         }
-      ]
+      ],
+      "t": "NBA Super Maximum Hangtime (Custom Rebuild 07/02/26)",
+      "y": "2026",
+      "m": "hack"
     },
     "rmpgwt": {
       "parent": null,
@@ -6354,7 +6564,10 @@
           "n": "465_rampage_wt.u64",
           "c": "5c14d850"
         }
-      ]
+      ],
+      "t": "Rampage: World Tour (rev 1.3)",
+      "y": "1997",
+      "m": "Midway"
     },
     "rmpgwt11": {
       "parent": "rmpgwt",
@@ -6451,7 +6664,10 @@
           "n": "465_rampage_wt.u64",
           "c": "5c14d850"
         }
-      ]
+      ],
+      "t": "Rampage: World Tour (rev 1.1)",
+      "y": "1997",
+      "m": "Midway"
     },
     "wwfmania": {
       "parent": null,
@@ -6544,7 +6760,10 @@
           "n": "wwf_image_rom_l1.u118",
           "c": "46668e97"
         }
-      ]
+      ],
+      "t": "WWF: Wrestlemania (rev 1.30 08/10/95)",
+      "y": "1995",
+      "m": "Midway"
     },
     "wwfmaniab": {
       "parent": "wwfmania",
@@ -6637,7 +6856,10 @@
           "n": "wwf_image_rom_l1.u118",
           "c": "46668e97"
         }
-      ]
+      ],
+      "t": "WWF: Wrestlemania (rev 1.20 08/02/95)",
+      "y": "1995",
+      "m": "Midway"
     },
     "wwfmaniac": {
       "parent": "wwfmania",
@@ -6730,7 +6952,10 @@
           "n": "wwf_image_rom_l1.u118",
           "c": "46668e97"
         }
-      ]
+      ],
+      "t": "WWF: Wrestlemania (rev 1.1 07/11/95)",
+      "y": "1995",
+      "m": "Midway"
     },
     "wwfmaniap": {
       "parent": "wwfmania",
@@ -6823,7 +7048,10 @@
           "n": "wwf_image_rom_l1.u118",
           "c": "46668e97"
         }
-      ]
+      ],
+      "t": "WWF: Wrestlemania (proto 2.01 06/07/95)",
+      "y": "1995",
+      "m": "Midway"
     },
     "wwfmanac": {
       "parent": "wwfmania",
@@ -6916,7 +7144,10 @@
           "n": "wwf.118",
           "c": "46668e97"
         }
-      ]
+      ],
+      "t": "WWF: Wrestlemania (Acid Clown Edition 2020.12.02 SP2)",
+      "y": "1995",
+      "m": "Midway"
     },
     "nbajamse": {
       "parent": "nbajamte",
@@ -6981,7 +7212,10 @@
           "n": "nbajam_special_edition.u122",
           "c": "ddf1bc38"
         }
-      ]
+      ],
+      "t": "NBA Jam Special Edition (Wolf-Unit, rev 5.05 12/23/25)",
+      "y": "2025",
+      "m": "hack (Team Jam)"
     },
     "revx": {
       "parent": "revx1",
@@ -7158,7 +7392,10 @@
           "n": "a-17721.u955",
           "c": "033fe902"
         }
-      ]
+      ],
+      "t": "Revolution X (revision 2.0 9/8/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "revx1": {
       "parent": null,
@@ -7335,7 +7572,10 @@
           "n": "a-17721.u955",
           "c": "033fe902"
         }
-      ]
+      ],
+      "t": "Revolution X (revision 1.0 6/16/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "revxp5": {
       "parent": "revx1",
@@ -7512,7 +7752,10 @@
           "n": "a-17721.u955",
           "c": "033fe902"
         }
-      ]
+      ],
+      "t": "Revolution X (prototype, revision 5.0 5/23/94)",
+      "y": "1994",
+      "m": "Midway"
     },
     "narc": {
       "parent": null,
@@ -7817,7 +8060,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 7.00)",
+      "y": "1988",
+      "m": "Williams"
     },
     "narc6": {
       "parent": "narc",
@@ -8138,7 +8384,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 6.00)",
+      "y": "1988",
+      "m": "Williams"
     },
     "narc4": {
       "parent": "narc",
@@ -8459,7 +8708,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 4.00)",
+      "y": "1988",
+      "m": "Williams"
     },
     "narc3": {
       "parent": "narc",
@@ -8780,7 +9032,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 3.20)",
+      "y": "1988",
+      "m": "Williams"
     },
     "narc2": {
       "parent": "narc",
@@ -9101,7 +9356,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 2.00)",
+      "y": "1988",
+      "m": "Williams"
     },
     "narc1": {
       "parent": "narc",
@@ -9390,7 +9648,10 @@
           "n": "a-5346-3036-5_narc_pls153.u83",
           "c": "3a2f21b2"
         }
-      ]
+      ],
+      "t": "Narc (rev 1.80)",
+      "y": "1988",
+      "m": "Williams"
     },
     "mkla4": {
       "parent": "mk",
@@ -9463,7 +9724,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 4.0 09/28/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkla3": {
       "parent": "mk",
@@ -9536,7 +9800,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 3.0 08/31/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkla2": {
       "parent": "mk",
@@ -9609,7 +9876,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 2.0 08/18/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkla1": {
       "parent": "mk",
@@ -9682,7 +9952,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (rev 1.0 08/09/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkprot9": {
       "parent": "mk",
@@ -9755,7 +10028,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (prototype, rev 9.0 07/28/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkprot8": {
       "parent": "mk",
@@ -9828,7 +10104,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (prototype, rev 8.0 07/21/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkprot4": {
       "parent": "mk",
@@ -9901,7 +10180,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (prototype, rev 4.0 07/14/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "mkyturbo": {
       "parent": "mk",
@@ -9974,7 +10256,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Turbo 3.1 09/09/93, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mkyturboe": {
       "parent": "mk",
@@ -10047,7 +10332,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Turbo 3.0 08/31/92, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mkrep": {
       "parent": "mk",
@@ -10120,7 +10408,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Reptile Man hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mknifty": {
       "parent": "mk",
@@ -10193,7 +10484,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Nifty Kombo, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mknifty666": {
       "parent": "mk",
@@ -10266,7 +10560,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Nifty Kombo 666, hack)",
+      "y": "1992",
+      "m": "hack"
     },
     "mkyawdim": {
       "parent": "mk",
@@ -10339,7 +10636,10 @@
           "n": "l1_mortal_kombat_game_rom_u-109.u109",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 1)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "mkyawdim2": {
       "parent": "mk",
@@ -10412,7 +10712,10 @@
           "n": "16v8.p19",
           "c": "0346b5fc"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 2)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "mkyawdim3": {
       "parent": "mk",
@@ -10485,7 +10788,10 @@
           "n": "5.bin",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 3)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "mkyawdim4": {
       "parent": "mk",
@@ -10558,7 +10864,10 @@
           "n": "27.bin",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 4)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "mkyawdim5": {
       "parent": "mk",
@@ -10631,7 +10940,10 @@
           "n": "14.u45",
           "c": "cafc47bb"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 5)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "mkyawdim6": {
       "parent": "mk",
@@ -10704,7 +11016,10 @@
           "n": "16v8.p19",
           "c": "0346b5fc"
         }
-      ]
+      ],
+      "t": "Mortal Kombat (Yawdim bootleg, set 6)",
+      "y": "1992",
+      "m": "bootleg (Yawdim)"
     },
     "trog": {
       "parent": null,
@@ -10769,7 +11084,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (rev LA5 3/29/91)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trog4": {
       "parent": "trog",
@@ -10834,7 +11152,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (rev LA4 3/11/91)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trog3": {
       "parent": "trog",
@@ -10899,7 +11220,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (rev LA3 2/14/91)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trog3a": {
       "parent": "trog",
@@ -10964,7 +11288,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (rev LA3 2/10/91)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trogpa6": {
       "parent": "trog",
@@ -11029,7 +11356,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (prototype, rev PA6-PAC 9/09/90)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trogpa5": {
       "parent": "trog",
@@ -11094,7 +11424,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (prototype, rev PA5-PAC 8/28/90)",
+      "y": "1990",
+      "m": "Midway"
     },
     "trogpa4": {
       "parent": "trog",
@@ -11159,7 +11492,10 @@
           "n": "trog_ii_u-91_la-1.u91",
           "c": "880a02c7"
         }
-      ]
+      ],
+      "t": "Trog (prototype, rev 4.00 7/27/90)",
+      "y": "1990",
+      "m": "Midway"
     },
     "mazebl": {
       "parent": "trog",
@@ -11192,7 +11528,10 @@
           "n": "7",
           "c": "c5ce99fa"
         }
-      ]
+      ],
+      "t": "Maze (Trog rev LA4 3/11/91 bootleg)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "smashtv": {
       "parent": null,
@@ -11269,7 +11608,10 @@
           "n": "a_5346_3044_7.u65",
           "c": "ecbd3bf2"
         }
-      ]
+      ],
+      "t": "Smash T.V. (rev 8.00)",
+      "y": "1990",
+      "m": "Williams"
     },
     "smashtv6": {
       "parent": "smashtv",
@@ -11346,7 +11688,10 @@
           "n": "a_5346_3044_7.u65",
           "c": "ecbd3bf2"
         }
-      ]
+      ],
+      "t": "Smash T.V. (rev 6.00)",
+      "y": "1990",
+      "m": "Williams"
     },
     "smashtv5": {
       "parent": "smashtv",
@@ -11423,7 +11768,10 @@
           "n": "a_5346_3044_7.u65",
           "c": "ecbd3bf2"
         }
-      ]
+      ],
+      "t": "Smash T.V. (rev 5.00)",
+      "y": "1990",
+      "m": "Williams"
     },
     "smashtv4": {
       "parent": "smashtv",
@@ -11500,7 +11848,10 @@
           "n": "a_5346_3044_7.u65",
           "c": "ecbd3bf2"
         }
-      ]
+      ],
+      "t": "Smash T.V. (rev 4.00)",
+      "y": "1990",
+      "m": "Williams"
     },
     "smashtv3": {
       "parent": "smashtv",
@@ -11577,7 +11928,10 @@
           "n": "a_5346_3044_7.u65",
           "c": "ecbd3bf2"
         }
-      ]
+      ],
+      "t": "Smash T.V. (rev 3.01)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpact": {
       "parent": null,
@@ -11654,7 +12008,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (rev LA5 02/15/91)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpact4": {
       "parent": "hiimpact",
@@ -11731,7 +12088,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (rev LA4 02/04/91)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpact3": {
       "parent": "hiimpact",
@@ -11808,7 +12168,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (rev LA3 12/27/90)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpact2": {
       "parent": "hiimpact",
@@ -11885,7 +12248,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (rev LA2 12/26/90)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpact1": {
       "parent": "hiimpact",
@@ -11962,7 +12328,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (rev LA1 12/16/90)",
+      "y": "1990",
+      "m": "Williams"
     },
     "hiimpactp": {
       "parent": "hiimpact",
@@ -12039,7 +12408,10 @@
           "n": "pls153a.u40",
           "c": "69e5143f"
         }
-      ]
+      ],
+      "t": "High Impact Football (prototype, revision0 proto 8.6 12/09/90)",
+      "y": "1990",
+      "m": "Williams"
     },
     "shimpact": {
       "parent": null,
@@ -12112,7 +12484,10 @@
           "n": "la1_super_high_impact_game_rom_u109.u109",
           "c": "36e0b2b2"
         }
-      ]
+      ],
+      "t": "Super High Impact (rev LA2 10/22/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "shimpactl1": {
       "parent": "shimpact",
@@ -12185,7 +12560,10 @@
           "n": "la1_super_high_impact_game_rom_u109.u109",
           "c": "36e0b2b2"
         }
-      ]
+      ],
+      "t": "Super High Impact (rev LA1 09/30/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "shimpactp6": {
       "parent": "shimpact",
@@ -12258,7 +12636,10 @@
           "n": "la1_super_high_impact_game_rom_u109.u109",
           "c": "36e0b2b2"
         }
-      ]
+      ],
+      "t": "Super High Impact (prototype, proto 6.0 09/23/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "shimpactp5": {
       "parent": "shimpact",
@@ -12331,7 +12712,10 @@
           "n": "proto3_super_high_impact_game_rom_u109.u109",
           "c": "58f71141"
         }
-      ]
+      ],
+      "t": "Super High Impact (prototype, proto 5.0 09/15/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "shimpactp4": {
       "parent": "shimpact",
@@ -12404,7 +12788,10 @@
           "n": "proto3_super_high_impact_game_rom_u109.u109",
           "c": "58f71141"
         }
-      ]
+      ],
+      "t": "Super High Impact (prototype, proto 4.0 09/10/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "strkforc": {
       "parent": null,
@@ -12477,7 +12864,10 @@
           "n": "la1_strike_force_game_rom_u91.u91",
           "c": "da02547e"
         }
-      ]
+      ],
+      "t": "Strike Force (rev 1 02/25/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "saurnfrnt": {
       "parent": "strkforc",
@@ -12550,7 +12940,10 @@
           "n": "pa1_saurian_front_game_rom_u91.u91",
           "c": "67bd128a"
         }
-      ]
+      ],
+      "t": "Saurian Front (proto v5.0 8/07/90)",
+      "y": "1991",
+      "m": "Williams"
     },
     "totcarn": {
       "parent": null,
@@ -12623,7 +13016,10 @@
           "n": "la1_total_carnage_game_rom_u109.u109",
           "c": "80715252"
         }
-      ]
+      ],
+      "t": "Total Carnage (rev LA1 03/10/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "totcarnp2": {
       "parent": "totcarn",
@@ -12696,7 +13092,10 @@
           "n": "la1_total_carnage_game_rom_u109.u109",
           "c": "80715252"
         }
-      ]
+      ],
+      "t": "Total Carnage (prototype, proto v 2.0 02/10/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "totcarnp1": {
       "parent": "totcarn",
@@ -12769,7 +13168,10 @@
           "n": "la1_total_carnage_game_rom_u109.u109",
           "c": "80715252"
         }
-      ]
+      ],
+      "t": "Total Carnage (prototype, proto v 1.0 01/25/92)",
+      "y": "1992",
+      "m": "Midway"
     },
     "term2": {
       "parent": null,
@@ -12842,7 +13244,10 @@
           "n": "la1_terminator_2_game_rom_u109.u109",
           "c": "306a9366"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (rev LA4 08/03/92)",
+      "y": "1991",
+      "m": "Midway"
     },
     "term2la3": {
       "parent": "term2",
@@ -12915,7 +13320,10 @@
           "n": "la1_terminator_2_game_rom_u109.u109",
           "c": "306a9366"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (rev LA3 03/27/92)",
+      "y": "1991",
+      "m": "Midway"
     },
     "term2la2": {
       "parent": "term2",
@@ -12988,7 +13396,10 @@
           "n": "la1_terminator_2_game_rom_u109.u109",
           "c": "306a9366"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (rev LA2 12/09/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "term2la1": {
       "parent": "term2",
@@ -13061,7 +13472,10 @@
           "n": "la1_terminator_2_game_rom_u109.u109",
           "c": "306a9366"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (rev LA1 11/01/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "term2pa2": {
       "parent": "term2",
@@ -13134,7 +13548,10 @@
           "n": "pa2_terminator_2_game_rom_u109.u109",
           "c": "8d115894"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (prototype, rev PA2 10/18/91)",
+      "y": "1991",
+      "m": "Midway"
     },
     "term2lg1": {
       "parent": "term2",
@@ -13207,7 +13624,10 @@
           "n": "lg1_terminator_2_game_rom_u109.u109",
           "c": "70dc2ff3"
         }
-      ]
+      ],
+      "t": "Terminator 2 - Judgment Day (German, rev LG1 11/04/91)",
+      "y": "1991",
+      "m": "Midway"
     }
   }
 }

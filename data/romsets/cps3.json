@@ -8,7 +8,10 @@
           "n": "sfiii_euro.29f400.u2",
           "c": "27699ddc"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Europe 970204)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiiu": {
       "parent": "sfiii",
@@ -17,7 +20,10 @@
           "n": "sfiii_usa_region_b1.29f400.u2",
           "c": "fb172a8e"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (USA 970204)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiia": {
       "parent": "sfiii",
@@ -26,7 +32,10 @@
           "n": "sfiii_asia_region_bd.29f400.u2",
           "c": "cbd28de7"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Asia 970204)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiij": {
       "parent": "sfiii",
@@ -35,7 +44,10 @@
           "n": "sfiii_japan.29f400.u2",
           "c": "74205250"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Japan 970204)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiih": {
       "parent": "sfiii",
@@ -44,7 +56,10 @@
           "n": "sfiii_hispanic.29f400.u2",
           "c": "d2b3cd48"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Hispanic 970204)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiin": {
       "parent": "sfiii",
@@ -53,7 +68,10 @@
           "n": "sfiii_asia_nocd.29f400.u2",
           "c": "ca2b715f"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Asia 970204, NO CD, BIOS set 1)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiiina": {
       "parent": "sfiii",
@@ -62,7 +80,10 @@
           "n": "sfiii_asia_nocd.29f400.u2",
           "c": "73e32463"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Asia 970204, NO CD, BIOS set 2)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiii2": {
       "parent": null,
@@ -71,7 +92,10 @@
           "n": "sfiii2_usa.29f400.u2",
           "c": "75dd72e0"
         }
-      ]
+      ],
+      "t": "Street Fighter III 2nd Impact: Giant Attack (USA 970930)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiii2j": {
       "parent": "sfiii2",
@@ -80,7 +104,10 @@
           "n": "sfiii2_japan.29f400.u2",
           "c": "faea0a3e"
         }
-      ]
+      ],
+      "t": "Street Fighter III 2nd Impact: Giant Attack (Japan 970930)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiii2h": {
       "parent": "sfiii2",
@@ -89,7 +116,10 @@
           "n": "sfiii2_hispanic.29f400.u2",
           "c": "5c799526"
         }
-      ]
+      ],
+      "t": "Street Fighter III 2nd Impact: Giant Attack (Hispanic 970930)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiii2n": {
       "parent": "sfiii2",
@@ -98,7 +128,10 @@
           "n": "sfiii2_asia_nocd.29f400.u2",
           "c": "fd297c0d"
         }
-      ]
+      ],
+      "t": "Street Fighter III 2nd Impact: Giant Attack (Asia 970930, NO CD)",
+      "y": "1997",
+      "m": "Capcom"
     },
     "sfiii3": {
       "parent": null,
@@ -107,7 +140,10 @@
           "n": "sfiii3_euro.29f400.u2",
           "c": "30bbf293"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Europe 990608)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3u": {
       "parent": "sfiii3",
@@ -116,7 +152,10 @@
           "n": "sfiii3_usa.29f400.u2",
           "c": "ecc545c1"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (USA 990608)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3j": {
       "parent": "sfiii3",
@@ -125,7 +164,10 @@
           "n": "sfiii3_japan.29f400.u2",
           "c": "63f23d1f"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990608)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3n": {
       "parent": "sfiii3",
@@ -134,7 +176,10 @@
           "n": "sfiii3_japan_nocd.29f400.u2",
           "c": "1edc6366"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990608, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3na": {
       "parent": "sfiii3",
@@ -143,7 +188,10 @@
           "n": "sfiii3_asia_nocd.29f400.u2",
           "c": "a12ebcd1"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Asia 990608, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3r1": {
       "parent": "sfiii3",
@@ -152,7 +200,10 @@
           "n": "sfiii3_euro.29f400.u2",
           "c": "30bbf293"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Europe 990512)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3ur1": {
       "parent": "sfiii3",
@@ -161,7 +212,10 @@
           "n": "sfiii3_usa.29f400.u2",
           "c": "ecc545c1"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (USA 990512)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3jr1": {
       "parent": "sfiii3",
@@ -170,7 +224,10 @@
           "n": "sfiii3_japan.29f400.u2",
           "c": "63f23d1f"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990512)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3nr1": {
       "parent": "sfiii3",
@@ -179,7 +236,10 @@
           "n": "sfiii3_japan_nocd.29f400.u2",
           "c": "1edc6366"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990512, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "sfiii3nar1": {
       "parent": "sfiii3",
@@ -188,7 +248,10 @@
           "n": "sfiii3_asia_nocd.29f400.u2",
           "c": "a12ebcd1"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Asia 990512, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojo": {
       "parent": null,
@@ -197,7 +260,10 @@
           "n": "jojo_euro.29f400.u2",
           "c": "513e40ec"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Europe 990128)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojou": {
       "parent": "jojo",
@@ -206,7 +272,10 @@
           "n": "jojo_usa.29f400.u2",
           "c": "8d40f7be"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (USA 990128)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojoa": {
       "parent": "jojo",
@@ -215,7 +284,10 @@
           "n": "jojo_asia.29f400.u2",
           "c": "789aa72a"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 990128)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojoj": {
       "parent": "jojo",
@@ -224,7 +296,10 @@
           "n": "jojo_japan.29f400.u2",
           "c": "02778f60"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken (Japan 990128)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojon": {
       "parent": "jojo",
@@ -233,7 +308,10 @@
           "n": "jojo_asia_nocd.29f400.u2",
           "c": "05b4f953"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 990128, NO CD)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojor1": {
       "parent": "jojo",
@@ -242,7 +320,10 @@
           "n": "jojo_euro.29f400.u2",
           "c": "513e40ec"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Europe 990108)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojour1": {
       "parent": "jojo",
@@ -251,7 +332,10 @@
           "n": "jojo_usa.29f400.u2",
           "c": "8d40f7be"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (USA 990108)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojoar1": {
       "parent": "jojo",
@@ -260,7 +344,10 @@
           "n": "jojo_asia.29f400.u2",
           "c": "789aa72a"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 990108)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojojr1": {
       "parent": "jojo",
@@ -269,7 +356,10 @@
           "n": "jojo_japan.29f400.u2",
           "c": "02778f60"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken (Japan 990108)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojonr1": {
       "parent": "jojo",
@@ -278,7 +368,10 @@
           "n": "jojo_asia_nocd.29f400.u2",
           "c": "05b4f953"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 990108, NO CD)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojor2": {
       "parent": "jojo",
@@ -287,7 +380,10 @@
           "n": "jojo_euro.29f400.u2",
           "c": "513e40ec"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Europe 981202)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojour2": {
       "parent": "jojo",
@@ -296,7 +392,10 @@
           "n": "jojo_usa.29f400.u2",
           "c": "8d40f7be"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (USA 981202)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojoar2": {
       "parent": "jojo",
@@ -305,7 +404,10 @@
           "n": "jojo_asia.29f400.u2",
           "c": "789aa72a"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 981202)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojojr2": {
       "parent": "jojo",
@@ -314,7 +416,10 @@
           "n": "jojo_japan.29f400.u2",
           "c": "02778f60"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken (Japan 981202)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojonr2": {
       "parent": "jojo",
@@ -323,7 +428,10 @@
           "n": "jojo_asia_nocd.29f400.u2",
           "c": "05b4f953"
         }
-      ]
+      ],
+      "t": "JoJo's Venture (Asia 981202, NO CD)",
+      "y": "1998",
+      "m": "Capcom"
     },
     "jojoba": {
       "parent": null,
@@ -332,7 +440,10 @@
           "n": "jojoba_euro_nocd.29f400.u2",
           "c": "1ee2d679"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Europe 991015, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojoban": {
       "parent": "jojoba",
@@ -341,7 +452,10 @@
           "n": "jojoba_japan_nocd.29f400.u2",
           "c": "4dab19f5"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 991015, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobar1": {
       "parent": "jojoba",
@@ -350,7 +464,10 @@
           "n": "jojoba_euro.29f400.u2",
           "c": "63cc8800"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Europe 990927)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobajr1": {
       "parent": "jojoba",
@@ -359,7 +476,10 @@
           "n": "jojoba_japan.29f400.u2",
           "c": "3085478c"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobanr1": {
       "parent": "jojoba",
@@ -368,7 +488,10 @@
           "n": "jojoba_japan_nocd.29f400.u2",
           "c": "4dab19f5"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobaner1": {
       "parent": "jojoba",
@@ -377,7 +500,10 @@
           "n": "jojoba_euro_nocd.29f400.u2",
           "c": "1ee2d679"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Europe 990927, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobar2": {
       "parent": "jojoba",
@@ -386,7 +512,10 @@
           "n": "jojoba_euro.29f400.u2",
           "c": "63cc8800"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Europe 990913)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobajr2": {
       "parent": "jojoba",
@@ -395,7 +524,10 @@
           "n": "jojoba_japan.29f400.u2",
           "c": "3085478c"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990913)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobanr2": {
       "parent": "jojoba",
@@ -404,7 +536,10 @@
           "n": "jojoba_japan_nocd.29f400.u2",
           "c": "4dab19f5"
         }
-      ]
+      ],
+      "t": "JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990913, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "jojobaner2": {
       "parent": "jojoba",
@@ -413,7 +548,10 @@
           "n": "jojoba_euro_nocd.29f400.u2",
           "c": "1ee2d679"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Europe 990913, NO CD)",
+      "y": "1999",
+      "m": "Capcom"
     },
     "redearth": {
       "parent": null,
@@ -422,7 +560,10 @@
           "n": "redearth_euro.29f400.u2",
           "c": "02e0f336"
         }
-      ]
+      ],
+      "t": "Red Earth (Europe 961121)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "warzard": {
       "parent": "redearth",
@@ -431,7 +572,10 @@
           "n": "warzard_japan.29f400.u2",
           "c": "f8e2f0c6"
         }
-      ]
+      ],
+      "t": "Warzard (Japan 961121)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "redearthn": {
       "parent": "redearth",
@@ -440,7 +584,10 @@
           "n": "redearth_asia_nocd.29f400.u2",
           "c": "7a4f0851"
         }
-      ]
+      ],
+      "t": "Red Earth (Asia 961121, NO CD)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "redearthr1": {
       "parent": "redearth",
@@ -449,7 +596,10 @@
           "n": "redearth_euro.29f400.u2",
           "c": "02e0f336"
         }
-      ]
+      ],
+      "t": "Red Earth (Europe 961023)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "warzardr1": {
       "parent": "redearth",
@@ -458,7 +608,10 @@
           "n": "warzard_japan.29f400.u2",
           "c": "f8e2f0c6"
         }
-      ]
+      ],
+      "t": "Warzard (Japan 961023)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "redearthnr1": {
       "parent": "redearth",
@@ -555,7 +708,10 @@
           "n": "redearth-simm5.1",
           "c": "9b8cb56b"
         }
-      ]
+      ],
+      "t": "Red Earth (Asia 961023, NO CD)",
+      "y": "1996",
+      "m": "Capcom"
     },
     "sfiiibh": {
       "parent": "sfiii",
@@ -652,7 +808,10 @@
           "n": "sfiii-simm5.1",
           "c": "c6f1c066"
         }
-      ]
+      ],
+      "t": "Street Fighter III: New Generation (Boss Hack)",
+      "y": "201?",
+      "m": "Yumeji"
     },
     "sfiii2bh": {
       "parent": "sfiii2",
@@ -789,7 +948,10 @@
           "n": "sfiii2-simm5.7",
           "c": "93ffa199"
         }
-      ]
+      ],
+      "t": "Street Fighter III 2nd Impact: Giant Attack (Boss Hack)",
+      "y": "201?",
+      "m": "Yumeji"
     },
     "sfiii3bh": {
       "parent": "sfiii3",
@@ -958,7 +1120,10 @@
           "n": "sfiii3-simm6.7",
           "c": "cc5f4187"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Boss Hack)",
+      "y": "201?",
+      "m": "Yumeji"
     },
     "sfiii4n": {
       "parent": "sfiii3",
@@ -1127,7 +1292,10 @@
           "n": "sfiii3-simm6.7",
           "c": "cc5f4187"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (4rd Arrange Edition 2013)",
+      "y": "2013",
+      "m": "hack"
     },
     "sfiii3th": {
       "parent": "sfiii3",
@@ -1296,7 +1464,10 @@
           "n": "sfiii3-simm6.7",
           "c": "cc5f4187"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future | re:THIRD update",
+      "y": "2021",
+      "m": "hack"
     },
     "sfiii3ws": {
       "parent": "sfiii3",
@@ -1465,7 +1636,10 @@
           "n": "sfiii3-simm6.7",
           "c": "cc5f4187"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (Widescreen 20220908)",
+      "y": "2022",
+      "m": "Bank Bank"
     },
     "sfiii4fs": {
       "parent": "sfiii3",
@@ -1634,7 +1808,10 @@
           "n": "sfiii3-simm6.7",
           "c": "cc5f4187"
         }
-      ]
+      ],
+      "t": "Street Fighter III 3rd Strike: Fight for the Future (4rd Strike 2011-07-17)",
+      "y": "2011",
+      "m": "hack"
     },
     "jojobanrb": {
       "parent": "jojoba",
@@ -1771,7 +1948,10 @@
           "n": "jojoba-simm5.7",
           "c": "8c8be520"
         }
-      ]
+      ],
+      "t": "JoJo's Bizarre Adventure (Rainbow Edition v1.0.1 2021)",
+      "y": "2021",
+      "m": "hack"
     }
   }
 }

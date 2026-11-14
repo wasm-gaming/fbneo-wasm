@@ -41,7 +41,7 @@ await play.destroy();          // saves flushed, loop stopped, audio closed
 | payload | keys |
 | --- | --- |
 | `config` | `renderFilter` (`pixelated` \| `smooth`, live), `jsUrl`, `wasmUrl` |
-| `options` | `driver` (FBNeo short name), `romFileName` (its stem is the driver when `driver` is empty) |
+| `options` | `driver` (FBNeo short name), `romFileName` (its stem is the driver when `driver` is empty), `neogeo` (`mvs` \| `aes`) |
 | `assets` | `rom` (`.zip`/`.7z`, required), `bios` (`.zip`, e.g. `neogeo.zip`) |
 | `storage` | `namespace` (default `default`), `persist` (`'opfs'` \| `null`) |
 
@@ -50,6 +50,15 @@ in its ROM path; the SDK writes the bytes there under that name, so the player's
 never matters once the driver is known.
 
 Events: the contract's `start`, `error`, `exit`, `pause`, `resume`, plus `saves`.
+
+## Neo Geo as the AES
+
+FBNeo boots Neo Geo sets as the **MVS** (the arcade board: coins, credits). `options({ neogeo: 'aes' })`
+boots them as the **AES**, the home console: once the set runs, the SDK picks the BIOS from the
+`bios` zip — the real AES World BIOS (`neo-epo.bin`) when it is there, else Universe BIOS 4.0 in its
+AES mode (MAME's `neogeo.zip` has it) — sets FBNeo's BIOS settings, inserts the game's **memory
+card** (`<driver>.card` in the save folder, so in OPFS) and resets. `play.neogeo` says what was used
+(`{ mode: 'aes', bios: 'aes' | 'unibios', card }`). The app takes the option from `host.options`.
 
 ## The engine's own app
 

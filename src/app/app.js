@@ -619,7 +619,7 @@ export async function mount(target, host) {
     render();
     play = await new FbneoSDK()
       .mount(stage)
-      .options({ driver })
+      .options({ driver, ...(host.options?.neogeo ? { neogeo: host.options.neogeo } : {}) })
       .assets({ ...host.assets, rom })
       .storage(host.storage)
       .on('error', ({ detail }) => console.error('[fbneo app]', detail))

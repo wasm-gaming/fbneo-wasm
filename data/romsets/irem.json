@@ -64,7 +64,10 @@
           "n": "w96.da0",
           "c": "7a493e2e"
         }
-      ]
+      ],
+      "t": "Air Assault (World)",
+      "y": "1993",
+      "m": "Irem"
     },
     "firebarr": {
       "parent": "airass",
@@ -153,7 +156,10 @@
           "n": "f4-b-da0.da0",
           "c": "7a493e2e"
         }
-      ]
+      ],
+      "t": "Fire Barrel (Japan)",
+      "y": "1993",
+      "m": "Irem"
     },
     "dsoccr94": {
       "parent": null,
@@ -218,7 +224,10 @@
           "n": "ds_da0.ic24",
           "c": "67fc52fd"
         }
-      ]
+      ],
+      "t": "Dream Soccer '94 (World, M107 hardware)",
+      "y": "1994",
+      "m": "Irem (Data East Corporation license)"
     },
     "dsoccr94k": {
       "parent": "dsoccr94",
@@ -283,7 +292,10 @@
           "n": "ds_da0.ic24",
           "c": "67fc52fd"
         }
-      ]
+      ],
+      "t": "Dream Soccer '94 (Korea, M107 hardware)",
+      "y": "1994",
+      "m": "Irem (Data East Corporation license)"
     },
     "wpksoc": {
       "parent": null,
@@ -356,7 +368,10 @@
           "n": "pk-da0.da0",
           "c": "26a34cf4"
         }
-      ]
+      ],
+      "t": "World PK Soccer",
+      "y": "1995",
+      "m": "Jaleco"
     },
     "kftgoal": {
       "parent": "wpksoc",
@@ -433,7 +448,10 @@
           "n": "st-m28c64c.eeprom",
           "c": "8e0c8b7c"
         }
-      ]
+      ],
+      "t": "Kick for the Goal",
+      "y": "1994",
+      "m": "Jaleco"
     },
     "mpatrol": {
       "parent": null,
@@ -506,7 +524,10 @@
           "n": "mp_7621-5.7h",
           "c": "cf1fd9d0"
         }
-      ]
+      ],
+      "t": "Moon Patrol",
+      "y": "1982",
+      "m": "Irem"
     },
     "mpatrolw": {
       "parent": "mpatrol",
@@ -579,7 +600,10 @@
           "n": "mp_7621-5.7h",
           "c": "cf1fd9d0"
         }
-      ]
+      ],
+      "t": "Moon Patrol (Williams)",
+      "y": "1982",
+      "m": "Irem (Williams license)"
     },
     "mranger": {
       "parent": "mpatrol",
@@ -648,7 +672,10 @@
           "n": "mpc-2.2h",
           "c": "7ae4cd97"
         }
-      ]
+      ],
+      "t": "Moon Ranger (bootleg of Moon Patrol)",
+      "y": "1982",
+      "m": "bootleg"
     },
     "alpha1v": {
       "parent": null,
@@ -737,7 +764,10 @@
           "n": "mb7052-h2",
           "c": "ce9f0ef9"
         }
-      ]
+      ],
+      "t": "Alpha One (Vision Electronics)",
+      "y": "1988",
+      "m": "Vision Electronics"
     },
     "troangel": {
       "parent": null,
@@ -814,7 +844,10 @@
           "n": "ta-b-3d",
           "c": "ed3e2aa4"
         }
-      ]
+      ],
+      "t": "Tropical Angel",
+      "y": "1983",
+      "m": "Irem"
     },
     "newtangl": {
       "parent": "troangel",
@@ -891,7 +924,10 @@
           "n": "ta-b-3d",
           "c": "ed3e2aa4"
         }
-      ]
+      ],
+      "t": "New Tropical Angel",
+      "y": "1983",
+      "m": "Irem"
     },
     "10yard": {
       "parent": null,
@@ -984,7 +1020,10 @@
           "n": "yard.2m",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "10-Yard Fight (World, set 1)",
+      "y": "1983",
+      "m": "Irem"
     },
     "10yardj": {
       "parent": "10yard",
@@ -1077,7 +1116,10 @@
           "n": "yard.2m",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "10-Yard Fight (Japan)",
+      "y": "1983",
+      "m": "Irem"
     },
     "vs10yard": {
       "parent": "10yard",
@@ -1170,7 +1212,10 @@
           "n": "yard.2m",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "Vs 10-Yard Fight (World, 11/05/84)",
+      "y": "1984",
+      "m": "Irem"
     },
     "vs10yardj": {
       "parent": "10yard",
@@ -1263,7 +1308,10 @@
           "n": "yard.2m",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "Vs 10-Yard Fight (Japan)",
+      "y": "1984",
+      "m": "Irem"
     },
     "vs10yardu": {
       "parent": "10yard",
@@ -1356,7 +1404,10 @@
           "n": "yf-b-2p.2p",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "Vs 10-Yard Fight (US, Taito license)",
+      "y": "1984",
+      "m": "Irem (Taito license)"
     },
     "10yard85": {
       "parent": "10yard",
@@ -1449,7 +1500,10 @@
           "n": "yf-b-2p.2p",
           "c": "45384397"
         }
-      ]
+      ],
+      "t": "10-Yard Fight '85 (US, Taito license)",
+      "y": "1985",
+      "m": "Irem (Taito license)"
     },
     "kungfum": {
       "parent": null,
@@ -1566,7 +1620,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (World)",
+      "y": "1984",
+      "m": "Irem"
     },
     "kungfumd": {
       "parent": "kungfum",
@@ -1655,7 +1712,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (US)",
+      "y": "1984",
+      "m": "Irem (Data East USA license)"
     },
     "spartanx": {
       "parent": "kungfum",
@@ -1772,7 +1832,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Spartan X (Japan)",
+      "y": "1984",
+      "m": "Irem"
     },
     "kungfub": {
       "parent": "kungfum",
@@ -1957,7 +2020,10 @@
           "n": "tbp24s10-main-8d.bin",
           "c": "599c319f"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (bootleg set 1)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "kungfub2": {
       "parent": "kungfum",
@@ -2074,7 +2140,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (bootleg set 2)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "kungfub3": {
       "parent": "kungfum",
@@ -2167,7 +2236,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Kung-Fu Master (bootleg set 3)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "kungfub3s": {
       "parent": "kungfum",
@@ -2260,7 +2332,10 @@
           "n": "b-6f-.bin",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Kung-Fu Senjyo (bootleg, Spanish)",
+      "y": "1984",
+      "m": "bootleg"
     },
     "battroad": {
       "parent": null,
@@ -2397,7 +2472,10 @@
           "n": "br-c-1j",
           "c": "78eb5d77"
         }
-      ]
+      ],
+      "t": "The Battle-Road",
+      "y": "1984",
+      "m": "Irem"
     },
     "ldrun": {
       "parent": null,
@@ -2482,7 +2560,10 @@
           "n": "lr-b-6f",
           "c": "34d88d3c"
         }
-      ]
+      ],
+      "t": "Lode Runner (set 1)",
+      "y": "1984",
+      "m": "Irem (licensed from Broderbund)"
     },
     "ldruna": {
       "parent": "ldrun",
@@ -2567,7 +2648,10 @@
           "n": "lr-b-6f",
           "c": "34d88d3c"
         }
-      ]
+      ],
+      "t": "Lode Runner (set 2)",
+      "y": "1984",
+      "m": "Irem (licensed from Broderbund, Digital Controls Inc. license)"
     },
     "ldrun2": {
       "parent": null,
@@ -2676,7 +2760,10 @@
           "n": "lr2-b-6f",
           "c": "34d88d3c"
         }
-      ]
+      ],
+      "t": "Lode Runner II - The Bungeling Strikes Back",
+      "y": "1984",
+      "m": "Irem (licensed from Broderbund)"
     },
     "ldrun3": {
       "parent": null,
@@ -2773,7 +2860,10 @@
           "n": "lr3-n-4f",
           "c": "df674be9"
         }
-      ]
+      ],
+      "t": "Lode Runner III - The Golden Labyrinth",
+      "y": "1985",
+      "m": "Irem (licensed from Broderbund)"
     },
     "ldrun3j": {
       "parent": "ldrun3",
@@ -2858,7 +2948,10 @@
           "n": "lr3-n-4f",
           "c": "df674be9"
         }
-      ]
+      ],
+      "t": "Lode Runner III - Majin no Fukkatsu (Japan, rev. A)",
+      "y": "1985",
+      "m": "Irem (licensed from Broderbund)"
     },
     "ldrun3jc": {
       "parent": "ldrun3",
@@ -2943,7 +3036,10 @@
           "n": "lr3-n-4f",
           "c": "df674be9"
         }
-      ]
+      ],
+      "t": "Lode Runner III - Majin no Fukkatsu (Japan, rev. C)",
+      "y": "1985",
+      "m": "Irem (licensed from Broderbund)"
     },
     "ldrun4": {
       "parent": null,
@@ -3040,7 +3136,10 @@
           "n": "lr4-v-4h",
           "c": "df674be9"
         }
-      ]
+      ],
+      "t": "Lode Runner IV - Teikoku Karano Dasshutsu (Japan)",
+      "y": "1986",
+      "m": "Irem (licensed from Broderbund)"
     },
     "lotlot": {
       "parent": null,
@@ -3145,7 +3244,10 @@
           "n": "lot-k-7h",
           "c": "04442bee"
         }
-      ]
+      ],
+      "t": "Lot Lot",
+      "y": "1985",
+      "m": "Irem (licensed from Tokuma Shoten)"
     },
     "kidniki": {
       "parent": null,
@@ -3286,7 +3388,10 @@
           "n": "dr28.8f",
           "c": "6cef0fbd"
         }
-      ]
+      ],
+      "t": "Kid Niki - Radical Ninja (World)",
+      "y": "1986",
+      "m": "Irem"
     },
     "kidnikiu": {
       "parent": "kidniki",
@@ -3427,7 +3532,10 @@
           "n": "dr28.8f",
           "c": "6cef0fbd"
         }
-      ]
+      ],
+      "t": "Kid Niki - Radical Ninja (US)",
+      "y": "1986",
+      "m": "Irem (Data East USA license)"
     },
     "yanchamr": {
       "parent": "kidniki",
@@ -3568,7 +3676,10 @@
           "n": "dr28.8f",
           "c": "6cef0fbd"
         }
-      ]
+      ],
+      "t": "Kaiketsu Yanchamaru (Japan)",
+      "y": "1986",
+      "m": "Irem"
     },
     "lithero": {
       "parent": "kidniki",
@@ -3681,7 +3792,10 @@
           "n": "dr28.8f",
           "c": "6cef0fbd"
         }
-      ]
+      ],
+      "t": "Little Hero",
+      "y": "1987",
+      "m": "bootleg"
     },
     "spelunkr": {
       "parent": null,
@@ -3806,7 +3920,10 @@
           "n": "sprm.8h",
           "c": "875cc442"
         }
-      ]
+      ],
+      "t": "Spelunker",
+      "y": "1985",
+      "m": "Irem (licensed from Broderbund)"
     },
     "spelunkrj": {
       "parent": "spelunkr",
@@ -3931,7 +4048,10 @@
           "n": "sprm.8h",
           "c": "875cc442"
         }
-      ]
+      ],
+      "t": "Spelunker (Japan)",
+      "y": "1985",
+      "m": "Irem (licensed from Broderbund)"
     },
     "spelunk2": {
       "parent": null,
@@ -4048,7 +4168,10 @@
           "n": "sp2-r.8j",
           "c": "875cc442"
         }
-      ]
+      ],
+      "t": "Spelunker II - 23 no Kagi (Japan)",
+      "y": "1986",
+      "m": "Irem (licensed from Broderbund)"
     },
     "youjyudn": {
       "parent": null,
@@ -4161,7 +4284,10 @@
           "n": "yju_b-pal16r4a-8m.pal",
           "c": "3ece8e61"
         }
-      ]
+      ],
+      "t": "Youjyuden (Japan)",
+      "y": "1986",
+      "m": "Irem"
     },
     "horizon": {
       "parent": null,
@@ -4250,7 +4376,10 @@
           "n": "hrzb-6f",
           "c": "82c20d12"
         }
-      ]
+      ],
+      "t": "Horizon (Irem)",
+      "y": "1985",
+      "m": "Irem"
     },
     "wilytowr": {
       "parent": null,
@@ -4347,7 +4476,10 @@
           "n": "wt_b-9l-.bpr",
           "c": "d2728744"
         }
-      ]
+      ],
+      "t": "Wily Tower",
+      "y": "1984",
+      "m": "Irem"
     },
     "atomboy": {
       "parent": "wilytowr",
@@ -4444,7 +4576,10 @@
           "n": "wt_b-9l-.bpr",
           "c": "d2728744"
         }
-      ]
+      ],
+      "t": "Atomic Boy (revision B)",
+      "y": "1985",
+      "m": "Irem (Memetron license)"
     },
     "atomboya": {
       "parent": "wilytowr",
@@ -4541,7 +4676,10 @@
           "n": "wt_b-9l-.bpr",
           "c": "d2728744"
         }
-      ]
+      ],
+      "t": "Atomic Boy (revision A)",
+      "y": "1985",
+      "m": "Irem (Memetron license)"
     },
     "fghtbskt": {
       "parent": null,
@@ -4646,7 +4784,10 @@
           "n": "fb05.38a",
           "c": "72ea6b49"
         }
-      ]
+      ],
+      "t": "Fighting Basketball",
+      "y": "1984",
+      "m": "Paradise Co. Ltd."
     },
     "rtype": {
       "parent": null,
@@ -4751,7 +4892,10 @@
           "n": "m72_r-3a-.3a",
           "c": "055af779"
         }
-      ]
+      ],
+      "t": "R-Type (World)",
+      "y": "1987",
+      "m": "Irem"
     },
     "rtypej": {
       "parent": "rtype",
@@ -4856,7 +5000,10 @@
           "n": "m72_r-3a-.3a",
           "c": "055af779"
         }
-      ]
+      ],
+      "t": "R-Type (Japan)",
+      "y": "1987",
+      "m": "Irem"
     },
     "rtypejp": {
       "parent": "rtype",
@@ -4961,7 +5108,10 @@
           "n": "m72_r-3a-.3a",
           "c": "055af779"
         }
-      ]
+      ],
+      "t": "R-Type (Japan prototype)",
+      "y": "1987",
+      "m": "Irem"
     },
     "rtypeu": {
       "parent": "rtype",
@@ -5066,7 +5216,10 @@
           "n": "m72_r-3a-.3a",
           "c": "055af779"
         }
-      ]
+      ],
+      "t": "R-Type (US)",
+      "y": "1987",
+      "m": "Irem (Nintendo of America license)"
     },
     "rtypeb": {
       "parent": "rtype",
@@ -5151,7 +5304,10 @@
           "n": "rt_b-b3.ic24",
           "c": "ad89b072"
         }
-      ]
+      ],
+      "t": "R-Type (World bootleg)",
+      "y": "1987",
+      "m": "bootleg"
     },
     "rtypem82b": {
       "parent": "rtype",
@@ -5228,7 +5384,10 @@
           "n": "mt_vo.ic12",
           "c": "eb24bb2c"
         }
-      ]
+      ],
+      "t": "R-Type (Japan, bootleg M82 conversion)",
+      "y": "2009",
+      "m": "bootleg"
     },
     "xmultipl": {
       "parent": null,
@@ -5345,7 +5504,10 @@
           "n": "xm_a-7d-.ic48",
           "c": "2ef7ad4e"
         }
-      ]
+      ],
+      "t": "X Multiply (World, M81 hardware)",
+      "y": "1989",
+      "m": "Irem"
     },
     "xmultiplm72": {
       "parent": "xmultipl",
@@ -5458,7 +5620,10 @@
           "n": "xm_c-3f-.ic13",
           "c": "f43e91e4"
         }
-      ]
+      ],
+      "t": "X Multiply (Japan, M72 hardware)",
+      "y": "1989",
+      "m": "Irem"
     },
     "dbreed": {
       "parent": null,
@@ -5535,7 +5700,10 @@
           "n": "db_a-7d-.ic48",
           "c": "421cecd6"
         }
-      ]
+      ],
+      "t": "Dragon Breed (World, M81 hardware)",
+      "y": "1989",
+      "m": "Irem"
     },
     "dbreedm72": {
       "parent": "dbreed",
@@ -5628,7 +5796,10 @@
           "n": "db-c-3f-.ic13",
           "c": "7184d421"
         }
-      ]
+      ],
+      "t": "Dragon Breed (World, M72 hardware)",
+      "y": "1989",
+      "m": "Irem"
     },
     "dbreedjm72": {
       "parent": "dbreed",
@@ -5725,7 +5896,10 @@
           "n": "db-c-3f-.ic13",
           "c": "7184d421"
         }
-      ]
+      ],
+      "t": "Dragon Breed (Japan, M72 hardware)",
+      "y": "1989",
+      "m": "Irem"
     },
     "bchopper": {
       "parent": null,
@@ -5846,7 +6020,10 @@
           "n": "mh-c-3f-.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Battle Chopper (World)",
+      "y": "1987",
+      "m": "Irem"
     },
     "mrheli": {
       "parent": "bchopper",
@@ -5951,7 +6128,10 @@
           "n": "mh-c-3f-.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Mr. HELI no Daibouken (Japan)",
+      "y": "1987",
+      "m": "Irem"
     },
     "nspirit": {
       "parent": null,
@@ -6064,7 +6244,10 @@
           "n": "nin-c-3f.ic13",
           "c": "d1f3a2e2"
         }
-      ]
+      ],
+      "t": "Ninja Spirit (World)",
+      "y": "1988",
+      "m": "Irem"
     },
     "nspiritj": {
       "parent": "nspirit",
@@ -6177,7 +6360,10 @@
           "n": "nin-c-3f.ic13",
           "c": "d1f3a2e2"
         }
-      ]
+      ],
+      "t": "Saigo no Nindou (Japan)",
+      "y": "1988",
+      "m": "Irem"
     },
     "imgfight": {
       "parent": null,
@@ -6278,7 +6464,10 @@
           "n": "if-c-3f-.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Image Fight (World)",
+      "y": "1988",
+      "m": "Irem"
     },
     "imgfightj": {
       "parent": "imgfight",
@@ -6379,7 +6568,10 @@
           "n": "if-c-3f-.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Image Fight (Japan)",
+      "y": "1988",
+      "m": "Irem"
     },
     "imgfightjb": {
       "parent": "imgfight",
@@ -6484,7 +6676,10 @@
           "n": "25.ic27.2l",
           "c": "d83359a2"
         }
-      ]
+      ],
+      "t": "Image Fight (Japan, bootleg)",
+      "y": "1988",
+      "m": "Irem"
     },
     "airduel": {
       "parent": null,
@@ -6573,7 +6768,10 @@
           "n": "mt_a-7d-.ic43",
           "c": "d7ec1cc6"
         }
-      ]
+      ],
+      "t": "Air Duel (World, M82 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "airduelu": {
       "parent": "airduel",
@@ -6662,7 +6860,10 @@
           "n": "mt_a-7d-.ic43",
           "c": "d7ec1cc6"
         }
-      ]
+      ],
+      "t": "Air Duel (US location test, M82 hardware)",
+      "y": "1990",
+      "m": "Irem America"
     },
     "airduelm72": {
       "parent": "airduel",
@@ -6759,7 +6960,10 @@
           "n": "ad_c-3f-.ic13",
           "c": "9748fa38"
         }
-      ]
+      ],
+      "t": "Air Duel (World, M72 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "airdueljm72": {
       "parent": "airduel",
@@ -6856,7 +7060,10 @@
           "n": "ad_c-3f-.ic13",
           "c": "9748fa38"
         }
-      ]
+      ],
+      "t": "Air Duel (Japan, M72 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "rtype2": {
       "parent": null,
@@ -6957,7 +7164,10 @@
           "n": "rt2_b-3a-.ic9",
           "c": "8ad303aa"
         }
-      ]
+      ],
+      "t": "R-Type II (World)",
+      "y": "1989",
+      "m": "Irem"
     },
     "rtype2j": {
       "parent": "rtype2",
@@ -7058,7 +7268,10 @@
           "n": "rt2_b-3a-.ic9",
           "c": "8ad303aa"
         }
-      ]
+      ],
+      "t": "R-Type II (Japan)",
+      "y": "1989",
+      "m": "Irem"
     },
     "rtype2jc": {
       "parent": "rtype2",
@@ -7159,7 +7372,10 @@
           "n": "rt2_b-3a-.ic9",
           "c": "8ad303aa"
         }
-      ]
+      ],
+      "t": "R-Type II (Japan, revision C)",
+      "y": "1989",
+      "m": "Irem"
     },
     "rtype2m82b": {
       "parent": "rtype2",
@@ -7236,7 +7452,10 @@
           "n": "rt2_vo.ic12",
           "c": "637172d5"
         }
-      ]
+      ],
+      "t": "R-Type II (Japan, bootleg M82 conversion)",
+      "y": "1997",
+      "m": "bootleg"
     },
     "hharry": {
       "parent": null,
@@ -7321,7 +7540,10 @@
           "n": "gen=81=_a-7d-a.ic48",
           "c": "92fe9eff"
         }
-      ]
+      ],
+      "t": "Hammerin' Harry (World, M81 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "hharryu": {
       "parent": "hharry",
@@ -7406,7 +7628,10 @@
           "n": "gen=84=_c-3a.ic8",
           "c": "c1e19913"
         }
-      ]
+      ],
+      "t": "Hammerin' Harry (US, M84 hardware)",
+      "y": "1990",
+      "m": "Irem America"
     },
     "hharryb": {
       "parent": "hharry",
@@ -7479,7 +7704,10 @@
           "n": "a-pal16l8.bin",
           "c": "1358c513"
         }
-      ]
+      ],
+      "t": "Hammerin' Harry (World, M84 hardware bootleg)",
+      "y": "1990",
+      "m": "bootleg"
     },
     "dkgensan": {
       "parent": "hharry",
@@ -7564,7 +7792,10 @@
           "n": "gen=84=_c-3a.ic8",
           "c": "c1e19913"
         }
-      ]
+      ],
+      "t": "Daiku no Gensan (Japan, M84 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "dkgensanm72": {
       "parent": "hharry",
@@ -7657,7 +7888,10 @@
           "n": "gen=m72=c-3f-b.ic13",
           "c": "028932a4"
         }
-      ]
+      ],
+      "t": "Daiku no Gensan (Japan, M72 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "dkgensanm82": {
       "parent": "hharry",
@@ -7750,7 +7984,10 @@
           "n": "gen=m72=c-3f-b.ic23",
           "c": "028932a4"
         }
-      ]
+      ],
+      "t": "Daiku no Gensan (Japan, M82 hardware)",
+      "y": "1990",
+      "m": "Irem"
     },
     "ltswords": {
       "parent": null,
@@ -7827,7 +8064,10 @@
           "n": "ken_b-3a-.ic9",
           "c": "ad1a7942"
         }
-      ]
+      ],
+      "t": "Lightning Swords (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "kengo": {
       "parent": "ltswords",
@@ -7904,7 +8144,10 @@
           "n": "ken_b-3a-.ic9",
           "c": "ad1a7942"
         }
-      ]
+      ],
+      "t": "Ken-Go (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "kengoj": {
       "parent": "ltswords",
@@ -7981,7 +8224,10 @@
           "n": "ken_b-3a-.ic9",
           "c": "ad1a7942"
         }
-      ]
+      ],
+      "t": "Ken-Go (Japan)",
+      "y": "1991",
+      "m": "Irem"
     },
     "cosmccop": {
       "parent": null,
@@ -8058,7 +8304,10 @@
           "n": "ken_b-3a-.ic9",
           "c": "ad1a7942"
         }
-      ]
+      ],
+      "t": "Cosmic Cop (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "gallopm72": {
       "parent": "cosmccop",
@@ -8155,7 +8404,10 @@
           "n": "cc_c-3f-.ic13",
           "c": "16ca7c50"
         }
-      ]
+      ],
+      "t": "Gallop - Armed Police Unit (Japan, M72 hardware)",
+      "y": "1991",
+      "m": "Irem"
     },
     "gallop": {
       "parent": "cosmccop",
@@ -8232,7 +8484,10 @@
           "n": "ken_b-3a-.ic9",
           "c": "ad1a7942"
         }
-      ]
+      ],
+      "t": "Gallop - Armed Police Unit (Japan, M84 hardware)",
+      "y": "1991",
+      "m": "Irem"
     },
     "loht": {
       "parent": null,
@@ -8329,7 +8584,10 @@
           "n": "tom-c-3f.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (World)",
+      "y": "1989",
+      "m": "Irem"
     },
     "lohtj": {
       "parent": "loht",
@@ -8426,7 +8684,10 @@
           "n": "tom-c-3f.ic13",
           "c": "2d774e1e"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (Japan)",
+      "y": "1989",
+      "m": "Irem"
     },
     "lohtb": {
       "parent": "loht",
@@ -8519,7 +8780,10 @@
           "n": "gal16v8-25qp.ic3",
           "c": "6acdfafb"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (Playmark unprotected bootleg)",
+      "y": "1989",
+      "m": "bootleg (Playmark)"
     },
     "lohtb2": {
       "parent": "loht",
@@ -8628,7 +8892,10 @@
           "n": "loht-a26.bin",
           "c": "ac901e17"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (Japan, bootleg with i8751)",
+      "y": "1989",
+      "m": "bootleg"
     },
     "lohtb3": {
       "parent": "loht",
@@ -8729,7 +8996,10 @@
           "n": "c8751h.bin",
           "c": "9c9545f1"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (World, bootleg with i8751)",
+      "y": "1997",
+      "m": "bootleg"
     },
     "loht_ms": {
       "parent": "loht",
@@ -8846,7 +9116,10 @@
           "n": "51_p0503_pal16r6.ic46",
           "c": "07eb86d2"
         }
-      ]
+      ],
+      "t": "Legend of Hero Tonma (Gaelco bootleg, Modular System)",
+      "y": "1989",
+      "m": "bootleg (Gaelco / Ervisa)"
     },
     "poundfor": {
       "parent": null,
@@ -8919,7 +9192,10 @@
           "n": "m85_b-1a-.ic1",
           "c": "3cf26744"
         }
-      ]
+      ],
+      "t": "Pound for Pound (World)",
+      "y": "1990",
+      "m": "Irem"
     },
     "poundforj": {
       "parent": "poundfor",
@@ -8992,7 +9268,10 @@
           "n": "m85_b-1a-.ic1",
           "c": "3cf26744"
         }
-      ]
+      ],
+      "t": "Pound for Pound (Japan)",
+      "y": "1990",
+      "m": "Irem"
     },
     "poundforu": {
       "parent": "poundfor",
@@ -9065,7 +9344,10 @@
           "n": "m85_b-1a-.ic1",
           "c": "3cf26744"
         }
-      ]
+      ],
+      "t": "Pound for Pound (US)",
+      "y": "1990",
+      "m": "Irem America"
     },
     "majtitle": {
       "parent": null,
@@ -9158,7 +9440,10 @@
           "n": "mt_a-7d-.ic43",
           "c": "d7ec1cc6"
         }
-      ]
+      ],
+      "t": "Major Title (World)",
+      "y": "1990",
+      "m": "Irem"
     },
     "majtitlej": {
       "parent": "majtitle",
@@ -9251,7 +9536,10 @@
           "n": "mt_b-3q-.ic23",
           "c": "8c864543"
         }
-      ]
+      ],
+      "t": "Major Title (Japan)",
+      "y": "1990",
+      "m": "Irem"
     },
     "hasamu": {
       "parent": null,
@@ -9284,7 +9572,10 @@
           "n": "hasc-c3.ic69",
           "c": "6cfe0d39"
         }
-      ]
+      ],
+      "t": "Hasamu (Japan)",
+      "y": "1991",
+      "m": "Irem"
     },
     "dynablst": {
       "parent": null,
@@ -9321,7 +9612,10 @@
           "n": "bbm-v0.ic20",
           "c": "0fa803fe"
         }
-      ]
+      ],
+      "t": "Dynablaster / Bomber Man",
+      "y": "1991",
+      "m": "Irem (licensed from Hudson Soft)"
     },
     "bombrman": {
       "parent": "dynablst",
@@ -9358,7 +9652,10 @@
           "n": "bbm-v0.ic20",
           "c": "0fa803fe"
         }
-      ]
+      ],
+      "t": "Bomber Man (Japan)",
+      "y": "1991",
+      "m": "Irem (licensed from Hudson Soft)"
     },
     "atompunk": {
       "parent": "dynablst",
@@ -9395,7 +9692,10 @@
           "n": "bbm-v0.20",
           "c": "0fa803fe"
         }
-      ]
+      ],
+      "t": "Atomic Punk (US)",
+      "y": "1991",
+      "m": "Irem America (licensed from Hudson Soft)"
     },
     "bbmanw": {
       "parent": null,
@@ -9432,7 +9732,10 @@
           "n": "bbm2-v0.ic30",
           "c": "4ad889ed"
         }
-      ]
+      ],
+      "t": "Bomber Man World / New Dyna Blaster - Global Quest",
+      "y": "1992",
+      "m": "Irem"
     },
     "bbmanwj": {
       "parent": "bbmanw",
@@ -9469,7 +9772,10 @@
           "n": "bbm2-v0-b.ic30",
           "c": "0ae655ff"
         }
-      ]
+      ],
+      "t": "Bomber Man World (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "bbmanwja": {
       "parent": "bbmanw",
@@ -9506,7 +9812,10 @@
           "n": "bbm2-v0-b.ic30",
           "c": "0ae655ff"
         }
-      ]
+      ],
+      "t": "Bomber Man World (Japan, revised sound hardware)",
+      "y": "1992",
+      "m": "Irem"
     },
     "newapunk": {
       "parent": "bbmanw",
@@ -9543,7 +9852,10 @@
           "n": "bbm2-v0.ic30",
           "c": "4ad889ed"
         }
-      ]
+      ],
+      "t": "New Atomic Punk - Global Quest (US)",
+      "y": "1992",
+      "m": "Irem America"
     },
     "quizf1": {
       "parent": null,
@@ -9588,7 +9900,10 @@
           "n": "qf1-l1-.ic80",
           "c": "3132c144"
         }
-      ]
+      ],
+      "t": "Quiz F1 1-2 Finish (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "riskchal": {
       "parent": null,
@@ -9625,7 +9940,10 @@
           "n": "rc_v0.ic30",
           "c": "cddac360"
         }
-      ]
+      ],
+      "t": "Risky Challenge",
+      "y": "1993",
+      "m": "Irem"
     },
     "gussun": {
       "parent": "riskchal",
@@ -9662,7 +9980,10 @@
           "n": "rc_v0.ic30",
           "c": "cddac360"
         }
-      ]
+      ],
+      "t": "Gussun Oyoyo (Japan)",
+      "y": "1993",
+      "m": "Irem"
     },
     "matchit2": {
       "parent": null,
@@ -9695,7 +10016,10 @@
           "n": "sis2_c3.ic84",
           "c": "876d5fdb"
         }
-      ]
+      ],
+      "t": "Match It II",
+      "y": "1993",
+      "m": "Tamtex"
     },
     "shisen2": {
       "parent": "matchit2",
@@ -9728,7 +10052,10 @@
           "n": "sis2_c3.ic84",
           "c": "876d5fdb"
         }
-      ]
+      ],
+      "t": "Shisensho II",
+      "y": "1993",
+      "m": "Tamtex"
     },
     "dicegame": {
       "parent": null,
@@ -9765,7 +10092,10 @@
           "n": "dice-v0.ic20",
           "c": "04dc9196"
         }
-      ]
+      ],
+      "t": "Dice - The Dice Game!",
+      "y": "1991",
+      "m": "bootleg (Tuning)"
     },
     "hook": {
       "parent": null,
@@ -9850,7 +10180,10 @@
           "n": "m92_d-3p-.ic29",
           "c": "3f336904"
         }
-      ]
+      ],
+      "t": "Hook (World)",
+      "y": "1992",
+      "m": "Irem"
     },
     "hooku": {
       "parent": "hook",
@@ -9935,7 +10268,10 @@
           "n": "m92_d-3p-.ic29",
           "c": "3f336904"
         }
-      ]
+      ],
+      "t": "Hook (US)",
+      "y": "1992",
+      "m": "Irem America"
     },
     "hookj": {
       "parent": "hook",
@@ -10020,7 +10356,10 @@
           "n": "m92_d-3p-.ic29",
           "c": "3f336904"
         }
-      ]
+      ],
+      "t": "Hook (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "ppan": {
       "parent": "hook",
@@ -10085,7 +10424,10 @@
           "n": "3.u122",
           "c": "d0d37028"
         }
-      ]
+      ],
+      "t": "Peter Pan (bootleg of Hook)",
+      "y": "1992",
+      "m": "bootleg"
     },
     "inthunt": {
       "parent": null,
@@ -10174,7 +10516,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "In The Hunt (World)",
+      "y": "1993",
+      "m": "Irem"
     },
     "inthuntu": {
       "parent": "inthunt",
@@ -10263,7 +10608,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "In The Hunt (US)",
+      "y": "1993",
+      "m": "Irem America"
     },
     "kaiteids": {
       "parent": "inthunt",
@@ -10352,7 +10700,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Kaitei Daisensou (Japan)",
+      "y": "1993",
+      "m": "Irem"
     },
     "inthuntk": {
       "parent": "inthunt",
@@ -10441,7 +10792,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "In The Hunt (Korea?)",
+      "y": "1993",
+      "m": "Irem"
     },
     "rtypeleo": {
       "parent": null,
@@ -10526,7 +10880,10 @@
           "n": "m92_c-7h-c.ic43",
           "c": "ebea28fe"
         }
-      ]
+      ],
+      "t": "R-Type Leo (World)",
+      "y": "1992",
+      "m": "Irem"
     },
     "rtypeleoj": {
       "parent": "rtypeleo",
@@ -10611,7 +10968,10 @@
           "n": "m92_c-7h-c.ic43",
           "c": "ebea28fe"
         }
-      ]
+      ],
+      "t": "R-Type Leo (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "bmaster": {
       "parent": null,
@@ -10696,7 +11056,10 @@
           "n": "m92_b-7h-a.ic43",
           "c": "29481115"
         }
-      ]
+      ],
+      "t": "Blade Master (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "crossbld": {
       "parent": "bmaster",
@@ -10781,7 +11144,10 @@
           "n": "m92_d-3p-.ic29",
           "c": "3f336904"
         }
-      ]
+      ],
+      "t": "Cross Blades! (Japan)",
+      "y": "1991",
+      "m": "Irem"
     },
     "mysticri": {
       "parent": null,
@@ -10866,7 +11232,10 @@
           "n": "m92_b-7h-a.ic43",
           "c": "29481115"
         }
-      ]
+      ],
+      "t": "Mystic Riders (World)",
+      "y": "1992",
+      "m": "Irem"
     },
     "gunhohki": {
       "parent": "mysticri",
@@ -10951,7 +11320,10 @@
           "n": "m92_b-7h-a.ic43",
           "c": "29481115"
         }
-      ]
+      ],
+      "t": "Mahou Keibitai Gun Hohki (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "mysticrib": {
       "parent": "mysticri",
@@ -11016,7 +11388,10 @@
           "n": "mr-da.bin",
           "c": "1a11fc59"
         }
-      ]
+      ],
+      "t": "Mystic Riders (bootleg?)",
+      "y": "1992",
+      "m": "Irem"
     },
     "gunforce": {
       "parent": null,
@@ -11101,7 +11476,10 @@
           "n": "m92_b-7h-.ic43",
           "c": "5de0795b"
         }
-      ]
+      ],
+      "t": "Gunforce - Battle Fire Engulfed Terror Island (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "gunforcej": {
       "parent": "gunforce",
@@ -11186,7 +11564,10 @@
           "n": "m92_b-7h-.ic43",
           "c": "5de0795b"
         }
-      ]
+      ],
+      "t": "Gunforce - Battle Fire Engulfed Terror Island (Japan)",
+      "y": "1991",
+      "m": "Irem"
     },
     "gunforceu": {
       "parent": "gunforce",
@@ -11271,7 +11652,10 @@
           "n": "m92_b-7h-.ic43",
           "c": "5de0795b"
         }
-      ]
+      ],
+      "t": "Gunforce - Battle Fire Engulfed Terror Island (US)",
+      "y": "1991",
+      "m": "Irem America"
     },
     "uccops": {
       "parent": null,
@@ -11356,7 +11740,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Undercover Cops (World)",
+      "y": "1992",
+      "m": "Irem"
     },
     "uccopsu": {
       "parent": "uccops",
@@ -11441,7 +11828,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Undercover Cops (US)",
+      "y": "1992",
+      "m": "Irem"
     },
     "uccopsj": {
       "parent": "uccops",
@@ -11526,7 +11916,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Undercover Cops (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "uccopsar": {
       "parent": "uccops",
@@ -11611,7 +12004,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Undercover Cops - Alpha Renewal Version (World)",
+      "y": "1992",
+      "m": "Irem"
     },
     "uccopsaru": {
       "parent": "uccops",
@@ -11696,7 +12092,10 @@
           "n": "m92_e-4k-.ic29",
           "c": "506a0e20"
         }
-      ]
+      ],
+      "t": "Undercover Cops - Alpha Renewal Version (US)",
+      "y": "1992",
+      "m": "Irem America"
     },
     "gunforc2": {
       "parent": null,
@@ -11785,7 +12184,10 @@
           "n": "m92_b-7j-a.ic41",
           "c": "09f57872"
         }
-      ]
+      ],
+      "t": "Gun Force II (US)",
+      "y": "1994",
+      "m": "Irem"
     },
     "geostorm": {
       "parent": "gunforc2",
@@ -11874,7 +12276,10 @@
           "n": "m92_b-7j-a.ic41",
           "c": "09f57872"
         }
-      ]
+      ],
+      "t": "Geo Storm (Japan, 014 custom sound CPU)",
+      "y": "1994",
+      "m": "Irem"
     },
     "nbbatman": {
       "parent": null,
@@ -11959,7 +12364,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Bat Man (World)",
+      "y": "1993",
+      "m": "Irem"
     },
     "nbbatmanu": {
       "parent": "nbbatman",
@@ -12044,7 +12452,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Bat Man (US)",
+      "y": "1993",
+      "m": "Irem America"
     },
     "leaguemn": {
       "parent": "nbbatman",
@@ -12129,7 +12540,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Yakyuu Kakutou League-Man (Japan, set 1)",
+      "y": "1993",
+      "m": "Irem"
     },
     "leaguemna": {
       "parent": "nbbatman",
@@ -12230,7 +12644,10 @@
           "n": "m92_z-2l-.ic16",
           "c": "a09df0ee"
         }
-      ]
+      ],
+      "t": "Yakyuu Kakutou League-Man (Japan, set 2)",
+      "y": "1993",
+      "m": "Irem"
     },
     "lethalth": {
       "parent": null,
@@ -12315,7 +12732,10 @@
           "n": "m92_d-3p-.ic29",
           "c": "3f336904"
         }
-      ]
+      ],
+      "t": "Lethal Thunder (World)",
+      "y": "1991",
+      "m": "Irem"
     },
     "thndblst": {
       "parent": "lethalth",
@@ -12400,7 +12820,10 @@
           "n": "m92_c-7h-c.ic43",
           "c": "ebea28fe"
         }
-      ]
+      ],
+      "t": "Thunder Blaster (Japan)",
+      "y": "1991",
+      "m": "Irem"
     },
     "dsoccr94j": {
       "parent": "dsoccr94",
@@ -12493,7 +12916,10 @@
           "n": "m92_a-9j-.ic51",
           "c": "92d477cf"
         }
-      ]
+      ],
+      "t": "Dream Soccer '94 (Japan, M92 hardware)",
+      "y": "1994",
+      "m": "Irem"
     },
     "ssoldier": {
       "parent": null,
@@ -12586,7 +13012,10 @@
           "n": "m92_a-9j-.ic51",
           "c": "92d477cf"
         }
-      ]
+      ],
+      "t": "Superior Soldiers (US)",
+      "y": "1993",
+      "m": "Irem America"
     },
     "psoldier": {
       "parent": "ssoldier",
@@ -12679,7 +13108,10 @@
           "n": "m92_a-9j-.ic51",
           "c": "92d477cf"
         }
-      ]
+      ],
+      "t": "Perfect Soldiers (Japan)",
+      "y": "1993",
+      "m": "Irem"
     },
     "majtitl2": {
       "parent": null,
@@ -12768,7 +13200,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Major Title 2 (World, set 1)",
+      "y": "1992",
+      "m": "Irem"
     },
     "majtitl2b": {
       "parent": "majtitl2",
@@ -12857,7 +13292,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Major Title 2 (World, set 2)",
+      "y": "1992",
+      "m": "Irem"
     },
     "majtitl2a": {
       "parent": "majtitl2",
@@ -12946,7 +13384,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Major Title 2 (World, set 1, alt sound CPU)",
+      "y": "1992",
+      "m": "Irem"
     },
     "majtitl2j": {
       "parent": "majtitl2",
@@ -13035,7 +13476,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "Major Title 2 (Japan)",
+      "y": "1992",
+      "m": "Irem"
     },
     "skingame": {
       "parent": "majtitl2",
@@ -13124,7 +13568,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "The Irem Skins Game (US set 1)",
+      "y": "1992",
+      "m": "Irem America"
     },
     "skingame2": {
       "parent": "majtitl2",
@@ -13213,7 +13660,10 @@
           "n": "m92_b-7h-d.ic47",
           "c": "59d86225"
         }
-      ]
+      ],
+      "t": "The Irem Skins Game (US set 2)",
+      "y": "1992",
+      "m": "Irem America"
     },
     "nbbatmano": {
       "parent": "nbbatman",
@@ -13226,7 +13676,10 @@
           "n": "a1_-l0o-c.ic31",
           "c": "17da7b70"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (One Key Edition, Hack)",
+      "y": "2020",
+      "m": "hack"
     },
     "nbbatmx2": {
       "parent": "nbbatman",
@@ -13239,7 +13692,10 @@
           "n": "nbx2_-l0-c.ic31",
           "c": "353c90e9"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (X2, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "nbbatmbh": {
       "parent": "nbbatman",
@@ -13252,7 +13708,10 @@
           "n": "nbbh_-l0-a.ic31",
           "c": "0183e06b"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (Transform, Hack)",
+      "y": "2016",
+      "m": "hack"
     },
     "nbbat1v2": {
       "parent": "nbbatman",
@@ -13265,7 +13724,10 @@
           "n": "nb1v2_-l0-c.ic31",
           "c": "7ac5c39e"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (1v2, Hack)",
+      "y": "2020",
+      "m": "hack"
     },
     "nbbat1v4": {
       "parent": "nbbatman",
@@ -13278,7 +13740,10 @@
           "n": "nb1v4_-l0-c.ic31",
           "c": "e54a6e81"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (1v4, Hack)",
+      "y": "2020",
+      "m": "hack"
     },
     "nbbat1v8": {
       "parent": "nbbatman",
@@ -13291,7 +13756,10 @@
           "n": "nb1v8_-l0-c.ic31",
           "c": "ae7bafa9"
         }
-      ]
+      ],
+      "t": "Ninja Baseball Batman (1v8, Hack)",
+      "y": "2020",
+      "m": "hack"
     },
     "hookxr": {
       "parent": "hook",
@@ -13304,7 +13772,10 @@
           "n": "hkxr_-l0-c.ic38",
           "c": "8a1e8688"
         }
-      ]
+      ],
+      "t": "Hook (Xin Er, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "hookdw": {
       "parent": "hook",
@@ -13317,7 +13788,10 @@
           "n": "hkdw_-l0-c.ic38",
           "c": "caae5586"
         }
-      ]
+      ],
+      "t": "Hook (Warriors, Hack)",
+      "y": "2016",
+      "m": "hack"
     },
     "hook1v4": {
       "parent": "hook",
@@ -13330,7 +13804,10 @@
           "n": "hk1v4_-l0-g.ic38",
           "c": "f3efc301"
         }
-      ]
+      ],
+      "t": "Hook (1v4, Hack)",
+      "y": "2016",
+      "m": "hack"
     },
     "hookx2": {
       "parent": "hook",
@@ -13359,7 +13836,10 @@
           "n": "hook_-sl0-.ic28",
           "c": "10fd9676"
         }
-      ]
+      ],
+      "t": "Hook (X2, Hack)",
+      "y": "2018",
+      "m": "hack"
     },
     "hookhd": {
       "parent": "hook",
@@ -13372,7 +13852,10 @@
           "n": "hkhd_-l0-d.ic38",
           "c": "2ef8ec74"
         }
-      ]
+      ],
+      "t": "Hook (Pirate Wars, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookhd2": {
       "parent": "hook",
@@ -13385,7 +13868,10 @@
           "n": "hkhd2_-l0-d.ic38",
           "c": "f3fede71"
         }
-      ]
+      ],
+      "t": "Hook (Pirate Wars II, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookpj": {
       "parent": "hook",
@@ -13398,7 +13884,10 @@
           "n": "hkpj_-l0-d.ic38",
           "c": "bbb93f53"
         }
-      ]
+      ],
+      "t": "Hook (POK KAI, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookpls": {
       "parent": "hook",
@@ -13411,7 +13900,10 @@
           "n": "hkpls_-l0-d.ic38",
           "c": "5d6cf1af"
         }
-      ]
+      ],
+      "t": "Hook (Plus, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookbo": {
       "parent": "hook",
@@ -13424,7 +13916,10 @@
           "n": "hkbo_-l0-d.ic38",
           "c": "1c29754f"
         }
-      ]
+      ],
+      "t": "Hook (Gai Gai, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookdszz": {
       "parent": "hook",
@@ -13437,7 +13932,10 @@
           "n": "hkdszz_-l0-d.ic38",
           "c": "517fff64"
         }
-      ]
+      ],
+      "t": "Hook (Summit War, Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "hook6h": {
       "parent": "hook",
@@ -13450,7 +13948,10 @@
           "n": "hk6h_-l0-d.ic38",
           "c": "5ea41729"
         }
-      ]
+      ],
+      "t": "Hook (6th Emperor, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "hookgs": {
       "parent": "hook",
@@ -13463,7 +13964,10 @@
           "n": "hkgs_-l0-d.ic38",
           "c": "94b65fc4"
         }
-      ]
+      ],
+      "t": "Hook (The Expendables, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "hookgs2": {
       "parent": "hook",
@@ -13476,7 +13980,10 @@
           "n": "hkgs2_-l0-d.ic38",
           "c": "2a77b0a6"
         }
-      ]
+      ],
+      "t": "Hook (The Expendables II, Hack)",
+      "y": "2023",
+      "m": "hack"
     },
     "hooknx": {
       "parent": "hook",
@@ -13489,7 +13996,10 @@
           "n": "hknx_-l0-d.ic38",
           "c": "3aa4f997"
         }
-      ]
+      ],
+      "t": "Hook (Hook's Reversal, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "hooknx2": {
       "parent": "hook",
@@ -13502,7 +14012,10 @@
           "n": "hknx2_-l0-d.ic38",
           "c": "28bb5acf"
         }
-      ]
+      ],
+      "t": "Hook (Hook's Reversal II, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "hookxx": {
       "parent": "hook",
@@ -13515,7 +14028,10 @@
           "n": "hkxx_-l0-d.ic38",
           "c": "106d883a"
         }
-      ]
+      ],
+      "t": "Hook (XX, Hack)",
+      "y": "2025",
+      "m": "hack"
     },
     "hooksw": {
       "parent": "hook",
@@ -13528,7 +14044,10 @@
           "n": "hksw_-l0-d.ic38",
           "c": "56446fb8"
         }
-      ]
+      ],
+      "t": "Hook (SW, Hack)",
+      "y": "2022",
+      "m": "hack"
     },
     "hooksw2": {
       "parent": "hook",
@@ -13541,7 +14060,10 @@
           "n": "hksw2_-l0-d.ic38",
           "c": "6f74bf82"
         }
-      ]
+      ],
+      "t": "Hook (SW2, Hack)",
+      "y": "2025",
+      "m": "hack"
     },
     "hookjy": {
       "parent": "hook",
@@ -13554,7 +14076,10 @@
           "n": "hkjy_-l0-d.ic38",
           "c": "ece996a6"
         }
-      ]
+      ],
+      "t": "Hook (Elite, Hack)",
+      "y": "2024",
+      "m": "hack"
     },
     "hookjyds": {
       "parent": "hook",
@@ -13567,7 +14092,10 @@
           "n": "hkjyds_-l0-d.ic38",
           "c": "69891198"
         }
-      ]
+      ],
+      "t": "Hook (Elite Competition, Hack)",
+      "y": "2025",
+      "m": "hack"
     },
     "hookdj": {
       "parent": "hook",
@@ -13580,7 +14108,10 @@
           "n": "hkdj_-l0-d.ic38",
           "c": "5576e39e"
         }
-      ]
+      ],
+      "t": "Hook (Item, Hack)",
+      "y": "2025",
+      "m": "hack"
     },
     "travrusa": {
       "parent": null,
@@ -13629,7 +14160,10 @@
           "n": "zr1-10.k3",
           "c": "6fcc9fdb"
         }
-      ]
+      ],
+      "t": "Traverse USA / Zippy Race",
+      "y": "1983",
+      "m": "Irem"
     },
     "travrusab": {
       "parent": "travrusa",
@@ -13690,7 +14224,10 @@
           "n": "tbp24s10.3",
           "c": "76062638"
         }
-      ]
+      ],
+      "t": "Traverse USA (bootleg, set 1)",
+      "y": "1983",
+      "m": "bootleg (I.P.)"
     },
     "travrusab2": {
       "parent": "travrusa",
@@ -13751,7 +14288,10 @@
           "n": "mb7052.3h2",
           "c": "76062638"
         }
-      ]
+      ],
+      "t": "Traverse USA (bootleg, set 2)",
+      "y": "1983",
+      "m": "bootleg"
     },
     "motorace": {
       "parent": "travrusa",
@@ -13800,7 +14340,10 @@
           "n": "mr6.3k",
           "c": "518889a0"
         }
-      ]
+      ],
+      "t": "MotoRace USA",
+      "y": "1983",
+      "m": "Irem (Williams license)"
     },
     "mototour": {
       "parent": "travrusa",
@@ -13861,7 +14404,10 @@
           "n": "prom2.h2",
           "c": "76062638"
         }
-      ]
+      ],
+      "t": "MotoTour / Zippy Race (Tecfri license)",
+      "y": "1983",
+      "m": "Irem (Tecfri license)"
     },
     "mototoura": {
       "parent": "travrusa",
@@ -13922,7 +14468,10 @@
           "n": "prom2.h2",
           "c": "76062638"
         }
-      ]
+      ],
+      "t": "MotoTour / Zippy Race (Assa version of Tecfri license)",
+      "y": "1983",
+      "m": "Irem (Tecfri license / Assa)"
     },
     "shtrider": {
       "parent": null,
@@ -13987,7 +14536,10 @@
           "n": "3.bpr",
           "c": "5db47092"
         }
-      ]
+      ],
+      "t": "Shot Rider",
+      "y": "1985",
+      "m": "Seibu Kaihatsu"
     },
     "shtridera": {
       "parent": "shtrider",
@@ -14052,7 +14604,10 @@
           "n": "3.bpr",
           "c": "5db47092"
         }
-      ]
+      ],
+      "t": "Shot Rider (Sigma license)",
+      "y": "1984",
+      "m": "Seibu Kaihatsu (Sigma license)"
     },
     "shtriderb": {
       "parent": "shtrider",
@@ -14113,7 +14668,10 @@
           "n": "prom2.12.h2",
           "c": "5db47092"
         }
-      ]
+      ],
+      "t": "Shot Rider (bootleg)",
+      "y": "1985",
+      "m": "bootleg"
     },
     "vigilant": {
       "parent": null,
@@ -14186,7 +14744,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (World, Rev E)",
+      "y": "1988",
+      "m": "Irem"
     },
     "vigilanta": {
       "parent": "vigilant",
@@ -14255,7 +14816,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (World, Rev A)",
+      "y": "1988",
+      "m": "Irem"
     },
     "vigilantb": {
       "parent": "vigilant",
@@ -14324,7 +14888,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (US, Rev B)",
+      "y": "1988",
+      "m": "Irem (Data East license)"
     },
     "vigilantc": {
       "parent": "vigilant",
@@ -14393,7 +14960,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (World, Rev C)",
+      "y": "1988",
+      "m": "Irem"
     },
     "vigilanto": {
       "parent": "vigilant",
@@ -14462,7 +15032,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (US)",
+      "y": "1988",
+      "m": "Irem (Data East license)"
     },
     "vigilantg": {
       "parent": "vigilant",
@@ -14535,7 +15108,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (US, Rev G)",
+      "y": "1988",
+      "m": "Irem (Data East license)"
     },
     "vigilantd": {
       "parent": "vigilant",
@@ -14604,7 +15180,10 @@
           "n": "tbp24s10_7a.ic52",
           "c": "c324835e"
         }
-      ]
+      ],
+      "t": "Vigilante (Japan, Rev D)",
+      "y": "1988",
+      "m": "Irem"
     },
     "vigilantbl": {
       "parent": "vigilant",
@@ -14705,7 +15284,10 @@
           "n": "v10_129c.bin",
           "c": "3f186bc8"
         }
-      ]
+      ],
+      "t": "Vigilante (bootleg)",
+      "y": "1988",
+      "m": "bootleg"
     },
     "kikcubic": {
       "parent": null,
@@ -14758,7 +15340,10 @@
           "n": "7s",
           "c": "face0cbb"
         }
-      ]
+      ],
+      "t": "Meikyu Jima (Japan)",
+      "y": "1988",
+      "m": "Irem"
     },
     "kikcubicb": {
       "parent": "kikcubic",
@@ -14819,7 +15404,10 @@
           "n": "7s",
           "c": "face0cbb"
         }
-      ]
+      ],
+      "t": "Kickle Cubele",
+      "y": "1988",
+      "m": "bootleg"
     },
     "buccanrs": {
       "parent": null,
@@ -14888,7 +15476,10 @@
           "n": "prom2.u99",
           "c": "e0aa8869"
         }
-      ]
+      ],
+      "t": "Buccaneers (set 1)",
+      "y": "1989",
+      "m": "Duintronic"
     },
     "buccanrsa": {
       "parent": "buccanrs",
@@ -14957,7 +15548,10 @@
           "n": "prom2.u99",
           "c": "e0aa8869"
         }
-      ]
+      ],
+      "t": "Buccaneers (set 2)",
+      "y": "1989",
+      "m": "Duintronic"
     },
     "buccanrsb": {
       "parent": "buccanrs",
@@ -15026,7 +15620,10 @@
           "n": "prom2.u99",
           "c": "e0aa8869"
         }
-      ]
+      ],
+      "t": "Buccaneers (set 3, harder)",
+      "y": "1989",
+      "m": "Duintronic"
     }
   }
 }
