@@ -80,9 +80,17 @@ What reaches the core, through `scripts/web_bridge.cpp` (appended to the SDL bur
 - `states.save/load(slot)` → `web_save_state` / `web_load_state`: `BurnStateSave/Load`
   of `/save/slot_N.fs`.
 - `start()` waits for `web_running` (the set loaded) or FBNeo's "error loading" line.
+- Input: `start()` passes `-joy` when `navigator.getGamepads()` holds a connected pad
+  (`fbneoArgs()`, `play.controller`). Without it, `GameInpAutoOne` binds player 1 to the
+  keyboard and player 2 to joystick 0, whose Start / Coin are keys only (`GamcMisc`); with
+  it, `MapJoystick` (`src/burner/sdl/input_sdl2.cpp`) binds player N to joystick N-1 through
+  SDL's game-controller layer — Coin = Back, Start = Start, fire 1–6 = A B X Y LB RB — and
+  player 1 has no keyboard. Pads are enumerated once, in `SDLinpInit`.
 - `destroy()` → `web_quit`: the loop ends and FBNeo exits the game its own way.
 
 ## Potential future mappings
 
 - Core config for sample rate, vsync, integer scaling (FBNeo's own config file).
 - Input remapping from the host (today input flows through the SDL2 event loop).
+- The AES pad's Select: `MapJoystick` has no `p1 select` case, so in AES mode the pad's
+  Select presses Coin (which the AES ignores) — a source patch would add it.

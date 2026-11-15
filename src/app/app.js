@@ -9,7 +9,10 @@
 // - Coming back with any suspend point shows them: the unsaved one, four slots, and
 //   "from the beginning". Y saves the unsaved point into a slot; Y on a saved one
 //   locks / unlocks or deletes it.
-// - In game, Select+Start or Escape opens the pause menu.
+// - In game, Select+Start or Escape opens the pause menu, with the four slots in it: an
+//   empty one saves the moment at once; a saved one opens Cargar (focused) · Guardar aquí ·
+//   Bloquear · Borrar.
+// - By touch: the hints are buttons (A, B, Y), and a long press on a card is Y.
 //
 // Which game: FBNeo boots a ROM set by its driver name (`mslug`), and the host hands
 // over bytes, not a name. The app recovers the driver from the CRC-32s inside the zip
@@ -123,7 +126,9 @@ export async function mount(target, host) {
     focus: 0,
     from: 'boot',
     picking: false,
-    pause: { items: [], focus: 0 },
+    // The pause menu: Continuar, the four slots (a row), Reiniciar, Volver al lanzador.
+    // focus: { kind: 'item' | 'slot', i }; col: the slot the row comes back to.
+    pause: { items: [], slots: [], focus: { kind: 'item', i: 0 }, col: 0 },
     sheet: null, // { slot, items, focus }
     confirm: null, // { title, text, yes, no, onYes, under, focus }
     toast: null,
@@ -164,8 +169,16 @@ export async function mount(target, host) {
 
   // ---- render ---------------------------------------------------------------------
 
+  // A hint with an action is also a button: tapping it does what the gamepad button
+  // would (on a phone the menus are tapped). One without is the gamepad's only.
   const hints = (pairs) =>
-    `<footer class="fbn-hints">${pairs.map(([k, t]) => `<span><kbd>${k}</kbd>${t}</span>`).join('')}</footer>`;
+    `<footer class="fbn-hints">${pairs
+      .map(([k, t, act]) =>
+        act
+          ? `<button class="hint" data-act="${act}"><kbd>${k}</kbd>${t}</button>`
+          : `<span class="is-pad"><kbd>${k}</kbd>${t}</span>`,
+      )
+      .join('')}</footer>`;
 
   const pointCard = (card, i) => {
     const focused = state.focus === i ? ' is-focused' : '';
@@ -189,14 +202,33 @@ export async function mount(target, host) {
   };
 
   const pointsHints = () => {
-    if (state.picking) return hints([['←→', 'hueco'], ['A', 'guardar aquí'], ['B', 'cancelar']]);
+    if (state.picking) return hints([['←→', 'hueco'], ['A', 'guardar aquí', 'accept'], ['B', 'cancelar', 'back']]);
     const card = cardAt(state.focus);
     const pairs = [['←→', 'elegir']];
-    if (card?.kind === 'start' || card?.info?.savedAt) pairs.push(['A', 'jugar']);
-    if (card?.kind === 'auto') pairs.push(['Y', 'guardar en un hueco']);
-    if (card?.kind === 'slot' && card.info.savedAt) pairs.push(['Y', 'opciones']);
-    pairs.push(['B', state.from === 'pause' ? 'volver' : 'salir']);
+    if (card?.kind === 'start' || card?.info?.savedAt) pairs.push(['A', 'jugar', 'accept']);
+    if (card?.kind === 'auto') pairs.push(['Y', 'guardar en un hueco', 'more']);
+    if (card?.kind === 'slot' && card.info.savedAt) pairs.push(['Y', 'opciones', 'more']);
+    pairs.push(['B', state.from === 'pause' ? 'volver' : 'salir', 'back']);
     return hints(pairs);
+  };
+
+  const slotCard = ({ info, img }, i, focused) => {
+    const empty = !info.savedAt;
+    return `<button class="slot${focused ? ' is-focused' : ''}${empty ? ' is-empty' : ''}${info.locked ? ' is-locked' : ''}" data-slot="${i}">
+      <span class="point-frame">${img ? `<img src="${img}" alt="">` : ''}${info.locked ? `<i class="point-lock">${LOCK}</i>` : ''}</span>
+      <span class="slot-label">${info.slot + 1}</span>
+      <span class="slot-date">${empty ? 'Vacío' : esc(when(info.savedAt))}</span>
+    </button>`;
+  };
+
+  const pauseHints = () => {
+    const f = state.pause.focus;
+    if (f.kind === 'slot') {
+      const saved = !!state.pause.slots[f.i]?.info.savedAt;
+      return hints([['←→', 'hueco'], ['A', saved ? 'opciones' : 'guardar aquí'], ['B', 'continuar']]);
+    }
+    // Gamepad-only: by touch, "Continuar" is the first item already.
+    return hints([['A', 'elegir'], ['B', 'continuar']]);
   };
 
   const render = () => {
@@ -235,11 +267,21 @@ export async function mount(target, host) {
         ${pointsHints()}
       </section>`;
     } else if (base === 'pause') {
-      html += `<section class="fbn-panel">
+      const P = state.pause;
+      const on = (kind, i) => s === 'pause' && P.focus.kind === kind && P.focus.i === i;
+      const item = (i) => {
+        const it = P.items[i];
+        return `<button class="item${on('item', i) ? ' is-focused' : ''}" data-item="${i}">${esc(it.label)}${it.hint ? `<small>${esc(it.hint)}</small>` : ''}</button>`;
+      };
+      html += `<section class="fbn-panel is-pause">
         <p class="kicker">${esc(host.game?.title ?? '')}</p>
         <h2>Pausa</h2>
-        ${state.pause.items.map((item, i) => `<button class="item${i === state.pause.focus && s === 'pause' ? ' is-focused' : ''}" data-item="${i}">${esc(item.label)}${item.hint ? `<small>${esc(item.hint)}</small>` : ''}</button>`).join('')}
-        ${hints([['A', 'elegir'], ['B', 'continuar']])}
+        ${item(0)}
+        <p class="slots-label">Puntos de suspensión</p>
+        <div class="slots">${P.slots.map((slot, i) => slotCard(slot, i, on('slot', i))).join('')}</div>
+        ${item(1)}
+        ${item(2)}
+        ${pauseHints()}
       </section>`;
     }
     if (s === 'sheet') {
@@ -247,6 +289,7 @@ export async function mount(target, host) {
       html += `<div class="fbn-layer"><section class="fbn-panel is-small">
         <h2>Punto ${sh.slot + 1}</h2>
         ${sh.items.map((item, i) => `<button class="item${item.danger ? ' is-danger' : ''}${i === sh.focus ? ' is-focused' : ''}" data-sheet="${i}" ${item.disabled ? 'disabled' : ''}>${esc(item.label)}${item.hint ? `<small>${esc(item.hint)}</small>` : ''}</button>`).join('')}
+        ${hints([['B', 'volver']])}
       </section></div>`;
     }
     if (s === 'confirm') {
@@ -323,21 +366,16 @@ export async function mount(target, host) {
     if (capture) frame = await play.snapshot().catch(() => null);
     play.pause(OWNER);
     state.pause = {
-      focus: 0,
+      focus: { kind: 'item', i: 0 },
+      col: state.pause.col ?? 0,
+      slots: [],
       items: [
         { label: 'Continuar', run: enterGame },
-        {
-          label: 'Puntos de suspensión',
-          hint: 'guarda este momento y elige dónde dejarlo',
-          run: async () => {
-            await suspend();
-            showPoints('pause');
-          },
-        },
         { label: 'Reiniciar', hint: 'reset de la máquina', run: restart },
         { label: 'Volver al lanzador', hint: 'se queda un punto de suspensión', run: leave },
       ],
     };
+    readPauseSlots();
     state.screen = 'pause';
     host.input.resume();
     render();
@@ -346,6 +384,126 @@ export async function mount(target, host) {
   const restart = async () => {
     enterGame();
     await play.restart();
+  };
+
+  // ---- save states in the pause menu ---------------------------------------------
+
+  const readPauseSlots = () => {
+    dropUrls();
+    state.pause.slots = play.states.list().map((info) => ({ info, img: blobUrl(info.thumbnail) }));
+  };
+
+  /** The moment the menu opened (its frame was taken then) into slot row position `i`. */
+  const saveIntoSlot = async (i) => {
+    const { info } = state.pause.slots[i];
+    await play.states.save(info.slot, { thumbnail: frame });
+    readPauseSlots();
+    toast(`Guardado en el hueco ${info.slot + 1}`);
+  };
+
+  const loadSlot = (slot) => {
+    state.sheet = null;
+    if (!play.states.load(slot)) {
+      state.screen = 'pause';
+      return toast('No se pudo cargar ese punto');
+    }
+    enterGame();
+  };
+
+  /** A saved slot's sheet, from the pause menu: Cargar first and focused. */
+  const openSlotSheet = (i) => {
+    const { info } = state.pause.slots[i];
+    const n = info.slot + 1;
+    const locked = info.locked;
+    state.sheet = {
+      under: 'pause',
+      slot: info.slot,
+      focus: 0,
+      items: [
+        { label: 'Cargar', hint: when(info.savedAt), run: () => loadSlot(info.slot) },
+        {
+          label: 'Guardar aquí',
+          disabled: locked,
+          hint: locked ? 'desbloquéalo antes' : 'sustituye lo que hay',
+          run: () => {
+            closeSheet();
+            ask({
+              title: `¿Sobrescribir el punto ${n}?`,
+              text: when(info.savedAt),
+              yes: 'Sobrescribir',
+              no: 'Cancelar',
+              onYes: () => saveIntoSlot(i),
+            });
+          },
+        },
+        {
+          label: locked ? 'Desbloquear' : 'Bloquear',
+          hint: locked ? 'se podrá sobrescribir y borrar' : 'que no se sobrescriba ni se borre',
+          run: async () => {
+            await play.states.lock(info.slot, !locked);
+            closeSheet();
+            readPauseSlots();
+            render();
+          },
+        },
+        {
+          label: 'Borrar',
+          danger: true,
+          disabled: locked,
+          hint: locked ? 'desbloquéalo antes' : null,
+          run: () => {
+            closeSheet();
+            ask({
+              title: `¿Borrar el punto ${n}?`,
+              text: 'No se puede deshacer.',
+              yes: 'Borrar',
+              no: 'Cancelar',
+              onYes: async () => {
+                await play.states.remove(info.slot);
+                readPauseSlots();
+                render();
+              },
+            });
+          },
+        },
+        { label: 'Cancelar', run: () => closeSheet() },
+      ],
+    };
+    state.screen = 'sheet';
+    render();
+  };
+
+  /** A slot chosen in the pause menu: an empty one saves at once, a saved one opens its sheet. */
+  const onSlot = async (i) => {
+    const slot = state.pause.slots[i];
+    if (!slot) return;
+    state.pause.focus = { kind: 'slot', i };
+    state.pause.col = i;
+    if (slot.info.savedAt) return openSlotSheet(i);
+    if (slot.info.locked) return toast('Ese hueco está bloqueado');
+    await saveIntoSlot(i);
+  };
+
+  /** Up / down between the rows, left / right along the slots. */
+  const PAUSE_ROWS = 4;
+  const onPause = async (action) => {
+    const P = state.pause;
+    const row = P.focus.kind === 'slot' ? 1 : P.focus.i === 0 ? 0 : P.focus.i + 1;
+    const at = (r) => (r === 1 ? { kind: 'slot', i: P.col } : { kind: 'item', i: r === 0 ? 0 : r - 1 });
+    if (action === 'up') P.focus = at((row + PAUSE_ROWS - 1) % PAUSE_ROWS);
+    else if (action === 'down') P.focus = at((row + 1) % PAUSE_ROWS);
+    else if ((action === 'left' || action === 'right') && P.focus.kind === 'slot') {
+      P.col = Math.max(0, Math.min(P.slots.length - 1, P.focus.i + (action === 'left' ? -1 : 1)));
+      P.focus = { kind: 'slot', i: P.col };
+    } else if (action === 'accept') {
+      if (P.focus.kind === 'slot') return onSlot(P.focus.i);
+      return P.items[P.focus.i].run();
+    } else if (action === 'more' && P.focus.kind === 'slot') {
+      if (P.slots[P.focus.i]?.info.savedAt) return openSlotSheet(P.focus.i);
+      return;
+    } else if (action === 'back' || action === 'menu') return enterGame();
+    else return;
+    render();
   };
 
   const playCard = async (card) => {
@@ -525,7 +683,7 @@ export async function mount(target, host) {
   };
 
   let busy = false;
-  const off = host.input.on(async (action) => {
+  const onAction = async (action) => {
     if (leaving || busy) return;
     busy = true;
     try {
@@ -533,7 +691,7 @@ export async function mount(target, host) {
       if (s === 'game') {
         if (action === 'menu') await openPause({ capture: true });
       } else if (s === 'points') await onPoints(action);
-      else if (s === 'pause') await onList(state.pause, action, enterGame);
+      else if (s === 'pause') await onPause(action);
       else if (s === 'sheet') await onList(state.sheet, action, closeSheet);
       else if (s === 'confirm') await onConfirm(action);
       else if (s === 'error' && (action === 'accept' || action === 'back')) await exit();
@@ -543,18 +701,38 @@ export async function mount(target, host) {
     } finally {
       busy = false;
     }
-  });
+  };
+  const off = host.input.on(onAction);
 
   // Pointer: hover (real movement only — a render replaces what is under a resting
   // cursor) focuses, click activates; the same paths as the pad.
   let lastPointer = '';
   const onPointer = async (event) => {
-    const el = event.target.closest('[data-card],[data-item],[data-sheet],[data-confirm],[data-exit]');
+    if (event.type === 'click' && longPressed) {
+      // The lift after a long press: the press already did its job.
+      longPressed = false;
+      return;
+    }
+    const el = event.target.closest('[data-card],[data-item],[data-slot],[data-sheet],[data-confirm],[data-exit],[data-act]');
     if (!el || leaving || busy) return;
+    if (el.dataset.act != null) {
+      if (event.type === 'click') await onAction(el.dataset.act);
+      return;
+    }
     if (event.type === 'pointermove') {
       const at = `${event.clientX},${event.clientY}`;
       if (at === lastPointer) return;
       lastPointer = at;
+      if (state.screen === 'pause' && (el.dataset.item != null || el.dataset.slot != null)) {
+        const focus = el.dataset.slot != null ? { kind: 'slot', i: +el.dataset.slot } : { kind: 'item', i: +el.dataset.item };
+        const P = state.pause;
+        if (P.focus.kind !== focus.kind || P.focus.i !== focus.i) {
+          P.focus = focus;
+          if (focus.kind === 'slot') P.col = focus.i;
+          render();
+        }
+        return;
+      }
       const key = el.dataset.card ?? el.dataset.item ?? el.dataset.sheet;
       if (key == null) return;
       const list = el.dataset.card != null ? state : el.dataset.item != null ? state.pause : state.sheet;
@@ -572,6 +750,7 @@ export async function mount(target, host) {
         return onPoints('accept');
       }
       if (el.dataset.item != null) await state.pause.items[+el.dataset.item].run();
+      else if (el.dataset.slot != null) await onSlot(+el.dataset.slot);
       else if (el.dataset.sheet != null) {
         const item = state.sheet.items[+el.dataset.sheet];
         if (!item.disabled) await item.run();
@@ -584,6 +763,45 @@ export async function mount(target, host) {
   overlay.addEventListener('click', onPointer);
   overlay.addEventListener('pointermove', onPointer);
 
+  // Touch: a long press on a card focuses it and does what Y does (save the unsaved point
+  // into a slot; a saved point's options) — a tap would play it.
+  const LONG_PRESS_MS = 500;
+  let longPressed = false;
+  let press = null;
+  const cancelPress = () => {
+    if (press) clearTimeout(press.timer);
+    press = null;
+  };
+  const onPressDown = (event) => {
+    cancelPress();
+    longPressed = false;
+    if (event.pointerType === 'mouse') return;
+    const el = event.target.closest('[data-card]');
+    if (!el || state.screen !== 'points') return;
+    const index = +el.dataset.card;
+    press = {
+      x: event.clientX,
+      y: event.clientY,
+      timer: setTimeout(async () => {
+        press = null;
+        longPressed = true;
+        if (leaving || busy || state.screen !== 'points') return;
+        state.focus = index;
+        render();
+        await onAction('more');
+      }, LONG_PRESS_MS),
+    };
+  };
+  const onPressMove = (event) => {
+    if (press && Math.hypot(event.clientX - press.x, event.clientY - press.y) > 12) cancelPress();
+  };
+  const noMenu = (event) => event.preventDefault();
+  overlay.addEventListener('pointerdown', onPressDown);
+  overlay.addEventListener('pointermove', onPressMove);
+  overlay.addEventListener('pointerup', cancelPress);
+  overlay.addEventListener('pointercancel', cancelPress);
+  overlay.addEventListener('contextmenu', noMenu);
+
   const handle = {
     async unmount() {
       destroyed = true;
@@ -592,6 +810,12 @@ export async function mount(target, host) {
       clearTimeout(toastTimer);
       overlay.removeEventListener('click', onPointer);
       overlay.removeEventListener('pointermove', onPointer);
+      cancelPress();
+      overlay.removeEventListener('pointerdown', onPressDown);
+      overlay.removeEventListener('pointermove', onPressMove);
+      overlay.removeEventListener('pointerup', cancelPress);
+      overlay.removeEventListener('pointercancel', cancelPress);
+      overlay.removeEventListener('contextmenu', noMenu);
       try {
         await play?.destroy();
       } catch {
