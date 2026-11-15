@@ -88,8 +88,9 @@ await handle.unmount();
 
 The same app as blastem-wasm's: suspend points the way the Nintendo Classic Mini does them
 (leaving keeps an unsaved point with its frame; coming back offers it, four slots and "from
-the beginning"), and a pause menu on Select + Start or Escape (*Continuar*, *Puntos de
-suspensión*, *Reiniciar*, *Volver al lanzador*). The host hands over bytes, not a driver
+the beginning"), and a pause menu on Select + Start or Escape (*Continuar*, the four save-state
+slots, *Reiniciar*, *Volver al lanzador*): an empty slot saves the moment at once, a saved one
+offers *Cargar* (first), *Guardar aquí*, *Bloquear* and *Borrar*. The host hands over bytes, not a driver
 name, so the app identifies the set by its contents (the datasets below, Neo Geo and Capcom
 first), rebuilds a `.neo` image, and falls back to `game.slug`.
 

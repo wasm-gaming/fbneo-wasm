@@ -89,6 +89,32 @@
 .item.is-danger.is-focused small { color: #450a0a; }
 .fbn-panel .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .fbn-panel .row .item { text-align: center; }
+/* the slots in the pause menu: a compact row of the same frames */
+.fbn-panel.is-pause { width: min(520px, 94vw); max-height: calc(100% - 24px); overflow-y: auto; scrollbar-width: none; }
+.slots-label { margin: 6px 0 0; font: 600 0.72rem var(--ui); letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+.slots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; padding: 4px 0 6px; }
+.slot { all: unset; box-sizing: border-box; display: grid; gap: 4px; min-width: 0; cursor: pointer; transition: transform 0.18s var(--ease); }
+.slot .point-frame { border-radius: 8px; }
+.slot.is-empty .point-frame { border-style: dashed; background: transparent; }
+.slot.is-focused { transform: translateY(-3px); }
+.slot.is-focused .point-frame { box-shadow: var(--ring), 0 18px 40px -20px #000; border-color: transparent; }
+.slot-label { font: 700 0.8rem var(--ui); text-align: center; }
+.slot-date { font: 500 0.68rem var(--ui); color: var(--muted); text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 420px) { .slots { gap: 7px; } .slot-date { font-size: 0.6rem; } }
+@media (max-height: 480px) {
+  .fbn-panel.is-pause { padding: 16px 20px; gap: 7px; }
+  .fbn-panel.is-pause .item { padding: 9px 14px; }
+  .fbn-panel.is-pause h2 { margin-bottom: 2px; }
+}
+/* A phone on its side: two columns — the entries left, the slots right — so nothing scrolls. */
+@media (max-height: 480px) and (min-width: 560px) {
+  .fbn-panel.is-pause { width: min(780px, 96vw); grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); column-gap: 22px; align-content: start; }
+  .fbn-panel.is-pause > * { grid-column: 1; }
+  .fbn-panel.is-pause > .slots-label { grid-column: 2; grid-row: 1; }
+  .fbn-panel.is-pause > .slots { grid-column: 2; grid-row: 2 / span 4; align-self: center; }
+  .fbn-panel.is-pause > .fbn-hints { grid-column: 1 / -1; }
+}
+
 /* A dialog sits on its own layer, above anything the screen under it positions (the
    character art on the slot cards is z-index 1), on a backdrop that hides that screen. */
 .fbn-layer {
