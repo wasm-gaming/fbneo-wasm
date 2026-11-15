@@ -111,6 +111,17 @@
 .fbn-hints span { display: inline-flex; align-items: center; gap: 7px; }
 .fbn-hints kbd { display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: rgb(255 255 255 / 0.12); color: var(--text); font: 700 0.68rem var(--ui); }
 .fbn-panel .fbn-hints { justify-content: flex-start; margin-top: 6px; }
+.fbn-hints .hint { display: inline-flex; align-items: center; gap: 7px; padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+.fbn-hints .hint:hover { color: var(--text); }
+.fbn-overlay button { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+/* Touch screens: the hints are the on-screen buttons — a finger-sized target, no gamepad glyph —
+   and the gamepad-only ones (←→, "A elegir") go. */
+@media (pointer: coarse) {
+  .fbn-hints { gap: 10px; }
+  .fbn-hints .is-pad { display: none; }
+  .fbn-hints kbd { display: none; }
+  .fbn-hints .hint { min-height: 44px; padding: 0 16px; border-radius: 22px; background: rgb(255 255 255 / 0.08); border: 1px solid var(--line); color: var(--text); font-weight: 600; }
+}
 
 .fbn-toast {
   position: absolute; left: 50%; bottom: calc(28px + var(--wg-safe-bottom, 0px)); transform: translateX(-50%); margin: 0;
