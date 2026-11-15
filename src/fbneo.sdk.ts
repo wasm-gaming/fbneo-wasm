@@ -180,6 +180,33 @@ export function neoGeoAesBios(entries: Array<{ crc: string }>): NeoGeoBiosChoice
   return null;
 }
 
+/** What plays player 1: the first gamepad, or the keyboard. */
+export type FbneoController = 'gamepad' | 'keyboard';
+
+/** The minimum of a Gamepad API entry {@link fbneoArgs} reads. */
+export interface FbneoGamepadLike {
+  readonly connected?: boolean;
+}
+
+/**
+ * FBNeo's command line, and who plays player 1.
+ *
+ * FBNeo binds each game input to **one** device. Without `-joy` (its default),
+ * player 1 is the keyboard and the first pad is player 2 — whose Start and Coin are
+ * keys only, so a pad's Start / Select reach nothing. With `-joy`, player N is pad
+ * N-1 through SDL's game-controller layer (directions, fire 1–6 = A B X Y LB RB,
+ * Coin = Back / Select, Start = Start) and player 1 has no keyboard. With `-joy` and
+ * no pad, nothing would play — so `-joy` goes in only when a pad is there at start
+ * (FBNeo enumerates pads once, when it starts).
+ */
+export function fbneoArgs(
+  driver: string,
+  gamepads: ArrayLike<FbneoGamepadLike | null | undefined> | null | undefined,
+): { args: string[]; controller: FbneoController } {
+  const pad = Array.from(gamepads ?? []).some((entry) => !!entry && entry.connected !== false);
+  return pad ? { args: [driver, '-joy'], controller: 'gamepad' } : { args: [driver], controller: 'keyboard' };
+}
+
 /** The player's save-state slots: 0-3. */
 export const STATE_SLOTS = 4;
 /**
@@ -225,6 +252,7 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   #destroyed = false;
   #pauseOwner: string | null = null;
   #driver = '';
+  #controller: FbneoController = 'keyboard';
   #neogeo: { mode: 'aes'; bios: 'aes' | 'unibios'; card: boolean } | null = null;
 
   #canvas: HTMLCanvasElement | null = null;
@@ -255,6 +283,15 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   /** Where this session's saves live, relative to the OPFS root: `fbneo/<namespace>`. */
   get storagePath(): string {
     return this.#storagePath;
+  }
+
+  /**
+   * What plays player 1, decided when the game started: the first gamepad when one
+   * was connected then (the browser lists a pad once a button on it was pressed on
+   * the page; a touch pad once the host exposed it), else the keyboard.
+   */
+  get controller(): FbneoController {
+    return this.#controller;
   }
 
   /** The driver (ROM-set short name) this session booted. */
@@ -592,7 +629,10 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
     // callMain() returns at FBNeo's first yield, before the set is loaded: wait for
     // the game to run, or for FBNeo to say it refused the set, so a bad set is an
     // error here and not a black screen.
-    Module.callMain([driver]);
+    const { args, controller } = fbneoArgs(driver, globalThis.navigator?.getGamepads?.());
+    this.#controller = controller;
+    console.log(`[fbneo] player 1: ${controller}`);
+    Module.callMain(args);
     const deadline = performance.now() + LOAD_TIMEOUT_MS;
     while (!Module._web_running() && !refused && performance.now() < deadline) {
       await new Promise((resolve) => setTimeout(resolve, 50));

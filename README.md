@@ -51,6 +51,21 @@ never matters once the driver is known.
 
 Events: the contract's `start`, `error`, `exit`, `pause`, `resume`, plus `saves`.
 
+## Controls: who plays player 1
+
+FBNeo binds each game input to **one** device, so the SDK decides at start:
+
+- **A gamepad connected at start → it is player 1** (a second one is player 2). Directions on the
+  d-pad or the left stick, fire 1–6 on A B X Y LB RB, **Coin on Select (Back), Start on Start**. The
+  SDK starts FBNeo with `-joy` for this. Player 1's keys do not play then (the app's own keys,
+  Escape for the pause menu, still work).
+- **No gamepad → player 1 on the keyboard**: arrows, Z X C V (fire), 5 (coin), 1 (start).
+
+`play.controller` says which (`'gamepad' | 'keyboard'`). A browser lists a pad once a button on it
+was pressed on the page, and FBNeo looks for pads only when it starts: a pad first used after the
+game started is not seen until the next start. An on-screen touch pad (engine-specs
+`createTouchPad()` + `exposeAsGamepad()`) is a gamepad here like any other, exposed before start.
+
 ## Neo Geo as the AES
 
 FBNeo boots Neo Geo sets as the **MVS** (the arcade board: coins, credits). `options({ neogeo: 'aes' })`
