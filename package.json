@@ -44,7 +44,7 @@
   "scripts": {},
   "comment:dependencies": "engine-specs is the one wasm-gaming package an engine depends on. Its runtime is also copied into dist/fbneo/ and imported relatively, so the built SDK loads without a bundler or an import map; the dependency carries the types.",
   "dependencies": {
-    "@wasm-gaming/engine-specs": "^0.6.1"
+    "@wasm-gaming/engine-specs": "^0.6.2"
   },
   "devDependencies": {
     "typescript": "^5.5.0"
