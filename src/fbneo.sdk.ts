@@ -54,6 +54,8 @@ export type {
   FbneoStorage,
 } from './fbneo.options.js';
 export { FBNEO_SPEC, FBNEO_VIDEO } from './fbneo.options.js';
+export { FBNEO_CONTROLS, controlTables, remapPad, type FbneoControls, type FbneoControlSpec } from './fbneo.controls.js';
+import { controlTables, keyCodeOf, remapPad, type FbneoControls, type FbneoControlTables } from './fbneo.controls.js';
 import { parseZipEntries } from './romset.js';
 
 const ENGINE_ID = 'fbneo';
@@ -271,6 +273,27 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
     if (document.visibilityState === 'hidden') void this.flushSaves();
   };
 
+  #controls: FbneoControls = {};
+  #tables: FbneoControlTables = controlTables();
+  #getGamepads: (() => (Gamepad | null)[]) | null = null;
+
+  /**
+   * The keyboard, remapped (see `fbneo.controls.ts`): a physical key bound to a control
+   * reaches FBNeo as that control's default key; a default key no control has any more is
+   * swallowed. Real presses only: the ones replayed here pass through.
+   */
+  #onKey = (event: KeyboardEvent): void => {
+    if (!event.isTrusted || this.#pauseOwner || !this.#module) return;
+    const control = this.#tables.keys.get(event.code);
+    if (!control && !this.#tables.blocked.has(event.code)) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (!control || event.repeat) return;
+    const replay = new KeyboardEvent(event.type, { code: control.code, key: control.key, bubbles: true, cancelable: true });
+    for (const name of ['keyCode', 'which']) Object.defineProperty(replay, name, { get: () => keyCodeOf(control) });
+    (this.#canvas ?? window).dispatchEvent(replay);
+  };
+
   constructor(init?: EngineInit<FbneoPayloads>, events?: EventEmitter<EventsOf<FbneoPayloads>>) {
     super(FBNEO_SPEC, init, events);
   }
@@ -432,6 +455,16 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   }
 
   /**
+   * Rebind player 1's controls (ids from {@link FBNEO_CONTROLS}): physical keys
+   * (`KeyboardEvent.code`) and every pad's buttons (standard mapping). What is left out keeps
+   * FBNeo's default. Live.
+   */
+  setControls(controls: FbneoControls): void {
+    this.#controls = controls;
+    this.#tables = controlTables(controls);
+  }
+
+  /**
    * Freeze emulation and sound. The first caller owns the pause, and only that
    * owner's {@link resume} lifts it, so an overlay cannot resume a game the host had
    * already frozen. Saves are flushed, since a paused game is often a closed one.
@@ -523,6 +556,10 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
   }
 
   protected override async close(): Promise<void> {
+    window.removeEventListener('keydown', this.#onKey, true);
+    window.removeEventListener('keyup', this.#onKey, true);
+    if (this.#getGamepads) (navigator as Navigator & { getGamepads: () => (Gamepad | null)[] }).getGamepads = this.#getGamepads;
+    this.#getGamepads = null;
     if (this.#saveTimer) clearInterval(this.#saveTimer);
     this.#saveTimer = null;
     document.removeEventListener('visibilitychange', this.#onHidden);
@@ -632,6 +669,18 @@ export class FbneoPlay extends EnginePlayBase<FbneoPayloads> {
     const { args, controller } = fbneoArgs(driver, globalThis.navigator?.getGamepads?.());
     this.#controller = controller;
     console.log(`[fbneo] player 1: ${controller}`);
+    // The player's bindings sit in front of SDL: keys on the window (capture), pads through
+    // a wrapped navigator.getGamepads().
+    this.#tables = controlTables(this.#controls);
+    window.addEventListener('keydown', this.#onKey, true);
+    window.addEventListener('keyup', this.#onKey, true);
+    const nav = navigator as Navigator & { getGamepads?: () => (Gamepad | null)[] };
+    if (nav.getGamepads) {
+      const original = nav.getGamepads.bind(nav);
+      this.#getGamepads = nav.getGamepads;
+      nav.getGamepads = () =>
+        original().map((pad) => (pad ? (remapPad(pad, this.#tables.pad) as unknown as Gamepad) : pad));
+    }
     Module.callMain(args);
     const deadline = performance.now() + LOAD_TIMEOUT_MS;
     while (!Module._web_running() && !refused && performance.now() < deadline) {
