@@ -91,12 +91,11 @@ export function remapPad<T extends PadLike>(source: T, table: ReadonlyMap<number
     const button = source.buttons[from];
     buttons[target] = button ? { pressed: button.pressed, touched: button.touched ?? button.pressed, value: button.value } : { pressed: false, touched: false, value: 0 };
   }
-  // A default button whose control moved elsewhere, and that no control took, does nothing.
+  // A button taken for a control does only that: where it was not itself a control's
+  // default slot, what the engine would read there by default is released.
   const targets = new Set(table.keys());
   for (const from of table.values()) {
-    if (!targets.has(from) && FBNEO_CONTROLS.some((control) => control.button === from)) {
-      buttons[from] = { pressed: false, touched: false, value: 0 };
-    }
+    if (!targets.has(from)) buttons[from] = { pressed: false, touched: false, value: 0 };
   }
   return {
     id: source.id,
