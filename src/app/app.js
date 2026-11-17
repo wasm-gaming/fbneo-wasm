@@ -21,11 +21,23 @@
 //
 // Plain JS and DOM: it ships next to the SDK and imports nothing else.
 
-import FbneoSDK, { AUTO_STATE_SLOT, STATE_SLOTS } from '../fbneo.sdk.js';
+import FbneoSDK, { AUTO_STATE_SLOT, FBNEO_CONTROLS, STATE_SLOTS } from '../fbneo.sdk.js';
+import {
+  SHARED_SETTINGS,
+  controlsModel,
+  createFullscreenToggle,
+  createPerfCounter,
+  createSettingsScreen,
+  createWakeLock,
+  loadSettings,
+  resolveLocale,
+  saveSettings,
+  settingsDefaults,
+  settingsModel,
+} from '../engine-specs.js';
+
 import { RomsetIndex, resolveDriver } from '../romset.js';
 import { isNeoFile, neoToRomset } from '../neo.js';
-
-const OWNER = 'app';
 
 /** The systems searched first: most arcade sets a player brings are one of these. */
 export const FIRST_SYSTEMS = ['neogeo', 'capcom', 'cps3', 'cave', 'konami', 'sega'];
@@ -74,6 +86,92 @@ export async function identifyDriver(bytes, { slug = '', load = fetchSystem, sys
   }
   return { rom: bytes, driver: String(slug).trim(), how: 'slug' };
 }
+
+const OWNER = 'app';
+const ENGINE_ID = 'fbneo';
+
+/** The app's words, in English and Spanish (engine-specs UX.md, "Languages"). */
+const STRINGS = {
+  booting: { en: 'Starting the engine…', es: 'Arrancando el motor…' },
+  today: { en: 'Today · {time}', es: 'Hoy · {time}' },
+  yesterday: { en: 'Yesterday · {time}', es: 'Ayer · {time}' },
+  slot: { en: 'slot', es: 'hueco' },
+  saveHere: { en: 'save here', es: 'guardar aquí' },
+  cancelHint: { en: 'cancel', es: 'cancelar' },
+  choose: { en: 'choose', es: 'elegir' },
+  playHint: { en: 'play', es: 'jugar' },
+  saveToSlot: { en: 'save to a slot', es: 'guardar en un hueco' },
+  options: { en: 'options', es: 'opciones' },
+  backHint: { en: 'back', es: 'volver' },
+  quitHint: { en: 'quit', es: 'salir' },
+  saveHereOrOptions: { en: 'options', es: 'opciones' },
+  continueHint: { en: 'continue', es: 'continuar' },
+  fromStart: { en: 'From the beginning', es: 'Desde el principio' },
+  unsaved: { en: 'Unsaved', es: 'Sin guardar' },
+  empty: { en: 'Empty', es: 'Vacío' },
+  bootFailed: { en: 'Could not start', es: 'No se pudo arrancar' },
+  back: { en: 'Back', es: 'Volver' },
+  whichSlot: { en: 'Which slot does it go in?', es: '¿En qué hueco lo guardas?' },
+  points: { en: 'Suspend points', es: 'Puntos de suspensión' },
+  paused: { en: 'Paused', es: 'Pausa' },
+  point: { en: 'Point {n}', es: 'Punto {n}' },
+  continue: { en: 'Continue', es: 'Continuar' },
+  restart: { en: 'Restart', es: 'Reiniciar' },
+  restartHint: { en: 'machine reset', es: 'reset de la máquina' },
+  identifying: { en: 'Identifying the game…', es: 'Identificando el juego…' },
+  noRom: { en: 'There is no ROM for this game.', es: 'No hay ROM para este juego.' },
+  noDriver: { en: 'Game not recognized: the FBNeo driver name is missing.', es: 'No se reconoce el juego: falta el nombre del driver de FBNeo.' },
+  settings: { en: 'Settings', es: 'Ajustes' },
+  fullscreen: { en: 'Fullscreen', es: 'Pantalla completa' },
+  fullscreenHint: { en: 'Alt+Enter · Select + Y', es: 'Alt+Enter · Select + Y' },
+  fullscreenHintMac: { en: 'Cmd+Enter · Select + Y', es: 'Cmd+Enter · Select + Y' },
+  exit: { en: 'Back to the launcher', es: 'Volver al lanzador' },
+  exitHint: { en: 'a suspend point is kept', es: 'se queda un punto de suspensión' },
+  savedIn: { en: 'Saved in slot {n}', es: 'Guardado en el hueco {n}' },
+  loadFailed: { en: 'Could not load that point', es: 'No se pudo cargar ese punto' },
+  slotLocked: { en: 'That slot is locked', es: 'Ese hueco está bloqueado' },
+  allLocked: { en: 'The four slots are locked', es: 'Los cuatro huecos están bloqueados' },
+  load: { en: 'Load', es: 'Cargar' },
+  saveHereItem: { en: 'Save here', es: 'Guardar aquí' },
+  unlockFirst: { en: 'unlock it first', es: 'desbloquéalo antes' },
+  replaces: { en: 'replaces what is there', es: 'sustituye lo que hay' },
+  overwriteAsk: { en: 'Overwrite point {n}?', es: '¿Sobrescribir el punto {n}?' },
+  overwrite: { en: 'Overwrite', es: 'Sobrescribir' },
+  cancel: { en: 'Cancel', es: 'Cancelar' },
+  unlock: { en: 'Unlock', es: 'Desbloquear' },
+  lock: { en: 'Lock', es: 'Bloquear' },
+  unlockHint: { en: 'it can be overwritten and deleted', es: 'se podrá sobrescribir y borrar' },
+  lockHint: { en: 'so it is not overwritten or deleted', es: 'que no se sobrescriba ni se borre' },
+  delete: { en: 'Delete', es: 'Borrar' },
+  deleteAsk: { en: 'Delete point {n}?', es: '¿Borrar el punto {n}?' },
+  noUndo: { en: 'This cannot be undone.', es: 'No se puede deshacer.' },
+  saving: { en: 'Saving the suspend point…', es: 'Guardando el punto de suspensión…' },
+  leaveAsk: { en: 'Back to the launcher?', es: '¿Volver al lanzador?' },
+  leave: { en: 'Leave', es: 'Salir' },
+  stay: { en: 'Stay', es: 'Seguir' },
+};
+
+const DIRECTIONS = {
+  up: { en: 'Up', es: 'Arriba' },
+  down: { en: 'Down', es: 'Abajo' },
+  left: { en: 'Left', es: 'Izquierda' },
+  right: { en: 'Right', es: 'Derecha' },
+};
+/** The arcade controls (player 1), for Ajustes → Controles. */
+const FIRE = { en: 'Fire {n}', es: 'Disparo {n}' };
+const CONTROL_LABELS = { coin: { en: 'Coin', es: 'Moneda' } };
+const labelOf = (c) => {
+  const fire = /^fire(\d)$/.exec(c.id);
+  if (fire) return { en: FIRE.en.replace('{n}', fire[1]), es: FIRE.es.replace('{n}', fire[1]) };
+  return DIRECTIONS[c.id] ?? CONTROL_LABELS[c.id] ?? c.label;
+};
+const BUTTONS = FBNEO_CONTROLS.map((c) => ({ id: c.id, label: labelOf(c) }));
+const DEFAULT_CONTROLS = Object.fromEntries(FBNEO_CONTROLS.map((c) => [c.id, { code: c.code, button: c.button }]));
+/** Bindings (engine-specs) → what `play.setControls()` takes. */
+const toFbneoControls = (bindings) => ({
+  keys: Object.fromEntries(Object.entries(bindings).filter(([, b]) => b.code).map(([id, b]) => [id, b.code])),
+  buttons: Object.fromEntries(Object.entries(bindings).filter(([, b]) => Number.isInteger(b.button)).map(([id, b]) => [id, b.button])),
+});
 const esc = (text) => String(text ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
 let cssLoaded = null;
@@ -86,15 +184,15 @@ const loadCss = () =>
     document.head.append(link);
   }));
 
-const when = (date) => {
+const whenIn = (t, locale) => (date) => {
   if (!date) return '';
   const now = new Date();
-  const time = date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
-  if (date.toDateString() === now.toDateString()) return `Hoy · ${time}`;
+  const time = date.toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit' });
+  if (date.toDateString() === now.toDateString()) return t('today', { time });
   const yesterday = new Date(now);
   yesterday.setDate(now.getDate() - 1);
-  if (date.toDateString() === yesterday.toDateString()) return `Ayer · ${time}`;
-  return `${date.toLocaleDateString(undefined, { day: 'numeric', month: 'short' })} · ${time}`;
+  if (date.toDateString() === yesterday.toDateString()) return t('yesterday', { time });
+  return `${date.toLocaleDateString(locale, { day: 'numeric', month: 'short' })} · ${time}`;
 };
 
 const LOCK = '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4.5 7V5a3.5 3.5 0 0 1 7 0v2h.5a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1zm1.6 0h3.8V5a1.9 1.9 0 0 0-3.8 0z"/></svg>';
@@ -102,6 +200,11 @@ const RESTART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" s
 
 export async function mount(target, host) {
   await loadCss();
+
+  const locale = host.locale ?? resolveLocale();
+  const t = (key, params = {}) =>
+    (STRINGS[key]?.[locale] ?? STRINGS[key]?.en ?? key).replace(/\{(\w+)\}/g, (m, name) => (name in params ? String(params[name]) : m));
+  const when = whenIn(t, locale);
 
   const root = document.createElement('div');
   root.className = 'fbn-app';
@@ -120,13 +223,14 @@ export async function mount(target, host) {
    */
   const state = {
     screen: 'boot',
-    status: 'Arrancando el motor…',
+    status: t('booting'),
     error: null,
     cards: [], // [{ kind: 'start' | 'auto' | 'slot', slot, info }]
     focus: 0,
     from: 'boot',
     picking: false,
-    // The pause menu: Continuar, the four slots (a row), Reiniciar, Volver al lanzador.
+    // The pause menu: Continuar, the four slots (a row), Reiniciar, Ajustes, Pantalla completa,
+    // Volver al lanzador.
     // focus: { kind: 'item' | 'slot', i }; col: the slot the row comes back to.
     pause: { items: [], slots: [], focus: { kind: 'item', i: 0 }, col: 0 },
     sheet: null, // { slot, items, focus }
@@ -187,28 +291,28 @@ export async function mount(target, host) {
     if (card.kind === 'start') {
       return `<button class="point is-start${focused}${dim}" data-card="${i}">
         <span class="point-frame">${RESTART}</span>
-        <span class="point-label">Desde el principio</span>
+        <span class="point-label">${esc(t('fromStart'))}</span>
         <span class="point-date">&nbsp;</span>
       </button>`;
     }
     const { info } = card;
     const empty = !info.savedAt;
-    const label = card.kind === 'auto' ? 'Sin guardar' : `${card.slot + 1}`;
+    const label = card.kind === 'auto' ? t('unsaved') : `${card.slot + 1}`;
     return `<button class="point${card.kind === 'auto' ? ' is-auto' : ''}${empty ? ' is-empty' : ''}${info.locked ? ' is-locked' : ''}${focused}${target}${dim}" data-card="${i}">
       <span class="point-frame">${card.img ? `<img src="${card.img}" alt="">` : ''}${info.locked ? `<i class="point-lock">${LOCK}</i>` : ''}</span>
       <span class="point-label">${esc(label)}</span>
-      <span class="point-date">${empty ? 'Vacío' : esc(when(info.savedAt))}</span>
+      <span class="point-date">${empty ? esc(t('empty')) : esc(when(info.savedAt))}</span>
     </button>`;
   };
 
   const pointsHints = () => {
-    if (state.picking) return hints([['←→', 'hueco'], ['A', 'guardar aquí', 'accept'], ['B', 'cancelar', 'back']]);
+    if (state.picking) return hints([['←→', t('slot')], ['A', t('saveHere'), 'accept'], ['B', t('cancelHint'), 'back']]);
     const card = cardAt(state.focus);
-    const pairs = [['←→', 'elegir']];
-    if (card?.kind === 'start' || card?.info?.savedAt) pairs.push(['A', 'jugar', 'accept']);
-    if (card?.kind === 'auto') pairs.push(['Y', 'guardar en un hueco', 'more']);
-    if (card?.kind === 'slot' && card.info.savedAt) pairs.push(['Y', 'opciones', 'more']);
-    pairs.push(['B', state.from === 'pause' ? 'volver' : 'salir', 'back']);
+    const pairs = [['←→', t('choose')]];
+    if (card?.kind === 'start' || card?.info?.savedAt) pairs.push(['A', t('playHint'), 'accept']);
+    if (card?.kind === 'auto') pairs.push(['Y', t('saveToSlot'), 'more']);
+    if (card?.kind === 'slot' && card.info.savedAt) pairs.push(['Y', t('options'), 'more']);
+    pairs.push(['B', state.from === 'pause' ? t('backHint') : t('quitHint'), 'back']);
     return hints(pairs);
   };
 
@@ -217,7 +321,7 @@ export async function mount(target, host) {
     return `<button class="slot${focused ? ' is-focused' : ''}${empty ? ' is-empty' : ''}${info.locked ? ' is-locked' : ''}" data-slot="${i}">
       <span class="point-frame">${img ? `<img src="${img}" alt="">` : ''}${info.locked ? `<i class="point-lock">${LOCK}</i>` : ''}</span>
       <span class="slot-label">${info.slot + 1}</span>
-      <span class="slot-date">${empty ? 'Vacío' : esc(when(info.savedAt))}</span>
+      <span class="slot-date">${empty ? esc(t('empty')) : esc(when(info.savedAt))}</span>
     </button>`;
   };
 
@@ -225,15 +329,17 @@ export async function mount(target, host) {
     const f = state.pause.focus;
     if (f.kind === 'slot') {
       const saved = !!state.pause.slots[f.i]?.info.savedAt;
-      return hints([['←→', 'hueco'], ['A', saved ? 'opciones' : 'guardar aquí'], ['B', 'continuar']]);
+      return hints([['←→', t('slot')], ['A', saved ? t('options') : t('saveHere')], ['B', t('continueHint')]]);
     }
     // Gamepad-only: by touch, "Continuar" is the first item already.
-    return hints([['A', 'elegir'], ['B', 'continuar']]);
+    return hints([['A', t('choose')], ['B', t('continueHint')]]);
   };
 
   const render = () => {
     if (destroyed) return;
     const s = state.screen;
+    wake.setActive(s === 'game' && setting('keepScreenOn') !== false);
+    if (s === 'settings') return;
     const base = s === 'confirm' || s === 'sheet' ? (state.confirm?.under ?? state.sheet?.under) : s;
     root.dataset.screen = base;
     if (s === 'game') {
@@ -250,9 +356,9 @@ export async function mount(target, host) {
     if (s === 'error') {
       overlay.innerHTML = `<section class="fbn-panel">
         <p class="kicker">${esc(host.game?.title ?? 'FBNeo')}</p>
-        <h2>No se pudo arrancar</h2>
+        <h2>${esc(t('bootFailed'))}</h2>
         <p class="text">${esc(state.error)}</p>
-        <button class="item is-focused" data-exit>Volver</button>
+        <button class="item is-focused" data-exit>${esc(t('back'))}</button>
       </section>`;
       return;
     }
@@ -261,7 +367,7 @@ export async function mount(target, host) {
       html += `<section class="fbn-points">
         <header>
           <p class="kicker">${esc(host.game?.title ?? '')}</p>
-          <h2>${state.picking ? '¿En qué hueco lo guardas?' : 'Puntos de suspensión'}</h2>
+          <h2>${esc(state.picking ? t('whichSlot') : t('points'))}</h2>
         </header>
         <div class="points">${state.cards.map(pointCard).join('')}</div>
         ${pointsHints()}
@@ -275,21 +381,20 @@ export async function mount(target, host) {
       };
       html += `<section class="fbn-panel is-pause">
         <p class="kicker">${esc(host.game?.title ?? '')}</p>
-        <h2>Pausa</h2>
+        <h2>${esc(t('paused'))}</h2>
         ${item(0)}
-        <p class="slots-label">Puntos de suspensión</p>
+        <p class="slots-label">${esc(t('points'))}</p>
         <div class="slots">${P.slots.map((slot, i) => slotCard(slot, i, on('slot', i))).join('')}</div>
-        ${item(1)}
-        ${item(2)}
+        ${P.items.slice(1).map((_, i) => item(i + 1)).join('')}
         ${pauseHints()}
       </section>`;
     }
     if (s === 'sheet') {
       const sh = state.sheet;
       html += `<div class="fbn-layer"><section class="fbn-panel is-small">
-        <h2>Punto ${sh.slot + 1}</h2>
+        <h2>${esc(t('point', { n: sh.slot + 1 }))}</h2>
         ${sh.items.map((item, i) => `<button class="item${item.danger ? ' is-danger' : ''}${i === sh.focus ? ' is-focused' : ''}" data-sheet="${i}" ${item.disabled ? 'disabled' : ''}>${esc(item.label)}${item.hint ? `<small>${esc(item.hint)}</small>` : ''}</button>`).join('')}
-        ${hints([['B', 'volver']])}
+        ${hints([['B', t('backHint')]])}
       </section></div>`;
     }
     if (s === 'confirm') {
@@ -370,9 +475,15 @@ export async function mount(target, host) {
       col: state.pause.col ?? 0,
       slots: [],
       items: [
-        { label: 'Continuar', run: enterGame },
-        { label: 'Reiniciar', hint: 'reset de la máquina', run: restart },
-        { label: 'Volver al lanzador', hint: 'se queda un punto de suspensión', run: leave },
+        { label: t('continue'), run: enterGame },
+        { label: t('restart'), hint: t('restartHint'), run: restart },
+        { label: t('settings'), run: openSettings },
+        {
+          label: t('fullscreen'),
+          hint: /mac|iphone|ipad/i.test(navigator.userAgentData?.platform || navigator.platform || '') ? t('fullscreenHintMac') : t('fullscreenHint'),
+          run: () => fullscreen.toggle(),
+        },
+        { label: t('exit'), hint: t('exitHint'), run: leave },
       ],
     };
     readPauseSlots();
@@ -398,14 +509,14 @@ export async function mount(target, host) {
     const { info } = state.pause.slots[i];
     await play.states.save(info.slot, { thumbnail: frame });
     readPauseSlots();
-    toast(`Guardado en el hueco ${info.slot + 1}`);
+    toast(t('savedIn', { n: info.slot + 1 }));
   };
 
   const loadSlot = (slot) => {
     state.sheet = null;
     if (!play.states.load(slot)) {
       state.screen = 'pause';
-      return toast('No se pudo cargar ese punto');
+      return toast(t('loadFailed'));
     }
     enterGame();
   };
@@ -420,25 +531,25 @@ export async function mount(target, host) {
       slot: info.slot,
       focus: 0,
       items: [
-        { label: 'Cargar', hint: when(info.savedAt), run: () => loadSlot(info.slot) },
+        { label: t('load'), hint: when(info.savedAt), run: () => loadSlot(info.slot) },
         {
-          label: 'Guardar aquí',
+          label: t('saveHereItem'),
           disabled: locked,
-          hint: locked ? 'desbloquéalo antes' : 'sustituye lo que hay',
+          hint: locked ? t('unlockFirst') : t('replaces'),
           run: () => {
             closeSheet();
             ask({
-              title: `¿Sobrescribir el punto ${n}?`,
+              title: t('overwriteAsk', { n }),
               text: when(info.savedAt),
-              yes: 'Sobrescribir',
-              no: 'Cancelar',
+              yes: t('overwrite'),
+              no: t('cancel'),
               onYes: () => saveIntoSlot(i),
             });
           },
         },
         {
-          label: locked ? 'Desbloquear' : 'Bloquear',
-          hint: locked ? 'se podrá sobrescribir y borrar' : 'que no se sobrescriba ni se borre',
+          label: locked ? t('unlock') : t('lock'),
+          hint: locked ? t('unlockHint') : t('lockHint'),
           run: async () => {
             await play.states.lock(info.slot, !locked);
             closeSheet();
@@ -447,17 +558,17 @@ export async function mount(target, host) {
           },
         },
         {
-          label: 'Borrar',
+          label: t('delete'),
           danger: true,
           disabled: locked,
-          hint: locked ? 'desbloquéalo antes' : null,
+          hint: locked ? t('unlockFirst') : null,
           run: () => {
             closeSheet();
             ask({
-              title: `¿Borrar el punto ${n}?`,
-              text: 'No se puede deshacer.',
-              yes: 'Borrar',
-              no: 'Cancelar',
+              title: t('deleteAsk', { n }),
+              text: t('noUndo'),
+              yes: t('delete'),
+              no: t('cancel'),
               onYes: async () => {
                 await play.states.remove(info.slot);
                 readPauseSlots();
@@ -466,7 +577,7 @@ export async function mount(target, host) {
             });
           },
         },
-        { label: 'Cancelar', run: () => closeSheet() },
+        { label: t('cancel'), run: () => closeSheet() },
       ],
     };
     state.screen = 'sheet';
@@ -480,14 +591,15 @@ export async function mount(target, host) {
     state.pause.focus = { kind: 'slot', i };
     state.pause.col = i;
     if (slot.info.savedAt) return openSlotSheet(i);
-    if (slot.info.locked) return toast('Ese hueco está bloqueado');
+    if (slot.info.locked) return toast(t('slotLocked'));
     await saveIntoSlot(i);
   };
 
   /** Up / down between the rows, left / right along the slots. */
-  const PAUSE_ROWS = 4;
   const onPause = async (action) => {
     const P = state.pause;
+    // Rows: the first item, the slots, then the other items.
+    const PAUSE_ROWS = P.items.length + 1;
     const row = P.focus.kind === 'slot' ? 1 : P.focus.i === 0 ? 0 : P.focus.i + 1;
     const at = (r) => (r === 1 ? { kind: 'slot', i: P.col } : { kind: 'item', i: r === 0 ? 0 : r - 1 });
     if (action === 'up') P.focus = at((row + PAUSE_ROWS - 1) % PAUSE_ROWS);
@@ -512,7 +624,7 @@ export async function mount(target, host) {
       return enterGame();
     }
     if (!card.info.savedAt) return;
-    if (!play.states.load(card.slot)) return toast('No se pudo cargar ese punto');
+    if (!play.states.load(card.slot)) return toast(t('loadFailed'));
     enterGame();
   };
 
@@ -524,14 +636,14 @@ export async function mount(target, host) {
     readPoints();
     state.picking = false;
     state.focus = state.cards.findIndex((c) => c.kind === 'slot' && c.slot === card.slot);
-    toast(`Guardado en el hueco ${card.slot + 1}`);
+    toast(t('savedIn', { n: card.slot + 1 }));
   };
 
   const saveAuto = async () => {
     const free = freeSlot();
     if (free >= 0) return saveAutoInto(free);
     const target = state.cards.findIndex((c) => c.kind === 'slot' && !c.info.locked);
-    if (target < 0) return toast('Los cuatro huecos están bloqueados');
+    if (target < 0) return toast(t('allLocked'));
     state.picking = true;
     state.focus = target;
     render();
@@ -545,8 +657,8 @@ export async function mount(target, host) {
       focus: 0,
       items: [
         {
-          label: locked ? 'Desbloquear' : 'Bloquear',
-          hint: locked ? 'se podrá sobrescribir y borrar' : 'que no se sobrescriba ni se borre',
+          label: locked ? t('unlock') : t('lock'),
+          hint: locked ? t('unlockHint') : t('lockHint'),
           run: async () => {
             await play.states.lock(card.slot, !locked);
             closeSheet();
@@ -555,17 +667,17 @@ export async function mount(target, host) {
           },
         },
         {
-          label: 'Borrar',
+          label: t('delete'),
           danger: true,
           disabled: locked,
-          hint: locked ? 'desbloquéalo antes' : null,
+          hint: locked ? t('unlockFirst') : null,
           run: () => {
             closeSheet();
             ask({
-              title: `¿Borrar el punto ${card.slot + 1}?`,
-              text: 'No se puede deshacer.',
-              yes: 'Borrar',
-              no: 'Cancelar',
+              title: t('deleteAsk', { n: card.slot + 1 }),
+              text: t('noUndo'),
+              yes: t('delete'),
+              no: t('cancel'),
               onYes: async () => {
                 await play.states.remove(card.slot);
                 readPoints();
@@ -574,7 +686,7 @@ export async function mount(target, host) {
             });
           },
         },
-        { label: 'Cancelar', run: () => closeSheet() },
+        { label: t('cancel'), run: () => closeSheet() },
       ],
     };
     state.screen = 'sheet';
@@ -614,11 +726,90 @@ export async function mount(target, host) {
   /** Leaving from a running game keeps it as the unsaved suspend point. */
   const leave = async () => {
     if (leaving) return;
-    state.status = 'Guardando el punto de suspensión…';
+    state.status = t('saving');
     state.screen = 'boot';
     render();
     await suspend();
     await exit();
+  };
+
+  // ---- settings, fullscreen, performance (engine-specs 0.6) -----------------------
+
+  // The player's choices, per engine (OPFS settings/mgba.json): FBNeo's options, the shared
+  // ones (keep the screen on, show performance) and the controls.
+  let saved = { version: 1, values: {}, controls: {} };
+  const setting = (key) => (key in saved.values ? saved.values[key] : SHARED_SETTINGS[key]?.default);
+  const store = () => saveSettings(ENGINE_ID, saved).catch((error) => console.warn('[fbneo app] settings not saved', error));
+  const engineValues = () =>
+    Object.fromEntries(Object.entries(saved.values).filter(([key]) => !(key in SHARED_SETTINGS)));
+
+  const fullscreen = createFullscreenToggle(root);
+  const wake = createWakeLock();
+  const perf = createPerfCounter(root, { locale });
+  let offFrames = () => {};
+  const applyShared = () => {
+    if (setting('showPerformance')) perf.show();
+    else perf.hide();
+    wake.setActive(state.screen === 'game' && setting('keepScreenOn') !== false);
+  };
+
+  let screen = null;
+  // FBNeo's player-facing settings are in its config (smoothing); its options say which game.
+  let configKeys = new Set();
+  const described = async () => {
+    const config = await play.config();
+    configKeys = new Set(Object.keys(config));
+    return { ...config, ...(await play.options()), ...SHARED_SETTINGS };
+  };
+  const write = (values) => {
+    const config = Object.fromEntries(Object.entries(values).filter(([key]) => configKeys.has(key)));
+    const options = Object.fromEntries(Object.entries(values).filter(([key]) => !configKeys.has(key)));
+    if (Object.keys(config).length) play.config(config);
+    if (Object.keys(options).length) play.options(options);
+  };
+  const controlRows = () => controlsModel(BUTTONS, DEFAULT_CONTROLS, saved.controls, locale);
+
+  const openSettings = async () => {
+    const all = await described();
+    const model = () => settingsModel(all, saved.values, locale);
+    state.screen = 'settings';
+    render();
+    overlay.innerHTML = '';
+    const layer = document.createElement('div');
+    layer.className = 'fbn-layer fbn-settings';
+    overlay.append(layer);
+    screen = createSettingsScreen(layer, {
+      sections: model(),
+      controls: controlRows(),
+      input: host.input,
+      locale,
+      onChange(key, value) {
+        saved.values = { ...saved.values, [key]: value };
+        // FBNeo's own options go to the engine: a live one applies now, the rest on Reiniciar.
+        if (key in SHARED_SETTINGS) applyShared();
+        else write({ [key]: value });
+        void store();
+      },
+      onControl(_id, _binding, bindings) {
+        saved.controls = bindings;
+        play.setControls(toFbneoControls(bindings));
+        void store();
+      },
+      onReset() {
+        const defaults = settingsDefaults(all);
+        saved = { version: 1, values: {}, controls: {} };
+        write(Object.fromEntries(Object.entries(defaults).filter(([key]) => !(key in SHARED_SETTINGS))));
+        play.setControls({});
+        applyShared();
+        void store();
+        screen.update(settingsModel(all, defaults, locale), controlRows());
+      },
+      onClose: () => {
+        screen?.destroy();
+        screen = null;
+        void openPause();
+      },
+    });
   };
 
   // ---- input ----------------------------------------------------------------------
@@ -638,10 +829,10 @@ export async function mount(target, host) {
       if (!state.picking) return playCard(card);
       if (!card.info.savedAt) return saveAutoInto(state.focus);
       return ask({
-        title: `¿Sobrescribir el punto ${card.slot + 1}?`,
+        title: t('overwriteAsk', { n: card.slot + 1 }),
         text: when(card.info.savedAt),
-        yes: 'Sobrescribir',
-        no: 'Cancelar',
+        yes: t('overwrite'),
+        no: t('cancel'),
         onYes: () => saveAutoInto(state.focus),
       });
     } else if (action === 'more' && !state.picking) {
@@ -654,7 +845,7 @@ export async function mount(target, host) {
         state.focus = state.cards.findIndex((c) => c.kind === 'auto');
       } else if (state.from === 'pause') return openPause();
       else
-        return ask({ title: '¿Volver al lanzador?', yes: 'Salir', no: 'Seguir', onYes: exit });
+        return ask({ title: t('leaveAsk'), yes: t('leave'), no: t('stay'), onYes: exit });
     } else return;
     render();
   };
@@ -688,6 +879,7 @@ export async function mount(target, host) {
     busy = true;
     try {
       const s = state.screen;
+      if (s === 'settings') return;
       if (s === 'game') {
         if (action === 'menu') await openPause({ capture: true });
       } else if (s === 'points') await onPoints(action);
@@ -823,6 +1015,11 @@ export async function mount(target, host) {
       }
       play = null;
       dropUrls();
+      screen?.destroy();
+      offFrames();
+      fullscreen.destroy();
+      wake.destroy();
+      perf.destroy();
       root.remove();
     },
   };
@@ -832,20 +1029,23 @@ export async function mount(target, host) {
   render();
   host.input.resume();
   try {
-    state.status = 'Identificando el juego…';
+    saved = await loadSettings(ENGINE_ID);
+    state.status = t('identifying');
     render();
     const bytes = await host.assets.rom?.();
-    if (!bytes) throw new Error('No hay ROM para este juego.');
+    if (!bytes) throw new Error(t('noRom'));
     const { rom, driver, how } = await identifyDriver(bytes, { slug: host.game?.slug });
-    if (!driver) throw new Error('No se reconoce el juego: falta el nombre del driver de FBNeo.');
+    if (!driver) throw new Error(t('noDriver'));
     console.info(`[fbneo app] driver ${driver} (${how})`);
-    state.status = 'Arrancando el motor…';
+    state.status = t('booting');
     render();
     play = await new FbneoSDK()
       .mount(stage)
       .options({ driver, ...(host.options?.neogeo ? { neogeo: host.options.neogeo } : {}) })
       .assets({ ...host.assets, rom })
       .storage(host.storage)
+      // The saved smoothing: FBNeo's config.
+      .config(engineValues())
       .on('error', ({ detail }) => console.error('[fbneo app]', detail))
       .on('exit', () => exit())
       .start();
@@ -854,6 +1054,9 @@ export async function mount(target, host) {
       play = null;
       return handle;
     }
+    play.setControls(toFbneoControls({ ...DEFAULT_CONTROLS, ...saved.controls }));
+    // FBNeo's loop runs inside the WASM and reports no frames: the counter counts the display's.
+    applyShared();
     readPoints();
     if (hasPoints()) showPoints('boot');
     else enterGame();

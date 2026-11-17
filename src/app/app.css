@@ -163,3 +163,7 @@
 @media (prefers-reduced-motion: reduce) {
   .point, .point-frame, .fbn-boot img, .fbn-toast { transition: none; animation: none; }
 }
+
+/* Ajustes (engine-specs createSettingsScreen): over the pause menu, inside the safe areas. */
+.fbn-settings { padding: max(16px, var(--wg-safe-top, 0px)) 16px max(16px, var(--wg-safe-bottom, 0px)); }
+.fbn-settings .wg-settings { max-height: 100%; }
